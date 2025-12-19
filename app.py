@@ -1,4 +1,4 @@
-# app.py
+
 from logic import MoteurRecommandation, BesoinClient, ConditionClient, Recommandation
 
 def lancer_diagnostic(nom_user, symptomes, conditions_medicales=[]):
@@ -27,7 +27,6 @@ def lancer_diagnostic(nom_user, symptomes, conditions_medicales=[]):
 
     for fait in facts_list:
         if isinstance(fait, Recommandation):
-            # Affichage simplifié sans prix
             item_str = f"• {fait['nom']} (Cible : {fait['cible']})"
             
             if item_str not in recommandations_uniques:
