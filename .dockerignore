@@ -1,0 +1,61 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation (not needed in container)
+Explication/
+*.md
+README.md
+CLAUDE.md
+
+# Docker files (not needed in image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Screenshots and images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Data files
+*.csv
+*.json
+*.xml
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+secrets.json
