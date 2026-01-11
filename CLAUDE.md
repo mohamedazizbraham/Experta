@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an **expert system using Experta** (Python fuzzy logic library) that recommends health and wellness products based on user symptoms while respecting medical contraindications. The system uses rule-based inference to filter dangerous products and generate safe, personalized recommendations.
+This is an **expert system using Experta** (Python rule engine) that recommends health and wellness products from a JSON-style catalogue based on user symptoms while respecting medical contraindications and drug interactions. The engine filters unsafe options first, then surfaces safe, personalized recommendations.
 
 ## Running the System
 
@@ -13,7 +13,7 @@ This is an **expert system using Experta** (Python fuzzy logic library) that rec
 python app.py
 ```
 
-The system will execute 4 predefined test scenarios and display recommendations for each user profile.
+The system will execute 6 predefined test scenarios and display recommendations for each user profile.
 
 ## Architecture
 
@@ -22,19 +22,20 @@ The system will execute 4 predefined test scenarios and display recommendations 
 The codebase follows a clean separation of concerns across three modules:
 
 1. **database.py** - Static data layer
-   - `CATALOGUE_PRODUITS`: 20 health products with their target symptoms (products can target multiple symptoms)
-   - `CONTRE_INDICATIONS`: Safety rules linking products to incompatible medical conditions
+    - `CATALOGUE_COMPLET`: Full catalogue of products (name, description, dosage, `database` entries for efficacy per condition, and `safety` blocks for pregnancy/lactation and drug interactions)
+    - Safety data is embedded per product under `safety.interactions` and `safety.pregnancy_lactation`
 
 2. **logic.py** - Inference engine (core system)
-   - Fact classes: `Produit`, `ContreIndication`, `BesoinClient`, `ConditionClient`, `ProduitInterdit`, `Recommandation`
-   - `MoteurRecommandation` (KnowledgeEngine): Contains two critical rules:
-     - **Rule 1 (Safety)**: `detecter_danger()` - Marks products as forbidden when client has contraindicated conditions
-     - **Rule 2 (Recommendation)**: `generer_recommandation()` - Recommends products matching symptoms that are NOT forbidden
-   - `chargement_initial()`: Loads catalog and contraindications into the knowledge base
+    - Fact classes: `Produit`, `ContreIndication`, `BesoinClient`, `ConditionClient`, `ProduitInterdit`, `Recommandation`
+    - `chargement_initial()`: Scans `CATALOGUE_COMPLET` to yield `Produit` facts for each `health_condition_or_goal`, and `ContreIndication` facts for risky pregnancy/allaitement cases and for every listed interaction agent
+    - `MoteurRecommandation` (KnowledgeEngine) rules:
+      - **Rule 1 (Safety)**: `detecter_danger()` - Marks products as forbidden when the client has a matching contraindication or interaction
+      - **Rule 2 (Recommendation)**: `generer_recommandation()` - Recommends products matching symptoms that are not forbidden
 
 3. **app.py** - User interface layer
-   - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function
-   - Contains 4 test scenarios demonstrating different medical profiles
+    - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function; injects user symptoms/conditions as facts, runs the engine, and prints results
+    - `afficher_details_produit(nom_produit)`: Looks up the full catalogue entry to show description, dosage, and interaction warnings
+    - Contains 6 test scenarios covering depression, contraceptives, pregnancy, insomnia, hypertension, and anticoagulants
 
 ### Inference Flow
 
@@ -44,9 +45,9 @@ User Input (symptoms + medical conditions)
 Declare BesoinClient facts (symptoms)
 Declare ConditionClient facts (medical conditions)
     ↓
-Engine loads CATALOGUE_PRODUITS and CONTRE_INDICATIONS
+Engine loads CATALOGUE_COMPLET (symptom coverage + safety)
     ↓
-Rule 1 executes: Identify forbidden products (safety filter)
+Rule 1 executes: Identify forbidden products (interactions + pregnancy/lactation)
     ↓
 Rule 2 executes: Generate recommendations (matching + safe products only)
     ↓
@@ -55,10 +56,10 @@ Output: Filtered list of safe, relevant product recommendations
 
 ### Key Design Patterns
 
-- **Safety-First Architecture**: Contraindication checking (Rule 1) executes before recommendations (Rule 2)
-- **Multi-Target Products**: Products in the catalog can target multiple symptoms (e.g., "Magnesium Bisglycinate" targets both stress and fatigue)
+- **Safety-First Architecture**: Contraindication and interaction checking (Rule 1) executes before recommendations (Rule 2)
+- **Multi-Target Products**: Products can target multiple symptoms via multiple `database` entries per item
 - **Negative Filtering**: Uses `NOT(ProduitInterdit(produit=MATCH.p))` in Rule 2 to ensure forbidden products are never recommended
-- **Fact-Based Inference**: All data (products, contraindications, client needs) are represented as Facts that trigger rules
+- **Fact-Based Inference**: All data (products, contraindications/interactions, client needs) are represented as Facts that trigger rules
 
 ## Python Compatibility
 
@@ -76,19 +77,28 @@ This patch is necessary because Experta uses the deprecated `collections.Mapping
 
 ### Adding New Products
 
-Edit `database.py` - `CATALOGUE_PRODUITS`:
+Edit `database.py` - `CATALOGUE_COMPLET` entries:
 ```python
-{"nom": "Product Name", "cible": "symptom"}
+{
+    "name": "Product Name",
+    "description": "Short blurb",
+    "dosage": "e.g., 200mg/jour",
+    "database": [
+        {"health_condition_or_goal": "dépression"},
+        {"health_condition_or_goal": "sommeil"}
+    ],
+    "safety": {
+        "pregnancy_lactation": [{"condition": "Grossesse", "safety_information": "Éviter"}],
+        "interactions": [{"agent": "anticoagulants"}]
+    }
+}
 ```
 
-Products can appear multiple times with different targets to support multi-symptom coverage.
+Products can target multiple symptoms via several `database` entries and carry multiple interaction agents.
 
 ### Adding New Contraindications
 
-Edit `database.py` - `CONTRE_INDICATIONS`:
-```python
-{"produit": "Product Name", "condition": "medical_condition"}
-```
+Add pregnancy/lactation precautions or `interactions` agents under each product's `safety` block; `chargement_initial()` will convert them into `ContreIndication` facts automatically.
 
 ### Adding New Test Scenarios
 
@@ -98,15 +108,16 @@ lancer_diagnostic("User Name",
                   symptomes=['symptom1', 'symptom2'],
                   conditions_medicales=['condition1'])
 ```
+Six scenarios are provided as examples; you can append new ones at the bottom of `app.py`.
 
 ## Important Implementation Notes
 
-- **No modification needed to logic.py when adding products/contraindications**: The inference engine automatically processes new entries from database.py
+- **No modification needed to logic.py when adding products/contraindications**: The inference engine automatically processes new entries from `CATALOGUE_COMPLET`
 - **Rule execution is automatic**: Experta handles rule matching and firing order based on declared Facts
-- **Duplicate recommendations are filtered**: app.py uses a set (`recommandations_uniques`) to eliminate duplicate product-target pairs in output
-- **All test scenarios are validated**: See `Explication/RESULTATS_EXECUTION.md` for validation results showing the system correctly filters contraindicated products
+- **Duplicate recommendations are filtered**: `app.py` uses a set (`deja_affiche`) to avoid printing the same product twice when it matches multiple needs
+- **Test scenarios cover safety cases**: See `Explication/RESULTATS_EXECUTION.md` for execution results showing the system correctly filters contraindicated or interacting products
 
 ## Documentation
 
 - `Explication/EXPLICATION.md`: Detailed French documentation explaining system architecture, data flow, and component roles
-- `Explication/RESULTATS_EXECUTION.md`: Execution results for all 4 test scenarios with safety verification
+- `Explication/RESULTATS_EXECUTION.md`: Execution results for the predefined test scenarios with safety verification
