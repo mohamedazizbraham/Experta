@@ -100,50 +100,63 @@ docker-compose down
 
 The system uses a three-layer architecture:
 
-1. **database.py** - Contains static data:
-   - Product catalog (20 health products with target symptoms)
-   - Contraindications (safety rules for medical conditions)
+1. **database.py** - Static data layer
+   - `CATALOGUE_COMPLET`: Full catalogue of products (name, description, dosage, `database` entries for efficacy per condition, and `safety` blocks for pregnancy/lactation and drug interactions)
+   - Safety data is embedded per product under `safety.interactions` and `safety.pregnancy_lactation`
 
-2. **logic.py** - Inference engine with two critical rules:
-   - **Rule 1 (Safety)**: Identifies and marks forbidden products based on medical conditions
-   - **Rule 2 (Recommendation)**: Recommends safe products matching user symptoms
+2. **logic.py** - Inference engine (core system)
+   - Fact classes: `Produit`, `ContreIndication`, `BesoinClient`, `ConditionClient`, `ProduitInterdit`, `Recommandation`
+   - `chargement_initial()`: Scans `CATALOGUE_COMPLET` to yield `Produit` facts for each `health_condition_or_goal`, and `ContreIndication` facts for risky pregnancy/allaitement cases and for every listed interaction agent
+   - `MoteurRecommandation` (KnowledgeEngine) rules:
+     - **Rule 1 (Safety)**: `detecter_danger()` - Marks products as forbidden when the client has a matching contraindication or interaction
+     - **Rule 2 (Recommendation)**: `generer_recommandation()` - Recommends products matching symptoms that are not forbidden
 
-3. **app.py** - User interface with test scenarios
+3. **app.py** - User interface layer
+   - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function; injects user symptoms/conditions as facts, runs the engine, and prints results
+   - `afficher_details_produit(nom_produit)`: Looks up the full catalogue entry to show description, dosage, and interaction warnings
+   - Contains 6 test scenarios covering depression, contraceptives, pregnancy, insomnia, hypertension, and anticoagulants
 
 ### Sample Output
 
-The system runs 4 test scenarios:
-- **Student**: Stress + Fatigue (no medical restrictions)
-- **Pregnant Woman**: Fatigue + Sleep + Stress (pregnancy restrictions)
-- **Senior with Hypertension**: Joint + Fatigue (hypertension restrictions)
-- **Cardiac Patient**: Immunity + Joint (anticoagulant restrictions)
-
-Each scenario demonstrates how the system filters dangerous products and recommends safe alternatives.
+The system runs 6 predefined test scenarios demonstrating different medical profiles and safety constraints. Each scenario shows how the system filters dangerous products based on contraindications and drug interactions, then recommends safe alternatives that match the user's symptoms.
 
 ## Extending the System
 
 ### Adding New Products
 
-Edit `database.py` - `CATALOGUE_PRODUITS`:
+Edit `database.py` - `CATALOGUE_COMPLET` entries:
 ```python
-{"nom": "New Product", "cible": "target_symptom"}
+{
+    "name": "Product Name",
+    "description": "Short blurb",
+    "dosage": "e.g., 200mg/jour",
+    "database": [
+        {"health_condition_or_goal": "dépression"},
+        {"health_condition_or_goal": "sommeil"}
+    ],
+    "safety": {
+        "pregnancy_lactation": [{"condition": "Grossesse", "safety_information": "Éviter"}],
+        "interactions": [{"agent": "anticoagulants"}]
+    }
+}
 ```
+
+Products can target multiple symptoms via several `database` entries and carry multiple interaction agents.
 
 ### Adding New Contraindications
 
-Edit `database.py` - `CONTRE_INDICATIONS`:
-```python
-{"produit": "Product Name", "condition": "medical_condition"}
-```
+Add pregnancy/lactation precautions or `interactions` agents under each product's `safety` block; `chargement_initial()` will convert them into `ContreIndication` facts automatically.
 
 ### Adding New Test Scenarios
 
-Edit `app.py`:
+Edit `app.py` - Add calls to `lancer_diagnostic()`:
 ```python
-lancer_diagnostic("Profile Name",
+lancer_diagnostic("User Name",
                   symptomes=['symptom1', 'symptom2'],
                   conditions_medicales=['condition1'])
 ```
+
+Six scenarios are provided as examples; you can append new ones at the bottom of `app.py`.
 
 ## Project Structure
 
