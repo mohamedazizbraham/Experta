@@ -7,34 +7,16 @@ CATALOGUE_COMPLET = {
             "name": "5-HTP",
             "description": "5-HTP est le précurseur de la sérotonine, un neurotransmetteur impliqué dans la régulation de nombreux processus corporels tels que l'humeur, le sommeil et l'appétit.",
             "overview": [
-                {
-                    "question": "Qu’est-ce que le 5-HTP?",
-                    "answer": "5-HTP est un acide aminé et un précurseur du neurotransmetteur sérotonine..."
-                },
-                {
-                    "question": "Quels sont les principaux bénéfices du 5-HTP?",
-                    "answer": "5-HTP est très fiable pour augmenter les niveaux de sérotonine..."
-                },
-                {
-                    "question": "Quels sont les principaux inconvénients du 5-HTP?",
-                    "answer": "5-HTP peut provoquer des effets secondaires légers..."
-                },
-                {
-                    "question": "Comment le 5-HTP agit-il?",
-                    "answer": "5-HTP agit comme précurseur direct du neurotransmetteur sérotonine..."
-                }
+                {"question": "Qu’est-ce que le 5-HTP?", "answer": "Acide aminé précurseur de la sérotonine."},
+                {"question": "Bénéfices?", "answer": "Augmente la sérotonine (humeur, sommeil)."}
             ],
             "dosage": "200mg à 300mg par jour.",
             "safety": {
-                "summary": ["La prise de 100mg ou moins semble bien tolérée."],
-                "side_effects": {
-                    "summary": "Effets gastro-intestinaux possibles.",
-                    "table": [{"effect": "Nausée", "details": "Voie orale, 200-300mg."}]
-                },
+                "summary": ["Bien toléré à faible dose."],
+                "side_effects": {"summary": "Nausées possibles.", "table": [{"effect": "Nausée", "details": "Voie orale"}]},
                 "interactions": [
                     {"agent": "Médicaments sérotoninergiques", "severity": "Inconnu"},
-                    {"agent": "Carbidopa", "severity": ""},
-                    {"agent": "Suppléments sérotoninergiques", "severity": ""}
+                    {"agent": "Antidépresseurs", "severity": "Majeur"}
                 ],
                 "pregnancy_lactation": [
                     {"condition": "Grossesse: éviter", "safety_information": "Évitement justifié."},
@@ -44,17 +26,11 @@ CATALOGUE_COMPLET = {
                 "anti_doping": {"label": "Non interdit", "text": "Autorisé."}
             },
             "database": [
-                {"health_condition_or_goal": "Dépression", "outcomes": [{"outcome": "Symptômes", "grade": "B", "effect": "Amélioration"}]},
-                {"health_condition_or_goal": "Obésité", "outcomes": [{"outcome": "Appétit", "grade": "B", "effect": "Diminution"}]},
-                {"health_condition_or_goal": "Terreurs nocturnes", "outcomes": [{"outcome": "Fréquence", "grade": "", "effect": ""}]},
-                {"health_condition_or_goal": "Diabète de type 2", "outcomes": [{"outcome": "Appétit", "grade": "C", "effect": "Diminution"}]},
-                {"health_condition_or_goal": "Trouble panique", "outcomes": [{"outcome": "Cortisol", "grade": "", "effect": ""}]},
-                {"health_condition_or_goal": "Maladie de Parkinson", "outcomes": [{"outcome": "Apathie", "grade": "D", "effect": "Aucun effet"}]},
-                {"health_condition_or_goal": "Perte de poids et maintien", "outcomes": [{"outcome": "Appétit", "grade": "C", "effect": "Diminution"}]}
+                {"health_condition_or_goal": "Dépression", "outcomes": [{"outcome": "Symptômes", "grade": "B"}]},
+                {"health_condition_or_goal": "Obésité", "outcomes": [{"outcome": "Appétit", "grade": "B"}]},
+                {"health_condition_or_goal": "Sommeil", "outcomes": [{"outcome": "Temps d'endormissement", "grade": "C"}]}
             ],
-            "faq": [{"question": "Le 5-HTP affecte-t-il le sommeil ?", "answer": "Recherches limitées."}],
-            "references": [],
-            "database_references": []
+            "faq": [], "references": [], "database_references": []
         },
         # --- MAGNESIUM ---
         {
@@ -64,22 +40,25 @@ CATALOGUE_COMPLET = {
             "dosage": "300mg à 400mg par jour.",
             "safety": {
                 "summary": ["Sûr pour la plupart des adultes."],
+                "interactions": [
+                    {"agent": "Antibiotiques", "severity": "Modéré"},
+                    {"agent": "Bisphosphonates", "severity": "Modéré"}
+                ],
                 "pregnancy_lactation": [
                     {"condition": "Grossesse: autorisé", "safety_information": "Souvent recommandé."},
                     {"condition": "Allaitement: autorisé", "safety_information": "Compatible."}
                 ],
-                "interactions": [{"agent": "Antibiotiques", "severity": "Modéré"}],
                 "precautions": [{"population_condition": "Insuffisance rénale sévère", "details": "Contre-indiqué."}]
             },
             "database": [
                 {"health_condition_or_goal": "Stress", "outcomes": [{"outcome": "Cortisol", "grade": "A"}]},
                 {"health_condition_or_goal": "Fatigue", "outcomes": [{"outcome": "Énergie", "grade": "A"}]},
-                {"health_condition_or_goal": "Crampes musculaires", "outcomes": [{"outcome": "Fréquence", "grade": "B"}]},
-                {"health_condition_or_goal": "Sommeil", "outcomes": [{"outcome": "Qualité", "grade": "B"}]}
+                {"health_condition_or_goal": "Sommeil", "outcomes": [{"outcome": "Qualité", "grade": "B"}]},
+                {"health_condition_or_goal": "Crampes musculaires", "outcomes": [{"outcome": "Fréquence", "grade": "B"}]}
             ],
             "faq": [], "references": [], "database_references": []
         },
-        # --- MELATONINE ---
+        # --- MELATONINE (CORRIGÉE) ---
         {
             "name": "Mélatonine",
             "description": "Hormone naturelle du sommeil.",
@@ -87,11 +66,15 @@ CATALOGUE_COMPLET = {
             "dosage": "1mg à 2mg avant le coucher.",
             "safety": {
                 "summary": ["Somnolence diurne possible."],
+                "interactions": [
+                    # C'EST CETTE LIGNE QUI MANQUAIT :
+                    {"agent": "Anticoagulants", "severity": "Modéré", "effect": "Risque théorique de saignement"},
+                    {"agent": "Sédatifs", "severity": "Modéré"}
+                ],
                 "pregnancy_lactation": [
                     {"condition": "Grossesse: éviter", "safety_information": "Manque de données."},
                     {"condition": "Allaitement: éviter", "safety_information": "Passe dans le lait."}
                 ],
-                "interactions": [{"agent": "Sédatifs", "severity": "Modéré"}],
                 "precautions": [{"population_condition": "Conduite de véhicules", "details": "Somnolence."}]
             },
             "database": [
@@ -114,10 +97,11 @@ CATALOGUE_COMPLET = {
                 "interactions": [
                     {"agent": "Contraceptifs oraux (Pilule)", "severity": "Majeur"},
                     {"agent": "Anticoagulants", "severity": "Majeur"},
-                    {"agent": "Antidépresseurs", "severity": "Majeur"}
+                    {"agent": "Antidépresseurs", "severity": "Majeur"},
+                    {"agent": "Immunosuppresseurs", "severity": "Majeur"}
                 ],
                 "pregnancy_lactation": [
-                    {"condition": "Grossesse: éviter", "safety_information": "Risque."},
+                    {"condition": "Grossesse: éviter", "safety_information": "Risque interactions."},
                     {"condition": "Allaitement: éviter", "safety_information": "Risque."}
                 ],
                 "precautions": [{"population_condition": "Troubles bipolaires", "details": "Risque manie."}]
@@ -136,12 +120,18 @@ CATALOGUE_COMPLET = {
             "dosage": "Ne pas dépasser 400mg caféine/jour.",
             "safety": {
                 "summary": ["Stimulant."],
-                "interactions": [{"agent": "Stimulants", "severity": "Modéré"}],
+                "interactions": [
+                    {"agent": "Stimulants", "severity": "Modéré"},
+                    {"agent": "Éphédrine", "severity": "Majeur"}
+                ],
                 "pregnancy_lactation": [
                     {"condition": "Grossesse: éviter", "safety_information": "Limiter caféine."},
                     {"condition": "Allaitement: à limiter", "safety_information": "Excitant."}
                 ],
-                "precautions": [{"population_condition": "Hypertension", "details": "Augmente tension."}]
+                "precautions": [
+                    {"population_condition": "Hypertension", "details": "Augmente tension."},
+                    {"population_condition": "Troubles cardiaques", "details": "Éviter."}
+                ]
             },
             "database": [
                 {"health_condition_or_goal": "Fatigue", "outcomes": [{"outcome": "Vigilance", "grade": "A"}]},
@@ -153,7 +143,7 @@ CATALOGUE_COMPLET = {
     ],
 
     "sport_et_pratique": [
-        # --- YOGA (Exemple pour compléter la demande) ---
+        # --- YOGA ---
         {
             "name": "Yoga Nidra (Méditation)",
             "description": "Technique de relaxation profonde aussi appelée 'sommeil yogique'. Idéal pour réduire le stress sans ingestion de produits.",
@@ -161,11 +151,11 @@ CATALOGUE_COMPLET = {
             "dosage": "Séances de 20 à 30 minutes, 1 fois par jour.",
             "safety": {
                 "summary": ["Aucun effet secondaire connu."],
+                "interactions": [],
                 "pregnancy_lactation": [
                     {"condition": "Grossesse: autorisé", "safety_information": "Excellent."},
                     {"condition": "Allaitement: autorisé", "safety_information": "Excellent."}
                 ],
-                "interactions": [],
                 "precautions": []
             },
             "database": [
