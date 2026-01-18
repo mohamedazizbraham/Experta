@@ -1,14 +1,18 @@
-# Experta - Expert System for Product Recommendation
+# Experta - Expert System for Holistic Health Recommendations
 
-A rule-based expert system using Experta (Python fuzzy logic library) that recommends health and wellness products based on user symptoms while respecting medical contraindications.
+A rule-based expert system using Experta (Python knowledge engine library) that recommends integrated health interventions based on user symptoms while respecting medical contraindications and safety constraints.
 
 ## Features
 
-- Rule-based inference engine for intelligent product recommendations
-- Safety-first architecture that filters products based on medical contraindications
-- Support for multi-symptom targeting
-- Pre-configured test scenarios demonstrating different medical profiles
-- 20 health products covering Energy, Immunity, Stress, Sleep, Digestion, and Joint health
+- **Rule-based inference engine** for intelligent product and intervention recommendations
+- **Holistic approach** supporting multiple intervention types: Supplements, Herbs, and Wellness Practices
+- **Safety-first architecture** with automated contraindication filtering based on:
+  - Pregnancy and lactation precautions
+  - Drug-product interactions
+  - Medical conditions
+- **Multi-symptom targeting** with mixed recommendations (e.g., Magnesium + Yoga for stress)
+- **Pre-configured test scenarios** demonstrating complex medical profiles
+- **Rich metadata** per product including efficacy evidence levels and interaction data
 
 ## Prerequisites
 
@@ -100,63 +104,108 @@ docker-compose down
 
 The system uses a three-layer architecture:
 
-1. **database.py** - Static data layer
-   - `CATALOGUE_COMPLET`: Full catalogue of products (name, description, dosage, `database` entries for efficacy per condition, and `safety` blocks for pregnancy/lactation and drug interactions)
-   - Safety data is embedded per product under `safety.interactions` and `safety.pregnancy_lactation`
+1. **database.py** - Static data layer (Knowledge Base)
+   - `CATALOGUE_COMPLET`: Comprehensive catalogue organized by intervention categories:
+     - **Compléments** (Nutritional supplements)
+     - **Herbes Naturelles** (Herbal remedies)
+     - **Pratiques Sportives** (Wellness practices)
+   - Each intervention contains:
+     - Basic metadata: name, description, dosage/practice guidelines
+     - `database`: Health conditions/goals the intervention addresses
+     - `safety`: Contraindication rules (pregnancy, lactation, drug interactions)
 
-2. **logic.py** - Inference engine (core system)
-   - Fact classes: `Produit`, `ContreIndication`, `BesoinClient`, `ConditionClient`, `ProduitInterdit`, `Recommandation`
-   - `chargement_initial()`: Scans `CATALOGUE_COMPLET` to yield `Produit` facts for each `health_condition_or_goal`, and `ContreIndication` facts for risky pregnancy/allaitement cases and for every listed interaction agent
-   - `MoteurRecommandation` (KnowledgeEngine) rules:
-     - **Rule 1 (Safety)**: `detecter_danger()` - Marks products as forbidden when the client has a matching contraindication or interaction
-     - **Rule 2 (Recommendation)**: `generer_recommandation()` - Recommends products matching symptoms that are not forbidden
+2. **logic.py** - Inference engine (Knowledge Engine)
+   - **Fact classes**:
+     - `Produit`: Represents an intervention and its target conditions
+     - `ContreIndication`: Represents safety restrictions (pregnancy, drug interactions)
+     - `BesoinClient`: User's symptoms or health goals
+     - `ConditionClient`: User's medical status (Pregnancy, current medications, etc.)
+     - `ProduitInterdit`: Internal marker for contraindicated interventions
+     - `Recommandation`: Final validated recommendation
+   
+   - **`chargement_initial()`**: Smart loader that:
+     - Scans `CATALOGUE_COMPLET` recursively through categories
+     - Converts products into `Produit` facts per target condition
+     - Extracts `ContreIndication` facts from pregnancy/lactation warnings and drug interactions
+   
+   - **`MoteurRecommandation` (KnowledgeEngine) rules**:
+     - **Rule: `detecter_danger()`** - Safety filtering: marks products as forbidden when the client has matching contraindications
+     - **Rule: `generer_recommandation()`** - Intelligent recommendation: suggests safe products matching user symptoms across all intervention categories
 
 3. **app.py** - User interface layer
-   - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function; injects user symptoms/conditions as facts, runs the engine, and prints results
-   - `afficher_details_produit(nom_produit)`: Looks up the full catalogue entry to show description, dosage, and interaction warnings
-   - Contains 6 test scenarios covering depression, contraceptives, pregnancy, insomnia, hypertension, and anticoagulants
+   - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function
+     - Injects user symptoms/conditions as facts
+     - Executes the inference engine
+     - Returns filtered recommendations
+   
+   - `afficher_details_produit(nom_produit)`: Product information display
+     - Retrieves full catalogue entry
+     - Shows description, dosage/practice details
+     - Displays interaction warnings and safety notes
+   
+   - **Test scenarios**: Demonstrates system behavior with complex medical profiles
+     - Scenarios covering depression, pregnancy, contraceptive interactions, insomnia, hypertension, and anticoagulants
 
 ### Sample Output
 
-The system runs 6 predefined test scenarios demonstrating different medical profiles and safety constraints. Each scenario shows how the system filters dangerous products based on contraindications and drug interactions, then recommends safe alternatives that match the user's symptoms.
+The system executes predefined test scenarios showing how the inference engine:
+1. Loads all interventions and their contraindications
+2. Analyzes user medical profile (symptoms + conditions)
+3. Filters dangerous products (marks as forbidden)
+4. Recommends safe alternatives matching the user's needs
+5. Displays detailed information for each recommendation
 
 ## Extending the System
 
-### Adding New Products
+### Adding New Interventions
 
-Edit `database.py` - `CATALOGUE_COMPLET` entries:
+Edit `database.py` - Add entries to `CATALOGUE_COMPLET`:
+
 ```python
-{
-    "name": "Product Name",
-    "description": "Short blurb",
-    "dosage": "e.g., 200mg/jour",
-    "database": [
-        {"health_condition_or_goal": "dépression"},
-        {"health_condition_or_goal": "sommeil"}
-    ],
-    "safety": {
-        "pregnancy_lactation": [{"condition": "Grossesse", "safety_information": "Éviter"}],
-        "interactions": [{"agent": "anticoagulants"}]
+"Compléments": [
+    {
+        "name": "Intervention Name",
+        "description": "Detailed description",
+        "dosage": "e.g., 200mg/jour or practice frequency",
+        "database": [
+            {"health_condition_or_goal": "stress"},
+            {"health_condition_or_goal": "sommeil"}
+        ],
+        "safety": {
+            "pregnancy_lactation": [
+                {"condition": "Grossesse", "safety_information": "Avoid if..."}
+            ],
+            "interactions": [
+                {"agent": "anticoagulants", "severity": "high"}
+            ]
+        }
     }
-}
+]
 ```
 
-Products can target multiple symptoms via several `database` entries and carry multiple interaction agents.
+**Key points:**
+- Add to appropriate category: "Compléments", "Herbes Naturelles", or "Pratiques Sportives"
+- Multiple `database` entries allow targeting multiple conditions
+- Safety rules are automatically converted to facts by `chargement_initial()`
 
 ### Adding New Contraindications
 
-Add pregnancy/lactation precautions or `interactions` agents under each product's `safety` block; `chargement_initial()` will convert them into `ContreIndication` facts automatically.
+Update the `safety` block in any intervention:
+- **Pregnancy/Lactation**: Add entries to `safety.pregnancy_lactation`
+- **Drug Interactions**: Add entries to `safety.interactions` with agent names and severity levels
+- Changes are automatically processed by the inference engine
 
 ### Adding New Test Scenarios
 
-Edit `app.py` - Add calls to `lancer_diagnostic()`:
+Edit `app.py` - Add calls to `lancer_diagnostic()` at the bottom:
+
 ```python
 lancer_diagnostic("User Name",
-                  symptomes=['symptom1', 'symptom2'],
-                  conditions_medicales=['condition1'])
+                  symptomes=['stress', 'fatigue'],
+                  conditions_medicales=['pregnancy'])
 ```
 
-Six scenarios are provided as examples; you can append new ones at the bottom of `app.py`.
+Scenarios demonstrate how the system handles different medical profiles and safety constraints.
 
 ## Project Structure
 
@@ -177,20 +226,30 @@ Experta/
 
 ## Python 3.10+ Compatibility
 
-The system includes a compatibility patch for Python 3.10+ because Experta uses the deprecated `collections.Mapping`. This is automatically handled in `logic.py`.
+The system includes a compatibility patch for Python 3.10+ because Experta uses the deprecated `collections.Mapping`. This patch is automatically handled in `logic.py`:
+
+```python
+import collections.abc
+if not hasattr(collections, "Mapping"):
+    collections.Mapping = collections.abc.Mapping
+```
+
+This ensures the system runs smoothly on modern Python versions.
 
 ## Technical Details
 
-- **Framework**: Experta 1.9.4 (Python expert system framework)
-- **Python Version**: 3.10+
-- **Architecture**: Rule-based inference with fact-based knowledge representation
-- **Safety Model**: Negative filtering (contraindicated products are excluded before recommendation)
+- **Framework**: Experta 1.9.4 (Python rule-based inference engine)
+- **Python Version**: 3.10 or higher (required)
+- **Architecture**: Fact-based knowledge representation with rule-driven inference
+- **Safety Model**: Negative filtering (contraindicated interventions are excluded before recommendation generation)
+- **Data Model**: Hierarchical catalogue with category-based organization
 
 ## Documentation
 
-- `CLAUDE.md`: Guidance for AI assistants working with this codebase
-- `Explication/EXPLICATION.md`: Detailed French documentation explaining architecture and data flow
-- `Explication/RESULTATS_EXECUTION.md`: Validation results for all test scenarios
+- **CLAUDE.md**: Guidance for AI assistants working with this codebase
+- **code progress.md**: Development progress notes and architectural decisions
+- **Explication/EXPLICATION.md**: Comprehensive French documentation explaining system architecture, data flow, and evolution
+- **Explication/RESULTATS_EXECUTION.md**: Validation results and test execution outputs (French)
 
 ## License
 
