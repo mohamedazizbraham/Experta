@@ -1,169 +1,141 @@
-# database.py
+"""database.py
 
-CATALOGUE_COMPLET = {
-    "complement_alimentaire": [
-        # --- 5-HTP ---
-        {
-            "name": "5-HTP",
-            "description": "5-HTP est le précurseur de la sérotonine, un neurotransmetteur impliqué dans la régulation de nombreux processus corporels tels que l'humeur, le sommeil et l'appétit.",
-            "overview": [
-                {"question": "Qu’est-ce que le 5-HTP?", "answer": "Acide aminé précurseur de la sérotonine."},
-                {"question": "Bénéfices?", "answer": "Augmente la sérotonine (humeur, sommeil)."}
-            ],
-            "dosage": "200mg à 300mg par jour.",
-            "safety": {
-                "summary": ["Bien toléré à faible dose."],
-                "side_effects": {"summary": "Nausées possibles.", "table": [{"effect": "Nausée", "details": "Voie orale"}]},
-                "interactions": [
-                    {"agent": "Médicaments sérotoninergiques", "severity": "Inconnu"},
-                    {"agent": "Antidépresseurs", "severity": "Majeur"}
-                ],
-                "pregnancy_lactation": [
-                    {"condition": "Grossesse: éviter", "safety_information": "Évitement justifié."},
-                    {"condition": "Allaitement: éviter", "safety_information": "Évitement justifié."}
-                ],
-                "precautions": [{"population_condition": "Affections gastro-intestinales", "details": "Prudence."}],
-                "anti_doping": {"label": "Non interdit", "text": "Autorisé."}
-            },
-            "database": [
-                {"health_condition_or_goal": "Dépression", "outcomes": [{"outcome": "Symptômes", "grade": "B"}]},
-                {"health_condition_or_goal": "Obésité", "outcomes": [{"outcome": "Appétit", "grade": "B"}]},
-                {"health_condition_or_goal": "Sommeil", "outcomes": [{"outcome": "Temps d'endormissement", "grade": "C"}]}
-            ],
-            "faq": [], "references": [], "database_references": []
-        },
-        # --- MAGNESIUM ---
-        {
-            "name": "Magnésium Bisglycinate",
-            "description": "Forme chélatée de magnésium liée à la glycine, offrant une biodisponibilité supérieure.",
-            "overview": [{"question": "Bénéfices?", "answer": "Réduit fatigue et crampes."}],
-            "dosage": "300mg à 400mg par jour.",
-            "safety": {
-                "summary": ["Sûr pour la plupart des adultes."],
-                "interactions": [
-                    {"agent": "Antibiotiques", "severity": "Modéré"},
-                    {"agent": "Bisphosphonates", "severity": "Modéré"}
-                ],
-                "pregnancy_lactation": [
-                    {"condition": "Grossesse: autorisé", "safety_information": "Souvent recommandé."},
-                    {"condition": "Allaitement: autorisé", "safety_information": "Compatible."}
-                ],
-                "precautions": [{"population_condition": "Insuffisance rénale sévère", "details": "Contre-indiqué."}]
-            },
-            "database": [
-                {"health_condition_or_goal": "Stress", "outcomes": [{"outcome": "Cortisol", "grade": "A"}]},
-                {"health_condition_or_goal": "Fatigue", "outcomes": [{"outcome": "Énergie", "grade": "A"}]},
-                {"health_condition_or_goal": "Sommeil", "outcomes": [{"outcome": "Qualité", "grade": "B"}]},
-                {"health_condition_or_goal": "Crampes musculaires", "outcomes": [{"outcome": "Fréquence", "grade": "B"}]}
-            ],
-            "faq": [], "references": [], "database_references": []
-        },
-        # --- MELATONINE (CORRIGÉE) ---
-        {
-            "name": "Mélatonine",
-            "description": "Hormone naturelle du sommeil.",
-            "overview": [{"question": "Addictif?", "answer": "Non."}],
-            "dosage": "1mg à 2mg avant le coucher.",
-            "safety": {
-                "summary": ["Somnolence diurne possible."],
-                "interactions": [
-                    # C'EST CETTE LIGNE QUI MANQUAIT :
-                    {"agent": "Anticoagulants", "severity": "Modéré", "effect": "Risque théorique de saignement"},
-                    {"agent": "Sédatifs", "severity": "Modéré"}
-                ],
-                "pregnancy_lactation": [
-                    {"condition": "Grossesse: éviter", "safety_information": "Manque de données."},
-                    {"condition": "Allaitement: éviter", "safety_information": "Passe dans le lait."}
-                ],
-                "precautions": [{"population_condition": "Conduite de véhicules", "details": "Somnolence."}]
-            },
-            "database": [
-                {"health_condition_or_goal": "Sommeil", "outcomes": [{"outcome": "Endormissement", "grade": "A"}]},
-                {"health_condition_or_goal": "Jet lag", "outcomes": [{"outcome": "Symptômes", "grade": "A"}]}
-            ],
-            "faq": [], "references": [], "database_references": []
-        }
-    ],
+Objectif:
+- Utiliser automatiquement les données JSON dans le dossier `data/`.
+- Garder la même structure publique que le code existant attend:
+  - `CATALOGUE_COMPLET`: dict[str, list[dict]]
+  - (compat) `CATALOGUE_PRODUITS` et `CONTRE_INDICATIONS` pour `service.py`
 
-    "herbe_naturelle": [
-        # --- MILLEPERTUIS ---
-        {
-            "name": "Millepertuis (St. John's Wort)",
-            "description": "Plante médicinale pour les troubles de l'humeur.",
-            "overview": [{"question": "Action?", "answer": "Inhibe recapture sérotonine."}],
-            "dosage": "300mg 3 fois par jour.",
-            "safety": {
-                "summary": ["Attention : Puissant inducteur enzymatique."],
-                "interactions": [
-                    {"agent": "Contraceptifs oraux (Pilule)", "severity": "Majeur"},
-                    {"agent": "Anticoagulants", "severity": "Majeur"},
-                    {"agent": "Antidépresseurs", "severity": "Majeur"},
-                    {"agent": "Immunosuppresseurs", "severity": "Majeur"}
-                ],
-                "pregnancy_lactation": [
-                    {"condition": "Grossesse: éviter", "safety_information": "Risque interactions."},
-                    {"condition": "Allaitement: éviter", "safety_information": "Risque."}
-                ],
-                "precautions": [{"population_condition": "Troubles bipolaires", "details": "Risque manie."}]
-            },
-            "database": [
-                {"health_condition_or_goal": "Dépression", "outcomes": [{"outcome": "Humeur", "grade": "A"}]},
-                {"health_condition_or_goal": "Anxiété", "outcomes": [{"outcome": "Symptômes", "grade": "B"}]}
-            ],
-            "faq": [], "references": [], "database_references": []
-        },
-        # --- GUARANA ---
-        {
-            "name": "Guarana",
-            "description": "Graine riche en caféine à libération lente.",
-            "overview": [{"question": "Différence café?", "answer": "Diffusion lente."}],
-            "dosage": "Ne pas dépasser 400mg caféine/jour.",
-            "safety": {
-                "summary": ["Stimulant."],
-                "interactions": [
-                    {"agent": "Stimulants", "severity": "Modéré"},
-                    {"agent": "Éphédrine", "severity": "Majeur"}
-                ],
-                "pregnancy_lactation": [
-                    {"condition": "Grossesse: éviter", "safety_information": "Limiter caféine."},
-                    {"condition": "Allaitement: à limiter", "safety_information": "Excitant."}
-                ],
-                "precautions": [
-                    {"population_condition": "Hypertension", "details": "Augmente tension."},
-                    {"population_condition": "Troubles cardiaques", "details": "Éviter."}
-                ]
-            },
-            "database": [
-                {"health_condition_or_goal": "Fatigue", "outcomes": [{"outcome": "Vigilance", "grade": "A"}]},
-                {"health_condition_or_goal": "Perte de poids", "outcomes": [{"outcome": "Métabolisme", "grade": "B"}]},
-                {"health_condition_or_goal": "Concentration", "outcomes": [{"outcome": "Focus", "grade": "B"}]}
-            ],
-            "faq": [], "references": [], "database_references": []
-        }
-    ],
+Le moteur Experta (`logic.py`) itère sur `CATALOGUE_COMPLET` et lit:
+- `sheet['name']`
+- `sheet['database'][*]['health_condition_or_goal']`
+- `sheet['safety']` (pregnancy_lactation, interactions, precautions)
 
-    "sport_et_pratique": [
-        # --- YOGA ---
-        {
-            "name": "Yoga Nidra (Méditation)",
-            "description": "Technique de relaxation profonde aussi appelée 'sommeil yogique'. Idéal pour réduire le stress sans ingestion de produits.",
-            "overview": [{"question": "C'est quoi?", "answer": "Une méditation guidée allongée."}],
-            "dosage": "Séances de 20 à 30 minutes, 1 fois par jour.",
-            "safety": {
-                "summary": ["Aucun effet secondaire connu."],
-                "interactions": [],
-                "pregnancy_lactation": [
-                    {"condition": "Grossesse: autorisé", "safety_information": "Excellent."},
-                    {"condition": "Allaitement: autorisé", "safety_information": "Excellent."}
-                ],
-                "precautions": []
-            },
-            "database": [
-                {"health_condition_or_goal": "Stress", "outcomes": [{"outcome": "Relaxation", "grade": "A"}]},
-                {"health_condition_or_goal": "Sommeil", "outcomes": [{"outcome": "Qualité", "grade": "A"}]},
-                {"health_condition_or_goal": "Anxiété", "outcomes": [{"outcome": "Apaisement", "grade": "B"}]}
-            ],
-            "faq": [], "references": [], "database_references": []
-        }
+Les JSON de `data/` (supplements/other/diets) suivent déjà ce schéma.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from typing import Any, Dict, Iterable, List, Tuple
+
+
+_ROOT = Path(__file__).resolve().parent
+_DATA_DIR = _ROOT / "data"
+
+
+def _read_json(path: Path) -> Dict[str, Any]:
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _load_folder_json(folder: Path) -> List[Dict[str, Any]]:
+    if not folder.exists() or not folder.is_dir():
+        return []
+
+    items: List[Dict[str, Any]] = []
+    for p in sorted(folder.glob("*.json"), key=lambda x: x.name.lower()):
+        try:
+            items.append(_read_json(p))
+        except json.JSONDecodeError as e:
+            raise ValueError(f"JSON invalide: {p}") from e
+    return items
+
+
+def _build_catalogue_from_data(data_dir: Path) -> Dict[str, List[Dict[str, Any]]]:
+    """Construit un catalogue compatible avec le code existant.
+
+Mapping (garde l'idée des catégories actuelles):
+- data/supplements -> complement_alimentaire
+- data/other       -> sport_et_pratique
+- data/diets       -> regime_alimentaire
+
+Note: `data/conditions` et `data/categories` sont chargés séparément (voir plus bas),
+car ce ne sont pas des "produits" au sens du moteur de recommandations.
+"""
+
+    mapping: List[Tuple[str, str]] = [
+        ("supplements", "complement_alimentaire"),
+        ("other", "sport_et_pratique"),
+        ("diets", "regime_alimentaire"),
     ]
-}
+
+    catalogue: Dict[str, List[Dict[str, Any]]] = {}
+    for folder_name, category_key in mapping:
+        catalogue[category_key] = _load_folder_json(data_dir / folder_name)
+    return catalogue
+
+
+def _is_risky_pregnancy_text(text: str) -> bool:
+    t = (text or "").strip().lower()
+    risky_keywords = ("éviter", "eviter", "déconseill", "deconseill", "limiter", "éviction", "eviction")
+    return any(k in t for k in risky_keywords)
+
+
+def _extract_rules(catalogue: Dict[str, List[Dict[str, Any]]]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """Construit des listes "plates" pour le service layer.
+
+CATALOGUE_PRODUITS: [{produit, cible}]
+CONTRE_INDICATIONS: [{produit, condition}]
+"""
+
+    produits: List[Dict[str, Any]] = []
+    contres: List[Dict[str, Any]] = []
+
+    for _category, sheets in catalogue.items():
+        for sheet in sheets:
+            product_name = (sheet.get("name") or "").strip()
+            if not product_name:
+                continue
+
+            # A) Indications (symptômes/cibles)
+            for entry in sheet.get("database", []) or []:
+                target = (entry.get("health_condition_or_goal") or "").strip().lower()
+                if target:
+                    produits.append({"produit": product_name, "cible": target})
+
+            # B) Sécurité (contre-indications)
+            safety = sheet.get("safety") or {}
+
+            # grossesse / allaitement
+            for pl in safety.get("pregnancy_lactation", []) or []:
+                condition_text = (pl.get("condition") or "").strip()
+                safety_info = (pl.get("safety_information") or "").strip()
+                combined = f"{condition_text} {safety_info}"
+                combined_l = combined.lower()
+
+                if "grossesse" in combined_l and _is_risky_pregnancy_text(combined):
+                    contres.append({"produit": product_name, "condition": "grossesse"})
+                if "allait" in combined_l and _is_risky_pregnancy_text(combined):
+                    contres.append({"produit": product_name, "condition": "allaitement"})
+
+            # interactions médicamenteuses
+            for inter in safety.get("interactions", []) or []:
+                agent = (inter.get("agent") or "").strip().lower()
+                if agent:
+                    contres.append({"produit": product_name, "condition": agent})
+
+            # précautions
+            for prec in safety.get("precautions", []) or []:
+                pop = (prec.get("population_condition") or "").strip().lower()
+                if pop:
+                    contres.append({"produit": product_name, "condition": pop})
+
+    return produits, contres
+
+
+# --- Chargement principal (utilisé par logic.py / app.py) ---
+
+CATALOGUE_COMPLET: Dict[str, List[Dict[str, Any]]] = _build_catalogue_from_data(_DATA_DIR)
+
+
+# --- Données "meta" (optionnel) ---
+
+CATEGORIES: List[Dict[str, Any]] = _load_folder_json(_DATA_DIR / "categories")
+CONDITIONS: List[Dict[str, Any]] = _load_folder_json(_DATA_DIR / "conditions")
+
+
+# --- Compatibilité service.py ---
+
+CATALOGUE_PRODUITS, CONTRE_INDICATIONS = _extract_rules(CATALOGUE_COMPLET)

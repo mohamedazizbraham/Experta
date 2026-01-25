@@ -3,7 +3,9 @@
 # --- PYTHON 3.10+ COMPATIBILITY PATCH ---
 # Experta uses an old collection mapping that was removed in Python 3.10.
 # This patch redirects the old path to the new one.
+import collections
 import collections.abc
+
 if not hasattr(collections, "Mapping"):
     collections.Mapping = collections.abc.Mapping
 # ----------------------------------------

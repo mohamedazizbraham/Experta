@@ -21,13 +21,21 @@ The system will execute 6 predefined test scenarios and display recommendations 
 
 The codebase follows a clean separation of concerns across three modules:
 
-1. **database.py** - Static data layer
-    - `CATALOGUE_COMPLET`: Full catalogue of products (name, description, dosage, `database` entries for efficacy per condition, and `safety` blocks for pregnancy/lactation and drug interactions)
-    - Safety data is embedded per product under `safety.interactions` and `safety.pregnancy_lactation`
+1. **database.py** - Data layer (loaded from JSON files)
+        - Loads all product sheets from the `data/` folder at import time.
+        - Public exports:
+            - `CATALOGUE_COMPLET`: dict of categories → list of product sheets (each sheet is a dict loaded from JSON)
+            - `CATALOGUE_PRODUITS` / `CONTRE_INDICATIONS`: flattened helper lists used by `service.py`
+            - `CATEGORIES` / `CONDITIONS`: optional “meta” JSON from `data/categories` and `data/conditions`
+        - Category mapping (keeps the same high-level idea while using `data/`):
+            - `data/supplements` → `complement_alimentaire`
+            - `data/other` → `sport_et_pratique`
+            - `data/diets` → `regime_alimentaire`
+        - Safety data is embedded per product under `safety.interactions`, `safety.pregnancy_lactation`, and `safety.precautions`.
 
 2. **logic.py** - Inference engine (core system)
     - Fact classes: `Produit`, `ContreIndication`, `BesoinClient`, `ConditionClient`, `ProduitInterdit`, `Recommandation`
-    - `chargement_initial()`: Scans `CATALOGUE_COMPLET` to yield `Produit` facts for each `health_condition_or_goal`, and `ContreIndication` facts for risky pregnancy/allaitement cases and for every listed interaction agent
+    - `initial_loading()`: Scans `CATALOGUE_COMPLET` to yield `Produit` facts for each `health_condition_or_goal`, and `ContreIndication` facts for risky pregnancy/allaitement cases and for every listed interaction agent
     - `MoteurRecommandation` (KnowledgeEngine) rules:
       - **Rule 1 (Safety)**: `detecter_danger()` - Marks products as forbidden when the client has a matching contraindication or interaction
       - **Rule 2 (Recommendation)**: `generer_recommandation()` - Recommends products matching symptoms that are not forbidden
@@ -35,7 +43,11 @@ The codebase follows a clean separation of concerns across three modules:
 3. **app.py** - User interface layer
     - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function; injects user symptoms/conditions as facts, runs the engine, and prints results
     - `afficher_details_produit(nom_produit)`: Looks up the full catalogue entry to show description, dosage, and interaction warnings
-    - Contains 6 test scenarios covering depression, contraceptives, pregnancy, insomnia, hypertension, and anticoagulants
+    - Contains 6 test scenarios (executed only when running `python app.py`, not on import)
+
+4. **test_suite.py** - Automated tests (unittest)
+    - Unit tests: verifies that `data/` categories are loaded and facts are generated
+    - Integration/regression tests: verifies correct targets (“cibles”), correct category source, and safety filtering (pregnancy + interactions)
 
 ### Inference Flow
 
@@ -66,6 +78,7 @@ Output: Filtered list of safe, relevant product recommendations
 The system requires **Python 3.10+** and includes a compatibility patch in logic.py:
 
 ```python
+import collections
 import collections.abc
 if not hasattr(collections, "Mapping"):
     collections.Mapping = collections.abc.Mapping
@@ -77,19 +90,25 @@ This patch is necessary because Experta uses the deprecated `collections.Mapping
 
 ### Adding New Products
 
-Edit `database.py` - `CATALOGUE_COMPLET` entries:
-```python
+Add a new JSON file under one of these folders:
+- `data/supplements` (→ `complement_alimentaire`)
+- `data/other` (→ `sport_et_pratique`)
+- `data/diets` (→ `regime_alimentaire`)
+
+Each product sheet should include (at minimum):
+```json
 {
     "name": "Product Name",
-    "description": "Short blurb",
-    "dosage": "e.g., 200mg/jour",
+    "description": "...",
+    "dosage": "...",
     "database": [
-        {"health_condition_or_goal": "dépression"},
-        {"health_condition_or_goal": "sommeil"}
+        {"health_condition_or_goal": "Dépression"},
+        {"health_condition_or_goal": "Sommeil"}
     ],
     "safety": {
-        "pregnancy_lactation": [{"condition": "Grossesse", "safety_information": "Éviter"}],
-        "interactions": [{"agent": "anticoagulants"}]
+        "pregnancy_lactation": [{"condition": "Éviter pendant la grossesse", "safety_information": "..."}],
+        "interactions": [{"agent": "warfarin"}],
+        "precautions": [{"population_condition": "hypertension", "details": "..."}]
     }
 }
 ```
@@ -98,7 +117,7 @@ Products can target multiple symptoms via several `database` entries and carry m
 
 ### Adding New Contraindications
 
-Add pregnancy/lactation precautions or `interactions` agents under each product's `safety` block; `chargement_initial()` will convert them into `ContreIndication` facts automatically.
+Add pregnancy/lactation precautions or `interactions` agents under each product's `safety` block; `initial_loading()` will convert them into `ContreIndication` facts automatically.
 
 ### Adding New Test Scenarios
 
@@ -109,6 +128,11 @@ lancer_diagnostic("User Name",
                   conditions_medicales=['condition1'])
 ```
 Six scenarios are provided as examples; you can append new ones at the bottom of `app.py`.
+
+To run automated tests:
+```bash
+python -m unittest -q
+```
 
 ## Important Implementation Notes
 

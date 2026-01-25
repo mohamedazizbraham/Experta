@@ -6,23 +6,21 @@
 
 **Méthodo adoptée**
 - Persona-based testing : chaque scénario incarne un profil patient réaliste pour juger la pertinence médicale.
-- Cycle red/green/refactor : l'échec initial du scénario anticoagulants a révélé l'oubli d'interaction sur la Mélatonine, corrigé puis verrouillé par le test.
+- Cycle red/green/refactor : les scénarios vérifient la cohérence entre symptômes (cibles), recommandations et filtrage sécurité à partir des JSON dans `data/`.
 - Choix `unittest` (standard lib) pour éviter toute dépendance externe et garder l'installation minimale.
 
 **Architecture des tests**
-- Unit : vérifie le chargement des catégories Sport/Herbe/Complément dans la base de faits ([test_suite.py](test_suite.py#L35-L53)).
-- Intégration : scénarios « happy path » pour dépression et insomnie, couvrant la recommandation croisée Chimie/Herbe/Sport ([test_suite.py](test_suite.py#L55-L85)).
-- Régression/Sécurité : interdiction stricte selon les conditions sensibles (Pilule, Grossesse, Hypertension, Anticoagulants) ([test_suite.py](test_suite.py#L87-L153)).
+- Unit : vérifie que les catégories issues de `data/` sont bien chargées (mapping `supplements/other/diets` → `complement_alimentaire/sport_et_pratique/regime_alimentaire`) et que des faits `Produit` sont générés.
+- Intégration : vérifie que les recommandations ont la bonne *cible* (le champ `cible` de `Recommandation` correspond au symptôme demandé) et qu’on obtient des recommandations multi-catégories quand c’est attendu.
+- Régression/Sécurité : vérifie le filtrage strict (grossesse, interactions médicamenteuses) sur des cas sensibles.
 
 **Scénarios couverts**
-- S1 Dépression simple → attend 5-HTP + Millepertuis ([test_suite.py](test_suite.py#L58-L71)).
-- S2 Sous pilule → bloque Millepertuis ([test_suite.py](test_suite.py#L90-L105)).
-- S3 Grossesse (fatigue/stress) → autorise Magnésium + Yoga uniquement ([test_suite.py](test_suite.py#L107-L125)).
-- S4 Insomnie → recommande Mélatonine + Yoga Nidra ([test_suite.py](test_suite.py#L72-L85)).
-- S5 Hypertension → bloque Guarana, propose alternative sûre Magnésium ([test_suite.py](test_suite.py#L126-L138)).
-- S6 Anticoagulants → bloque Millepertuis + Mélatonine, laisse Yoga ([test_suite.py](test_suite.py#L139-L153)).
+- S1 Dépression simple → recommande `5-HTP` (complément) + `Yoga` (pratique) et vérifie que la cible recommandée est bien “Dépression”.
+- S2 Santé cardiovasculaire générale → recommande `Diète méditerranéenne` (régime) et vérifie la cible.
+- S3 Grossesse → bloque `5-HTP` et `Mélatonine` (marqués “éviter” dans `data/`), tout en laissant `Yoga` autorisé.
+- S4 Interaction Warfarin → bloque strictement `Mélatonine` lorsque l’utilisateur déclare `Warfarin`.
 
 **État actuel**
-- 6 scénarios critiques passent en < 0.01 s.
-- Faille corrigée : interaction Mélatonine/Anticoagulants désormais couverte et testée.
-- Données réelles utilisées (pas de mocks) pour capturer les erreurs de configuration, principale source de risques dans ce moteur expert.
+- 5 tests passent (unit + intégration + régression) via : `python -m unittest -q`.
+- Données réelles utilisées (pas de mocks) pour capturer les erreurs de configuration liées aux fichiers JSON (`data/`).
+- Vérifications clés : cibles (`Recommandation.cible`), catégorie d’origine (complément/pratique/régime), et filtrage sécurité (grossesse + interactions).

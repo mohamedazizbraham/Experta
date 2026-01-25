@@ -1,6 +1,20 @@
 import unittest
 # On importe le moteur et les faits depuis vos fichiers existants
 from logic import MoteurRecommandation, BesoinClient, ConditionClient, Recommandation, ProduitInterdit, Produit
+from database import CATALOGUE_COMPLET
+
+
+def _norm(s: str) -> str:
+    return (s or "").strip().casefold()
+
+
+def _category_of_product(product_name: str) -> str:
+    name_norm = _norm(product_name)
+    for cat, items in CATALOGUE_COMPLET.items():
+        for it in items:
+            if _norm(it.get("name", "")) == name_norm:
+                return cat
+    return ""
 
 class TestSystemeExpert(unittest.TestCase):
 
@@ -27,10 +41,11 @@ class TestSystemeExpert(unittest.TestCase):
         self.engine.run()
         
         # Extraction des résultats
-        recos = [f['nom'] for f in self.engine.facts.values() if isinstance(f, Recommandation)]
-        interdits = [f['produit'] for f in self.engine.facts.values() if isinstance(f, ProduitInterdit)]
-        
-        return recos, interdits
+        matches = [(f["nom"], f["cible"]) for f in self.engine.facts.values() if isinstance(f, Recommandation)]
+        recos = [p for (p, _c) in matches]
+        interdits = [f["produit"] for f in self.engine.facts.values() if isinstance(f, ProduitInterdit)]
+
+        return recos, interdits, matches
 
     # ====================================================================
     # 1. UNIT TESTS (Vérification technique)
@@ -38,18 +53,25 @@ class TestSystemeExpert(unittest.TestCase):
 
     def test_unit_chargement_categories(self):
         """
-        Vérifie que le parser lit bien les différentes catégories du dictionnaire.
-        On vérifie qu'on trouve au moins un produit de chaque type.
+        Vérifie que le catalogue issu de data/ est bien chargé.
+        On vérifie qu'on trouve au moins un produit de chaque catégorie.
         """
+        # Clés attendues (mappées depuis data/)
+        self.assertIn("complement_alimentaire", CATALOGUE_COMPLET)
+        self.assertIn("sport_et_pratique", CATALOGUE_COMPLET)
+        self.assertIn("regime_alimentaire", CATALOGUE_COMPLET)
+
+        self.assertGreater(len(CATALOGUE_COMPLET["complement_alimentaire"]), 0)
+        self.assertGreater(len(CATALOGUE_COMPLET["sport_et_pratique"]), 0)
+        self.assertGreater(len(CATALOGUE_COMPLET["regime_alimentaire"]), 0)
+
         # On récupère tous les faits 'Produit' chargés en mémoire
-        tous_produits = [f['nom'] for f in self.engine.facts.values() if isinstance(f, Produit)]
-        
-        # Test Catégorie Sport
-        self.assertTrue(any("Yoga" in p for p in tous_produits), "Erreur: Le Yoga (Sport) n'est pas chargé.")
-        # Test Catégorie Herbe
-        self.assertTrue(any("Millepertuis" in p for p in tous_produits), "Erreur: Le Millepertuis (Herbe) n'est pas chargé.")
-        # Test Catégorie Complément
-        self.assertTrue(any("Magnésium" in p for p in tous_produits), "Erreur: Le Magnésium (Complément) n'est pas chargé.")
+        tous_produits = [f["nom"] for f in self.engine.facts.values() if isinstance(f, Produit)]
+
+        # Un produit par catégorie (noms réels dans data/)
+        self.assertTrue(any(_norm(p) == _norm("Yoga") for p in tous_produits), "Erreur: Yoga (Sport) n'est pas chargé.")
+        self.assertTrue(any(_norm(p) == _norm("Mélatonine") for p in tous_produits), "Erreur: Mélatonine (Complément) n'est pas chargée.")
+        self.assertTrue(any(_norm(p) == _norm("Diète méditerranéenne") for p in tous_produits), "Erreur: Diète méditerranéenne (Régime) n'est pas chargée.")
 
     # ====================================================================
     # 2. INTEGRATION TESTS (Scénarios "Happy Path" - Ça marche ?)
@@ -58,98 +80,82 @@ class TestSystemeExpert(unittest.TestCase):
     def test_scenario_1_depression_simple(self):
         """
         SCÉNARIO 1 : Patient A (Dépressif simple)
-        Attendu : Doit recevoir des solutions de plusieurs catégories (Chimie + Herbe).
+        Attendu : Doit recevoir des solutions de plusieurs catégories (Complément + Pratique).
         """
-        recos, _ = self._lancer_moteur(
+        recos, interdits, matches = self._lancer_moteur(
             symptomes=['Dépression'], 
             conditions=[]
         )
-        
-        # Vérification Holistique
-        self.assertIn("5-HTP", recos, "Devrait recommander 5-HTP")
-        self.assertIn("Millepertuis (St. John's Wort)", recos, "Devrait recommander Millepertuis")
 
-    def test_scenario_4_insomnie_simple(self):
+        # Vérification: cibles et catégories
+        self.assertIn("5-HTP", recos, "Devrait recommander 5-HTP")
+        self.assertIn("Yoga", recos, "Devrait recommander Yoga")
+        self.assertNotIn("5-HTP", interdits)
+        self.assertNotIn("Yoga", interdits)
+
+        # Vérifie que les recommandations ont la bonne cible
+        cible = _norm("Dépression")
+        for p, c in matches:
+            if p in ("5-HTP", "Yoga"):
+                self.assertEqual(_norm(c), cible)
+
+        self.assertEqual(_category_of_product("5-HTP"), "complement_alimentaire")
+        self.assertEqual(_category_of_product("Yoga"), "sport_et_pratique")
+
+    def test_scenario_2_cardiovasculaire_diete(self):
         """
-        SCÉNARIO 4 : Patient D (Insomnie)
-        Attendu : Approche holistique complète (Chimie + Sport).
+        SCÉNARIO 2 : Santé cardiovasculaire
+        Attendu : Recommande la diète méditerranéenne.
         """
-        recos, _ = self._lancer_moteur(
-            symptomes=['Sommeil'], 
+        recos, _interdits, matches = self._lancer_moteur(
+            symptomes=['Santé cardiovasculaire générale'],
             conditions=[]
         )
-        
-        # On s'attend à voir du Yoga (Sport) ET de la Mélatonine (Chimie)
-        self.assertIn("Mélatonine", recos)
-        self.assertIn("Yoga Nidra (Méditation)", recos)
+
+        self.assertIn("Diète méditerranéenne", recos)
+        self.assertEqual(_category_of_product("Diète méditerranéenne"), "regime_alimentaire")
+
+        cible = _norm("Santé cardiovasculaire générale")
+        for p, c in matches:
+            if p == "Diète méditerranéenne":
+                self.assertEqual(_norm(c), cible)
 
     # ====================================================================
     # 3. REGRESSION TESTS (Scénarios de Sécurité - Ça ne casse pas ?)
     # ====================================================================
 
-    def test_scenario_2_interaction_pilule(self):
+    def test_scenario_3_grossesse_filtre(self):
         """
-        SCÉNARIO 2 : Patiente B (Sous Pilule)
-        Attendu : Le Millepertuis doit être STRICTEMENT interdit.
+        SCÉNARIO 3 : Grossesse
+        Attendu : Les produits marqués "éviter" pendant la grossesse sont bloqués.
+        Yoga reste autorisé.
         """
-        recos, interdits = self._lancer_moteur(
-            symptomes=['Dépression'], 
-            conditions=['Contraceptifs oraux (Pilule)']
-        )
-        
-        # Le 5-HTP est OK
-        self.assertIn("5-HTP", recos)
-        
-        # Le Millepertuis est INTERDIT
-        self.assertIn("Millepertuis (St. John's Wort)", interdits)
-        self.assertNotIn("Millepertuis (St. John's Wort)", recos, "FAIL: Millepertuis recommandé avec la pilule !")
-
-    def test_scenario_3_femme_enceinte(self):
-        """
-        SCÉNARIO 3 : Patiente C (Enceinte Fatiguée)
-        Attendu : Filtrage massif. Seuls Magnésium et Yoga sont autorisés.
-        """
-        recos, interdits = self._lancer_moteur(
-            symptomes=['Fatigue', 'Stress'], 
+        recos, interdits, _matches = self._lancer_moteur(
+            symptomes=['Dépression'],
             conditions=['Grossesse']
         )
-        
-        # Ce qui est autorisé
-        self.assertIn("Magnésium Bisglycinate", recos)
-        self.assertIn("Yoga Nidra (Méditation)", recos)
-        
-        # Ce qui doit être bloqué (vérification multiple)
-        produits_dangereux = ["Guarana", "5-HTP", "Millepertuis (St. John's Wort)"]
-        for p in produits_dangereux:
-            self.assertNotIn(p, recos, f"FAIL DE SÉCURITÉ: {p} a été recommandé à une femme enceinte.")
 
-    def test_scenario_5_hypertension(self):
-        """
-        SCÉNARIO 5 : Patient E (Hypertendu)
-        Attendu : Le Guarana (Stimulant) doit être bloqué.
-        """
-        recos, interdits = self._lancer_moteur(
-            symptomes=['Fatigue'], 
-            conditions=['Hypertension']
-        )
-        
-        self.assertIn("Magnésium Bisglycinate", recos) # Alternative sûre
-        self.assertNotIn("Guarana", recos, "FAIL: Guarana recommandé à un hypertendu.")
+        # Yoga reste OK
+        self.assertIn("Yoga", recos)
 
-    def test_scenario_6_anticoagulants(self):
+        # Produits à éviter pendant la grossesse (d'après data/)
+        self.assertIn("5-HTP", interdits)
+        self.assertIn("Mélatonine", interdits)
+        self.assertNotIn("5-HTP", recos, "FAIL: 5-HTP recommandé pendant la grossesse")
+        self.assertNotIn("Mélatonine", recos, "FAIL: Mélatonine recommandée pendant la grossesse")
+
+    def test_scenario_4_interaction_warfarin(self):
         """
-        SCÉNARIO 6 : Patient F (Sous Anticoagulants)
-        Attendu : Interactions croisées bloquées (Millepertuis + Mélatonine).
+        SCÉNARIO 4 : Interaction médicamenteuse
+        Attendu : Mélatonine est bloquée si l'utilisateur prend Warfarin.
         """
-        recos, interdits = self._lancer_moteur(
-            symptomes=['Dépression', 'Sommeil'], 
-            conditions=['Anticoagulants']
+        recos, interdits, _matches = self._lancer_moteur(
+            symptomes=['Hypertension artérielle'],
+            conditions=['Warfarin']
         )
-        
-        # Vérifications
-        self.assertNotIn("Millepertuis (St. John's Wort)", recos)
-        self.assertNotIn("Mélatonine", recos)
-        self.assertIn("Yoga Nidra (Méditation)", recos) # Le sport reste autorisé
+
+        self.assertIn("Mélatonine", interdits)
+        self.assertNotIn("Mélatonine", recos, "FAIL: Mélatonine recommandée malgré Warfarin")
 
 if __name__ == '__main__':
     # Lance tous les tests et affiche le rapport
