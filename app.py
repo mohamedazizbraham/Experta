@@ -5,7 +5,7 @@ Interface console de démonstration.
 Compatible avec `database.py` qui charge automatiquement les JSON depuis `data/`.
 """
 
-from logic import MoteurRecommandation, BesoinClient, ConditionClient, Recommandation
+from logic import match_symptoms_with_products
 from database import CATALOGUE_COMPLET
 
 
@@ -67,22 +67,23 @@ def afficher_details_produit(nom_produit):
             print(f"   ⚠️ Interactions connues : {', '.join(agents)}")
 
 def lancer_diagnostic(nom_user, symptomes, conditions_medicales=None):
+    """
+    Diagnostic function that matches patient symptoms with product recommendations.
+    
+    Uses the new match_symptoms_with_products() function for exact symptom-to-product matching.
+    
+    Args:
+        nom_user: Patient name/identifier
+        symptomes: List of patient symptoms
+        conditions_medicales: Optional list of medical conditions (for future safety checks)
+    """
     if conditions_medicales is None:
         conditions_medicales = []
-    engine = MoteurRecommandation()
-    engine.reset() # Charge les données JSON converties en faits par logic.py
     
-    # Injection des faits utilisateur
-    # On met les symptômes en minuscule pour correspondre au parser de logic.py
-    for s in symptomes:
-        engine.declare(BesoinClient(symptome=(s or "").lower()))
-        
-    for c in conditions_medicales:
-        engine.declare(ConditionClient(condition=(c or "").lower()))
-        
-    engine.run()
+    # Get recommendations by matching symptoms with products
+    recommendations = match_symptoms_with_products(symptomes)
     
-    # Affichage des résultats
+    # Display results
     print(f"\n{'='*60}")
     print(f"PATIENT : {nom_user.upper()}")
     print(f"Besoin : {symptomes}")
@@ -90,22 +91,16 @@ def lancer_diagnostic(nom_user, symptomes, conditions_medicales=None):
         print(f"/!\\ Conditions Médicales : {conditions_medicales}")
     print(f"{'-'*60}")
     
-    facts_list = list(engine.facts.values())
-    found = False
-    deja_affiche = set()
-
-    for fait in facts_list:
-        if isinstance(fait, Recommandation):
-            unique_key = fait['nom']
-            # Petit système pour ne pas afficher 2 fois le même produit si il répond à 2 besoins
-            if unique_key not in deja_affiche:
-                print(f"✅ RECOMMANDATION : {fait['nom']} (Cible : {fait['cible']})")
-                afficher_details_produit(fait['nom'])
-                deja_affiche.add(unique_key)
-                found = True
+    if recommendations:
+        # Display each recommended product
+        for product_name, match_info in recommendations.items():
+            score = match_info["score"]
+            matched_symptoms = match_info["matched_symptoms"]
+            print(f"✅ RECOMMANDATION : {product_name} (Symptômes matchés : {', '.join(matched_symptoms)}, Score: {score})")
+            afficher_details_produit(product_name)
+    else:
+        print("❌ Aucune recommandation trouvée.")
     
-    if not found:
-        print("❌ Aucune recommandation trouvée (ou tous les produits compatibles sont bloqués par sécurité).")
     print(f"{'='*60}\n")
 
 if __name__ == "__main__":
