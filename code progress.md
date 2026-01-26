@@ -68,7 +68,7 @@ Pour atteindre ce niveau de détail, nous avons dû accepter certains compromis 
 
 ## 4️⃣ État d'Avancement (Progress)
 
-Le système est passé d'un **prototype "jouet"** à une **architecture structurée**.
+Le système est passé d'un **prototype "jouet"** à une **architecture structurée et optimisée**.
 
 ###  Validations Complétées
 
@@ -76,13 +76,87 @@ Le système est passé d'un **prototype "jouet"** à une **architecture structur
 - ✓ Transition réussie : liste simple → Dictionnaire Catégorisé (`CATALOGUE_COMPLET`)
 - ✓ Format JSON complexe supporté
 
-** Moteur d'Inférence (Opérationnel)**
-- ✓ Lecture récursive des sous-catégories
-- ✓ Règles de sécurité (`safety`) scannent correctement
-- ✓ Détection des interactions médicamenteuses et conditions (Grossesse, etc.)
-- ✓ Couverture multi-catégories
+** Extraction des Health Conditions (Nouveau - Optimisé)**
+- ✓ Fonction dédiée : `extract_health_conditions_from_supplements()`
+- ✓ Extraction claire et réutilisable des `health_condition_or_goal`
+- ✓ Retourne un dictionnaire structuré pour faciliter la réutilisation
 
-** Interface de Test (Fonctionnelle)**
-- ✓ Script `app.py` pour simuler des scénarios complexes
-- ✓ Résultats mixtes (Chimie + Sport)
-- ✓ Filtrage automatique des produits dangereux
+** Normalisation des Conditions (Nouveau - Robuste)**
+- ✓ Fonction `normalize_health_condition()` pour normaliser les conditions
+- ✓ Exemples : "Santé du sommeil" → "sommeil", "Santé cardiovasculaire" → "cardiovasculaire"
+- ✓ Utilisée partout pour garantir la cohérence
+
+** Matching Symptômes-Produits (Nouveau - Principal)**
+- ✓ Fonction `match_symptoms_with_products()` pour correspondance exacte
+- ✓ Prend les symptômes du patient et retourne les produits recommandés
+- ✓ Calcule un score basé sur le nombre de symptômes matchés
+- ✓ Trie automatiquement par pertinence
+
+** Interface de Test (Refactorisée)**
+- ✓ Script `app.py` simplifié et plus lisible
+- ✓ Utilise maintenant la fonction `match_symptoms_with_products()` au lieu du moteur Experta complet
+- ✓ Affichage amélioré avec scores et symptômes matchés
+- ✓ Performance accrue (pas de moteur d'inférence complexe)
+
+---
+
+## 5️⃣ Architecture Actuelle (Current Architecture)
+
+### Flux de Traitement Simplifié
+
+```
+Patient Symptoms (ex: ["Sommeil"])
+        ↓
+[match_symptoms_with_products()]
+        ↓
+extract_health_conditions_from_supplements()  →  {"Alpha-Lactalbumin": ["Santé du sommeil"], ...}
+        ↓
+normalize_health_condition()  →  "santé du sommeil" → "sommeil"
+        ↓
+Matching: "sommeil" (patient) == "sommeil" (product)
+        ↓
+Return: {"Alpha-Lactalbumin": {"matched_symptoms": ["sommeil"], "score": 1}, ...}
+        ↓
+Display Results (app.py)
+```
+
+### Fonctions Clés dans `logic.py`
+
+| Fonction | Rôle | Retour |
+|----------|------|--------|
+| `extract_health_conditions_from_supplements()` | Extrait les conditions brutes de la BD | `Dict[str, List[str]]` |
+| `normalize_health_condition()` | Normalise une condition | `str` |
+| `match_symptoms_with_products()` | Matching patient ↔ produits | `Dict[str, Dict]` (avec score) |
+
+### Évolution du Moteur Experta
+
+**Avant (Complexe):**
+- Utilisait un moteur d'inférence Experta complet
+- Déclaration de faits : `BesoinClient`, `ConditionClient`, `Recommandation`
+- Règles imbriquées pour validation
+- Nécessitait un patch Python 3.10+
+
+**Après (Optimisé):**
+- Approche fonctionnelle directe
+- Pas d'engine d'inférence nécessaire pour le matching basique
+- Code plus lisible et maintenable
+- Moteur Experta toujours disponible pour règles de sécurité avancées (future)
+
+---
+
+## 6️⃣ Prochaines Étapes (Next Steps)
+
+### Intégration Sécurité
+- [ ] Implémenter vérification des contre-indications (`ContreIndication`)
+- [ ] Valider les conditions médicales du patient
+- [ ] Bloquer les produits dangereux avant affichage
+
+### Enrichissement des Données
+- [ ] Ajouter plus de produits avec `health_condition_or_goal`
+- [ ] Documenter les grades de preuve (A, B, C, D)
+- [ ] Compléter les sections `safety` et `outcomes`
+
+### Performance & Scalabilité
+- [ ] Cache les résultats `extract_health_conditions_from_supplements()`
+- [ ] Tester avec large volume de produits
+- [ ] Optimiser la normalisation (possible regex)

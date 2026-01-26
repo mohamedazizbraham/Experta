@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an **expert system using Experta** (Python rule engine) that recommends health and wellness products from a JSON-style catalogue based on user symptoms while respecting medical contraindications and drug interactions. The engine filters unsafe options first, then surfaces safe, personalized recommendations.
+This is an **expert system for health and wellness product recommendations** that matches patient symptoms with products from a JSON catalogue while respecting medical contraindications and drug interactions. The system uses a simplified, direct matching approach for core functionality, with Experta available for advanced safety rule enforcement.
 
 ## Running the System
 
@@ -33,45 +33,51 @@ The codebase follows a clean separation of concerns across three modules:
             - `data/diets` → `regime_alimentaire`
         - Safety data is embedded per product under `safety.interactions`, `safety.pregnancy_lactation`, and `safety.precautions`.
 
-2. **logic.py** - Inference engine (core system)
-    - Fact classes: `Produit`, `ContreIndication`, `BesoinClient`, `ConditionClient`, `ProduitInterdit`, `Recommandation`
-    - `initial_loading()`: Scans `CATALOGUE_COMPLET` to yield `Produit` facts for each `health_condition_or_goal`, and `ContreIndication` facts for risky pregnancy/allaitement cases and for every listed interaction agent
-    - `MoteurRecommandation` (KnowledgeEngine) rules:
-      - **Rule 1 (Safety)**: `detecter_danger()` - Marks products as forbidden when the client has a matching contraindication or interaction
-      - **Rule 2 (Recommendation)**: `generer_recommandation()` - Recommends products matching symptoms that are not forbidden
+2. **logic.py** - Core matching & inference engine
+    - **Three key functions** (reusable everywhere):
+      - `extract_health_conditions_from_supplements()`: Extracts all `health_condition_or_goal` from supplements database into a structured dict
+      - `normalize_health_condition(condition: str)`: Normalizes conditions (e.g., "Santé du sommeil" → "sommeil")
+      - `match_symptoms_with_products(symptoms: List[str])`: Matches patient symptoms against product conditions, returns scored recommendations
+    
+    - **Fact classes** (Experta - for future advanced safety rules):
+      - `Produit`, `ContreIndication`, `BesoinClient`, `ConditionClient`, `ProduitInterdit`, `Recommandation`
+    - `MoteurRecommandation`: Legacy inference engine (can still be used for complex safety validation in future)
 
 3. **app.py** - User interface layer
-    - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function; injects user symptoms/conditions as facts, runs the engine, and prints results
-    - `afficher_details_produit(nom_produit)`: Looks up the full catalogue entry to show description, dosage, and interaction warnings
-    - Contains 6 test scenarios (executed only when running `python app.py`, not on import)
+    - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function using `match_symptoms_with_products()`
+    - `afficher_details_produit(nom_produit)`: Displays product details (description, dosage, interactions)
+    - Contains 6 test scenarios
 
 4. **test_suite.py** - Automated tests (unittest)
-    - Unit tests: verifies that `data/` categories are loaded and facts are generated
-    - Integration/regression tests: verifies correct targets (“cibles”), correct category source, and safety filtering (pregnancy + interactions)
+    - Unit tests: verifies data loading and extraction
+    - Integration tests: verifies matching accuracy and filtering
 
 ### Inference Flow
 
 ```
-User Input (symptoms + medical conditions)
+Patient Symptoms (e.g., ["Sommeil", "Fatigue"])
     ↓
-Declare BesoinClient facts (symptoms)
-Declare ConditionClient facts (medical conditions)
+match_symptoms_with_products(symptoms)
     ↓
-Engine loads CATALOGUE_COMPLET (symptom coverage + safety)
+    ├─ extract_health_conditions_from_supplements()
+    │  └─ Returns: {"Alpha-Lactalbumin": ["Santé du sommeil"], ...}
+    │
+    └─ For each symptom:
+       ├─ normalize_health_condition(symptom)  → "sommeil"
+       └─ Compare against normalized product conditions
     ↓
-Rule 1 executes: Identify forbidden products (interactions + pregnancy/lactation)
+Return: {"Alpha-Lactalbumin": {"matched_symptoms": ["sommeil"], "score": 1}, ...}
     ↓
-Rule 2 executes: Generate recommendations (matching + safe products only)
-    ↓
-Output: Filtered list of safe, relevant product recommendations
+Display: Sorted by score (highest first)
 ```
 
 ### Key Design Patterns
 
-- **Safety-First Architecture**: Contraindication and interaction checking (Rule 1) executes before recommendations (Rule 2)
-- **Multi-Target Products**: Products can target multiple symptoms via multiple `database` entries per item
-- **Negative Filtering**: Uses `NOT(ProduitInterdit(produit=MATCH.p))` in Rule 2 to ensure forbidden products are never recommended
-- **Fact-Based Inference**: All data (products, contraindications/interactions, client needs) are represented as Facts that trigger rules
+- **Direct Matching Approach**: Simple, transparent symptom-to-product matching without heavy inference
+- **Normalization Layer**: All conditions normalized consistently (removes stop words like "santé", "de", "du")
+- **Scoring System**: Products scored by number of matched symptoms for relevance ranking
+- **Reusable Functions**: Core extraction/normalization functions importable for use elsewhere
+- **Safety-Ready**: Experta engine still available for contraindication/interaction checks (future enhancement)
 
 ## Python Compatibility
 
@@ -84,7 +90,48 @@ if not hasattr(collections, "Mapping"):
     collections.Mapping = collections.abc.Mapping
 ```
 
-This patch is necessary because Experta uses the deprecated `collections.Mapping` (removed in Python 3.10). The patch redirects it to `collections.abc.Mapping`.
+This patch redirects deprecated `collections.Mapping` (removed in Python 3.10) to `collections.abc.Mapping`.
+
+## Core Functions Reference
+
+### `extract_health_conditions_from_supplements()`
+Extracts all health conditions from the supplement database.
+```python
+from logic import extract_health_conditions_from_supplements
+
+conditions = extract_health_conditions_from_supplements()
+# Returns: {"Alpha-Lactalbumin": ["Santé du sommeil"], "5-HTP": ["Dépression", "Sommeil"], ...}
+```
+
+### `normalize_health_condition(condition: str)`
+Normalizes a health condition string.
+```python
+from logic import normalize_health_condition
+
+normalized = normalize_health_condition("Santé du sommeil")
+# Returns: "sommeil"
+```
+
+### `match_symptoms_with_products(symptoms: List[str])`
+Matches patient symptoms with products.
+```python
+from logic import match_symptoms_with_products
+
+recommendations = match_symptoms_with_products(["Sommeil", "Stress"])
+# Returns:
+# {
+#   "Alpha-Lactalbumin": {
+#       "matched_symptoms": ["sommeil"],
+#       "raw_conditions": ["Santé du sommeil"],
+#       "score": 1
+#   },
+#   "5-HTP": {
+#       "matched_symptoms": ["sommeil", "stress"],
+#       "raw_conditions": ["Anxiété", "Sommeil"],
+#       "score": 2
+#   }
+# }
+```
 
 ## Extending the System
 
@@ -106,18 +153,12 @@ Each product sheet should include (at minimum):
         {"health_condition_or_goal": "Sommeil"}
     ],
     "safety": {
-        "pregnancy_lactation": [{"condition": "Éviter pendant la grossesse", "safety_information": "..."}],
-        "interactions": [{"agent": "warfarin"}],
-        "precautions": [{"population_condition": "hypertension", "details": "..."}]
+        "pregnancy_lactation": [],
+        "interactions": [],
+        "precautions": []
     }
 }
 ```
-
-Products can target multiple symptoms via several `database` entries and carry multiple interaction agents.
-
-### Adding New Contraindications
-
-Add pregnancy/lactation precautions or `interactions` agents under each product's `safety` block; `initial_loading()` will convert them into `ContreIndication` facts automatically.
 
 ### Adding New Test Scenarios
 
@@ -127,7 +168,6 @@ lancer_diagnostic("User Name",
                   symptomes=['symptom1', 'symptom2'],
                   conditions_medicales=['condition1'])
 ```
-Six scenarios are provided as examples; you can append new ones at the bottom of `app.py`.
 
 To run automated tests:
 ```bash
@@ -136,12 +176,14 @@ python -m unittest -q
 
 ## Important Implementation Notes
 
-- **No modification needed to logic.py when adding products/contraindications**: The inference engine automatically processes new entries from `CATALOGUE_COMPLET`
-- **Rule execution is automatic**: Experta handles rule matching and firing order based on declared Facts
-- **Duplicate recommendations are filtered**: `app.py` uses a set (`deja_affiche`) to avoid printing the same product twice when it matches multiple needs
-- **Test scenarios cover safety cases**: See `Explication/RESULTATS_EXECUTION.md` for execution results showing the system correctly filters contraindicated or interacting products
+- **No modification needed when adding products**: New products are automatically loaded and matched
+- **Normalization is consistent**: All condition matching uses the same normalization function
+- **Scoring is automatic**: Products are ranked by number of symptom matches
+- **Reusable components**: Core functions can be imported and used in other modules
+- **Future safety integration**: Experta engine can be enhanced to validate contraindications before display
 
 ## Documentation
 
-- `Explication/EXPLICATION.md`: Detailed French documentation explaining system architecture, data flow, and component roles
-- `Explication/RESULTATS_EXECUTION.md`: Execution results for the predefined test scenarios with safety verification
+- `Explication/EXPLICATION.md`: Detailed French documentation
+- `Explication/RESULTATS_EXECUTION.md`: Execution results and examples
+- `code progress.md`: Development progress and architectural decisions

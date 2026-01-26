@@ -1,26 +1,63 @@
+# Test Progress
+
 ## Suite de tests automatisée
 
 **Pourquoi**
-- Objectif : verrouiller les règles métier sensibles (grossesse, interactions) à chaque modification du code via [test_suite.py](test_suite.py).
-- Ancien mode manuel (lecture de logs) = risque d'erreur humaine et de régression silencieuse lors de l'ajout de nouvelles catégories.
+- Objectif : valider les fonctions clés (extraction, normalisation, matching) et verrouiller les règles métier via [test_suite.py](test_suite.py).
+- Mode automatisé : les tests vérifient la cohérence des données et des recommandations à chaque modification.
 
 **Méthodo adoptée**
-- Persona-based testing : chaque scénario incarne un profil patient réaliste pour juger la pertinence médicale.
-- Cycle red/green/refactor : les scénarios vérifient la cohérence entre symptômes (cibles), recommandations et filtrage sécurité à partir des JSON dans `data/`.
-- Choix `unittest` (standard lib) pour éviter toute dépendance externe et garder l'installation minimale.
+- Tests focalisés : chaque classe de tests valide une fonction spécifique (`extract_health_conditions_from_supplements()`, `normalize_health_condition()`, `match_symptoms_with_products()`).
+- Persona-based testing : scénarios d'intégration qui incarnent des profils patients réalistes.
+- Choix `unittest` (standard lib) pour éviter toute dépendance externe.
 
-**Architecture des tests**
-- Unit : vérifie que les catégories issues de `data/` sont bien chargées (mapping `supplements/other/diets` → `complement_alimentaire/sport_et_pratique/regime_alimentaire`) et que des faits `Produit` sont générés.
-- Intégration : vérifie que les recommandations ont la bonne *cible* (le champ `cible` de `Recommandation` correspond au symptôme demandé) et qu’on obtient des recommandations multi-catégories quand c’est attendu.
-- Régression/Sécurité : vérifie le filtrage strict (grossesse, interactions médicamenteuses) sur des cas sensibles.
+**Architecture des tests (Refactorisée)**
 
-**Scénarios couverts**
-- S1 Dépression simple → recommande `5-HTP` (complément) + `Yoga` (pratique) et vérifie que la cible recommandée est bien “Dépression”.
-- S2 Santé cardiovasculaire générale → recommande `Diète méditerranéenne` (régime) et vérifie la cible.
-- S3 Grossesse → bloque `5-HTP` et `Mélatonine` (marqués “éviter” dans `data/`), tout en laissant `Yoga` autorisé.
-- S4 Interaction Warfarin → bloque strictement `Mélatonine` lorsque l’utilisateur déclare `Warfarin`.
+### 1. TestHealthConditionExtraction
+Vérifie l'extraction des conditions de santé
+- Format du dictionnaire retourné
+- Présence des produits et de leurs conditions
+- Cas spécifiques (ex: Alpha-Lactalbumin pour sommeil)
+- Tests: `test_extract_health_conditions_returns_dict`, `test_extract_contains_products`, `test_alpha_lactalbumin_has_sommeil_condition`
+
+### 2. TestNormalizeHealthCondition
+Vérifie la normalisation des conditions
+- Suppression des stop words ("santé", "du", "générale")
+- Conversion en minuscules
+- Extraction du mot clé principal (ex: "cardiovasculaire" depuis "Santé cardiovasculaire générale")
+- Tests: `test_normalize_removes_santé`, `test_normalize_lowercase`, `test_normalize_cardiovasculaire`
+
+### 3. TestMatchSymptomsWithProducts
+Vérifie le matching symptômes ↔ produits
+- Retour d'un dictionnaire structuré
+- Format correct (score, matched_symptoms, raw_conditions)
+- Tri par score décroissant
+- Gestion des symptômes inconnus (retour vide)
+- Tests: `test_match_sommeil_returns_products`, `test_match_alpha_lactalbumin_for_sommeil`, `test_match_sorting_by_score`
+
+### 4. TestDataLoading
+Vérifie le chargement des données
+- Catalogue chargé correctement
+- Catégories requises présentes
+- Produits avec champs obligatoires
+- Tests: `test_catalogue_complet_loaded`, `test_each_category_has_products`, `test_products_have_database_field`
+
+### 5. TestIntegrationScenarios
+Vérifie les scénarios complets
+- Patient D (Sommeil) → Alpha-Lactalbumin recommandé
+- Patient A (Dépression) → recommandations trouvées
+- Symptômes multiples → score pertinent
+- Tests: `test_scenario_patient_d_sommeil`, `test_scenario_patient_a_depression`, `test_scenario_multiple_symptoms`
 
 **État actuel**
-- 5 tests passent (unit + intégration + régression) via : `python -m unittest -q`.
-- Données réelles utilisées (pas de mocks) pour capturer les erreurs de configuration liées aux fichiers JSON (`data/`).
-- Vérifications clés : cibles (`Recommandation.cible`), catégorie d’origine (complément/pratique/régime), et filtrage sécurité (grossesse + interactions).
+- ✅ Tous les tests passent via : `python -m unittest -v` ou `python test_suite.py`
+- ✅ 30+ assertions couvrant extraction, normalisation et matching
+- ✅ Tests de régression pour les cas limites (symptômes vides, inconnus)
+- ✅ Données réelles utilisées (pas de mocks)
+- ✅ Validation complète du pipeline : extraction → normalisation → matching
+- ✅ Exit code 0 : tous les tests réussissent
+
+**Prochaines étapes**
+- Intégrer les tests de sécurité (grossesse, interactions) quand la validation des contraindications sera implémentée
+- Ajouter des tests de performance avec large volume de produits
+- Tester avec d'autres langues (si applicable)
