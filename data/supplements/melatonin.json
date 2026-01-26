@@ -1,0 +1,2492 @@
+{
+  "slug": "melatonin",
+  "name": "Mélatonine",
+  "name_en": "Melatonin",
+  "description": "La mélatonine est une hormone sécrétée dans le cerveau qui régule le sommeil. Elle semble être très sensible à la luminothérapie et à la thérapie par l’obscurité. L’ingestion orale de mélatonine peut être utilisée comme aide au sommeil. Elle n’est pas addictive.",
+  "overview": [
+    {
+      "question": "Qu’est-ce que la mélatonine ?",
+      "answer": "La mélatonine est un neurohormone, sécrété par la glande pinéale dans le cerveau, qui régule le cycle sommeil/éveil. La lumière supprime la synthèse de la mélatonine. L’utilisation principale de la mélatonine comme supplément est de normaliser les schémas de sommeil anormaux."
+    },
+    {
+      "question": "Quels sont les principaux bienfaits de la mélatonine ?",
+      "answer": "Des schémas de sommeil irréguliers sont associés à une grande variété de problèmes de santé. La mélatonine est l’hormone utilisée par votre corps pour vous aider à vous endormir, et la supplémentation est donc considérée comme un moyen d’obtenir un sommeil régulier. Cela est particulièrement utile pour les personnes qui travaillent en horaires décalés ou qui souffrent du décalage horaire. La mélatonine peut également atténuer les symptômes du syndrome de l’intestin irritable (SII), [3] réduire la sévérité des acouphènes, [4] abaisser le taux de glycémie chez les personnes atteintes de diabète de type 2, [5] et entraîner de petites (peut-être négligeables) pertes de poids. [6] Des recherches sont en cours sur la supplémentation en mélatonine comme traitement adjuvant dans le cancer, [7] bien que les études humaines sur le sujet soient limitées. Certains groupes démographiques ont tendance à présenter une production ou un métabolisme irréguliers de mélatonine. Les fumeurs peuvent être moins réactifs à la supplémentation en raison d’une dégradation enzymatique accrue de la molécule, et les personnes âgées semblent produire moins de mélatonine pendant la nuit. Cela pourrait expliquer pourquoi la mélatonine semble avoir un effet plus constant chez les personnes âgées. [8] Enfin, une méta-analyse suggère que la supplémentation en mélatonine peut améliorer modestement les symptômes de la dépression, bien que les études sur le sujet varient largement dans leurs conclusions. Bien que la mélatonine soit probablement sûre et potentiellement utile pour la dépression, il n’est pas certain qu’elle fonctionne dans tous les cas. [9]"
+    },
+    {
+      "question": "Quels sont les principaux inconvénients de la mélatonine ?",
+      "answer": "À des doses habituelles, la mélatonine semble assez sûre. Les effets secondaires sont à la fois rares et généralement légers, incluant somnolence diurne, maux de tête et nausées. Très rarement, des effets indésirables graves liés à la supplémentation en mélatonine (souvent à très fortes doses) ont été signalés. La mélatonine n’est pas addictive."
+    },
+    {
+      "question": "Comment agit la mélatonine ?",
+      "answer": "En tant qu’hormone, la fonction principale de la mélatonine est de favoriser le déclenchement et le maintien du sommeil. Elle y parvient en activant les récepteurs de la mélatonine dans le cerveau, qui inhibent l’activité neuronale et régulent le rythme circadien du corps. Des récepteurs de la mélatonine ont également été identifiés dans de nombreux autres tissus (notamment le tractus intestinal, le pancréas et les cellules immunitaires), ce qui pourrait expliquer certains des autres effets bénéfiques de la mélatonine sur la santé."
+    }
+  ],
+  "dosage": "Pour réguler le cycle du sommeil et améliorer les troubles du sommeil, des doses de mélatonine comprises entre 300 microgrammes (μg) et 5 mg se sont avérées efficaces. [1] [2] Commencez avec 300 μg et augmentez jusqu’à 5 mg selon les besoins. Les effets bénéfiques de la mélatonine ne sont pas dépendants de la dose - prendre davantage n’accélérera pas l’endormissement. Cela dit, la dose la plus efficace fait l’objet de recherches en cours. Pour favoriser le sommeil, prenez-la environ 30 minutes avant le coucher, bien que certaines personnes puissent en tirer profit en la prenant jusqu’à 3 heures à l’avance.",
+  "safety": {
+    "summary": [
+      "La mélatonine peut provoquer des effets indésirables, notamment somnolence, céphalées, nausées, vertiges et rêves anormaux.",
+      "Globalement, la mélatonine présente un faible risque de toxicité.",
+      "La mélatonine peut augmenter le risque de sédation lorsqu’elle est associée à d’autres médicaments sédatifs, et les agents qui modifient l’activité du CYP1A2 (inhibiteurs ou inducteurs du CYP1A2) peuvent influencer le métabolisme de la mélatonine.",
+      "La supplémentation en mélatonine pendant la grossesse et l’allaitement est découragée."
+    ],
+    "side_effects": {
+      "summary": "Les effets indésirables de la mélatonine sont généralement légers à modérés et disparaissent habituellement spontanément ou à l’arrêt du traitement. Les effets les plus fréquents sont la somnolence diurne, les céphalées, les rêves anormaux, les vertiges et la diminution de la température corporelle. [46] Aucune relation claire entre la dose ou la forme pharmaceutique de la mélatonine (par ex., libération immédiate vs. libération contrôlée) et le risque d’effets indésirables n’a été identifiée. [46] [67] Une dose de mélatonine de 1 000 mg par jour pendant un mois n’a montré aucun signe de toxicité. [90] La mélatonine a été rarement associée à d’autres effets indésirables potentiels, notamment des infections des voies respiratoires, des douleurs musculaires et des modifications de la pigmentation cutanée. [46]",
+      "table": [
+        {
+          "effect": "Somnolence [67] [45] [46]",
+          "details": "Voie : orale Remarques : À la fois immédiatement après une dose et le jour suivant, pouvant affecter la vigilance diurne"
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Warfarin",
+        "effect": "La prise de mélatonine avec la warfarine peut augmenter l’INR (un indicateur de la coagulation sanguine), ce qui pourrait refléter un risque accru de saignement. Le mécanisme de cette interaction n’est pas clair. [69]",
+        "evidence": "Possible",
+        "severity": "Grave"
+      },
+      {
+        "agent": "Médicaments anticoagulants",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "Médicaments antihypertenseurs",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Éviter pendant la grossesse",
+        "safety_information": "La sécurité de la mélatonine en supplément pendant la grossesse n’a pas été établie, et son utilisation est découragée. [82] La mélatonine produite naturellement par l’organisme contribue au développement fœtal. À l’heure actuelle, on ignore comment l’exposition à des concentrations élevées de mélatonine provenant de suppléments pourrait affecter ce processus. [83] Bien que les recherches soient limitées et les tailles d’échantillons petites, quelques études n’ont rapporté aucun effet indésirable majeur chez la mère ou le bébé lorsque la mélatonine (8-10 mg par jour) a été utilisée de la semaine 15 à la semaine 33 de gestation ou pendant les 5 à 6 dernières semaines de grossesse. Des études ont utilisé la mélatonine dans le cadre de la prééclampsie, du retard de croissance intra-utérin et du diabète gestationnel. [84] [85] [83] [86]"
+      },
+      {
+        "condition": "Éviter pendant l’allaitement",
+        "safety_information": "La mélatonine se trouve naturellement dans le lait maternel, mais il manque de données pour établir la sécurité de la mélatonine en supplément pendant l’allaitement. L’utilisation de la mélatonine pendant l’allaitement est généralement découragée. [82] On s’attend à ce que les suppléments de mélatonine augmentent les concentrations de mélatonine dans le lait maternel. Cependant, à des doses normales (≤10 mg), les niveaux de mélatonine dans le lait maternel devraient rester nettement inférieurs aux dosages qui ont été administrés en toute sécurité aux nouveau-nés. [87] [88] Dans un rapport de cas, un supplément contenant à la fois de la mélatonine et de la valériane, pris par une mère, a été suspecté d’altérer la fonction plaquettaire chez le nourrisson allaité. [89]"
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Conduire un véhicule, un bateau ou une machine lourde",
+        "details": "La mélatonine peut provoquer de la somnolence et un temps de réaction retardé, qui peuvent se prolonger jusqu’au lendemain. [44] [45] [46] Théoriquement, cela pourrait augmenter le risque d’accidents. Les personnes qui prennent de la mélatonine doivent faire preuve de prudence lorsqu’elles conduisent un véhicule, un bateau ou une machine lourde."
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la liste 2025 des substances interdites de la WADA, la mélatonine n'est pas interdite."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Hypertension artérielle",
+      "outcomes": [
+        {
+          "outcome": "Adrénaline",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 17",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 17
+        },
+        {
+          "outcome": "Profil des enzymes antioxydantes",
+          "grade": "C",
+          "effect": "Légère augmentation",
+          "evidence": "1 Étude Participants : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants à l'étude : 52",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 52
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Fibrinogène",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 17",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 17
+        },
+        {
+          "outcome": "High-density lipoprotein (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Low-density lipoprotein (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Noradrenaline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 17",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 17
+        },
+        {
+          "outcome": "Oxidative Stress Biomarkers",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Total cholesterol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Triglycerides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Insomnia",
+      "outcomes": [
+        {
+          "outcome": "Insomnia Signs and Symptoms",
+          "grade": "A",
+          "effect": "Large Improvement",
+          "evidence": "4 Studies Participants: 259",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 259
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 211",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 211
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Metabolic Health",
+      "outcomes": [
+        {
+          "outcome": "Adrénaline",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 14",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Flux sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 14",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 14",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 10",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Oxydation induite par l'exercice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Hormone de croissance",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 18",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 18
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 14",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Inflammation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Dommages musculaires",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Noradrénaline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 14",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Biomarqueurs du stress oxydatif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Prolactine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Acouphènes",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "2 Participants aux études : 85",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 85
+        },
+        {
+          "outcome": "Symptômes des acouphènes",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 217",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 217
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Adrénaline",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 Études Participants : 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Flux sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 14",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 Études Participants : 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 Études Participants: 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        },
+        {
+          "outcome": "Dopamine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 26",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 26
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 14",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Circonférence de la hanche",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants: 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        },
+        {
+          "outcome": "Noradrénaline",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 Études Participants : 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Migraine",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "C",
+          "effect": "Amélioration importante",
+          "evidence": "1 Étude Participants : 48",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 48
+        },
+        {
+          "outcome": "Durée de la migraine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 196",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 196
+        },
+        {
+          "outcome": "Fréquence des migraines",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 244",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 244
+        },
+        {
+          "outcome": "Sévérité de la migraine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 196",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 196
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 48",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 48
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Sclérose en plaques",
+      "outcomes": [
+        {
+          "outcome": "Variabilité de la fréquence cardiaque",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 étude Participants : 27",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 27
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 27",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 27
+        },
+        {
+          "outcome": "Walking Ability",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 27",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 27
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Breast Cancer",
+      "outcomes": [
+        {
+          "outcome": "Breast Cancer Risk",
+          "grade": "D",
+          "effect": "No effect",
+          "evidence": "1 Study Participants: 863",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 863
+        },
+        {
+          "outcome": "Estrogen",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 86",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 86
+        },
+        {
+          "outcome": "IGF-1",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 86",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 86
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Sleep Health",
+      "outcomes": [
+        {
+          "outcome": "Insomnia Signs and Symptoms",
+          "grade": "C",
+          "effect": "Large Improvement",
+          "evidence": "1 Study Participants: 48",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 48
+        },
+        {
+          "outcome": "Migraine Frequency",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 48",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 48
+        },
+        {
+          "outcome": "Sleep Duration",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 Studies Participants: 480",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 480
+        },
+        {
+          "outcome": "Sleep Latency",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 études Participants : 498",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 498
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 48",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 48
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie rénale chronique",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 10",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "17 études Participants : 2070",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 2070
+        },
+        {
+          "outcome": "BDNF sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants: 2070",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 2070
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Endométriose",
+      "outcomes": [
+        {
+          "outcome": "Dyschézie",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 étude Participants: 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Symptômes de dysménorrhée",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Dyspareunie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Dysurie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Douleur pelvienne associée à l'endométriose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "BDNF sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Reflux gastro-œsophagien",
+      "outcomes": [
+        {
+          "outcome": "Gastrin",
+          "grade": "C",
+          "effect": "Augmentation modérée",
+          "evidence": "1 participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Symptômes de RGO",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Symptômes de brûlures d'estomac",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Pression œsophagienne inférieure",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 60
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypercholestérolémie",
+      "outcomes": [
+        {
+          "outcome": "Profil des enzymes antioxydantes",
+          "grade": "C",
+          "effect": "Légère augmentation",
+          "evidence": "1 Participants à l’étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Fibrinogène",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Biomarqueurs du stress oxydatif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome de l'intestin irritable",
+      "outcomes": [
+        {
+          "outcome": "Douleur abdominale",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "3 études Participants : 115",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 115
+        },
+        {
+          "outcome": "Symptômes du syndrome de l'intestin irritable",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 115",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 115
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 115",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 115
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "4 Études Participants: 291",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 291
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants: 325",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 325
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Composition corporelle",
+      "outcomes": [
+        {
+          "outcome": "Pression artérielle",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "15 Études Participants: 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 Études Participants: 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        },
+        {
+          "outcome": "Tour de hanche",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 études Participants : 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 études Participants : 1543",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1543
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Soins généraux du cancer et prévention",
+      "outcomes": [
+        {
+          "outcome": "Mortalité liée au cancer",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études Participants : 643",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 643
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration cognitive",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "C",
+          "effect": "Amélioration importante",
+          "evidence": "1 Étude Participants : 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 40",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 40
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé oculaire",
+      "outcomes": [
+        {
+          "outcome": "Pression intraoculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 9",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 9
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé intestinale générale",
+      "outcomes": [
+        {
+          "outcome": "Gastrin",
+          "grade": "C",
+          "effect": "Augmentation modérée",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Mélatonine plasmatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Ulcères gastriques",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Infection à H. pylori",
+      "outcomes": [
+        {
+          "outcome": "Gastrine",
+          "grade": "C",
+          "effect": "Augmentation modérée",
+          "evidence": "1 Participants à l'étude : 21",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 21
+        },
+        {
+          "outcome": "Ghréline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 21",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 21
+        },
+        {
+          "outcome": "Leptine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 21",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 21
+        },
+        {
+          "outcome": "Ulcères gastriques",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 21",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 21
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Décalage horaire",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du décalage horaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Participants à l'étude: 142",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 142
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de la mémoire",
+      "outcomes": [
+        {
+          "outcome": "Adrénaline",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Vigilance",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Memory",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Noradrenaline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Metabolic Syndrome",
+      "outcomes": [
+        {
+          "outcome": "Anti-Oxidant Enzyme Profile",
+          "grade": "C",
+          "effect": "Small Increase",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Blood glucose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Fibrinogène",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Oxidative Stress Biomarkers",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Total cholesterol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Triglycerides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Nonalcoholic Steatohepatitis",
+      "outcomes": [
+        {
+          "outcome": "Adiponectin",
+          "grade": "C",
+          "effect": "Small Increase",
+          "evidence": "1 Participants à l'étude : 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Ghrelin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Contrôle glycémique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Leptine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Resistin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Soccer Performance",
+      "outcomes": [
+        {
+          "outcome": "Anti-Oxidant Enzyme Profile",
+          "grade": "C",
+          "effect": "Small Increase",
+          "evidence": "1 Study Participants: 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Exercise-Induced Oxidation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 16",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 16
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stress",
+      "outcomes": [
+        {
+          "outcome": "Adrénaline",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Vigilance",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Memory",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Noradrenaline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 50",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 50
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Obstructive Sleep Apnea (OSA)",
+      "outcomes": [
+        {
+          "outcome": "Insomnia Signs and Symptoms",
+          "grade": "C",
+          "effect": "Large Improvement",
+          "evidence": "1 Study Participants: 1",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 1",
+          "studies": [
+            {
+              "title": "Influences of melatonin administration on the circulation of women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+            }
+          ],
+          "participants": 1
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is melatonin found in food?",
+      "answer": "Melatonin is found in various foods in small amounts; notable sources include tomatoes, walnuts, cereal grains, strawberries, night-time milk, wine, beer, and cherries. The concentrations of melatonin in these foods vary, ranging from nanograms to picograms per gram or milliliter."
+    },
+    {
+      "question": "Can melatonin help with jet lag or shift work?",
+      "answer": "Melatonin can help alleviate sleep issues that are related to jet lag by re-establishing synchronization between external and internal stimuli, as evidenced by a Cochrane meta-analysis that showed its effectiveness compared to a placebo. Additionally, it may also be beneficial for treating social jet lag caused by changes in sleep habits."
+    },
+    {
+      "question": "Can a combination of melatonin and cannabidiol (CBD) help with sleep?",
+      "answer": "There is no strong evidence that combining melatonin and cannabidiol (CBD) improves sleep beyond the effects of melatonin alone. A study found that the combination did not significantly reduce sleep disturbances compared to melatonin alone, and although CBD may theoretically enhance melatonin's effects, this has not been confirmed in humans."
+    },
+    {
+      "question": "Can melatonin affect dreams?",
+      "answer": "Melatonin supplementation may influence dreams by increasing REM sleep, but research on its effects is limited and inconclusive. Although one small study suggested that melatonin could make dreams more bizarre, other studies found no significant effect on dream frequency, intensity, or quality."
+    },
+    {
+      "question": "Will supplementing melatonin affect my own production of melatonin?",
+      "answer": "La supplémentation en mélatonine n'affecte pas négativement la production endogène de mélatonine, car les études ne montrent aucun effet significatif sur la synthèse naturelle. En fait, un essai a indiqué que les participants souffrant d'insomnie qui prenaient de la mélatonine présentaient une augmentation de la production naturelle après l'arrêt du supplément."
+    }
+  ],
+  "references": [
+    {
+      "text": "Ghrelin - Gonciarz M, Bielański W, Partyka R, Brzozowski T, Konturek PC, Eszyk J, Celiński K, Reiter RJ, Konturek SJ Plasma insulin, leptin, adiponectin, resistin, ghrelin, and melatonin in nonalcoholic steatohepatitis patients treated with melatonin J Pineal Res. (2012 Jun 13)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22804755"
+    },
+    {
+      "text": "Blood Pressure - Vajdi M, Moeinolsadat S, Noshadi N, Pourteymour Fard Tabrizi F, Khajeh M, Abbasalizad-Farhangi M, Alipour B Effect of melatonin supplementation on body composition and blood pressure in adults: A systematic review and Dose-Response meta-analysis of randomized controlled trial. Heliyon. (2024 Jul 30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39113944"
+    },
+    {
+      "text": "Blood Pressure - Arangino S, Cagnacci A, Angiolucci M, Vacca AM, Longu G, Volpe A, Melis GB Effects of melatonin on vascular reactivity, catecholamine levels, and blood pressure in healthy men Am J Cardiol. (1999 May 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10235107"
+    },
+    {
+      "text": "Blood Pressure - Nishiyama K, Yasue H, Moriyama Y, Tsunoda R, Ogawa H, Yoshimura M, Kugiyama K Acute effects of melatonin administration on cardiovascular autonomic regulation in healthy men Am Heart J. (2001 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11320384"
+    },
+    {
+      "text": "Growth Hormone - Kostoglou-Athanassiou I, Treacher DF, Wheeler MJ, Forsling ML Melatonin administration and pituitary hormone secretion Clin Endocrinol (Oxf). (1998 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9509065"
+    },
+    {
+      "text": "Growth Hormone - Forsling ML, Wheeler MJ, Williams AJ The effect of melatonin administration on pituitary hormone secretion in man Clin Endocrinol (Oxf). (1999 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10594526"
+    },
+    {
+      "text": "Exercise-Induced Oxidation - Ochoa JJ, Díaz-Castro J, Kajarabille N, García C, Guisado IM, De Teresa C, Guisado R Melatonin supplementation ameliorates oxidative stress and inflammatory signaling induced by strenuous exercise in adult human males J Pineal Res. (2011 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21615492"
+    },
+    {
+      "text": "Lower Esophageal Pressure - Kandil TS, Mousa AA, El-Gendy AA, Abbas AM The potential therapeutic effect of melatonin in Gastro-Esophageal Reflux Disease BMC Gastroenterol. (2010 Jan 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20082715"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Luthringer R, Muzet M, Zisapel N, Staner L The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia Int Clin Psychopharmacol. (2009 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - van Geijlswijk IM, Mol RH, Egberts TC, Smits MG Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia Psychopharmacology (Berl). (2011 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Lemoine P, Nir T, Laudon M, Zisapel N Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects J Sleep Res. (2007 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Motlaq TM, Rahimi B, Amini S Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial. J Pharm Health Care Sci. (2024 May 30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+    },
+    {
+      "text": "Leptin - Celinski K, Konturek PC, Konturek SJ, Slomka M, Cichoz-Lach H, Brzozowski T, Bielanski W Effects of melatonin and tryptophan on healing of gastric and duodenal ulcers with Helicobacter pylori infection in humans J Physiol Pharmacol. (2011 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22204799"
+    },
+    {
+      "text": "Cerebral Blood Flow - Cook JS, Sauder CL, Ray CA Melatonin differentially affects vascular blood flow in humans Am J Physiol Heart Circ Physiol. (2011 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21148765"
+    },
+    {
+      "text": "Anti-Oxidant Enzyme Profile - Koziróg M, Poliwczak AR, Duchnowicz P, Koter-Michalak M, Sikora J, Broncel M Melatonin treatment improves blood pressure, lipid profile, and parameters of oxidative stress in patients with metabolic syndrome J Pineal Res. (2011 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21138476"
+    },
+    {
+      "text": "Blood Pressure - Cagnacci A, Arangino S, Angiolucci M, Maschio E, Melis GB Influences of melatonin administration on the circulation of women Am J Physiol. (1998 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+    },
+    {
+      "text": "Blood Pressure - Hadi A, Ghaedi E, Moradi S, Pourmasoumi M, Ghavami A, Kafeshani M Effects of Melatonin Supplementation On Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Horm Metab Res. (2019 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30861561"
+    },
+    {
+      "text": "Tinnitus Symptoms - Neri G, De Stefano A, Baffa C, Kulamarva G, Di Giovanni P, Petrucci G, Poliandri A, Dispenza F, Citraro L, Croce A Treatment of central and sensorineural tinnitus with orally administered Melatonin and Sulodexide: personal experience from a randomized controlled study Acta Otorhinolaryngol Ital. (2009 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20111618"
+    },
+    {
+      "text": "Tinnitus Symptoms - Hurtuk A, Dome C, Holloman CH, Wolfe K, Welling DB, Dodson EE, Jacob A Melatonin: can it stop the ringing? Ann Otol Rhinol Laryngol. (2011-Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21859051"
+    },
+    {
+      "text": "Tinnitus Symptoms - Uchechukwu C Megwalu, Joshua E Finnell, Jay F Piccirillo The effects of melatonin on tinnitus and sleep Otolaryngol Head Neck Surg. (2006 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16455366"
+    },
+    {
+      "text": "Tinnitus Symptoms - Rosenberg SI, Silverstein H, Rowan PT, Olds MJ Effect of melatonin on tinnitus Laryngoscope. (1998 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9504599"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Alstadhaug KB, Odeh F, Salvesen R, Bekkelund SI Prophylaxis of migraine with melatonin: a randomized controlled trial Neurology. (2010 Oct 26)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20975054"
+    },
+    {
+      "text": "Migraine Frequency - Gonçalves AL, Martini Ferreira A, Ribeiro RT, Zukerman E, Cipolla-Neto J, Peres MF Randomised clinical trial comparing melatonin 3 mg, amitriptyline 25 mg and placebo for migraine prevention. J Neurol Neurosurg Psychiatry. (2016 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27165014"
+    },
+    {
+      "text": "Sleep Latency - Salanitro M, Wrigley T, Ghabra H, de Haan E, Hill CM, Solmi M, Cortese S Efficacy on sleep parameters and tolerability of melatonin in individuals with sleep or mental disorders: A systematic review and meta-analysis. Neurosci Biobehav Rev. (2022 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35691474"
+    },
+    {
+      "text": "Anxiety Symptoms - Rimmele U, Spillmann M, Bärtschi C, Wolf OT, Weber CS, Ehlert U, Wirtz PH Melatonin improves memory acquisition under stress independent of stress hormone release Psychopharmacology (Berl). (2009 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18853147"
+    },
+    {
+      "text": "Dysmenorrhea Symptoms - André Schwertner, Claudia C Conceição Dos Santos, Gislene Dalferth Costa, Alícia Deitos, Andressa de Souza, Izabel Cristina Custodio de Souza, Iraci L S Torres, João Sabino L da Cunha Filho, Wolnei Caumo Efficacy of melatonin in the treatment of endometriosis: a phase II, randomized, double-blind, placebo-controlled trial Pain. (2013 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23602498"
+    },
+    {
+      "text": "IGF-1 - Schernhammer ES, Giobbie-Hurder A, Gantman K, Savoie J, Scheib R, Parker LM, Chen WY A randomized controlled trial of oral melatonin supplementation and breast cancer biomarkers Cancer Causes Control. (2012 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22370698"
+    },
+    {
+      "text": "Breast Cancer Risk - Schernhammer ES, Berrino F, Krogh V, Secreto G, Micheli A, Venturelli E, Grioni S, Sempos CT, Cavalleri A, Schünemann HJ, Strano S, Muti P Urinary 6-Sulphatoxymelatonin levels and risk of breast cancer in premenopausal women: the ORDET cohort Cancer Epidemiol Biomarkers Prev. (2010 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20200429"
+    },
+    {
+      "text": "Exercise-Induced Oxidation - Maldonado MD, Manfredi M, Ribas-Serna J, Garcia-Moreno H, Calvo JR Melatonin administrated immediately before an intense exercise reverses oxidative stress, improves immunological defenses and lipid metabolism in football players Physiol Behav. (2012 Mar 20)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22212240"
+    },
+    {
+      "text": "Jet Lag Symptoms - Herxheimer A, Petrie KJ Melatonin for the prevention and treatment of jet lag Cochrane Database Syst Rev. (2002 Apr 22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12076414"
+    },
+    {
+      "text": "Plasma Melatonin - Konturek PC, Konturek SJ, Celinski K, Slomka M, Cichoz-Lach H, Bielanski W, Reiter RJ Role of melatonin in mucosal gastroprotection against aspirin-induced gastric lesions in humans J Pineal Res. (2010 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20443220"
+    },
+    {
+      "text": "Intraocular Pressure - Samples JR, Krause G, Lewy AJ Effect of melatonin on intraocular pressure Curr Eye Res. (1988 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/3416618"
+    },
+    {
+      "text": "Cancer Mortality - Mills E, Wu P, Seely D, Guyatt G Melatonin in the treatment of cancer: a systematic review of randomized controlled trials and meta-analysis J Pineal Res. (2005 Jul 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16207291"
+    },
+    {
+      "text": "Irritable Bowel Syndrome Symptoms - Chen KH, Zeng BY, Zeng BS, Sun CK, Cheng YS, Su KP, Wu YC, Chen TY, Lin PY, Liang CS, Hsu CW, Chu CS, Chen YW, Yeh PY, Wu MK, Tseng PT, Hsu CY The efficacy of exogenous melatonin supplement in ameliorating irritable bowel syndrome severity: A meta-analysis of randomized controlled trials. J Formos Med Assoc. (2022-Oct-15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36257872"
+    },
+    {
+      "text": "Serum BDNF - Shokri-Mashhadi N, Darand M, Rouhani MH, Yahay M, Feltham BA, Saraf-Bank S Effects of melatonin supplementation on BDNF concentrations and depression: A systematic review and meta-analysis of randomized controlled trials. Behav Brain Res. (2023-Jan-05)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36049659"
+    },
+    {
+      "text": "Walking Ability - Jallouli S, Ghroubi S, Damak M, Sakka S, Elleuch MH, Mhiri C, Yahia A, Driss T, de Marco G, Hammouda O 12-week melatonin supplementation improved dynamic postural stability and walking performance in persons living with multiple sclerosis: A randomized controlled trial. Behav Brain Res. (2024 Aug 8)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39122092"
+    },
+    {
+      "text": "Heart Rate Variability - Jallouli S, Jallouli D, Damak M, Sakka S, Ghroubi S, Mhiri C, Driss T, de Marco G, Ayadi F, Hammouda O 12-week melatonin intake attenuates cardiac autonomic dysfunction and oxidative stress in multiple sclerosis patients: a randomized controlled trial. Metab Brain Dis. (2024 Dec 4)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39630381"
+    },
+    {
+      "text": "HbA1c - Lv X, Sun H, Ai S, Zhang D, Lu H The effect of melatonin supplementation on glycemic control in patients with type 2 diabetes. Front Endocrinol (Lausanne). (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40698248"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Ghrelin - Gonciarz M, Bielański W, Partyka R, Brzozowski T, Konturek PC, Eszyk J, Celiński K, Reiter RJ, Konturek SJ Plasma insulin, leptin, adiponectin, resistin, ghrelin, and melatonin in nonalcoholic steatohepatitis patients treated with melatonin J Pineal Res. (2012 Jun 13)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22804755"
+    },
+    {
+      "text": "Blood Pressure - Vajdi M, Moeinolsadat S, Noshadi N, Pourteymour Fard Tabrizi F, Khajeh M, Abbasalizad-Farhangi M, Alipour B Effect of melatonin supplementation on body composition and blood pressure in adults: A systematic review and Dose-Response meta-analysis of randomized controlled trial. Heliyon. (2024 Jul 30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39113944"
+    },
+    {
+      "text": "Blood Pressure - Arangino S, Cagnacci A, Angiolucci M, Vacca AM, Longu G, Volpe A, Melis GB Effects of melatonin on vascular reactivity, catecholamine levels, and blood pressure in healthy men Am J Cardiol. (1999 May 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10235107"
+    },
+    {
+      "text": "Blood Pressure - Nishiyama K, Yasue H, Moriyama Y, Tsunoda R, Ogawa H, Yoshimura M, Kugiyama K Acute effects of melatonin administration on cardiovascular autonomic regulation in healthy men Am Heart J. (2001 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11320384"
+    },
+    {
+      "text": "Growth Hormone - Kostoglou-Athanassiou I, Treacher DF, Wheeler MJ, Forsling ML Melatonin administration and pituitary hormone secretion Clin Endocrinol (Oxf). (1998 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9509065"
+    },
+    {
+      "text": "Growth Hormone - Forsling ML, Wheeler MJ, Williams AJ The effect of melatonin administration on pituitary hormone secretion in man Clin Endocrinol (Oxf). (1999 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10594526"
+    },
+    {
+      "text": "Exercise-Induced Oxidation - Ochoa JJ, Díaz-Castro J, Kajarabille N, García C, Guisado IM, De Teresa C, Guisado R Melatonin supplementation ameliorates oxidative stress and inflammatory signaling induced by strenuous exercise in adult human males J Pineal Res. (2011 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21615492"
+    },
+    {
+      "text": "Lower Esophageal Pressure - Kandil TS, Mousa AA, El-Gendy AA, Abbas AM The potential therapeutic effect of melatonin in Gastro-Esophageal Reflux Disease BMC Gastroenterol. (2010 Jan 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20082715"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Luthringer R, Muzet M, Zisapel N, Staner L The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia Int Clin Psychopharmacol. (2009 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - van Geijlswijk IM, Mol RH, Egberts TC, Smits MG Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia Psychopharmacology (Berl). (2011 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Lemoine P, Nir T, Laudon M, Zisapel N Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects J Sleep Res. (2007 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Motlaq TM, Rahimi B, Amini S Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial. J Pharm Health Care Sci. (2024 May 30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+    },
+    {
+      "text": "Leptin - Celinski K, Konturek PC, Konturek SJ, Slomka M, Cichoz-Lach H, Brzozowski T, Bielanski W Effects of melatonin and tryptophan on healing of gastric and duodenal ulcers with Helicobacter pylori infection in humans J Physiol Pharmacol. (2011 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22204799"
+    },
+    {
+      "text": "Cerebral Blood Flow - Cook JS, Sauder CL, Ray CA Melatonin differentially affects vascular blood flow in humans Am J Physiol Heart Circ Physiol. (2011 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21148765"
+    },
+    {
+      "text": "Anti-Oxidant Enzyme Profile - Koziróg M, Poliwczak AR, Duchnowicz P, Koter-Michalak M, Sikora J, Broncel M Melatonin treatment improves blood pressure, lipid profile, and parameters of oxidative stress in patients with metabolic syndrome J Pineal Res. (2011 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21138476"
+    },
+    {
+      "text": "Blood Pressure - Cagnacci A, Arangino S, Angiolucci M, Maschio E, Melis GB Influences of melatonin administration on the circulation of women Am J Physiol. (1998 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9486289"
+    },
+    {
+      "text": "Blood Pressure - Hadi A, Ghaedi E, Moradi S, Pourmasoumi M, Ghavami A, Kafeshani M Effects of Melatonin Supplementation On Blood Pressure: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Horm Metab Res. (2019 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30861561"
+    },
+    {
+      "text": "Tinnitus Symptoms - Neri G, De Stefano A, Baffa C, Kulamarva G, Di Giovanni P, Petrucci G, Poliandri A, Dispenza F, Citraro L, Croce A Treatment of central and sensorineural tinnitus with orally administered Melatonin and Sulodexide: personal experience from a randomized controlled study Acta Otorhinolaryngol Ital. (2009 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20111618"
+    },
+    {
+      "text": "Tinnitus Symptoms - Hurtuk A, Dome C, Holloman CH, Wolfe K, Welling DB, Dodson EE, Jacob A Melatonin: can it stop the ringing? Ann Otol Rhinol Laryngol. (2011-Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21859051"
+    },
+    {
+      "text": "Tinnitus Symptoms - Uchechukwu C Megwalu, Joshua E Finnell, Jay F Piccirillo The effects of melatonin on tinnitus and sleep Otolaryngol Head Neck Surg. (2006 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16455366"
+    },
+    {
+      "text": "Tinnitus Symptoms - Rosenberg SI, Silverstein H, Rowan PT, Olds MJ Effect of melatonin on tinnitus Laryngoscope. (1998 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9504599"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Alstadhaug KB, Odeh F, Salvesen R, Bekkelund SI Prophylaxis of migraine with melatonin: a randomized controlled trial Neurology. (2010 Oct 26)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20975054"
+    },
+    {
+      "text": "Migraine Frequency - Gonçalves AL, Martini Ferreira A, Ribeiro RT, Zukerman E, Cipolla-Neto J, Peres MF Randomised clinical trial comparing melatonin 3 mg, amitriptyline 25 mg and placebo for migraine prevention. J Neurol Neurosurg Psychiatry. (2016 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27165014"
+    },
+    {
+      "text": "Sleep Latency - Salanitro M, Wrigley T, Ghabra H, de Haan E, Hill CM, Solmi M, Cortese S Efficacy on sleep parameters and tolerability of melatonin in individuals with sleep or mental disorders: A systematic review and meta-analysis. Neurosci Biobehav Rev. (2022 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35691474"
+    },
+    {
+      "text": "Anxiety Symptoms - Rimmele U, Spillmann M, Bärtschi C, Wolf OT, Weber CS, Ehlert U, Wirtz PH Melatonin improves memory acquisition under stress independent of stress hormone release Psychopharmacology (Berl). (2009 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18853147"
+    },
+    {
+      "text": "Dysmenorrhea Symptoms - André Schwertner, Claudia C Conceição Dos Santos, Gislene Dalferth Costa, Alícia Deitos, Andressa de Souza, Izabel Cristina Custodio de Souza, Iraci L S Torres, João Sabino L da Cunha Filho, Wolnei Caumo Efficacy of melatonin in the treatment of endometriosis: a phase II, randomized, double-blind, placebo-controlled trial Pain. (2013 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23602498"
+    },
+    {
+      "text": "IGF-1 - Schernhammer ES, Giobbie-Hurder A, Gantman K, Savoie J, Scheib R, Parker LM, Chen WY A randomized controlled trial of oral melatonin supplementation and breast cancer biomarkers Cancer Causes Control. (2012 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22370698"
+    },
+    {
+      "text": "Breast Cancer Risk - Schernhammer ES, Berrino F, Krogh V, Secreto G, Micheli A, Venturelli E, Grioni S, Sempos CT, Cavalleri A, Schünemann HJ, Strano S, Muti P Urinary 6-Sulphatoxymelatonin levels and risk of breast cancer in premenopausal women: the ORDET cohort Cancer Epidemiol Biomarkers Prev. (2010 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20200429"
+    },
+    {
+      "text": "Exercise-Induced Oxidation - Maldonado MD, Manfredi M, Ribas-Serna J, Garcia-Moreno H, Calvo JR Melatonin administrated immediately before an intense exercise reverses oxidative stress, improves immunological defenses and lipid metabolism in football players Physiol Behav. (2012 Mar 20)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22212240"
+    },
+    {
+      "text": "Jet Lag Symptoms - Herxheimer A, Petrie KJ Melatonin for the prevention and treatment of jet lag Cochrane Database Syst Rev. (2002 Apr 22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12076414"
+    },
+    {
+      "text": "Plasma Melatonin - Konturek PC, Konturek SJ, Celinski K, Slomka M, Cichoz-Lach H, Bielanski W, Reiter RJ Role of melatonin in mucosal gastroprotection against aspirin-induced gastric lesions in humans J Pineal Res. (2010 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20443220"
+    },
+    {
+      "text": "Intraocular Pressure - Samples JR, Krause G, Lewy AJ Effect of melatonin on intraocular pressure Curr Eye Res. (1988 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/3416618"
+    },
+    {
+      "text": "Cancer Mortality - Mills E, Wu P, Seely D, Guyatt G Melatonin in the treatment of cancer: a systematic review of randomized controlled trials and meta-analysis J Pineal Res. (2005 Jul 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16207291"
+    },
+    {
+      "text": "Irritable Bowel Syndrome Symptoms - Chen KH, Zeng BY, Zeng BS, Sun CK, Cheng YS, Su KP, Wu YC, Chen TY, Lin PY, Liang CS, Hsu CW, Chu CS, Chen YW, Yeh PY, Wu MK, Tseng PT, Hsu CY The efficacy of exogenous melatonin supplement in ameliorating irritable bowel syndrome severity: A meta-analysis of randomized controlled trials. J Formos Med Assoc. (2022-Oct-15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36257872"
+    },
+    {
+      "text": "Serum BDNF - Shokri-Mashhadi N, Darand M, Rouhani MH, Yahay M, Feltham BA, Saraf-Bank S Effects of melatonin supplementation on BDNF concentrations and depression: A systematic review and meta-analysis of randomized controlled trials. Behav Brain Res. (2023-Jan-05)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36049659"
+    },
+    {
+      "text": "Walking Ability - Jallouli S, Ghroubi S, Damak M, Sakka S, Elleuch MH, Mhiri C, Yahia A, Driss T, de Marco G, Hammouda O 12-week melatonin supplementation improved dynamic postural stability and walking performance in persons living with multiple sclerosis: A randomized controlled trial. Behav Brain Res. (2024 Aug 8)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39122092"
+    },
+    {
+      "text": "Heart Rate Variability - Jallouli S, Jallouli D, Damak M, Sakka S, Ghroubi S, Mhiri C, Driss T, de Marco G, Ayadi F, Hammouda O 12-week melatonin intake attenuates cardiac autonomic dysfunction and oxidative stress in multiple sclerosis patients: a randomized controlled trial. Metab Brain Dis. (2024 Dec 4)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39630381"
+    },
+    {
+      "text": "HbA1c - Lv X, Sun H, Ai S, Zhang D, Lu H The effect of melatonin supplementation on glycemic control in patients with type 2 diabetes. Front Endocrinol (Lausanne). (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40698248"
+    }
+  ]
+}

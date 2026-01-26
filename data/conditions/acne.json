@@ -1,0 +1,446 @@
+{
+  "slug": "acne",
+  "name": "Acné",
+  "name_en": "Acne",
+  "description": "L’acné vulgaris est une affection cutanée inflammatoire chronique qui touche jusqu’à 10 % de la population mondiale. Elle se caractérise par des lésions cutanées inflammatoires, telles que les comédons (points blancs et points noirs) résultant d’une production excessive de sébum, d’une prolifération bactérienne et d’une hyperkératinisation. Certains choix alimentaires et compléments peuvent aider à traiter ces causes tout en améliorant la santé et la perception de la peau.",
+  "overview": [
+    {
+      "question": "Qu’est-ce que l’acné vulgaris ?",
+      "answer": "L’acné vulgaris est une affection cutanée inflammatoire chronique qui touche principalement les adolescents, bien que les adultes puissent également être affectés. L’acné vulgaris se caractérise par des lésions cutanées inflammées, telles que les papules, les pustules et les comédons (points blancs et points noirs), qui apparaissent lorsque le sébum et les cellules mortes obstruent les follicules pileux, lesquels s’enflamment."
+    },
+    {
+      "question": "Quels sont les principaux signes et symptômes de l’acné vulgaris ?",
+      "answer": "Les principaux signes et symptômes de l’acné vulgaris sont des follicules pileux enflammés et obstrués, surtout sur le visage. Ils peuvent se manifester sous de nombreuses formes et couleurs : le diagnostic de l’acné vulgaris peut être difficile car il est souvent confondu avec d’autres affections cutanées telles que l’angi-fibrome, la folliculite et la rosacée, en raison de leurs signes et symptômes similaires. - Points blancs (pores fermés bouchés) - Points noirs (pores ouverts bouchés, qui apparaissent noirs à cause de la mélanine oxydée) - Papules (nodules rouges sensibles) - Pustules (contiennent du pus) - Nodules (lésions kystiques apparaissant comme des masses douloureuses sous la peau)"
+    },
+    {
+      "question": "Comment l’acné vulgaris est-il diagnostiqué ?",
+      "answer": "Il n’existe pas de méthode validée et universelle pour diagnostiquer l’acné vulgaris. De nombreuses définitions et échelles de gravité existent, et la plupart des échelles utilisent des photographies et le nombre de lésions d’acné pour quantifier la sévérité de l’acné vulgaris, de légère à sévère. [1] Le diagnostic de l’acné vulgaris doit être basé sur le jugement clinique d’un professionnel de santé. - Acné légère : lésions non inflammatoires, peu de lésions inflammatoires, ou les deux - Acné modérée : davantage de lésions inflammatoires, nodules occasionnels qui se forment comme des lésions dures et douloureuses, et cicatrices légères - Acné sévère : lésions inflammatoires étendues, nodules et cicatrices, acné modérée persistante qui ne s’est pas améliorée avec le traitement après 6 mois, ou toute acné provoquant une détresse psychologique importante [2]"
+    },
+    {
+      "question": "Quels sont certains des principaux traitements médicaux de l’acné vulgaris ?",
+      "answer": "Les traitements actuels de l’acné vulgaris se composent de trois approches : [3] Le but du traitement est de réduire les principales causes de l’acné vulgaris : production excessive de sébum et de kératine, inflammation accrue et prolifération de Cutibacterium acnes, l’espèce bactérienne principale responsable de l’acné. - Traitements topiques (p. ex., antibiotiques, peroxyde de benzoyle, dapson, rétinoïdes ou acide azélaïque) - Traitements oraux (p. ex., antibiotiques, agents hormonaux et le traitement de référence actuel, l’isotrétinoïne) - Interventions physiques (p. ex., peelings chimiques, microneedling et thérapie au laser)"
+    },
+    {
+      "question": "Des compléments ont-ils été étudiés pour l’acné vulgaire ?",
+      "answer": "La supplémentation avec certains minéraux, vitamines et autres composés peut améliorer l’acné. Les compléments les mieux soutenus comprennent le zinc, la vitamine D, la vitamine B5, l’huile de poisson, l’extrait de thé vert et les probiotiques. Cependant, certains compléments ont été montrés pour aggraver les symptômes de l’acné ou provoquer des poussées, surtout lorsqu’ils sont pris à fortes doses. Ceux-ci incluent l’iode, la protéine de lactosérum, la vitamine B6 et la vitamine B12."
+    },
+    {
+      "question": "Comment l’alimentation pourrait-elle affecter l’acné vulgaire ?",
+      "answer": "L’alimentation peut avoir des effets positifs ou négatifs sur l’acné vulgaire. Les facteurs alimentaires les plus étudiés qui influencent l’acné sont : [3] - Indice glycémique : un régime à indice glycémique bas peut améliorer les symptômes de l’acné vulgaire. - Oméga-3 : la supplémentation en acides gras oméga-3 peut améliorer les symptômes de l’acné vulgaire. - Probiotiques : la supplémentation en probiotiques peut améliorer les symptômes de l’acné vulgaire. - Produits laitiers : la consommation de produits laitiers et de poudre de protéine de lactosérum, en particulier, peut aggraver la sévérité de l’acné."
+    },
+    {
+      "question": "Existe-t-il d’autres traitements pour l’acné vulgaire ?",
+      "answer": "De nombreux traitements non médicaux ont été étudiés pour l’acné vulgaire en raison de la prévalence de la maladie, cependant, les preuves concernant la plupart des traitements alternatifs sont soit inexistantes, soit de faible qualité. [4] Par exemple, il existe quelques preuves faibles que l’huile d’arbre à thé et le venin d’abeille peuvent réduire le nombre total de lésions cutanées dans l’acné vulgaire. En revanche, l’acupuncture, la médecine à base de plantes et la thérapie de cupping humide n’ont pas été jugées utiles pour atténuer les symptômes de l’acné vulgaire. Il est à noter que les traitements alternatifs peuvent entraîner des effets indésirables qui peuvent aggraver l’acné vulgaire ou provoquer d’autres problèmes de santé."
+    },
+    {
+      "question": "Quelles sont les causes de l’acné vulgaire ?",
+      "answer": "Les causes exactes de l’acné vulgaire ne sont pas encore clairement définies. La génétique peut être le facteur principal. D’autres causes possibles incluent les hormones, les infections, l’alimentation et le stress. Les études examinant les effets du tabagisme, de l’exposition au soleil et de l’hygiène générale ont donné des résultats inconclusifs. En revanche, le développement de l’acné vulgaire au niveau cellulaire est mieux compris. La pathogenèse de l’acné vulgaire repose sur quatre facteurs clés : [3] - Production excessive de sébum - Surcroissance de Cutibacterium acnes, l’espèce bactérienne principale infectant les follicules pileux obstrués - Hyperkératinisation, ou production excessive de kératine, l’une des principales protéines structurales qui maintiennent les cellules cutanées ensemble - Processus inflammatoires"
+    }
+  ],
+  "database": [
+    {
+      "intervention": "Zinc",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l’acné",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "4 études Participants : 462",
+          "studies": [
+            {
+              "title": "Low doses of zinc gluconate for inflammatory acne",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/2575335"
+            },
+            {
+              "title": "Multicenter randomized comparative double-blind controlled clinical trial of the safety and efficacy of zinc gluconate versus minocycline hydrochloride in the treatment of inflammatory acne vulgaris",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11586012"
+            },
+            {
+              "title": "Oral zinc in acne vulgaris: a clinical and methodological study",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/82356"
+            },
+            {
+              "title": "Oral zinc sulphate therapy in acne vulgaris: a double-blind trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/6163281"
+            }
+          ],
+          "participants": 462
+        }
+      ]
+    },
+    {
+      "intervention": "Nicotinamide",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'acné",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "3 études Participants : 331",
+          "studies": [
+            {
+              "title": "Topical 4% nicotinamide vs. 1% clindamycin in moderate inflammatory acne vulgaris",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23786503"
+            },
+            {
+              "title": "1-Methylnicotinamide: a potent anti-inflammatory agent of vitamin origin",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12856834"
+            },
+            {
+              "title": "Topical nicotinamide compared with clindamycin gel in the treatment of inflammatory acne vulgaris",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/7657446"
+            }
+          ],
+          "participants": 331
+        },
+        {
+          "outcome": "Érythème",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 175",
+          "studies": [
+            {
+              "title": "1-Methylnicotinamide: a potent anti-inflammatory agent of vitamin origin",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12856834"
+            }
+          ],
+          "participants": 175
+        },
+        {
+          "outcome": "Cicatrisation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 175",
+          "studies": [
+            {
+              "title": "1-Methylnicotinamide: a potent anti-inflammatory agent of vitamin origin",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12856834"
+            }
+          ],
+          "participants": 175
+        }
+      ]
+    },
+    {
+      "intervention": "Extrait de cacao",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'acné",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 13",
+          "studies": [
+            {
+              "title": "Double-blind, Placebo-controlled Study Assessing the Effect of Chocolate Consumption in Subjects with a History of Acne Vulgaris",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24847404"
+            }
+          ],
+          "participants": 13
+        }
+      ]
+    },
+    {
+      "intervention": "L-Carnitine",
+      "outcomes": [
+        {
+          "outcome": "Carnitine sanguine",
+          "grade": "C",
+          "effect": "Augmentation importante",
+          "evidence": "1 Étude Participants : 230",
+          "studies": [
+            {
+              "title": "L-carnitine supplementation in patients with cystic acne on isotretinoin therapy",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/10642057"
+            }
+          ],
+          "participants": 230
+        },
+        {
+          "outcome": "Carnitine urinaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 230",
+          "studies": [
+            {
+              "title": "L-carnitine supplementation in patients with cystic acne on isotretinoin therapy",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/10642057"
+            }
+          ],
+          "participants": 230
+        }
+      ]
+    },
+    {
+      "intervention": "Chardon-Marie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'acné",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 56",
+          "studies": [],
+          "participants": 56
+        }
+      ]
+    },
+    {
+      "intervention": "N-Acetylcysteine",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'acné",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 56",
+          "studies": [],
+          "participants": 56
+        }
+      ]
+    },
+    {
+      "intervention": "Resveratrol",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'acné",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Resveratrol-containing gel for the treatment of acne vulgaris: a single-blind, vehicle-controlled, pilot study",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21348544"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "intervention": "Selenium",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'acné",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 56",
+          "studies": [],
+          "participants": 56
+        }
+      ]
+    },
+    {
+      "intervention": "Vitamin D",
+      "outcomes": [
+        {
+          "outcome": "Acne Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 44",
+          "studies": [
+            {
+              "title": "Role of vitamin D supplement adjunct to topical benzoyl peroxide in acne: a randomized double-blinded controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38957412"
+            }
+          ],
+          "participants": 44
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is acne vulgaris contagious?",
+      "answer": "Acne vulgaris itself is not contagious, but sharing makeup and tools can transfer acne-causing bacteria, which can potentially lead to clogged pores and breakouts."
+    },
+    {
+      "question": "Does eating certain foods make acne vulgaris worse?",
+      "answer": "There is no clinically confirmed association between nutrition and acne vulgaris , but certain foods like dairy products, high-glycemic index foods, and saturated fats may worsen symptoms in some people. Responses to these foods can vary from person to person."
+    },
+    {
+      "question": "Does dairy cause acne?",
+      "answer": "Dairy is weakly suspected to contribute to acne due to growth factors like androgens and IGF-1 that enhance androgen signaling. However, there is not enough evidence to establish a strong relationship between dairy consumption and acne."
+    },
+    {
+      "question": "L’acné vulgaris est-elle causée par une peau sale ou une mauvaise hygiène ?",
+      "answer": "L’acné vulgaris n’est pas causée par une peau sale ou une mauvaise hygiène, car les processus qui conduisent à l’acné se produisent sous la peau. Un lavage régulier ou excessif ne peut pas améliorer l’acné et pourrait potentiellement aggraver les affections cutanées."
+    },
+    {
+      "question": "Le stress cause-t-il l’acné vulgaris ?",
+      "answer": "Le stress a été associé à une augmentation des symptômes de l’acné, en particulier chez les personnes déjà acnéiques, car les hormones du stress peuvent augmenter la production de sébum. Cependant, le mécanisme exact demeure incertain, et les études montrant une hausse de l’acné pendant les périodes de stress intense ne confirment pas que le stress cause directement l’acné."
+    }
+  ],
+  "references": [
+    {
+      "text": " Adityan B, Kumari R, Thappa DM Scoring systems in acne vulgaris. Indian J Dermatol Venereol Leprol. (2009)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19439902"
+    },
+    {
+      "text": " Purdy S, de Berker D Acne vulgaris. BMJ Clin Evid. (2011-Jan-05)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21477388"
+    },
+    {
+      "text": " Baldwin H, Tan J Effects of Diet on Acne and Its Response to Treatment. Am J Clin Dermatol. (2021-Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32748305"
+    },
+    {
+      "text": " Cao H, Yang G, Wang Y, Liu JP, Smith CA, Luo H, Liu Y Complementary therapies for acne vulgaris. Cochrane Database Syst Rev. (2015-Jan-19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25597924"
+    },
+    {
+      "text": " NHS Acne Causes (July 12, 2019)",
+      "link": "https://www.nhs.uk/conditions/acne/causes/"
+    },
+    {
+      "text": " Chiu A, Chon SY, Kimball AB The response of skin disease to stress: changes in the severity of acne vulgaris as affected by examination stress. Arch Dermatol. (2003-Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12873885"
+    },
+    {
+      "text": " Yosipovitch G, Tang M, Dawn AG, Chen M, Goh CL, Huak Y, Seng LF Study of psychological stress, sebum production and acne vulgaris in adolescents. Acta Derm Venereol. (2007)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17340019"
+    },
+    {
+      "text": " Anna Hwee Sing Heng et al Gene variants associated with acne vulgaris presentation and severity: a systematic review (April 13, 2021)",
+      "link": "https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-021-00953-8"
+    },
+    {
+      "text": " Goulden V, McGeown CH, Cunliffe WJ The familial risk of adult acne: a comparison between first-degree relatives of affected and unaffected individuals. Br J Dermatol. (1999-Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10468803"
+    },
+    {
+      "text": " American Academy of Dermatology 10 skin care habits that can worsen acne",
+      "link": "https://www.aad.org/public/diseases/acne/skin-care/habits-stop"
+    },
+    {
+      "text": " Claudel JP, Auffret N, Leccia MT, Poli F, Dréno B Acne and nutrition: hypotheses, myths and facts. J Eur Acad Dermatol Venereol. (2018-Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29633388"
+    },
+    {
+      "text": " ROBINSON HM The acne problem South Med J. (1949 Dec)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/15394875"
+    },
+    {
+      "text": " Melnik BC Evidence for acne-promoting effects of milk and other insulinotropic dairy products Nestle Nutr Workshop Ser Pediatr Program. (2011)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/21335995"
+    },
+    {
+      "text": " Deplewski D, Rosenfield RL Growth hormone and insulin-like growth factors have different effects on sebaceous cell growth and differentiation Endocrinology. (1999 Sep)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/10465280"
+    },
+    {
+      "text": " Aizawa H, Niimura M Elevated serum insulin-like growth factor-1 (IGF-1) levels in women with postadolescent acne J Dermatol. (1995 Apr)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/7608381"
+    },
+    {
+      "text": " Cappel M, Mauger D, Thiboutot D Correlation between serum levels of insulin-like growth factor 1, dehydroepiandrosterone sulfate, and dihydrotestosterone and acne lesion counts in adult women Arch Dermatol. (2005 Mar)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/15781674"
+    },
+    {
+      "text": " Hoppe C, Mølgaard C, Juul A, Michaelsen KF High intakes of skimmed milk, but not meat, increase serum IGF-I and IGFBP-3 in eight-year-old boys Eur J Clin Nutr. (2004 Sep)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/15054433"
+    },
+    {
+      "text": " Salehi A, Gunnerud U, Muhammed SJ, Ostman E, Holst JJ, Björck I, Rorsman P The insulinogenic effect of whey protein is partially mediated by a direct effect of amino acids and GIP on β-cells Nutr Metab (Lond). (2012 May 30)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/22647249"
+    },
+    {
+      "text": " Melnik BC FoxO1 - the key for the pathogenesis and therapy of acne J Dtsch Dermatol Ges. (2010 Feb)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20151947"
+    },
+    {
+      "text": " Kim SJ, Winter K, Nian C, Tsuneoka M, Koda Y, McIntosh CH Glucose-dependent insulinotropic polypeptide (GIP) stimulation of pancreatic beta-cell survival is dependent upon phosphatidylinositol 3-kinase (PI3K)/protein kinase B (PKB) signalling, inactivation of the forkhead transcription factor Foxo1, and down-regulation of bax expression J Biol Chem. (2005 Jun 10)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/15817464"
+    },
+    {
+      "text": " Melnik BC Is nuclear deficiency of FoxO1 due to increased growth factor/PI3K/Akt-signalling in acne vulgaris reversed by isotretinoin treatment Br J Dermatol. (2010 Jun)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20394627"
+    },
+    {
+      "text": " Melnik BC The role of transcription factor FoxO1 in the pathogenesis of acne vulgaris and the mode of isotretinoin action G Ital Dermatol Venereol. (2010 Oct)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20930691"
+    },
+    {
+      "text": " Makrantonaki E, Zouboulis CC Testosterone metabolism to 5alpha-dihydrotestosterone and synthesis of sebaceous lipids is regulated by the peroxisome proliferator-activated receptor ligand linoleic acid in human sebocytes Br J Dermatol. (2007 Mar)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/17300229"
+    },
+    {
+      "text": " Smith TM, Gilliland K, Clawson GA, Thiboutot D IGF-1 induces SREBP-1 expression and lipogenesis in SEB-1 sebocytes via activation of the phosphoinositide 3-kinase/Akt pathway J Invest Dermatol. (2008 May)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/17989724"
+    },
+    {
+      "text": " Fan W, Yanase T, Morinaga H, Okabe T, Nomura M, Daitoku H, Fukamizu A, Kato S, Takayanagi R, Nawata H Insulin-like growth factor 1/insulin signaling activates androgen signaling through direct interactions of Foxo1 with androgen receptor J Biol Chem. (2007 Mar 9)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/17202144"
+    },
+    {
+      "text": " Melnik B {Acne vulgaris. Role of diet} Hautarzt. (2010 Feb)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/20107753"
+    },
+    {
+      "text": " Melnik BC, Schmitz G Role of insulin, insulin-like growth factor-1, hyperglycaemic food and milk consumption in the pathogenesis of acne vulgaris Exp Dermatol. (2009 Oct)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/19709092"
+    },
+    {
+      "text": " Bhate K, Williams HC Epidemiology of acne vulgaris Br J Dermatol. (2012 Dec 4)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/23210645"
+    },
+    {
+      "text": " Danby FW Acne and milk, the diet myth, and beyond J Am Acad Dermatol. (2005 Feb)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/15692488"
+    },
+    {
+      "text": " Adebamowo CA, Spiegelman D, Danby FW, Frazier AL, Willett WC, Holmes MD High school dietary dairy intake and teenage acne J Am Acad Dermatol. (2005 Feb)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/15692464"
+    },
+    {
+      "text": " Adebamowo CA, Spiegelman D, Berkey CS, Danby FW, Rockett HH, Colditz GA, Willett WC, Holmes MD Milk consumption and acne in teenaged boys J Am Acad Dermatol. (2008 May)",
+      "link": "https://www.ncbi.nlm.nih.gov/pubmed/18194824"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Acne Symptoms - Khodaeiani E, Fouladi RF, Amirnia M, Saeidi M, Karimi ER Topical 4% nicotinamide vs. 1% clindamycin in moderate inflammatory acne vulgaris Int J Dermatol . ( 2013 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23786503"
+    },
+    {
+      "text": "Acne Symptoms - Gebicki J, Sysa-Jedrzejowska A, Adamus J, Woźniacka A, Rybak M, Zielonka J 1-Methylnicotinamide: a potent anti-inflammatory agent of vitamin origin Pol J Pharmacol . ( 2003 Jan-Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12856834"
+    },
+    {
+      "text": "Acne Symptoms - Shalita AR, Smith JG, Parish LC, Sofman MS, Chalker DK Topical nicotinamide compared with clindamycin gel in the treatment of inflammatory acne vulgaris Int J Dermatol . ( 1995 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/7657446"
+    },
+    {
+      "text": "Acne Symptoms - Dreno B, Amblard P, Agache P, Sirot S, Litoux P Low doses of zinc gluconate for inflammatory acne Acta Derm Venereol . ( 1989 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/2575335"
+    },
+    {
+      "text": "Acne Symptoms - Dreno B, Moyse D, Alirezai M, Amblard P, Auffret N, Beylot C, Bodokh I, Chivot M, Daniel F, Humbert P, Meynadier J, Poli F; Acne Research and Study Group Multicenter randomized comparative double-blind controlled clinical trial of the safety and efficacy of zinc gluconate versus minocycline hydrochloride in the treatment of inflammatory acne vulgaris Dermatology . ( 2001 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11586012"
+    },
+    {
+      "text": "Acne Symptoms - Göransson K, Lidén S, Odsell L Oral zinc in acne vulgaris: a clinical and methodological study Acta Derm Venereol . ( 1978 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/82356"
+    },
+    {
+      "text": "Acne Symptoms - Verma KC, Saini AS, Dhamija SK Oral zinc sulphate therapy in acne vulgaris: a double-blind trial Acta Derm Venereol . ( 1980 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/6163281"
+    },
+    {
+      "text": "Acne Symptoms - Gabriella Fabbrocini, Stefania Staibano, Giuseppe De Rosa, Valeria Battimiello, Nunzio Fardella, Gennaro Ilardi, Maria Immacolata La Rotonda, Amelia Longobardi, Marialuisa Mazzella, Maria Siano, Francesco Pastore, Valerio De Vita, Maria Luisa Vecchione, Fabio Ayala Resveratrol-containing gel for the treatment of acne vulgaris: a single-blind, vehicle-controlled, pilot study Am J Clin Dermatol . ( 2011 Apr 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21348544"
+    },
+    {
+      "text": "Acne Symptoms - Caperton C, Block S, Viera M, Keri J, Berman B Double-blind, Placebo-controlled Study Assessing the Effect of Chocolate Consumption in Subjects with a History of Acne Vulgaris J Clin Aesthet Dermatol . ( 2014 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24847404"
+    },
+    {
+      "text": "Acne Symptoms - Ahmed Salih Sahib, Haidar Hamid Al-Anbari, Mohammed Salih, and Fatima Abdullah Effects of Oral Antioxidants on Lesion Counts Associated with Oxidative Stress and Inflammation in Patients with Papulopustular Acne Journal of Clinical and Experimental Dermatology Research . ( )",
+      "link": "http://www.omicsonline.org/effects-of-oral-antioxidants-on-lesion-counts-associated-with-oxidative-stress-and-inflammation-in-patients-with-papulopustular-acne-2155-9554.1000163.php?aid=10078"
+    },
+    {
+      "text": "Acne Symptoms - Ruikchuchit T, Juntongjin P Role of vitamin D supplement adjunct to topical benzoyl peroxide in acne: a randomized double-blinded controlled study. Int J Womens Dermatol . ( 2024 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38957412"
+    },
+    {
+      "text": "Blood Carnitine - S Georgala, K H Schulpis, C Georgala, T Michas L-carnitine supplementation in patients with cystic acne on isotretinoin therapy J Eur Acad Dermatol Venereol . ( 1999 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10642057"
+    }
+  ]
+}

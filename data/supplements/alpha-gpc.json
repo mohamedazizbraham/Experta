@@ -1,0 +1,358 @@
+{
+  "slug": "alpha-gpc",
+  "name": "Alpha-GPC",
+  "name_en": "Alpha-GPC",
+  "description": "Alpha-glycerylphosphorylcholine (alpha-GPC ou α-GPC) est un composé utilisé par l’organisme dans la synthèse des neurotransmetteurs. Il est pris comme supplément pour l’amélioration cognitive/prévention du déclin cognitif et pour augmenter la puissance lors des performances sportives.",
+  "overview": [
+    {
+      "question": "Qu’est-ce que l’alpha-GPC ?",
+      "answer": "L’alpha-GPC (alpha-glycerophosphocholine ou choline alphoscerate) est un phospholipide contenant de la choline. Lorsqu’il est ingéré, l’alpha-GPC est rapidement absorbé et traverse facilement la barrière hémato-encéphalique. Il est métabolisé en choline et en glycérol-1-phosphate. La choline est un précurseur de l’acétylcholine, un neurotransmetteur impliqué dans la mémoire, l’attention et la contraction du muscle squelettique. Le glycérol-1-phosphate est utilisé pour soutenir les membranes cellulaires. [1]"
+    },
+    {
+      "question": "Quels sont les principaux avantages de l’alpha-GPC ?",
+      "answer": "La supplémentation orale en alpha-GPC intéresse principalement les usages nootropiques ou d’amélioration cognitive. Bien qu’il existe certains cas où l’alpha-GPC semble bénéfique, aucune recherche chez des humains en bonne santé n’indique qu’il procure une « amélioration cognitive » générale. Plusieurs études sur des rongeurs montrent une amélioration de l’apprentissage et de la mémoire chez les animaux supplémentés, mais ces effets n’ont pas encore été démontrés chez des humains en bonne santé. Chez les personnes âgées atteintes de démence légère à modérée - qui implique une perturbation de la neurotransmission cholinergique - l’alpha-GPC améliore les symptômes cognitifs (p. ex., déficits de mémoire et d’attention). [2] [1] L’alpha-GPC pourrait également aider les patients atteints de glioblastome, un type de cancer du cerveau très difficile à traiter. Une étude de 2022 a constaté que le taux de survie globale des personnes atteintes de glioblastome s’améliorait lorsque l’alpha-GPC était ajouté aux traitements chirurgicaux et chimiothérapeutiques. [3] L’alpha-GPC peut également augmenter l’efficacité des inhibiteurs de l’acétylcholinestérase (médicaments qui augmentent la disponibilité de l’acétylcholine en ralentissant sa dégradation), qui sont utilisés pour traiter la maladie d’Alzheimer. [2] [4] Lorsque l’alpha-GPC est ajouté à ce traitement standard de la maladie d’Alzheimer, il peut améliorer les symptômes comportementaux, les résultats fonctionnels et les symptômes cognitifs. [5] Les athlètes constituent une autre population qui pourrait bénéficier de la supplémentation en alpha-GPC. Des preuves préliminaires suggèrent que l’alpha-GPC augmente la puissance du saut vertical. Dans une étude, la caféine et l’alpha-GPC ont tous deux amélioré la puissance du saut vertical, l’amélioration la plus importante étant observée chez les participants ayant reçu une dose de 200 mg d’alpha-GPC. [6] [7] De plus, une étude pilote a rapporté que l’alpha-GPC augmentait la force maximale au développé couché, mais pas la puissance maximale ni le taux de développement de la force. [8] Dans une étude réalisée chez des cyclistes entraînés, l’alpha-GPC a amélioré la puissance maximale et le temps jusqu’à la fatigue lorsqu’il était utilisé avec la L-citrulline. [9] Il n’est actuellement pas clair si l’alpha-GPC augmente la force isométrique. [7] [10]"
+    },
+    {
+      "question": "Quels sont les principaux inconvénients de l’alpha-GPC ?",
+      "answer": "L’alpha-GPC est généralement bien toléré. Aucun effet secondaire grave n’a été signalé dans les essais humains à une dose de 1 200 mg par jour pendant six mois. [11] Le niveau sans effet indésirable observé (NOAEL) est de 150 mg/kg de poids corporel par jour. Récemment, des inquiétudes ont été soulevées concernant le potentiel de l’alpha-GPC à augmenter le risque de maladie cardiovasculaire (MCV) parce qu’il sert de substrat à la synthèse du triméthylamine-N-oxyde (TMAO) dans l’intestin, et le TMAO est associé à des issues cardiovasculaires défavorables chez les personnes atteintes de MCV et dans les études mécanistiques. Bien qu’une association puisse exister, le lien de causalité entre le TMAO et la MCV n’est pas particulièrement fort. Chez les personnes en bonne santé, cela peut ne pas être préoccupant, mais chez les personnes à haut risque de MCV il peut être prudent de prendre en compte le risque supplémentaire. [12] [13] Une étude de cohorte de 2021 portant sur plus de 12 millions de participants (âgés d’au moins 50 ans), dont 108 877 utilisateurs d’alpha-GPC, a rapporté que l’utilisation d’alpha-GPC pendant au moins 12 mois était associée à un risque accru d’AVC sur 10 ans. [14] De plus, une étude sur la souris de 2021 a montré que la supplémentation en alpha-GPC favorisait l’athérosclérose. [15] Cependant, les preuves actuellement disponibles sont de nature préliminaire, de sorte que des essais contrôlés randomisés et de grandes études de cohorte sont nécessaires pour confirmer ces résultats."
+    },
+    {
+      "question": "Comment l’alpha-GPC agit-il ?",
+      "answer": "Les preuves mécanistiques suggèrent que l’alpha-GPC exerce ses effets en augmentant la synthèse et la libération d’acétylcholine dans le cerveau, où elle intervient dans la mémoire, la motivation, l’éveil et l’attention. [16] [17] [18] [19] L’acétylcholine est également responsable des potentiels d’action qui stimulent les muscles à se contracter. Ainsi, on suppose que des niveaux accrus d’acétylcholine entraînent un signal plus fort pour la contraction musculaire et, par conséquent, une production de force accrue."
+    }
+  ],
+  "dosage": "Pour atténuer les symptômes du déclin cognitif, presque toutes les études ont utilisé une dose de 1 200 mg par jour, répartie en trois prises de 400 mg. Pour augmenter la puissance, les études ont utilisé une dose de 300 à 600 mg, prise 30 à 60 minutes avant l'exercice.",
+  "safety": {
+    "summary": [
+      "Généralement bien toléré. Les effets indésirables possibles comprennent des symptômes gastro-intestinaux, des maux de tête et de l'agitation / nervosité.",
+      "Les recherches préliminaires suggèrent une association potentielle avec les maladies cardiovasculaires.",
+      "Il n’a pas été étudié spécifiquement pendant la grossesse ou l’allaitement, mais étant donné qu’il est principalement absorbé sous forme de choline, l’alpha-GPC oral est probablement sûr. La prudence reste recommandée jusqu’à ce que davantage de recherches soient disponibles."
+    ],
+    "side_effects": {
+      "summary": "L’alpha-GPC est généralement bien toléré, et les modèles animaux suggèrent que l’alpha-GPC présente un faible risque de toxicité. Chez l’homme, l’alpha-GPC a été utilisé à une dose allant jusqu’à 1,2 g (1 200 mg) quotidiennement pendant 6 mois sans effets indésirables graves signalés. [11]",
+      "table": [
+        {
+          "effect": "Brûlures d’estomac [11] [23]",
+          "details": "Voie : Orale, Intramusculaire"
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Médicaments anticholinergiques",
+        "effect": "L’alpha-GPC peut contrecarrer les effets des anticholinergiques en augmentant l’acétylcholine. Cela n’a été rapporté qu’avec la scopolamine chez des rats recevant des doses d’alpha-GPC supérieures à l’usage humain normal. [19]",
+        "evidence": "Théorique",
+        "severity": "Inconnu"
+      },
+      {
+        "agent": "Suppléments anticholinergiques",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Grossesse",
+        "safety_information": "Alpha-GPC est largement métabolisé en choline dans le tractus gastro-intestinal, et le principal métabolite retrouvé dans le plasma après une supplémentation orale est la choline. [25] [26] Étant donné que la choline est un nutriment essentiel pendant la grossesse, l'alpha-GPC est très probablement sûr. Cependant, la sécurité des suppléments d'alpha-GPC pendant la grossesse n’a pas été spécifiquement étudiée, et la prudence reste de mise. L'alpha-GPC par d’autres voies (p. ex., intramusculaire) doit être évité."
+      },
+      {
+        "condition": "Allaitement",
+        "safety_information": "Étant donné que l'alpha-GPC est principalement métabolisé en et absorbé sous forme de choline, [25] [26] il est très probablement sûr pendant l’allaitement. Cependant, la sécurité des suppléments d'alpha-GPC pendant la lactation n’a pas été spécifiquement étudiée, et la prudence est de mise. L'alpha-GPC par d’autres voies (p. ex., intramusculaire) doit être évité."
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Général",
+        "details": "La recherche préliminaire suggère qu’il pourrait exister une association entre la supplémentation en alpha-GPC et le risque de maladie cardiovasculaire (CVD). Dans une étude observationnelle, un antécédent de supplémentation en alpha-GPC était associé à un risque accru d’accident vasculaire cérébral sur 10 ans, présentant un effet dose-réponse avec la durée croissante. [14] L'alpha-GPC a été trouvé capable de favoriser l’athérosclérose chez la souris. [15] Le raisonnement est que l'alpha-GPC peut servir de substrat à la synthèse du triméthylamine-N-oxyde (TMAO) dans l’intestin, et le TMAO est associé à des issues cardiovasculaires défavorables dans des études épidémiologiques et mécanistiques. Bien qu’une association puisse exister, le lien de causalité entre le TMAO et la CVD nécessite davantage de recherches. [12] [13] [20] [21] [22]"
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la Liste 2025 des Substances Interdites du WADA, l'alpha-GPC n’est pas interdit."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Oxydation des graisses",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Étude Participants : 8",
+          "studies": [
+            {
+              "title": "Glycerophosphocholine enhances growth hormone secretion and fat oxidation in young adults",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22673596"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Hormone de croissance",
+          "grade": "B",
+          "effect": "Petite augmentation",
+          "evidence": "2 Études Participants : 15",
+          "studies": [
+            {
+              "title": "Glycerophosphocholine enhances growth hormone secretion and fat oxidation in young adults",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22673596"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Absorption du fer",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 114",
+          "studies": [
+            {
+              "title": "L-alpha-glycerophosphocholine contributes to meat's enhancement of nonheme iron absorption",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18424594"
+            },
+            {
+              "title": "Optimization of a phytase-containing micronutrient powder with low amounts of highly bioavailable iron for in-home fortification of complementary foods",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19106242"
+            }
+          ],
+          "participants": 114
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie d'Alzheimer",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la maladie d'Alzheimer",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l'étude : 261",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 261
+        },
+        {
+          "outcome": "Déclin cognitif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 261",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 261
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Démence",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la maladie d'Alzheimer",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l'étude : 261",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 261
+        },
+        {
+          "outcome": "Déclin cognitif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 261",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 261
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé hormonale",
+      "outcomes": [
+        {
+          "outcome": "Oxydation des graisses",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Hormone de croissance",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 8
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Taille et force musculaires",
+      "outcomes": [
+        {
+          "outcome": "Hormone de croissance",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude : 7",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 7
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 7",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 7
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance athlétique générale",
+      "outcomes": [
+        {
+          "outcome": "Hormone de croissance",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude : 7",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 7
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 7",
+          "studies": [
+            {
+              "title": "Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+            }
+          ],
+          "participants": 7
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels sont les autres noms de Alpha-GPC ?",
+      "answer": "Notez que l'Alpha-GPC est également connu sous le nom de : L'Alpha-GPC ne doit pas être confondu avec : - Alpha-glycerylphosphorylcholine - L-alpha-glycerophosphocholin - glycerophosphocholine - L-alpha-glyceryl-phosphorylcholine - Choline Alphoscerate - Choline - DMAE - CDP-choline"
+    }
+  ],
+  "references": [
+    {
+      "text": "Alzheimer's Disease Symptoms - De Jesus Moreno Moreno M Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial Clin Ther. (2003 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+    },
+    {
+      "text": "Growth Hormone - Tim Ziegenfuss, Jamie Landis and Jennifer Hofheins Acute supplementation with alpha-glycerylphosphorylcholine augments growth hormone response to, and peak force production during, resistance exercise JISSN. ()",
+      "link": "http://www.jissn.com/content/5/S1/P15"
+    },
+    {
+      "text": "Growth Hormone - Kawamura T, Okubo T, Sato K, Fujita S, Goto K, Hamaoka T, Iemitsu M Glycerophosphocholine enhances growth hormone secretion and fat oxidation in young adults Nutrition. (2012 Jun 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22673596"
+    },
+    {
+      "text": "Iron Absorption - Charlotte N Armah, Paul Sharp, Fred A Mellon, Sandra Pariagh, Elizabeth K Lund, Jack R Dainty, Birgit Teucher, Susan J Fairweather-Tait L-alpha-glycerophosphocholine contributes to meat's enhancement of nonheme iron absorption J Nutr. (2008 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18424594"
+    },
+    {
+      "text": "Iron Absorption - Troesch B, Egli I, Zeder C, Hurrell RF, de Pee S, Zimmermann MB Optimization of a phytase-containing micronutrient powder with low amounts of highly bioavailable iron for in-home fortification of complementary foods Am J Clin Nutr. (2009 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19106242"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Alzheimer's Disease Symptoms - De Jesus Moreno Moreno M Cognitive improvement in mild to moderate Alzheimer's dementia after treatment with the acetylcholine precursor choline alfoscerate: a multicenter, double-blind, randomized, placebo-controlled trial Clin Ther. (2003 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12637119"
+    },
+    {
+      "text": "Growth Hormone - Tim Ziegenfuss, Jamie Landis and Jennifer Hofheins Acute supplementation with alpha-glycerylphosphorylcholine augments growth hormone response to, and peak force production during, resistance exercise JISSN. ()",
+      "link": "http://www.jissn.com/content/5/S1/P15"
+    },
+    {
+      "text": "Growth Hormone - Kawamura T, Okubo T, Sato K, Fujita S, Goto K, Hamaoka T, Iemitsu M Glycerophosphocholine enhances growth hormone secretion and fat oxidation in young adults Nutrition. (2012 Jun 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22673596"
+    },
+    {
+      "text": "Iron Absorption - Charlotte N Armah, Paul Sharp, Fred A Mellon, Sandra Pariagh, Elizabeth K Lund, Jack R Dainty, Birgit Teucher, Susan J Fairweather-Tait L-alpha-glycerophosphocholine contributes to meat's enhancement of nonheme iron absorption J Nutr. (2008 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18424594"
+    },
+    {
+      "text": "Iron Absorption - Troesch B, Egli I, Zeder C, Hurrell RF, de Pee S, Zimmermann MB Optimization of a phytase-containing micronutrient powder with low amounts of highly bioavailable iron for in-home fortification of complementary foods Am J Clin Nutr. (2009 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19106242"
+    }
+  ]
+}

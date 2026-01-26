@@ -1,0 +1,1449 @@
+{
+  "slug": "sleep-health",
+  "name": "Santé du sommeil",
+  "name_en": "Sleep Health",
+  "description": "La santé du sommeil englobe une vision holistique du sommeil qui comprend la régularité du sommeil, le timing du sommeil, la qualité du sommeil, la durée du sommeil et la satisfaction de son sommeil.",
+  "overview": [],
+  "database": [
+    {
+      "intervention": "Theanine",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Étude Participants : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Attention",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Étude Participants : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Dysfonctionnement diurne",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants : 571",
+          "studies": [
+            {
+              "title": "The effects of L-theanine consumption on sleep outcomes: A systematic review and meta-analysis.(Covers9 studiesreporting on Day-Time Dysfunction)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40056718"
+            }
+          ],
+          "participants": 571
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Fonction exécutive",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Vitesse motrice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Signes et symptômes de troubles du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Participants aux études : 877",
+          "studies": [
+            {
+              "title": "The effects of L-theanine consumption on sleep outcomes: A systematic review and meta-analysis.(Covers10 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40056718"
+            }
+          ],
+          "participants": 877
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 Participants aux études : 900",
+          "studies": [
+            {
+              "title": "The effects of L-theanine consumption on sleep outcomes: A systematic review and meta-analysis.(Covers12 studiesreporting on Sleep Quality)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40056718"
+            }
+          ],
+          "participants": 900
+        },
+        {
+          "outcome": "Fluidité verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Mémoire verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "intervention": "Glycine",
+      "outcomes": [
+        {
+          "outcome": "Cognition",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 11",
+          "studies": [],
+          "participants": 11
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants aux études : 33",
+          "studies": [
+            {
+              "title": "The effects of glycine on subjective daytime performance in partially sleep-restricted healthy volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22529837"
+            }
+          ],
+          "participants": 33
+        }
+      ]
+    },
+    {
+      "intervention": "Safran",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration légère",
+          "evidence": "2 études Participants : 178",
+          "studies": [
+            {
+              "title": "affron ® a novel saffron extract (Crocus sativus L.) improves mood in healthy adults over 4 weeks in a double-blind, parallel, randomized, placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28735826"
+            }
+          ],
+          "participants": 178
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 128",
+          "studies": [
+            {
+              "title": "affron ® a novel saffron extract (Crocus sativus L.) improves mood in healthy adults over 4 weeks in a double-blind, parallel, randomized, placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28735826"
+            }
+          ],
+          "participants": 128
+        },
+        {
+          "outcome": "Signes et symptômes d'insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 63",
+          "studies": [
+            {
+              "title": "Effects of saffron on sleep quality in healthy adults with self-reported poor sleep: a randomized, double-blind, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32056539"
+            }
+          ],
+          "participants": 63
+        },
+        {
+          "outcome": "Humeur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 128",
+          "studies": [
+            {
+              "title": "affron ® a novel saffron extract (Crocus sativus L.) improves mood in healthy adults over 4 weeks in a double-blind, parallel, randomized, placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28735826"
+            }
+          ],
+          "participants": 128
+        },
+        {
+          "outcome": "Signes et symptômes de troubles du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 63",
+          "studies": [
+            {
+              "title": "Effects of saffron on sleep quality in healthy adults with self-reported poor sleep: a randomized, double-blind, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32056539"
+            }
+          ],
+          "participants": 63
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 63",
+          "studies": [
+            {
+              "title": "Effects of saffron on sleep quality in healthy adults with self-reported poor sleep: a randomized, double-blind, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32056539"
+            }
+          ],
+          "participants": 63
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 63",
+          "studies": [
+            {
+              "title": "Effects of saffron on sleep quality in healthy adults with self-reported poor sleep: a randomized, double-blind, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32056539"
+            }
+          ],
+          "participants": 63
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants à l'étude : 241",
+          "studies": [
+            {
+              "title": "Effects of saffron on sleep quality in healthy adults with self-reported poor sleep: a randomized, double-blind, placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32056539"
+            },
+            {
+              "title": "affron ® a novel saffron extract (Crocus sativus L.) improves mood in healthy adults over 4 weeks in a double-blind, parallel, randomized, placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28735826"
+            }
+          ],
+          "participants": 241
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 128",
+          "studies": [
+            {
+              "title": "affron ® a novel saffron extract (Crocus sativus L.) improves mood in healthy adults over 4 weeks in a double-blind, parallel, randomized, placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28735826"
+            }
+          ],
+          "participants": 128
+        }
+      ]
+    },
+    {
+      "intervention": "Valériane",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants : 202",
+          "studies": [
+            {
+              "title": "The use of Valeriana officinalis (Valerian) in improving sleep in patients who are undergoing treatment for cancer: a phase III randomized, placebo-controlled, double-blind study (NCCTG Trial, N01C5)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21399726"
+            }
+          ],
+          "participants": 202
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Études Participants : 498",
+          "studies": [
+            {
+              "title": "Effectiveness of Valerian on insomnia: a meta-analysis of randomized placebo-controlled trials(Covers10 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20347389"
+            }
+          ],
+          "participants": 498
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 847",
+          "studies": [
+            {
+              "title": "Valerian for sleep: a systematic review and meta-analysis.(Covers6 studiesreporting on Sleep Quality)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17145239"
+            }
+          ],
+          "participants": 847
+        }
+      ]
+    },
+    {
+      "intervention": "Caféine",
+      "outcomes": [
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "B",
+          "effect": "Légère diminution",
+          "evidence": "4 études Participants : 80",
+          "studies": [
+            {
+              "title": "The Effect of Consuming Caffeine Before Late Afternoon/Evening Training or Competition on Sleep: A Systematic Review with Meta-Analysis.(Covers4 studiesreporting on Sleep Duration)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41003623"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 80",
+          "studies": [
+            {
+              "title": "The Effect of Consuming Caffeine Before Late Afternoon/Evening Training or Competition on Sleep: A Systematic Review with Meta-Analysis.(Covers4 studiesreporting on Sleep Efficiency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41003623"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "effect": "",
+          "evidence": "19 études Participants : 252",
+          "studies": [
+            {
+              "title": "The effect of caffeine on subsequent sleep: A systematic review and meta-analysis.(Covers19 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36870101"
+            }
+          ],
+          "participants": 252
+        }
+      ]
+    },
+    {
+      "intervention": "Creatine",
+      "outcomes": [
+        {
+          "outcome": "Adrenaline",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 étude Participants : 19",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 19",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 39",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            },
+            {
+              "title": "Creatine supplementation, sleep deprivation, cortisol, melatonin and behavior",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17046034"
+            }
+          ],
+          "participants": 39
+        },
+        {
+          "outcome": "Dopamine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 19",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 19",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 39",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            },
+            {
+              "title": "Creatine supplementation, sleep deprivation, cortisol, melatonin and behavior",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17046034"
+            }
+          ],
+          "participants": 39
+        },
+        {
+          "outcome": "Noradrenaline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 19",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Symptômes de privation de sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 39",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            },
+            {
+              "title": "Creatine supplementation, sleep deprivation, cortisol, melatonin and behavior",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17046034"
+            }
+          ],
+          "participants": 39
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 39",
+          "studies": [
+            {
+              "title": "Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+            },
+            {
+              "title": "Creatine supplementation, sleep deprivation, cortisol, melatonin and behavior",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17046034"
+            }
+          ],
+          "participants": 39
+        }
+      ]
+    },
+    {
+      "intervention": "Lavande",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Participants aux études : 628",
+          "studies": [
+            {
+              "title": "The Sleep-Enhancing Effect of Lavender Essential Oil in Adults: A Systematic Review and Meta-Analysis.(Covers11 studiesreporting on Sleep Quality)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40600743"
+            }
+          ],
+          "participants": 628
+        }
+      ]
+    },
+    {
+      "intervention": "Magnesium",
+      "outcomes": [
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Participants à l'étude : 100",
+          "studies": [
+            {
+              "title": "Magnesium supplementation improves indicators of low magnesium status and inflammatory stress in adults older than 51 years with poor quality sleep",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21199787"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Magnésium sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 100",
+          "studies": [
+            {
+              "title": "Magnesium supplementation improves indicators of low magnesium status and inflammatory stress in adults older than 51 years with poor quality sleep",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21199787"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 112",
+          "studies": [
+            {
+              "title": "Oral Mg(2+) supplementation reverses age-related neuroendocrine and sleep EEG changes in humans",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12163983"
+            },
+            {
+              "title": "Magnesium supplementation improves indicators of low magnesium status and inflammatory stress in adults older than 51 years with poor quality sleep",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21199787"
+            }
+          ],
+          "participants": 112
+        }
+      ]
+    },
+    {
+      "intervention": "Mélatonine",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "C",
+          "effect": "Amélioration importante",
+          "evidence": "1 Participants à l'étude : 48",
+          "studies": [
+            {
+              "title": "Prophylaxis of migraine with melatonin: a randomized controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20975054"
+            }
+          ],
+          "participants": 48
+        },
+        {
+          "outcome": "Fréquence des migraines",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 48",
+          "studies": [
+            {
+              "title": "Prophylaxis of migraine with melatonin: a randomized controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20975054"
+            }
+          ],
+          "participants": 48
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 Études Participants : 480",
+          "studies": [
+            {
+              "title": "Efficacy on sleep parameters and tolerability of melatonin in individuals with sleep or mental disorders: A systematic review and meta-analysis.(Covers9 studiesreporting on Sleep Duration)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35691474"
+            }
+          ],
+          "participants": 480
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 498",
+          "studies": [
+            {
+              "title": "Efficacy on sleep parameters and tolerability of melatonin in individuals with sleep or mental disorders: A systematic review and meta-analysis.(Covers11 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35691474"
+            }
+          ],
+          "participants": 498
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 48",
+          "studies": [
+            {
+              "title": "Prophylaxis of migraine with melatonin: a randomized controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20975054"
+            }
+          ],
+          "participants": 48
+        }
+      ]
+    },
+    {
+      "intervention": "Jeûne intermittent 16:8",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [
+            {
+              "title": "Effect of 8-h time-restricted feeding on sleep quality and duration in adults with obesity",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30802152"
+            }
+          ],
+          "participants": 23
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [
+            {
+              "title": "Effect of 8-h time-restricted feeding on sleep quality and duration in adults with obesity",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30802152"
+            }
+          ],
+          "participants": 23
+        }
+      ]
+    },
+    {
+      "intervention": "Alpha-Lactalbumin",
+      "outcomes": [
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 19",
+          "studies": [
+            {
+              "title": "Evening Alpha-Lactalbumin Supplementation Alters Sleep Architecture and Reduces Morning Reaction Time in an Athletically Trained Population With Sleep Difficulties.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39832504"
+            }
+          ],
+          "participants": 19
+        }
+      ]
+    },
+    {
+      "intervention": "Battements binauraux",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Study Participants: 15",
+          "studies": [
+            {
+              "title": "Brainwave entrainment for better sleep and post-sleep state of young elite soccer players - a pilot study",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23862643"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 15",
+          "studies": [
+            {
+              "title": "Brainwave entrainment for better sleep and post-sleep state of young elite soccer players - a pilot study",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23862643"
+            }
+          ],
+          "participants": 15
+        }
+      ]
+    },
+    {
+      "intervention": "Cannabis",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "No effect",
+          "evidence": "1 Study Participants: 8",
+          "studies": [
+            {
+              "title": "Effect of Delta-9-tetrahydrocannabinol and cannabidiol on nocturnal sleep and early-morning behavior in young adults",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15118485"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Fatigue Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 8",
+          "studies": [
+            {
+              "title": "Effect of Delta-9-tetrahydrocannabinol and cannabidiol on nocturnal sleep and early-morning behavior in young adults",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15118485"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Memory",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Effect of Delta-9-tetrahydrocannabinol and cannabidiol on nocturnal sleep and early-morning behavior in young adults",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15118485"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Humeur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Effect of Delta-9-tetrahydrocannabinol and cannabidiol on nocturnal sleep and early-morning behavior in young adults",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15118485"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Effect of Delta-9-tetrahydrocannabinol and cannabidiol on nocturnal sleep and early-morning behavior in young adults",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15118485"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Effect of Delta-9-tetrahydrocannabinol and cannabidiol on nocturnal sleep and early-morning behavior in young adults",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15118485"
+            }
+          ],
+          "participants": 8
+        }
+      ]
+    },
+    {
+      "intervention": "Acide docosahexaénoïque",
+      "outcomes": [
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 362",
+          "studies": [
+            {
+              "title": "Fatty acids and sleep in UK children: subjective and pilot objective sleep results from the DOLAB study--a randomized controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24605819"
+            }
+          ],
+          "participants": 362
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 362",
+          "studies": [
+            {
+              "title": "Fatty acids and sleep in UK children: subjective and pilot objective sleep results from the DOLAB study--a randomized controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24605819"
+            }
+          ],
+          "participants": 362
+        },
+        {
+          "outcome": "Éveil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 362",
+          "studies": [
+            {
+              "title": "Fatty acids and sleep in UK children: subjective and pilot objective sleep results from the DOLAB study--a randomized controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24605819"
+            }
+          ],
+          "participants": 362
+        }
+      ]
+    },
+    {
+      "intervention": "Cétones exogènes",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 89",
+          "studies": [
+            {
+              "title": "Effect of D-β-hydroxybutyrate on sleep quality in healthy participants: a randomized, double-blind, placebo-controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39914452"
+            }
+          ],
+          "participants": 89
+        }
+      ]
+    },
+    {
+      "intervention": "Huile de poisson",
+      "outcomes": [
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "5 études Participants : 413",
+          "studies": [
+            {
+              "title": "Effect of omega-3 fatty acids on sleep: a systematic review and meta-analysis of randomized controlled trials.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39583980"
+            }
+          ],
+          "participants": 413
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 357",
+          "studies": [
+            {
+              "title": "Effect of omega-3 fatty acids on sleep: a systematic review and meta-analysis of randomized controlled trials.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39583980"
+            }
+          ],
+          "participants": 357
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 485",
+          "studies": [
+            {
+              "title": "Effect of omega-3 fatty acids on sleep: a systematic review and meta-analysis of randomized controlled trials.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39583980"
+            }
+          ],
+          "participants": 485
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 1261",
+          "studies": [
+            {
+              "title": "Effect of omega-3 fatty acids on sleep: a systematic review and meta-analysis of randomized controlled trials.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39583980"
+            }
+          ],
+          "participants": 1261
+        }
+      ]
+    },
+    {
+      "intervention": "Ginkgo Biloba",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "The effect of Li 1370, extract of Ginkgo biloba, on REM sleep in humans",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11518478"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "intervention": "Kava",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 24",
+          "studies": [
+            {
+              "title": "Kava and valerian in the treatment of stress-induced insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11536390"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 24",
+          "studies": [
+            {
+              "title": "Kava and valerian in the treatment of stress-induced insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11536390"
+            }
+          ],
+          "participants": 24
+        }
+      ]
+    },
+    {
+      "intervention": "Mélisse",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes d'insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "Effects of Melissa officinalis Phytosome on Sleep Quality: Results of a Prospective, Double-Blind, Placebo-Controlled, and Cross-Over Study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39683592"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "intervention": "PQQ",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        }
+      ]
+    },
+    {
+      "intervention": "Panax Ginseng (Ginseng coréen)",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 16",
+          "studies": [
+            {
+              "title": "Fermented ginseng improves the first-night effect in humans",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19294962"
+            }
+          ],
+          "participants": 16
+        }
+      ]
+    },
+    {
+      "intervention": "Passiflore",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Étude Participants : 41",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (passionflower) herbal tea on subjective sleep quality.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21294203"
+            }
+          ],
+          "participants": 41
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 41",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (passionflower) herbal tea on subjective sleep quality.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21294203"
+            }
+          ],
+          "participants": 41
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 41",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (passionflower) herbal tea on subjective sleep quality.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21294203"
+            }
+          ],
+          "participants": 41
+        }
+      ]
+    },
+    {
+      "intervention": "Quercetin",
+      "outcomes": [
+        {
+          "outcome": "Fatigue Symptoms",
+          "grade": "D",
+          "effect": "No effect",
+          "evidence": "1 Study Participants: 58",
+          "studies": [
+            {
+              "title": "Effects of 6 weeks of quercetin supplementation on energy, fatigue, and sleep in ROTC cadets",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21634303"
+            }
+          ],
+          "participants": 58
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 58",
+          "studies": [
+            {
+              "title": "Effects of 6 weeks of quercetin supplementation on energy, fatigue, and sleep in ROTC cadets",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21634303"
+            }
+          ],
+          "participants": 58
+        }
+      ]
+    },
+    {
+      "intervention": "Vitamin B6",
+      "outcomes": [
+        {
+          "outcome": "Dream Salience",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 18",
+          "studies": [
+            {
+              "title": "Effects of pyridoxine on dreaming: a preliminary study",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11883552"
+            }
+          ],
+          "participants": 18
+        }
+      ]
+    },
+    {
+      "intervention": "Vitamine D",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Participants à l'étude: 93",
+          "studies": [
+            {
+              "title": "The effect of vitamin D supplement on the score and quality of sleep in 20-50 year-old people with sleep disorders compared with control group",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28475473"
+            }
+          ],
+          "participants": 93
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 93",
+          "studies": [
+            {
+              "title": "The effect of vitamin D supplement on the score and quality of sleep in 20-50 year-old people with sleep disorders compared with control group",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28475473"
+            }
+          ],
+          "participants": 93
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 93",
+          "studies": [
+            {
+              "title": "The effect of vitamin D supplement on the score and quality of sleep in 20-50 year-old people with sleep disorders compared with control group",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28475473"
+            }
+          ],
+          "participants": 93
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 93",
+          "studies": [
+            {
+              "title": "The effect of vitamin D supplement on the score and quality of sleep in 20-50 year-old people with sleep disorders compared with control group",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28475473"
+            }
+          ],
+          "participants": 93
+        }
+      ]
+    },
+    {
+      "intervention": "Yohimbine",
+      "outcomes": [
+        {
+          "outcome": "Diurèse",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Étude Participants : 10",
+          "studies": [
+            {
+              "title": "Melatonin responses to clonidine and yohimbine challenges",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/7647083"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Mélatonine plasmatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 10",
+          "studies": [
+            {
+              "title": "Melatonin responses to clonidine and yohimbine challenges",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/7647083"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Sleep Quality - Murray BJ, Cowen PJ, Sharpley AL The effect of Li 1370, extract of Ginkgo biloba, on REM sleep in humans Pharmacopsychiatry . ( 2001 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11518478"
+    },
+    {
+      "text": "Sleep Quality - Held K, Antonijevic IA, Künzel H, Uhr M, Wetter TC, Golly IC, Steiger A, Murck H Oral Mg(2+) supplementation reverses age-related neuroendocrine and sleep EEG changes in humans Pharmacopsychiatry . ( 2002 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12163983"
+    },
+    {
+      "text": "Sleep Quality - Nielsen FH, Johnson LK, Zeng H Magnesium supplementation improves indicators of low magnesium status and inflammatory stress in adults older than 51 years with poor quality sleep Magnes Res . ( 2010 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21199787"
+    },
+    {
+      "text": "Sleep Quality - Bigelman KA, Chapman DP, Freese EC, Trilk JL, Cureton KJ Effects of 6 weeks of quercetin supplementation on energy, fatigue, and sleep in ROTC cadets Mil Med . ( 2011 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21634303"
+    },
+    {
+      "text": "Sleep Quality - Shen H, Zhang LJ, Zhu WY The Sleep-Enhancing Effect of Lavender Essential Oil in Adults: A Systematic Review and Meta-Analysis. Holist Nurs Pract . ( 2025 Jul 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40600743"
+    },
+    {
+      "text": "Sleep Quality - Namni Goel, Hyungsoo Kim, Raymund P Lao An olfactory stimulus modifies nighttime sleep in young men and women Chronobiol Int . ( 2005 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16298774"
+    },
+    {
+      "text": "Sleep Quality - Majid MS, Ahmad HS, Bizhan H, Hosein HZM, Mohammad A The effect of vitamin D supplement on the score and quality of sleep in 20-50 year-old people with sleep disorders compared with control group Nutr Neurosci . ( 2018 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28475473"
+    },
+    {
+      "text": "Sleep Quality - Kelsey Gabel, Kristin K Hoddy, Helen J Burgess, Krista A Varady Effect of 8-h time-restricted feeding on sleep quality and duration in adults with obesity Appl Physiol Nutr Metab . ( 2019 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30802152"
+    },
+    {
+      "text": "Sleep Quality - Kitaoka K, Uchida K, Okamoto N, Chikahisa S, Miyazaki T, Takeda E, Séi H Fermented ginseng improves the first-night effect in humans Sleep . ( 2009 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19294962"
+    },
+    {
+      "text": "Sleep Quality - Adrian L Lopresti, Stephen J Smith, Alexandra P Metse, Peter D Drummond Effects of saffron on sleep quality in healthy adults with self-reported poor sleep: a randomized, double-blind, placebo-controlled trial J Clin Sleep Med . ( 2020 Jun 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32056539"
+    },
+    {
+      "text": "Sleep Quality - Graham Kell, Amanda Rao, Gavin Beccaria, Paul Clayton, Antonio Manuel Inarejos-García, Marin Prodanov affron ® a novel saffron extract (Crocus sativus L.) improves mood in healthy adults over 4 weeks in a double-blind, parallel, randomized, placebo-controlled clinical trial Complement Ther Med . ( 2017 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28735826"
+    },
+    {
+      "text": "Sleep Quality - Shahdadi H, Balouchi A, Dehghanmehr S Effect of saffron oral capsule on anxiety and quality of sleep of diabetic patients in a tertiary healthcare facility in southeastern Iran: A quasi-experimental study Trop J Pharm Res . ( )",
+      "link": "https://www.ajol.info/index.php/tjpr/article/view/164280"
+    },
+    {
+      "text": "Sleep Quality - Bulman A, D'Cunha NM, Marx W, Turner M, McKune A, Naumovski N The effects of L-theanine consumption on sleep outcomes: A systematic review and meta-analysis. Sleep Med Rev . ( 2025 Feb 25 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40056718"
+    },
+    {
+      "text": "Sleep Quality - Shinsuke Hidese, Shintaro Ogawa, Miho Ota, Ikki Ishida, Zenta Yasukawa, Makoto Ozeki, Hiroshi Kunugi Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial Nutrients . ( 2019 Oct 3 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+    },
+    {
+      "text": "Sleep Quality - Lyon MR, Kapoor MP, Juneja LR The effects of L-theanine (Suntheanine®) on objective sleep quality in boys with attention deficit hyperactivity disorder (ADHD): a randomized, double-blind, placebo-controlled clinical trial Altern Med Rev . ( 2011 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22214254"
+    },
+    {
+      "text": "Sleep Quality - . ( 2024-06-16 )",
+      "link": "https://www.frontiersin.org/articles/10.3389/fnut.2024.1419978"
+    },
+    {
+      "text": "Sleep Quality - Bannai M, Kawai N, Ono K, Nakahara K, Murakami N The effects of glycine on subjective daytime performance in partially sleep-restricted healthy volunteers Front Neurol . ( 2012 Apr 18 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22529837"
+    },
+    {
+      "text": "Sleep Quality - Kentaro Inagawa, Takenori Hiraoka, Tohru Kohda, Wataru Yamadera, Michio Takahashi Subjective effects of glycine ingestion before bedtime on sleep quality Sleep and Biological Rhythms . ( )",
+      "link": "http://onlinelibrary.wiley.com/doi/10.1111/j.1479-8425.2006.00193.x/full"
+    },
+    {
+      "text": "Sleep Quality - Wataru Yamadera, Kentaro Inagawa, Shintaro Chiba, Makoto Bannai, Michio Takahashi, Kazuhiko Nakayama Glycine ingestion improves subjective sleep quality in human volunteers, correlating with polysomnographic changes Sleep and Biological Rhythms . ( )",
+      "link": "http://onlinelibrary.wiley.com/doi/10.1111/j.1479-8425.2007.00262.x/abstract"
+    },
+    {
+      "text": "Sleep Quality - Alstadhaug KB, Odeh F, Salvesen R, Bekkelund SI Prophylaxis of migraine with melatonin: a randomized controlled trial Neurology . ( 2010 Oct 26 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20975054"
+    },
+    {
+      "text": "Sleep Duration - Salanitro M, Wrigley T, Ghabra H, de Haan E, Hill CM, Solmi M, Cortese S Efficacy on sleep parameters and tolerability of melatonin in individuals with sleep or mental disorders: A systematic review and meta-analysis. Neurosci Biobehav Rev . ( 2022 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35691474"
+    },
+    {
+      "text": "Sleep Quality - D Wheatley Kava and valerian in the treatment of stress-induced insomnia Phytother Res . ( 2001 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11536390"
+    },
+    {
+      "text": "Sleep Quality - Bent S, Padula A, Moore D, Patterson M, Mehling W Valerian for sleep: a systematic review and meta-analysis. Am J Med . ( 2006-Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17145239"
+    },
+    {
+      "text": "Sleep Quality - Fernández-San-Martín MI, Masa-Font R, Palacios-Soler L, Sancho-Gómez P, Calbó-Caldentey C, Flores-Mateo G Effectiveness of Valerian on insomnia: a meta-analysis of randomized placebo-controlled trials Sleep Med . ( 2010 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20347389"
+    },
+    {
+      "text": "Sleep Quality - Barton DL, Atherton PJ, Bauer BA, Moore DF Jr, Mattar BI, Lavasseur BI, Rowland KM Jr, Zon RT, Lelindqwister NA, Nagargoje GG, Morgenthaler TI, Sloan JA, Loprinzi CL The use of Valeriana officinalis (Valerian) in improving sleep in patients who are undergoing treatment for cancer: a phase III randomized, placebo-controlled, double-blind study (NCCTG Trial, N01C5) J Support Oncol . ( 2011 Jan-Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21399726"
+    },
+    {
+      "text": "Sleep Quality - Vera Abeln, Jens Kleinert, Heiko K Strüder, Stefan Schneider Brainwave entrainment for better sleep and post-sleep state of young elite soccer players - a pilot study Eur J Sport Sci . ( 2014 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23862643"
+    },
+    {
+      "text": "Sleep Quality - Masahiko Nakano, Tetsuro Yamamoto, Hisayoshi Okamura, Akira Tsuda, Yasuyuki Kowatari Effects of Oral Supplementation with Pyrroloquinoline Quinone on  Stress, Fatigue, and Sleep Functional Foods in Health and Disease . ( )",
+      "link": "http://functionalfoodscenter.net/files/56592277.pdf"
+    },
+    {
+      "text": "Sleep Quality - Ngan A, Conduit R A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (passionflower) herbal tea on subjective sleep quality. Phytother Res . ( 2011-Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21294203"
+    },
+    {
+      "text": "Sleep Quality - Shimizu K, Kuramochi Y, Hayamizu K Effect of omega-3 fatty acids on sleep: a systematic review and meta-analysis of randomized controlled trials. J Clin Biochem Nutr . ( 2024 Nov 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39583980"
+    },
+    {
+      "text": "Sleep Quality - Katsuya S, Kawata Y, Kawamura Y, Kawamura J, Tsubota J Effect of D-β-hydroxybutyrate on sleep quality in healthy participants: a randomized, double-blind, placebo-controlled study. Biosci Biotechnol Biochem . ( 2025 Feb 6 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39914452"
+    },
+    {
+      "text": "Wakefulness - Montgomery P, Burton JR, Sewell RP, Spreckelsen TF, Richardson AJ Fatty acids and sleep in UK children: subjective and pilot objective sleep results from the DOLAB study--a randomized controlled trial J Sleep Res . ( 2014 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24605819"
+    },
+    {
+      "text": "Sleep Duration - Kocak A, Georgousopoulou E, Knight-Agarwal CR, Matthews R, Minehan M The Effect of Consuming Caffeine Before Late Afternoon/Evening Training or Competition on Sleep: A Systematic Review with Meta-Analysis. Sports (Basel) . ( 2025 Sep 10 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41003623"
+    },
+    {
+      "text": "Sleep Duration - Gardiner C, Weakley J, Burke LM, Roach GD, Sargent C, Maniar N, Townshend A, Halson SL The effect of caffeine on subsequent sleep: A systematic review and meta-analysis. Sleep Med Rev . ( 2023-Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36870101"
+    },
+    {
+      "text": "Sleep Latency - Anthony N Nicholson, Claire Turner, Barbara M Stone, Philip J Robson Effect of Delta-9-tetrahydrocannabinol and cannabidiol on nocturnal sleep and early-morning behavior in young adults J Clin Psychopharmacol . ( 2004 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15118485"
+    },
+    {
+      "text": "Fatigue Symptoms - McMorris T, Harris RC, Swain J, Corbett J, Collard K, Dyson RJ, Dye L, Hodgson C, Draper N Effect of creatine supplementation and sleep deprivation, with mild exercise, on cognitive and psychomotor performance, mood state, and plasma concentrations of catecholamines and cortisol Psychopharmacology (Berl) . ( 2006 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16416332"
+    },
+    {
+      "text": "Subjective Well-Being - McMorris T, Harris RC, Howard AN, Langridge G, Hall B, Corbett J, Dicks M, Hodgson C Creatine supplementation, sleep deprivation, cortisol, melatonin and behavior Physiol Behav . ( 2007 Jan 30 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17046034"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Di Pierro F, Sisti D, Rocchi M, Belli A, Bertuccioli A, Cazzaniga M, Palazzi CM, Tanda ML, Zerbinati N Effects of Melissa officinalis Phytosome on Sleep Quality: Results of a Prospective, Double-Blind, Placebo-Controlled, and Cross-Over Study. Nutrients . ( 2024 Dec 4 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39683592"
+    },
+    {
+      "text": "Diuresis - Kennedy SH, Gnam W, Ralevski E, Brown GM Melatonin responses to clonidine and yohimbine challenges J Psychiatry Neurosci . ( 1995 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/7647083"
+    },
+    {
+      "text": "Dream Salience - Ebben M, Lequerica A, Spielman A Effects of pyridoxine on dreaming: a preliminary study Percept Mot Skills . ( 2002 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11883552"
+    },
+    {
+      "text": "Reaction Time - Barnard J, Roberts S, Lastella M, Callahan DL, Aisbett B, Condo D Evening Alpha-Lactalbumin Supplementation Alters Sleep Architecture and Reduces Morning Reaction Time in an Athletically Trained Population With Sleep Difficulties. Int J Sport Nutr Exerc Metab . ( 2025 Jan 20 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39832504"
+    }
+  ]
+}

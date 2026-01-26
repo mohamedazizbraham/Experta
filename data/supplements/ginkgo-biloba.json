@@ -1,0 +1,2969 @@
+{
+  "slug": "ginkgo-biloba",
+  "name": "Ginkgo biloba",
+  "name_en": "Ginkgo Biloba",
+  "description": "Le ginkgo biloba est l'herbe la plus couramment ingérée pour la santé cérébrale. Bien qu'il puisse améliorer la cognition chez les populations âgées, cet effet n'est pas très fiable ni généralisable.",
+  "overview": [
+    {
+      "question": "Qu'est-ce que le ginkgo biloba ?",
+      "answer": "Le ginkgo biloba (ginkgo) est un arbre dont les feuilles sont souvent utilisées comme complément alimentaire dans le but d'améliorer les fonctions cognitives. Ces feuilles contiennent une variété de composés potentiellement bioactifs, dont plusieurs types de flavonoïdes et de terpénoïdes."
+    },
+    {
+      "question": "Quels sont les principaux bienfaits du ginkgo biloba ?",
+      "answer": "Le ginkgo biloba semble améliorer certains aspects de la fonction cognitive chez les personnes atteintes de démence[1]. Il existe également des preuves préliminaires que le ginkgo peut améliorer la fonction cognitive chez les personnes d'âge moyen en bonne santé[2] et chez les personnes âgées en bonne santé[3]. Il n'est pas clair si le ginkgo peut améliorer la fonction cognitive chez les jeunes en bonne santé, la plupart des études sur cette population n'ayant rapporté aucun bénéfice évident[4]."
+    },
+    {
+      "question": "Quels sont les principaux inconvénients du ginkgo biloba ?",
+      "answer": "Aucun problème de sécurité significatif associé à l'extrait de feuilles de ginkgo biloba n'a été clairement identifié dans les essais cliniques humains. Bien que des études de cas aient indiqué que le ginkgo pourrait augmenter le risque de saignement[5], une méta-analyse de 18 essais contrôlés randomisés n'a trouvé aucun risque accru de saignement chez les participants ayant pris des extraits standardisés[6]. Des cas rares de convulsions ont été rapportés chez des personnes épileptiques supplémentant avec du ginkgo, peut-être en raison d'une stimulation de la dégradation enzymatique des médicaments antiépileptiques[5]. Enfin, des expériences sur des rongeurs ont suggéré que l'extrait de ginkgo pourrait être cancérogène[7]."
+    },
+    {
+      "question": "Comment le ginkgo biloba agit-il ?",
+      "answer": "Il n'existe pas de mécanisme bien établi pour expliquer comment le ginkgo biloba améliore la fonction cognitive, mais quelques hypothèses ont été proposées. Parmi celles-ci figurent une amélioration du flux sanguin vers le cerveau[8], une réduction du stress oxydatif[9] et l'inhibition des effets neurotoxiques de l'amyloïde β[9]."
+    }
+  ],
+  "dosage": "Pour l'amélioration cognitive, prendre 120-240 mg, une à quatre heures avant l'effort. Pour atténuer le déclin cognitif chez les personnes âgées, prendre 40-120 mg, trois fois par jour. La forme supplémentée du Ginkgo biloba est également appelée extrait EGb-761. Il doit s'agir d'un extrait concentré à 50 : 1. Le Ginkgo biloba doit être pris avec les repas.",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Amélioration cognitive",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la maladie d'Alzheimer",
+          "grade": "C",
+          "effect": "Amélioration légère",
+          "evidence": "1 étude participants : 404",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 404
+        },
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études participants : 53",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 53
+        },
+        {
+          "outcome": "Flux sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude participants : 48",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 48
+        },
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 57",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 57
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 466",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 466
+        },
+        {
+          "outcome": "Déclin cognitif",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 500",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 500
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 335",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 335
+        },
+        {
+          "outcome": "Mémoire numérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Exactitude du traitement",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 73",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 73
+        },
+        {
+          "outcome": "Vitesse de traitement",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 60",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Fluidité verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 96",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 96
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 13",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 13
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Mal aigu des montagnes",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du mal aigu des montagnes",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "7 études Participants : 818",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 818
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 36",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 36
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 36",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 36
+        },
+        {
+          "outcome": "Consommation d'oxygène",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 36",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 36
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Démence",
+      "outcomes": [
+        {
+          "outcome": "Risque de maladie d'Alzheimer",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études Participants : 6138",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 6138
+        },
+        {
+          "outcome": "Symptômes de la maladie d'Alzheimer",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 1129",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 1129
+        },
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 80",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Déclin cognitif",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 1209",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 1209
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 236",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 236
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 371",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 371
+        },
+        {
+          "outcome": "Symptômes d’acouphènes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 371",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 371
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie d’Alzheimer",
+      "outcomes": [
+        {
+          "outcome": "Risque de maladie d’Alzheimer",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 étude Participants : 2487",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 2487
+        },
+        {
+          "outcome": "Symptômes de la maladie d'Alzheimer",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 775",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 775
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 96",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 96
+        },
+        {
+          "outcome": "Déclin cognitif",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 3358",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3358
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 371",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 371
+        },
+        {
+          "outcome": "Symptômes d'acouphènes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 371",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 371
+        },
+        {
+          "outcome": "Fluence verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 96",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 96
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Altération de la mémoire liée à l'âge et déclin cognitif (AAMCD)",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Participants à l'étude : 197",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 197
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Déclin cognitif",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants aux études : 3320",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3320
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 256",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 256
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 54",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 54
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 197",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 197
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Schizophrénie",
+      "outcomes": [
+        {
+          "outcome": "Profil des enzymes antioxydantes",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 étude Participants : 35",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 35
+        },
+        {
+          "outcome": "Symptômes de la schizophrénie",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 228",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 228
+        },
+        {
+          "outcome": "BDNF sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 157",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 157
+        },
+        {
+          "outcome": "Symptômes de dyskinésie tardive",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 157",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 157
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypertension artérielle",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "2 études Participants : 30",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants: 3099",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3099
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 14",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 14
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie cardiovasculaire",
+      "outcomes": [
+        {
+          "outcome": "Profil des enzymes antioxydantes",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 étude Participants: 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Apolipoprotéine A",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Signes d'athérosclérose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Risque d'infarctus du myocarde",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 3069",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3069
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Oxydation du LDL",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Microcirculation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 32",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Myéloperoxydase",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Oxyde nitrique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Biomarqueurs du stress oxydatif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 32",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Risque de maladie vasculaire périphérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 3069",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3069
+        },
+        {
+          "outcome": "Risque d'AVC",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 3069",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3069
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé oculaire",
+      "outcomes": [
+        {
+          "outcome": "Pression artérielle",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 Études Participants : 26",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 26
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 53",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 53
+        },
+        {
+          "outcome": "Pression intraoculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 53",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 53
+        },
+        {
+          "outcome": "Flux sanguin oculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 26",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 26
+        },
+        {
+          "outcome": "Acuité visuelle (AV)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 27",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 27
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Claudication intermittente",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de claudication intermittente",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants : 415",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 415
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie artérielle périphérique",
+      "outcomes": [
+        {
+          "outcome": "Apolipoprotéine B",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Study Participants: 62",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Blood Flow",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 62",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Intermittent Claudication Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 161",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 161
+        },
+        {
+          "outcome": "LDL Oxidation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 62",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 62
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Tinnitus",
+      "outcomes": [
+        {
+          "outcome": "Tinnitus Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 2559",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 2559
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble du spectre de l'autisme",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'autisme",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 50",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 50
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression",
+      "outcomes": [
+        {
+          "outcome": "Libido",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 étude Participants: 63",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 63
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 16",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 16
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysfonction sexuelle féminine",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 24",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Libido",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 92",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 92
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 Étude Participants : 14",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études participants : 84",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 84
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude participants : 70",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 70
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études participants : 84",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 84
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude participants : 70",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 70
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude participants : 70",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 70
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Phénomène de Raynaud",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du phénomène de Raynaud",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 105",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 105
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysfonction sexuelle",
+      "outcomes": [
+        {
+          "outcome": "Libido",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 100",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 100
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé de la peau",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "2 études Participants : 54",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 54
+        },
+        {
+          "outcome": "Sécheresse cutanée",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Qualité de la peau",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Rides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Vitiligo",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du vitiligo",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études: 58",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 58
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble du déficit de l'attention avec hyperactivité",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du TDAH",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 50",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 50
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Atherosclerosis",
+      "outcomes": [
+        {
+          "outcome": "Microcirculation",
+          "grade": "C",
+          "effect": "Small Improvement",
+          "evidence": "1 Study Participants: 32",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Oxidative Stress Biomarkers",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 32",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 32
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Coronary Artery Disease",
+      "outcomes": [
+        {
+          "outcome": "Anti-Oxidant Enzyme Profile",
+          "grade": "C",
+          "effect": "Mixed effect",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Apolipoprotéine A",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Signes d'athérosclérose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Oxydation du LDL",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Myéloperoxydase",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Oxyde nitrique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 8",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 8
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Glaucome",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin oculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 30",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 16",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 16
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Primary Dysmenorrhea",
+      "outcomes": [
+        {
+          "outcome": "PMS Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 143",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 143
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Multiple Sclerosis",
+      "outcomes": [
+        {
+          "outcome": "Multiple Sclerosis Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 116",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 116
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Premenstrual Syndrome",
+      "outcomes": [
+        {
+          "outcome": "PMS Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 85",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 85
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysfonction sexuelle masculine",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 étude participants : 24",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Libido",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude participants : 24",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 24
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Accident vasculaire cérébral",
+      "outcomes": [
+        {
+          "outcome": "Récupération après accident vasculaire cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études participants : 430",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 430
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 Participants à l'étude : 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        },
+        {
+          "outcome": "Fonction rénale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        },
+        {
+          "outcome": "Oxyde nitrique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        },
+        {
+          "outcome": "Protéinurie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble d'adaptation",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 82",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 82
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysfonction sexuelle induite par les antidépresseurs",
+      "outcomes": [
+        {
+          "outcome": "Libido",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 37",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 37
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Tumeur cérébrale",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 34
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 34
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 34
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 34
+        },
+        {
+          "outcome": "Fluence verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 34
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 34",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 34
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Soins généraux du cancer et prévention",
+      "outcomes": [
+        {
+          "outcome": "Risque de cancer du sein",
+          "grade": "F",
+          "effect": "Déficit mineur",
+          "evidence": "1 Participants à l’étude : 3069",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3069
+        },
+        {
+          "outcome": "Risque global de cancer",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 3069",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3069
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Néphropathie diabétique",
+      "outcomes": [
+        {
+          "outcome": "Profil des enzymes antioxydantes",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "2 Études Participants : 321",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 321
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "23 Études Participants : 1577",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 1577
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Études Participants : 819",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 819
+        },
+        {
+          "outcome": "Azote uréique sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "30 Études Participants : 2258",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 2258
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 134",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 134
+        },
+        {
+          "outcome": "Cystatine C",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 3269",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3269
+        },
+        {
+          "outcome": "Fibrinogen",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Studies Participants: 532",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 532
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Studies Participants: 328",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 328
+        },
+        {
+          "outcome": "Hematocrit",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Studies Participants: 372",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 372
+        },
+        {
+          "outcome": "Interleukin 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 150",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 150
+        },
+        {
+          "outcome": "Kidney Function",
+          "grade": "",
+          "effect": "",
+          "evidence": "37 Études Participants : 2757",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 2757
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 246",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 246
+        },
+        {
+          "outcome": "Protéinurie",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 Études Participants : 964",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 964
+        },
+        {
+          "outcome": "TNF-alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 3269",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 3269
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 Études Participants : 1388",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 1388
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 études Participants : 1413",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 1413
+        },
+        {
+          "outcome": "Albumine urinaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "30 études Participants : 2417",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 2417
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Neuropathie diabétique",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 étude Participants : 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        },
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        },
+        {
+          "outcome": "Fonction rénale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        },
+        {
+          "outcome": "Nitric Oxide",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        },
+        {
+          "outcome": "Protéinurie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 64",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 64
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble anxieux généralisé",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 82",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 82
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de la mémoire",
+      "outcomes": [
+        {
+          "outcome": "Cognition",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l’étude : 159",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 159
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 159",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 159
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 159",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 159
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Microangiopathie",
+      "outcomes": [
+        {
+          "outcome": "Microcirculation",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l’étude : 32",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Biomarqueurs du stress oxydatif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 32",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 32
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de l'humeur",
+      "outcomes": [
+        {
+          "outcome": "Mémoire",
+          "grade": "C",
+          "effect": "Amélioration légère",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Mémoire numérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Vitesse de traitement",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie artérielle périphérique occlusive",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de claudication intermittente",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 111",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 111
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé respiratoire",
+      "outcomes": [
+        {
+          "outcome": "Performance au test de marche de 6 minutes",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 134",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 134
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 10",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dyskinésie tardive",
+      "outcomes": [
+        {
+          "outcome": "BDNF sérique",
+          "grade": "C",
+          "effect": "Légère augmentation",
+          "evidence": "1 Participants à l’étude : 157",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 157
+        },
+        {
+          "outcome": "Symptômes de dyskinésie tardive",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 157",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 157
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Déficit cognitif vasculaire",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "C",
+          "effect": "Légère augmentation",
+          "evidence": "1 Participants à l'étude : 80",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Déclin cognitif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 80",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 80",
+          "studies": [
+            {
+              "title": "Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+            }
+          ],
+          "participants": 80
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels sont les autres noms du Ginkgo Biloba ?",
+      "answer": "Notez que le Ginkgo Biloba est également connu sous le nom de : Ginkgo Biloba ne doit pas être confondu avec : - Tanakan - Tebonin - Rökan - Maidenhair - gingko - Pelargonium sidoides (EPs 7630)"
+    }
+  ],
+  "references": [
+    {
+      "text": "Blood Flow - Gardner CD, Taylor-Piliae RE, Kiazand A, Nicholus J, Rigby AJ, Farquhar JW Effect of Ginkgo biloba (EGb 761) on treadmill walking time among adults with peripheral artery disease: a randomized clinical trial J Cardiopulm Rehabil Prev . ( 2008 Jul-Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18628657"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Mouren X, Caillard P, Schwartz F Study of the antiischemic action of EGb 761 in the treatment of peripheral arterial occlusive disease by TcPo2 determination Angiology . ( 1994 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8203766"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Bauer U 6-Month double-blind randomised clinical trial of Ginkgo biloba extract versus placebo in two parallel groups in patients suffering from peripheral arterial insufficiency Arzneimittelforschung . ( 1984 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/6386008"
+    },
+    {
+      "text": "Atherosclerotic Signs - Rodríguez M, Ringstad L, Schäfer P, Just S, Hofer HW, Malmsten M, Siegel G Reduction of atherosclerotic nanoplaque formation and size by Ginkgo biloba (EGb 761) in cardiovascular high-risk patients Atherosclerosis . ( 2007 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17397850"
+    },
+    {
+      "text": "Peripheral Vascular Disease Risk - Kuller LH, Ives DG, Fitzpatrick AL, Carlson MC, Mercado C, Lopez OL, Burke GL, Furberg CD, DeKosky ST; Ginkgo Evaluation of Memory Study Investigators Does Ginkgo biloba reduce the risk of cardiovascular events Circ Cardiovasc Qual Outcomes . ( 2010 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20123670"
+    },
+    {
+      "text": "Microcirculation - Suter A, Niemer W, Klopp R A new ginkgo fresh plant extract increases microcirculation and radical scavenging activity in elderly patients Adv Ther . ( 2011 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22120894"
+    },
+    {
+      "text": "ADHD Symptoms - Salehi B, Imani R, Mohammadi MR, Fallah J, Mohammadi M, Ghanizadeh A, Tasviechi AA, Vossoughi A, Rezazadeh SA, Akhondzadeh S Ginkgo biloba for attention-deficit/hyperactivity disorder in children and adolescents: a double blind, randomized controlled trial Prog Neuropsychopharmacol Biol Psychiatry . ( 2010 Feb 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19815048"
+    },
+    {
+      "text": "Sleep Quality - Hemmeter U, Annen B, Bischof R, Brüderlin U, Hatzinger M, Rose U, Holsboer-Trachsler E Polysomnographic effects of adjuvant ginkgo biloba therapy in patients with major depression medicated with trimipramine Pharmacopsychiatry . ( 2001 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11302564"
+    },
+    {
+      "text": "Libido - A J Cohen, B Bartlik Ginkgo biloba for antidepressant-induced sexual dysfunction J Sex Marital Ther . ( Apr-Jun 1998 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9611693"
+    },
+    {
+      "text": "Schizophrenia symptoms - Doruk A, Uzun O, Ozşahin A A placebo-controlled study of extract of ginkgo biloba added to clozapine in patients with treatment-resistant schizophrenia Int Clin Psychopharmacol . ( 2008 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18545061"
+    },
+    {
+      "text": "Schizophrenia symptoms - Atmaca M, Tezcan E, Kuloglu M, Ustundag B, Kirtas O The effect of extract of ginkgo biloba addition to olanzapine on therapeutic effect and antioxidant enzyme levels in patients with schizophrenia Psychiatry Clin Neurosci . ( 2005 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16401239"
+    },
+    {
+      "text": "Schizophrenia symptoms - Zhang XY, Zhou DF, Zhang PY, Wu GY, Su JM, Cao LY A double-blind, placebo-controlled trial of extract of Ginkgo biloba added to haloperidol in treatment-resistant patients with schizophrenia J Clin Psychiatry . ( 2001 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11775047"
+    },
+    {
+      "text": "Tardive Dyskinesia Symptoms - Zhang XY, Zhang WF, Zhou DF, Chen da C, Xiu MH, Wu HR, Haile CN, Kosten TA, Kosten TR Brain-derived neurotrophic factor levels and its Val66Met gene polymorphism predict tardive dyskinesia treatment response to Ginkgo biloba Biol Psychiatry . ( 2012 Oct 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22695185"
+    },
+    {
+      "text": "Attention - Attia A, Rapp SR, Case LD, D'Agostino R, Lesser G, Naughton M, McMullen K, Rosdhal R, Shaw EG Phase II study of Ginkgo biloba in irradiated brain tumor patients: effect on cognitive function, quality of life, and mood J Neurooncol . ( 2012 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22700031"
+    },
+    {
+      "text": "Libido - Wheatley D Triple-blind, placebo-controlled trial of Ginkgo biloba in sexual dysfunction due to antidepressant drugs Hum Psychopharmacol . ( 2004 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15378664"
+    },
+    {
+      "text": "Libido - Meston CM, Rellini AH, Telch MJ Short- and long-term effects of Ginkgo biloba extract on sexual dysfunction in women Arch Sex Behav . ( 2008 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18274887"
+    },
+    {
+      "text": "Reaction Time - Kennedy DO, Scholey AB, Wesnes KA Modulation of cognition and mood following administration of single doses of Ginkgo biloba, ginseng, and a ginkgo/ginseng combination to healthy young adults Physiol Behav . ( 2002 Apr 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12020739"
+    },
+    {
+      "text": "Processing Speed - Mix JA, Crews WD Jr An examination of the efficacy of Ginkgo biloba extract EGb761 on the neuropsychologic functioning of cognitively intact older adults J Altern Complement Med . ( 2000 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10890330"
+    },
+    {
+      "text": "Memory - Kennedy DO, Haskell CF, Mauri PL, Scholey AB Acute cognitive effects of standardised Ginkgo biloba extract complexed with phosphatidylserine Hum Psychopharmacol . ( 2007 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17457961"
+    },
+    {
+      "text": "Memory - Mix JA, Crews WD Jr A double-blind, placebo-controlled, randomized trial of Ginkgo biloba extract EGb 761 in a sample of cognitively intact older adults: neuropsychological findings Hum Psychopharmacol . ( 2002 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12404671"
+    },
+    {
+      "text": "Cognition - Santos RF, Galduróz JC, Barbieri A, Castiglioni ML, Ytaya LY, Bueno OF Cognitive performance, SPECT, and blood viscosity in elderly non-demented people using Ginkgo biloba Pharmacopsychiatry . ( 2003 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12905098"
+    },
+    {
+      "text": "Cognition - Yancheva S, Ihl R, Nikolova G, Panayotov P, Schlaefke S, Hoerr R, GINDON Study Group Ginkgo biloba extract EGb 761(R), donepezil or both combined in the treatment of Alzheimer's disease with neuropsychiatric features: a randomised, double-blind, exploratory trial Aging Ment Health . ( 2009 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19347685"
+    },
+    {
+      "text": "Cognition - Andrew B Scholey, David O Kennedy Acute, dose-dependent cognitive effects of Ginkgo biloba, Panax ginseng and their combination in healthy young volunteers: differential interactions with cognitive demand Hum Psychopharmacol . ( 2002 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12404705"
+    },
+    {
+      "text": "Cognitive Decline - Ihl R, Tribanek M, Bachinskaya N, GOTADAY Study Group Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial Pharmacopsychiatry . ( 2012 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+    },
+    {
+      "text": "Cerebral Blood Flow - Ameneh Mashayekh, Dzung L Pham, David M Yousem, Mercedes Dizon, Peter B Barker, Doris D M Lin Effects of Ginkgo biloba on cerebral blood flow assessed by quantitative MR perfusion imaging: a pilot study Neuroradiology . ( 2011 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21061003"
+    },
+    {
+      "text": "Cognitive Decline - Napryeyenko O, Borzenko I; GINDEM-NP Study Group Ginkgo biloba special extract in dementia with neuropsychiatric features. A randomised, placebo-controlled, double-blind clinical trial Arzneimittelforschung . ( 2007 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17341003"
+    },
+    {
+      "text": "Cognitive Decline - Kanowski S, Herrmann WM, Stephan K, Wierich W, Hörr R Proof of efficacy of the ginkgo biloba special extract EGb 761 in outpatients suffering from mild to moderate primary degenerative dementia of the Alzheimer type or multi-infarct dementia Pharmacopsychiatry . ( 1996 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8741021"
+    },
+    {
+      "text": "Cognitive Decline - Herrschaft H, Nacu A, Likhachev S, Sholomov I, Hoerr R, Schlaefke S Ginkgo biloba extract EGb 761® in dementia with neuropsychiatric features: a randomised, placebo-controlled trial to confirm the efficacy and safety of a daily dose of 240 mg J Psychiatr Res . ( 2012 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22459264"
+    },
+    {
+      "text": "Cognitive Decline - Zhang SJ, Xue ZY Effect of Western medicine therapy assisted by Ginkgo biloba tablet on vascular cognitive impairment of none dementia Asian Pac J Trop Med . ( 2012 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22840457"
+    },
+    {
+      "text": "Cognitive Decline - Le Bars PL, Katz MM, Berman N, Itil TM, Freedman AM, Schatzberg AF A placebo-controlled, double-blind, randomized trial of an extract of Ginkgo biloba for dementia. North American EGb Study Group. JAMA . ( 1997 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9343463"
+    },
+    {
+      "text": "Alzheimer's Disease Risk - DeKosky ST, Williamson JD, Fitzpatrick AL, Kronmal RA, Ives DG, Saxton JA, Lopez OL, Burke G, Carlson MC, Fried LP, Kuller LH, Robbins JA, Tracy RP, Woolard NF, Dunn L, Snitz BE, Nahin RL, Furberg CD; Ginkgo Evaluation of Memory (GEM) Study Investigators Ginkgo biloba for prevention of dementia: a randomized controlled trial JAMA . ( 2008 Nov 19 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19017911"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Gertsch JH, Seto TB, Mor J, Onopa J Ginkgo biloba for the prevention of severe acute mountain sickness (AMS) starting one day before rapid ascent High Alt Med Biol . ( 2002 Spring )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12006162"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Gertsch JH, Basnyat B, Johnson EW, Onopa J, Holck PS Randomised, double blind, placebo controlled comparison of ginkgo biloba and acetazolamide for prevention of acute mountain sickness among Himalayan trekkers: the prevention of high altitude illness trial (PHAIT) BMJ . ( 2004 Apr 3 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15070635"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Leadbetter G, Keyes LE, Maakestad KM, Olson S, Tissot van Patot MC, Hackett PH Ginkgo biloba does--and does not--prevent acute mountain sickness Wilderness Environ Med . ( 2009 Spring )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19364166"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Moraga FA, Flores A, Serra J, Esnaola C, Barriento C Ginkgo biloba decreases acute mountain sickness in people ascending to high altitude at Ollagüe (3696 m) in northern Chile Wilderness Environ Med . ( 2007 Winter )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18076292"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Chow T, Browne V, Heileson HL, Wallace D, Anholm J, Green SM Ginkgo biloba and acetazolamide prophylaxis for acute mountain sickness: a randomized, placebo-controlled trial Arch Intern Med . ( 2005 Feb 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15710792"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Roncin JP, Schwartz F, D'Arbigny P EGb 761 in control of acute mountain sickness and vascular reactivity to cold exposure Aviat Space Environ Med . ( 1996 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8725471"
+    },
+    {
+      "text": "Tinnitus Symptoms - Seon-Sook Han, Eui-Cheol Nam, Jun Yeon Won, Kang Uk Lee, Wanjoo Chun, Hyun Kyung Choi, Robert Aaron Levine Clonazepam quiets tinnitus: a randomised crossover study with Ginkgo biloba J Neurol Neurosurg Psychiatry . ( 2012 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22626945"
+    },
+    {
+      "text": "Tinnitus Symptoms - Hilton MP, Zimmermann EF, Hunt WT Ginkgo biloba for tinnitus Cochrane Database Syst Rev . ( 2013 Mar 28 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23543524"
+    },
+    {
+      "text": "Tinnitus Symptoms - Drew S, Davies E Effectiveness of Ginkgo biloba in treating tinnitus: double blind, placebo controlled trial BMJ . ( 2001 Jan 13 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11154618"
+    },
+    {
+      "text": "Nitric Oxide - Li XS, Zheng WY, Lou SX, Lu XW, Ye SH Effect of Ginkgo leaf extract on vascular endothelial function in patients with early stage diabetic nephropathy Chin J Integr Med . ( 2009 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19271166"
+    },
+    {
+      "text": "Sleep Quality - Murray BJ, Cowen PJ, Sharpley AL The effect of Li 1370, extract of Ginkgo biloba, on REM sleep in humans Pharmacopsychiatry . ( 2001 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11518478"
+    },
+    {
+      "text": "Stroke Recovery - Zeng X, Liu M, Yang Y, Li Y, Asplund K Ginkgo biloba for acute ischaemic stroke Cochrane Database Syst Rev . ( 2005 Oct 19 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16235335"
+    },
+    {
+      "text": "Cognitive Decline - Vellas B, Coley N, Ousset PJ, Berrut G, Dartigues JF, Dubois B, Grandjean H, Pasquier F, Piette F, Robert P, Touchon J, Garnier P, Mathiex-Fortunet H, Andrieu S, GuidAge Study Group Long-term use of standardised Ginkgo biloba extract for the prevention of Alzheimer's disease (GuidAge): a randomised placebo-controlled trial Lancet Neurol . ( 2012 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22959217"
+    },
+    {
+      "text": "PMS Symptoms - Tamborini A, Taurelle R Value of standardized Ginkgo biloba extract (EGb 761) in the management of congestive symptoms of premenstrual syndrome Rev Fr Gynecol Obstet . ( 1993 Jul-Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8235261"
+    },
+    {
+      "text": "Intraocular Pressure - Wimpissinger B, Berisha F, Garhoefer G, Polak K, Schmetterer L Influence of Ginkgo biloba on ocular blood flow Acta Ophthalmol Scand . ( 2007 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17324220"
+    },
+    {
+      "text": "Intraocular Pressure - Quaranta L, Bettelli S, Uva MG, Semeraro F, Turano R, Gandolfo E Effect of Ginkgo biloba extract on preexisting visual field damage in normal tension glaucoma Ophthalmology . ( 2003 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12578781"
+    },
+    {
+      "text": "Intraocular Pressure - Chung HS, Harris A, Kristinsson JK, Ciulla TA, Kagemann C, Ritch R Ginkgo biloba extract increases ocular blood flow velocity J Ocul Pharmacol Ther . ( 1999 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10385132"
+    },
+    {
+      "text": "PMS Symptoms - Ozgoli G, Selselei EA, Mojab F, Majd HA A randomized, placebo-controlled trial of Ginkgo biloba L. in treatment of premenstrual syndrome J Altern Complement Med . ( 2009 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19678774"
+    },
+    {
+      "text": "Subjective Well-Being - Kaschel R Specific memory effects of Ginkgo biloba extract EGb 761 in middle-aged healthy volunteers Phytomedicine . ( 2011 Nov 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21802920"
+    },
+    {
+      "text": "Blood Pressure - Mehlsen J, Drabaek H, Wiinberg N, Winther K Effects of a Ginkgo biloba extract on forearm haemodynamics in healthy volunteers Clin Physiol Funct Imaging . ( 2002 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12464140"
+    },
+    {
+      "text": "Blood Pressure - Brinkley TE, Lovato JF, Arnold AM, Furberg CD, Kuller LH, Burke GL, Nahin RL, Lopez OL, Yasar S, Williamson JD; Ginkgo Evaluation of Memory (GEM) Study Investigators Effect of Ginkgo biloba on blood pressure and incidence of hypertension in elderly men and women Am J Hypertens . ( 2010 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20168306"
+    },
+    {
+      "text": "Blood Pressure - Gillian Keheyan, Lauren A Dunn, Wendy Louise Hall Acute effects of Ginkgo biloba extract on vascular function and blood pressure Plant Foods Hum Nutr . ( 2011 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21647656"
+    },
+    {
+      "text": "Reaction Time - K. Wesnes, D. Simmons, M. Rook, P. Simpson A double-blind placebo-controlled trial of tanakan in the treatment of idiopathic cognitive impairment in the elderly Human Psychopharmacology: Clinical and Experimental . ( )",
+      "link": "http://onlinelibrary.wiley.com/doi/10.1002/hup.470020305/abstract"
+    },
+    {
+      "text": "Cognitive Decline - Brautigam MR, Blommaert FA, Verleye G, Castermans J, Jansen Steur EN, Kleijnen J Treatment of age-related memory complaints with Ginkgo biloba extract: a randomized double blind placebo-controlled study Phytomedicine . ( 1998 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23196025"
+    },
+    {
+      "text": "Cognitive Decline - Snitz BE, O'Meara ES, Carlson MC, Arnold AM, Ives DG, Rapp SR, Saxton J, Lopez OL, Dunn LO, Sink KM, DeKosky ST, Ginkgo Evaluation of Memory (GEM) Study Investigators Ginkgo biloba for preventing cognitive decline in older adults: a randomized trial JAMA . ( 2009 Dec 23 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20040554"
+    },
+    {
+      "text": "Memory - Bäurle P, Suter A, Wormstall H Safety and effectiveness of a traditional ginkgo fresh plant extract - results from a clinical trial Forsch Komplementmed . ( 2009 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19657199"
+    },
+    {
+      "text": "Overall Cancer Risk - Biggs ML, Sorkin BC, Nahin RL, Kuller LH, Fitzpatrick AL Ginkgo biloba and risk of cancer: secondary analysis of the Ginkgo Evaluation of Memory (GEM) Study Pharmacoepidemiol Drug Saf . ( 2010 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20582906"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Pittler MH, Ernst E Ginkgo biloba extract for the treatment of intermittent claudication: a meta-analysis of randomized trials Am J Med . ( 2000 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11014719"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Thomson GJ, Vohra RK, Carr MH, Walker MG A clinical trial of Gingkco Biloba Extract in patients with intermittent claudication Int Angiol . ( 1990 Apr-Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/2254678"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Peters H, Kieser M, Hölscher U Demonstration of the efficacy of ginkgo biloba special extract EGb 761 on intermittent claudication--a placebo-controlled, double-blind multicenter trial Vasa . ( 1998 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9612115"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Lovera JF, Kim E, Heriza E, Fitzpatrick M, Hunziker J, Turner AP, Adams J, Stover T, Sangeorzan A, Sloan A, Howieson D, Wild K, Haselkorn J, Bourdette D Ginkgo biloba does not improve cognitive function in MS: a randomized placebo-controlled trial Neurology . ( 2012 Sep 18 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22955125"
+    },
+    {
+      "text": "Wrinkles - P Chuarienthong, N Lourith, P Leelapornpisid Clinical efficacy comparison of anti-wrinkle cosmetics containing herbal flavonoids Int J Cosmet Sci . ( 2010 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20412217"
+    },
+    {
+      "text": "Blood Flow - Boelsma E, Lamers RJ, Hendriks HF, van Nesselrooij JH, Roza L Evidence of the regulatory effect of Ginkgo biloba extract on skin blood flow and study of its effects on urinary metabolites in healthy humans Planta Med . ( 2004 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15549661"
+    },
+    {
+      "text": "Cortisol - Jezova D, Duncko R, Lassanova M, Kriska M, Moncek F Reduction of rise in blood pressure and cortisol release during stress by Ginkgo biloba extract (EGb 761) in healthy volunteers J Physiol Pharmacol . ( 2002 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12369732"
+    },
+    {
+      "text": "Libido - Kang BJ, Lee SJ, Kim MD, Cho MJ A placebo-controlled, double-blind trial of Ginkgo biloba for antidepressant-induced sexual dysfunction Hum Psychopharmacol . ( 2002 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12404672"
+    },
+    {
+      "text": "Raynaud's Phenomenon Symptoms - Bredie SJ, Jong MC No significant effect of ginkgo biloba special extract EGb 761 in the treatment of primary Raynaud phenomenon: a randomized controlled trial J Cardiovasc Pharmacol . ( 2012 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22030896"
+    },
+    {
+      "text": "Raynaud's Phenomenon Symptoms - Choi WS, Choi CJ, Kim KS, Lee JH, Song CH, Chung JH, Ock SM, Lee JB, Kim CM To compare the efficacy and safety of nifedipine sustained release with Ginkgo biloba extract to treat patients with primary Raynaud's phenomenon in South Korea; Korean Raynaud study (KOARA study) Clin Rheumatol . ( 2009 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19159999"
+    },
+    {
+      "text": "Vitiligo Symptoms - Parsad D, Pandhi R, Juneja A Effectiveness of oral Ginkgo biloba in treating limited, slowly spreading vitiligo Clin Exp Dermatol . ( 2003 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12780716"
+    },
+    {
+      "text": "Vitiligo Symptoms - Orest Szczurko, Neil Shear, Anna Taddio, Heather Boon Ginkgo biloba for the treatment of vitilgo vulgaris: an open label pilot clinical trial BMC Complement Altern Med . ( 2011 Mar 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21406109"
+    },
+    {
+      "text": "Autism Symptoms - Niederhofer H First preliminary results of an observation of Ginkgo Biloba treating patients with autistic disorder Phytother Res . ( 2009 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19274699"
+    },
+    {
+      "text": "Autism Symptoms - Hasanzadeh E, Mohammadi MR, Ghanizadeh A, Rezazadeh SA, Tabrizi M, Rezaei F, Akhondzadeh S A double-blind placebo controlled trial of Ginkgo biloba added to risperidone in patients with autistic disorders Child Psychiatry Hum Dev . ( 2012 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22392415"
+    },
+    {
+      "text": "Anxiety Symptoms - Woelk H, Arnoldt KH, Kieser M, Hoerr R Ginkgo biloba special extract EGb 761 in generalized anxiety disorder and adjustment disorder with anxious mood: a randomized, double-blind, placebo-controlled trial J Psychiatr Res . ( 2007 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16808927"
+    },
+    {
+      "text": "Ocular Blood Flow - Park JW, Kwon HJ, Chung WS, Kim CY, Seong GJ Short-term effects of Ginkgo biloba extract on peripapillary retinal blood flow in normal tension glaucoma Korean J Ophthalmol . ( 2011 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21976939"
+    },
+    {
+      "text": "Urinary Albumin - Zhang Z, Tang S, Liu S, Leng Y, Fu X, Xie H, Gao H, Xie C The efficacy and safety of Ginkgo biloba L. leaves extract combined with ACEI/ARB on diabetic kidney disease: a systematic review and meta-analysis of 41 randomized controlled trials. Front Pharmacol . ( 2024 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39830333"
+    },
+    {
+      "text": "6-Minute Walking Test Performance - Sun X, Peng L, Xiao W, Li K, Chen S Efficacy of ginkgo biloba extract in the treatment of idiopathic pulmonary fibrosis: a systematic review and meta-analysis of randomized controlled trials. Front Pharmacol . ( 2025 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40110130"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Blood Flow - Gardner CD, Taylor-Piliae RE, Kiazand A, Nicholus J, Rigby AJ, Farquhar JW Effect of Ginkgo biloba (EGb 761) on treadmill walking time among adults with peripheral artery disease: a randomized clinical trial J Cardiopulm Rehabil Prev . ( 2008 Jul-Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18628657"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Mouren X, Caillard P, Schwartz F Study of the antiischemic action of EGb 761 in the treatment of peripheral arterial occlusive disease by TcPo2 determination Angiology . ( 1994 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8203766"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Bauer U 6-Month double-blind randomised clinical trial of Ginkgo biloba extract versus placebo in two parallel groups in patients suffering from peripheral arterial insufficiency Arzneimittelforschung . ( 1984 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/6386008"
+    },
+    {
+      "text": "Atherosclerotic Signs - Rodríguez M, Ringstad L, Schäfer P, Just S, Hofer HW, Malmsten M, Siegel G Reduction of atherosclerotic nanoplaque formation and size by Ginkgo biloba (EGb 761) in cardiovascular high-risk patients Atherosclerosis . ( 2007 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17397850"
+    },
+    {
+      "text": "Peripheral Vascular Disease Risk - Kuller LH, Ives DG, Fitzpatrick AL, Carlson MC, Mercado C, Lopez OL, Burke GL, Furberg CD, DeKosky ST; Ginkgo Evaluation of Memory Study Investigators Does Ginkgo biloba reduce the risk of cardiovascular events Circ Cardiovasc Qual Outcomes . ( 2010 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20123670"
+    },
+    {
+      "text": "Microcirculation - Suter A, Niemer W, Klopp R A new ginkgo fresh plant extract increases microcirculation and radical scavenging activity in elderly patients Adv Ther . ( 2011 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22120894"
+    },
+    {
+      "text": "ADHD Symptoms - Salehi B, Imani R, Mohammadi MR, Fallah J, Mohammadi M, Ghanizadeh A, Tasviechi AA, Vossoughi A, Rezazadeh SA, Akhondzadeh S Ginkgo biloba for attention-deficit/hyperactivity disorder in children and adolescents: a double blind, randomized controlled trial Prog Neuropsychopharmacol Biol Psychiatry . ( 2010 Feb 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19815048"
+    },
+    {
+      "text": "Sleep Quality - Hemmeter U, Annen B, Bischof R, Brüderlin U, Hatzinger M, Rose U, Holsboer-Trachsler E Polysomnographic effects of adjuvant ginkgo biloba therapy in patients with major depression medicated with trimipramine Pharmacopsychiatry . ( 2001 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11302564"
+    },
+    {
+      "text": "Libido - A J Cohen, B Bartlik Ginkgo biloba for antidepressant-induced sexual dysfunction J Sex Marital Ther . ( Apr-Jun 1998 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9611693"
+    },
+    {
+      "text": "Schizophrenia symptoms - Doruk A, Uzun O, Ozşahin A A placebo-controlled study of extract of ginkgo biloba added to clozapine in patients with treatment-resistant schizophrenia Int Clin Psychopharmacol . ( 2008 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18545061"
+    },
+    {
+      "text": "Schizophrenia symptoms - Atmaca M, Tezcan E, Kuloglu M, Ustundag B, Kirtas O The effect of extract of ginkgo biloba addition to olanzapine on therapeutic effect and antioxidant enzyme levels in patients with schizophrenia Psychiatry Clin Neurosci . ( 2005 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16401239"
+    },
+    {
+      "text": "Schizophrenia symptoms - Zhang XY, Zhou DF, Zhang PY, Wu GY, Su JM, Cao LY A double-blind, placebo-controlled trial of extract of Ginkgo biloba added to haloperidol in treatment-resistant patients with schizophrenia J Clin Psychiatry . ( 2001 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11775047"
+    },
+    {
+      "text": "Tardive Dyskinesia Symptoms - Zhang XY, Zhang WF, Zhou DF, Chen da C, Xiu MH, Wu HR, Haile CN, Kosten TA, Kosten TR Brain-derived neurotrophic factor levels and its Val66Met gene polymorphism predict tardive dyskinesia treatment response to Ginkgo biloba Biol Psychiatry . ( 2012 Oct 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22695185"
+    },
+    {
+      "text": "Attention - Attia A, Rapp SR, Case LD, D'Agostino R, Lesser G, Naughton M, McMullen K, Rosdhal R, Shaw EG Phase II study of Ginkgo biloba in irradiated brain tumor patients: effect on cognitive function, quality of life, and mood J Neurooncol . ( 2012 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22700031"
+    },
+    {
+      "text": "Libido - Wheatley D Triple-blind, placebo-controlled trial of Ginkgo biloba in sexual dysfunction due to antidepressant drugs Hum Psychopharmacol . ( 2004 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15378664"
+    },
+    {
+      "text": "Libido - Meston CM, Rellini AH, Telch MJ Short- and long-term effects of Ginkgo biloba extract on sexual dysfunction in women Arch Sex Behav . ( 2008 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18274887"
+    },
+    {
+      "text": "Reaction Time - Kennedy DO, Scholey AB, Wesnes KA Modulation of cognition and mood following administration of single doses of Ginkgo biloba, ginseng, and a ginkgo/ginseng combination to healthy young adults Physiol Behav . ( 2002 Apr 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12020739"
+    },
+    {
+      "text": "Processing Speed - Mix JA, Crews WD Jr An examination of the efficacy of Ginkgo biloba extract EGb761 on the neuropsychologic functioning of cognitively intact older adults J Altern Complement Med . ( 2000 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10890330"
+    },
+    {
+      "text": "Memory - Kennedy DO, Haskell CF, Mauri PL, Scholey AB Acute cognitive effects of standardised Ginkgo biloba extract complexed with phosphatidylserine Hum Psychopharmacol . ( 2007 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17457961"
+    },
+    {
+      "text": "Memory - Mix JA, Crews WD Jr A double-blind, placebo-controlled, randomized trial of Ginkgo biloba extract EGb 761 in a sample of cognitively intact older adults: neuropsychological findings Hum Psychopharmacol . ( 2002 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12404671"
+    },
+    {
+      "text": "Cognition - Santos RF, Galduróz JC, Barbieri A, Castiglioni ML, Ytaya LY, Bueno OF Cognitive performance, SPECT, and blood viscosity in elderly non-demented people using Ginkgo biloba Pharmacopsychiatry . ( 2003 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12905098"
+    },
+    {
+      "text": "Cognition - Yancheva S, Ihl R, Nikolova G, Panayotov P, Schlaefke S, Hoerr R, GINDON Study Group Ginkgo biloba extract EGb 761(R), donepezil or both combined in the treatment of Alzheimer's disease with neuropsychiatric features: a randomised, double-blind, exploratory trial Aging Ment Health . ( 2009 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19347685"
+    },
+    {
+      "text": "Cognition - Andrew B Scholey, David O Kennedy Acute, dose-dependent cognitive effects of Ginkgo biloba, Panax ginseng and their combination in healthy young volunteers: differential interactions with cognitive demand Hum Psychopharmacol . ( 2002 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12404705"
+    },
+    {
+      "text": "Cognitive Decline - Ihl R, Tribanek M, Bachinskaya N, GOTADAY Study Group Efficacy and tolerability of a once daily formulation of Ginkgo biloba extract EGb 761® in Alzheimer's disease and vascular dementia: results from a randomised controlled trial Pharmacopsychiatry . ( 2012 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22086747"
+    },
+    {
+      "text": "Cerebral Blood Flow - Ameneh Mashayekh, Dzung L Pham, David M Yousem, Mercedes Dizon, Peter B Barker, Doris D M Lin Effects of Ginkgo biloba on cerebral blood flow assessed by quantitative MR perfusion imaging: a pilot study Neuroradiology . ( 2011 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21061003"
+    },
+    {
+      "text": "Cognitive Decline - Napryeyenko O, Borzenko I; GINDEM-NP Study Group Ginkgo biloba special extract in dementia with neuropsychiatric features. A randomised, placebo-controlled, double-blind clinical trial Arzneimittelforschung . ( 2007 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17341003"
+    },
+    {
+      "text": "Cognitive Decline - Kanowski S, Herrmann WM, Stephan K, Wierich W, Hörr R Proof of efficacy of the ginkgo biloba special extract EGb 761 in outpatients suffering from mild to moderate primary degenerative dementia of the Alzheimer type or multi-infarct dementia Pharmacopsychiatry . ( 1996 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8741021"
+    },
+    {
+      "text": "Cognitive Decline - Herrschaft H, Nacu A, Likhachev S, Sholomov I, Hoerr R, Schlaefke S Ginkgo biloba extract EGb 761® in dementia with neuropsychiatric features: a randomised, placebo-controlled trial to confirm the efficacy and safety of a daily dose of 240 mg J Psychiatr Res . ( 2012 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22459264"
+    },
+    {
+      "text": "Cognitive Decline - Zhang SJ, Xue ZY Effect of Western medicine therapy assisted by Ginkgo biloba tablet on vascular cognitive impairment of none dementia Asian Pac J Trop Med . ( 2012 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22840457"
+    },
+    {
+      "text": "Cognitive Decline - Le Bars PL, Katz MM, Berman N, Itil TM, Freedman AM, Schatzberg AF A placebo-controlled, double-blind, randomized trial of an extract of Ginkgo biloba for dementia. North American EGb Study Group. JAMA . ( 1997 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9343463"
+    },
+    {
+      "text": "Alzheimer's Disease Risk - DeKosky ST, Williamson JD, Fitzpatrick AL, Kronmal RA, Ives DG, Saxton JA, Lopez OL, Burke G, Carlson MC, Fried LP, Kuller LH, Robbins JA, Tracy RP, Woolard NF, Dunn L, Snitz BE, Nahin RL, Furberg CD; Ginkgo Evaluation of Memory (GEM) Study Investigators Ginkgo biloba for prevention of dementia: a randomized controlled trial JAMA . ( 2008 Nov 19 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19017911"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Gertsch JH, Seto TB, Mor J, Onopa J Ginkgo biloba for the prevention of severe acute mountain sickness (AMS) starting one day before rapid ascent High Alt Med Biol . ( 2002 Spring )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12006162"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Gertsch JH, Basnyat B, Johnson EW, Onopa J, Holck PS Randomised, double blind, placebo controlled comparison of ginkgo biloba and acetazolamide for prevention of acute mountain sickness among Himalayan trekkers: the prevention of high altitude illness trial (PHAIT) BMJ . ( 2004 Apr 3 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15070635"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Leadbetter G, Keyes LE, Maakestad KM, Olson S, Tissot van Patot MC, Hackett PH Ginkgo biloba does--and does not--prevent acute mountain sickness Wilderness Environ Med . ( 2009 Spring )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19364166"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Moraga FA, Flores A, Serra J, Esnaola C, Barriento C Ginkgo biloba decreases acute mountain sickness in people ascending to high altitude at Ollagüe (3696 m) in northern Chile Wilderness Environ Med . ( 2007 Winter )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18076292"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Chow T, Browne V, Heileson HL, Wallace D, Anholm J, Green SM Ginkgo biloba and acetazolamide prophylaxis for acute mountain sickness: a randomized, placebo-controlled trial Arch Intern Med . ( 2005 Feb 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15710792"
+    },
+    {
+      "text": "Acute Mountain Sickness Symptoms - Roncin JP, Schwartz F, D'Arbigny P EGb 761 in control of acute mountain sickness and vascular reactivity to cold exposure Aviat Space Environ Med . ( 1996 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8725471"
+    },
+    {
+      "text": "Tinnitus Symptoms - Seon-Sook Han, Eui-Cheol Nam, Jun Yeon Won, Kang Uk Lee, Wanjoo Chun, Hyun Kyung Choi, Robert Aaron Levine Clonazepam quiets tinnitus: a randomised crossover study with Ginkgo biloba J Neurol Neurosurg Psychiatry . ( 2012 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22626945"
+    },
+    {
+      "text": "Tinnitus Symptoms - Hilton MP, Zimmermann EF, Hunt WT Ginkgo biloba for tinnitus Cochrane Database Syst Rev . ( 2013 Mar 28 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23543524"
+    },
+    {
+      "text": "Tinnitus Symptoms - Drew S, Davies E Effectiveness of Ginkgo biloba in treating tinnitus: double blind, placebo controlled trial BMJ . ( 2001 Jan 13 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11154618"
+    },
+    {
+      "text": "Nitric Oxide - Li XS, Zheng WY, Lou SX, Lu XW, Ye SH Effect of Ginkgo leaf extract on vascular endothelial function in patients with early stage diabetic nephropathy Chin J Integr Med . ( 2009 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19271166"
+    },
+    {
+      "text": "Sleep Quality - Murray BJ, Cowen PJ, Sharpley AL The effect of Li 1370, extract of Ginkgo biloba, on REM sleep in humans Pharmacopsychiatry . ( 2001 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11518478"
+    },
+    {
+      "text": "Stroke Recovery - Zeng X, Liu M, Yang Y, Li Y, Asplund K Ginkgo biloba for acute ischaemic stroke Cochrane Database Syst Rev . ( 2005 Oct 19 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16235335"
+    },
+    {
+      "text": "Cognitive Decline - Vellas B, Coley N, Ousset PJ, Berrut G, Dartigues JF, Dubois B, Grandjean H, Pasquier F, Piette F, Robert P, Touchon J, Garnier P, Mathiex-Fortunet H, Andrieu S, GuidAge Study Group Long-term use of standardised Ginkgo biloba extract for the prevention of Alzheimer's disease (GuidAge): a randomised placebo-controlled trial Lancet Neurol . ( 2012 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22959217"
+    },
+    {
+      "text": "PMS Symptoms - Tamborini A, Taurelle R Value of standardized Ginkgo biloba extract (EGb 761) in the management of congestive symptoms of premenstrual syndrome Rev Fr Gynecol Obstet . ( 1993 Jul-Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8235261"
+    },
+    {
+      "text": "Intraocular Pressure - Wimpissinger B, Berisha F, Garhoefer G, Polak K, Schmetterer L Influence of Ginkgo biloba on ocular blood flow Acta Ophthalmol Scand . ( 2007 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17324220"
+    },
+    {
+      "text": "Intraocular Pressure - Quaranta L, Bettelli S, Uva MG, Semeraro F, Turano R, Gandolfo E Effect of Ginkgo biloba extract on preexisting visual field damage in normal tension glaucoma Ophthalmology . ( 2003 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12578781"
+    },
+    {
+      "text": "Intraocular Pressure - Chung HS, Harris A, Kristinsson JK, Ciulla TA, Kagemann C, Ritch R Ginkgo biloba extract increases ocular blood flow velocity J Ocul Pharmacol Ther . ( 1999 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10385132"
+    },
+    {
+      "text": "PMS Symptoms - Ozgoli G, Selselei EA, Mojab F, Majd HA A randomized, placebo-controlled trial of Ginkgo biloba L. in treatment of premenstrual syndrome J Altern Complement Med . ( 2009 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19678774"
+    },
+    {
+      "text": "Subjective Well-Being - Kaschel R Specific memory effects of Ginkgo biloba extract EGb 761 in middle-aged healthy volunteers Phytomedicine . ( 2011 Nov 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21802920"
+    },
+    {
+      "text": "Blood Pressure - Mehlsen J, Drabaek H, Wiinberg N, Winther K Effects of a Ginkgo biloba extract on forearm haemodynamics in healthy volunteers Clin Physiol Funct Imaging . ( 2002 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12464140"
+    },
+    {
+      "text": "Blood Pressure - Brinkley TE, Lovato JF, Arnold AM, Furberg CD, Kuller LH, Burke GL, Nahin RL, Lopez OL, Yasar S, Williamson JD; Ginkgo Evaluation of Memory (GEM) Study Investigators Effect of Ginkgo biloba on blood pressure and incidence of hypertension in elderly men and women Am J Hypertens . ( 2010 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20168306"
+    },
+    {
+      "text": "Blood Pressure - Gillian Keheyan, Lauren A Dunn, Wendy Louise Hall Acute effects of Ginkgo biloba extract on vascular function and blood pressure Plant Foods Hum Nutr . ( 2011 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21647656"
+    },
+    {
+      "text": "Reaction Time - K. Wesnes, D. Simmons, M. Rook, P. Simpson A double-blind placebo-controlled trial of tanakan in the treatment of idiopathic cognitive impairment in the elderly Human Psychopharmacology: Clinical and Experimental . ( )",
+      "link": "http://onlinelibrary.wiley.com/doi/10.1002/hup.470020305/abstract"
+    },
+    {
+      "text": "Cognitive Decline - Brautigam MR, Blommaert FA, Verleye G, Castermans J, Jansen Steur EN, Kleijnen J Treatment of age-related memory complaints with Ginkgo biloba extract: a randomized double blind placebo-controlled study Phytomedicine . ( 1998 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23196025"
+    },
+    {
+      "text": "Cognitive Decline - Snitz BE, O'Meara ES, Carlson MC, Arnold AM, Ives DG, Rapp SR, Saxton J, Lopez OL, Dunn LO, Sink KM, DeKosky ST, Ginkgo Evaluation of Memory (GEM) Study Investigators Ginkgo biloba for preventing cognitive decline in older adults: a randomized trial JAMA . ( 2009 Dec 23 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20040554"
+    },
+    {
+      "text": "Memory - Bäurle P, Suter A, Wormstall H Safety and effectiveness of a traditional ginkgo fresh plant extract - results from a clinical trial Forsch Komplementmed . ( 2009 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19657199"
+    },
+    {
+      "text": "Overall Cancer Risk - Biggs ML, Sorkin BC, Nahin RL, Kuller LH, Fitzpatrick AL Ginkgo biloba and risk of cancer: secondary analysis of the Ginkgo Evaluation of Memory (GEM) Study Pharmacoepidemiol Drug Saf . ( 2010 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20582906"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Pittler MH, Ernst E Ginkgo biloba extract for the treatment of intermittent claudication: a meta-analysis of randomized trials Am J Med . ( 2000 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11014719"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Thomson GJ, Vohra RK, Carr MH, Walker MG A clinical trial of Gingkco Biloba Extract in patients with intermittent claudication Int Angiol . ( 1990 Apr-Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/2254678"
+    },
+    {
+      "text": "Intermittent Claudication Symptoms - Peters H, Kieser M, Hölscher U Demonstration of the efficacy of ginkgo biloba special extract EGb 761 on intermittent claudication--a placebo-controlled, double-blind multicenter trial Vasa . ( 1998 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9612115"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Lovera JF, Kim E, Heriza E, Fitzpatrick M, Hunziker J, Turner AP, Adams J, Stover T, Sangeorzan A, Sloan A, Howieson D, Wild K, Haselkorn J, Bourdette D Ginkgo biloba does not improve cognitive function in MS: a randomized placebo-controlled trial Neurology . ( 2012 Sep 18 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22955125"
+    },
+    {
+      "text": "Wrinkles - P Chuarienthong, N Lourith, P Leelapornpisid Clinical efficacy comparison of anti-wrinkle cosmetics containing herbal flavonoids Int J Cosmet Sci . ( 2010 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20412217"
+    },
+    {
+      "text": "Blood Flow - Boelsma E, Lamers RJ, Hendriks HF, van Nesselrooij JH, Roza L Evidence of the regulatory effect of Ginkgo biloba extract on skin blood flow and study of its effects on urinary metabolites in healthy humans Planta Med . ( 2004 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15549661"
+    },
+    {
+      "text": "Cortisol - Jezova D, Duncko R, Lassanova M, Kriska M, Moncek F Reduction of rise in blood pressure and cortisol release during stress by Ginkgo biloba extract (EGb 761) in healthy volunteers J Physiol Pharmacol . ( 2002 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12369732"
+    },
+    {
+      "text": "Libido - Kang BJ, Lee SJ, Kim MD, Cho MJ A placebo-controlled, double-blind trial of Ginkgo biloba for antidepressant-induced sexual dysfunction Hum Psychopharmacol . ( 2002 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12404672"
+    },
+    {
+      "text": "Raynaud's Phenomenon Symptoms - Bredie SJ, Jong MC No significant effect of ginkgo biloba special extract EGb 761 in the treatment of primary Raynaud phenomenon: a randomized controlled trial J Cardiovasc Pharmacol . ( 2012 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22030896"
+    },
+    {
+      "text": "Raynaud's Phenomenon Symptoms - Choi WS, Choi CJ, Kim KS, Lee JH, Song CH, Chung JH, Ock SM, Lee JB, Kim CM To compare the efficacy and safety of nifedipine sustained release with Ginkgo biloba extract to treat patients with primary Raynaud's phenomenon in South Korea; Korean Raynaud study (KOARA study) Clin Rheumatol . ( 2009 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19159999"
+    },
+    {
+      "text": "Vitiligo Symptoms - Parsad D, Pandhi R, Juneja A Effectiveness of oral Ginkgo biloba in treating limited, slowly spreading vitiligo Clin Exp Dermatol . ( 2003 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12780716"
+    },
+    {
+      "text": "Vitiligo Symptoms - Orest Szczurko, Neil Shear, Anna Taddio, Heather Boon Ginkgo biloba for the treatment of vitilgo vulgaris: an open label pilot clinical trial BMC Complement Altern Med . ( 2011 Mar 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21406109"
+    },
+    {
+      "text": "Autism Symptoms - Niederhofer H First preliminary results of an observation of Ginkgo Biloba treating patients with autistic disorder Phytother Res . ( 2009 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19274699"
+    },
+    {
+      "text": "Autism Symptoms - Hasanzadeh E, Mohammadi MR, Ghanizadeh A, Rezazadeh SA, Tabrizi M, Rezaei F, Akhondzadeh S A double-blind placebo controlled trial of Ginkgo biloba added to risperidone in patients with autistic disorders Child Psychiatry Hum Dev . ( 2012 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22392415"
+    },
+    {
+      "text": "Anxiety Symptoms - Woelk H, Arnoldt KH, Kieser M, Hoerr R Ginkgo biloba special extract EGb 761 in generalized anxiety disorder and adjustment disorder with anxious mood: a randomized, double-blind, placebo-controlled trial J Psychiatr Res . ( 2007 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16808927"
+    },
+    {
+      "text": "Ocular Blood Flow - Park JW, Kwon HJ, Chung WS, Kim CY, Seong GJ Short-term effects of Ginkgo biloba extract on peripapillary retinal blood flow in normal tension glaucoma Korean J Ophthalmol . ( 2011 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21976939"
+    },
+    {
+      "text": "Urinary Albumin - Zhang Z, Tang S, Liu S, Leng Y, Fu X, Xie H, Gao H, Xie C The efficacy and safety of Ginkgo biloba L. leaves extract combined with ACEI/ARB on diabetic kidney disease: a systematic review and meta-analysis of 41 randomized controlled trials. Front Pharmacol . ( 2024 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39830333"
+    },
+    {
+      "text": "6-Minute Walking Test Performance - Sun X, Peng L, Xiao W, Li K, Chen S Efficacy of ginkgo biloba extract in the treatment of idiopathic pulmonary fibrosis: a systematic review and meta-analysis of randomized controlled trials. Front Pharmacol . ( 2025 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40110130"
+    }
+  ]
+}

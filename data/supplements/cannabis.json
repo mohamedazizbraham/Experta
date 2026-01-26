@@ -1,0 +1,3069 @@
+{
+  "slug": "cannabis",
+  "name": "Cannabis",
+  "name_en": "Cannabis",
+  "description": "Le cannabis est le nom commun et le genre de quelques plantes utilisées dans le monde en raison de leurs propriétés psychoactives. Son principal composant, connu sous le nom de THC, possède des bénéfices aigus mais est sujet à une tolérance rapide. De plus, les composants non psychoactifs comme le CBD peuvent avoir des bénéfices chroniques. Bien qu’il soit thérapeutique, notamment pour le soulagement de la douleur, la plante n’est pas une panacée.",
+  "overview": [],
+  "dosage": "Le cannabis est généralement inhalé pour ressentir ses effets psychoactifs, mais il peut également être pris par voie orale, sublinguale (déposé et maintenu sous la langue) ou sous forme de suppositoire. La voie d’administration déterminera la rapidité d’apparition des effets, l’inhalation et le suppositoire agissant plus rapidement que la prise sublinguale ou orale. Les bénéfices et les effets indésirables liés à la consommation de cannabis surviennent généralement à des doses suffisantes pour provoquer un état d’euphorie léger à modéré. La fourchette de dose la plus courante utilisée dans les essais cliniques est de 2 à 5 mg par jour (bien que cette dose soit généralement du THC concentré). La plupart des effets indésirables du cannabis sont associés à la fréquence, et non à la dose. Consommer du cannabis plus d’une fois par semaine peut entraîner une tolérance. Certaines personnes peuvent devoir limiter leur consommation à deux fois par mois afin d’éviter le développement d’une tolérance. N’augmentez pas les doses de cannabis pour surmonter la tolérance, sauf indication d’un professionnel de santé.",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Sclérose en plaques",
+      "outcomes": [
+        {
+          "outcome": "Équilibre",
+          "grade": "F",
+          "effect": "Détérioration modérée",
+          "evidence": "1 Étude Participants : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "B",
+          "effect": "Effet mixte",
+          "evidence": "2 Études Participants : 54",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 54
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 1132",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 1132
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants: 1186",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 1186
+        },
+        {
+          "outcome": "Irritabilité",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 1132",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 1132
+        },
+        {
+          "outcome": "Vitesse motrice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 14",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Symptômes de la sclérose en plaques",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 études Participants: 3161",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 3161
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 160",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 160
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 900",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 900
+        },
+        {
+          "outcome": "Signes d'incontinence urinaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 765",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 765
+        },
+        {
+          "outcome": "Capacité de marche",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 81",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 81
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration cognitive",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études Participants : 120",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 120
+        },
+        {
+          "outcome": "Équilibre",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 80",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 108",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 108
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Prudence de conduite",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 87",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 87
+        },
+        {
+          "outcome": "Contrôle de Conduite",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 183",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 183
+        },
+        {
+          "outcome": "Vitesse de Conduite",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 110",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Symptômes de Fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 108",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 108
+        },
+        {
+          "outcome": "Coordination Main-Œil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 80",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Humeur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 91",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 91
+        },
+        {
+          "outcome": "Contrôle moteur",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 120",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 120
+        },
+        {
+          "outcome": "Vitesse motrice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 80",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Mémoire verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 91",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 91
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 29",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 29
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Indicateurs d'exercice aérobie",
+          "grade": "F",
+          "effect": "Légère atteinte",
+          "evidence": "1 Étude Participants : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Flux sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 50",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 50
+        },
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 30",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 97",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 97
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 19",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Symptômes d'hypotension orthostatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 10",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Soins généraux du cancer et prévention",
+      "outcomes": [
+        {
+          "outcome": "Utilisation d'analgésiques",
+          "grade": "C",
+          "effect": "Légère diminution",
+          "evidence": "4 études Participants : 1333",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 1333
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 360",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 360
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 1333",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 1333
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 24",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 759",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 759
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 24",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 24
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Soulagement de la douleur",
+      "outcomes": [
+        {
+          "outcome": "Utilisation d'analgésiques",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 participants à l'étude : 177",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 177
+        },
+        {
+          "outcome": "Température corporelle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 18",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 18
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 participants aux études : 252",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 252
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Fibromyalgie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration légère",
+          "evidence": "1 Étude Participants : 18",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 18
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 18",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 18
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 18",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 18
+        },
+        {
+          "outcome": "Symptômes de fibromyalgie",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 43",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 43
+        },
+        {
+          "outcome": "Contrôle moteur",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants : 614",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 614
+        },
+        {
+          "outcome": "Symptômes de myotonie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 6",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 6
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants : 288",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 288
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 18",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 18
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance de conduite",
+      "outcomes": [
+        {
+          "outcome": "Prudence au volant",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 études Participants: 147",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 147
+        },
+        {
+          "outcome": "Contrôle de la conduite",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants: 173",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 173
+        },
+        {
+          "outcome": "Vitesse de conduite",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants: 147",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 147
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Cortisol",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 étude Participants: 12",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Ghrelin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Peptide-1 de type glucagonique (GLP-1)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Leptin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Prolactine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 23
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Douleur neuropathique",
+      "outcomes": [
+        {
+          "outcome": "Utilisation d'analgésiques",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 34
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 23
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 394",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 394
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Virus de l'immunodéficience humaine",
+      "outcomes": [
+        {
+          "outcome": "Utilisation d'analgésiques",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 34
+        },
+        {
+          "outcome": "Numération des cellules B",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 62",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Lymphocytes CD4",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 62",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Lymphocytes CD8",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 62",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Ghréline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 7",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 7
+        },
+        {
+          "outcome": "Leptine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 7",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 7
+        },
+        {
+          "outcome": "Numération des lymphocytes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 62",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Activité des cellules tueuses naturelles",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 62",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Contenu en cellules tueuses naturelles",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 62",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Peptide YY (PYY)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 7",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 7
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de l'humeur",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 Participants aux études : 151",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 151
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 151",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 151
+        },
+        {
+          "outcome": "Confusion",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 28",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 28
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 91",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 91
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 28",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 28
+        },
+        {
+          "outcome": "Humeur",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 151",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 151
+        },
+        {
+          "outcome": "Contrôle moteur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 91",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 91
+        },
+        {
+          "outcome": "Mémoire verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 91",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 91
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 60",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 60
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Perte de poids & maintien",
+      "outcomes": [
+        {
+          "outcome": "Appétit",
+          "grade": "B",
+          "effect": "Légère augmentation",
+          "evidence": "2 Études Participants: 27",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 27
+        },
+        {
+          "outcome": "Apport alimentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 17",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 17
+        },
+        {
+          "outcome": "Ghréline",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 37",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 37
+        },
+        {
+          "outcome": "Peptide-1 de type glucagon (GLP-1)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Leptine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Satiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 10",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Étude Participants: 23",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 23
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 89",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 89
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de neuropathie diabétique",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 Études Participants: 46",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 46
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 30",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance de l'exercice aérobie",
+      "outcomes": [
+        {
+          "outcome": "Mesures de l'exercice aérobie",
+          "grade": "F",
+          "effect": "Petit préjudice",
+          "evidence": "2 études Participants : 32",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Flux sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 32",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Fonction pulmonaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 12",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Consommation d'oxygène",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 12",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Puissance développée",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cachexie",
+      "outcomes": [
+        {
+          "outcome": "Appétit",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Étude Participants: 164",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 164
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 188",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 188
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 24",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 24
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Douleur liée au cancer",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants : 39",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 39
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 1442",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 1442
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Neuropathie diabétique",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la neuropathie diabétique",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études Participants : 46",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 46
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 30",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Sevrage du cannabis",
+      "outcomes": [
+        {
+          "outcome": "Cognition",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "2 études Participants : 24",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Apport alimentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 24",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Fonctionnement social",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Consommation de tabac",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 12
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé neurologique",
+      "outcomes": [
+        {
+          "outcome": "Appétit",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Satiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé respiratoire",
+      "outcomes": [
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "B",
+          "effect": "Augmentation modérée",
+          "evidence": "2 études Participants : 40",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Fonction pulmonaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 32",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance athlétique générale",
+      "outcomes": [
+        {
+          "outcome": "Mesures d'exercice aérobie",
+          "grade": "F",
+          "effect": "Légère détérioration",
+          "evidence": "2 études Participants : 32",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Flux sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 32",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 32",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 32
+        },
+        {
+          "outcome": "Fonction pulmonaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Consommation d'oxygène",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Bronchopneumopathie chronique obstructive (BPCO)",
+      "outcomes": [
+        {
+          "outcome": "Fonction pulmonaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 5115",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 5115
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Glaucome",
+      "outcomes": [
+        {
+          "outcome": "Pression artérielle",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 Participants à l'étude : 18",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 18
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 18",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 18
+        },
+        {
+          "outcome": "Intraocular Pressure",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 18",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 18
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Low Testosterone",
+      "outcomes": [
+        {
+          "outcome": "Cortisol",
+          "grade": "C",
+          "effect": "Mixed effect",
+          "evidence": "1 Study Participants: 40",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Luteinizing Hormone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 40",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 40
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Menopause",
+      "outcomes": [
+        {
+          "outcome": "Hormone lutéinisante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 10",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome de la bouche brûlante",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du syndrome de la bouche brûlante",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l’étude : 17",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 17
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 17",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 17
+        },
+        {
+          "outcome": "Humeur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 17",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 17
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Effets secondaires de la chimiothérapie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de nausée",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 participants à l'étude : 81",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 81
+        },
+        {
+          "outcome": "Vomissements",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 81",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 81
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Douleur chronique",
+      "outcomes": [
+        {
+          "outcome": "Utilisation d'analgésiques",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 participants à l'étude : 399",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 399
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 399",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 399
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 399",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 399
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie de Crohn",
+      "outcomes": [
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Participants à l'étude : 21",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 21
+        },
+        {
+          "outcome": "Symptômes de la maladie de Crohn",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 21",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 21
+        },
+        {
+          "outcome": "Hématocrite",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 21",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 21
+        },
+        {
+          "outcome": "Hémoglobine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 21",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 21
+        },
+        {
+          "outcome": "Numération des globules blancs",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 21",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 21
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé oculaire",
+      "outcomes": [
+        {
+          "outcome": "Pression intraoculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 15
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Concentration et attention",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 19",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 19",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Contrôle moteur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 19",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 19
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 19",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 19
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Résilience mentale",
+      "outcomes": [
+        {
+          "outcome": "Agression",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants : 61",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 61
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 61",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 61
+        },
+        {
+          "outcome": "Testosterone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 61",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 61
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Taille et force musculaires",
+      "outcomes": [
+        {
+          "outcome": "Mesures de l'exercice aérobie",
+          "grade": "F",
+          "effect": "Légère détérioration",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Flux sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypertension oculaire",
+      "outcomes": [
+        {
+          "outcome": "Pression intraoculaire",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l’étude : 6",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 6
+        },
+        {
+          "outcome": "Acuité visuelle (AV)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 6",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 6
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Douleur réfractaire aux opioïdes",
+      "outcomes": [
+        {
+          "outcome": "Utilisation d’analgésiques",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Participants à l’étude : 360",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 360
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 360",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 360
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 360",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 360
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 360",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 360
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie de Parkinson",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la maladie de Parkinson",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 19",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 19
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syncope posturale",
+      "outcomes": [
+        {
+          "outcome": "Pression artérielle",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 Participants à l'étude : 29",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 29
+        },
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 29",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 29
+        },
+        {
+          "outcome": "Vertiges",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 29",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 29
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 29",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 29
+        },
+        {
+          "outcome": "Symptômes d'hypotension orthostatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 29",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 29
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Drépanocytose",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la drépanocytose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 27",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 27
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Participants à l'étude: 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Mood",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Sleep Latency",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Working Memory",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Smoking Behavior",
+      "outcomes": [
+        {
+          "outcome": "Tobacco Consumption",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 9",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 9
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Angine stable",
+      "outcomes": [
+        {
+          "outcome": "Angine",
+          "grade": "F",
+          "effect": "Détérioration modérée",
+          "evidence": "1 participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble de l'usage du tabac",
+      "outcomes": [
+        {
+          "outcome": "Consommation de tabac",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 8",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 8
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Tourette Syndrome",
+      "outcomes": [
+        {
+          "outcome": "ADHD Symptoms",
+          "grade": "D",
+          "effect": "No effect",
+          "evidence": "1 Study Participants: 2067",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 2067
+        },
+        {
+          "outcome": "Anxiety Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Studies Participants: 304",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 304
+        },
+        {
+          "outcome": "Depression Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 Studies Participants: 1708",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 1708
+        },
+        {
+          "outcome": "Schizophrenia symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 2067",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 2067
+        },
+        {
+          "outcome": "Symptômes du syndrome de Tourette",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 41",
+          "studies": [
+            {
+              "title": "Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+            }
+          ],
+          "participants": 41
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Ghrelin - Mehdi Farokhnia, Gray R McDiarmid, Matthew N Newmeyer, Vikas Munjal, Osama A Abulseoud, Marilyn A Huestis, Lorenzo Leggio Effects of oral, smoked, and vaporized cannabis on endocrine pathways related to appetite and metabolism: a randomized, double-blind, placebo-controlled, human laboratory study Transl Psychiatry . ( 2020 Feb 19 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32075958"
+    },
+    {
+      "text": "Cortisol - L E Hollister, F Moore, S Kanter, E Noble 1 -tetrahydrocannabinol, synhexyl and marijuana extract administered orally in man: catecholamine excretion, plasma cortisol levels and platelet serotonin content Psychopharmacologia . ( 1970 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/5523370"
+    },
+    {
+      "text": "Prolactin - J H Mendelson, J Ellingboe, N K Mello Acute effects of natural and synthetic cannabis compounds on prolactin levels in human males Pharmacol Biochem Behav . ( 1984 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/6320226"
+    },
+    {
+      "text": "Metabolic Rate - C W Zwillich, R Doekel, S Hammill, J V Weil The effects of smoked marijuana on metabolism and respiratory control Am Rev Respir Dis . ( 1978 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/367234"
+    },
+    {
+      "text": "Ghrelin - Nathalie Weltens, Inge Depoortere, Jan Tack, Lukas Van Oudenhove Effect of acute Δ9-tetrahydrocannabinol administration on subjective and metabolic hormone responses to food stimuli and food intake in healthy humans: a randomized, placebo-controlled study Am J Clin Nutr . ( 2019 Apr 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30949710"
+    },
+    {
+      "text": "Appetite - Suzanne E M de Bruijn, Cees de Graaf, Renger F Witkamp, Gerry Jager Explorative Placebo-Controlled Double-Blind Intervention Study with Low Doses of Inhaled Δ9-Tetrahydrocannabinol and Cannabidiol Reveals No Effect on Sweet Taste Intensity Perception and Liking in Humans Cannabis Cannabinoid Res . ( 2017 Jun 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28861511"
+    },
+    {
+      "text": "Lymphocyte Count - Barry M Bredt, Dana Higuera-Alhino, Starley B Shade, Samuel J Hebert, Joseph M McCune, Donald I Abrams Short-term effects of cannabinoids on immune phenotype and function in HIV-1-infected patients J Clin Pharmacol . ( 2002 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12412840"
+    },
+    {
+      "text": "Leptin - Riggs PK, Vaida F, Rossi SS, Sorkin LS, Gouaux B, Grant I, Ellis RJ A pilot study of the effects of cannabis on appetite hormones in HIV-infected adult men Brain Res . ( 2012 Jan 11 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22133305"
+    },
+    {
+      "text": "Analgesic Use - Ronald J Ellis, Will Toperoff, Florin Vaida, Geoffrey van den Brande, James Gonzales, Ben Gouaux, Heather Bentley, J Hampton Atkinson Smoked medicinal cannabis for neuropathic pain in HIV: a randomized, crossover clinical trial Neuropsychopharmacology . ( 2009 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18688212"
+    },
+    {
+      "text": "Mood - Timo Woelfl, Cathrin Rohleder, Juliane K Mueller, Bettina Lange, Anne Reuter, Anna Maria Schmidt, Dagmar Koethe, Martin Hellmich, F Markus Leweke Effects of Cannabidiol and Delta-9-Tetrahydrocannabinol on Emotion, Cognition, and Attention: A Double-Blind, Placebo-Controlled, Randomized Experimental Trial in Healthy Volunteers Front Psychiatry . ( 2020 Nov 13 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33304282"
+    },
+    {
+      "text": "Mood - Justin Matheson, Robert E Mann, Beth Sproule, Marilyn A Huestis, Christine M Wickens, Gina Stoduto, Tony P George, Jürgen Rehm, Bernard Le Foll, Bruna Brands Acute and residual mood and cognitive performance of young adults following smoked cannabis Pharmacol Biochem Behav . ( 2020 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32360692"
+    },
+    {
+      "text": "Heart Rate - B W Lex, J H Mendelson, S Bavli, K Harvey, N K Mello Effects of acute marijuana smoking on pulse rate and mood states in women Psychopharmacology (Berl) . ( 1984 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/6438677"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Mari Carmen Torres-Moreno, Esther Papaseit, Marta Torrens, Magí Farré Assessment of Efficacy and Tolerability of Medicinal Cannabinoids in Patients With Multiple Sclerosis: A Systematic Review and Meta-analysis JAMA Netw Open . ( 2018 Oct 5 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30646241"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Jolana Markovà, Ute Essner, Bülent Akmaz, Marcella Marinelli, Christiane Trompke, Arnd Lentschat, Carlos Vila Sativex ® as add-on therapy vs. further optimized first-line ANTispastics (SAVANT) in resistant multiple sclerosis spasticity: a double-blind, placebo-controlled randomised clinical trial Int J Neurosci . ( 2019 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29792372"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Letizia Leocani, Arturo Nuara, Elise Houdayer, Irene Schiavetti, Ubaldo Del Carro, Stefano Amadio, Laura Straffi, Paolo Rossi, Vittorio Martinelli, Carlos Vila, Maria Pia Sormani, Giancarlo Comi Sativex(®) and clinical-neurophysiological measures of spasticity in progressive multiple sclerosis J Neurol . ( 2015 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26289497"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Zajicek JP, Sanders HP, Wright DE, Vickery PJ, Ingram WM, Reilly SM, Nunn AJ, Teare LJ, Fox PJ, Thompson AJ Cannabinoids in multiple sclerosis (CAMS) study: safety and efficacy data for 12 months follow up J Neurol Neurosurg Psychiatry . ( 2005 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16291891"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Zajicek JP, Hobart JC, Slade A, Barnes D, Mattison PG, MUSEC Research Group Multiple sclerosis and extract of cannabis: results of the MUSEC trial J Neurol Neurosurg Psychiatry . ( 2012 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22791906"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - C Collin, E Ehler, G Waberzinek, Z Alsindi, P Davies, K Powell, W Notcutt, C O'Leary, S Ratcliffe, I Nováková, O Zapletalova, J Piková, Z Ambler A double-blind, randomized, placebo-controlled, parallel-group study of Sativex, in subjects with symptoms of spasticity due to multiple sclerosis Neurol Res . ( 2010 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20307378"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Derick T Wade, Petra Makela, Philip Robson, Heather House, Cynthia Bateman Do cannabis-based medicinal extracts have general or specific effects on symptoms in multiple sclerosis? A double-blind, randomized, placebo-controlled study on 160 patients Mult Scler . ( 2004 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15327042"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - D T Wade, P M Makela, H House, C Bateman, P Robson Long-term use of a cannabis-based medicine in the treatment of spasticity and other symptoms in multiple sclerosis Mult Scler . ( 2006 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17086911"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Aragona M, Onesti E, Tomassini V, Conte A, Gupta S, Gilio F, Pantano P, Pozzilli C, Inghilleri M Psychopathological and cognitive effects of therapeutic cannabinoids in multiple sclerosis: a double-blind, placebo controlled, crossover study Clin Neuropharmacol . ( 2009 Jan-Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18978501"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - W Notcutt, R Langford, P Davies, S Ratcliffe, R Potts A placebo-controlled, parallel-group, randomized withdrawal study of subjects with symptoms of spasticity due to multiple sclerosis who are receiving long-term Sativex® (nabiximols) Mult Scler . ( 2012 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21878454"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Michael G Serpell, William Notcutt, Christine Collin Sativex long-term use: an open-label trial in patients with spasticity due to multiple sclerosis J Neurol . ( 2013 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22878432"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - J Killestein, E L J Hoogervorst, M Reif, N F Kalkers, A C Van Loenen, P G M Staats, R W Gorter, B M J Uitdehaag, C H Polman Safety, tolerability, and efficacy of orally administered cannabinoids in MS Neurology . ( 2002 May 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12011290"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Zajicek J, Fox P, Sanders H, Wright D, Vickery J, Nunn A, Thompson A, UK MS Research Group Cannabinoids for treatment of spasticity and other symptoms related to multiple sclerosis (CAMS study): multicentre randomised placebo-controlled trial Lancet . ( 2003 Nov 8 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/14615106"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - R M Langford, J Mares, A Novotna, M Vachova, I Novakova, W Notcutt, S Ratcliffe A double-blind, randomized, placebo-controlled, parallel-group study of THC/CBD oromucosal spray in combination with the existing treatment regimen, in the relief of central neuropathic pain in patients with multiple sclerosis J Neurol . ( 2013 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23180178"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - A Novotna, J Mares, S Ratcliffe, I Novakova, M Vachova, O Zapletalova, C Gasperini, C Pozzilli, L Cefaro, G Comi, P Rossi, Z Ambler, Z Stelmasiak, A Erdmann, X Montalban, A Klimek, P Davies, Sativex Spasticity Study Group A randomized, double-blind, placebo-controlled, parallel-group, enriched-design study of nabiximols* (Sativex(®) ), as add-on therapy, in subjects with refractory spasticity caused by multiple sclerosis Eur J Neurol . ( 2011 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21362108"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Jody Corey-Bloom, Tanya Wolfson, Anthony Gamst, Shelia Jin, Thomas D Marcotte, Heather Bentley, Ben Gouaux Smoked cannabis for spasticity in multiple sclerosis: a randomized, placebo-controlled trial CMAJ . ( 2012 Jul 10 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22586334"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - P Fox, P G Bain, S Glickman, C Carroll, J Zajicek The effect of cannabis on tremor in patients with multiple sclerosis Neurology . ( 2004 Apr 13 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15079008"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Sven G Meuth, Thomas Henze, Ute Essner, Christiane Trompke, Carlos Vila Silván Tetrahydrocannabinol and cannabidiol oromucosal spray in resistant multiple sclerosis spasticity: consistency of response across subgroups from the SAVANT randomized clinical trial Int J Neurosci . ( 2020 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32065006"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - David J Rog, Turo J Nurmikko, Tim Friede, Carolyn A Young Randomized, controlled trial of cannabis-based medicine in central pain in multiple sclerosis Neurology . ( 2005 Sep 27 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16186518"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - C Vaney, M Heinzel-Gutenbrunner, P Jobin, F Tschopp, B Gattlen, U Hagen, M Schnelle, M Reif Efficacy, safety and tolerability of an orally administered cannabis extract in the treatment of spasticity in patients with multiple sclerosis: a randomized, double-blind, placebo-controlled, crossover study Mult Scler . ( 2004 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15327040"
+    },
+    {
+      "text": "Balance - H S Greenberg, S A Werness, J E Pugh, R O Andrus, D J Anderson, E F Domino Short-term effects of smoking marijuana on balance in patients with multiple sclerosis and normal volunteers Clin Pharmacol Ther . ( 1994 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8143398"
+    },
+    {
+      "text": "Urinary Incontinence Signs - R M Freeman, O Adekanmi, M R Waterfield, A E Waterfield, D Wright, J Zajicek The effect of cannabis on urge incontinence in patients with multiple sclerosis: a multicentre, randomised placebo-controlled trial (CAMS-LUTS) Int Urogynecol J Pelvic Floor Dysfunct . ( 2006 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16552618"
+    },
+    {
+      "text": "Urinary Incontinence Signs - R B C Kavia, D De Ridder, C S Constantinescu, C G Stott, C J Fowler Randomized controlled trial of Sativex to treat detrusor overactivity in multiple sclerosis Mult Scler . ( 2010 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20829244"
+    },
+    {
+      "text": "Tobacco Consumption - T H Kelly, R W Foltin, A J Rose, M W Fischman, J V Brady Smoked marijuana effects on tobacco cigarette smoking behavior J Pharmacol Exp Ther . ( 1990 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/2319477"
+    },
+    {
+      "text": "Food Intake - M Haney, A S Ward, S D Comer, R W Foltin, M W Fischman Abstinence symptoms following smoked marijuana in humans Psychopharmacology (Berl) . ( 1999 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10090647"
+    },
+    {
+      "text": "Food Intake - M Haney, A S Ward, S D Comer, R W Foltin, M W Fischman Abstinence symptoms following oral THC administration to humans Psychopharmacology (Berl) . ( 1999 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10090646"
+    },
+    {
+      "text": "Driving Speed - Thomas R Arkell, Nicholas Lintzeris, Richard C Kevin, Johannes G Ramaekers, Ryan Vandrey, Christopher Irwin, Paul S Haber, Iain S McGregor Cannabidiol (CBD) content in vaporized cannabis does not prevent tetrahydrocannabinol (THC)-induced impairment of driving and cognition Psychopharmacology (Berl) . ( 2019 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31044290"
+    },
+    {
+      "text": "Driving Speed - Bruna Brands, Robert E Mann, Christine M Wickens, Beth Sproule, Gina Stoduto, Gillian S Sayer, Jillian Burston, Jie Fei Pan, Justin Matheson, Cristiana Stefan, Tony P George, Marilyn A Huestis, Jürgen Rehm, Bernard Le Foll Acute and residual effects of smoked cannabis: Impact on driving speed and lateral control, heart rate, and self-reported drug effects Drug Alcohol Depend . ( 2019 Dec 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31678833"
+    },
+    {
+      "text": "Driving Control - I Kurzthaler, M Hummer, C Miller, B Sperner-Unterweger, V Günther, H Wechdorn, H J Battista, W W Fleischhacker Effect of cannabis use on cognitive functions and driving ability J Clin Psychiatry . ( 1999 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10401919"
+    },
+    {
+      "text": "Driving Control - Joëlle Micallef, Julien Dupouey, Elisabeth Jouve, Romain Truillet, Bruno Lacarelle, Jacques Taillard, Agnès Daurat, Colas Authié, Olivier Blin, Olivier Rascol, Pierre Philip, Daniel Mestre Cannabis smoking impairs driving performance on the simulator and real driving: a randomized, double-blind, placebo-controlled, crossover trial Fundam Clin Pharmacol . ( 2018 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29752828"
+    },
+    {
+      "text": "Motor Speed - E J Cone, R E Johnson, J D Moore, J D Roache Acute effects of smoking marijuana on hormones, subjective effects and performance in male human subjects Pharmacol Biochem Behav . ( 1986 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/3016764"
+    },
+    {
+      "text": "Balance - G B Chesher, K D Bird, D M Jackson, A Perrignon, G A Starmer The effects of orally administered delta 9-tetrahydrocannabinol in man on mood and performance measures: a dose-response study Pharmacol Biochem Behav . ( 1990 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/2161109"
+    },
+    {
+      "text": "Attention - Ziva D Cooper, Margaret Haney Opioid antagonism enhances marijuana's effects in heavy marijuana smokers Psychopharmacology (Berl) . ( 2010 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20490465"
+    },
+    {
+      "text": "Driving Speed - Tatiana Ogourtsova, Maja Kalaba, Isabelle Gelinas, Nicol Korner-Bitensky, Mark A Ware Cannabis use and driving-related performance in young recreational users: a within-subject randomized clinical trial CMAJ Open . ( 2018 Oct 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30323055"
+    },
+    {
+      "text": "Driving Speed - Beth M Anderson, Matthew Rizzo, Robert I Block, Godfrey D Pearlson, Daniel S O'Leary Sex differences in the effects of marijuana on simulated driving performance J Psychoactive Drugs . ( 2010 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20464803"
+    },
+    {
+      "text": "Driving Control - Thomas R Arkell, Frederick Vinckenbosch, Richard C Kevin, Eef L Theunissen, Iain S McGregor, Johannes G Ramaekers Effect of Cannabidiol and Δ9-Tetrahydrocannabinol on Driving Performance: A Randomized Clinical Trial JAMA . ( 2020 Dec 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33258890"
+    },
+    {
+      "text": "Testosterone - E B De Sousa Fernandes Perna, E L Theunissen, K P C Kuypers, S W Toennes, J G Ramaekers Subjective aggression during alcohol and cannabis intoxication before and after aggression exposure Psychopharmacology (Berl) . ( 2016 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27422568"
+    },
+    {
+      "text": "Sleep Quality - Elaine G Boland, Michael I Bennett, Victoria Allgar, Jason W Boland Cannabinoids for adult cancer-related pain: systematic review and meta-analysis BMJ Support Palliat Care . ( 2020 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31959586"
+    },
+    {
+      "text": "Pain - Jeremy R Johnson, Dominique Lossignol, Mary Burnell-Nugent, Marie T Fallon An open-label extension study to investigate the long-term safety and tolerability of THC/CBD oromucosal spray and oromucosal THC spray in patients with terminal cancer-related pain refractory to strong opioid analgesics J Pain Symptom Manage . ( 2013 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23141881"
+    },
+    {
+      "text": "Pain - Ziva D Cooper, Sandra D Comer, Margaret Haney Comparison of the analgesic effects of dronabinol and smoked marijuana in daily marijuana smokers Neuropsychopharmacology . ( 2013 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23609132"
+    },
+    {
+      "text": "Pain - Jeremy R Johnson, Mary Burnell-Nugent, Dominique Lossignol, Elena Doina Ganae-Motan, Richard Potts, Marie T Fallon Multicenter, double-blind, randomized, placebo-controlled, parallel-group study of the efficacy, safety, and tolerability of THC:CBD extract and THC extract in patients with intractable cancer-related pain J Pain Symptom Manage . ( 2010 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19896326"
+    },
+    {
+      "text": "Pain - Kraft B, Frickey NA, Kaufmann RM, Reif M, Frey R, Gustorff B, Kress HG Lack of analgesia by oral standardized cannabis extract on acute inflammatory pain and hyperalgesia in volunteers Anesthesiology . ( 2008 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18580179"
+    },
+    {
+      "text": "Pain - Wallace M, Schulteis G, Atkinson JH, Wolfson T, Lazzaretto D, Bentley H, Gouaux B, Abramson I Dose-dependent effects of smoked cannabis on capsaicin-induced pain and hyperalgesia in healthy volunteers Anesthesiology . ( 2007 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18073554"
+    },
+    {
+      "text": "Pain - Lee MC, Ploner M, Wiech K, Bingel U, Wanigasekera V, Brooks J, Menon DK, Tracey I Amygdala activity contributes to the dissociative effect of cannabis on pain perception Pain . ( 2013 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23273106"
+    },
+    {
+      "text": "Analgesic Use - Russell K Portenoy, Elena Doina Ganae-Motan, Silvia Allende, Ronald Yanagihara, Lauren Shaiova, Sharon Weinstein, Robert McQuade, Stephen Wright, Marie T Fallon Nabiximols for opioid-treated cancer patients with poorly-controlled chronic pain: a randomized, placebo-controlled, graded-dose trial J Pain . ( 2012 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22483680"
+    },
+    {
+      "text": "Analgesic Use - Marie T Fallon, Eberhard Albert Lux, Robert McQuade, Sandro Rossetti, Raymond Sanchez, Wei Sun, Stephen Wright, Aron H Lichtman, Elena Kornyeyeva Sativex oromucosal spray as adjunctive therapy in advanced cancer patients with chronic pain unalleviated by optimized opioid therapy: two double-blind, randomized, placebo-controlled phase 3 studies Br J Pain . ( 2017 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28785408"
+    },
+    {
+      "text": "Analgesic Use - Aron H Lichtman, Eberhard Albert Lux, Robert McQuade, Sandro Rossetti, Raymond Sanchez, Wei Sun, Stephen Wright, Elena Kornyeyeva, Marie T Fallon Results of a Double-Blind, Randomized, Placebo-Controlled Study of Nabiximols Oromucosal Spray as an Adjunctive Therapy in Advanced Cancer Patients with Chronic Uncontrolled Pain J Pain Symptom Manage . ( 2018 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28923526"
+    },
+    {
+      "text": "Quality of Life - Gil Bar-Sela, Daniela Zalman, Valerya Semenysty, Eyal Ballan The Effects of Dosage-Controlled Cannabis Capsules on Cancer-Related Cachexia and Anorexia Syndrome in Advanced Cancer Patients: Pilot Study Integr Cancer Ther . ( Jan-Dec 2019 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31595793"
+    },
+    {
+      "text": "Heart Rate - Merritt JC, Crawford WJ, Alexander PC, Anduze AL, Gelbart SS Effect of marihuana on intraocular and blood pressure in glaucoma Ophthalmology . ( 1980 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/7053160"
+    },
+    {
+      "text": "Heart Rate - Aronow W, Cassidy J Effect of smoking marihuana and of a high-nicotine cigarette on angina pectoris Clin Pharm . ( )",
+      "link": "https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1002/cpt1975175549"
+    },
+    {
+      "text": "Parkinson's Disease Symptoms - C B Carroll, P G Bain, L Teare, X Liu, C Joint, C Wroath, S G Parkin, P Fox, D Wright, J Hobart, J P Zajicek Cannabis for dyskinesia in Parkinson disease: a randomized double-blind crossover study Neurology . ( 2004 Oct 12 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15477546"
+    },
+    {
+      "text": "Heart Rate - R J Mathew, W H Wilson, D F Humphreys, J V Lowe, K E Wiethe Regional cerebral blood flow after marijuana smoking J Cereb Blood Flow Metab . ( 1992 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/1324250"
+    },
+    {
+      "text": "Heart Rate - R D Steadward, M Singh The effects of smoking marihuana on physical performance Med Sci Sports . ( Winter 1975 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/1235156"
+    },
+    {
+      "text": "Memory - Divya Ramesh, Margaret Haney, Ziva D Cooper Marijuana's dose-dependent effects in daily marijuana smokers Exp Clin Psychopharmacol . ( 2013 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23937597"
+    },
+    {
+      "text": "Blood Pressure - R J Mathew, W H Wilson, D Humphreys, J V Lowe, K E Wiethe Middle cerebral artery velocity during upright posture after marijuana smoking Acta Psychiatr Scand . ( 1992 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/1529742"
+    },
+    {
+      "text": "Lung Function - Pletcher MJ, Vittinghoff E, Kalhan R, Richman J, Safford M, Sidney S, Lin F, Kertesz S Association between marijuana exposure and pulmonary function over 20 years JAMA . ( 2012 Jan 11 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22235088"
+    },
+    {
+      "text": "Aerobic Exercise Metrics - A M Renaud, Y Cormier Acute effects of marihuana smoking on maximal exercise performance Med Sci Sports Exerc . ( 1986 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/3097453"
+    },
+    {
+      "text": "Hemoglobin - Timna Naftali, Lihi Bar-Lev Schleider, Iris Dotan, Ephraim Philip Lansky, Fabiana Sklerovsky Benjaminov, Fred Meir Konikoff Cannabis induces a clinical response in patients with Crohn's disease: a prospective placebo-controlled study Clin Gastroenterol Hepatol . ( 2013 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23648372"
+    },
+    {
+      "text": "Sickle Cell Symptoms - Donald I Abrams, Paul Couey, Niharika Dixit, Varun Sagi, Ward Hagar, Elliott Vichinsky, Mary Ellen Kelly, John E Connett, Kalpna Gupta Effect of Inhaled Cannabis for Pain in Adults With Sickle Cell Disease: A Randomized Clinical Trial JAMA Netw Open . ( 2020 Jul 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32678452"
+    },
+    {
+      "text": "Intraocular Pressure - Ileana Tomida, Augusto Azuara-Blanco, Heather House, Maggie Flint, Roger G Pertwee, Philip J Robson Effect of sublingual application of cannabinoids on intraocular pressure: a pilot study J Glaucoma . ( 2006 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16988594"
+    },
+    {
+      "text": "Diabetic Neuropathy Symptoms - Mark S Wallace, Thomas D Marcotte, Anya Umlauf, Ben Gouaux, Joseph H Atkinson Efficacy of Inhaled Cannabis on Painful Diabetic Neuropathy J Pain . ( 2015 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25843054"
+    },
+    {
+      "text": "Diabetic Neuropathy Symptoms - Dinesh Selvarajah, Rajiv Gandhi, Celia J Emery, Solomon Tesfaye Randomized placebo-controlled double-blind clinical trial of cannabis-based medicinal product (Sativex) in painful diabetic neuropathy: depression is a major confounding factor Diabetes Care . ( 2010 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19808912"
+    },
+    {
+      "text": "Orthostatic Hypotension Symptoms - Mathew RJ, Wilson WH, Davis R Postural syncope after marijuana: a transcranial Doppler study of the hemodynamics Pharmacol Biochem Behav . ( 2003 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12873621"
+    },
+    {
+      "text": "Sleep Quality - M Serpell, S Ratcliffe, J Hovorka, M Schofield, L Taylor, H Lauder, E Ehler A double-blind, randomized, placebo-controlled, parallel group study of THC/CBD spray in peripheral neuropathic pain treatment Eur J Pain . ( 2014 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24420962"
+    },
+    {
+      "text": "Sleep Quality - Turo J Nurmikko, Mick G Serpell, Barbara Hoggart, Peter J Toomey, Bart J Morlion, Derek Haines Sativex successfully treats neuropathic pain characterised by allodynia: a randomised, double-blind, placebo-controlled clinical trial Pain . ( 2007 Dec 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17997224"
+    },
+    {
+      "text": "Sleep Quality - Mark A Ware, Tongtong Wang, Stan Shapiro, Ann Robinson, Thierry Ducruet, Thao Huynh, Ann Gamsa, Gary J Bennett, Jean-Paul Collet Smoked cannabis for chronic neuropathic pain: a randomized controlled trial CMAJ . ( 2010 Oct 5 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20805210"
+    },
+    {
+      "text": "Subjective Well-Being - Carolina Chaves, Paulo Cesar T Bittencourt, Andreia Pelegrini Ingestion of a THC-Rich Cannabis Oil in People with Fibromyalgia: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial Pain Med . ( 2020 Oct 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33118602"
+    },
+    {
+      "text": "Motor Control - Martín-Sánchez E, Furukawa TA, Taylor J, Martin JL Systematic review and meta-analysis of cannabis treatment for chronic pain Pain Med . ( 2009 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19732371"
+    },
+    {
+      "text": "Myotonia Symptoms - Federica Montagnese, Kristina Stahl, Stephan Wenninger, Benedikt Schoser A role for cannabinoids in the treatment of myotonia? Report of compassionate use in a small cohort of patients J Neurol . ( 2020 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31655890"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - Tine van de Donk, Marieke Niesters, Mikael A Kowal, Erik Olofsen, Albert Dahan, Monique van Velzen An experimental randomized study on the analgesic effects of pharmaceutical-grade cannabis in chronic pain patients with fibromyalgia Pain . ( 2019 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30585986"
+    },
+    {
+      "text": "Vomiting - P Grimison, A Mersiades, A Kirby, N Lintzeris, R Morton, P Haber, I Olver, A Walsh, I McGregor, Y Cheung, A Tognela, C Hahn, K Briscoe, M Aghmesheh, P Fox, E Abdi, S Clarke, S Della-Fiorentina, J Shannon, C Gedye, S Begbie, J Simes, M Stockler Oral THC:CBD cannabis extract for refractory chemotherapy-induced nausea and vomiting: a randomised, placebo-controlled, phase II crossover trial Ann Oncol . ( 2020 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32801017"
+    },
+    {
+      "text": "Tourette Syndrome Symptoms - Nicola Black, Emily Stockings, Gabrielle Campbell, Lucy T Tran, Dino Zagic, Wayne D Hall, Michael Farrell, Louisa Degenhardt Cannabinoids for the treatment of mental disorders and symptoms of mental disorders: a systematic review and meta-analysis Lancet Psychiatry . ( 2019 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31672337"
+    },
+    {
+      "text": "Luteinizing Hormone - J H Mendelson, P Cristofaro, J Ellingboe, R Benedikt, N K Mello Acute effects of marihuana on luteinizing hormone in menopausal women Pharmacol Biochem Behav . ( 1985 Nov )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/3001780"
+    },
+    {
+      "text": "Fatigue Symptoms - Anthony N Nicholson, Claire Turner, Barbara M Stone, Philip J Robson Effect of Delta-9-tetrahydrocannabinol and cannabidiol on nocturnal sleep and early-morning behavior in young adults J Clin Psychopharmacol . ( 2004 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15118485"
+    },
+    {
+      "text": "Quality of Life - Cannabis-In-Cachexia-Study-Group, Strasser F, Luftner D, Possinger K, Ernst G, Ruhstaller T, Meissner W, Ko YD, Schnelle M, Reif M, Cerny T Comparison of orally administered cannabis extract and delta-9-tetrahydrocannabinol in treating patients with cancer-related anorexia-cachexia syndrome: a multicenter, phase III, randomized, double-blind, placebo-controlled clinical trial from the Cannabis-In-Cachexia-Study-Group J Clin Oncol . ( 2006 Jul 20 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16849753"
+    },
+    {
+      "text": "Depression Symptoms - Alessio Gambino, Marco Cabras, Evangelos Panagiotakos, Federico Calvo, Alessandra Macciotta, Adriana Cafaro, Marco Suria, Giorgia El Haddad, Roberto Broccoletti, Paolo Giacomo Arduino Evaluating the Suitability and Potential Efficiency of Cannabis sativa Oil for Patients with Primary Burning Mouth Syndrome: A Prospective, Open-Label, Single-Arm Pilot Study Pain Med . ( 2020 Oct 30 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33123730"
+    },
+    {
+      "text": "Intraocular Pressure - M C Flom, A J Adams, R T Jones Marijuana smoking and reduced pressure in human eyes: drug action or epiphenomenon? Invest Ophthalmol . ( 1975 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/1089090"
+    },
+    {
+      "text": "Lung Function - Donald P. Tashkin, M.D., Bertrand J. Shapiro, M.D., and Ira M. Frank, M.D http://www.nejm.org/doi/full/10.1056/NEJM197308162890702 The New England Journal of Medicine . ( )",
+      "link": "http://www.nejm.org/doi/full/10.1056/NEJM197308162890702"
+    },
+    {
+      "text": "Tobacco Consumption - Erica N Peters, Evan S Herrmann, Carson Smith, Jess Alan Wilhelm, Bartosz Koszowski, Matthew Halquist, Leon Kosmider, Justin Poklis, Sage Roth, Stephan Bart, Wallace B Pickworth Impact of smoked cannabis on tobacco cigarette smoking intensity and subjective effects: A placebo-controlled, double-blind, within-subjects human laboratory study Exp Clin Psychopharmacol . ( 2020 May 28 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32463281"
+    }
+  ]
+}

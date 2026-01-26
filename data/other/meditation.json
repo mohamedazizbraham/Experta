@@ -1,0 +1,101 @@
+{
+  "slug": "meditation",
+  "name": "Méditation",
+  "name_en": "Méditation",
+  "description": "Avez-vous des pensées intrusives ? Vous concentrez-vous trop sur le passé ou le futur, au lieu du moment présent ? La méditation est une pratique ancestrale qui vise à aider avec ces problèmes, en cultivant une conscience non-jugementale. Des essais ont démontré son efficacité pour certains résultats comme le stress et la douleur, mais pas pour tous les résultats. Restez à l’écoute de cette page, car plus de 350 + essais sont en cours !",
+  "overview": [
+    {
+      "question": "Qu’est-ce que la méditation, et en quoi diffère-t-elle du simple fait de rester assis ou du yoga, de la prière, etc. ?",
+      "answer": "La méditation semble simple, et pour certains c’est le cas. La plupart des pratiques de méditation consistent à s’asseoir, fermer les yeux et prendre conscience de sa respiration, de son corps et de ses pensées… sans les juger. La méditation diffère du simple fait de rester assis, car elle implique l’intention d’être immobile, attentif, conscient et non-jugemental. Elle diffère du yoga, qui est une pratique de mouvement généralement centrée sur la conscience du corps, et moins sur les pensées. La prière est liée à l’idée d’une puissance supérieure, alors que la méditation ne l’est généralement pas."
+    }
+  ],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Cancer du sein",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l’étude : 100",
+          "studies": [],
+          "participants": 100
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Risque de crise cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 134",
+          "studies": [],
+          "participants": 134
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Fatigue",
+      "outcomes": [
+        {
+          "outcome": "Fatigue Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "29 Studies Participants: 4104",
+          "studies": [],
+          "participants": 4104
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Post-Traumatic Stress Disorder",
+      "outcomes": [
+        {
+          "outcome": "Post-Traumatic Stress Disorder Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "61 Studies Participants: 3440",
+          "studies": [],
+          "participants": 3440
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Anxiety Symptoms - Henderson VP, Clemow L, Massion AO, Hurley TG, Druker S, Hébert JR The effects of mindfulness-based stress reduction on psychosocial outcomes and quality of life in early-stage breast cancer patients: a randomized trial Breast Cancer Res Treat . ( 2012 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21901389"
+    },
+    {
+      "text": "Fatigue Symptoms - Park BJ, Choi Y, Lee JS, Ahn YC, Lee EJ, Son CG Effectiveness of meditation for fatigue management: Insight from a comprehensive systematic review and meta-analysis. Gen Hosp Psychiatry . ( 2024 Aug 11 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39244428"
+    },
+    {
+      "text": "Heart Attack Risk - Garnier-Crussard A, Gonneaud J, Felisatti F, Palix C, Ferrand Devouge E, Chocat A, Rauchs G, de la Sayette V, Vivien D, Demnitz-King H, Lutz A, Chételat G, Poisnel G, Medit-Ageing Research Group Effect of an 18-month meditation training on cardiovascular risk in older adults: a secondary analysis of the Age-Well randomized controlled trial. BMC Geriatr . ( 2024 Nov 16 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39550530"
+    },
+    {
+      "text": "Post-Traumatic Stress Disorder Symptoms - Orme-Johnson DW, Barnes VA, Rees B, Tobin J, Walton KG Effectiveness of Meditation Techniques in Treating Post-Traumatic Stress Disorder: A Systematic Review and Meta-Analysis. Medicina (Kaunas) . ( 2024 Dec 12 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39768929"
+    }
+  ]
+}

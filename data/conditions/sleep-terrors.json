@@ -1,0 +1,35 @@
+{
+  "slug": "sleep-terrors",
+  "name": "Terreurs nocturnes",
+  "name_en": "Sleep Terrors",
+  "description": "Les terreurs nocturnes sont un type de parasomnie (comportement anormal du sommeil) caractérisé par des accès intenses de cris, de pleurs et une peur intense alors que la personne n’est pas complètement éveillée. Elles sont les plus fréquentes chez les enfants et disparaissent généralement à l’adolescence.",
+  "overview": [],
+  "database": [
+    {
+      "intervention": "5-HTP",
+      "outcomes": [
+        {
+          "outcome": "Fréquence des terreurs nocturnes",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l’étude : 45",
+          "studies": [
+            {
+              "title": "L -5-Hydroxytryptophan treatment of sleep terrors in children",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15146330"
+            }
+          ],
+          "participants": 45
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Sleep Terror Frequency - Bruni O, Ferri R, Miano S, Verrillo E L -5-Hydroxytryptophan treatment of sleep terrors in children Eur J Pediatr . ( 2004 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15146330"
+    }
+  ]
+}

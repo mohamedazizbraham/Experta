@@ -1,0 +1,50 @@
+{
+  "slug": "alpha-lactalbumin",
+  "name": "Alpha-Lactalbumin",
+  "name_en": "Alpha-Lactalbumin",
+  "description": "Alpha-lactalbumin est la protéine principale du lait maternel humain mais se trouve également dans le lait de vache. Alpha-lactalbumin contient des peptides bioactifs et des acides aminés essentiels, y compris branched-chain amino acids, lysine et tryptophan, qui sont nécessaires au développement du nourrisson.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Temps de réaction",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants de l'étude : 19",
+          "studies": [
+            {
+              "title": "Evening Alpha-Lactalbumin Supplementation Alters Sleep Architecture and Reduces Morning Reaction Time in an Athletically Trained Population With Sleep Difficulties.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39832504"
+            }
+          ],
+          "participants": 19
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Reaction Time - Barnard J, Roberts S, Lastella M, Callahan DL, Aisbett B, Condo D Evening Alpha-Lactalbumin Supplementation Alters Sleep Architecture and Reduces Morning Reaction Time in an Athletically Trained Population With Sleep Difficulties. Int J Sport Nutr Exerc Metab. (2025 Jan 20)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39832504"
+    }
+  ]
+}

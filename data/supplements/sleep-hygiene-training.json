@@ -1,0 +1,50 @@
+{
+  "slug": "sleep-hygiene-training",
+  "name": "Formation à l'hygiène du sommeil",
+  "name_en": "Sleep Hygiene Training",
+  "description": "La formation à l'hygiène du sommeil consiste à apprendre des comportements associés à une amélioration du sommeil. Réduire l'exposition à la lumière bleue, pratiquer des exercices de respiration et diminuer la consommation de caféine sont des composantes d’une bonne hygiène du sommeil.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "23 études Participants : 4245",
+          "studies": [
+            {
+              "title": "Effects of sleep hygiene education for insomnia: A systematic review and meta-analysis.(Covers23 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40449065"
+            }
+          ],
+          "participants": 4245
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Insomnia Signs and Symptoms - Ruan JY, Liu Q, Chung KF, Ho KY, Yeung WF Effects of sleep hygiene education for insomnia: A systematic review and meta-analysis. Sleep Med Rev. (2025 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40449065"
+    }
+  ]
+}

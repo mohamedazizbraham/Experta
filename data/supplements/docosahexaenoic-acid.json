@@ -1,0 +1,869 @@
+{
+  "slug": "docosahexaenoic-acid",
+  "name": "Docosahexaenoic Acid",
+  "name_en": "Docosahexaenoic Acid",
+  "description": "Docosahexaenoic acid (DHA) est un acide gras oméga-3 présent dans les poissons gras et certains types d’algues. Le DHA est souvent pris comme supplément sous forme d’huile de poisson pour améliorer la santé cardiovasculaire et la santé cérébrale.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Dépression",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 36",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 36
+        },
+        {
+          "outcome": "Symptômes de la dépression post-partum",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 2320",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 2320
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé immunitaire",
+      "outcomes": [
+        {
+          "outcome": "Numération des cellules B",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études Participants : 58",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 58
+        },
+        {
+          "outcome": "Inflammation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Activité des cellules tueuses naturelles",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 58",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 58
+        },
+        {
+          "outcome": "Contenu en cellules tueuses naturelles",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 46",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 46
+        },
+        {
+          "outcome": "Biomarqueurs du stress oxydatif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 46",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 46
+        },
+        {
+          "outcome": "Numération des lymphocytes T",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude: 58",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 58
+        },
+        {
+          "outcome": "TNF-alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 12
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Numération des lymphocytes B",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude: 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Risque de décès infantile",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 2399",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 2399
+        },
+        {
+          "outcome": "Inflammation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Risque de prééclampsie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 2399",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 2399
+        },
+        {
+          "outcome": "Numération des cellules T",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "TNF-alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 12
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé de la grossesse et de l'accouchement",
+      "outcomes": [
+        {
+          "outcome": "Cognition de la progéniture",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 2320",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 2320
+        },
+        {
+          "outcome": "Poids de naissance du nourrisson",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 Études Participants : 5710",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 5710
+        },
+        {
+          "outcome": "Symptômes de dépression post-partum",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 2320",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 2320
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypertension artérielle",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Blood Pressure",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "C-Peptide",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Heart Rate",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "High-density lipoprotein (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypercholestérolémie",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "C-Peptide",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "High-density lipoprotein (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Insulin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Low-density lipoprotein (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Total cholesterol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Triglycerides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "C-Peptide",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Heart Rate : Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "High-density lipoprotein (HDL) : Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Insulin : Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Low-density lipoprotein (LDL) : Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Total cholesterol : Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 59",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 59
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Risque de mortalité infantile",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l’étude : 2399",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 2399
+        },
+        {
+          "outcome": "Risque de prééclampsie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 2399",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 2399
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration cognitive",
+      "outcomes": [
+        {
+          "outcome": "Flux sanguin cérébral",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude: 22",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 22
+        },
+        {
+          "outcome": "Oxygénation cérébrale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 22",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 22
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Naissance prématurée",
+      "outcomes": [
+        {
+          "outcome": "Développement comportemental de l'enfant",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 132",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 132
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 participants à l'étude : 362",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 362
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 362",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 362
+        },
+        {
+          "outcome": "Éveil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 362",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 362
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Développement sain de l'enfance",
+      "outcomes": [
+        {
+          "outcome": "Développement comportemental de l'enfant",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 132",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+            }
+          ],
+          "participants": 132
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Depression Symptoms - Marangell LB, Martinez JM, Zboyan HA, Kertz B, Kim HF, Puryear LJ A double-blind, placebo-controlled study of the omega-3 fatty acid docosahexaenoic acid in the treatment of major depression Am J Psychiatry. (2003 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12727707"
+    },
+    {
+      "text": "Postpartum Depression Symptoms - Makrides M, Gibson RA, McPhee AJ, Yelland L, Quinlivan J, Ryan P; DOMInO Investigative Team Effect of DHA supplementation during pregnancy on maternal depression and neurodevelopment of young children: a randomized controlled trial JAMA. (2010 Oct 20)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20959577"
+    },
+    {
+      "text": "Cerebral Oxygenation - Jackson PA, Reay JL, Scholey AB, Kennedy DO DHA-rich oil modulates the cerebral haemodynamic response to cognitive tasks in healthy young adults: a near IR spectroscopy pilot study Br J Nutr. (2012 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22018509"
+    },
+    {
+      "text": "Infant Birth Weight - Bilgundi K, Viswanatha GL, Purushottam KM, John J, Kamath AP, Kishore A, Nayak PG, Nandakumar K Docosahexaenoic Acid and Pregnancy: A Systematic Review and Meta-Analysis of the Association with Improved Maternal and Fetal Health. Nutr Res. (2024 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39067112"
+    },
+    {
+      "text": "Child behavioral development - Paquet SP, Pronovost E, Simonyan D, Caouette G, Matte-Gagné C, Olivier F, Bartholomew J, Morin A, Mohamed I, Marc I, Guillot M Maternal high-dose docosahexaenoic acid supplementation and neurodevelopment at 5 Years of preterm children. Clin Nutr ESPEN. (2024 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39396702"
+    },
+    {
+      "text": "Wakefulness - Montgomery P, Burton JR, Sewell RP, Spreckelsen TF, Richardson AJ Fatty acids and sleep in UK children: subjective and pilot objective sleep results from the DOLAB study--a randomized controlled trial J Sleep Res. (2014 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24605819"
+    },
+    {
+      "text": "Insulin - Woodman RJ, Mori TA, Burke V, Puddey IB, Watts GF, Beilin LJ Effects of purified eicosapentaenoic and docosahexaenoic acids on glycemic control, blood pressure, and serum lipids in type 2 diabetic patients with treated hypertension Am J Clin Nutr. (2002 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12399272"
+    },
+    {
+      "text": "Natural Killer Cell Content - Thies F, Nebe-von-Caron G, Powell JR, Yaqoob P, Newsholme EA, Calder PC Dietary supplementation with eicosapentaenoic acid, but not with other long-chain n-3 or n-6 polyunsaturated fatty acids, decreases natural killer cell activity in healthy subjects aged &gt;55 y Am J Clin Nutr. (2001 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11237929"
+    },
+    {
+      "text": "B Cell Count - Kelley DS, Taylor PC, Nelson GJ, Schmidt PC, Ferretti A, Erickson KL, Yu R, Chandra RK, Mackey BE Docosahexaenoic acid ingestion inhibits natural killer cell activity and production of inflammatory mediators in young healthy men Lipids. (1999 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10443964"
+    },
+    {
+      "text": "Pre-Eclampsia Risk - Zhou SJ, Yelland L, McPhee AJ, Quinlivan J, Gibson RA, Makrides M Fish-oil supplementation in pregnancy does not reduce the risk of gestational diabetes or preeclampsia Am J Clin Nutr. (2012 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22552037"
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "slug": "passionflower",
+  "name": "Passiflore",
+  "name_en": "Passionflower",
+  "description": "La passiflore est une liane ligneuse à fleurs utilisée comme supplément apaisant pour l’anxiété et les troubles du sommeil. Il existe de nombreuses formes différentes du supplément, notamment le thé, les liquides, les capsules et les comprimés. Elle est généralement bien tolérée avec des effets secondaires limités.",
+  "overview": [
+    {
+      "question": "Qu’est-ce que la passiflore ?",
+      "answer": "La passiflore (Passiflora incarnata) est une liane ligneuse à fleurs traditionnellement utilisée comme agent calmant et sédatif. Les pétales de fleurs, les feuilles et les tiges de la plante sont généralement employés dans les compléments. [7] Des personnes à travers le monde l’ont utilisée comme traitement de la douleur, de l’insomnie, de l’anxiété et de la dépendance aux opioïdes. [8] Le supplément se présente sous plusieurs formes, notamment les thés, les capsules, les comprimés et les liquides. En plus de son utilisation comme complément, la passiflore est également un additif alimentaire approuvé par la FDA à des fins d’aromatisation. [9] Le genre Passiflora comprend de nombreuses espèces différentes. Passiflora incarnata ne doit pas être confondue avec Passiflora edulis ; bien que cette dernière ait montré de nombreux effets dans des études animales, les informations concernant son utilisation chez l’homme sont très limitées. [10]"
+    },
+    {
+      "question": "Quels sont les principaux bienfaits de la passiflore ?",
+      "answer": "La passiflore a été traditionnellement utilisée pour l’anxiété et l’insomnie, en raison de ses effets calmants et sédatifs. [8] Cependant, les données cliniques sont limitées pour soutenir l’utilisation de la passiflore à ces fins, et des essais cliniques plus importants devraient être menés. Une étude a comparé l’effet de 45 gouttes/jour d’un extrait de passiflore de marque (préparé à partir de l’extrait standardisé des feuilles, fleurs et fruits de Passiflora Incarnata contenant 11-15 mg pour 100 ml de flavonoïdes totaux sous forme d’hyperoside [11]) à l’oxazépam (une benzodiazépine utilisée pour traiter les symptômes d’anxiété et d’insomnie) dans la réduction des symptômes du trouble anxieux généralisé. Les résultats ont montré que la passiflore diminuait les symptômes d’anxiété, avec une incidence moindre d’altération des performances professionnelles et de vertiges comparativement à l’oxazépam. [5] Deux autres études ont comparé la passiflore à un placebo dans le contexte anxiogène des procédures préopératoires. Tant 500 mg du même extrait standardisé de passiflore utilisé dans l’étude précédente que 750 mg d’un sirop de Passiflora incarnata ont entraîné une diminution de l’anxiété comparativement au placebo, sans provoquer de sédation. [1] [2] De plus, une autre étude a montré une diminution des symptômes d’anxiété et une augmentation de la sédation lorsque les participants ont reçu soit de la passiflore, soit du midazolam avant une procédure dentaire. Les participants ayant reçu de la passiflore ont également présenté une perte de mémoire limitée liée à la procédure, contrairement au midazolam, qui peut entraîner une perte de mémoire temporaire ; toutefois, cela n’est pas forcément positif, car certaines personnes préfèrent ne pas se souvenir des interventions médicales. [12] En outre, une étude a montré que la passiflore pourrait constituer une thérapie d’appoint utile à la sertraline (un inhibiteur sélectif de la recapture de la sérotonine, ou ISRS) pour l’anxiété. [13] Bien que ces études aient montré une réduction du niveau d’anxiété et une augmentation de la sédation associées à la passiflore, davantage d’études devraient être menées pour valider ces résultats. Une étude a constaté que la qualité du sommeil s’améliorait en consommant 2 g de thé de passiflore par jour comparé à un placebo. Cependant, l’étude n’a trouvé aucune différence concernant le temps d’endormissement, le nombre de réveils, la sensation de fraîcheur au réveil ou les symptômes d’anxiété entre les groupes passiflore et placebo. [3] Il convient de noter que la dose de passiflore utilisée dans cette étude était inférieure à celle employée dans d’autres études portant sur les résultats liés à l’anxiété. De plus, cette étude comportait un petit effectif, était de courte durée et, bien que les résultats aient été mesurés à l’aide de journaux de sommeil et de polysomnographie (PSG), la majorité des participants n’ont fourni que des journaux de sommeil ; seuls dix sujets ont subi une PSG. Par conséquent, des études plus larges et plus longues devraient être menées afin de mieux comprendre l’impact de l’utilisation de la passiflore sur l’insomnie."
+    },
+    {
+      "question": "Quels sont les principaux inconvénients de la passiflore ?",
+      "answer": "La passiflore est généralement bien tolérée, mais certains effets indésirables ont été observés lors d’essais cliniques. Parmi les effets secondaires courants de la supplémentation en passiflore figurent les vertiges, la confusion, la somnolence, les nausées et les vomissements. [14] [15] Dans de rares cas mais graves, la passiflore a été associée à une augmentation des contractions utérines, entraînant une induction du travail ; [16] elle ne doit donc pas être utilisée pendant la grossesse. [17] De plus, un rapport de cas a décrit une tachycardie, des palpitations et des douleurs thoraciques après la prise de suppléments de passiflore. [18] Il convient de noter que les essais cliniques examinent souvent la passiflore en combinaison avec d’autres remèdes, ce qui complique la détermination de ses bénéfices ainsi que de ses effets indésirables."
+    },
+    {
+      "question": "Comment agit la passiflore ?",
+      "answer": "La passiflore semble agir sur le système de la voie du gamma-aminobutyrique (GABA). En augmentant les niveaux de GABA, l’activité des cellules cérébrales diminue, entraînant des effets calmants et sédatifs. [19] La passiflore contient également des flavonoïdes [8] possédant des propriétés anti-inflammatoires et antioxydantes, ainsi que des alcaloïdes indoliques. Ces derniers pourraient être responsables des effets antidépresseurs et anxiolytiques de la passiflore, bien que davantage de recherches soient nécessaires pour préciser leur rôle. [20]"
+    }
+  ],
+  "dosage": "La dose et la fréquence les plus efficaces de la passiflore n'ont pas encore été établies. Les fabricants ne précisent souvent pas la pureté et la concentration des compléments de passiflore, ce qui contribue à l'incertitude concernant la force, la fréquence et le dosage recommandés. Il n'existe actuellement aucune directive de dosage généralement acceptée pour la passiflore. Cependant, une gamme de dosages a été utilisée dans différentes études cliniques et peut servir de référence. Le dosage pour les gélules et les comprimés varie de 500 à 1200 mg par jour. [1] [2] [3] Pour les extraits liquides, les doses se situent généralement entre 30 et 60 gouttes diluées dans l'eau par jour. [4] [5] [6] De plus, une étude utilisant la passiflore sous forme de thé a employé une dose quotidienne de 2 g de feuilles de passiflore séchées infusées dans de l'eau chaude. [3] Cependant, il convient de noter que l'auteur a reconnu qu'il s'agissait d'un dosage relativement faible, et pour obtenir des bénéfices plus significatifs, le thé aurait dû être consommé trois fois par jour. Cela n'était pas réalisable en raison du risque de sédation diurne.",
+  "safety": {
+    "summary": [
+      "Généralement sûr et bien toléré ; les effets secondaires les plus courants sont la somnolence et les étourdissements.",
+      "L'évitement est recommandé pendant la grossesse et l'allaitement, car certaines études de cas rapportent des issues défavorables de grossesse et les recherches pendant l'allaitement sont limitées."
+    ],
+    "side_effects": {
+      "summary": "",
+      "table": [
+        {
+          "effect": "Somnolence [12] [5]",
+          "details": "Voie : orale"
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Médicaments qui sont des substrats du CYP3A4",
+        "effect": "La passiflore peut induire le CYP3A4, modifiant potentiellement les concentrations sanguines des médicaments métabolisés par le CYP3A4. [22]",
+        "evidence": "Théorique",
+        "severity": "Inconnu"
+      },
+      {
+        "agent": "Baclofen",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "Médicaments qui sont des substrats de l'OATP2B1",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Grossesse : éviter",
+        "safety_information": "Les données sur la sécurité de la supplémentation en passiflore pendant la grossesse sont limitées. Une étude chez des rats gestants n’a rapporté aucune toxicité maternelle lors de la supplémentation en passiflore pendant la gestation. [24] Cependant, un rapport de cas incluant cinq femmes enceintes présentant des troubles psychiatriques et ayant utilisé la passiflore a signalé de nombreux effets indésirables, dont une rupture prématurée des membranes, un syndrome d’aspiration méconiale, une mort néonatale et un nourrisson avec une hypertension pulmonaire persistante. [25] Il est également possible que les alcaloïdes indoliques présents dans la passiflore puissent stimuler les contractions utérines. [8] Au vu du nombre limité de données humaines et des risques potentiels, la supplémentation doit être évitée pendant la grossesse."
+      },
+      {
+        "condition": "Allaitement : éviter",
+        "safety_information": "La sécurité de la supplémentation en passiflore pendant l’allaitement n’a pas été étudiée chez l’homme. Une étude réalisée chez des rats gestants n’a signalé aucun problème de sécurité pendant l’allaitement. [24] Cependant, l’évitement est recommandé en raison de l’absence de données humaines."
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Arythmies cardiaques",
+        "details": "Une étude de cas a rapporté un intervalle QT prolongé et une tachycardie ventriculaire non soutenue (rythme cardiaque rapide) après supplémentation. [18] Bien que des recherches supplémentaires soient nécessaires, la prudence doit être de mise chez les personnes ayant des antécédents d’arythmies cardiaques."
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la Liste 2025 des substances interdites de l'AMA, la passiflore n’est pas interdite."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Santé dentaire",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "2 études Participants : 140",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 140
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble d'anxiété généralisée",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "2 études Participants : 66",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 66
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 30",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Récupération chirurgicale",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "2 études Participants : 120",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 120
+        },
+        {
+          "outcome": "Contrôle moteur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 60",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 60
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 étude Participants : 110",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 110
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "Participants à l'étude : 41",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 41
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 41",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 41
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 41",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 41
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble lié à l'usage d'opioïdes",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépendance aux opioïdes",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 65",
+          "studies": [
+            {
+              "title": "Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+            },
+            {
+              "title": "Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+            }
+          ],
+          "participants": 65
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels sont d'autres bénéfices possibles de la passiflore ?",
+      "answer": "La passiflore peut aider à réduire l'anxiété et possède des effets sédatifs. De plus, il a été démontré qu'elle aide à traiter les symptômes de sevrage aux opioïdes, le TDAH et les symptômes de la ménopause."
+    },
+    {
+      "question": "Quels sont les autres noms de la passiflore ?",
+      "answer": "Notez que la passiflore est également connue sous les noms suivants : - Vigne d'abricot - Passiflora - Passiflora incarnata - Maypop - Mburucuya - Fleur de la passion"
+    }
+  ],
+  "references": [
+    {
+      "text": "Anxiety Symptoms - da Cunha RS, Amorim KS, Gercina AC, de Oliveira ACA, Dos Santos Menezes L, Groppo FC, Souza LMA Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial. Clin Oral Investig. (2021-Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+    },
+    {
+      "text": "Anxiety Symptoms - Dantas LP, de Oliveira-Ribeiro A, de Almeida-Souza LM, Groppo FC Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction. Med Oral Patol Oral Cir Bucal. (2017-Jan-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+    },
+    {
+      "text": "Sleep Duration - Lee J, Jung HY, Lee SI, Choi JH, Kim SG Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study. Int Clin Psychopharmacol. (2020-Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31714321"
+    },
+    {
+      "text": "Anxiety Symptoms - Nojoumi M, Ghaeli P, Salimi S, Sharifi A, Raisi F Effects of Passion Flower Extract, as an Add-On Treatment to Sertraline, on Reaction Time in Patients ‎with Generalized Anxiety Disorder: A Double-Blind Placebo-Controlled Study. Iran J Psychiatry. (2016-Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27928252"
+    },
+    {
+      "text": "Anxiety Symptoms - Akhondzadeh S, Naghavi HR, Vazirian M, Shayeganpour A, Rashidi H, Khani M Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam. J Clin Pharm Ther. (2001-Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11679026"
+    },
+    {
+      "text": "Anxiety Symptoms - Aslanargun P, Cuvas O, Dikmen B, Aslan E, Yuksel MU Passiflora incarnata Linneaus as an anxiolytic before spinal anesthesia. J Anesth. (2012-Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22048283"
+    },
+    {
+      "text": "Anxiety Symptoms - Movafegh A, Alizadeh R, Hajimohamadi F, Esfehani F, Nejatfar M Preoperative oral Passiflora incarnata reduces anxiety in ambulatory surgery patients: a double-blind, placebo-controlled study. Anesth Analg. (2008-Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18499602"
+    },
+    {
+      "text": "Sleep Quality - Ngan A, Conduit R A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (passionflower) herbal tea on subjective sleep quality. Phytother Res. (2011-Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21294203"
+    },
+    {
+      "text": "Opioid dependence symptoms - Akhondzadeh S, Kashani L, Mobaseri M, Hosseini SH, Nikzad S, Khani M Passionflower in the treatment of opiates withdrawal: a double-blind randomized controlled trial. J Clin Pharm Ther. (2001-Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11679027"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Anxiety Symptoms - da Cunha RS, Amorim KS, Gercina AC, de Oliveira ACA, Dos Santos Menezes L, Groppo FC, Souza LMA Herbal medicines as anxiolytics prior to third molar surgical extraction. A randomized controlled clinical trial. Clin Oral Investig. (2021-Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32951121"
+    },
+    {
+      "text": "Anxiety Symptoms - Dantas LP, de Oliveira-Ribeiro A, de Almeida-Souza LM, Groppo FC Effects of passiflora incarnata and midazolam for control of anxiety in patients undergoing dental extraction. Med Oral Patol Oral Cir Bucal. (2017-Jan-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27918731"
+    },
+    {
+      "text": "Sleep Duration - Lee J, Jung HY, Lee SI, Choi JH, Kim SG Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study. Int Clin Psychopharmacol. (2020-Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31714321"
+    },
+    {
+      "text": "Anxiety Symptoms - Nojoumi M, Ghaeli P, Salimi S, Sharifi A, Raisi F Effects of Passion Flower Extract, as an Add-On Treatment to Sertraline, on Reaction Time in Patients ‎with Generalized Anxiety Disorder: A Double-Blind Placebo-Controlled Study. Iran J Psychiatry. (2016-Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27928252"
+    },
+    {
+      "text": "Anxiety Symptoms - Akhondzadeh S, Naghavi HR, Vazirian M, Shayeganpour A, Rashidi H, Khani M Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam. J Clin Pharm Ther. (2001-Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11679026"
+    },
+    {
+      "text": "Anxiety Symptoms - Aslanargun P, Cuvas O, Dikmen B, Aslan E, Yuksel MU Passiflora incarnata Linneaus as an anxiolytic before spinal anesthesia. J Anesth. (2012-Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22048283"
+    },
+    {
+      "text": "Anxiety Symptoms - Movafegh A, Alizadeh R, Hajimohamadi F, Esfehani F, Nejatfar M Preoperative oral Passiflora incarnata reduces anxiety in ambulatory surgery patients: a double-blind, placebo-controlled study. Anesth Analg. (2008-Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18499602"
+    },
+    {
+      "text": "Sleep Quality - Ngan A, Conduit R A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata (passionflower) herbal tea on subjective sleep quality. Phytother Res. (2011-Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21294203"
+    },
+    {
+      "text": "Opioid dependence symptoms - Akhondzadeh S, Kashani L, Mobaseri M, Hosseini SH, Nikzad S, Khani M Passionflower in the treatment of opiates withdrawal: a double-blind randomized controlled trial. J Clin Pharm Ther. (2001-Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11679027"
+    }
+  ]
+}

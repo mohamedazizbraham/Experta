@@ -1,0 +1,186 @@
+{
+  "slug": "progressive-muscle-relaxation",
+  "name": "Relaxation musculaire progressive",
+  "name_en": "Progressive Muscle Relaxation",
+  "description": "La relaxation musculaire progressive est une technique utilisée pour soulager le stress et réduire l’anxiété. Elle est couramment employée dans de nombreux types de pratiques de méditation.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Étude Participants : 63",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 63
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Étude Participants : 63",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 63
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Ménopause",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 participants à l’étude : 63",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 63
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 63",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 63
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Fracture de la hanche",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 participants à l’étude : 100",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 100",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 100",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 100
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Fracture Recovery",
+      "outcomes": [
+        {
+          "outcome": "Anxiety Symptoms",
+          "grade": "C",
+          "effect": "Moderate Improvement",
+          "evidence": "1 Study Participants: 100",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Pain",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 100",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 100",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 100
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Sleep Quality - Mashhadi-Naser S, Shirvani S, Vasli P A randomized controlled trial to evaluate the progressive muscle relaxation technique in hip fracture patients. Sci Rep. (2024 Jun 12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38867082"
+    },
+    {
+      "text": "Sleep Quality - Sucu C, Çitil ET The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study. Menopause. (2024 Aug 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+    }
+  ]
+}

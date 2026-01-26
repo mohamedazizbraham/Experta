@@ -1,0 +1,209 @@
+{
+  "slug": "yoga",
+  "name": "Yoga",
+  "name_en": "Yoga",
+  "description": "Le yoga est une forme d'exercice qui implique des mouvements spécifiques et des schémas respiratoires pour soulager le stress, améliorer l'équilibre et la mobilité. C’est également une pratique dans d’autres religions, telles que l’hindouisme, le bouddhisme ou le jaïnisme.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Douleur lombaire chronique",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "2 études Participants : 182",
+          "studies": [],
+          "participants": 182
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 2895",
+          "studies": [],
+          "participants": 2895
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Fibromyalgie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la fibromyalgie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 60",
+          "studies": [],
+          "participants": 60
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysménorrhée primaire",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 1808",
+          "studies": [],
+          "participants": 1808
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Polyarthrite rhumatoïde",
+      "outcomes": [
+        {
+          "outcome": "Fonctionnalité chez les personnes âgées ou blessées",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "3 études Participants : 155",
+          "studies": [],
+          "participants": 155
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 155",
+          "studies": [],
+          "participants": 155
+        },
+        {
+          "outcome": "Symptômes de la polyarthrite rhumatoïde",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 389",
+          "studies": [],
+          "participants": 389
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cancer du sein",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 3766",
+          "studies": [],
+          "participants": 3766
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble de stress post-traumatique",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du trouble de stress post-traumatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études Participants : 954",
+          "studies": [],
+          "participants": 954
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé sexuelle",
+      "outcomes": [
+        {
+          "outcome": "Fonction sexuelle",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études Participants : 730",
+          "studies": [],
+          "participants": 730
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression post-partum",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la dépression post-partum",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 443",
+          "studies": [],
+          "participants": 443
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Pain - Tsai IC, Hsu CW, Chang CH, Lei WT, Tseng PT, Chang KV Comparative Effectiveness of Different Exercises for Reducing Pain Intensity in Primary Dysmenorrhea: A Systematic Review and Network Meta-analysis of Randomized Controlled Trials. Sports Med Open . ( 2024 May 30 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38816591"
+    },
+    {
+      "text": "Post-Traumatic Stress Disorder Symptoms - Nejadghaderi SA, Mousavi SE, Fazlollahi A, Motlagh Asghari K, Garfin DR Efficacy of yoga for posttraumatic stress disorder: A systematic review and meta-analysis of randomized controlled trials. Psychiatry Res . ( 2024 Oct )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39191128"
+    },
+    {
+      "text": "Sexual Function - Rodrigues AMBP, Neto OB, Seguro CS, da Silva WF, Gonzalez RH, Santos DAT, de Lira CAB, Viana RB Does yoga improve sexual function? A systematic review and meta-analysis of randomized clinical trials. Complement Ther Clin Pract . ( 2024 May 31 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38830273"
+    },
+    {
+      "text": "Pain - Tankha H, Gaskins D, Shallcross A, Rothberg M, Hu B, Guo N, Roseen EJ, Dombrowski S, Bar J, Warren R, Wilgus H, Tate P, Goldfarb J, Drago VG, Saper R Effectiveness of Virtual Yoga for Chronic Low Back Pain: A Randomized Clinical Trial. JAMA Netw Open . ( 2024 Nov 4 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39485352"
+    },
+    {
+      "text": "Pain - Cheng M, Tian Y, Ye Q, Li J, Xie L, Ding F Evaluating the effectiveness of six exercise interventions for low back pain: a systematic review and meta-analysis. BMC Musculoskelet Disord . ( 2025 May 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40312680"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - Şevgin Ö, Buğday B, Aydoğan Baykara R, Günendi G, Akkurt B, Atasoy H, Dikmen Hoşbaş B, Akkurt MF, Karamancıoğlu B Efficacy of different exercises in women with fibromyalgia syndrome: a randomised controlled trial. Clin Exp Rheumatol . ( 2025 Feb 12 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39946182"
+    },
+    {
+      "text": "Depression Symptoms - Tang L, Zhang L, Liu Y, Li Y, Yang L, Zou M, Yang H, Zhu L, Du R, Shen Y, Li H, Yang Y, Li Z Optimal dose and type of exercise to improve depressive symptoms in older adults: a systematic review and network meta-analysis. BMC Geriatr . ( 2024 Jun 7 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38849780"
+    },
+    {
+      "text": "Fatigue Symptoms - Li Y, Zhang J, Hu D, Gao L, Huang T Which specific modes of exercise training are most effective for breast related cancer fatigue? Network meta-analysis. Front Oncol . ( 2025 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40078193"
+    },
+    {
+      "text": "Functionality in Elderly or Injured - Biswas I, Kaur J, Pearce F, Lewis S, Chattopadhyay K Key Features of Effective Yoga Interventions in Addition to Standard Medical Treatment for Rheumatoid Arthritis: A Systematic Review and Meta-Analysis. ACR Open Rheumatol . ( 2025 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40346985"
+    },
+    {
+      "text": "Postpartum Depression Symptoms - Ruan W, Zhang B, Ma J, Ke H The Effect of Yoga on Women with Postpartum Depression: A Meta-analysis. Int J Yoga . ( 2025 May-Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41079248"
+    }
+  ]
+}

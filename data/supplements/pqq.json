@@ -1,0 +1,224 @@
+{
+  "slug": "pqq",
+  "name": "PQQ",
+  "name_en": "PQQ",
+  "description": "Le PQQ est une petite molécule autrefois considérée comme une vitamine, bien que ses actions dans le corps humain ne soient pas liées à ce mécanisme hypothétique de type vitaminique. Par son action en tant qu'agent REDOX dans les cellules, il peut modifier la signalisation et on pense qu'il soutient la fonction mitochondriale.",
+  "overview": [],
+  "dosage": "La dose optimale de Pyrroloquinoline quinone (PQQ) à prendre quotidiennement n'est actuellement pas connue, mais les extrapolations des études animales suggèrent que des doses aussi faibles que 2 mg sont légèrement bioactives, tandis que la plupart des compléments alimentaires sont commercialisés dans une fourchette de 20 à 40 mg.",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Fatigue",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 17",
+          "studies": [],
+          "participants": 17
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l’étude : 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "C-Reactive Protein (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "High-density lipoprotein (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "Interleukin 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "Liver Enzymes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "Low-density lipoprotein (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "Oxidative Stress Biomarkers",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "TMAO",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stress",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Fatigue Symptoms - Masahiko Nakano, Tetsuro Yamamoto, Hisayoshi Okamura, Akira Tsuda, Yasuyuki Kowatari Effects of Oral Supplementation with Pyrroloquinoline Quinone on  Stress, Fatigue, and Sleep Functional Foods in Health and Disease . ( )",
+      "link": "http://functionalfoodscenter.net/files/56592277.pdf"
+    },
+    {
+      "text": "Blood glucose - Harris CB, Chowanadisai W, Mishchuk DO, Satre MA, Slupsky CM, Rucker RB Dietary pyrroloquinoline quinone (PQQ) alters indicators of inflammation and mitochondrial-related metabolism in human subjects J Nutr Biochem . ( 2013 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24231099"
+    }
+  ]
+}

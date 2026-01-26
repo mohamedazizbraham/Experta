@@ -1,0 +1,922 @@
+{
+  "slug": "quercetin",
+  "name": "Quercétine",
+  "name_en": "Quercetin",
+  "description": "La quercétine est un flavonoïde couramment présent dans de nombreux fruits et légumes. Certaines recherches soutiennent son utilisation pour réduire l'inflammation.",
+  "overview": [
+    {
+      "question": "Qu'est-ce que la quercétine ?",
+      "answer": "La quercétine est un flavonoïde naturellement présent dans les fruits et légumes. On la trouve dans le vin rouge, les oignons, les pommes et les baies, les sources les plus riches étant le vin et les oignons. Elle est également couramment prise sous forme de supplément. En dehors des fruits et légumes, on la retrouve également dans les plantes d’autres compléments à base de plantes tels que le Ginkgo biloba, le sureau et le millepertuis. [7]"
+    },
+    {
+      "question": "Quels sont les principaux bienfaits de la quercétine ?",
+      "answer": "Certaines recherches suggèrent que la quercétine pourrait aider à améliorer la pression artérielle systolique et la glycémie à jeun. [5] Certaines études indiquent qu’elle peut réduire l’inflammation en diminuant les niveaux de protéine C-réactive [3] et qu’elle pourrait atténuer les symptômes allergiques, [6] mais les données restent préliminaires et ne sont pas suffisamment solides pour tirer des conclusions définitives sur ses bienfaits."
+    },
+    {
+      "question": "Comment agit la quercétine ?",
+      "answer": "La quercétine agit de plusieurs manières. Elle peut être un antioxydant, aidant à neutraliser les radicaux libres dans l’organisme. Elle pourrait également moduler certaines voies biologiques susceptibles de réguler la mort cellulaire, l’inflammation et les signaux de croissance cellulaire. [8] Il est important de noter que, bien que ces mécanismes soient intéressants, leurs effets isolés ne s’appliquent pas nécessairement aux humains."
+    }
+  ],
+  "dosage": "Formulation : La quercétine se présente sous forme liquide ou en gélules, comprimés ou capsules molles. La plupart des compléments utilisent la forme aglycone (forme libre), considérée comme moins biodisponible que les glucosides de quercétine présents dans les aliments. [1] Plage de doses étudiées : 30 mg à 3 g Doses efficaces : Inflammation Adultes (≤ 45 ans) : 500 mg/jour ou plus pendant 6 à 10 semaines pour réduire les niveaux de protéine C-réactive. [2] [3] Considérations particulières : semble la plus efficace chez les adultes de moins de 45 ans, mais les preuves d’efficacité sont moins nombreuses chez les adultes de plus de 45 ans. Il est important de noter qu’elle ne semble pas influencer d’autres marqueurs inflammatoires, tels que l’IL-6 et le TNF-α. Pression artérielle Adultes (19-60 ans) : plus de 500 mg/jour pendant plus de 8 semaines peut réduire la pression artérielle systolique et diastolique. [4] [5] Considérations particulières : les réductions de la pression diastolique sont moins cohérentes. Les études ont montré une hétérogénéité, ce qui suggère que l’effet réel sur la pression artérielle peut varier d’une personne à l’autre. Santé cardiovasculaire générale Adultes (19-60 ans) : 100 à 500 mg/jour pendant 8 à 12 semaines peut aider à améliorer le cholestérol total et le LDL-C. Des doses supérieures à 500 mg/jour peuvent encore renforcer la réduction du LDL-C. [5] [2] Considérations particulières : les études ont montré une hétérogénéité, ce qui suggère que l’effet réel sur les lipides sanguins peut varier d’une personne à l’autre. Rhinite allergique (allergies saisonnières/rhume des foins) Adultes (19-60 ans) : 200 mg/jour [6] Considérations particulières : cette recommandation posologique repose sur une seule étude, la certitude de cette recommandation est donc faible. Autres considérations : en raison du nombre limité de recherches, il n’est pas clair si la biodisponibilité de la quercétine est affectée par l’alimentation. Des recherches supplémentaires sont nécessaires pour déterminer comment les aliments influencent l’absorption et le métabolisme de la quercétine.",
+  "safety": {
+    "summary": [
+      "Les effets indésirables ne sont pas fréquents, mais les recherches sur la sécurité sont insuffisantes pour tirer des conclusions définitives.",
+      "La quercétine peut interagir avec plusieurs médicaments, mais davantage de recherches sont nécessaires pour comprendre pleinement ces interactions.",
+      "La quercétine doit être utilisée avec prudence chez les personnes présentant une fonction rénale altérée, car l'administration intraveineuse a montré des effets toxiques, bien que cela n'ait pas été démontré avec la supplémentation orale."
+    ],
+    "side_effects": {
+      "summary": "Les effets indésirables liés à la supplémentation en quercétine sont rares. Cependant, cela peut être dû à un manque de données de sécurité. Certaines inquiétudes existent concernant les lésions rénales associées à l'utilisation intraveineuse, mais il n’est pas clair si cela s’applique à la supplémentation orale.",
+      "table": [
+        {
+          "effect": "Maux de tête [12]",
+          "details": "Voie : Orale Remarques : Signalé uniquement chez 1 participant, mais il s’est résorbé après les premières doses."
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Médicaments qui sont des substrats du CYP2C9",
+        "effect": "La quercétine peut inhiber le CYP2C9, ce qui peut entraîner une diminution de l’élimination des médicaments qui sont des substrats du CYP2C9, pouvant potentiellement conduire à des concentrations sanguines élevées et à une augmentation des effets thérapeutiques ou indésirables. [13] [14] [15]",
+        "evidence": "Possible",
+        "severity": "Modéré"
+      },
+      {
+        "agent": "Médicaments qui sont des substrats du CYP3A4",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "Médicaments qui sont des substrats du CYP2E1",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Grossesse - Éviter",
+        "safety_information": "Certaines recherches animales ont rapporté que la quercétine n’a pas entraîné d’effets indésirables graves pendant la grossesse. [11] Cependant, la supplémentation doit être évitée car aucune étude humaine n’est disponible."
+      },
+      {
+        "condition": "Allaitement - Éviter",
+        "safety_information": "Une étude a constaté que de petites quantités de quercétine provenant de l’alimentation peuvent naturellement se transférer dans le lait maternel, et aucun effet indésirable apparent n’a été signalé. [35] Cependant, la supplémentation en quercétine doit être évitée pendant l’allaitement car les données concernant sa sécurité à long terme ou à des doses généralement utilisées en supplémentation sont limitées."
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Fonction rénale altérée",
+        "details": "La quercétine supplémentée à faibles doses (150 mg/jour) ne semble pas nuire à la fonction rénale. [9] Cependant, il a été rapporté que la quercétine est associée à une toxicité rénale lorsque des doses plus élevées sont administrées par voie intraveineuse [10] et dans des études animales. [11] Néanmoins, cette population doit tout de même aborder la supplémentation avec prudence."
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la Liste 2025 des Substances Interdites de la WADA, la quercétine n’est pas interdite."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Hypertension artérielle",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Étude Participants : 41",
+          "studies": [],
+          "participants": 41
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "3 Études Participants : 88",
+          "studies": [],
+          "participants": 88
+        },
+        {
+          "outcome": "Oxydation des graisses",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 6",
+          "studies": [],
+          "participants": 6
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 41",
+          "studies": [],
+          "participants": 41
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 41",
+          "studies": [],
+          "participants": 41
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 41",
+          "studies": [],
+          "participants": 41
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 6",
+          "studies": [
+            {
+              "title": "No evidence for a thermic effect of the dietary flavonol quercetin: a pilot study in healthy normal-weight women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20924595"
+            }
+          ],
+          "participants": 6
+        },
+        {
+          "outcome": "Biomarqueurs du stress oxydatif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 41",
+          "studies": [
+            {
+              "title": "No evidence for a thermic effect of the dietary flavonol quercetin: a pilot study in healthy normal-weight women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20924595"
+            }
+          ],
+          "participants": 41
+        },
+        {
+          "outcome": "vLDL-C",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 41",
+          "studies": [],
+          "participants": 41
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 41",
+          "studies": [],
+          "participants": 41
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 38",
+          "studies": [],
+          "participants": 38
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 88",
+          "studies": [
+            {
+              "title": "No evidence for a thermic effect of the dietary flavonol quercetin: a pilot study in healthy normal-weight women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20924595"
+            }
+          ],
+          "participants": 88
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 38",
+          "studies": [],
+          "participants": 38
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé immunitaire",
+      "outcomes": [
+        {
+          "outcome": "Interleukine 6",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 15",
+          "studies": [],
+          "participants": 15
+        },
+        {
+          "outcome": "Perméabilité intestinale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 8",
+          "studies": [],
+          "participants": 8
+        },
+        {
+          "outcome": "Acide urique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 15",
+          "studies": [
+            {
+              "title": "The Impact of Three-Month Quercetin Intake on Quality of Life and Anxiety in Patients With Type II Diabetes Mellitus: An Early Data Analysis From a Randomized Controlled Trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38745810"
+            }
+          ],
+          "participants": 15
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Capacité anaérobie",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Benefits of Quercetin on Glycated Hemoglobin, Blood Pressure, PiKo-6 Readings, Night-Time Sleep, Anxiety, and Quality of Life in Patients with Type 2 Diabetes Mellitus: A Randomized Controlled Trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38930033"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Réponse au stress induite par l'exercice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "The Impact of Three-Month Quercetin Intake on Quality of Life and Anxiety in Patients With Type II Diabetes Mellitus: An Early Data Analysis From a Randomized Controlled Trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38745810"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Perméabilité intestinale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Thermotolerance and heat acclimation may share a common mechanism in humans",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21613575"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Échelle de perception de l'effort",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Acide urique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 15
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance d'exercice en temps chaud ou très chaud",
+      "outcomes": [
+        {
+          "outcome": "Capacité anaérobie",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Thermotolerance and heat acclimation may share a common mechanism in humans",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21613575"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Réponse au stress induite par l'exercice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Hydratation (eau corporelle totale)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Thermotolerance and heat acclimation may share a common mechanism in humans",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21613575"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Perméabilité intestinale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 8",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Échelle de perception de l’effort",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 10",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Volume d’entraînement",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 10",
+          "studies": [
+            {
+              "title": "No effect of nutritional adenosine receptor antagonists on exercise performance in the heat",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19020291"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypercholestérolémie",
+      "outcomes": [
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l’étude : 400",
+          "studies": [
+            {
+              "title": "Thermotolerance and heat acclimation may share a common mechanism in humans",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21613575"
+            }
+          ],
+          "participants": 400
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 400",
+          "studies": [
+            {
+              "title": "No effect of nutritional adenosine receptor antagonists on exercise performance in the heat",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19020291"
+            }
+          ],
+          "participants": 400
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 400",
+          "studies": [
+            {
+              "title": "Thermotolerance and heat acclimation may share a common mechanism in humans",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21613575"
+            }
+          ],
+          "participants": 400
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance d'exercice anaérobie",
+      "outcomes": [
+        {
+          "outcome": "Capacité anaérobie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l’étude : 15",
+          "studies": [
+            {
+              "title": "No effect of nutritional adenosine receptor antagonists on exercise performance in the heat",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19020291"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 15",
+          "studies": [
+            {
+              "title": "No effect of nutritional adenosine receptor antagonists on exercise performance in the heat",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19020291"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Échelle de perception de l'effort",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Quercetin in the treatment of dyslipidemia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22486135"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Acide urique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Quercetin in the treatment of dyslipidemia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22486135"
+            }
+          ],
+          "participants": 15
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Sarcoïdose",
+      "outcomes": [
+        {
+          "outcome": "Inflammation",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "Quercetin in the treatment of dyslipidemia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22486135"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Biomarqueurs du stress oxydatif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 12
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 58",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 58
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 58",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 58
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Perte de poids et maintien",
+      "outcomes": [
+        {
+          "outcome": "Pression artérielle",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 6",
+          "studies": [
+            {
+              "title": "Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+            }
+          ],
+          "participants": 6
+        },
+        {
+          "outcome": "Oxydation des graisses",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 6",
+          "studies": [
+            {
+              "title": "Quercetin reduces markers of oxidative stress and inflammation in sarcoidosis",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21324570"
+            }
+          ],
+          "participants": 6
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 6",
+          "studies": [
+            {
+              "title": "Quercetin reduces markers of oxidative stress and inflammation in sarcoidosis",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21324570"
+            }
+          ],
+          "participants": 6
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance athlétique générale",
+      "outcomes": [
+        {
+          "outcome": "Capacité anaérobie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Effects of 6 weeks of quercetin supplementation on energy, fatigue, and sleep in ROTC cadets",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21634303"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Interleukin 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Effects of 6 weeks of quercetin supplementation on energy, fatigue, and sleep in ROTC cadets",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21634303"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Échelle de perception de l'effort",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "No evidence for a thermic effect of the dietary flavonol quercetin: a pilot study in healthy normal-weight women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20924595"
+            }
+          ],
+          "participants": 15
+        },
+        {
+          "outcome": "Acide urique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "No evidence for a thermic effect of the dietary flavonol quercetin: a pilot study in healthy normal-weight women",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20924595"
+            }
+          ],
+          "participants": 15
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Le quercetin aide-t-il aux allergies ?",
+      "answer": "Certaines preuves in vitro ont montré que le quercetin peut stabiliser les mastocytes (qui libèrent de l'histamine lors des réactions allergiques) et inhiber les voies inflammatoires associées aux maladies allergiques telles que la rhinite allergique. [8] Cependant, les recherches chez l'homme sont rares. Une étude randomisée contrôlée a trouvé un certain bénéfice dans l'amélioration des symptômes de la rhinite allergique, mais cela n'a pas encore été confirmé par d'autres essais. [6] Globalement, le quercetin pourrait aider contre les allergies, mais davantage de recherches sont nécessaires pour déterminer son efficacité réelle."
+    },
+    {
+      "question": "Quels sont les autres noms du quercetin ?",
+      "answer": "Notez que le quercetin est également connu sous le nom de : Le quercetin ne doit pas être confondu avec : - 3,3',4'5,7-Pentahydroxyflavone - Quercitrin - Quinines (une classe de médicaments) - Quinolones (une classe de médicaments) - Quercitannic acid - Quercitron - Sophoretin - Flavin meletin - Quercetol"
+    }
+  ],
+  "references": [
+    {
+      "text": "Oxidative Stress Biomarkers - Boots AW, Drent M, de Boer VC, Bast A, Haenen GR Quercetin reduces markers of oxidative stress and inflammation in sarcoidosis Clin Nutr. (2011 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21324570"
+    },
+    {
+      "text": "Oxidative Stress Biomarkers - Randi L. Edwards, Tiffany Lyon, Sheldon E. Litwin, Alexander Rabovsky, J. David Symons, and Thunder Jalili Quercetin Reduces Blood Pressure in Hypertensive Subjects American Society for Nutrition. ()",
+      "link": "http://jn.nutrition.org/content/137/11/2405.abstract"
+    },
+    {
+      "text": "Blood Pressure - Egert S, Rimbach G, Müller MJ No evidence for a thermic effect of the dietary flavonol quercetin: a pilot study in healthy normal-weight women Eur J Appl Physiol. (2011 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20924595"
+    },
+    {
+      "text": "Rating of Perceived Exertion - Cheuvront SN, Ely BR, Kenefick RW, Michniak-Kohn BB, Rood JC, Sawka MN No effect of nutritional adenosine receptor antagonists on exercise performance in the heat Am J Physiol Regul Integr Comp Physiol. (2009 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19020291"
+    },
+    {
+      "text": "Exercise-induced Stress Response - Kuennen M, Gillum T, Dokladny K, Bedrick E, Schneider S, Moseley P Thermotolerance and heat acclimation may share a common mechanism in humans Am J Physiol Regul Integr Comp Physiol. (2011 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21613575"
+    },
+    {
+      "text": "Anaerobic Capacity - Abbey EL, Rankin JW Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation Int J Sport Nutr Exerc Metab. (2011 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+    },
+    {
+      "text": "High-density lipoprotein (HDL) - Talirevic E, Jelena S Quercetin in the treatment of dyslipidemia Med Arh. (2012)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22486135"
+    },
+    {
+      "text": "Sleep Quality - Bigelman KA, Chapman DP, Freese EC, Trilk JL, Cureton KJ Effects of 6 weeks of quercetin supplementation on energy, fatigue, and sleep in ROTC cadets Mil Med. (2011 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21634303"
+    },
+    {
+      "text": "Quality of Life - Mantadaki AE, Linardakis M, Vafeiadi M, Anastasiou F, Tsatsakis A, Symvoulakis EK The Impact of Three-Month Quercetin Intake on Quality of Life and Anxiety in Patients With Type II Diabetes Mellitus: An Early Data Analysis From a Randomized Controlled Trial. Cureus. (2024 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38745810"
+    },
+    {
+      "text": "HbA1c - Mantadaki AE, Linardakis M, Tsakiri M, Baliou S, Fragkiadaki P, Vakonaki E, Tzatzarakis MN, Tsatsakis A, Symvoulakis EK Benefits of Quercetin on Glycated Hemoglobin, Blood Pressure, PiKo-6 Readings, Night-Time Sleep, Anxiety, and Quality of Life in Patients with Type 2 Diabetes Mellitus: A Randomized Controlled Trial. J Clin Med. (2024 Jun 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38930033"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Oxidative Stress Biomarkers - Boots AW, Drent M, de Boer VC, Bast A, Haenen GR Quercetin reduces markers of oxidative stress and inflammation in sarcoidosis Clin Nutr. (2011 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21324570"
+    },
+    {
+      "text": "Oxidative Stress Biomarkers - Randi L. Edwards, Tiffany Lyon, Sheldon E. Litwin, Alexander Rabovsky, J. David Symons, and Thunder Jalili Quercetin Reduces Blood Pressure in Hypertensive Subjects American Society for Nutrition. ()",
+      "link": "http://jn.nutrition.org/content/137/11/2405.abstract"
+    },
+    {
+      "text": "Blood Pressure - Egert S, Rimbach G, Müller MJ No evidence for a thermic effect of the dietary flavonol quercetin: a pilot study in healthy normal-weight women Eur J Appl Physiol. (2011 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20924595"
+    },
+    {
+      "text": "Rating of Perceived Exertion - Cheuvront SN, Ely BR, Kenefick RW, Michniak-Kohn BB, Rood JC, Sawka MN No effect of nutritional adenosine receptor antagonists on exercise performance in the heat Am J Physiol Regul Integr Comp Physiol. (2009 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19020291"
+    },
+    {
+      "text": "Exercise-induced Stress Response - Kuennen M, Gillum T, Dokladny K, Bedrick E, Schneider S, Moseley P Thermotolerance and heat acclimation may share a common mechanism in humans Am J Physiol Regul Integr Comp Physiol. (2011 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21613575"
+    },
+    {
+      "text": "Anaerobic Capacity - Abbey EL, Rankin JW Effect of quercetin supplementation on repeated-sprint performance, xanthine oxidase activity, and inflammation Int J Sport Nutr Exerc Metab. (2011 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21558570"
+    },
+    {
+      "text": "High-density lipoprotein (HDL) - Talirevic E, Jelena S Quercetin in the treatment of dyslipidemia Med Arh. (2012)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22486135"
+    },
+    {
+      "text": "Sleep Quality - Bigelman KA, Chapman DP, Freese EC, Trilk JL, Cureton KJ Effects of 6 weeks of quercetin supplementation on energy, fatigue, and sleep in ROTC cadets Mil Med. (2011 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21634303"
+    },
+    {
+      "text": "Quality of Life - Mantadaki AE, Linardakis M, Vafeiadi M, Anastasiou F, Tsatsakis A, Symvoulakis EK The Impact of Three-Month Quercetin Intake on Quality of Life and Anxiety in Patients With Type II Diabetes Mellitus: An Early Data Analysis From a Randomized Controlled Trial. Cureus. (2024 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38745810"
+    },
+    {
+      "text": "HbA1c - Mantadaki AE, Linardakis M, Tsakiri M, Baliou S, Fragkiadaki P, Vakonaki E, Tzatzarakis MN, Tsatsakis A, Symvoulakis EK Benefits of Quercetin on Glycated Hemoglobin, Blood Pressure, PiKo-6 Readings, Night-Time Sleep, Anxiety, and Quality of Life in Patients with Type 2 Diabetes Mellitus: A Randomized Controlled Trial. J Clin Med. (2024 Jun 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38930033"
+    }
+  ]
+}
