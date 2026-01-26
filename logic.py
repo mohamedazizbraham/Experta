@@ -69,9 +69,10 @@ def normalize_health_condition(condition: str) -> str:
     Examples:
         normalize_health_condition("Santé du sommeil") -> "sommeil"
         normalize_health_condition("Sommeil") -> "sommeil"
-        normalize_health_condition("Santé cardiovasculaire") -> "cardiovasculaire"
+        normalize_health_condition("Santé cardiovasculaire générale") -> "cardiovasculaire"
     """
-    stop_words = {"santé", "de", "du", "de", "la", "le", "et", "ou", "bien-être"}
+    # Stop words to remove (articles, prepositions, qualifiers)
+    stop_words = {"santé", "de", "du", "de", "la", "le", "et", "ou", "bien-être", "générale", "général"}
     
     # Convert to lowercase and split
     words = condition.lower().split()
@@ -79,8 +80,9 @@ def normalize_health_condition(condition: str) -> str:
     # Filter out stop words
     filtered = [w for w in words if w not in stop_words and w]
     
-    # Return the last significant word (usually the main condition)
-    return filtered[-1] if filtered else condition.lower()
+    # Return the first significant word (usually the main condition)
+    # We use first instead of last to get "cardiovasculaire" from "cardiovasculaire générale"
+    return filtered[0] if filtered else condition.lower()
 
 
 def match_symptoms_with_products(patient_symptoms: List[str]) -> Dict[str, Dict]:

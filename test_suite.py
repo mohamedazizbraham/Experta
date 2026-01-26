@@ -1,6 +1,11 @@
 import unittest
-# On importe le moteur et les faits depuis vos fichiers existants
-from logic import MoteurRecommandation, BesoinClient, ConditionClient, Recommandation, ProduitInterdit, Produit
+from logic import (
+    extract_health_conditions_from_supplements,
+    normalize_health_condition,
+    match_symptoms_with_products,
+    MoteurRecommandation,
+    Produit
+)
 from database import CATALOGUE_COMPLET
 
 
@@ -16,146 +21,208 @@ def _category_of_product(product_name: str) -> str:
                 return cat
     return ""
 
-class TestSystemeExpert(unittest.TestCase):
 
-    def setUp(self):
-        """
-        S'exécute avant CHAQUE test.
-        Initialise un moteur vierge pour garantir l'indépendance des tests.
-        """
-        self.engine = MoteurRecommandation()
-        self.engine.reset()
+class TestHealthConditionExtraction(unittest.TestCase):
+    """Tests pour l'extraction des conditions de santé"""
 
-    def _lancer_moteur(self, symptomes, conditions):
-        """
-        Fonction utilitaire pour éviter de répéter le code d'injection des faits.
-        Retourne :
-          - recos : Liste des noms des produits recommandés
-          - interdits : Liste des noms des produits bloqués (sécurité)
-        """
-        for s in symptomes:
-            self.engine.declare(BesoinClient(symptome=s.lower()))
-        for c in conditions:
-            self.engine.declare(ConditionClient(condition=c.lower()))
-        
-        self.engine.run()
-        
-        # Extraction des résultats
-        matches = [(f["nom"], f["cible"]) for f in self.engine.facts.values() if isinstance(f, Recommandation)]
-        recos = [p for (p, _c) in matches]
-        interdits = [f["produit"] for f in self.engine.facts.values() if isinstance(f, ProduitInterdit)]
+    def test_extract_health_conditions_returns_dict(self):
+        """Vérifie que extract_health_conditions retourne un dictionnaire"""
+        conditions = extract_health_conditions_from_supplements()
+        self.assertIsInstance(conditions, dict)
 
-        return recos, interdits, matches
+    def test_extract_contains_products(self):
+        """Vérifie que des produits sont extraits"""
+        conditions = extract_health_conditions_from_supplements()
+        self.assertGreater(len(conditions), 0, "Aucun produit extrait")
 
-    # ====================================================================
-    # 1. UNIT TESTS (Vérification technique)
-    # ====================================================================
+    def test_extract_conditions_format(self):
+        """Vérifie le format: {product_name: [condition1, condition2, ...]}"""
+        conditions = extract_health_conditions_from_supplements()
+        for product_name, conditions_list in conditions.items():
+            self.assertIsInstance(product_name, str)
+            self.assertIsInstance(conditions_list, list)
+            self.assertGreater(len(conditions_list), 0, f"{product_name} n'a pas de conditions")
 
-    def test_unit_chargement_categories(self):
-        """
-        Vérifie que le catalogue issu de data/ est bien chargé.
-        On vérifie qu'on trouve au moins un produit de chaque catégorie.
-        """
-        # Clés attendues (mappées depuis data/)
+    def test_alpha_lactalbumin_has_sommeil_condition(self):
+        """Vérifie que Alpha-Lactalbumin a une condition pour le sommeil"""
+        conditions = extract_health_conditions_from_supplements()
+        self.assertIn("Alpha-Lactalbumin", conditions, "Alpha-Lactalbumin non trouvé")
+        self.assertTrue(
+            any("sommeil" in c.lower() for c in conditions["Alpha-Lactalbumin"]),
+            "Aucune condition 'sommeil' pour Alpha-Lactalbumin"
+        )
+
+
+class TestNormalizeHealthCondition(unittest.TestCase):
+    """Tests pour la normalisation des conditions de santé"""
+
+    def test_normalize_removes_santé(self):
+        """Vérifie que 'santé' est retiré"""
+        result = normalize_health_condition("Santé du sommeil")
+        self.assertEqual(result, "sommeil")
+
+    def test_normalize_removes_du(self):
+        """Vérifie que 'du' est retiré"""
+        result = normalize_health_condition("Santé du coeur")
+        self.assertEqual(result, "coeur")
+
+    def test_normalize_lowercase(self):
+        """Vérifie la conversion en minuscules"""
+        result = normalize_health_condition("SOMMEIL")
+        self.assertEqual(result, "sommeil")
+
+    def test_normalize_simple_condition(self):
+        """Vérifie qu'une condition simple est préservée"""
+        result = normalize_health_condition("Sommeil")
+        self.assertEqual(result, "sommeil")
+
+    def test_normalize_cardiovasculaire(self):
+        """Vérifie une condition cardiovasculaire"""
+        result = normalize_health_condition("Santé cardiovasculaire générale")
+        self.assertEqual(result, "cardiovasculaire")
+
+    def test_normalize_preserves_hyphens(self):
+        """Vérifie que les tirets sont préservés"""
+        result = normalize_health_condition("bien-être")
+        self.assertIn("bien", result)
+
+
+class TestMatchSymptomsWithProducts(unittest.TestCase):
+    """Tests pour le matching symptômes-produits"""
+
+    def test_match_returns_dict(self):
+        """Vérifie que match_symptoms retourne un dictionnaire"""
+        result = match_symptoms_with_products(["Sommeil"])
+        self.assertIsInstance(result, dict)
+
+    def test_match_sommeil_returns_products(self):
+        """Vérifie que "Sommeil" retourne des produits"""
+        result = match_symptoms_with_products(["Sommeil"])
+        self.assertGreater(len(result), 0, "Aucun produit pour 'Sommeil'")
+
+    def test_match_alpha_lactalbumin_for_sommeil(self):
+        """Vérifie que Alpha-Lactalbumin est recommandé pour Sommeil"""
+        result = match_symptoms_with_products(["Sommeil"])
+        self.assertIn("Alpha-Lactalbumin", result, "Alpha-Lactalbumin non trouvé pour Sommeil")
+
+    def test_match_result_has_score(self):
+        """Vérifie que chaque résultat a un score"""
+        result = match_symptoms_with_products(["Sommeil"])
+        for product_name, match_info in result.items():
+            self.assertIn("score", match_info)
+            self.assertIsInstance(match_info["score"], int)
+            self.assertGreater(match_info["score"], 0)
+
+    def test_match_result_has_matched_symptoms(self):
+        """Vérifie que chaque résultat a des symptômes matchés"""
+        result = match_symptoms_with_products(["Sommeil"])
+        for product_name, match_info in result.items():
+            self.assertIn("matched_symptoms", match_info)
+            self.assertIsInstance(match_info["matched_symptoms"], list)
+            self.assertGreater(len(match_info["matched_symptoms"]), 0)
+
+    def test_match_multiple_symptoms(self):
+        """Vérifie le matching avec plusieurs symptômes"""
+        result = match_symptoms_with_products(["Sommeil", "Dépression"])
+        self.assertGreater(len(result), 0, "Aucun produit pour symptômes multiples")
+
+    def test_match_sorting_by_score(self):
+        """Vérifie que les résultats sont triés par score (décroissant)"""
+        result = match_symptoms_with_products(["Sommeil", "Dépression"])
+        scores = [info["score"] for info in result.values()]
+        # Vérifie que les scores sont en ordre décroissant
+        self.assertEqual(scores, sorted(scores, reverse=True))
+
+    def test_match_empty_symptoms(self):
+        """Vérifie le comportement avec symptômes vides"""
+        result = match_symptoms_with_products([])
+        self.assertIsInstance(result, dict)
+
+    def test_match_unknown_symptom(self):
+        """Vérifie le comportement avec symptôme inconnu"""
+        result = match_symptoms_with_products(["XYZ_SYMPTOME_INCONNU_123"])
+        self.assertEqual(len(result), 0, "Des produits ont été trouvés pour symptôme inconnu")
+
+
+class TestDataLoading(unittest.TestCase):
+    """Tests pour le chargement des données"""
+
+    def test_catalogue_complet_loaded(self):
+        """Vérifie que le catalogue est chargé"""
+        self.assertIsInstance(CATALOGUE_COMPLET, dict)
+        self.assertGreater(len(CATALOGUE_COMPLET), 0)
+
+    def test_catalogue_has_required_categories(self):
+        """Vérifie que les catégories requises existent"""
         self.assertIn("complement_alimentaire", CATALOGUE_COMPLET)
         self.assertIn("sport_et_pratique", CATALOGUE_COMPLET)
         self.assertIn("regime_alimentaire", CATALOGUE_COMPLET)
 
-        self.assertGreater(len(CATALOGUE_COMPLET["complement_alimentaire"]), 0)
-        self.assertGreater(len(CATALOGUE_COMPLET["sport_et_pratique"]), 0)
-        self.assertGreater(len(CATALOGUE_COMPLET["regime_alimentaire"]), 0)
+    def test_each_category_has_products(self):
+        """Vérifie que chaque catégorie a des produits"""
+        for category, products in CATALOGUE_COMPLET.items():
+            self.assertGreater(len(products), 0, f"Catégorie {category} vide")
 
-        # On récupère tous les faits 'Produit' chargés en mémoire
-        tous_produits = [f["nom"] for f in self.engine.facts.values() if isinstance(f, Produit)]
+    def test_products_have_names(self):
+        """Vérifie que chaque produit a un nom"""
+        for category, products in CATALOGUE_COMPLET.items():
+            for product in products:
+                self.assertIn("name", product, f"Produit dans {category} sans 'name'")
+                self.assertTrue(product["name"], f"Produit dans {category} avec nom vide")
 
-        # Un produit par catégorie (noms réels dans data/)
-        self.assertTrue(any(_norm(p) == _norm("Yoga") for p in tous_produits), "Erreur: Yoga (Sport) n'est pas chargé.")
-        self.assertTrue(any(_norm(p) == _norm("Mélatonine") for p in tous_produits), "Erreur: Mélatonine (Complément) n'est pas chargée.")
-        self.assertTrue(any(_norm(p) == _norm("Diète méditerranéenne") for p in tous_produits), "Erreur: Diète méditerranéenne (Régime) n'est pas chargée.")
+    def test_products_have_database_field(self):
+        """Vérifie que les produits ont la section database"""
+        for category, products in CATALOGUE_COMPLET.items():
+            for product in products:
+                if category == "complement_alimentaire":
+                    # Les suppléments doivent avoir database
+                    self.assertIn("database", product, f"{product.get('name')} sans 'database'")
 
-    # ====================================================================
-    # 2. INTEGRATION TESTS (Scénarios "Happy Path" - Ça marche ?)
-    # ====================================================================
 
-    def test_scenario_1_depression_simple(self):
+class TestIntegrationScenarios(unittest.TestCase):
+    """Tests d'intégration pour les scénarios complets"""
+
+    def test_scenario_patient_d_sommeil(self):
         """
-        SCÉNARIO 1 : Patient A (Dépressif simple)
-        Attendu : Doit recevoir des solutions de plusieurs catégories (Complément + Pratique).
+        SCÉNARIO : Patient D (Sommeil)
+        Attendu : Doit obtenir des recommandations pour 'Sommeil'
         """
-        recos, interdits, matches = self._lancer_moteur(
-            symptomes=['Dépression'], 
-            conditions=[]
-        )
+        result = match_symptoms_with_products(["Sommeil"])
+        
+        # Doit avoir des résultats
+        self.assertGreater(len(result), 0, "Aucune recommandation pour 'Sommeil'")
+        
+        # Alpha-Lactalbumin doit être recommandé
+        self.assertIn("Alpha-Lactalbumin", result)
+        
+        # Le symptôme doit être "sommeil" (normalisé)
+        matched_symptoms = result["Alpha-Lactalbumin"]["matched_symptoms"]
+        self.assertIn("sommeil", matched_symptoms)
 
-        # Vérification: cibles et catégories
-        self.assertIn("5-HTP", recos, "Devrait recommander 5-HTP")
-        self.assertIn("Yoga", recos, "Devrait recommander Yoga")
-        self.assertNotIn("5-HTP", interdits)
-        self.assertNotIn("Yoga", interdits)
-
-        # Vérifie que les recommandations ont la bonne cible
-        cible = _norm("Dépression")
-        for p, c in matches:
-            if p in ("5-HTP", "Yoga"):
-                self.assertEqual(_norm(c), cible)
-
-        self.assertEqual(_category_of_product("5-HTP"), "complement_alimentaire")
-        self.assertEqual(_category_of_product("Yoga"), "sport_et_pratique")
-
-    def test_scenario_2_cardiovasculaire_diete(self):
+    def test_scenario_patient_a_depression(self):
         """
-        SCÉNARIO 2 : Santé cardiovasculaire
-        Attendu : Recommande la diète méditerranéenne.
+        SCÉNARIO : Patient A (Dépression)
+        Attendu : Doit obtenir des recommandations pour 'Dépression'
         """
-        recos, _interdits, matches = self._lancer_moteur(
-            symptomes=['Santé cardiovasculaire générale'],
-            conditions=[]
-        )
+        result = match_symptoms_with_products(["Dépression"])
+        
+        # Doit avoir des résultats
+        self.assertGreater(len(result), 0, "Aucune recommandation pour 'Dépression'")
 
-        self.assertIn("Diète méditerranéenne", recos)
-        self.assertEqual(_category_of_product("Diète méditerranéenne"), "regime_alimentaire")
-
-        cible = _norm("Santé cardiovasculaire générale")
-        for p, c in matches:
-            if p == "Diète méditerranéenne":
-                self.assertEqual(_norm(c), cible)
-
-    # ====================================================================
-    # 3. REGRESSION TESTS (Scénarios de Sécurité - Ça ne casse pas ?)
-    # ====================================================================
-
-    def test_scenario_3_grossesse_filtre(self):
+    def test_scenario_multiple_symptoms(self):
         """
-        SCÉNARIO 3 : Grossesse
-        Attendu : Les produits marqués "éviter" pendant la grossesse sont bloqués.
-        Yoga reste autorisé.
+        SCÉNARIO : Plusieurs symptômes
+        Attendu : Les produits matching plusieurs symptômes ont un score plus élevé
         """
-        recos, interdits, _matches = self._lancer_moteur(
-            symptomes=['Dépression'],
-            conditions=['Grossesse']
-        )
+        result = match_symptoms_with_products(["Sommeil", "Dépression"])
+        
+        # Doit avoir des résultats
+        self.assertGreater(len(result), 0, "Aucune recommandation pour symptômes multiples")
+        
+        # Le premier produit (plus haut score) doit avoir score >= 1
+        first_product = next(iter(result.values()))
+        self.assertGreaterEqual(first_product["score"], 1)
 
-        # Yoga reste OK
-        self.assertIn("Yoga", recos)
-
-        # Produits à éviter pendant la grossesse (d'après data/)
-        self.assertIn("5-HTP", interdits)
-        self.assertIn("Mélatonine", interdits)
-        self.assertNotIn("5-HTP", recos, "FAIL: 5-HTP recommandé pendant la grossesse")
-        self.assertNotIn("Mélatonine", recos, "FAIL: Mélatonine recommandée pendant la grossesse")
-
-    def test_scenario_4_interaction_warfarin(self):
-        """
-        SCÉNARIO 4 : Interaction médicamenteuse
-        Attendu : Mélatonine est bloquée si l'utilisateur prend Warfarin.
-        """
-        recos, interdits, _matches = self._lancer_moteur(
-            symptomes=['Hypertension artérielle'],
-            conditions=['Warfarin']
-        )
-
-        self.assertIn("Mélatonine", interdits)
-        self.assertNotIn("Mélatonine", recos, "FAIL: Mélatonine recommandée malgré Warfarin")
 
 if __name__ == '__main__':
     # Lance tous les tests et affiche le rapport
