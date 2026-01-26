@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  experta-system:
+    build: .
+    container_name: experta-recommendation-system
+    image: experta-system:latest
+    volumes:
+      # Mount source files for development (optional - comment out for production)
+      - ./app.py:/app/app.py
+      - ./database.py:/app/database.py
+      - ./logic.py:/app/logic.py
