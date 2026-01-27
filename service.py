@@ -9,6 +9,7 @@ from logic import (
     ConditionClient,
     Recommandation,
     ProduitInterdit,
+    normalize_health_condition,
 )
 
 
@@ -16,8 +17,19 @@ def _norm(x: str) -> str:
     return (x or "").strip().lower()
 
 
+def _norm_symptome(x: str) -> str:
+    # IMPORTANT: même normalisation que celle utilisée dans logic.py
+    return normalize_health_condition(_norm(x))
+
+
 def _known_symptomes() -> Set[str]:
-    return {(_norm(p.get("cible", ""))) for p in CATALOGUE_PRODUITS if p.get("cible")}
+    # IMPORTANT: normaliser aussi les symptômes connus, sinon mismatch
+    out: Set[str] = set()
+    for p in CATALOGUE_PRODUITS:
+        cible = p.get("cible")
+        if cible:
+            out.add(_norm_symptome(cible))
+    return out
 
 
 def _known_conditions() -> Set[str]:
@@ -25,16 +37,9 @@ def _known_conditions() -> Set[str]:
 
 
 def decide(symptomes: List[str], conditions_medicales: Optional[List[str]] = None) -> Dict[str, Any]:
-    """
-    Run your existing Experta engine and return:
-    - recommendations (scored)
-    - best_decision (top recommendation)
-    - forbidden products
-    - unknown inputs (symptoms/conditions not in your DB)
-    """
     conditions_medicales = conditions_medicales or []
 
-    symptomes_norm = [_norm(s) for s in symptomes if _norm(s)]
+    symptomes_norm = [_norm_symptome(s) for s in symptomes if _norm(s)]
     conditions_norm = [_norm(c) for c in conditions_medicales if _norm(c)]
 
     known_s = _known_symptomes()
@@ -43,7 +48,6 @@ def decide(symptomes: List[str], conditions_medicales: Optional[List[str]] = Non
     unknown_symptomes = sorted({s for s in symptomes_norm if s not in known_s})
     unknown_conditions = sorted({c for c in conditions_norm if c not in known_c})
 
-    # Only feed known values to the engine (optional but cleaner)
     symptomes_use = [s for s in symptomes_norm if s in known_s]
     conditions_use = [c for c in conditions_norm if c in known_c]
 
@@ -61,7 +65,7 @@ def decide(symptomes: List[str], conditions_medicales: Optional[List[str]] = Non
     facts = list(engine.facts.values())
 
     forbidden: Set[str] = set()
-    matches: Set[Tuple[str, str]] = set()  # (produit, symptome)
+    matches: Set[Tuple[str, str]] = set()
 
     for f in facts:
         if isinstance(f, ProduitInterdit):
@@ -69,10 +73,8 @@ def decide(symptomes: List[str], conditions_medicales: Optional[List[str]] = Non
         elif isinstance(f, Recommandation):
             matches.add((f["nom"], f["cible"]))
 
-    # Safety: remove any match for forbidden products (should already be excluded by NOT(...))
     matches = {(p, s) for (p, s) in matches if p not in forbidden}
 
-    # Aggregate per product => score = number of distinct matched symptoms
     by_product: Dict[str, Set[str]] = {}
     for p, s in matches:
         by_product.setdefault(p, set()).add(s)
