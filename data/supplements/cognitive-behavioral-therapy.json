@@ -1,0 +1,430 @@
+{
+  "slug": "cognitive-behavioral-therapy",
+  "name": "Thérapie cognitivo-comportementale",
+  "name_en": "Cognitive Behavioral Therapy",
+  "description": "La thérapie cognitivo-comportementale (TCC) est un traitement psychologique qui met l’accent sur la modification des schémas de pensée afin d’améliorer la qualité de vie et le fonctionnement. La TCC est couramment utilisée pour traiter la dépression, l’anxiété, les abus d’alcool et de drogues, ainsi que les troubles de l’alimentation.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "7 études Participants : 708",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 708
+        },
+        {
+          "outcome": "Symptômes de la dépression post-partum",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "3 études Participants : 263",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 263
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 502",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 502
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 465",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 465
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 502",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 502
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 316",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 316
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Arthrose",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "5 études Participants : 625",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 625
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants : 980",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 980
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble du déficit de l'attention avec hyperactivité",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du TDAH",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 86",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 86
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cancer du sein",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration importante",
+          "evidence": "8 études Participants : 1493",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 1493
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants : 1823",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 1823
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 943",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 943
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 706",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 706
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 781",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 781
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Douleur chronique",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "5 études Participants : 625",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 625
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants : 980",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 980
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie inflammatoire de l'intestin",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la maladie inflammatoire de l'intestin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 1",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 1
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie de Parkinson",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "A",
+          "effect": "Amélioration importante",
+          "evidence": "9 études Participants : 415",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 415
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 467",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 467
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression périnatale",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la dépression post-partum",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 441",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 441
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé de la grossesse et de l'accouchement",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "7 études Participants : 708",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 708
+        },
+        {
+          "outcome": "Symptômes de la dépression post-partum",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 263",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 263
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 316",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 316
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Traumatisme crânien",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 50",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 50
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Insomnia Signs and Symptoms - Feng S, Dai B, Li H, Fu H, Zhou Y Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials. Sleep Biol Rhythms. (2024 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Malarkey ME, Fu AJ, Mannan N, Shaw OM, Haight TJ, Cota MR, Jahed NC, Werner JK, Brody DL Internet-Guided Cognitive Behavioral Therapy for Insomnia Among Patients With Traumatic Brain Injury: A Randomized Clinical Trial. JAMA Netw Open. (2024 Jul 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38980675"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Mei Z, Cai C, Luo S, Zhang Y, Lam C, Luo S The efficacy of cognitive behavioral therapy for insomnia in adolescents: a systematic review and meta-analysis of randomized controlled trials. Front Public Health. (2024)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39628800"
+    },
+    {
+      "text": "Depression Symptoms - Alnajjar AZ, Abouelmagd ME, Krayim A, AbdelMeseh M, Bushara N, Nabil Y Efficacy of cognitive behavioral therapy for anxiety and depression in Parkinson's disease patients: an updated systematic review and meta-analysis. Neurol Sci. (2024 Jul 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38958793"
+    },
+    {
+      "text": "Sleep Quality - Salazar-Méndez J, Viscay-Sanhueza N, Pinto-Vera C, Oyarce-Contreras F, Parra-Vera MF, Suso-Martí L, Guzmán-Muñoz E, López-Bueno R, Núñez-Cortés R, Calatayud J Cognitive behavioral therapy for insomnia in people with chronic musculoskeletal pain. A systematic review and dose-response meta-analysis. Sleep Med. (2024 Aug 2)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39111059"
+    },
+    {
+      "text": "Pain - Alexios Pitsillides, Dimitrios Stasinopoulos, Konstantinos Giannakou The effects of cognitive behavioural therapy delivered by physical therapists in knee osteoarthritis pain: A systematic review and meta-analysis of randomized controlled trials J Bodyw Mov Ther. (2021 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33714488"
+    },
+    {
+      "text": "ADHD Symptoms - Zhang SY, Pan MR, Zhang LQ, Li HM, Zhao MJ, Dong M, Si FF, Liu L, Wang YF, Qian QJ Efficacy of internet-based cognitive behavioral therapy for medicated adults with attention-deficit/hyperactivity disorder (ADHD): A randomized controlled trial. Psychiatry Res. (2025 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39798484"
+    },
+    {
+      "text": "Postpartum Depression Symptoms - Mwita M, Dewey D, Konje ET, Patten S Non-pharmacological interventions for perinatal depression and anxiety among adolescent mothers: A systematic review and meta-analysis. J Affect Disord. (2025 Jun 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40081580"
+    },
+    {
+      "text": "Anxiety Symptoms - Liu W, Gao F, Ma N, Zhang H, Chui PL, Che CC Effects of CBT-based interventions on health outcomes in breast cancer patients: a systematic review and Meta-analysis. Breast Cancer. (2025 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40366566"
+    },
+    {
+      "text": "Inflammatory Bowel Disease Symptoms - Jia J, Wu YB, Liu SW, Chen WJ, Li RL, Bai YL, Hu L Effectiveness and safety of non-pharmacological therapies for the treatment of inflammatory bowel disease: a network meta-analysis. Front Med (Lausanne). (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40662074"
+    }
+  ]
+}

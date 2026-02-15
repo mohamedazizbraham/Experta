@@ -1,0 +1,761 @@
+{
+  "slug": "lavender",
+  "name": "Lavande",
+  "name_en": "Lavender",
+  "description": "La lavande est une plante de la famille des Lamiacées (menthe). C’est une plante aromatique, et son huile essentielle est souvent utilisée en aromathérapie pour soulager le stress et l’anxiété.",
+  "overview": [
+    {
+      "question": "Qu’est-ce que la lavande ?",
+      "answer": "La lavande est une plante de la famille des Lamiacées. [3] Il existe de nombreuses variétés de lavande, chacune présentant des propriétés chimiques et des utilisations légèrement différentes (voir Quelles sont les différentes sortes d’huiles de lavande ?). Historiquement, la lavande a été utilisée à la fois comme plante médicinale - sous forme de thé, de thérapies inhalatoires et d’huiles pour traiter l’anxiété et le stress - et dans les parfums, fragrances et produits cosmétiques. [4] [5]"
+    },
+    {
+      "question": "Quels sont les principaux bienfaits de la lavande ?",
+      "answer": "L'huile essentielle de lavande, qu'elle soit prise par voie orale, inhalée ou appliquée sur la peau, est la plus bénéfique dans le traitement de l'anxiété, en particulier l'anxiété qui ne remplit pas les critères diagnostiques complets d'un trouble anxieux. [6] [1] [7] [8] [9] L'aromathérapie utilisant l'huile essentielle de lavande a également montré une réduction de l'anxiété chez les personnes sous hémodialyse pour une maladie rénale chronique. [10] Cependant, les études incluses dans cette méta-analyse étaient de mauvaise qualité méthodologique et présentaient une forte hétérogénéité, ce qui limite la solidité des conclusions. La supplémentation orale en lavande pourrait améliorer le sommeil, diminuer les symptômes de fatigue et réduire le stress. Elle pourrait également abaisser la fréquence cardiaque, la pression artérielle systolique et le cortisol chez les personnes anxieuses. [11] [1] [12] [8] [13] [14] Bien que ces résultats soient prometteurs, les données ne sont pas encore suffisantes pour soutenir des recommandations cliniques. De plus, l'huile essentielle de lavande pourrait améliorer certains symptômes de la dépression, notamment dans les cas légers, et constituer une option adaptée pour les personnes qui préfèrent ne pas utiliser de médicaments antidépresseurs. [12] [15] En matière de gestion de la douleur, l'huile essentielle de lavande appliquée par acupression montre un potentiel pour soulager les douleurs lombaires, bien que les preuves restent encore inconclusives. [16] De plus, l'inhalation d'huile essentielle de lavande pourrait aider à atténuer les symptômes de la dysménorrhée, en particulier la douleur, [17] et l'aromathérapie avec l'huile essentielle de lavande a été explorée comme méthode pour soulager la douleur du travail, bien que davantage de preuves soient nécessaires pour confirmer son efficacité (voir La lavande peut-elle réduire la douleur du travail ?). [18] [19] [20] [21] Dans les cas légers d'anxiété, l'huile essentielle de lavande (inhalée, appliquée localement ou prise oralement) pourrait offrir un traitement alternatif aux médicaments couramment prescrits, car les effets indésirables de la lavande sont généralement légers et rares. En revanche, les médicaments sur ordonnance pour l'anxiété provoquent souvent des effets secondaires que de nombreuses personnes trouvent difficiles à tolérer. Ces médicaments comprennent les inhibiteurs sélectifs de la recapture de la sérotonine (ISRS), qui peuvent entraîner somnolence, prise de poids et dysfonction sexuelle, ainsi que les benzodiazépines, qui provoquent souvent une sédation. De plus, ces médicaments comportent un risque de dépendance et un potentiel d'abus. [19] [6] [22]"
+    },
+    {
+      "question": "Quels sont les principaux inconvénients de la lavande ?",
+      "answer": "L'huile essentielle de lavande semble sûre à la dose recommandée, et les études rapportent très peu de réactions indésirables et presque aucune effet secondaire grave. [15] [9] Les effets secondaires possibles comprennent nausées, diarrhée et ballonnements, qui sont plus fréquents avec l'administration orale. [15] [9] Cependant, ces effets sont généralement légers et transitoires dans la plupart des cas, et la lavande apparaît comme un complément bien toléré. [15] [9] Pour des informations plus détaillées sur la sécurité de la lavande, veuillez consulter les informations de sécurité."
+    },
+    {
+      "question": "Comment agit la lavande ?",
+      "answer": "La lavande serait susceptible d’agir sur le système limbique du cerveau, qui contrôle l’humeur et la mémoire. [4] Elle augmente également l’activité du système nerveux parasympathique, ce qui pourrait réduire la réponse au stress dans l’organisme. [23] Il semble également y avoir un effet sur le récepteur 5-HT1A, impliqué dans l’anxiété. Une liaison réduite à ce récepteur pourrait expliquer les effets anxiolytiques de la lavande. [23] Les canaux calciques voltage-dépendants (VDCC) sont supposés être liés à la réponse inappropriée au stress observée dans le système nerveux central des personnes souffrant d’anxiété et d’autres troubles de l’humeur. La lavande inhibe ces canaux et atténue ainsi cette réponse. La lavande augmente également la quantité de sérotonine dans le système en bloquant les transporteurs de sérotonine (SERT). Les SERT sont des récepteurs qui déplacent la sérotonine de la synapse (le point où deux neurones se rencontrent) vers la cellule nerveuse. Le blocage de ces transporteurs laisse davantage de sérotonine disponible pour le cerveau, ce qui peut améliorer les symptômes d’humeur et d’anxiété. Bien que ce mécanisme soit similaire à celui de certains antidépresseurs, tels que les inhibiteurs sélectifs de la recapture de la sérotonine (ISRS), il n’est pas identique, et la lavande a un effet moindre sur les niveaux globaux de sérotonine que les médicaments antidépresseurs. [1] [24]"
+    }
+  ],
+  "dosage": "La posologie recommandée des suppléments oraux de lavande est de 80 à 160 mg par jour. [1] Pour garantir l’efficacité thérapeutique, les suppléments doivent contenir 25 % à 46 % d’acétate de linalyle et 20 % à 45 % de linalol. [2] Aucun dosage spécifique n’a été établi pour l’utilisation en aromathérapie.",
+  "safety": {
+    "summary": [
+      "L’huile essentielle de lavande et les préparations à base de plante de lavande sont bien tolérées et généralement reconnues comme sûres.",
+      "Les effets indésirables courants lorsque la lavande est prise par voie orale comprennent les éructations (éructation de lavande), les nausées et les céphalées.",
+      "Des éruptions cutanées ont été signalées lorsque des produits contenant de l’huile de lavande sont appliqués localement (p. ex., parfums).",
+      "En dehors de l’aromathérapie à la lavande, il manque de recherches établissant la sécurité de la prise orale de lavande pendant la grossesse et l’allaitement. L’évitement est recommandé."
+    ],
+    "side_effects": {
+      "summary": "L’huile essentielle de lavande et les préparations à base de plante de lavande semblent bien tolérées. Les effets indésirables les plus fréquents comprennent les nausées, les éructations et les céphalées lorsque la lavande est prise par voie orale. [7] [30] [31] Dans un rapport de cas, une femme a développé une pneumonie éosinophilique aiguë, maladie pulmonaire rare caractérisée par l’accumulation d’éosinophiles (un type de globule blanc) dans les poumons, après avoir commencé une aromathérapie à l’aide d’un humidificateur et d’huile essentielle de lavande. Cependant, aucune preuve ne montre que l’huile de lavande a causé la pneumonie, et la composition de l’huile essentielle n’a pas été testée. [41]",
+      "table": [
+        {
+          "effect": "Éructation [6] [7] [29]",
+          "details": "Voie : orale Dose : 80-160 mg par jour d’huile essentielle de lavande (Lavandula angustifolia)"
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Médicaments qui provoquent somnolence/sédation",
+        "effect": "Comme il a été démontré que l’huile essentielle de lavande réduit l’anxiété, [1] on suppose qu’elle pourrait entraîner des effets additifs avec les médicaments sédatifs. Cependant, une petite étude a montré que la prise jusqu’à 640 mg d’huile essentielle de lavande n’augmentait pas la sédation ni les vertiges par rapport à un placebo. [34] De plus, les recherches limitées évaluant la plante de lavande en combinaison avec des médicaments potentiellement sédatifs tels que le citalopram et l’imipramine n’ont pas signalé d’effets sédatifs additifs. [35] [31]",
+        "evidence": "Théorique",
+        "severity": "Inconnu"
+      },
+      {
+        "agent": "Suppléments qui provoquent somnolence/sédation",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Grossesse : éviter",
+        "safety_information": "La lavande et d’autres remèdes à base de plantes sont souvent utilisés par les femmes enceintes afin d’éviter les effets négatifs associés aux médicaments synthétiques. Cependant, les données de sécurité pendant la grossesse sont assez limitées pour les suppléments de lavande. L’inhalation d’huile essentielle de lavande ou les massages utilisant de l’huile de lavande chez les femmes enceintes au troisième trimestre ou pendant l’accouchement semblent être sûrs. [37] [38] [18] Bien que des études in vitro utilisant des cultures cellulaires de placenta aient montré que la lavande et son composé actif linalool sont probablement sûrs aux doses recommandées, [39] [2] ces résultats n’ont pas été confirmés par des études humaines. En fait, la plupart des études qui n’ont observé aucun effet indésirable n’ont pas évalué les effets potentiellement nocifs sur le fœtus ou le nouveau-né. Par conséquent, les préparations orales de lavande doivent être évitées pendant la grossesse car il n’existe aucune preuve de leur sécurité."
+      },
+      {
+        "condition": "Allaitement : éviter",
+        "safety_information": "Bien que l’herbe de lavande soit généralement sûre, elle n’a pas été étudiée directement chez les femmes allaitantes ni chez les nourrissons allaités. L’huile de lavande peut avoir de légers effets œstrogéniques et ne doit pas être appliquée localement autour du sein. [40] Les préparations orales de lavande doivent être évitées jusqu’à ce que davantage de recherches soient disponibles."
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Enfants prépubères",
+        "details": "L’application topique à long terme d’huile de lavande ou l’inhalation de fragrances de lavande peuvent provoquer une gynécomastie réversible (augmentation du tissu mammaire) chez les garçons et les filles qui n’ont pas encore atteint la puberté. [26] [27] [28] Bien que les produits utilisés dans ces rapports de cas contenaient de la lavande ainsi que d’autres ingrédients (p. ex., huile d’arbre à thé), il est possible que la lavande ait joué un rôle et cela doit être pris en compte si des symptômes de gynécomastie apparaissent chez les jeunes enfants."
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la Liste 2025 des substances interdites de l'AMA, la lavande n’est pas interdite."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Participants à l’étude : 67",
+          "studies": [],
+          "participants": 67
+        },
+        {
+          "outcome": "Variabilité de la fréquence cardiaque",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l’étude : 67",
+          "studies": [],
+          "participants": 67
+        },
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 10",
+          "studies": [],
+          "participants": 10
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 119",
+          "studies": [],
+          "participants": 119
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Résilience mentale",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "19 études Participants : 1893",
+          "studies": [],
+          "participants": 1893
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 2102",
+          "studies": [],
+          "participants": 2102
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 372",
+          "studies": [],
+          "participants": 372
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Troubles anxieux (autres)",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "19 études Participants : 1893",
+          "studies": [],
+          "participants": 1893
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 372",
+          "studies": [],
+          "participants": 372
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 2102",
+          "studies": [],
+          "participants": 2102
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 372",
+          "studies": [],
+          "participants": 372
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 221",
+          "studies": [],
+          "participants": 221
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 628",
+          "studies": [],
+          "participants": 628
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Céphalée migraineuse",
+      "outcomes": [
+        {
+          "outcome": "Sévérité de la migraine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 47",
+          "studies": [],
+          "participants": 47
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Ménopause",
+      "outcomes": [
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "C",
+          "effect": "Légère diminution",
+          "evidence": "1 Participants à l'étude : 67",
+          "studies": [],
+          "participants": 67
+        },
+        {
+          "outcome": "Variabilité de la fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 67",
+          "studies": [],
+          "participants": 67
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 67",
+          "studies": [],
+          "participants": 67
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysménorrhée primaire",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dysménorrhée",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 44",
+          "studies": [],
+          "participants": 44
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Aphtes",
+      "outcomes": [
+        {
+          "outcome": "Symptômes des aphtes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 115",
+          "studies": [],
+          "participants": 115
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Pression artérielle",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [],
+          "participants": 20
+        },
+        {
+          "outcome": "Température corporelle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [],
+          "participants": 20
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [],
+          "participants": 20
+        },
+        {
+          "outcome": "Sédation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [],
+          "participants": 20
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble anxieux généralisé",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 77",
+          "studies": [],
+          "participants": 77
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du nourrisson",
+      "outcomes": [
+        {
+          "outcome": "Cortisol",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [],
+          "participants": 30
+        },
+        {
+          "outcome": "Pleurs du nourrisson",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie cardiaque ischémique",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 64",
+          "studies": [],
+          "participants": 64
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de l'humeur",
+      "outcomes": [
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [],
+          "participants": 20
+        },
+        {
+          "outcome": "Sédation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [],
+          "participants": 20
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Névrosthénie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Symptômes de névrosthénie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Agitation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble de stress post-traumatique",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Symptômes de la neurasthénie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Agitation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble de somatisation",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Symptômes de neurasthénie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Agitation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 47",
+          "studies": [],
+          "participants": 47
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 47",
+          "studies": [],
+          "participants": 47
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stress",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "19 Participants aux études: 1893",
+          "studies": [],
+          "participants": 1893
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Participants aux études: 372",
+          "studies": [],
+          "participants": 372
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 2102",
+          "studies": [],
+          "participants": 2102
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 372",
+          "studies": [],
+          "participants": 372
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels sont les différents types d'huiles de lavande ?",
+      "answer": "Toutes les espèces de lavande ne produisent pas la même quantité d'huile ni une huile de même qualité. Adapté du tableau 2 [25]"
+    },
+    {
+      "question": "La lavande peut-elle réduire la douleur pendant l'accouchement ?",
+      "answer": "L'inhalation d'huile essentielle de lavande pourrait aider à réduire la perception de la douleur pendant l'accouchement. Dans un essai contrôlé randomisé (RCT), l'intensité de la douleur lors de la première phase du travail (la phase active) a diminué par rapport à un placebo. [20] Un autre RCT a montré qu'une combinaison de massage et de thérapie par inhalation d'huile essentielle de lavande réduisait la douleur pendant les trois phases du travail. Elle a également raccourci la durée de la phase latente de la première étape du travail (lorsque le col commence à s'assouplir et à se dilater) et augmenté le taux d'allaitement au cours de la période post-partum précoce. [21] Cependant, dans cette étude, le groupe contrôle n'a reçu aucune forme de traitement (par ex., massage ou inhalation avec une huile placebo), de sorte que nous ne pouvons pas exclure la possibilité que les effets observés soient dus, au moins en partie, au bénéfice général du massage ou de l'exposition à une odeur agréable, plutôt qu'aux propriétés thérapeutiques spécifiques de l'huile essentielle de lavande. Une méta-analyse a conclu que la plupart des recherches disponibles sur la lavande sont de faible qualité méthodologique et présentent un risque élevé de biais. [18] De plus, dans les études où un placebo était utilisé, il avait souvent une odeur différente de celle de l'huile de lavande. Cette différence aurait pu faciliter la capacité des participants à deviner s'ils avaient reçu le traitement ou non, influençant potentiellement leurs perceptions et réponses et affectant ainsi la fiabilité des résultats de l'étude. Bien que les données actuelles suggèrent que l'huile essentielle de lavande est probablement sûre tant pour la mère que pour le nouveau-né, [20] des recherches supplémentaires sont nécessaires pour confirmer son efficacité dans la réduction de la douleur pendant l'accouchement."
+    },
+    {
+      "question": "Quels sont les autres noms de la lavande ?",
+      "answer": "Notez que la lavande est également connue sous les noms suivants : - Lavandula angustifolia - Lavandula officinalis - Lavandula vera - Lavandula spica - Lavandula dentata - Lavandula latifolia - Lavandula pubescens - Lavandula stoechas"
+    }
+  ],
+  "references": [
+    {
+      "text": "Restlessness - B Uehleke, S Schaper, A Dienel, S Schlaefke, R Stange Phase II trial on the effects of Silexan in patients with neurasthenia, post-traumatic stress disorder or somatization disorder Phytomedicine. (2012 Jun 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22475718"
+    },
+    {
+      "text": "Blood Pressure - Sayorwan W, Siripornpanich V, Piriyapunyaporn T, Hongratanaworakit T, Kotchabhakdi N, Ruangrungsi N The effects of lavender oil inhalation on emotional states, autonomic nervous system, and brain electrical activity J Med Assoc Thai. (2012 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22612017"
+    },
+    {
+      "text": "Heart Rate Variability - Li-Wei Chien, Su Li Cheng, and Chi Feng Liu The Effect of Lavender Aromatherapy on Autonomic Nervous System in Midlife Women with Insomnia Evidence-Based Complementary and Alternative Medicine. ()",
+      "link": "http://www.hindawi.com/journals/ecam/2012/740813/"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - George T Lewith, Anthony Dean Godfrey, Philip Prescott A single-blinded, randomized pilot study evaluating the aroma of Lavandula augustifolia as a treatment for mild insomnia J Altern Complement Med. (2005 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16131287"
+    },
+    {
+      "text": "Sleep Quality - Inn-Sook Lee, Gyung-Joo Lee [Effects of lavender aromatherapy on insomnia and depression in women college students] Taehan Kanho Hakhoe Chi. (2006 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16520572"
+    },
+    {
+      "text": "Sleep Quality - Shen H, Zhang LJ, Zhu WY The Sleep-Enhancing Effect of Lavender Essential Oil in Adults: A Systematic Review and Meta-Analysis. Holist Nurs Pract. (2025 Jul 14)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40600743"
+    },
+    {
+      "text": "Sleep Quality - Namni Goel, Hyungsoo Kim, Raymund P Lao An olfactory stimulus modifies nighttime sleep in young men and women Chronobiol Int. (2005)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16298774"
+    },
+    {
+      "text": "Sleep Quality - Kasper S, Gastpar M, Müller WE, Volz HP, Möller HJ, Dienel A, Schläfke S Silexan, an orally administered Lavandula oil preparation, is effective in the treatment of 'subsyndromal' anxiety disorder: a randomized, double-blind, placebo controlled trial Int Clin Psychopharmacol. (2010 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20512042"
+    },
+    {
+      "text": "Anxiety Symptoms - Kang HJ, Nam ES, Lee Y, Kim M How Strong is the Evidence for the Anxiolytic Efficacy of Lavender?: Systematic Review and Meta-analysis of Randomized Controlled Trials. Asian Nurs Res (Korean Soc Nurs Sci). (2019-Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31743795"
+    },
+    {
+      "text": "Anxiety Symptoms - J Lehrner, G Marwinski, S Lehr, P Johren, L Deecke Ambient odors of orange and lavender reduce anxiety and improve mood in a dental office Physiol Behav. (2005 Sep 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16095639"
+    },
+    {
+      "text": "Anxiety Symptoms - Metaxia Kritsidima, Tim Newton, Koula Asimakopoulou The effects of lavender scent on dental patient anxiety levels: a cluster randomised-controlled trial Community Dent Oral Epidemiol. (2010 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19968674"
+    },
+    {
+      "text": "Cortisol - Tiffany Field, Tory Field, Christy Cullen, Shay Largie, Miguel Diego, Saul Schanberg, Cynthia Kuhn Lavender bath oil reduces stress and crying and enhances sleep in very young infants Early Hum Dev. (2008 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18053656"
+    },
+    {
+      "text": "Dysmenorrhea Symptoms - Apay SE, Arslan S, Akpinar RB, Celebioglu A Effect of aromatherapy massage on dysmenorrhea in Turkish students Pain Manag Nurs. (2012 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23158705"
+    },
+    {
+      "text": "Sleep Quality - Mahin Moeini, Maryam Khadibi, Reza Bekhradi, Seyed Ahmad Mahmoudian, Fatemeh Nazari Effect of aromatherapy on the quality of sleep in ischemic heart disease patients hospitalized in intensive care units of heart hospitals of the Isfahan University of Medical Sciences Iran J Nurs Midwifery Res. (Fall 2010)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22049287"
+    },
+    {
+      "text": "Anxiety Symptoms - H Woelk, S Schläfke A multi-center, double-blind, randomised study of the Lavender oil preparation Silexan in comparison to Lorazepam for generalized anxiety disorder Phytomedicine. (2010 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19962288"
+    },
+    {
+      "text": "Canker Sores Symptoms - Altaei DT Topical lavender oil for the treatment of recurrent aphthous ulceration Am J Dent. (2012 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22558691"
+    },
+    {
+      "text": "Migraine Severity - Sasannejad P, Saeedi M, Shoeibi A, Gorji A, Abbasi M, Foroughipour M Lavender essential oil in the treatment of migraine headache: a placebo-controlled clinical trial Eur Neurol. (2012)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22517298"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Restlessness - B Uehleke, S Schaper, A Dienel, S Schlaefke, R Stange Phase II trial on the effects of Silexan in patients with neurasthenia, post-traumatic stress disorder or somatization disorder Phytomedicine. (2012 Jun 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22475718"
+    },
+    {
+      "text": "Blood Pressure - Sayorwan W, Siripornpanich V, Piriyapunyaporn T, Hongratanaworakit T, Kotchabhakdi N, Ruangrungsi N The effects of lavender oil inhalation on emotional states, autonomic nervous system, and brain electrical activity J Med Assoc Thai. (2012 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22612017"
+    },
+    {
+      "text": "Heart Rate Variability - Li-Wei Chien, Su Li Cheng, and Chi Feng Liu The Effect of Lavender Aromatherapy on Autonomic Nervous System in Midlife Women with Insomnia Evidence-Based Complementary and Alternative Medicine. ()",
+      "link": "http://www.hindawi.com/journals/ecam/2012/740813/"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - George T Lewith, Anthony Dean Godfrey, Philip Prescott A single-blinded, randomized pilot study evaluating the aroma of Lavandula augustifolia as a treatment for mild insomnia J Altern Complement Med. (2005 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16131287"
+    },
+    {
+      "text": "Sleep Quality - Inn-Sook Lee, Gyung-Joo Lee [Effects of lavender aromatherapy on insomnia and depression in women college students] Taehan Kanho Hakhoe Chi. (2006 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16520572"
+    },
+    {
+      "text": "Sleep Quality - Shen H, Zhang LJ, Zhu WY The Sleep-Enhancing Effect of Lavender Essential Oil in Adults: A Systematic Review and Meta-Analysis. Holist Nurs Pract. (2025 Jul 14)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40600743"
+    },
+    {
+      "text": "Sleep Quality - Namni Goel, Hyungsoo Kim, Raymund P Lao An olfactory stimulus modifies nighttime sleep in young men and women Chronobiol Int. (2005)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16298774"
+    },
+    {
+      "text": "Sleep Quality - Kasper S, Gastpar M, Müller WE, Volz HP, Möller HJ, Dienel A, Schläfke S Silexan, an orally administered Lavandula oil preparation, is effective in the treatment of 'subsyndromal' anxiety disorder: a randomized, double-blind, placebo controlled trial Int Clin Psychopharmacol. (2010 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20512042"
+    },
+    {
+      "text": "Anxiety Symptoms - Kang HJ, Nam ES, Lee Y, Kim M How Strong is the Evidence for the Anxiolytic Efficacy of Lavender?: Systematic Review and Meta-analysis of Randomized Controlled Trials. Asian Nurs Res (Korean Soc Nurs Sci). (2019-Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31743795"
+    },
+    {
+      "text": "Anxiety Symptoms - J Lehrner, G Marwinski, S Lehr, P Johren, L Deecke Ambient odors of orange and lavender reduce anxiety and improve mood in a dental office Physiol Behav. (2005 Sep 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16095639"
+    },
+    {
+      "text": "Anxiety Symptoms - Metaxia Kritsidima, Tim Newton, Koula Asimakopoulou The effects of lavender scent on dental patient anxiety levels: a cluster randomised-controlled trial Community Dent Oral Epidemiol. (2010 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19968674"
+    },
+    {
+      "text": "Cortisol - Tiffany Field, Tory Field, Christy Cullen, Shay Largie, Miguel Diego, Saul Schanberg, Cynthia Kuhn Lavender bath oil reduces stress and crying and enhances sleep in very young infants Early Hum Dev. (2008 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18053656"
+    },
+    {
+      "text": "Dysmenorrhea Symptoms - Apay SE, Arslan S, Akpinar RB, Celebioglu A Effect of aromatherapy massage on dysmenorrhea in Turkish students Pain Manag Nurs. (2012 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23158705"
+    },
+    {
+      "text": "Sleep Quality - Mahin Moeini, Maryam Khadibi, Reza Bekhradi, Seyed Ahmad Mahmoudian, Fatemeh Nazari Effect of aromatherapy on the quality of sleep in ischemic heart disease patients hospitalized in intensive care units of heart hospitals of the Isfahan University of Medical Sciences Iran J Nurs Midwifery Res. (Fall 2010)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22049287"
+    },
+    {
+      "text": "Anxiety Symptoms - H Woelk, S Schläfke A multi-center, double-blind, randomised study of the Lavender oil preparation Silexan in comparison to Lorazepam for generalized anxiety disorder Phytomedicine. (2010 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19962288"
+    },
+    {
+      "text": "Canker Sores Symptoms - Altaei DT Topical lavender oil for the treatment of recurrent aphthous ulceration Am J Dent. (2012 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22558691"
+    },
+    {
+      "text": "Migraine Severity - Sasannejad P, Saeedi M, Shoeibi A, Gorji A, Abbasi M, Foroughipour M Lavender essential oil in the treatment of migraine headache: a placebo-controlled clinical trial Eur Neurol. (2012)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22517298"
+    }
+  ]
+}

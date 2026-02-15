@@ -1,0 +1,516 @@
+{
+  "slug": "binauralbeats",
+  "name": "Battements binauraux",
+  "name_en": "Battements binauraux",
+  "description": "Les battements binauraux sont une forme de stimulation rythmique auditive dans laquelle deux tons, légèrement différents en fréquence, sont diffusés dans chaque oreille, produisant une illusion auditive d’un troisième ton. Les battements binauraux de certaines fréquences ont un effet modeste et positif sur la mémoire, l’attention, la perception de la douleur et la relaxation.",
+  "overview": [
+    {
+      "question": "Que sont les battements binauraux ?",
+      "answer": "Les battements binauraux sont une forme de « stimulation rythmique auditive », qui comprend à la fois les battements monauraux et binauraux. [4] Ils peuvent probablement modifier l’abondance de certaines ondes cérébrales, ce qui pourrait améliorer ou altérer les états mentaux pour rendre les utilisateurs meilleurs en mémorisation, en attention ou en relaxation. Les battements sont créés en diffusant simultanément deux tons légèrement différents en fréquence. Un battement monaural se forme lorsque ces tons sont combinés avant d’être diffusés par un haut-parleur, tandis qu’un battement binaural se forme lorsque chaque ton est diffusé séparément dans chaque oreille, produisant un troisième ton perçu égal à la différence entre les deux tons de base. Par exemple, une personne peut entendre un ton de 240 Hz dans une oreille et un ton de 245 Hz dans l’autre, ce qui produira l’illusion d’un troisième ton de 5 Hz. Les battements binauraux sont une illusion auditive produite en diffusant deux tons légèrement différents dans chaque oreille, et sont réglés sur la fréquence de certaines ondes cérébrales afin de produire l’effet souhaité."
+    },
+    {
+      "question": "Quels sont les bénéfices prétendus des battements binauraux ?",
+      "answer": "Bien que les battements binauraux aient été étudiés dans des pathologies telles que la maladie de Parkinson, [5] les maladies cardiovasculaires, [6] et les acouphènes, [7] la majeure partie de la recherche s’est concentrée sur l’amélioration du sommeil, des fonctions cognitives et de la douleur. De manière générale, les battements binauraux semblent avoir des effets allant de modestes à forts sur le sommeil, la mémoire, l’attention, l’humeur et la douleur. Une brève remarque concernant les études : les groupes « contrôle » varient considérablement et comprennent le silence, le bruit blanc, la musique et des sons factices. Il est difficile de développer des contrôles adéquats pour un traitement de ce type, ce qui mérite d’être gardé à l’esprit. Bien que les battements binauraux aient été investigués pour divers résultats, les meilleures preuves concernent leurs effets sur la mémoire, la relaxation et la douleur. Les battements binauraux de basse fréquence dans les gammes delta, thêta et alpha semblent induire relaxation et réduction de la douleur, tandis que les battements de fréquence plus élevée dans les gammes bêta et gamma pourraient améliorer la mémoire. Les battements de basse fréquence peuvent détériorer la mémoire de façon aiguë, en produisant des états neuronaux incompatibles avec l’encodage de l’information."
+    }
+  ],
+  "dosage": "Comme les battements binauraux nécessitent un son distinct diffusé dans chaque oreille, il faut utiliser des écouteurs. Un certain nombre de générateurs de battements binauraux sont disponibles, dont la plupart offrent la possibilité de régler une fréquence de base (souvent entre 200 et 400 Hz) suivie d’une fréquence binaurale, la première étant la fréquence moyenne des tons diffusés dans chaque oreille et la seconde étant la différence entre les deux fréquences. Les fréquences binaurales sont souvent réglées pour correspondre à certaines fréquences d’ondes cérébrales, selon l’effet recherché : [1] Delta (1-4 Hz) - Sommeil ; Thêta (4-8 Hz) - Somnolence, méditation ; Alpha (8-13 Hz) - Vigilance modérée, méditation, rappel ; Bêta (15-20 Hz) - Concentration, pensée soutenue, excitation ; Gamma (32-100 Hz) - Apprentissage, résolution de problèmes. Note : Certains types de lésions cérébrales peuvent altérer la capacité d’un individu à percevoir les battements binauraux. Par exemple, des personnes ayant présenté une aphasie après un accident vasculaire cérébral sévère n’ont montré aucune réponse aux battements binauraux. [2] De plus, les personnes âgées peuvent ne pas répondre aux battements binauraux aussi efficacement que les plus jeunes, surtout à des fréquences élevées. [3] Pour utiliser les battements binauraux, réglez-les sur la fréquence d’une onde cérébrale souhaitée et écoutez avec des écouteurs. Un certain nombre de générateurs de battements binauraux sont disponibles sur Internet.",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Amélioration cognitive",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études Participants : 49",
+          "studies": [],
+          "participants": 49
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants : 29",
+          "studies": [],
+          "participants": 29
+        },
+        {
+          "outcome": "Créativité",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 24",
+          "studies": [],
+          "participants": 24
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 25",
+          "studies": [],
+          "participants": 25
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 57",
+          "studies": [],
+          "participants": 57
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 29",
+          "studies": [],
+          "participants": 29
+        },
+        {
+          "outcome": "Mémoire verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 25",
+          "studies": [],
+          "participants": 25
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 120",
+          "studies": [],
+          "participants": 120
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Résilience mentale",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "2 Études Participants : 164",
+          "studies": [],
+          "participants": 164
+        },
+        {
+          "outcome": "Variabilité de la fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 21",
+          "studies": [],
+          "participants": 21
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de la mémoire",
+      "outcomes": [
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 71",
+          "studies": [],
+          "participants": 71
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Récupération chirurgicale",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Étude Participants : 39",
+          "studies": [],
+          "participants": 39
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 39",
+          "studies": [],
+          "participants": 39
+        },
+        {
+          "outcome": "Sedation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 49",
+          "studies": [],
+          "participants": 49
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Attention Deficit Hyperactivity Disorder",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 20",
+          "studies": [],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Fibromyalgia",
+      "outcomes": [
+        {
+          "outcome": "Pain",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 36",
+          "studies": [],
+          "participants": 36
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Insomnia",
+      "outcomes": [
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 21",
+          "studies": [],
+          "participants": 21
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 21",
+          "studies": [],
+          "participants": 21
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Douleur chronique",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 17",
+          "studies": [],
+          "participants": 17
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Concentration et attention",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 36",
+          "studies": [],
+          "participants": 36
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 36",
+          "studies": [],
+          "participants": 36
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble d’apprentissage",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 26",
+          "studies": [],
+          "participants": 26
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de l'humeur",
+      "outcomes": [
+        {
+          "outcome": "Cognition",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Participants à l'étude : 29",
+          "studies": [],
+          "participants": 29
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 29",
+          "studies": [],
+          "participants": 29
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Soulagement de la douleur",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l'étude : 39",
+          "studies": [],
+          "participants": 39
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 39",
+          "studies": [],
+          "participants": 39
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [],
+          "participants": 15
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [],
+          "participants": 15
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stress",
+      "outcomes": [
+        {
+          "outcome": "Variabilité de la fréquence cardiaque",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 participants à l'étude : 64",
+          "studies": [],
+          "participants": 64
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 64",
+          "studies": [],
+          "participants": 64
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [
+    {
+      "text": "Pain - Vasileios Gkolias, Aikaterini Amaniti, Areti Triantafyllou, Panagiota Papakonstantinou, Panagiotis Kartsidis, Evangelos Paraskevopoulos, Panagiotis D Bamidis, Leontios Hadjileontiadis, Dimitrios Kouvelas Reduced pain and analgesic use after acoustic binaural beats therapy in chronic pain - A double-blind randomized control cross-over trial Eur J Pain . ( 2020 Jun 21 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32564499"
+    },
+    {
+      "text": "Anxiety Symptoms - B K Isik, A Esen, B Büyükerkmen, A Kilinç, D Menziletoglu Effectiveness of binaural beats in reducing preoperative dental anxiety Br J Oral Maxillofac Surg . ( 2017 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28325532"
+    },
+    {
+      "text": "Anxiety Symptoms - R Padmanabhan, A J Hildreth, D Laws A prospective, randomised, controlled study examining binaural beat audio and pre-operative anxiety in patients undergoing general anaesthesia for day case surgery Anaesthesia . ( 2005 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16115248"
+    },
+    {
+      "text": "Heart Rate Variability - Patrick A McConnell, Brett Froeliger, Eric L Garland, Jeffrey C Ives, Gary A Sforzo Auditory driving of the autonomic nervous system: Listening to theta-frequency binaural beats post-exercise increases parasympathetic activation and sympathetic withdrawal Front Psychol . ( 2014 Nov 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25452734"
+    },
+    {
+      "text": "Working Memory - Jeong-Hwan Lim, Hyeri Kim, Chuljin Jeon, Soohyun Cho The effects on mental fatigue and the cognitive function of mechanical massage and binaural beats (brain massage) provided by massage chairs Complement Ther Clin Pract . ( 2018 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30057053"
+    },
+    {
+      "text": "Working Memory - Christine Beauchene, Nicole Abaid, Rosalyn Moran, Rachel A Diana, Alexander Leonessa The Effect of Binaural Beats on Visuospatial Working Memory and Cortical Connectivity PLoS One . ( 2016 Nov 28 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27893766"
+    },
+    {
+      "text": "Working Memory - Hessel Engelbregt, Nora Meijburg, Marjolein Schulten, Oliver Pogarell, Jan Berend Deijen The Effects of Binaural and Monoaural Beat Stimulation on Cognitive Functioning in Subjects with Different Levels of Emotionality Adv Cogn Psychol . ( 2019 Aug 30 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32395188"
+    },
+    {
+      "text": "Working Memory - Christine Beauchene, Nicole Abaid, Rosalyn Moran, Rachel A Diana, Alexander Leonessa The effect of binaural beats on verbal working memory and cortical connectivity J Neural Eng . ( 2017 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28145275"
+    },
+    {
+      "text": "Creativity - Susan A Reedijk, Anne Bolders, Bernhard Hommel The impact of binaural beats on creativity Front Hum Neurosci . ( 2013 Nov 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24294202"
+    },
+    {
+      "text": "Subjective Well-Being - J D Lane, S J Kasian, J E Owens, G R Marsh Binaural auditory beats affect vigilance performance and mood Physiol Behav . ( 1998 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9423966"
+    },
+    {
+      "text": "Memory - Miguel Garcia-Argibay, Miguel A Santed, José M Reales Binaural auditory beats affect long-term memory Psychol Res . ( 2019 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29222722"
+    },
+    {
+      "text": "Heart Rate Variability - Katherine Kelton, Terri L Weaver, Lisa Willoughby, David Kaufman, Anna Santowski The Efficacy of Binaural Beats as a Stress-buffering Technique Altern Ther Health Med . ( 2020 Jul 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32619206"
+    },
+    {
+      "text": "Cognition - John L. Carter and Harold L. Russell A Pilot Investigation of Auditory and Visual Entrainment of Brain Wave Activity in Learning Disabled Boys Texas Researcher . ( )",
+      "link": "http://www.neuromedicstechnology.com/Library/HR_TR.pdf"
+    },
+    {
+      "text": "Sleep Quality - D E Shumov, I A Yakovenko, N N Alipov, Z V Bakaeva, E B Yakunina, A N Minyuk, A V Vinokurov, V B Dorokhov [The effect of music containing binaural beats on daytime fall-asleep dynamics] Zh Nevrol Psikhiatr Im S S Korsakova . ( 2020 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32307409"
+    },
+    {
+      "text": "Attention - Susan Kennel, Ann Gill Taylor, Debra Lyon, Cheryl Bourguignon Pilot feasibility study of binaural auditory beats for reducing symptoms of inattention in children and adolescents with attention-deficit/hyperactivity disorder J Pediatr Nurs . ( 2010 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20117669"
+    },
+    {
+      "text": "Subjective Well-Being - Lorenza S Colzato, Hayley Barone, Roberta Sellaro, Bernhard Hommel More attentional focusing through binaural beats: evidence from the global-local task Psychol Res . ( 2017 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26612201"
+    },
+    {
+      "text": "Fatigue Symptoms - Vera Abeln, Jens Kleinert, Heiko K Strüder, Stefan Schneider Brainwave entrainment for better sleep and post-sleep state of young elite soccer players - a pilot study Eur J Sport Sci . ( 2014 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23862643"
+    },
+    {
+      "text": "Anxiety Symptoms - Alessandro Tani, Guido Vagheggini, Francesca Moretti, Valentina Del Colombo, Joerg Lehle, Serena Campana, Angelo Labate, Francesco Tomaiuolo Binaural Beats Reduce Postoperative Morphine Consumption in Older adults After Total Knee Replacement Surgery Altern Ther Health Med . ( 2020 May 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32412916"
+    },
+    {
+      "text": "Sedation - Werner Schmid, Peter Marhofer, Philipp Opfermann, Markus Zadrazil, Oliver Kimberger, Lydia Triffterer, Daniela Marhofer, Wolfgang Klug Brainwave entrainment to minimise sedative drug doses in paediatric surgery: a randomised controlled trial Br J Anaesth . ( 2020 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32653082"
+    },
+    {
+      "text": "Pain - Donna D Zampi Efficacy of Theta Binaural Beats for the Treatment of Chronic Pain Altern Ther Health Med . ( Jan-Feb 2016 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26773319"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Pain - Vasileios Gkolias, Aikaterini Amaniti, Areti Triantafyllou, Panagiota Papakonstantinou, Panagiotis Kartsidis, Evangelos Paraskevopoulos, Panagiotis D Bamidis, Leontios Hadjileontiadis, Dimitrios Kouvelas Reduced pain and analgesic use after acoustic binaural beats therapy in chronic pain - A double-blind randomized control cross-over trial Eur J Pain . ( 2020 Jun 21 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32564499"
+    },
+    {
+      "text": "Anxiety Symptoms - B K Isik, A Esen, B Büyükerkmen, A Kilinç, D Menziletoglu Effectiveness of binaural beats in reducing preoperative dental anxiety Br J Oral Maxillofac Surg . ( 2017 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28325532"
+    },
+    {
+      "text": "Anxiety Symptoms - R Padmanabhan, A J Hildreth, D Laws A prospective, randomised, controlled study examining binaural beat audio and pre-operative anxiety in patients undergoing general anaesthesia for day case surgery Anaesthesia . ( 2005 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16115248"
+    },
+    {
+      "text": "Heart Rate Variability - Patrick A McConnell, Brett Froeliger, Eric L Garland, Jeffrey C Ives, Gary A Sforzo Auditory driving of the autonomic nervous system: Listening to theta-frequency binaural beats post-exercise increases parasympathetic activation and sympathetic withdrawal Front Psychol . ( 2014 Nov 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25452734"
+    },
+    {
+      "text": "Working Memory - Jeong-Hwan Lim, Hyeri Kim, Chuljin Jeon, Soohyun Cho The effects on mental fatigue and the cognitive function of mechanical massage and binaural beats (brain massage) provided by massage chairs Complement Ther Clin Pract . ( 2018 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30057053"
+    },
+    {
+      "text": "Working Memory - Christine Beauchene, Nicole Abaid, Rosalyn Moran, Rachel A Diana, Alexander Leonessa The Effect of Binaural Beats on Visuospatial Working Memory and Cortical Connectivity PLoS One . ( 2016 Nov 28 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27893766"
+    },
+    {
+      "text": "Working Memory - Hessel Engelbregt, Nora Meijburg, Marjolein Schulten, Oliver Pogarell, Jan Berend Deijen The Effects of Binaural and Monoaural Beat Stimulation on Cognitive Functioning in Subjects with Different Levels of Emotionality Adv Cogn Psychol . ( 2019 Aug 30 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32395188"
+    },
+    {
+      "text": "Working Memory - Christine Beauchene, Nicole Abaid, Rosalyn Moran, Rachel A Diana, Alexander Leonessa The effect of binaural beats on verbal working memory and cortical connectivity J Neural Eng . ( 2017 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28145275"
+    },
+    {
+      "text": "Creativity - Susan A Reedijk, Anne Bolders, Bernhard Hommel The impact of binaural beats on creativity Front Hum Neurosci . ( 2013 Nov 14 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24294202"
+    },
+    {
+      "text": "Subjective Well-Being - J D Lane, S J Kasian, J E Owens, G R Marsh Binaural auditory beats affect vigilance performance and mood Physiol Behav . ( 1998 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9423966"
+    },
+    {
+      "text": "Memory - Miguel Garcia-Argibay, Miguel A Santed, José M Reales Binaural auditory beats affect long-term memory Psychol Res . ( 2019 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29222722"
+    },
+    {
+      "text": "Heart Rate Variability - Katherine Kelton, Terri L Weaver, Lisa Willoughby, David Kaufman, Anna Santowski The Efficacy of Binaural Beats as a Stress-buffering Technique Altern Ther Health Med . ( 2020 Jul 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32619206"
+    },
+    {
+      "text": "Cognition - John L. Carter and Harold L. Russell A Pilot Investigation of Auditory and Visual Entrainment of Brain Wave Activity in Learning Disabled Boys Texas Researcher . ( )",
+      "link": "http://www.neuromedicstechnology.com/Library/HR_TR.pdf"
+    },
+    {
+      "text": "Sleep Quality - D E Shumov, I A Yakovenko, N N Alipov, Z V Bakaeva, E B Yakunina, A N Minyuk, A V Vinokurov, V B Dorokhov [The effect of music containing binaural beats on daytime fall-asleep dynamics] Zh Nevrol Psikhiatr Im S S Korsakova . ( 2020 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32307409"
+    },
+    {
+      "text": "Attention - Susan Kennel, Ann Gill Taylor, Debra Lyon, Cheryl Bourguignon Pilot feasibility study of binaural auditory beats for reducing symptoms of inattention in children and adolescents with attention-deficit/hyperactivity disorder J Pediatr Nurs . ( 2010 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20117669"
+    },
+    {
+      "text": "Subjective Well-Being - Lorenza S Colzato, Hayley Barone, Roberta Sellaro, Bernhard Hommel More attentional focusing through binaural beats: evidence from the global-local task Psychol Res . ( 2017 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26612201"
+    },
+    {
+      "text": "Fatigue Symptoms - Vera Abeln, Jens Kleinert, Heiko K Strüder, Stefan Schneider Brainwave entrainment for better sleep and post-sleep state of young elite soccer players - a pilot study Eur J Sport Sci . ( 2014 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23862643"
+    },
+    {
+      "text": "Anxiety Symptoms - Alessandro Tani, Guido Vagheggini, Francesca Moretti, Valentina Del Colombo, Joerg Lehle, Serena Campana, Angelo Labate, Francesco Tomaiuolo Binaural Beats Reduce Postoperative Morphine Consumption in Older adults After Total Knee Replacement Surgery Altern Ther Health Med . ( 2020 May 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32412916"
+    },
+    {
+      "text": "Sedation - Werner Schmid, Peter Marhofer, Philipp Opfermann, Markus Zadrazil, Oliver Kimberger, Lydia Triffterer, Daniela Marhofer, Wolfgang Klug Brainwave entrainment to minimise sedative drug doses in paediatric surgery: a randomised controlled trial Br J Anaesth . ( 2020 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32653082"
+    },
+    {
+      "text": "Pain - Donna D Zampi Efficacy of Theta Binaural Beats for the Treatment of Chronic Pain Altern Ther Health Med . ( Jan-Feb 2016 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26773319"
+    }
+  ]
+}

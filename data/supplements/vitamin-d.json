@@ -1,0 +1,3840 @@
+{
+  "slug": "vitamin-d",
+  "name": "Vitamine D",
+  "name_en": "Vitamin D",
+  "description": "La vitamine D est une vitamine liposoluble que notre peau synthétise lorsqu’elle est exposée au soleil. Elle nous profite de multiples façons, de la santé osseuse à l’humeur.",
+  "overview": [
+    {
+      "question": "Qu’est-ce que la vitamine D ?",
+      "answer": "La vitamine D est un nutriment liposoluble. C’est l’un des 24 micronutriments essentiels à la survie humaine. Le soleil constitue la principale source naturelle, en stimulant la production de vitamine D dans la peau, mais la vitamine D se trouve également naturellement dans les poissons gras et les œufs et est souvent ajoutée au lait et aux substituts de lait."
+    },
+    {
+      "question": "Quels sont les principaux bienfaits de la vitamine D ?",
+      "answer": "La supplémentation en vitamine D est associée à une série d’avantages, notamment une amélioration de la santé immunitaire, de la santé osseuse et du bien-être. La prise de suppléments peut également réduire le risque de mortalité par cancer, de diabète et de sclérose en plaques. La vitamine D est souvent utilisée contre la dépression et d’autres troubles de santé mentale, mais les données sont mitigées quant à l’efficacité de la supplémentation sur ces résultats. Les effets de la vitamine D dépendent probablement des concentrations circulantes de 25-hydroxyvitamine D (25(OH)D ; forme de vitamine D mesurée dans les prélèvements sanguins pour évaluer le statut en vitamine D), et de nombreux bénéfices de la supplémentation ne seront observés que lorsque une carence est corrigée."
+    },
+    {
+      "question": "Quels sont les principaux inconvénients de la vitamine D ?",
+      "answer": "Des concentrations très élevées de vitamine D dans le sang, supérieures à 375 nmol/L ou 150 ng/mL, sont toxiques et peuvent entraîner des effets indésirables tels que perte d’appétit, nausées, vomissements, faiblesse musculaire, confusion, déshydratation, soif excessive et calculs rénaux. [8] Des concentrations sanguines extrêmement élevées de vitamine D peuvent même être mortelles. [9] Comme la production cutanée de vitamine D est auto-limitée, l’exposition solaire est peu susceptible de générer des niveaux de vitamine D nocifs (bien qu’il puisse être possible pour des personnes exposées constamment à de fortes intensités solaires, par ex. les sauveteurs, de synthétiser des niveaux dangereusement élevés de vitamine D). [10] Cependant, les concentrations sanguines de vitamine D peuvent facilement atteindre des niveaux toxiques avec une supplémentation chronique à forte dose. Bien que la supplémentation ultra-élevée soit universellement considérée comme toxique, il existe un débat sur la limite supérieure d’une supplémentation « modérée » sûre. La prise d’environ 4 000 UI (100 µg) de vitamine D par jour pendant de longues périodes (≥ 6 mois) semble augmenter le risque d’hypercalcémie (taux sanguin élevé de calcium) et, chez les personnes âgées, la probabilité de chutes. [11] Quelques essais chez les personnes âgées ont montré que la vitamine D augmentait le risque de chutes, [12] [13] et une étude a observé une diminution de la densité minérale osseuse chez les femmes prenant des doses élevées de vitamine D. [14]"
+    },
+    {
+      "question": "Comment la vitamine D agit-elle ?",
+      "answer": "La vitamine D exerce ses effets en se liant au récepteur de la vitamine D (VDR) et en l’activant. Lorsqu’elle se lie à la vitamine D, le VDR agit comme facteur de transcription, régulant l’activité de plus de 1 000 gènes différents. [15] Cette action « génomique » de la vitamine D tend à être plus lente, nécessitant la synthèse de nouveaux ARNm et protéines pour se manifester. La vitamine D agit également via des mécanismes « non génomiques », provoquant une activation rapide de diverses voies de signalisation intracellulaires. Bien que des VDR aient été identifiés sur les membranes cellulaires, on ne sait pas encore si l’action non génomique plus rapide de la vitamine D se produit via des récepteurs de vitamine D associés à la membrane ou via un autre récepteur cellulaire. [16] Bien que les effets les plus couramment associés à la vitamine D concernent le métabolisme osseux, la présence quasi ubiquitaire des VDR dans les cellules et tissus de tout le corps indique que la vitamine D peut influencer un large éventail de processus physiologiques. [17] Les effets supplémentaires de la vitamine D sur l’organisme comprennent, sans s’y limiter, les suivants : [18]"
+    }
+  ],
+  "dosage": "Formulation : Les suppléments de vitamine D sont disponibles sous deux formes principales : vitamine D3 (cholécalciférol) et vitamine D2 (ergocalciférol). La supplémentation en D3 est généralement recommandée plutôt qu’en D2, car la D3 a tendance à augmenter les concentrations sanguines de façon plus efficace. [1] [2] La vitamine D se présente sous une grande variété de formulations, notamment comprimés, gélules, capsules molles, gouttes et poudre. Gamme de doses étudiées 💡 Astuce : unités internationales vs. microgrammes Les études ont varié considérablement dans les doses de vitamine D utilisées, allant de 400 UI (10 µg) par jour à 300 000 UI (7 500 µg) par jour - bien au-delà des recommandations ! Parfois, la vitamine D a été administrée à des intervalles plus longs, comme hebdomadaires, mensuels ou même annuels. [4] La plupart des personnes devraient consommer au moins l’apport nutritionnel recommandé (ANR) en vitamine D, qui comprend la vitamine D provenant de toutes les sources (aliments, boissons, suppléments et médicaments) combinées. Il est fréquent que les doses de suppléments dépassent l’ANR ; toutefois, il est important de ne pas dépasser le niveau d’apport maximal tolérable (UL) sauf avis et suivi d’un professionnel de santé. **Apport Nutritionnel Recommandé** AGE HOMME FEMME ENCEINTÉE ALLAITANTE 0-12 mois 10 µg (400 UI)* 10 µg (400 UI)* - - 1-13 ans 15 µg (600 UI) 15 µg (600 UI) - - 14-18 ans 15 µg (600 UI) 15 µg (600 UI) 15 µg (600 UI) 15 µg (600 UI) 19-50 ans 15 µg (600 UI) 15 µg (600 UI) 15 µg (600 UI) 15 µg (600 UI) 51-70 ans 15 µg (600 UI) 15 µg (600 UI) - - >70 ans 20 µg (800 UI) 20 µg (800 UI) - - *Apport adéquat (AA) Référence : Institute of Medicine. Dietary Reference Intakes for Adequacy: Calcium and Vitamin D (chapitre 5, Dietary Reference Intakes for Calcium and Vitamin D). The National Academies Press. 2011. DOI : 10.17226/13050 **Niveau d’Apport Maximal Tolérable** ÂGE / SITUATION DOSE 0-6 mois 25 µg (1 000 UI) 7-12 mois 38 µg (1 500 UI) 1-3 ans 63 µg (2 500 UI) 4-8 ans 75 µg (3 000 UI) 9-13 ans 100 µg (4 000 UI) 14-18 ans 100 µg (4 000 UI) >18 ans 100 µg (4 000 UI) Enceinte ou allaitante 100 µg (4 000 UI) Référence : Institute of Medicine. Dietary Reference Intakes for Adequacy: Calcium and Vitamin D (chapitre 6, Dietary Reference Intakes for Calcium and Vitamin D). The National Academies Press. 2011. DOI : 10.17226/13050 **Autres considérations** La vitamine D est mieux absorbée lorsqu’elle est prise avec un repas ou une source de graisse. [5] Cependant, la prise avec ou sans nourriture n’a probablement pas d’effet majeur sur sa capacité à augmenter les concentrations de vitamine D à long terme. [6] [7] [5]",
+  "safety": {
+    "summary": [
+      "La vitamine D est bien tolérée lorsqu’elle est utilisée aux doses recommandées (par ex., 4 000 UI par jour). Des doses excessives peuvent augmenter les niveaux de calcium, ce qui peut entraîner divers effets indésirables et interactions médicamenteuses.",
+      "Les suppléments de vitamine D présentent un faible potentiel d’interactions médicamenteuses.",
+      "La supplémentation en vitamine D doit être soigneusement surveillée chez les personnes atteintes de maladie rénale.",
+      "La vitamine D est sûre à prendre pendant la grossesse et l’allaitement."
+    ],
+    "side_effects": {
+      "summary": "La vitamine D est bien tolérée, et le niveau d’apport maximal tolérable (UL) pour les adultes est de 4 000 UI par jour. Bien que des doses allant jusqu’à 10 000 UI par jour n’aient pas été associées à des événements indésirables, par précaution, une dose plus basse a été retenue comme UL.",
+      "table": [
+        {
+          "effect": "Hypercalcémie (taux élevés de calcium) [4]",
+          "details": "Voie : orale Dose : 50 000 UI ou plus de vitamine D prises pendant plusieurs semaines ou mois Notes : L’hypercalcémie peut évoluer vers une hypercalcaturie (taux élevé de calcium dans les urines), une insuffisance rénale, des calculs rénaux et la calcification des tissus mous."
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Médicaments qui sont des substrats du CYP3A4",
+        "effect": "La vitamine D peut induire les enzymes CYP3A4 et diminuer les concentrations et les effets des substrats du CYP3A4. Une petite étude a montré que la prise de vitamine D entraînait des concentrations plus faibles d’atorvastatine, un substrat du CYP3A4. [98] De plus, certaines recherches observationnelles limitées ont trouvé que, comparativement aux mois d’hiver, les concentrations des substrats du CYP3A4 : sirolimus et tacrolimus, étaient plus basses pendant les mois d’été, ce qui coïncide avec une augmentation des concentrations sanguines de vitamine D durant l’été. [99]",
+        "evidence": "Possible",
+        "severity": "Mineur"
+      },
+      {
+        "agent": "Atorvastatin",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "Calcium",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Sans danger pendant la grossesse",
+        "safety_information": "La vitamine D est bien tolérée, et une dose quotidienne de 4 000 UI est considérée comme le niveau d’apport maximal tolérable (la dose la plus élevée qui ne devrait pas entraîner d’effets indésirables) chez les femmes enceintes. [4] Il est à noter que certaines recherches cliniques ont utilisé de la vitamine D à des doses allant jusqu’à 100 000 UI chez des femmes enceintes, sans événements indésirables signalés chez leurs enfants, qui ont été suivis jusqu’à 16 ans. [111]"
+      },
+      {
+        "condition": "Sans danger pendant l’allaitement",
+        "safety_information": "La vitamine D est bien tolérée, et une dose quotidienne de 4 000 UI est désignée comme le niveau d’apport maximal tolérable (la dose la plus élevée qui ne devrait pas entraîner d’effets indésirables) chez les femmes allaitantes. [4] Il est à noter que certains chercheurs recommandent que les mères allaitantes prennent 4 000 UI ou plus de vitamine D quotidiennement afin de fournir à leur nourrisson les 10 µg de vitamine D recommandés chaque jour via le lait maternel. [112]"
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Maladie rénale chronique",
+        "details": "Les personnes atteintes d’une maladie rénale sont plus susceptibles d’être déficientes en vitamine D et d’avoir des difficultés à métaboliser la vitamine D supplémentaire en sa forme active (1,25-dihydroxyvitamine D) dans l’organisme. [95] Une petite étude observationnelle chez des participants en insuffisance rénale sous dialyse a montré que la supplémentation en vitamine D était associée à une élévation du taux de calcium et à une augmentation de la rigidité artérielle. [96] La supplémentation en vitamine D doit être soigneusement surveillée chez les personnes atteintes d’une maladie rénale."
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la liste 2025 des substances interdites du WADA, la vitamine D n'est pas interdite."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Infection des voies respiratoires supérieures",
+      "outcomes": [
+        {
+          "outcome": "Infection bactérienne",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Étude Participants : 140",
+          "studies": [],
+          "participants": 140
+        },
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Étude Participants : 25",
+          "studies": [],
+          "participants": 25
+        },
+        {
+          "outcome": "Toux",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 164",
+          "studies": [],
+          "participants": 164
+        },
+        {
+          "outcome": "Fever",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 164",
+          "studies": [],
+          "participants": 164
+        },
+        {
+          "outcome": "Influenza Risk",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Studies Participants: 2003",
+          "studies": [],
+          "participants": 2003
+        },
+        {
+          "outcome": "Lower Respiratory Tract Infection Risk",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 5110",
+          "studies": [],
+          "participants": 5110
+        },
+        {
+          "outcome": "Muscle Mass",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 25",
+          "studies": [],
+          "participants": 25
+        },
+        {
+          "outcome": "Upper Respiratory Tract Infection Risk",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 études Participants : 18909",
+          "studies": [],
+          "participants": 18909
+        },
+        {
+          "outcome": "Symptômes d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 2971",
+          "studies": [],
+          "participants": 2971
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 25",
+          "studies": [],
+          "participants": 25
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Sclérose en plaques",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la sclérose en plaques",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants : 719",
+          "studies": [],
+          "participants": 719
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Rhume",
+      "outcomes": [
+        {
+          "outcome": "Risque de grippe",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "2 études Participants : 2003",
+          "studies": [],
+          "participants": 2003
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires inférieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 240",
+          "studies": [],
+          "participants": 240
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants : 5265",
+          "studies": [],
+          "participants": 5265
+        },
+        {
+          "outcome": "Symptômes d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 2352",
+          "studies": [],
+          "participants": 2352
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "COVID-19",
+      "outcomes": [
+        {
+          "outcome": "Mortalité toutes causes confondues",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 Études Participants : 5806",
+          "studies": [],
+          "participants": 5806
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 1492",
+          "studies": [],
+          "participants": 1492
+        },
+        {
+          "outcome": "Sévérité du COVID-19",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 385",
+          "studies": [],
+          "participants": 385
+        },
+        {
+          "outcome": "Ferritine",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 1492",
+          "studies": [],
+          "participants": 1492
+        },
+        {
+          "outcome": "Hémoglobine",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 1492",
+          "studies": [],
+          "participants": 1492
+        },
+        {
+          "outcome": "risque d'admission en unité de soins intensifs",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études Participants: 4936",
+          "studies": [],
+          "participants": 4936
+        },
+        {
+          "outcome": "risque d'intubation",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants: 4936",
+          "studies": [],
+          "participants": 4936
+        },
+        {
+          "outcome": "durée d'hospitalisation",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants: 944",
+          "studies": [],
+          "participants": 944
+        },
+        {
+          "outcome": "numération des lymphocytes",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants: 1492",
+          "studies": [],
+          "participants": 1492
+        },
+        {
+          "outcome": "besoin de ventilation mécanique",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants: 2435",
+          "studies": [],
+          "participants": 2435
+        },
+        {
+          "outcome": "Numération des neutrophiles",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 1492",
+          "studies": [],
+          "participants": 1492
+        },
+        {
+          "outcome": "Plaquettes sériques",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 447",
+          "studies": [],
+          "participants": 447
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Obésité",
+      "outcomes": [
+        {
+          "outcome": "Rigidité artérielle",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude participants : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Masse grasse",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études participants : 184",
+          "studies": [],
+          "participants": 184
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études participants : 337",
+          "studies": [],
+          "participants": 337
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude participants : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Apport alimentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude participants : 77",
+          "studies": [],
+          "participants": 77
+        },
+        {
+          "outcome": "Contrôle glycémique",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 112",
+          "studies": [],
+          "participants": 112
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 70",
+          "studies": [],
+          "participants": 70
+        },
+        {
+          "outcome": "Inflammation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 70",
+          "studies": [],
+          "participants": 70
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Hormone parathyroïdienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Vélocité de l'onde de pouls",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants: 93",
+          "studies": [],
+          "participants": 93
+        },
+        {
+          "outcome": "Incidence du diabète de type 2",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 27425",
+          "studies": [],
+          "participants": 27425
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants: 290",
+          "studies": [],
+          "participants": 290
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants: 307",
+          "studies": [],
+          "participants": 307
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "30 études Participants: 2982",
+          "studies": [],
+          "participants": 2982
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 70",
+          "studies": [],
+          "participants": 70
+        },
+        {
+          "outcome": "Contrôle glycémique",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 99",
+          "studies": [],
+          "participants": 99
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "36 études Participants: 2982",
+          "studies": [],
+          "participants": 2982
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "16 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 Études Participants: 2982",
+          "studies": [],
+          "participants": 2982
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 Études Participants: 2982",
+          "studies": [],
+          "participants": 2982
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Incidence du diabète de type 2",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 27425",
+          "studies": [],
+          "participants": 27425
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Infection respiratoire aiguë",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'asthme",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants: 11321",
+          "studies": [],
+          "participants": 11321
+        },
+        {
+          "outcome": "Symptômes de la MPO",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 11321",
+          "studies": [],
+          "participants": 11321
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires inférieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "25 Études Participants: 10993",
+          "studies": [],
+          "participants": 10993
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 Études Participants: 3958",
+          "studies": [],
+          "participants": 3958
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Surpoids",
+      "outcomes": [
+        {
+          "outcome": "Rigidité artérielle",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants: 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants: 184",
+          "studies": [],
+          "participants": 184
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants: 337",
+          "studies": [],
+          "participants": 337
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Apport alimentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 77",
+          "studies": [],
+          "participants": 77
+        },
+        {
+          "outcome": "Contrôle glycémique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 89",
+          "studies": [],
+          "participants": 89
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 92",
+          "studies": [],
+          "participants": 92
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 70",
+          "studies": [],
+          "participants": 70
+        },
+        {
+          "outcome": "Inflammation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 181",
+          "studies": [],
+          "participants": 181
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 70",
+          "studies": [],
+          "participants": 70
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 77",
+          "studies": [],
+          "participants": 77
+        },
+        {
+          "outcome": "Hormone parathyroïdienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 77",
+          "studies": [],
+          "participants": 77
+        },
+        {
+          "outcome": "Vitesse d'onde de pouls",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 225",
+          "studies": [],
+          "participants": 225
+        },
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants aux études : 93",
+          "studies": [],
+          "participants": 93
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Participants aux études : 290",
+          "studies": [],
+          "participants": 290
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 307",
+          "studies": [],
+          "participants": 307
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome prémenstruel",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "3 études Participants : 346",
+          "studies": [],
+          "participants": 346
+        },
+        {
+          "outcome": "Crampes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 897",
+          "studies": [],
+          "participants": 897
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 58",
+          "studies": [],
+          "participants": 58
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 130",
+          "studies": [],
+          "participants": 130
+        },
+        {
+          "outcome": "Interleukine 10",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 44",
+          "studies": [],
+          "participants": 44
+        },
+        {
+          "outcome": "Interleukine 12",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 44",
+          "studies": [],
+          "participants": 44
+        },
+        {
+          "outcome": "Symptômes du SPM",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 1287",
+          "studies": [],
+          "participants": 1287
+        },
+        {
+          "outcome": "Capacité antioxydante totale (TAC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 44",
+          "studies": [],
+          "participants": 44
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé immunitaire",
+      "outcomes": [
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "C",
+          "effect": "Légère diminution",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Interleukine 5",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [],
+          "participants": 30
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Hormone parathyroïdienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "TNF-alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Symptômes de la tuberculose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 120",
+          "studies": [],
+          "participants": 120
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 152",
+          "studies": [],
+          "participants": 152
+        },
+        {
+          "outcome": "Symptômes d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 68",
+          "studies": [],
+          "participants": 68
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Asthme",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'asthme",
+          "grade": "B",
+          "effect": "Amélioration légère",
+          "evidence": "8 Études Participants : 594",
+          "studies": [],
+          "participants": 594
+        },
+        {
+          "outcome": "Fonction pulmonaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 156",
+          "studies": [],
+          "participants": 156
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 Études Participants : 3958",
+          "studies": [],
+          "participants": 3958
+        },
+        {
+          "outcome": "Symptômes d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 658",
+          "studies": [],
+          "participants": 658
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Endométriose",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Dyschésie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Symptômes de dysménorrhée",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 99",
+          "studies": [],
+          "participants": 99
+        },
+        {
+          "outcome": "Dyspareunie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participant à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Douleur pelvienne associée à l'endométriose",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 108",
+          "studies": [],
+          "participants": 108
+        },
+        {
+          "outcome": "Glutathione (GSH)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participant à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Contrôle glycémique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participant à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Biomarqueurs du stress oxydatif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Douleur pelvienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 510",
+          "studies": [],
+          "participants": 510
+        },
+        {
+          "outcome": "Capacité antioxydante totale (TAC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Ratio cholestérol total/HDL",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "vLDL-C",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Grippe",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'asthme",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 334",
+          "studies": [],
+          "participants": 334
+        },
+        {
+          "outcome": "Fièvre",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 334",
+          "studies": [],
+          "participants": 334
+        },
+        {
+          "outcome": "Risque d'influenza",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 1482",
+          "studies": [],
+          "participants": 1482
+        },
+        {
+          "outcome": "Symptômes de la pneumonie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 334",
+          "studies": [],
+          "participants": 334
+        },
+        {
+          "outcome": "Symptômes d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 332",
+          "studies": [],
+          "participants": 332
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Pression artérielle",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "2 Études Participants : 12749",
+          "studies": [],
+          "participants": 12749
+        },
+        {
+          "outcome": "Mortalité due aux maladies cardiovasculaires",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 28366",
+          "studies": [],
+          "participants": 28366
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Hématocrite",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 105",
+          "studies": [],
+          "participants": 105
+        },
+        {
+          "outcome": "Hémoglobine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 105",
+          "studies": [],
+          "participants": 105
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 105",
+          "studies": [],
+          "participants": 105
+        },
+        {
+          "outcome": "Inflammation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 105",
+          "studies": [],
+          "participants": 105
+        },
+        {
+          "outcome": "Numération des globules rouges",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 105",
+          "studies": [],
+          "participants": 105
+        },
+        {
+          "outcome": "Risque de maladie cardiovasculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Participants aux études : 57201",
+          "studies": [],
+          "participants": 57201
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Prévention des chutes",
+      "outcomes": [
+        {
+          "outcome": "Risque de chute",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "8 Participants aux études : 2426",
+          "studies": [],
+          "participants": 2426
+        },
+        {
+          "outcome": "Fonctionnalité chez les personnes âgées ou blessées",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 688",
+          "studies": [],
+          "participants": 688
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Prédiabète",
+      "outcomes": [
+        {
+          "outcome": "Fonction des cellules bêta",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 66",
+          "studies": [],
+          "participants": 66
+        },
+        {
+          "outcome": "Contrôle glycémique",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 97",
+          "studies": [],
+          "participants": 97
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 89",
+          "studies": [],
+          "participants": 89
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 66",
+          "studies": [],
+          "participants": 66
+        },
+        {
+          "outcome": "Incidence du diabète de type 2",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 27425",
+          "studies": [],
+          "participants": 27425
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Fibromyalgie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la fibromyalgie",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants aux études : 176",
+          "studies": [],
+          "participants": 176
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé osseuse",
+      "outcomes": [
+        {
+          "outcome": "Marqueurs de remodelage osseux",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 91",
+          "studies": [],
+          "participants": 91
+        },
+        {
+          "outcome": "Absorption du calcium",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 64",
+          "studies": [],
+          "participants": 64
+        },
+        {
+          "outcome": "Risque de fracture",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 Participants aux études : 42279",
+          "studies": [],
+          "participants": 42279
+        },
+        {
+          "outcome": "Hormone parathyroïdienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 64",
+          "studies": [],
+          "participants": 64
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cancer du sein",
+      "outcomes": [
+        {
+          "outcome": "Douleur articulaire liée aux inhibiteurs de l'aromatase",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Study Participants: 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Breast Cancer Risk",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Studies Participants: 3861",
+          "studies": [],
+          "participants": 3861
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Coronary Artery Disease",
+      "outcomes": [
+        {
+          "outcome": "Body Fat",
+          "grade": "C",
+          "effect": "Small Decrease",
+          "evidence": "1 Study Participants: 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Low-density lipoprotein (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Metabolic Rate",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Hormone parathyroïdienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Risque de maladie cardiovasculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 2988",
+          "studies": [],
+          "participants": 2988
+        },
+        {
+          "outcome": "TNF-Alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome de l'intestin irritable",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du syndrome de l'intestin irritable",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 Études Participants : 685802",
+          "studies": [],
+          "participants": 685802
+        },
+        {
+          "outcome": "Vitamine D plasmatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 780",
+          "studies": [],
+          "participants": 780
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 685802",
+          "studies": [],
+          "participants": 685802
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Infertilité",
+      "outcomes": [
+        {
+          "outcome": "Motilité du sperme",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "4 études Participants : 0",
+          "studies": [],
+          "participants": 0
+        },
+        {
+          "outcome": "Globuline liant les hormones sexuelles",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 449",
+          "studies": [],
+          "participants": 449
+        },
+        {
+          "outcome": "Numération des spermatozoïdes",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 0",
+          "studies": [],
+          "participants": 0
+        },
+        {
+          "outcome": "Qualité du sperme",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 0",
+          "studies": [],
+          "participants": 0
+        },
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 449",
+          "studies": [],
+          "participants": 449
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysménorrhée primaire",
+      "outcomes": [
+        {
+          "outcome": "Crampes",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants : 897",
+          "studies": [],
+          "participants": 897
+        },
+        {
+          "outcome": "Douleur pelvienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 510",
+          "studies": [],
+          "participants": 510
+        },
+        {
+          "outcome": "Symptômes du SPM",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 897",
+          "studies": [],
+          "participants": 897
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Ostéoporose",
+      "outcomes": [
+        {
+          "outcome": "Densité minérale osseuse",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "22 études Participants : 5522",
+          "studies": [],
+          "participants": 5522
+        },
+        {
+          "outcome": "Phosphatase alcaline spécifique osseuse",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 8058",
+          "studies": [],
+          "participants": 8058
+        },
+        {
+          "outcome": "Risque de fracture",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 42279",
+          "studies": [],
+          "participants": 42279
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Infection des voies respiratoires inférieures",
+      "outcomes": [
+        {
+          "outcome": "Risque d'infection des voies respiratoires inférieures",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Study Participants: 5110",
+          "studies": [],
+          "participants": 5110
+        },
+        {
+          "outcome": "Upper Respiratory Tract Infection Risk",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Studies Participants: 10220",
+          "studies": [],
+          "participants": 10220
+        },
+        {
+          "outcome": "Upper Respiratory Tract Infection Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 156",
+          "studies": [],
+          "participants": 156
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Muscle Size & Strength",
+      "outcomes": [
+        {
+          "outcome": "Interleukin 5",
+          "grade": "C",
+          "effect": "Small Increase",
+          "evidence": "1 Study Participants: 30",
+          "studies": [],
+          "participants": 30
+        },
+        {
+          "outcome": "Power Output",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 20",
+          "studies": [],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Pneumonia",
+      "outcomes": [
+        {
+          "outcome": "Pneumonia Symptoms",
+          "grade": "D",
+          "effect": "No effect",
+          "evidence": "2 Studies Participants: 653",
+          "studies": [],
+          "participants": 653
+        },
+        {
+          "outcome": "Upper Respiratory Tract Infection Risk",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 453",
+          "studies": [],
+          "participants": 453
+        },
+        {
+          "outcome": "Upper Respiratory Tract Infection Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 453",
+          "studies": [],
+          "participants": 453
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Tuberculosis",
+      "outcomes": [
+        {
+          "outcome": "Taille",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude : 120",
+          "studies": [],
+          "participants": 120
+        },
+        {
+          "outcome": "Risque de tuberculose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 0",
+          "studies": [],
+          "participants": 0
+        },
+        {
+          "outcome": "Symptômes de la tuberculose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 120",
+          "studies": [],
+          "participants": 120
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Carence en vitamine D",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "B",
+          "effect": "Petite amélioration",
+          "evidence": "6 études Participants : 679",
+          "studies": [],
+          "participants": 679
+        },
+        {
+          "outcome": "Symptômes de la fibromyalgie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 137",
+          "studies": [],
+          "participants": 137
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance athlétique générale",
+      "outcomes": [
+        {
+          "outcome": "Interleukine 5",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 étude Participants : 30",
+          "studies": [],
+          "participants": 30
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 20",
+          "studies": [],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Douleur articulaire liée aux inhibiteurs d'aromatase",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude: 290",
+          "studies": [],
+          "participants": 290
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Acné",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l’acné",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude: 44",
+          "studies": [],
+          "participants": 44
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie d’Alzheimer",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la maladie d’Alzheimer",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude: 210",
+          "studies": [],
+          "participants": 210
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie pulmonaire obstructive chronique",
+      "outcomes": [
+        {
+          "outcome": "Cathelicidine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participant à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Migraine",
+      "outcomes": [
+        {
+          "outcome": "Fréquence des migraines",
+          "grade": "B",
+          "effect": "Légère diminution",
+          "evidence": "2 Participants aux études : 122",
+          "studies": [],
+          "participants": 122
+        },
+        {
+          "outcome": "Gravité de la migraine",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 122",
+          "studies": [],
+          "participants": 122
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypertension",
+      "outcomes": [
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Participants aux études : 545",
+          "studies": [],
+          "participants": 545
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypercholestérolémie",
+      "outcomes": [
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "Étude 1 Participants : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 Participants : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 Participants : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Hormone parathyroïdienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 Participants : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "TNF-Alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Testostérone basse",
+      "outcomes": [
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 165",
+          "studies": [],
+          "participants": 165
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Ménopause",
+      "outcomes": [
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Inflammation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stéatose hépatique non alcoolique",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "11 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "16 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 Études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants: 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études Participants: 1",
+          "studies": [],
+          "participants": 1
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "arthrose",
+      "outcomes": [
+        {
+          "outcome": "Contenu en collagène",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 146",
+          "studies": [],
+          "participants": 146
+        },
+        {
+          "outcome": "Symptômes de l'arthrose",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 146",
+          "studies": [],
+          "participants": 146
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 146",
+          "studies": [],
+          "participants": 146
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome des ovaires polykystiques",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 691",
+          "studies": [],
+          "participants": 691
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 691",
+          "studies": [],
+          "participants": 691
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 691",
+          "studies": [],
+          "participants": 691
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 691",
+          "studies": [],
+          "participants": 691
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 691",
+          "studies": [],
+          "participants": 691
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 691",
+          "studies": [],
+          "participants": 691
+        },
+        {
+          "outcome": "vLDL-C",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 691",
+          "studies": [],
+          "participants": 691
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Type 1 Diabetes",
+      "outcomes": [
+        {
+          "outcome": "Type 1 Diabetes Incidence",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 51",
+          "studies": [],
+          "participants": 51
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cardiovascular Disease",
+      "outcomes": [
+        {
+          "outcome": "All-Cause Mortality",
+          "grade": "D",
+          "effect": "No effect",
+          "evidence": "1 Study Participants: 3258",
+          "studies": [],
+          "participants": 3258
+        },
+        {
+          "outcome": "Risk Of Cardiovascular Disease",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 3258",
+          "studies": [],
+          "participants": 3258
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie hépatique chronique",
+      "outcomes": [
+        {
+          "outcome": "Mortalité toutes causes confondues",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "4 études Participants : 4084",
+          "studies": [],
+          "participants": 4084
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 études Participants : 4084",
+          "studies": [],
+          "participants": 4084
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 études Participants : 4084",
+          "studies": [],
+          "participants": 4084
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 études Participants : 4084",
+          "studies": [],
+          "participants": 4084
+        },
+        {
+          "outcome": "Liver Enzymes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 4084",
+          "studies": [],
+          "participants": 4084
+        },
+        {
+          "outcome": "Liver Fat",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 4084",
+          "studies": [],
+          "participants": 4084
+        },
+        {
+          "outcome": "Liver Fibrosis",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 4084",
+          "studies": [],
+          "participants": 4084
+        },
+        {
+          "outcome": "Triglycerides",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Studies Participants: 4084",
+          "studies": [],
+          "participants": 4084
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cystic Fibrosis",
+      "outcomes": [
+        {
+          "outcome": "Bone turnover markers",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 91",
+          "studies": [],
+          "participants": 91
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Ulcères du pied diabétique",
+      "outcomes": [
+        {
+          "outcome": "Cicatrisation des plaies",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 0",
+          "studies": [],
+          "participants": 0
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Fragilité",
+      "outcomes": [
+        {
+          "outcome": "Risque de fracture",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 Participants aux études : 42279",
+          "studies": [],
+          "participants": 42279
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé infantile",
+      "outcomes": [
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 Participants à l'étude : 230",
+          "studies": [],
+          "participants": 230
+        },
+        {
+          "outcome": "Hormone parathyroïdienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 230",
+          "studies": [],
+          "participants": 230
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 230",
+          "studies": [],
+          "participants": 230
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Durée de vie plus longue",
+      "outcomes": [
+        {
+          "outcome": "Mortalité toutes causes confondues",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 94148",
+          "studies": [],
+          "participants": 94148
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble dépressif majeur",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Contrôle glycémique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [],
+          "participants": 40
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 9",
+          "studies": [],
+          "participants": 9
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome métabolique",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "B",
+          "effect": "Petite amélioration",
+          "evidence": "11 études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "16 études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Études Participants : 1",
+          "studies": [],
+          "participants": 1
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études Participants : 1",
+          "studies": [],
+          "participants": 1
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de l'humeur",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Amélioration légère",
+          "evidence": "7 études Participants : 641",
+          "studies": [],
+          "participants": 641
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "31 études Participants : 24189",
+          "studies": [],
+          "participants": 24189
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Récupération musculaire",
+      "outcomes": [
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 20",
+          "studies": [],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Otite moyenne",
+      "outcomes": [
+        {
+          "outcome": "Risque d'otite moyenne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 116",
+          "studies": [],
+          "participants": 116
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cancer du pancréas",
+      "outcomes": [
+        {
+          "outcome": "Risque de cancer du pancréas",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 46",
+          "studies": [],
+          "participants": 46
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie de Parkinson",
+      "outcomes": [
+        {
+          "outcome": "Performance du test de marche de 6 minutes",
+          "grade": "B",
+          "effect": "Petite amélioration",
+          "evidence": "2 Participants aux études : 191",
+          "studies": [],
+          "participants": 191
+        },
+        {
+          "outcome": "Symptômes de la maladie de Parkinson",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 518",
+          "studies": [],
+          "participants": 518
+        },
+        {
+          "outcome": "Capacité de marche",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 191",
+          "studies": [],
+          "participants": 191
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Prééclampsie",
+      "outcomes": [
+        {
+          "outcome": "Risque de prééclampsie",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "15 études Participants : 5035",
+          "studies": [],
+          "participants": 5035
+        },
+        {
+          "outcome": "Risque d'accouchement prématuré",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 études Participants : 6055",
+          "studies": [],
+          "participants": 6055
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé de la grossesse et de l'accouchement",
+      "outcomes": [
+        {
+          "outcome": "Risque de prééclampsie",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "15 études Participants: 5035",
+          "studies": [],
+          "participants": 5035
+        },
+        {
+          "outcome": "Risque de naissance prématurée",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 études Participants: 6055",
+          "studies": [],
+          "participants": 6055
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé respiratoire",
+      "outcomes": [
+        {
+          "outcome": "Risque d'infection des voies respiratoires inférieures",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 études Participants: 5724",
+          "studies": [],
+          "participants": 5724
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires supérieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants: 5724",
+          "studies": [],
+          "participants": 5724
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants: 93",
+          "studies": [],
+          "participants": 93
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 93",
+          "studies": [],
+          "participants": 93
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 93",
+          "studies": [],
+          "participants": 93
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 93",
+          "studies": [],
+          "participants": 93
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Récupération chirurgicale",
+      "outcomes": [
+        {
+          "outcome": "Risque d'hypocalcémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 645",
+          "studies": [],
+          "participants": 645
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Lésion cérébrale traumatique",
+      "outcomes": [
+        {
+          "outcome": "Inflammation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 35",
+          "studies": [],
+          "participants": 35
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Prurit urémique",
+      "outcomes": [
+        {
+          "outcome": "Démangeaison",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 1085",
+          "studies": [],
+          "participants": 1085
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Perte de poids et maintien",
+      "outcomes": [
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 étude Participants : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Hormone parathyroïdienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "TNF-Alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Triglycerides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 165",
+          "studies": [],
+          "participants": 165
+        },
+        {
+          "outcome": "Weight",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 165",
+          "studies": [],
+          "participants": 165
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Thyroid Cancer",
+      "outcomes": [
+        {
+          "outcome": "Risk of Hypocalcemia",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Studies Participants: 645",
+          "studies": [],
+          "participants": 645
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie de Graves",
+      "outcomes": [
+        {
+          "outcome": "Densité minérale osseuse",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 86",
+          "studies": [],
+          "participants": 86
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles sont certaines sources alimentaires de vitamine D3 ?",
+      "answer": "Les sources alimentaires de vitamine D comprennent les aliments suivants : [9] La plupart des aliments ne sont pas des sources naturelles de vitamine D, mais de nombreux produits aux États-Unis sont enrichis en vitamine D. Parmi les aliments couramment enrichis en vitamine D, on trouve : La plupart des aliments d’origine animale contiennent de la vitamine D sous forme du métabolite 25-hydroxyvitamine D (25(OH)D), ainsi que de petites quantités de vitamine D3. L’impact du 25(OH)D alimentaire sur le statut en vitamine D fait l’objet de recherches en cours, mais il convient de noter que si l’on tenait compte de la teneur en 25(OH)D des aliments tels que le bœuf, le poulet, le porc, la dinde et les œufs, la quantité de vitamine D présente dans ces aliments serait 2 à 18 fois supérieure à celle de la vitamine parentale seule. [60] - poissons gras (comme le thon ou le saumon) - huile de foie de poisson - foie de bœuf - jaunes d’œufs - champignons (vitamine D2), en particulier les champignons exposés aux rayons UV [59] - lait et autres produits laitiers tels que le yaourt - lait de soja, d’amande et d’avoine - jus d’orange - céréales pour le petit-déjeuner"
+    },
+    {
+      "question": "La vitamine K doit-elle être supplémentée en même temps que la vitamine D ?",
+      "answer": "Il a été suggéré que la supplémentation en vitamine K parallèlement à la vitamine D peut améliorer à la fois l’efficacité et la sécurité des suppléments de vitamine D. Cependant, il existe peu de preuves directes soutenant cette pratique. La vitamine D et la vitamine K jouent toutes deux des rôles importants dans le maintien de la santé et de la solidité de nos os, [83] et une carence en l’une ou l’autre de ces vitamines est associée à un risque accru de fracture. [84] Toutefois, un bénéfice de la supplémentation conjointe en vitamines K et D n’a pas été trouvé de façon constante. Actuellement, les meilleures données suggèrent que chez les femmes ménopausées, l’ajout de vitamine K à un régime de vitamine D (souvent également avec du calcium) procure soit un bénéfice transitoire (effet qui disparaît après un an), soit aucun bénéfice sur la densité minérale osseuse. [85] [86] [87] [88] Bien que certaines autres études aient rapporté un bénéfice, [89] [90] des taux d’abandon élevés et le manque de contrôle des comparaisons multiples pourraient avoir introduit un biais dans leurs résultats. L’idée que la vitamine K pourrait rendre la supplémentation en vitamine D plus sûre repose sur le postulat que la vitamine D pourrait augmenter le risque de calcification des artères coronaires (un prédicteur de maladie cardiovasculaire) [91] et que la vitamine K pourrait agir pour prévenir cette calcification. [92] Cependant, cette théorie présente d’importantes limites. Premièrement, la supplémentation en vitamine D n’a pas été associée à la calcification des artères coronaires (augmentation du score calcique) aux doses standards (moins de 10 000 UI par jour) et n’a pas été liée à un risque accru de maladie cardiovasculaire en général. [93] À des doses ultra-élevées (50 000 UI par jour ou plus), la supplémentation en vitamine D peut toutefois entraîner une calcification des tissus mous, en partie due à l’hypercalcémie (taux sérique élevé de calcium). [4] De plus, une association entre mortalité cardiovasculaire et supplémentation à long terme combinée en vitamine D et calcium a été rapportée, mais il n’est pas possible de différencier les effets du calcium et de la vitamine D ni de prouver une causalité avec cette étude. [94] Deuxièmement, la supplémentation en vitamine K a montré des effets mitigés sur sa capacité à prévenir la calcification des artères coronaires, la majorité des essais contrôlés randomisés ne trouvant aucun effet. [92] Pour plus d’informations, consultez notre résumé d’étude : Vitamine K pour ralentir la progression de la calcification vasculaire. Globalement, il n’existe aucune preuve suggérant que la vitamine D à des doses typiques puisse contribuer à la calcification des artères coronaires, et même si c’était le cas, il n’est pas clair que l’ajout de vitamine K compenserait ce risque."
+    },
+    {
+      "question": "Le statut en vitamine D peut-il affecter les niveaux de testostérone ?",
+      "answer": "Potentiellement. Le statut en vitamine D était associé aux niveaux d’androgènes chez les hommes dans une étude observationnelle, [61] et un essai contrôlé randomisé a montré que la supplémentation en vitamine D (environ 3 000 UI/jour ou 75 µg/jour) augmentait les niveaux de testostérone chez des hommes en surpoids en bonne santé. [62] Il est important de noter que la supplémentation en vitamine D n’a pas démontré d’augmentation de la testostérone à des niveaux supraphysiologiques, et aucune preuve ne montre qu’une ingestion supraphysiologique de vitamine D améliorerait davantage les niveaux de testostérone au-delà d’une supplémentation modérée. Davantage de recherches sont nécessaires pour déterminer les effets de la supplémentation en vitamine D sur les niveaux de testostérone dans différentes populations."
+    },
+    {
+      "question": "Existe-t-il un lien entre les niveaux de vitamine D et la mortalité toutes causes confondues ?",
+      "answer": "Les faibles niveaux de vitamin D peuvent être associés à une mortalité toutes causes confondues accrue, en particulier chez les personnes âgées. Les études observationnelles ont montré une tendance générale d’associations entre de faibles niveaux de vitamin D et la mortalité toutes causes confondues dans la population générale [63] et chez les personnes âgées [64]. Le lien entre une mortalité toutes causes confondues augmentée et de faibles niveaux de vitamin D chez les participants âgés a été confirmé par des essais cliniques montrant une diminution de la mortalité avec une supplémentation en vitamin D3. [65] Bien que des associations entre de faibles niveaux de vitamin D et une mortalité toutes causes confondues accrue dans la population générale aient été rapportées dans des études observationnelles, [63] les essais contrôlés randomisés chez des adultes de 18 ans ou plus n’ont pas confirmé ce résultat, ne trouvant aucune preuve d’une association entre la supplémentation en vitamin D et la mortalité toutes causes confondues comparée à un placebo. [66] Davantage de recherches sont nécessaires pour mieux comprendre l’influence de la supplémentation en vitamin D sur la mortalité toutes causes confondues et la longévité dans différentes populations."
+    },
+    {
+      "question": "La supplémentation en vitamin D peut-elle améliorer les symptômes de la sclérose en plaques ?",
+      "answer": "La sclérose en plaques (MS) est une maladie auto-immune qui affecte la gaine de myéline des neurones, comparable, plus ou moins, à l’isolation des fils électriques. La dégradation de la gaine de myéline altère la capacité des neurones à propager les signaux entre le corps et le cerveau, entraînant la MS. Des associations ont été observées entre la résidence à des latitudes éloignées de l’équateur et un risque accru de MS, [67] ainsi qu’une plus grande exposition au soleil pendant l’enfance est associée à un risque réduit de MS à l’âge adulte. [68] La vitamin D a montré un effet thérapeutique chez la souris atteinte d’encéphalomyélite auto-immune expérimentale, modèle animal de la MS. Cependant, les essais cliniques humains à ce jour n’ont pas trouvé de preuves soutenant un rôle de la supplémentation en vitamin D dans le traitement de la MS. [69] Davantage de recherches sont nécessaires pour mieux comprendre si la supplémentation en vitamin D peut bénéficier à des populations particulières de patients atteints de MS. Il est également important de noter que certains effets indésirables de la toxicité liée à une supplémentation en vitamin D à forte dose, tels que fatigue, faiblesse musculaire et dysfonction urinaire, imitent le cours de la progression de la maladie de la MS, [70] soulignant l’importance de consulter un médecin avant d’envisager une supplémentation agressive en vitamin D pour la MS."
+    }
+  ],
+  "references": [
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Martineau AR, MacLaughlin BD, Hooper RL, Barnes NC, Jolliffe DA, Greiller CL, Kilpin K, McLaughlin D, Fletcher G, Mein CA, Hoti M, Walton R, Grigg J, Timms PM, Rajakulasingam RK, Bhowmik A, Rowe M, Venton TR, Choudhury AB, Simcock DE, Sadique Z, Monteiro WR, Corrigan CJ, Hawrylowicz CM, Griffiths CJ Double-blind randomised placebo-controlled trial of bolus-dose vitamin D3 supplementation in adults with asthma (ViDiAs) Thorax. (2015 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25724847"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Denlinger LC, King TS, Cardet JC, Craig T, Holguin F, Jackson DJ, Kraft M, Peters SP, Ross K, Sumino K, Boushey HA, Jarjour NN, Wechsler ME, Wenzel SE, Castro M, Avila PC, NHLBI AsthmaNet Investigators Vitamin D Supplementation and the Risk of Colds in Patients with Asthma Am J Respir Crit Care Med. (2016 Mar 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26540136"
+    },
+    {
+      "text": "Asthma Symptoms - Fedora K, Setyoningrum RA, Aina Q, Rosyidah LN, Ni'mah NL, Titiharja FF Vitamin D supplementation decrease asthma exacerbations in children: a systematic review and meta-analysis of randomized controlled trials. Ann Med. (2024 Jul 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39421966"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Li Q, Xu X, Liu Y, Yin S, Hu Q, Ji Q, Zhong Y, Zhu F The effects of prenatal vitamin D supplementation on respiratory and allergy-related outcomes in children: A systematic review and meta-analysis of randomized controlled trials. World Allergy Organ J. (2025 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40535465"
+    },
+    {
+      "text": "Endometriosis-associated pelvic pain - James L Nodler, Amy D DiVasta, Allison F Vitonis, Sarah Karevicius, Maggie Malsch, Vishnudas Sarda, Ayotunde Fadayomi, Holly R Harris, Stacey A Missmer Supplementation with vitamin D or ω-3 fatty acids in adolescent girls and young women with endometriosis (SAGE): a double-blind, randomized, placebo-controlled trial Am J Clin Nutr. (2020 Jul 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32453393"
+    },
+    {
+      "text": "Endometriosis-associated pelvic pain - Fariba Almassinokiani, Sepideh Khodaverdi, Masoud Solaymani-Dodaran, Peyman Akbari, Abdolreza Pazouki Effects of Vitamin D on Endometriosis-Related Pain: A Double-Blind Clinical Trial Med Sci Monit. (2016 Dec 17)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27986972"
+    },
+    {
+      "text": "Low-density lipoprotein (LDL) - Abolfazl Mehdizadehkashi, Samaneh Rokhgireh, Kobra Tahermanesh, Neda Eslahi, Sara Minaeian, Mansooreh Samimi The effect of vitamin D supplementation on clinical symptoms and metabolic profiles in patients with endometriosis Gynecol Endocrinol. (2021 Jan 29)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33508990"
+    },
+    {
+      "text": "Pelvic Pain - Zhou IW, Zhang AL, Tsang MS, Xue CC Vitamin D for primary dysmenorrhea and endometriosis-related pain - A systematic review of registered RCTs. PLoS One. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40257970"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Ginde AA, Blatchford P, Breese K, Zarrabi L, Linnebur SA, Wallace JI, Schwartz RS High-Dose Monthly Vitamin D for Prevention of Acute Respiratory Infection in Older Long-Term Care Residents: A Randomized Clinical Trial J Am Geriatr Soc. (2017 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27861708"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Camargo CA Jr, Ganmaa D, Frazier AL, Kirchberg FF, Stuart JJ, Kleinman K, Sumberzul N, Rich-Edwards JW Randomized trial of vitamin D supplementation and risk of acute respiratory infection in Mongolia Pediatrics. (2012 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22908115"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Aloia J, Islam S, Mikhail M Vitamin D and Acute Respiratory Infections—The PODA Trial Open Forum Infect. Dis.. ()",
+      "link": "https://academic.oup.com/ofid/article/6/9/ofz228/5560069"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Grant CC, Kaur S, Waymouth E, Mitchell EA, Scragg R, Ekeroma A, Stewart A, Crane J, Trenholme A, Camargo CA Jr Reduced primary care respiratory infection visits following pregnancy and infancy vitamin D supplementation: a randomised controlled trial Acta Paediatr. (2015 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25283480"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Martineau AR, Jolliffe DA, Greenberg L, Aloia JF, Bergman P, Dubnov-Raz G, Esposito S, Ganmaa D, Ginde AA, Goodall EC, Grant CC, Janssens W, Jensen ME, Kerley CP, Laaksi I, Manaseki-Holland S, Mauger D, Murdoch DR, Neale R, Rees JR, Simpson S, Stelmach I, Trilok Kumar G, Urashima M, Camargo CA, Griffiths CJ, Hooper RL Vitamin D supplementation to prevent acute respiratory infections: individual participant data meta-analysis Health Technol Assess. (2019 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30675873"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Ghasem Mosayebi, Ali Ghazavi, Keyvan Ghasami, Yahya Jand, Parviz Kokhaei Therapeutic effect of vitamin D3 in multiple sclerosis patients Immunol Invest. (2011)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21542721"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Margitta T Kampman, Linn H Steffensen, Svein I Mellgren, Lone Jørgensen Effect of vitamin D3 supplementation on relapses, disease progression, and measures of function in persons with multiple sclerosis: exploratory outcomes from a double-blind randomised controlled trial Mult Scler. (2012 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22354743"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Pierrot-Deseilligny C, Rivaud-Péchoux S, Clerson P, de Paz R, Souberbielle JC Relationship between 25-OH-D serum level and relapse rate in multiple sclerosis patients before and after vitamin D supplementation Ther Adv Neurol Disord. (2012 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22783368"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - J Killestein, E L J Hoogervorst, M Reif, N F Kalkers, A C Van Loenen, P G M Staats, R W Gorter, B M J Uitdehaag, C H Polman Safety, tolerability, and efficacy of orally administered cannabinoids in MS Neurology. (2002 May 14)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12011290"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - P Fox, P G Bain, S Glickman, C Carroll, J Zajicek The effect of cannabis on tremor in patients with multiple sclerosis Neurology. (2004 Apr 13)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15079008"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Raymond Hupperts, Joost Smolders, Reinhold Vieth, Trygve Holmøy, Kurt Marhardt, Myriam Schluep, Joep Killestein, Frederik Barkhof, Manolo Beelke, Luigi M E Grimaldi, SOLAR Study Group Randomized trial of daily high-dose vitamin D 3 in patients with RRMS receiving subcutaneous interferon β-1a Neurology. (2019 Nov 12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31594857"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - William Camu, Philippe Lehert, Charles Pierrot-Deseilligny, Patrick Hautecoeur, Anne Besserve, Anne-Sophie Jean Deleglise, Marianne Payet, Eric Thouvenot, Jean Claude Souberbielle Cholecalciferol in relapsing-remitting MS: A randomized clinical trial (CHOLINE) Neurol Neuroimmunol Neuroinflamm. (2019 Aug 6)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31454777"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Jody Corey-Bloom, Tanya Wolfson, Anthony Gamst, Shelia Jin, Thomas D Marcotte, Heather Bentley, Ben Gouaux Smoked cannabis for spasticity in multiple sclerosis: a randomized, placebo-controlled trial CMAJ. (2012 Jul 10)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22586334"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Vahid Shaygannejad, Mohsen Janghorbani, Fereshteh Ashtari, Hamed Dehghan Effects of adjunct low-dose vitamin d on relapsing-remitting multiple sclerosis progression: preliminary findings of a randomized placebo-controlled trial Mult Scler Int. (2012)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22567287"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Dubnov-Raz G, Rinat B, Hemilä H, Choleva L, Cohen AH, Constantini NW Vitamin D supplementation and upper respiratory tract infections in adolescent swimmers: a randomized controlled trial Pediatr Exerc Sci. (2015 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25050610"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Murdoch DR, Slow S, Chambers ST, Jennings LC, Stewart AW, Priest PC, Florkowski CM, Livesey JH, Camargo CA, Scragg R Effect of vitamin D3 supplementation on upper respiratory tract infections in healthy adults: the VIDARIS randomized controlled trial JAMA. (2012 Oct 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23032549"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Goodall EC, Granados AC, Luinstra K, Pullenayegum E, Coleman BL, Loeb M, Smieja M Vitamin D3 and gargling for the prevention of upper respiratory tract infections: a randomized controlled trial BMC Infect Dis. (2014 May 19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24885201"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Shimizu Y, Ito Y, Yui K, Egawa K, Orimo H Intake of 25-Hydroxyvitamin D3 Reduces Duration and Severity of Upper Respiratory Tract Infection: A Randomized, Double-Blind, Placebo-Controlled, Parallel Group Comparison Study J Nutr Health Aging. (2018)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29582888"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Jung HC, Seo MW, Lee S, Kim SW, Song JK Vitamin D₃ Supplementation Reduces the Symptoms of Upper Respiratory Tract Infection during Winter Training in Vitamin D-Insufficient Taekwondo Athletes: A Randomized Controlled Trial Int J Environ Res Public Health. (2018 Sep 14)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30223447"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Li-Ng M, Aloia JF, Pollack S, Cunha BA, Mikhail M, Yeh J, Berbari N A randomized controlled trial of vitamin D3 supplementation for the prevention of symptomatic upper respiratory tract infections Epidemiol Infect. (2009 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19296870"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Laaksi I, Ruohola JP, Mattila V, Auvinen A, Ylikomi T, Pihlajamäki H Vitamin D supplementation for the prevention of acute respiratory tract infection: a randomized, double-blinded trial among young Finnish men J Infect Dis. (2010 Sep 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20632889"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Aglipay M, Birken CS, Parkin PC, Loeb MB, Thorpe K, Chen Y, Laupacis A, Mamdani M, Macarthur C, Hoch JS, Mazzulli T, Maguire JL, TARGet Kids! Collaboration Effect of High-Dose vs Standard-Dose Wintertime Vitamin D Supplementation on Viral Upper Respiratory Tract Infections in Young Healthy Children JAMA. (2017 Jul 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28719693"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Avenell A, Cook JA, Maclennan GS, Macpherson GC Vitamin D supplementation to prevent infections: a sub-study of a randomised placebo-controlled trial in older people (RECORD trial, ISRCTN 51647438) Age Ageing. (2007 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17702768"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Rees JR, Hendricks K, Barry EL, Peacock JL, Mott LA, Sandler RS, Bresalier RS, Goodman M, Bostick RM, Baron JA Vitamin D3 supplementation and upper respiratory tract infections in a randomized, controlled trial Clin Infect Dis. (2013 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24014734"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Camargo CA, Sluyter J, Stewart AW, Khaw KT, Lawes CMM, Toop L, Waayer D, Scragg R Effect of monthly high-dose vitamin D supplementation on acute respiratory infections in older adults: A randomized controlled trial Clin Infect Dis. (2019 Aug 17)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31420647"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Bergman P, Norlin AC, Hansen S, Rekha RS, Agerberth B, Björkhem-Bergman L, Ekström L, Lindh JD, Andersson J Vitamin D3 supplementation in patients with frequent respiratory tract infections: a randomised and double-blind intervention study BMJ Open. (2012 Dec 13)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23242238"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Loeb M, Dang AD, Thiem VD, Thanabalan V, Wang B, Nguyen NB, Tran HTM, Luong TM, Singh P, Smieja M, Maguire J, Pullenayegum E Effect of Vitamin D supplementation to reduce respiratory infections in children and adolescents in Vietnam: A randomized controlled trial Influenza Other Respir Viruses. (2019 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30328294"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Simpson S, Mei I, Stewart N, Blizzard L, Tettey P, Taylor B Weekly cholecalciferol supplementation results in significant reductions in infection risk among the vitamin D deficient: results from the CIPRIS pilot RCT BMC Nutr. ()",
+      "link": "https://bmcnutr.biomedcentral.com/articles/10.1186/2055-0928-1-7"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Hauger H, Ritz C, Mortensen C, Mølgaard C, Metzdorff SB, Frøkiær H, Damsgaard CT Winter cholecalciferol supplementation at 55°N has little effect on markers of innate immune defense in healthy children aged 4-8 years: a secondary analysis from a randomized controlled trial Eur J Nutr. (2019 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29572676"
+    },
+    {
+      "text": "Low-density lipoprotein (LDL) - Zittermann A, Frisch S, Berthold HK, Götting C, Kuhn J, Kleesiek K, Stehle P, Koertke H, Koerfer R Vitamin D supplementation enhances the beneficial effects of weight loss on cardiovascular disease risk markers Am J Clin Nutr. (2009 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19321573"
+    },
+    {
+      "text": "Interleukin 5 - Barker T, Martins TB, Hill HR, Kjeldsberg CR, Henriksen VT, Dixon BM, Schneider ED, Dern A, Weaver LK Different doses of supplemental vitamin D maintain interleukin-5 without altering skeletal muscle strength: a randomized, double-blind, placebo-controlled study in vitamin D sufficient adults Nutr Metab (Lond). (2012 Mar 9)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22405472"
+    },
+    {
+      "text": "Tuberculosis Symptoms - Ganmaa D, Giovannucci E, Bloom BR, Fawzi W, Burr W, Batbaatar D, Sumberzul N, Holick MF, Willett WC Vitamin D, tuberculin skin test conversion, and latent tuberculosis in Mongolian school-age children: a randomized, double-blind, placebo-controlled feasibility trial Am J Clin Nutr. (2012 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22760564"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Martineau AR, Hanifa Y, Witt KD, Barnes NC, Hooper RL, Patel M, Stevens N, Enayat Z, Balayah Z, Syed A, Knight A, Jolliffe DA, Greiller CL, McLaughlin D, Venton TR, Rowe M, Timms PM, Clark D, Sadique Z, Eldridge SM, Griffiths CJ Double-blind randomised controlled trial of vitamin D3 supplementation for the prevention of acute respiratory infection in older adults and their carers (ViDiFlu) Thorax. (2015 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26063508"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Manaseki-Holland S, Qader G, Isaq Masher M, Bruce J, Zulf Mughal M, Chandramohan D, Walraven G Effects of vitamin D supplementation to children diagnosed with pneumonia in Kabul: a randomised controlled trial Trop Med Int Health. (2010 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20723187"
+    },
+    {
+      "text": "Pneumonia Symptoms - Choudhary N, Gupta P Vitamin D supplementation for severe pneumonia--a randomized controlled trial Indian Pediatr. (2012 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21992858"
+    },
+    {
+      "text": "Risk Of Cardiovascular Disease - Wang L, Manson JE, Song Y, Sesso HD Systematic review: Vitamin D and calcium supplementation in prevention of cardiovascular events Ann Intern Med. (2010 Mar 2)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20194238"
+    },
+    {
+      "text": "Pain - McAlindon T, LaValley M, Schneider E, Nuite M, Lee JY, Price LL, Lo G, Dawson-Hughes B Effect of vitamin D supplementation on progression of knee pain and cartilage volume loss in patients with symptomatic osteoarthritis: a randomized controlled trial JAMA. (2013 Jan 9)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23299607"
+    },
+    {
+      "text": "Glycemic Control - Carrillo AE, Flynn MG, Pinkston C, Markofski MM, Jiang Y, Donkin SS, Teegarden D Impact of vitamin D supplementation during a resistance training intervention on body composition, muscle function, and glucose tolerance in overweight and obese adults Clin Nutr. (2012 Aug 31)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23034474"
+    },
+    {
+      "text": "Glycemic Control - Harris SS, Pittas AG, Palermo NJ A randomized, placebo-controlled trial of vitamin D supplementation to improve glycaemia in overweight and obese African Americans Diabetes Obes Metab. (2012 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22486948"
+    },
+    {
+      "text": "Muscle Mass - Salehpour A, Hosseinpanah F, Shidfar F, Vafa M, Razaghi M, Dehghani S, Hoshiarrad A, Gohari M A 12-week double-blind randomized clinical trial of vitamin D3 supplementation on body fat mass in healthy overweight and obese women Nutr J. (2012 Sep 22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22998754"
+    },
+    {
+      "text": "Weight - Peng, T et al. Can Vitamin D supplementation enhance the effectiveness of exercise-induced weight loss in overweight or obese adults? Evidence from integrated transcriptomic and meta-analysis Front Nutr. (2025-09-30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41098796/"
+    },
+    {
+      "text": "Weight - Ge L, Gao S, Kia N, Wang Y, Hua L Effect of vitamin D supplementation on body composition, lipid profile, and glycemic indices in patients with obesity-associated metabolic syndrome: a systematic review and meta-analysis. Diabetol Metab Syndr. (2025 Jul 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40682197"
+    },
+    {
+      "text": "Blood glucose - Rajakumar K, Moore CG, Khalid AT, Vallejo AN, Virji MA, Holick MF, Greenspan SL, Arslanian S, Reis SE Effect of vitamin D3 supplementation on vascular and metabolic health of vitamin D-deficient overweight and obese children: a randomized clinical trial. Am J Clin Nutr. (2020-Apr-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31950134"
+    },
+    {
+      "text": "Type 2 Diabetes Incidence - Tobias DK, Pradhan AD, Duran EK, Li C, Song Y, Buring JE, Cook NR, Mora S, Manson JE Vitamin D supplementation vs. placebo and incident type 2 diabetes in an ancillary study of the randomized Vitamin D and Omega-3 Trial. Nat Commun. (2025 Apr 8)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40199888"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - Florian Wepner, Raphael Scheuer, Birgit Schuetz-Wieser, Peter Machacek, Elisabeth Pieler-Bruha, Heide S Cross, Julia Hahne, Martin Friedrich Effects of vitamin D on patients with fibromyalgia syndrome: a randomized placebo-controlled trial Pain. (2014 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24438771"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - J F de Carvalho, F A G da Rocha Araújo, L M A da Mota, R B Aires, R P de Araujo Vitamin D Supplementation Seems to Improve Fibromyalgia Symptoms: Preliminary Results Isr Med Assoc J. (2018 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29911760"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - Atalay Dogru, Ayse Balkarli, Veli Cobankara, Sevket Ercan Tunc, Mehmet Sahin Effects of Vitamin D Therapy on Quality of Life in Patients with Fibromyalgia Eurasian J Med. (2017 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28638253"
+    },
+    {
+      "text": "Fever - Urashima M, Segawa T, Okazaki M, Kurihara M, Wada Y, Ida H Randomized trial of vitamin D supplementation to prevent seasonal influenza A in schoolchildren Am J Clin Nutr. (2010 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20219962"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Zhou J, Du J, Huang L, Wang Y, Shi Y, Lin H Preventive Effects of Vitamin D on Seasonal Influenza A in Infants: A Multicenter, Randomized, Open, Controlled Clinical Trial Pediatr Infect Dis J. (2018 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29315160"
+    },
+    {
+      "text": "Influenza Risk - Jorde R, Witham M, Janssens W, Rolighed L, Borchhardt K, de Boer IH, Grimnes G, Hutchinson MS Vitamin D supplementation did not prevent influenza-like illness as diagnosed retrospectively by questionnaires in subjects participating in randomized clinical trials Scand J Infect Dis. (2012 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22026455"
+    },
+    {
+      "text": "Influenza Risk - Urashima M, Mezawa H, Noya M, Camargo CA Jr Effects of vitamin D supplements on influenza A illness during the 2009 H1N1 pandemic: a randomized controlled trial Food Funct. (2014 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25088394"
+    },
+    {
+      "text": "Insulin - Mitri J, Dawson-Hughes B, Hu FB, Pittas AG Effects of vitamin D and calcium supplementation on pancreatic β cell function, insulin sensitivity, and glycemia in adults at high risk of diabetes: the Calcium and Vitamin D for Diabetes Mellitus (CaDDM) randomized controlled trial Am J Clin Nutr. (2011 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21715514"
+    },
+    {
+      "text": "Testosterone - Pilz S, Frisch S, Koertke H, Kuhn J, Dreier J, Obermayer-Pietsch B, Wehr E, Zittermann A Effect of vitamin D supplementation on testosterone levels in men Horm Metab Res. (2011 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21154195"
+    },
+    {
+      "text": "Risk Of Cardiovascular Disease - Dobnig H, Pilz S, Scharnagl H, Renner W, Seelhorst U, Wellnitz B, Kinkeldei J, Boehm BO, Weihrauch G, Maerz W Independent association of low serum 25-hydroxyvitamin d and 1,25-dihydroxyvitamin d levels with all-cause and cardiovascular mortality Arch Intern Med. (2008 Jun 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18574092"
+    },
+    {
+      "text": "COVID-19 Severity - Igor H Murai, Alan L Fernandes, Lucas P Sales, Ana J Pinto, Karla F Goessler, Camila S C Duran, Carla B R Silva, André S Franco, Marina B Macedo, Henrique H H Dalmolin, Janaina Baggio, Guilherme G M Balbi, Bruna Z Reis, Leila Antonangelo, Valeria F Caparbo, Bruno Gualano, Rosa M R Pereira Effect of a Single High Dose of Vitamin D3 on Hospital Length of Stay in Patients With Moderate to Severe COVID-19: A Randomized Clinical Trial JAMA. (2021 Mar 16)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33595634"
+    },
+    {
+      "text": "COVID-19 Severity - Shaun Sabico, Mushira A Enani, Eman Sheshah, Naji J Aljohani, Dara A Aldisi, Naif H Alotaibi, Naemah Alshingetti, Suliman Y Alomar, Abdullah M Alnaami, Osama E Amer, Syed D Hussain, Nasser M Al-Daghri Effects of a 2-Week 5000 IU versus 1000 IU Vitamin D3 Supplementation on Recovery of Symptoms in Patients with Mild to Moderate Covid-19: A Randomized Clinical Trial Nutrients. (2021 Jun 24)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34202578"
+    },
+    {
+      "text": "COVID-19 Severity - Marta Entrenas Castillo, Luis Manuel Entrenas Costa, José Manuel Vaquero Barrios, Juan Francisco Alcalá Díaz, José López Miranda, Roger Bouillon, José Manuel Quesada Gomez \"Effect of calcifediol treatment and best available therapy versus best available therapy on intensive care unit admission and mortality among patients hospitalized for COVID-19: A pilot randomized clinical study\" J Steroid Biochem Mol Biol. (2020 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32871238"
+    },
+    {
+      "text": "Need for mechanical ventilation - Yang Y, Sun W, Yang F, Zhang G, Li X, Sun S, Xing Y Therapeutic effects of vitamin D supplementation on COVID-19 aggravation: a systematic review and meta-analysis of randomized controlled trials. Front Pharmacol. (2024)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38860175"
+    },
+    {
+      "text": "Need for mechanical ventilation - Zhu L, Zhang Y, Li X, Zou X, Bing P, Qi M, He B Vitamin D supplementation for managing COVID-19 in patients with vitamin D deficiency: a systematic review and meta-analysis of randomised controlled trials. BMJ Open. (2025 Mar 26)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40139702"
+    },
+    {
+      "text": "Length of hospitalization - Ghoreshi ZA, Charostad J, Arefinia N, Nakhaie M, Rezaei Zadeh Rukerd M, Salajegheh F Effect of vitamin D supplementation on clinical outcomes in adult patients with COVID-19: A GRADE-assessed systematic review and meta-analysis of randomized controlled trials. Pharmacol Res Perspect. (2024 Sep 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39350561"
+    },
+    {
+      "text": "Length of hospitalization - Sartini M, Del Puente F, Carbone A, Schinca E, Ottria G, Dupont C, Piccinini C, Oliva M, Cristina ML The Effect of Vitamin D Supplementation Post COVID-19 Infection and Related Outcomes: A Systematic Review and Meta-Analysis. Nutrients. (2024 Nov 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39599582"
+    },
+    {
+      "text": "Breast Cancer Risk - Garland CF, Gorham ED, Mohr SB, Grant WB, Giovannucci EL, Lipkin M, Newmark H, Holick MF, Garland FC Vitamin D and prevention of breast cancer: pooled analysis J Steroid Biochem Mol Biol. (2007 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17368188"
+    },
+    {
+      "text": "Breast Cancer Risk - Crew KD, Gammon MD, Steck SE, Hershman DL, Cremers S, Dworakowski E, Shane E, Terry MB, Desai M, Teitelbaum SL, Neugut AI, Santella RM Association between plasma 25-hydroxyvitamin D and breast cancer risk Cancer Prev Res (Phila). (2009 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19470790"
+    },
+    {
+      "text": "Aromatase-Inhibitor Related Joint Pain - Qamar J Khan, Pavan S Reddy, Bruce F Kimler, Priyanka Sharma, Susan E Baxa, Anne P O'Dea, Jennifer R Klemp, Carol J Fabian Effect of vitamin D supplementation on serum 25-hydroxy vitamin D levels, joint pain, and fatigue in women starting adjuvant letrozole treatment for breast cancer Breast Cancer Res Treat. (2010 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19655244"
+    },
+    {
+      "text": "Low-density lipoprotein (LDL) - Seibert E, Lehmann U, Riedel A, Ulrich C, Hirche F, Brandsch C, Dierkes J, Girndt M, Stangl GI Vitamin D3 supplementation does not modify cardiovascular risk profile of adults with inadequate vitamin D status Eur J Nutr. (2015 Nov 30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26621634"
+    },
+    {
+      "text": "Inflammation - Gepner AD, Ramamurthy R, Krueger DC, Korcarz CE, Binkley N, Stein JH A prospective randomized controlled trial of the effects of vitamin D supplementation on cardiovascular disease risk PLoS One. (2012)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22586483"
+    },
+    {
+      "text": "Risk Of Cardiovascular Disease - Cheng X, Chen Z, Fang Y, Zhang Q, Chen B, Xi W, Pan Z, Guo L Effect of vitamin D supplementation for major adverse cardiovascular events: a meta-analysis based on randomised controlled trials. Br J Nutr. (2025 Jul 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40685646"
+    },
+    {
+      "text": "Blood Pressure - Scragg R, Sowers M, Bell C Serum 25-hydroxyvitamin D, ethnicity, and blood pressure in the Third National Health and Nutrition Examination Survey Am J Hypertens. (2007 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17586404"
+    },
+    {
+      "text": "Sleep Duration - Majid MS, Ahmad HS, Bizhan H, Hosein HZM, Mohammad A The effect of vitamin D supplement on the score and quality of sleep in 20-50 year-old people with sleep disorders compared with control group Nutr Neurosci. (2018 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28475473"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - David S Arvold, Marilyn J Odean, Maude P Dornfeld, Ronald R Regal, Judith G Arvold, Gene C Karwoski, David J Mast, Paul B Sanford, Robert J Sjoberg Correlation of symptoms with vitamin D deficiency and symptom response to cholecalciferol treatment: a randomized controlled trial Endocr Pract. (2009 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19364687"
+    },
+    {
+      "text": "Depression Symptoms - Fu J, Zhang Y, Chen X, Yu X, Yan M, Jing B, Yu H, Li W, Guo Q Efficacy of vitamin D supplementation on depressive symptoms in older patients: a meta-analysis of randomized controlled trials. Front Med (Lausanne). (2024 Oct 10)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39450108"
+    },
+    {
+      "text": "Parathyroid Hormone - David D Chandy, Jahnavi Kare, Shakal N Singh, Anjoo Agarwal, Vinita Das, Urmila Singh, V Ramesh, Vijayalakshmi Bhatia Effect of vitamin D supplementation, directly or via breast milk for term infants, on serum 25 hydroxyvitamin D and related biochemistry, and propensity to infection: a randomised placebo-controlled trial Br J Nutr. (2016 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27184759"
+    },
+    {
+      "text": "Calcium Absorption - Abrams SA, Hawthorne KM, Chen Z Supplementation with 1000 IU vitamin D/d leads to parathyroid hormone suppression, but not increased fractional calcium absorption, in 4-8-y-old children: a double-blind randomized controlled trial Am J Clin Nutr. (2013 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23151536"
+    },
+    {
+      "text": "Fracture Risk - Bischoff-Ferrari HA, Willett WC, Wong JB, Stuck AE, Staehelin HB, Orav EJ, Thoma A, Kiel DP, Henschkowski J Prevention of nonvertebral fractures with oral vitamin D and dose dependency: a meta-analysis of randomized controlled trials Arch Intern Med. (2009 Mar 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19307517"
+    },
+    {
+      "text": "Bone turnover markers - Wu M, Bhimavarapu A, Alvarez JA, Hunt WR, Tangpricha V Changes in bone turnover after high-dose vitamin D supplementation during acute pulmonary exacerbation in cystic fibrosis. Bone. (2023-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37390941"
+    },
+    {
+      "text": "Total Antioxidant Capacity (TAC) - Heidari H, Amani R, Feizi A, Askari G, Kohan S, Tavasoli P Vitamin D Supplementation for Premenstrual Syndrome-Related inflammation and antioxidant markers in students with vitamin D deficient: a randomized clinical trial Sci Rep. (2019 Oct 17)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31624297"
+    },
+    {
+      "text": "Depression Symptoms - Dadkhah H, Ebrahimi E, Fathizadeh N Evaluating the effects of vitamin D and vitamin E supplement on premenstrual syndrome: A randomized, double-blind, controlled trial Iran J Nurs Midwifery Res. (2016 Mar-Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27095989"
+    },
+    {
+      "text": "Anxiety Symptoms - Abdollahi R, Abiri B, Sarbakhsh P, Kashanian M, Vafa M The Effect of Vitamin D Supplement Consumption on Premenstrual Syndrome in Vitamin D-Deficient Young Girls: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial Complement Med Res. (2019)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31104056"
+    },
+    {
+      "text": "Anxiety Symptoms - Tartagni M, Cicinelli MV, Tartagni MV, Alrasheed H, Matteo M, Baldini D, De Salvia M, Loverro G, Montagnani M Vitamin D Supplementation for Premenstrual Syndrome-Related Mood Disorders in Adolescents with Severe Hypovitaminosis D J Pediatr Adolesc Gynecol. (2016 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26724745"
+    },
+    {
+      "text": "Cramps - Bahrami A, Avan A, Sadeghnia HR, Esmaeili H, Tayefi M, Ghasemi F, Nejati Salehkhani F, Arabpour-Dahoue M, Rastgar-Moghadam A, Ferns GA, Bahrami-Taghanaki H, Ghayour-Mobarhan M High dose vitamin D supplementation can improve menstrual problems, dysmenorrhea, and premenstrual syndrome in adolescents Gynecol Endocrinol. (2018 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29447494"
+    },
+    {
+      "text": "Glycemic Control - A M Borissova, T Tankova, G Kirilov, L Dakovska, R Kovacheva The effect of vitamin D3 on insulin secretion and peripheral insulin sensitivity in type 2 diabetic patients Int J Clin Pract. (2003 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12800453"
+    },
+    {
+      "text": "Insulin - Chen W, Liu L, Hu F Efficacy of vitamin D supplementation on glycaemic control in type 2 diabetes: An updated systematic review and meta-analysis of randomized controlled trials. Diabetes Obes Metab. (2024 Oct 2)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39355942"
+    },
+    {
+      "text": "Depression Symptoms - Putranto R, Setiati S, Nasrun MW, Witjaksono F, Immanuel S, Subekti I, Harimurti K, Siswanto A, Shatri H, Suwarto S, Megantara MA Effects of cholecalciferol supplementation on depressive symptoms, C-peptide, serotonin, and neurotrophin-3 in type 2 diabetes mellitus: A double-blind, randomized, placebo-controlled trial. Narra J. (2024 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39816051"
+    },
+    {
+      "text": "Glycemic Control - Shaban Nazarian, John V St Peter, Raymond C Boston, Sidney A Jones, Cary N Mariash Vitamin D3 supplementation improves insulin sensitivity in subjects with impaired fasting glucose Transl Res. (2011 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22005267"
+    },
+    {
+      "text": "Insulin Resistance - Wallace HJ, Holmes L, Ennis CN, Cardwell CR, Woodside JV, Young IS, Bell PM, Hunter SJ, McKinley MC Effect of vitamin D3 supplementation on insulin resistance and β-cell function in prediabetes: a double-blind, randomized, placebo-controlled trial. Am J Clin Nutr. (2019-Nov-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31559433"
+    },
+    {
+      "text": "Pain - Prieto-Alhambra D, Javaid MK, Servitja S, Arden NK, Martinez-García M, Diez-Perez A, Albanell J, Tusquets I, Nogues X Vitamin D threshold to prevent aromatase inhibitor-induced arthralgia: a prospective cohort study Breast Cancer Res Treat. (2011 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20665105"
+    },
+    {
+      "text": "Insulin - Sepehrmanesh Z, Kolahdooz F, Abedi F, Mazroii N, Assarian A, Asemi Z, Esmaillzadeh A Vitamin D Supplementation Affects the Beck Depression Inventory, Insulin Resistance, and Biomarkers of Oxidative Stress in Patients with Major Depressive Disorder: A Randomized, Controlled Clinical Trial J Nutr. (2016 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26609167"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Somnath SH, Biswal N, Chandrasekaran V, Jagadisan B, Bobby Z Therapeutic effect of vitamin D in acute lower respiratory infection: A randomized controlled trial Clin Nutr ESPEN. (2017 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29072165"
+    },
+    {
+      "text": "All-Cause Mortality - Bjelakovic G, Gluud LL, Nikolova D, Whitfield K, Wetterslev J, Simonetti RG, Bjelakovic M, Gluud C Vitamin D supplementation for prevention of mortality in adults Cochrane Database Syst Rev. (2011 Jul 6)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21735411"
+    },
+    {
+      "text": "Type 1 Diabetes Incidence - Mohr SB, Garland CF, Gorham ED, Garland FC The association between ultraviolet B irradiance, vitamin D status and incidence rates of type 1 diabetes in 51 regions worldwide Diabetologia. (2008 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18548227"
+    },
+    {
+      "text": "Tuberculosis risk - Middelkoop K, Stewart J, Walker N, Delport C, Jolliffe DA, Coussens AK, Nuttall J, Tang JCY, Fraser WD, Griffiths CJ, Kumar GT, Filteau S, Hooper RL, Wilkinson RJ, Bekker LG, Martineau AR Vitamin D supplementation to prevent tuberculosis infection in South African schoolchildren: multicenter phase 3 double-blind randomized placebo-controlled trial (ViDiKids). Int J Infect Dis. (2023-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37211272"
+    },
+    {
+      "text": "Power Output - Owens DJ, Sharples AP, Polydorou I, Alwan N, Donovan T, Tang J, Fraser WD, Cooper RG, Morton JP, Stewart C, Close GL A systems-based investigation into vitamin D and skeletal muscle repair, regeneration, and hypertrophy Am J Physiol Endocrinol Metab. (2015 Dec 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26506852"
+    },
+    {
+      "text": "Pancreatic Cancer Risk - Skinner HG, Michaud DS, Giovannucci E, Willett WC, Colditz GA, Fuchs CS Vitamin D intake and the risk for pancreatic cancer in two cohort studies Cancer Epidemiol Biomarkers Prev. (2006 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16985031"
+    },
+    {
+      "text": "Fall Risk - Bischoff-Ferrari HA, Dawson-Hughes B, Staehelin HB, Orav JE, Stuck AE, Theiler R, Wong JB, Egli A, Kiel DP, Henschkowski J Fall prevention with supplemental and active forms of vitamin D: a meta-analysis of randomised controlled trials BMJ. (2009 Oct 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19797342"
+    },
+    {
+      "text": "Fall Risk - Broe KE, Chen TC, Weinberg J, Bischoff-Ferrari HA, Holick MF, Kiel DP A higher dose of vitamin d reduces the risk of falls in nursing home residents: a randomized, multiple-dose study J Am Geriatr Soc. (2007 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17302660"
+    },
+    {
+      "text": "Fall Risk - Michos ED, Kalyani RR, Blackford AL, Sternberg AL, Mitchell CM, Juraschek SP, Schrack JA, Wanigatunga AA, Roth DL, Christenson RH, Miller ER, Appel LJ The Relationship of Falls With Achieved 25-Hydroxyvitamin D Levels From Vitamin D Supplementation: The STURDY Trial. J Endocr Soc. (2022-Jun-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35592513"
+    },
+    {
+      "text": "Functionality in Elderly or Injured - Guralnik JM, Sternberg AL, Mitchell CM, Blackford AL, Schrack J, Wanigatunga AA, Michos E, Juraschek SP, Szanton S, Kalyani R, Cai Y, Appel LJ, Effects of Vitamin D on Physical Function: Results From the STURDY Trial. J Gerontol A Biol Sci Med Sci. (2022-Aug-12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34928336"
+    },
+    {
+      "text": "Alzheimer's Disease Symptoms - Jingya Jia, Jing Hu, Xiaoxu Huo, Rujuan Miao, Yanping Zhang, Fei Ma Effects of vitamin D supplementation on cognitive function and blood Aβ-related biomarkers in older adults with Alzheimer's disease: a randomised, double-blind, placebo-controlled trial J Neurol Neurosurg Psychiatry. (2019 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31296588"
+    },
+    {
+      "text": "HbA1c - Kositsawat J, Freeman VL, Gerber BS, Geraci S Association of A1C levels with vitamin D status in U.S. adults: data from the National Health and Nutrition Examination Survey Diabetes Care. (2010 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20215453"
+    },
+    {
+      "text": "Blood Pressure - Witham MD, Nadir MA, Struthers AD Effect of vitamin D on blood pressure: a systematic review and meta-analysis J Hypertens. (2009 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19587609"
+    },
+    {
+      "text": "Bone Mineral Density - Yang Y, Yang M, Su X, Xie F Efficacy of combination therapy of vitamin D and bisphosphonates in the treatment of postmenopausal osteoporosis: a systematic review and meta-analysis. Front Pharmacol. (2024 Nov 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39640483"
+    },
+    {
+      "text": "Otitis Media Risk - Marchisio P, Consonni D, Baggi E, Zampiero A, Bianchini S, Terranova L, Tirelli S, Esposito S, Principi N Vitamin D supplementation reduces the risk of acute otitis media in otitis-prone children Pediatr Infect Dis J. (2013 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23694840"
+    },
+    {
+      "text": "Cathelicidin - Sanders EC, Burkes RM, Mock JR, Brown TT, Wise RA, Hansel NN, Liu MC, Drummond MB Bronchoalveolar Lavage and Plasma Cathelicidin Response to 25-Hydroxy Vitamin D Supplementation: A Pilot Study. Chronic Obstr Pulm Dis. (2021-Jul-28)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34044475"
+    },
+    {
+      "text": "Wound Healing - Halschou-Jensen PM, Sauer J, Bouchelouche P, Fabrin J, Brorson S, Ohrt-Nissen S Improved Healing of Diabetic Foot Ulcers After High-dose Vitamin D: A Randomized Double-blinded Clinical Trial. Int J Low Extrem Wounds. (2023-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34213957"
+    },
+    {
+      "text": "Acne Symptoms - Ruikchuchit T, Juntongjin P Role of vitamin D supplement adjunct to topical benzoyl peroxide in acne: a randomized double-blinded controlled study. Int J Womens Dermatol. (2024 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38957412"
+    },
+    {
+      "text": "Bone Mineral Density - Grove-Laugesen D, Ebbehoj E, Watt T, Hansen KW, Rejnmark L Changes in bone density and microarchitecture following treatment of Graves' disease and the effects of vitamin D supplementation. A randomized clinical trial. Osteoporos Int. (2024 Sep 12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39264438"
+    },
+    {
+      "text": "Itching - Li CP, Huang SC, Hsiao Y, Tsai RY Evaluating the Role of Vitamin D in Alleviating Chronic Pruritus: A Meta-Analysis. Int J Mol Sci. (2024 Sep 16)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39337471"
+    },
+    {
+      "text": "Inflammation - Masbough F, Kouchek M, Koosha M, Salarian S, Miri M, Raoufi M, Taherpour N, Amniati S, Sistanizad M Investigating the Effect of High-Dose Vitamin D3 Administration on Inflammatory Biomarkers in Patients with Moderate to Severe Traumatic Brain Injury: A Randomized Clinical Trial. Iran J Med Sci. (2024 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39449769"
+    },
+    {
+      "text": "Irritable Bowel Syndrome Symptoms - . (2024-09-04)",
+      "link": "https://www.tandfonline.com/doi/full/10.1080/10408398.2024.2400603?ai=1ls&mi=dbflfj&af=R"
+    },
+    {
+      "text": "Irritable Bowel Syndrome Symptoms - Qi S, Zhao M, Sun Y, Boro S, Arora B, Rastogi S Impact of vitamin D supplementation on symptom severity and quality of life in patients with irritable bowel syndrome: A meta-analysis. Adv Clin Exp Med. (2025 Jan 24)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39854263"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Bournot AR, Darling AL, Givens ID, Lovegrove JA, Lanham-New SA, Hart KH Effect of vitamin D status and vitamin D supplementation on immune function and prevention of acute respiratory tract infections in dark-skinned individuals: a systematic review and meta-analysis. Public Health Nutr. (2024 Oct 28)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39465641"
+    },
+    {
+      "text": "Depression Symptoms - Ghaemi S, Zeraattalab-Motlagh S, Jayedi A, Shab-Bidar S The effect of vitamin D supplementation on depression: a systematic review and dose-response meta-analysis of randomized controlled trials. Psychol Med. (2024 Nov 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39552387"
+    },
+    {
+      "text": "Pre-Eclampsia Risk - Moghib K, Ghanm TI, Abunamoos A, Rajabi M, Moawad SM, Mohsen A, Kasem S, Elsayed K, Sayed M, Dawoud AI, Salomon I, Elmaghreby A, Ismail M, Amer A Efficacy of vitamin D supplementation on the incidence of preeclampsia: a systematic review and meta-analysis. BMC Pregnancy Childbirth. (2024 Dec 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39716171"
+    },
+    {
+      "text": "Blood glucose - Yu M, Chen S, Liu X, Dong H, Wang DC The impact of vitamin D supplementation on glycemic control and lipid metabolism in polycystic ovary syndrome: a systematic review of randomized controlled trials. BMC Endocr Disord. (2025 Apr 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40259331"
+    },
+    {
+      "text": "Risk of Hypocalcemia - Canali L, Pace GM, Russell MD, Gaino F, Malvezzi L, Mazziotti G, Lania A, Spriano G, Mannstadt M, Randolph GW, Mercante G Preoperative Vitamin D Supplementation to Reduce Hypocalcemia Following Total Thyroidectomy: Systematic Review and Meta-Analysis of Randomized Clinical Trials. Head Neck. (2025 Apr 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40264388"
+    },
+    {
+      "text": "Migraine Frequency - Talandashti MK, Shahinfar H, Delgarm P, Jazayeri S Effects of selected dietary supplements on migraine prophylaxis: A systematic review and dose-response meta-analysis of randomized controlled trials. Neurol Sci. (2024 Oct 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39404918"
+    },
+    {
+      "text": "Parkinson's Disease Symptoms - Xu J, Li J, Sun YJ, Quan W, Qin YD, Song J, Chen JJ Effect of vitamin D supplementation on motor symptoms in Parkinson's disease: a meta-analysis of randomized controlled trials. Front Nutr. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40551732"
+    },
+    {
+      "text": "Sperm Count - Michaelsen MP, Poulsen M, Bjerregaard AA, Borgstrøm M, Poulsen LK, Chortsen MB, Henriksen SG, Kesmodel US The Effect of Dietary Supplements on Male Infertility in Terms of Pregnancy, Live Birth, and Sperm Parameters: A Systematic Review and Meta-Analysis. Nutrients. (2025 May 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40431450"
+    },
+    {
+      "text": "Sperm Count - Jiao Y, Feng Z, Zhang T, Chen X Impact of Vitamin D(3) Supplementation on Androgens and Semen Parameters in Infertile Men: A Systematic Review and Meta-Analysis Based on Prospective Randomised Controlled Trials. Arch Esp Urol. (2025 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40776878"
+    },
+    {
+      "text": "Liver Enzymes - Martinekova P, Obeidat M, Topala M, Váncsa S, Veres DS, Zolcsák Á, Pál M, Földvári-Nagy L, Banovcin P, Erőss B, Hegyi P, Hagymasi K Role of Vitamin D Supplementation in Chronic Liver Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutr Rev. (2025 Jul 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40644459"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Martineau AR, MacLaughlin BD, Hooper RL, Barnes NC, Jolliffe DA, Greiller CL, Kilpin K, McLaughlin D, Fletcher G, Mein CA, Hoti M, Walton R, Grigg J, Timms PM, Rajakulasingam RK, Bhowmik A, Rowe M, Venton TR, Choudhury AB, Simcock DE, Sadique Z, Monteiro WR, Corrigan CJ, Hawrylowicz CM, Griffiths CJ Double-blind randomised placebo-controlled trial of bolus-dose vitamin D3 supplementation in adults with asthma (ViDiAs) Thorax. (2015 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25724847"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Denlinger LC, King TS, Cardet JC, Craig T, Holguin F, Jackson DJ, Kraft M, Peters SP, Ross K, Sumino K, Boushey HA, Jarjour NN, Wechsler ME, Wenzel SE, Castro M, Avila PC, NHLBI AsthmaNet Investigators Vitamin D Supplementation and the Risk of Colds in Patients with Asthma Am J Respir Crit Care Med. (2016 Mar 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26540136"
+    },
+    {
+      "text": "Asthma Symptoms - Fedora K, Setyoningrum RA, Aina Q, Rosyidah LN, Ni'mah NL, Titiharja FF Vitamin D supplementation decrease asthma exacerbations in children: a systematic review and meta-analysis of randomized controlled trials. Ann Med. (2024 Jul 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39421966"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Li Q, Xu X, Liu Y, Yin S, Hu Q, Ji Q, Zhong Y, Zhu F The effects of prenatal vitamin D supplementation on respiratory and allergy-related outcomes in children: A systematic review and meta-analysis of randomized controlled trials. World Allergy Organ J. (2025 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40535465"
+    },
+    {
+      "text": "Endometriosis-associated pelvic pain - James L Nodler, Amy D DiVasta, Allison F Vitonis, Sarah Karevicius, Maggie Malsch, Vishnudas Sarda, Ayotunde Fadayomi, Holly R Harris, Stacey A Missmer Supplementation with vitamin D or ω-3 fatty acids in adolescent girls and young women with endometriosis (SAGE): a double-blind, randomized, placebo-controlled trial Am J Clin Nutr. (2020 Jul 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32453393"
+    },
+    {
+      "text": "Endometriosis-associated pelvic pain - Fariba Almassinokiani, Sepideh Khodaverdi, Masoud Solaymani-Dodaran, Peyman Akbari, Abdolreza Pazouki Effects of Vitamin D on Endometriosis-Related Pain: A Double-Blind Clinical Trial Med Sci Monit. (2016 Dec 17)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27986972"
+    },
+    {
+      "text": "Low-density lipoprotein (LDL) - Abolfazl Mehdizadehkashi, Samaneh Rokhgireh, Kobra Tahermanesh, Neda Eslahi, Sara Minaeian, Mansooreh Samimi The effect of vitamin D supplementation on clinical symptoms and metabolic profiles in patients with endometriosis Gynecol Endocrinol. (2021 Jan 29)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33508990"
+    },
+    {
+      "text": "Pelvic Pain - Zhou IW, Zhang AL, Tsang MS, Xue CC Vitamin D for primary dysmenorrhea and endometriosis-related pain - A systematic review of registered RCTs. PLoS One. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40257970"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Ginde AA, Blatchford P, Breese K, Zarrabi L, Linnebur SA, Wallace JI, Schwartz RS High-Dose Monthly Vitamin D for Prevention of Acute Respiratory Infection in Older Long-Term Care Residents: A Randomized Clinical Trial J Am Geriatr Soc. (2017 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27861708"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Camargo CA Jr, Ganmaa D, Frazier AL, Kirchberg FF, Stuart JJ, Kleinman K, Sumberzul N, Rich-Edwards JW Randomized trial of vitamin D supplementation and risk of acute respiratory infection in Mongolia Pediatrics. (2012 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22908115"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Aloia J, Islam S, Mikhail M Vitamin D and Acute Respiratory Infections—The PODA Trial Open Forum Infect. Dis.. ()",
+      "link": "https://academic.oup.com/ofid/article/6/9/ofz228/5560069"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Grant CC, Kaur S, Waymouth E, Mitchell EA, Scragg R, Ekeroma A, Stewart A, Crane J, Trenholme A, Camargo CA Jr Reduced primary care respiratory infection visits following pregnancy and infancy vitamin D supplementation: a randomised controlled trial Acta Paediatr. (2015 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25283480"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Martineau AR, Jolliffe DA, Greenberg L, Aloia JF, Bergman P, Dubnov-Raz G, Esposito S, Ganmaa D, Ginde AA, Goodall EC, Grant CC, Janssens W, Jensen ME, Kerley CP, Laaksi I, Manaseki-Holland S, Mauger D, Murdoch DR, Neale R, Rees JR, Simpson S, Stelmach I, Trilok Kumar G, Urashima M, Camargo CA, Griffiths CJ, Hooper RL Vitamin D supplementation to prevent acute respiratory infections: individual participant data meta-analysis Health Technol Assess. (2019 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30675873"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Ghasem Mosayebi, Ali Ghazavi, Keyvan Ghasami, Yahya Jand, Parviz Kokhaei Therapeutic effect of vitamin D3 in multiple sclerosis patients Immunol Invest. (2011)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21542721"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Margitta T Kampman, Linn H Steffensen, Svein I Mellgren, Lone Jørgensen Effect of vitamin D3 supplementation on relapses, disease progression, and measures of function in persons with multiple sclerosis: exploratory outcomes from a double-blind randomised controlled trial Mult Scler. (2012 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22354743"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Pierrot-Deseilligny C, Rivaud-Péchoux S, Clerson P, de Paz R, Souberbielle JC Relationship between 25-OH-D serum level and relapse rate in multiple sclerosis patients before and after vitamin D supplementation Ther Adv Neurol Disord. (2012 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22783368"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - J Killestein, E L J Hoogervorst, M Reif, N F Kalkers, A C Van Loenen, P G M Staats, R W Gorter, B M J Uitdehaag, C H Polman Safety, tolerability, and efficacy of orally administered cannabinoids in MS Neurology. (2002 May 14)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12011290"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - P Fox, P G Bain, S Glickman, C Carroll, J Zajicek The effect of cannabis on tremor in patients with multiple sclerosis Neurology. (2004 Apr 13)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15079008"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Raymond Hupperts, Joost Smolders, Reinhold Vieth, Trygve Holmøy, Kurt Marhardt, Myriam Schluep, Joep Killestein, Frederik Barkhof, Manolo Beelke, Luigi M E Grimaldi, SOLAR Study Group Randomized trial of daily high-dose vitamin D 3 in patients with RRMS receiving subcutaneous interferon β-1a Neurology. (2019 Nov 12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31594857"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - William Camu, Philippe Lehert, Charles Pierrot-Deseilligny, Patrick Hautecoeur, Anne Besserve, Anne-Sophie Jean Deleglise, Marianne Payet, Eric Thouvenot, Jean Claude Souberbielle Cholecalciferol in relapsing-remitting MS: A randomized clinical trial (CHOLINE) Neurol Neuroimmunol Neuroinflamm. (2019 Aug 6)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31454777"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Jody Corey-Bloom, Tanya Wolfson, Anthony Gamst, Shelia Jin, Thomas D Marcotte, Heather Bentley, Ben Gouaux Smoked cannabis for spasticity in multiple sclerosis: a randomized, placebo-controlled trial CMAJ. (2012 Jul 10)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22586334"
+    },
+    {
+      "text": "Multiple Sclerosis Symptoms - Vahid Shaygannejad, Mohsen Janghorbani, Fereshteh Ashtari, Hamed Dehghan Effects of adjunct low-dose vitamin d on relapsing-remitting multiple sclerosis progression: preliminary findings of a randomized placebo-controlled trial Mult Scler Int. (2012)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22567287"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Dubnov-Raz G, Rinat B, Hemilä H, Choleva L, Cohen AH, Constantini NW Vitamin D supplementation and upper respiratory tract infections in adolescent swimmers: a randomized controlled trial Pediatr Exerc Sci. (2015 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25050610"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Murdoch DR, Slow S, Chambers ST, Jennings LC, Stewart AW, Priest PC, Florkowski CM, Livesey JH, Camargo CA, Scragg R Effect of vitamin D3 supplementation on upper respiratory tract infections in healthy adults: the VIDARIS randomized controlled trial JAMA. (2012 Oct 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23032549"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Goodall EC, Granados AC, Luinstra K, Pullenayegum E, Coleman BL, Loeb M, Smieja M Vitamin D3 and gargling for the prevention of upper respiratory tract infections: a randomized controlled trial BMC Infect Dis. (2014 May 19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24885201"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Shimizu Y, Ito Y, Yui K, Egawa K, Orimo H Intake of 25-Hydroxyvitamin D3 Reduces Duration and Severity of Upper Respiratory Tract Infection: A Randomized, Double-Blind, Placebo-Controlled, Parallel Group Comparison Study J Nutr Health Aging. (2018)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29582888"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Jung HC, Seo MW, Lee S, Kim SW, Song JK Vitamin D₃ Supplementation Reduces the Symptoms of Upper Respiratory Tract Infection during Winter Training in Vitamin D-Insufficient Taekwondo Athletes: A Randomized Controlled Trial Int J Environ Res Public Health. (2018 Sep 14)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30223447"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Li-Ng M, Aloia JF, Pollack S, Cunha BA, Mikhail M, Yeh J, Berbari N A randomized controlled trial of vitamin D3 supplementation for the prevention of symptomatic upper respiratory tract infections Epidemiol Infect. (2009 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19296870"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Laaksi I, Ruohola JP, Mattila V, Auvinen A, Ylikomi T, Pihlajamäki H Vitamin D supplementation for the prevention of acute respiratory tract infection: a randomized, double-blinded trial among young Finnish men J Infect Dis. (2010 Sep 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20632889"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Aglipay M, Birken CS, Parkin PC, Loeb MB, Thorpe K, Chen Y, Laupacis A, Mamdani M, Macarthur C, Hoch JS, Mazzulli T, Maguire JL, TARGet Kids! Collaboration Effect of High-Dose vs Standard-Dose Wintertime Vitamin D Supplementation on Viral Upper Respiratory Tract Infections in Young Healthy Children JAMA. (2017 Jul 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28719693"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Avenell A, Cook JA, Maclennan GS, Macpherson GC Vitamin D supplementation to prevent infections: a sub-study of a randomised placebo-controlled trial in older people (RECORD trial, ISRCTN 51647438) Age Ageing. (2007 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17702768"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Rees JR, Hendricks K, Barry EL, Peacock JL, Mott LA, Sandler RS, Bresalier RS, Goodman M, Bostick RM, Baron JA Vitamin D3 supplementation and upper respiratory tract infections in a randomized, controlled trial Clin Infect Dis. (2013 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24014734"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Camargo CA, Sluyter J, Stewart AW, Khaw KT, Lawes CMM, Toop L, Waayer D, Scragg R Effect of monthly high-dose vitamin D supplementation on acute respiratory infections in older adults: A randomized controlled trial Clin Infect Dis. (2019 Aug 17)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31420647"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Bergman P, Norlin AC, Hansen S, Rekha RS, Agerberth B, Björkhem-Bergman L, Ekström L, Lindh JD, Andersson J Vitamin D3 supplementation in patients with frequent respiratory tract infections: a randomised and double-blind intervention study BMJ Open. (2012 Dec 13)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23242238"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Loeb M, Dang AD, Thiem VD, Thanabalan V, Wang B, Nguyen NB, Tran HTM, Luong TM, Singh P, Smieja M, Maguire J, Pullenayegum E Effect of Vitamin D supplementation to reduce respiratory infections in children and adolescents in Vietnam: A randomized controlled trial Influenza Other Respir Viruses. (2019 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30328294"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Simpson S, Mei I, Stewart N, Blizzard L, Tettey P, Taylor B Weekly cholecalciferol supplementation results in significant reductions in infection risk among the vitamin D deficient: results from the CIPRIS pilot RCT BMC Nutr. ()",
+      "link": "https://bmcnutr.biomedcentral.com/articles/10.1186/2055-0928-1-7"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Hauger H, Ritz C, Mortensen C, Mølgaard C, Metzdorff SB, Frøkiær H, Damsgaard CT Winter cholecalciferol supplementation at 55°N has little effect on markers of innate immune defense in healthy children aged 4-8 years: a secondary analysis from a randomized controlled trial Eur J Nutr. (2019 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29572676"
+    },
+    {
+      "text": "Low-density lipoprotein (LDL) - Zittermann A, Frisch S, Berthold HK, Götting C, Kuhn J, Kleesiek K, Stehle P, Koertke H, Koerfer R Vitamin D supplementation enhances the beneficial effects of weight loss on cardiovascular disease risk markers Am J Clin Nutr. (2009 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19321573"
+    },
+    {
+      "text": "Interleukin 5 - Barker T, Martins TB, Hill HR, Kjeldsberg CR, Henriksen VT, Dixon BM, Schneider ED, Dern A, Weaver LK Different doses of supplemental vitamin D maintain interleukin-5 without altering skeletal muscle strength: a randomized, double-blind, placebo-controlled study in vitamin D sufficient adults Nutr Metab (Lond). (2012 Mar 9)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22405472"
+    },
+    {
+      "text": "Tuberculosis Symptoms - Ganmaa D, Giovannucci E, Bloom BR, Fawzi W, Burr W, Batbaatar D, Sumberzul N, Holick MF, Willett WC Vitamin D, tuberculin skin test conversion, and latent tuberculosis in Mongolian school-age children: a randomized, double-blind, placebo-controlled feasibility trial Am J Clin Nutr. (2012 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22760564"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Martineau AR, Hanifa Y, Witt KD, Barnes NC, Hooper RL, Patel M, Stevens N, Enayat Z, Balayah Z, Syed A, Knight A, Jolliffe DA, Greiller CL, McLaughlin D, Venton TR, Rowe M, Timms PM, Clark D, Sadique Z, Eldridge SM, Griffiths CJ Double-blind randomised controlled trial of vitamin D3 supplementation for the prevention of acute respiratory infection in older adults and their carers (ViDiFlu) Thorax. (2015 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26063508"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Manaseki-Holland S, Qader G, Isaq Masher M, Bruce J, Zulf Mughal M, Chandramohan D, Walraven G Effects of vitamin D supplementation to children diagnosed with pneumonia in Kabul: a randomised controlled trial Trop Med Int Health. (2010 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20723187"
+    },
+    {
+      "text": "Pneumonia Symptoms - Choudhary N, Gupta P Vitamin D supplementation for severe pneumonia--a randomized controlled trial Indian Pediatr. (2012 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21992858"
+    },
+    {
+      "text": "Risk Of Cardiovascular Disease - Wang L, Manson JE, Song Y, Sesso HD Systematic review: Vitamin D and calcium supplementation in prevention of cardiovascular events Ann Intern Med. (2010 Mar 2)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20194238"
+    },
+    {
+      "text": "Pain - McAlindon T, LaValley M, Schneider E, Nuite M, Lee JY, Price LL, Lo G, Dawson-Hughes B Effect of vitamin D supplementation on progression of knee pain and cartilage volume loss in patients with symptomatic osteoarthritis: a randomized controlled trial JAMA. (2013 Jan 9)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23299607"
+    },
+    {
+      "text": "Glycemic Control - Carrillo AE, Flynn MG, Pinkston C, Markofski MM, Jiang Y, Donkin SS, Teegarden D Impact of vitamin D supplementation during a resistance training intervention on body composition, muscle function, and glucose tolerance in overweight and obese adults Clin Nutr. (2012 Aug 31)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23034474"
+    },
+    {
+      "text": "Glycemic Control - Harris SS, Pittas AG, Palermo NJ A randomized, placebo-controlled trial of vitamin D supplementation to improve glycaemia in overweight and obese African Americans Diabetes Obes Metab. (2012 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22486948"
+    },
+    {
+      "text": "Muscle Mass - Salehpour A, Hosseinpanah F, Shidfar F, Vafa M, Razaghi M, Dehghani S, Hoshiarrad A, Gohari M A 12-week double-blind randomized clinical trial of vitamin D3 supplementation on body fat mass in healthy overweight and obese women Nutr J. (2012 Sep 22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22998754"
+    },
+    {
+      "text": "Weight - Peng, T et al. Can Vitamin D supplementation enhance the effectiveness of exercise-induced weight loss in overweight or obese adults? Evidence from integrated transcriptomic and meta-analysis Front Nutr. (2025-09-30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41098796/"
+    },
+    {
+      "text": "Weight - Ge L, Gao S, Kia N, Wang Y, Hua L Effect of vitamin D supplementation on body composition, lipid profile, and glycemic indices in patients with obesity-associated metabolic syndrome: a systematic review and meta-analysis. Diabetol Metab Syndr. (2025 Jul 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40682197"
+    },
+    {
+      "text": "Blood glucose - Rajakumar K, Moore CG, Khalid AT, Vallejo AN, Virji MA, Holick MF, Greenspan SL, Arslanian S, Reis SE Effect of vitamin D3 supplementation on vascular and metabolic health of vitamin D-deficient overweight and obese children: a randomized clinical trial. Am J Clin Nutr. (2020-Apr-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31950134"
+    },
+    {
+      "text": "Type 2 Diabetes Incidence - Tobias DK, Pradhan AD, Duran EK, Li C, Song Y, Buring JE, Cook NR, Mora S, Manson JE Vitamin D supplementation vs. placebo and incident type 2 diabetes in an ancillary study of the randomized Vitamin D and Omega-3 Trial. Nat Commun. (2025 Apr 8)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40199888"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - Florian Wepner, Raphael Scheuer, Birgit Schuetz-Wieser, Peter Machacek, Elisabeth Pieler-Bruha, Heide S Cross, Julia Hahne, Martin Friedrich Effects of vitamin D on patients with fibromyalgia syndrome: a randomized placebo-controlled trial Pain. (2014 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24438771"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - J F de Carvalho, F A G da Rocha Araújo, L M A da Mota, R B Aires, R P de Araujo Vitamin D Supplementation Seems to Improve Fibromyalgia Symptoms: Preliminary Results Isr Med Assoc J. (2018 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29911760"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - Atalay Dogru, Ayse Balkarli, Veli Cobankara, Sevket Ercan Tunc, Mehmet Sahin Effects of Vitamin D Therapy on Quality of Life in Patients with Fibromyalgia Eurasian J Med. (2017 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28638253"
+    },
+    {
+      "text": "Fever - Urashima M, Segawa T, Okazaki M, Kurihara M, Wada Y, Ida H Randomized trial of vitamin D supplementation to prevent seasonal influenza A in schoolchildren Am J Clin Nutr. (2010 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20219962"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Zhou J, Du J, Huang L, Wang Y, Shi Y, Lin H Preventive Effects of Vitamin D on Seasonal Influenza A in Infants: A Multicenter, Randomized, Open, Controlled Clinical Trial Pediatr Infect Dis J. (2018 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29315160"
+    },
+    {
+      "text": "Influenza Risk - Jorde R, Witham M, Janssens W, Rolighed L, Borchhardt K, de Boer IH, Grimnes G, Hutchinson MS Vitamin D supplementation did not prevent influenza-like illness as diagnosed retrospectively by questionnaires in subjects participating in randomized clinical trials Scand J Infect Dis. (2012 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22026455"
+    },
+    {
+      "text": "Influenza Risk - Urashima M, Mezawa H, Noya M, Camargo CA Jr Effects of vitamin D supplements on influenza A illness during the 2009 H1N1 pandemic: a randomized controlled trial Food Funct. (2014 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25088394"
+    },
+    {
+      "text": "Insulin - Mitri J, Dawson-Hughes B, Hu FB, Pittas AG Effects of vitamin D and calcium supplementation on pancreatic β cell function, insulin sensitivity, and glycemia in adults at high risk of diabetes: the Calcium and Vitamin D for Diabetes Mellitus (CaDDM) randomized controlled trial Am J Clin Nutr. (2011 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21715514"
+    },
+    {
+      "text": "Testosterone - Pilz S, Frisch S, Koertke H, Kuhn J, Dreier J, Obermayer-Pietsch B, Wehr E, Zittermann A Effect of vitamin D supplementation on testosterone levels in men Horm Metab Res. (2011 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21154195"
+    },
+    {
+      "text": "Risk Of Cardiovascular Disease - Dobnig H, Pilz S, Scharnagl H, Renner W, Seelhorst U, Wellnitz B, Kinkeldei J, Boehm BO, Weihrauch G, Maerz W Independent association of low serum 25-hydroxyvitamin d and 1,25-dihydroxyvitamin d levels with all-cause and cardiovascular mortality Arch Intern Med. (2008 Jun 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18574092"
+    },
+    {
+      "text": "COVID-19 Severity - Igor H Murai, Alan L Fernandes, Lucas P Sales, Ana J Pinto, Karla F Goessler, Camila S C Duran, Carla B R Silva, André S Franco, Marina B Macedo, Henrique H H Dalmolin, Janaina Baggio, Guilherme G M Balbi, Bruna Z Reis, Leila Antonangelo, Valeria F Caparbo, Bruno Gualano, Rosa M R Pereira Effect of a Single High Dose of Vitamin D3 on Hospital Length of Stay in Patients With Moderate to Severe COVID-19: A Randomized Clinical Trial JAMA. (2021 Mar 16)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33595634"
+    },
+    {
+      "text": "COVID-19 Severity - Shaun Sabico, Mushira A Enani, Eman Sheshah, Naji J Aljohani, Dara A Aldisi, Naif H Alotaibi, Naemah Alshingetti, Suliman Y Alomar, Abdullah M Alnaami, Osama E Amer, Syed D Hussain, Nasser M Al-Daghri Effects of a 2-Week 5000 IU versus 1000 IU Vitamin D3 Supplementation on Recovery of Symptoms in Patients with Mild to Moderate Covid-19: A Randomized Clinical Trial Nutrients. (2021 Jun 24)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34202578"
+    },
+    {
+      "text": "COVID-19 Severity - Marta Entrenas Castillo, Luis Manuel Entrenas Costa, José Manuel Vaquero Barrios, Juan Francisco Alcalá Díaz, José López Miranda, Roger Bouillon, José Manuel Quesada Gomez \"Effect of calcifediol treatment and best available therapy versus best available therapy on intensive care unit admission and mortality among patients hospitalized for COVID-19: A pilot randomized clinical study\" J Steroid Biochem Mol Biol. (2020 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32871238"
+    },
+    {
+      "text": "Need for mechanical ventilation - Yang Y, Sun W, Yang F, Zhang G, Li X, Sun S, Xing Y Therapeutic effects of vitamin D supplementation on COVID-19 aggravation: a systematic review and meta-analysis of randomized controlled trials. Front Pharmacol. (2024)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38860175"
+    },
+    {
+      "text": "Need for mechanical ventilation - Zhu L, Zhang Y, Li X, Zou X, Bing P, Qi M, He B Vitamin D supplementation for managing COVID-19 in patients with vitamin D deficiency: a systematic review and meta-analysis of randomised controlled trials. BMJ Open. (2025 Mar 26)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40139702"
+    },
+    {
+      "text": "Length of hospitalization - Ghoreshi ZA, Charostad J, Arefinia N, Nakhaie M, Rezaei Zadeh Rukerd M, Salajegheh F Effect of vitamin D supplementation on clinical outcomes in adult patients with COVID-19: A GRADE-assessed systematic review and meta-analysis of randomized controlled trials. Pharmacol Res Perspect. (2024 Sep 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39350561"
+    },
+    {
+      "text": "Length of hospitalization - Sartini M, Del Puente F, Carbone A, Schinca E, Ottria G, Dupont C, Piccinini C, Oliva M, Cristina ML The Effect of Vitamin D Supplementation Post COVID-19 Infection and Related Outcomes: A Systematic Review and Meta-Analysis. Nutrients. (2024 Nov 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39599582"
+    },
+    {
+      "text": "Breast Cancer Risk - Garland CF, Gorham ED, Mohr SB, Grant WB, Giovannucci EL, Lipkin M, Newmark H, Holick MF, Garland FC Vitamin D and prevention of breast cancer: pooled analysis J Steroid Biochem Mol Biol. (2007 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17368188"
+    },
+    {
+      "text": "Breast Cancer Risk - Crew KD, Gammon MD, Steck SE, Hershman DL, Cremers S, Dworakowski E, Shane E, Terry MB, Desai M, Teitelbaum SL, Neugut AI, Santella RM Association between plasma 25-hydroxyvitamin D and breast cancer risk Cancer Prev Res (Phila). (2009 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19470790"
+    },
+    {
+      "text": "Aromatase-Inhibitor Related Joint Pain - Qamar J Khan, Pavan S Reddy, Bruce F Kimler, Priyanka Sharma, Susan E Baxa, Anne P O'Dea, Jennifer R Klemp, Carol J Fabian Effect of vitamin D supplementation on serum 25-hydroxy vitamin D levels, joint pain, and fatigue in women starting adjuvant letrozole treatment for breast cancer Breast Cancer Res Treat. (2010 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19655244"
+    },
+    {
+      "text": "Low-density lipoprotein (LDL) - Seibert E, Lehmann U, Riedel A, Ulrich C, Hirche F, Brandsch C, Dierkes J, Girndt M, Stangl GI Vitamin D3 supplementation does not modify cardiovascular risk profile of adults with inadequate vitamin D status Eur J Nutr. (2015 Nov 30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26621634"
+    },
+    {
+      "text": "Inflammation - Gepner AD, Ramamurthy R, Krueger DC, Korcarz CE, Binkley N, Stein JH A prospective randomized controlled trial of the effects of vitamin D supplementation on cardiovascular disease risk PLoS One. (2012)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22586483"
+    },
+    {
+      "text": "Risk Of Cardiovascular Disease - Cheng X, Chen Z, Fang Y, Zhang Q, Chen B, Xi W, Pan Z, Guo L Effect of vitamin D supplementation for major adverse cardiovascular events: a meta-analysis based on randomised controlled trials. Br J Nutr. (2025 Jul 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40685646"
+    },
+    {
+      "text": "Blood Pressure - Scragg R, Sowers M, Bell C Serum 25-hydroxyvitamin D, ethnicity, and blood pressure in the Third National Health and Nutrition Examination Survey Am J Hypertens. (2007 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17586404"
+    },
+    {
+      "text": "Sleep Duration - Majid MS, Ahmad HS, Bizhan H, Hosein HZM, Mohammad A The effect of vitamin D supplement on the score and quality of sleep in 20-50 year-old people with sleep disorders compared with control group Nutr Neurosci. (2018 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28475473"
+    },
+    {
+      "text": "Fibromyalgia Symptoms - David S Arvold, Marilyn J Odean, Maude P Dornfeld, Ronald R Regal, Judith G Arvold, Gene C Karwoski, David J Mast, Paul B Sanford, Robert J Sjoberg Correlation of symptoms with vitamin D deficiency and symptom response to cholecalciferol treatment: a randomized controlled trial Endocr Pract. (2009 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19364687"
+    },
+    {
+      "text": "Depression Symptoms - Fu J, Zhang Y, Chen X, Yu X, Yan M, Jing B, Yu H, Li W, Guo Q Efficacy of vitamin D supplementation on depressive symptoms in older patients: a meta-analysis of randomized controlled trials. Front Med (Lausanne). (2024 Oct 10)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39450108"
+    },
+    {
+      "text": "Parathyroid Hormone - David D Chandy, Jahnavi Kare, Shakal N Singh, Anjoo Agarwal, Vinita Das, Urmila Singh, V Ramesh, Vijayalakshmi Bhatia Effect of vitamin D supplementation, directly or via breast milk for term infants, on serum 25 hydroxyvitamin D and related biochemistry, and propensity to infection: a randomised placebo-controlled trial Br J Nutr. (2016 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27184759"
+    },
+    {
+      "text": "Calcium Absorption - Abrams SA, Hawthorne KM, Chen Z Supplementation with 1000 IU vitamin D/d leads to parathyroid hormone suppression, but not increased fractional calcium absorption, in 4-8-y-old children: a double-blind randomized controlled trial Am J Clin Nutr. (2013 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23151536"
+    },
+    {
+      "text": "Fracture Risk - Bischoff-Ferrari HA, Willett WC, Wong JB, Stuck AE, Staehelin HB, Orav EJ, Thoma A, Kiel DP, Henschkowski J Prevention of nonvertebral fractures with oral vitamin D and dose dependency: a meta-analysis of randomized controlled trials Arch Intern Med. (2009 Mar 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19307517"
+    },
+    {
+      "text": "Bone turnover markers - Wu M, Bhimavarapu A, Alvarez JA, Hunt WR, Tangpricha V Changes in bone turnover after high-dose vitamin D supplementation during acute pulmonary exacerbation in cystic fibrosis. Bone. (2023-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37390941"
+    },
+    {
+      "text": "Total Antioxidant Capacity (TAC) - Heidari H, Amani R, Feizi A, Askari G, Kohan S, Tavasoli P Vitamin D Supplementation for Premenstrual Syndrome-Related inflammation and antioxidant markers in students with vitamin D deficient: a randomized clinical trial Sci Rep. (2019 Oct 17)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31624297"
+    },
+    {
+      "text": "Depression Symptoms - Dadkhah H, Ebrahimi E, Fathizadeh N Evaluating the effects of vitamin D and vitamin E supplement on premenstrual syndrome: A randomized, double-blind, controlled trial Iran J Nurs Midwifery Res. (2016 Mar-Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27095989"
+    },
+    {
+      "text": "Anxiety Symptoms - Abdollahi R, Abiri B, Sarbakhsh P, Kashanian M, Vafa M The Effect of Vitamin D Supplement Consumption on Premenstrual Syndrome in Vitamin D-Deficient Young Girls: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial Complement Med Res. (2019)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31104056"
+    },
+    {
+      "text": "Anxiety Symptoms - Tartagni M, Cicinelli MV, Tartagni MV, Alrasheed H, Matteo M, Baldini D, De Salvia M, Loverro G, Montagnani M Vitamin D Supplementation for Premenstrual Syndrome-Related Mood Disorders in Adolescents with Severe Hypovitaminosis D J Pediatr Adolesc Gynecol. (2016 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26724745"
+    },
+    {
+      "text": "Cramps - Bahrami A, Avan A, Sadeghnia HR, Esmaeili H, Tayefi M, Ghasemi F, Nejati Salehkhani F, Arabpour-Dahoue M, Rastgar-Moghadam A, Ferns GA, Bahrami-Taghanaki H, Ghayour-Mobarhan M High dose vitamin D supplementation can improve menstrual problems, dysmenorrhea, and premenstrual syndrome in adolescents Gynecol Endocrinol. (2018 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29447494"
+    },
+    {
+      "text": "Glycemic Control - A M Borissova, T Tankova, G Kirilov, L Dakovska, R Kovacheva The effect of vitamin D3 on insulin secretion and peripheral insulin sensitivity in type 2 diabetic patients Int J Clin Pract. (2003 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12800453"
+    },
+    {
+      "text": "Insulin - Chen W, Liu L, Hu F Efficacy of vitamin D supplementation on glycaemic control in type 2 diabetes: An updated systematic review and meta-analysis of randomized controlled trials. Diabetes Obes Metab. (2024 Oct 2)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39355942"
+    },
+    {
+      "text": "Depression Symptoms - Putranto R, Setiati S, Nasrun MW, Witjaksono F, Immanuel S, Subekti I, Harimurti K, Siswanto A, Shatri H, Suwarto S, Megantara MA Effects of cholecalciferol supplementation on depressive symptoms, C-peptide, serotonin, and neurotrophin-3 in type 2 diabetes mellitus: A double-blind, randomized, placebo-controlled trial. Narra J. (2024 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39816051"
+    },
+    {
+      "text": "Glycemic Control - Shaban Nazarian, John V St Peter, Raymond C Boston, Sidney A Jones, Cary N Mariash Vitamin D3 supplementation improves insulin sensitivity in subjects with impaired fasting glucose Transl Res. (2011 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22005267"
+    },
+    {
+      "text": "Insulin Resistance - Wallace HJ, Holmes L, Ennis CN, Cardwell CR, Woodside JV, Young IS, Bell PM, Hunter SJ, McKinley MC Effect of vitamin D3 supplementation on insulin resistance and β-cell function in prediabetes: a double-blind, randomized, placebo-controlled trial. Am J Clin Nutr. (2019-Nov-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31559433"
+    },
+    {
+      "text": "Pain - Prieto-Alhambra D, Javaid MK, Servitja S, Arden NK, Martinez-García M, Diez-Perez A, Albanell J, Tusquets I, Nogues X Vitamin D threshold to prevent aromatase inhibitor-induced arthralgia: a prospective cohort study Breast Cancer Res Treat. (2011 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20665105"
+    },
+    {
+      "text": "Insulin - Sepehrmanesh Z, Kolahdooz F, Abedi F, Mazroii N, Assarian A, Asemi Z, Esmaillzadeh A Vitamin D Supplementation Affects the Beck Depression Inventory, Insulin Resistance, and Biomarkers of Oxidative Stress in Patients with Major Depressive Disorder: A Randomized, Controlled Clinical Trial J Nutr. (2016 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26609167"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Symptoms - Somnath SH, Biswal N, Chandrasekaran V, Jagadisan B, Bobby Z Therapeutic effect of vitamin D in acute lower respiratory infection: A randomized controlled trial Clin Nutr ESPEN. (2017 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29072165"
+    },
+    {
+      "text": "All-Cause Mortality - Bjelakovic G, Gluud LL, Nikolova D, Whitfield K, Wetterslev J, Simonetti RG, Bjelakovic M, Gluud C Vitamin D supplementation for prevention of mortality in adults Cochrane Database Syst Rev. (2011 Jul 6)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21735411"
+    },
+    {
+      "text": "Type 1 Diabetes Incidence - Mohr SB, Garland CF, Gorham ED, Garland FC The association between ultraviolet B irradiance, vitamin D status and incidence rates of type 1 diabetes in 51 regions worldwide Diabetologia. (2008 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18548227"
+    },
+    {
+      "text": "Tuberculosis risk - Middelkoop K, Stewart J, Walker N, Delport C, Jolliffe DA, Coussens AK, Nuttall J, Tang JCY, Fraser WD, Griffiths CJ, Kumar GT, Filteau S, Hooper RL, Wilkinson RJ, Bekker LG, Martineau AR Vitamin D supplementation to prevent tuberculosis infection in South African schoolchildren: multicenter phase 3 double-blind randomized placebo-controlled trial (ViDiKids). Int J Infect Dis. (2023-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37211272"
+    },
+    {
+      "text": "Power Output - Owens DJ, Sharples AP, Polydorou I, Alwan N, Donovan T, Tang J, Fraser WD, Cooper RG, Morton JP, Stewart C, Close GL A systems-based investigation into vitamin D and skeletal muscle repair, regeneration, and hypertrophy Am J Physiol Endocrinol Metab. (2015 Dec 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26506852"
+    },
+    {
+      "text": "Pancreatic Cancer Risk - Skinner HG, Michaud DS, Giovannucci E, Willett WC, Colditz GA, Fuchs CS Vitamin D intake and the risk for pancreatic cancer in two cohort studies Cancer Epidemiol Biomarkers Prev. (2006 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16985031"
+    },
+    {
+      "text": "Fall Risk - Bischoff-Ferrari HA, Dawson-Hughes B, Staehelin HB, Orav JE, Stuck AE, Theiler R, Wong JB, Egli A, Kiel DP, Henschkowski J Fall prevention with supplemental and active forms of vitamin D: a meta-analysis of randomised controlled trials BMJ. (2009 Oct 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19797342"
+    },
+    {
+      "text": "Fall Risk - Broe KE, Chen TC, Weinberg J, Bischoff-Ferrari HA, Holick MF, Kiel DP A higher dose of vitamin d reduces the risk of falls in nursing home residents: a randomized, multiple-dose study J Am Geriatr Soc. (2007 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17302660"
+    },
+    {
+      "text": "Fall Risk - Michos ED, Kalyani RR, Blackford AL, Sternberg AL, Mitchell CM, Juraschek SP, Schrack JA, Wanigatunga AA, Roth DL, Christenson RH, Miller ER, Appel LJ The Relationship of Falls With Achieved 25-Hydroxyvitamin D Levels From Vitamin D Supplementation: The STURDY Trial. J Endocr Soc. (2022-Jun-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35592513"
+    },
+    {
+      "text": "Functionality in Elderly or Injured - Guralnik JM, Sternberg AL, Mitchell CM, Blackford AL, Schrack J, Wanigatunga AA, Michos E, Juraschek SP, Szanton S, Kalyani R, Cai Y, Appel LJ, Effects of Vitamin D on Physical Function: Results From the STURDY Trial. J Gerontol A Biol Sci Med Sci. (2022-Aug-12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34928336"
+    },
+    {
+      "text": "Alzheimer's Disease Symptoms - Jingya Jia, Jing Hu, Xiaoxu Huo, Rujuan Miao, Yanping Zhang, Fei Ma Effects of vitamin D supplementation on cognitive function and blood Aβ-related biomarkers in older adults with Alzheimer's disease: a randomised, double-blind, placebo-controlled trial J Neurol Neurosurg Psychiatry. (2019 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31296588"
+    },
+    {
+      "text": "HbA1c - Kositsawat J, Freeman VL, Gerber BS, Geraci S Association of A1C levels with vitamin D status in U.S. adults: data from the National Health and Nutrition Examination Survey Diabetes Care. (2010 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20215453"
+    },
+    {
+      "text": "Blood Pressure - Witham MD, Nadir MA, Struthers AD Effect of vitamin D on blood pressure: a systematic review and meta-analysis J Hypertens. (2009 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19587609"
+    },
+    {
+      "text": "Bone Mineral Density - Yang Y, Yang M, Su X, Xie F Efficacy of combination therapy of vitamin D and bisphosphonates in the treatment of postmenopausal osteoporosis: a systematic review and meta-analysis. Front Pharmacol. (2024 Nov 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39640483"
+    },
+    {
+      "text": "Otitis Media Risk - Marchisio P, Consonni D, Baggi E, Zampiero A, Bianchini S, Terranova L, Tirelli S, Esposito S, Principi N Vitamin D supplementation reduces the risk of acute otitis media in otitis-prone children Pediatr Infect Dis J. (2013 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23694840"
+    },
+    {
+      "text": "Cathelicidin - Sanders EC, Burkes RM, Mock JR, Brown TT, Wise RA, Hansel NN, Liu MC, Drummond MB Bronchoalveolar Lavage and Plasma Cathelicidin Response to 25-Hydroxy Vitamin D Supplementation: A Pilot Study. Chronic Obstr Pulm Dis. (2021-Jul-28)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34044475"
+    },
+    {
+      "text": "Wound Healing - Halschou-Jensen PM, Sauer J, Bouchelouche P, Fabrin J, Brorson S, Ohrt-Nissen S Improved Healing of Diabetic Foot Ulcers After High-dose Vitamin D: A Randomized Double-blinded Clinical Trial. Int J Low Extrem Wounds. (2023-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34213957"
+    },
+    {
+      "text": "Acne Symptoms - Ruikchuchit T, Juntongjin P Role of vitamin D supplement adjunct to topical benzoyl peroxide in acne: a randomized double-blinded controlled study. Int J Womens Dermatol. (2024 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38957412"
+    },
+    {
+      "text": "Bone Mineral Density - Grove-Laugesen D, Ebbehoj E, Watt T, Hansen KW, Rejnmark L Changes in bone density and microarchitecture following treatment of Graves' disease and the effects of vitamin D supplementation. A randomized clinical trial. Osteoporos Int. (2024 Sep 12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39264438"
+    },
+    {
+      "text": "Itching - Li CP, Huang SC, Hsiao Y, Tsai RY Evaluating the Role of Vitamin D in Alleviating Chronic Pruritus: A Meta-Analysis. Int J Mol Sci. (2024 Sep 16)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39337471"
+    },
+    {
+      "text": "Inflammation - Masbough F, Kouchek M, Koosha M, Salarian S, Miri M, Raoufi M, Taherpour N, Amniati S, Sistanizad M Investigating the Effect of High-Dose Vitamin D3 Administration on Inflammatory Biomarkers in Patients with Moderate to Severe Traumatic Brain Injury: A Randomized Clinical Trial. Iran J Med Sci. (2024 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39449769"
+    },
+    {
+      "text": "Irritable Bowel Syndrome Symptoms - . (2024-09-04)",
+      "link": "https://www.tandfonline.com/doi/full/10.1080/10408398.2024.2400603?ai=1ls&mi=dbflfj&af=R"
+    },
+    {
+      "text": "Irritable Bowel Syndrome Symptoms - Qi S, Zhao M, Sun Y, Boro S, Arora B, Rastogi S Impact of vitamin D supplementation on symptom severity and quality of life in patients with irritable bowel syndrome: A meta-analysis. Adv Clin Exp Med. (2025 Jan 24)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39854263"
+    },
+    {
+      "text": "Upper Respiratory Tract Infection Risk - Bournot AR, Darling AL, Givens ID, Lovegrove JA, Lanham-New SA, Hart KH Effect of vitamin D status and vitamin D supplementation on immune function and prevention of acute respiratory tract infections in dark-skinned individuals: a systematic review and meta-analysis. Public Health Nutr. (2024 Oct 28)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39465641"
+    },
+    {
+      "text": "Depression Symptoms - Ghaemi S, Zeraattalab-Motlagh S, Jayedi A, Shab-Bidar S The effect of vitamin D supplementation on depression: a systematic review and dose-response meta-analysis of randomized controlled trials. Psychol Med. (2024 Nov 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39552387"
+    },
+    {
+      "text": "Pre-Eclampsia Risk - Moghib K, Ghanm TI, Abunamoos A, Rajabi M, Moawad SM, Mohsen A, Kasem S, Elsayed K, Sayed M, Dawoud AI, Salomon I, Elmaghreby A, Ismail M, Amer A Efficacy of vitamin D supplementation on the incidence of preeclampsia: a systematic review and meta-analysis. BMC Pregnancy Childbirth. (2024 Dec 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39716171"
+    },
+    {
+      "text": "Blood glucose - Yu M, Chen S, Liu X, Dong H, Wang DC The impact of vitamin D supplementation on glycemic control and lipid metabolism in polycystic ovary syndrome: a systematic review of randomized controlled trials. BMC Endocr Disord. (2025 Apr 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40259331"
+    },
+    {
+      "text": "Risk of Hypocalcemia - Canali L, Pace GM, Russell MD, Gaino F, Malvezzi L, Mazziotti G, Lania A, Spriano G, Mannstadt M, Randolph GW, Mercante G Preoperative Vitamin D Supplementation to Reduce Hypocalcemia Following Total Thyroidectomy: Systematic Review and Meta-Analysis of Randomized Clinical Trials. Head Neck. (2025 Apr 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40264388"
+    },
+    {
+      "text": "Migraine Frequency - Talandashti MK, Shahinfar H, Delgarm P, Jazayeri S Effects of selected dietary supplements on migraine prophylaxis: A systematic review and dose-response meta-analysis of randomized controlled trials. Neurol Sci. (2024 Oct 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39404918"
+    },
+    {
+      "text": "Parkinson's Disease Symptoms - Xu J, Li J, Sun YJ, Quan W, Qin YD, Song J, Chen JJ Effect of vitamin D supplementation on motor symptoms in Parkinson's disease: a meta-analysis of randomized controlled trials. Front Nutr. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40551732"
+    },
+    {
+      "text": "Sperm Count - Michaelsen MP, Poulsen M, Bjerregaard AA, Borgstrøm M, Poulsen LK, Chortsen MB, Henriksen SG, Kesmodel US The Effect of Dietary Supplements on Male Infertility in Terms of Pregnancy, Live Birth, and Sperm Parameters: A Systematic Review and Meta-Analysis. Nutrients. (2025 May 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40431450"
+    },
+    {
+      "text": "Sperm Count - Jiao Y, Feng Z, Zhang T, Chen X Impact of Vitamin D(3) Supplementation on Androgens and Semen Parameters in Infertile Men: A Systematic Review and Meta-Analysis Based on Prospective Randomised Controlled Trials. Arch Esp Urol. (2025 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40776878"
+    },
+    {
+      "text": "Liver Enzymes - Martinekova P, Obeidat M, Topala M, Váncsa S, Veres DS, Zolcsák Á, Pál M, Földvári-Nagy L, Banovcin P, Erőss B, Hegyi P, Hagymasi K Role of Vitamin D Supplementation in Chronic Liver Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutr Rev. (2025 Jul 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40644459"
+    }
+  ]
+}

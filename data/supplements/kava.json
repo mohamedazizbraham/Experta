@@ -1,0 +1,873 @@
+{
+  "slug": "kava",
+  "name": "Kava",
+  "name_en": "Kava",
+  "description": "Le kava (Piper methysticum) est une plante qui a eu de nombreuses utilisations traditionnelles au cours de l’histoire, en particulier chez les habitants des îles du Pacifique Sud. Elle est surtout connue pour réduire l’anxiété, mais elle comporte des problèmes de sécurité sérieux lorsqu’elle est utilisée en excès.",
+  "overview": [],
+  "dosage": "⚠️ Prudence : risque de lésion hépatique Aucun dosage ou durée optimale pour la consommation de kava n’a encore été déterminé. [8] Le dosage du kava, en particulier dans les formulations standardisées, peut être basé sur la teneur en kavalactone (spécifiquement, kavapyrone ; toutes les kavalactones connues sont des pyrones). Les essais cliniques ont utilisé des doses allant de 100 à 400 mg/jour de kava, et de 60 à 630 mg de kavalactones, par jour. [9] [10] [11] [12] [13] Comme pour toute préparation végétale ou à base de plantes, des facteurs tels que la partie de la plante, les conditions de culture et les méthodes d’extraction peuvent influencer la bioactivité des compléments de kava. Idéalement, les compléments indiqueront une teneur standardisée en kavalactone afin d’améliorer la constance des résultats. [14] [15] [16] [17] [18] [19] Il semble exister un certain potentiel d’abus de substance du kava, mais lorsqu’il est pris aux doses les plus couramment observées, cela est rare. [20] Certains des principes actifs du kava peuvent être sécrétés dans le lait maternel. Étant donné que les effets du kava chez les nourrissons ne sont pas encore connus, l’utilisation du kava pendant la grossesse ou l’allaitement n’est pas recommandée. [21] Le kava peut également interagir avec d’autres substances comme l’alcool et le millepertuis, pouvant amplifier les effets positifs et négatifs. [22] [23] [24] [25] Les rapports de ces interactions sont variables, toutefois, et peuvent dépendre de circonstances telles que la dose, le moment, la forme et des facteurs externes. [26] [27] Par conséquent, les thérapies combinées incluant le kava doivent être envisagées avec prudence.",
+  "safety": {
+    "summary": [
+      "L’utilisation à court terme du kava (moins de 1 à 2 mois) est généralement considérée comme sûre. Les effets secondaires courants comprennent des symptômes gastro-intestinaux, de la somnolence et des maux de tête.",
+      "L’utilisation à long terme est associée à divers effets indésirables, notamment des modifications cutanées (dermopathie du kava), une perte de poids corporelle et une élévation des enzymes hépatiques.",
+      "Le kava doit être évité chez les personnes atteintes de maladie hépatique en raison de multiples rapports de cas de toxicité hépatique.",
+      "La sécurité pendant la grossesse et l’allaitement n’a pas été établie. Son éviction est donc justifiée.",
+      "Le kava peut interagir avec l’alcool, les benzodiazépines et les agents métabolisés par le CYP2E1 ou le CYP1A2."
+    ],
+    "side_effects": {
+      "summary": "L’utilisation à court terme du kava (moins de 1 à 2 mois) dans les plages de dosage recommandées est généralement considérée comme sûre et bien tolérée. [29] [91] Une utilisation à long terme et intensive du kava a été associée à des effets secondaires plus graves.",
+      "table": [
+        {
+          "effect": "Symptômes gastro-intestinaux [14] [29] [91] [92]",
+          "details": "Voie : orale"
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Médicaments hépatotoxiques",
+        "effect": "Il a été constaté que le kava augmente les enzymes hépatiques dans certaines études et a été associé à de nombreux cas de toxicité hépatique. Des preuves limitées suggèrent que la combinaison du kava avec des médicaments hépatotoxiques peut augmenter davantage le risque de toxicité hépatique dans certains cas. [91] [17] [101] [102]",
+        "evidence": "Possible",
+        "severity": "Grave"
+      },
+      {
+        "agent": "Médicaments qui sont des substrats du CYP2E1",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "Médicaments qui sont des substrats du CYP1A2",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Grossesse : éviter",
+        "safety_information": "La sécurité du kava pendant la grossesse n'a pas été établie. Étant donné certains des risques connus liés à la sécurité du kava, il est recommandé de l'éviter. Dans une étude observationnelle, l'utilisation du kava pendant la grossesse était associée à un risque 2,5 fois plus élevé de faible poids à la naissance. [53] De plus, une mère ayant pris du kava pendant la grossesse a présenté une dermopathie au kava (une éruption cutanée associée à l'usage du kava), qui a également été observée chez le bébé après la naissance. Les deux éruptions ont disparu lorsque le kava a été interrompu. [118]"
+      },
+      {
+        "condition": "Allaitement : éviter",
+        "safety_information": "La sécurité du kava pendant l’allaitement n’a pas été établie. Étant donné certains des risques connus liés à la sécurité du kava, il est conseillé de l’éviter."
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Général",
+        "details": "Le kava a été associé à plus de 100 cas de toxicité hépatique, certains nécessitant une transplantation hépatique. [82] L’hépatotoxicité du kava semble quelque peu imprévisible, et la cause n’est pas bien établie. Les facteurs contributifs possibles comprennent certains composés du kava, des contaminants (p. ex. : toxines de moisissures), la susceptibilité biologique, une surdose, la partie ou le cultivar de la plante de kava utilisé, ainsi que la co-administration avec d’autres agents hépatotoxiques. [47] [83] [83] [84] La prudence est conseillée."
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la Liste 2025 des substances interdites de l’AMA, le kava n’est pas interdit."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Troubles anxieux (autres)",
+      "outcomes": [
+        {
+          "outcome": "Agression",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants : 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "7 études Participants: 380",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 380
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 101",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 101
+        },
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 61",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 61
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants: 282",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 282
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "trouble d'anxiété généralisée",
+      "outcomes": [
+        {
+          "outcome": "agression",
+          "grade": "C",
+          "effect": "légère amélioration",
+          "evidence": "1 étude Participants : 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 238",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 238
+        },
+        {
+          "outcome": "symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 60",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stress",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "3 études Participants : 198",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 198
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 24",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 24",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 24
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 678",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 678
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Agoraphobia",
+      "outcomes": [
+        {
+          "outcome": "Aggression",
+          "grade": "C",
+          "effect": "Small Improvement",
+          "evidence": "1 Study Participants: 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "Anxiety Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "Liver Enzymes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "Subjective Well-Being",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration cognitive",
+      "outcomes": [
+        {
+          "outcome": "Cognition",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Résilience mentale",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 54",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 54
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de l'humeur",
+      "outcomes": [
+        {
+          "outcome": "Cognition",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants: 24",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 24",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 24
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble d'anxiété sociale",
+      "outcomes": [
+        {
+          "outcome": "Aggression",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude Participants: 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 141",
+          "studies": [
+            {
+              "title": "Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+            }
+          ],
+          "participants": 141
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelles sont les utilisations traditionnelles, historiques et culturelles connues du kava ?",
+      "answer": "Le kava, originaire du Pacifique Sud, est traditionnellement consommé dans les cultures polynésiennes et micronésiennes lors de séances communautaires pour la socialisation et la détente. À Hawaï, il a été utilisé à diverses fins, notamment pour soulager les troubles gastriques et comme aide gynécologique, en plus de son usage courant comme relaxant."
+    },
+    {
+      "question": "Sous quelles formes le kava se présente-t-il généralement ?",
+      "answer": "Le kava se présente généralement sous des formes traditionnelles telles que la racine macérée infusée dans des liquides, ainsi que sous des préparations moins traditionnelles comme les teintures, les thés, les capsules et les poudres sèches. Les préparations de kava standardisées, souvent utilisées dans les essais cliniques, comprennent des extraits de racine avec des concentrations spécifiques de kavalactones."
+    },
+    {
+      "question": "Le kava aide-t-il à la santé mentale ?",
+      "answer": "Le kava est principalement connu pour ses effets anxiolytiques et peut constituer une alternative sûre aux benzodiazépines pour le traitement de l’anxiété à court terme, bien que les preuves cliniques de son efficacité dans le trouble anxieux généralisé soient mitigées. De plus, le kava a montré un potentiel pour atténuer l’anxiété liée à la ménopause et pourrait améliorer l’humeur chez les personnes sans problèmes de santé connus."
+    },
+    {
+      "question": "Quels autres bénéfices le kava pourrait-il avoir ?",
+      "answer": "Le kava pourrait offrir des bénéfices cognitifs en n’altérant pas les fonctions cognitives comme le font les médicaments anxiolytiques classiques, ce qui permet aux utilisateurs de rester vigilants lors d’activités telles que la conduite. Des études cliniques suggèrent que des doses plus élevées de kava pourraient même améliorer la performance dans des tâches nécessitant précision et temps de réaction plus rapides."
+    },
+    {
+      "question": "Le kava interagit-il avec d’autres substances ?",
+      "answer": "Le kava peut interagir avec l’alcool, ce qui augmente potentiellement les effets sédatifs et les lésions hépatiques, bien que les rapports à ce sujet varient. De plus, une étude combinant le kava avec le millepertuis a montré une certaine réduction des symptômes anxieux mais a également relevé une sensibilité émotionnelle accrue et des troubles du sommeil, sans conclusions claires sur leurs effets combinés."
+    }
+  ],
+  "references": [
+    {
+      "text": "Subjective Well-Being - Volz HP, Kieser M Kava-kava extract WS 1490 versus placebo in anxiety disorders--a randomized placebo-controlled 25-week outpatient trial Pharmacopsychiatry. (1997 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9065962"
+    },
+    {
+      "text": "Subjective Well-Being - Gastpar M, Klimm HD Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial Phytomedicine. (2003 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+    },
+    {
+      "text": "Subjective Well-Being - Malsch U, Kieser M Efficacy of kava-kava in the treatment of non-psychotic anxiety, following pretreatment with benzodiazepines Psychopharmacology (Berl). (2001 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11605083"
+    },
+    {
+      "text": "Anxiety Symptoms - Pittler MH, Ernst E Kava extract for treating anxiety Cochrane Database Syst Rev. (2003)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12535473"
+    },
+    {
+      "text": "Anxiety Symptoms - Lehrl S Clinical efficacy of kava extract WS 1490 in sleep disturbances associated with anxiety disorders. Results of a multicenter, randomized, placebo-controlled, double-blind clinical trial J Affect Disord. (2004 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/14706720"
+    },
+    {
+      "text": "Anxiety Symptoms - Geier FP, Konstantinowicz T Kava treatment in patients with anxiety Phytother Res. (2004 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15162364"
+    },
+    {
+      "text": "Anxiety Symptoms - Zhang W, Yan Y, Wu Y, Yang H, Zhu P, Yan F, Zhao R, Tian P, Wang T, Fan Q, Su Z Medicinal herbs for the treatment of anxiety: A systematic review and network meta-analysis. Pharmacol Res. (2022-May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35378276"
+    },
+    {
+      "text": "Anxiety Symptoms - Pittler MH, Ernst E Efficacy of kava extract for treating anxiety: systematic review and meta-analysis. J Clin Psychopharmacol. (2000-Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10653213"
+    },
+    {
+      "text": "Anxiety Symptoms - Connor KM, Davidson JR A placebo-controlled study of Kava kava in generalized anxiety disorder Int Clin Psychopharmacol. (2002 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12131602"
+    },
+    {
+      "text": "Anxiety Symptoms - Sarris J, Kavanagh DJ, Byrne G, Bone KM, Adams J, Deed G The Kava Anxiety Depression Spectrum Study (KADSS): a randomized, placebo-controlled crossover trial using an aqueous extract of Piper methysticum Psychopharmacology (Berl). (2009 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19430766"
+    },
+    {
+      "text": "Stress Signs and Symptoms - D Wheatley Kava and valerian in the treatment of stress-induced insomnia Phytother Res. (2001 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11536390"
+    },
+    {
+      "text": "Stress Signs and Symptoms - Cropley M, Cave Z, Ellis J, Middleton RW Effect of kava and valerian on human physiological and psychological responses to mental stress assessed under laboratory conditions Phytother Res. (2002 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11807960"
+    },
+    {
+      "text": "Reaction Time - Thompson R, Ruch W, Hasenöhrl RU Enhanced cognitive performance and cheerful mood by standardized extracts of Piper methysticum (Kava-kava) Hum Psychopharmacol. (2004 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15181652"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Subjective Well-Being - Volz HP, Kieser M Kava-kava extract WS 1490 versus placebo in anxiety disorders--a randomized placebo-controlled 25-week outpatient trial Pharmacopsychiatry. (1997 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9065962"
+    },
+    {
+      "text": "Subjective Well-Being - Gastpar M, Klimm HD Treatment of anxiety, tension and restlessness states with Kava special extract WS 1490 in general practice: a randomized placebo-controlled double-blind multicenter trial Phytomedicine. (2003 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/14692723"
+    },
+    {
+      "text": "Subjective Well-Being - Malsch U, Kieser M Efficacy of kava-kava in the treatment of non-psychotic anxiety, following pretreatment with benzodiazepines Psychopharmacology (Berl). (2001 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11605083"
+    },
+    {
+      "text": "Anxiety Symptoms - Pittler MH, Ernst E Kava extract for treating anxiety Cochrane Database Syst Rev. (2003)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12535473"
+    },
+    {
+      "text": "Anxiety Symptoms - Lehrl S Clinical efficacy of kava extract WS 1490 in sleep disturbances associated with anxiety disorders. Results of a multicenter, randomized, placebo-controlled, double-blind clinical trial J Affect Disord. (2004 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/14706720"
+    },
+    {
+      "text": "Anxiety Symptoms - Geier FP, Konstantinowicz T Kava treatment in patients with anxiety Phytother Res. (2004 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15162364"
+    },
+    {
+      "text": "Anxiety Symptoms - Zhang W, Yan Y, Wu Y, Yang H, Zhu P, Yan F, Zhao R, Tian P, Wang T, Fan Q, Su Z Medicinal herbs for the treatment of anxiety: A systematic review and network meta-analysis. Pharmacol Res. (2022-May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35378276"
+    },
+    {
+      "text": "Anxiety Symptoms - Pittler MH, Ernst E Efficacy of kava extract for treating anxiety: systematic review and meta-analysis. J Clin Psychopharmacol. (2000-Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10653213"
+    },
+    {
+      "text": "Anxiety Symptoms - Connor KM, Davidson JR A placebo-controlled study of Kava kava in generalized anxiety disorder Int Clin Psychopharmacol. (2002 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12131602"
+    },
+    {
+      "text": "Anxiety Symptoms - Sarris J, Kavanagh DJ, Byrne G, Bone KM, Adams J, Deed G The Kava Anxiety Depression Spectrum Study (KADSS): a randomized, placebo-controlled crossover trial using an aqueous extract of Piper methysticum Psychopharmacology (Berl). (2009 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19430766"
+    },
+    {
+      "text": "Stress Signs and Symptoms - D Wheatley Kava and valerian in the treatment of stress-induced insomnia Phytother Res. (2001 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11536390"
+    },
+    {
+      "text": "Stress Signs and Symptoms - Cropley M, Cave Z, Ellis J, Middleton RW Effect of kava and valerian on human physiological and psychological responses to mental stress assessed under laboratory conditions Phytother Res. (2002 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11807960"
+    },
+    {
+      "text": "Reaction Time - Thompson R, Ruch W, Hasenöhrl RU Enhanced cognitive performance and cheerful mood by standardized extracts of Piper methysticum (Kava-kava) Hum Psychopharmacol. (2004 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15181652"
+    }
+  ]
+}

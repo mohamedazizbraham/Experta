@@ -1,0 +1,365 @@
+{
+  "slug": "exogenous-ketones",
+  "name": "Cétones exogènes",
+  "name_en": "Exogenous Ketones",
+  "description": "Les cétones exogènes sont des suppléments qui imitent la cétose en augmentant les corps cétoniques dans le sang. La supplémentation en cétones exogènes pourrait améliorer le contrôle glycémique, la cognition et la fonction cardiaque.",
+  "overview": [
+    {
+      "question": "Quelles sont les cétones exogènes ?",
+      "answer": "Les cétones exogènes sont des cétones synthétiques consommées sous forme de supplément qui imitent l’état de cétose - c’est-à-dire qu’elles provoquent une augmentation temporaire de la concentration de beta-hydroxybutyrate (un corps cétonique) dans le sang. [19] [11] [10] [20] Ces suppléments sont appelés « exogènes » parce qu’ils proviennent d’une source externe (p. ex., un supplément) plutôt que d’être produits naturellement par l’organisme. L’ingrédient actif des suppléments de cétones exogènes est généralement le beta-hydroxybutyrate (également appelé 3-hydroxybutyrate), qui est souvent lié à un ester - un ester de cétones - ou à un sel de sodium/potassium/magnésium - un sel de cétones. [21] [22] [23] Cependant, certains suppléments de cétones exogènes contiennent un précurseur de cétones (p. ex., 1,3-butanediol) qui est métabolisé par le foie après ingestion pour produire du beta-hydroxybutyrate. [21] [22] [23]"
+    },
+    {
+      "question": "Quels sont les principaux bénéfices des cétones exogènes ?",
+      "answer": "Les études précliniques chez les rongeurs ont montré que les cétones exogènes peuvent améliorer la fonction cognitive. [24] [25] [26] [27] Certaines études randomisées contrôlées ont également trouvé que la supplémentation en cétones exogènes peut améliorer certains aspects de la fonction cognitive chez les personnes soumises à un stress métabolique (p. ex., jeûne, exercice ou hypoxie, qui est une condition où le corps est privé d’un apport adéquat en oxygène) [1] [2] [3] [4] [5] [6] et chez les personnes atteintes de maladies neurodégénératives (p. ex., la maladie d’Alzheimer). [28] Cependant, les effets chez l’homme varient considérablement, et certaines études cliniques n’ont trouvé aucun bénéfice des cétones exogènes sur la fonction cognitive. [7] [8] [9] Des essais randomisés contrôlés de haute qualité supplémentaires sont nécessaires pour comprendre l’efficacité thérapeutique des cétones chez les personnes présentant un trouble cognitif léger ou la maladie d’Alzheimer. Deux méta-analyses ont montré que la supplémentation en cétones exogènes peut abaisser la glycémie et augmenter l’insuline chez les personnes obèses ou prédiabétiques ainsi que chez les personnes sans condition de santé connue. [10] [11] Certaines, [12] [13] mais pas toutes, [14] [15] les études randomisées contrôlées ont trouvé des effets similaires chez les personnes atteintes de diabète de type 2. Davantage de recherches sont nécessaires pour déterminer l’efficacité des cétones exogènes dans le traitement du diabète. Une méta-analyse a montré que les cétones exogènes peuvent augmenter la fraction d’éjection du ventricule gauche, le débit cardiaque et le volume d’éjection - signes d’une amélioration de la fonction cardiaque - chez les personnes en insuffisance cardiaque, sans influencer la fréquence cardiaque ni la pression artérielle. [16] Une analyse de sous-groupe dans cette étude a trouvé que les cétones exogènes peuvent également améliorer la fonction cardiaque chez les personnes sans insuffisance cardiaque. [16] Cependant, il existait un risque élevé de biais parmi les études incluses, et l’analyse combinait différents modes d’administration des cétones : beta-hydroxybutyrate infusé par voie intraveineuse et esters de cétones administrés oralement. Cela dit, deux autres essais randomisés contrôlés utilisant un ester de cétones ingéré oralement ont confirmé les résultats de la méta-analyse décrite ci-dessus chez les patients en insuffisance cardiaque et les personnes atteintes de diabète de type 2. [17] [18]"
+    },
+    {
+      "question": "Quels sont les principaux inconvénients des cétones exogènes ?",
+      "answer": "Les principaux effets indésirables de la prise de cétones exogènes comprennent les maux de tête et les troubles gastro-intestinaux tels que nausées, diarrhée, flatulences, éructations, brûlures d’estomac, douleurs abdominales et ballonnements. [10] [11] [29] [30] [20] [31] Cependant, ces effets secondaires sont généralement légers, et les cétones exogènes sont généralement considérées comme sûres pour la consommation. [30] [20] [31] Cela dit, il manque d’études examinant en profondeur la relation dose-réponse et la pharmacocinétique des cétones exogènes chez l’homme, et leur sécurité n’est pas entièrement comprise. Un autre inconvénient des cétones exogènes est que, bien que leur consommation puisse imiter les signes de la cétose (une concentration élevée de beta-hydroxybutyrate dans le sang), [19] [11] [10] [20] contrairement à d’autres interventions qui induisent la cétose (régime cétogène ou jeûne), les cétones exogènes ne font pas brûler les réserves de graisse de l’organisme. Ainsi, les cétones exogènes ne remplacent pas les interventions destinées à induire une perte de poids. Voir « Do exogenous ketones cause weight loss? » pour plus de détails. Il est également important de noter que la plupart des preuves concernant les bénéfices des cétones exogènes présentent un risque de biais modéré à élevé, car il existe peu d’études, [28] [16] des tailles d’échantillon faibles, [28] des rapports inadéquats sur la randomisation et le double-aveugle, [16] un haut niveau d’hétérogénéité entre les études, [28] [10] [11] et des conflits d’intérêts potentiels (études financées ou rédigées par les fabricants de suppléments de cétones exogènes). [10] [11] De plus, de nombreuses études utilisent un produit commercial disponible contenant des cétones exogènes sans analyser de façon indépendante le produit afin de confirmer sa composition et sa pureté. Faire cela augmenterait la confiance dans les résultats des études."
+    },
+    {
+      "question": "Comment les cétones exogènes fonctionnent-elles ?",
+      "answer": "Pendant les périodes de faible disponibilité du glucose, p. ex., jeûne, régime cétogène ou exercice de longue durée, la production endogène (produite par l’organisme) de corps cétoniques augmente afin de maintenir un apport énergétique adéquat. Les corps cétoniques tels que le beta-hydroxybutyrate agissent comme une forme transportable d’acétyl-CoA qui peut être convertie en adénosine triphosphate (ATP) dans les organes du corps. [34] [35] [36] [37] Le beta-hydroxybutyrate peut également réguler l’expression génique, la fonction neuronale et le taux métabolique, soit directement, soit indirectement via les métabolites en lesquels il est converti. [35] [38] [37] De plus, le beta-hydroxybutyrate peut inhiber l’activité des histone désacétylases, ce qui signifie qu’il pourrait jouer un rôle en épigénétique, processus où des modifications de l’ADN régulent l’activation ou l’inactivation des gènes. [35] [38] [37] Par conséquent, la consommation de cétones exogènes [19] [11] [10] [20] (y compris les précurseurs de cétones tels que 1,3-butanediol) [21] [22] [23] augmente la concentration circulante de beta-hydroxybutyrate dans le sang ; les cétones exogènes pourraient ainsi fournir de l’énergie à l’organisme et réguler l’expression génique, etc. Comme les cétones exogènes élèvent les niveaux de beta-hydroxybutyrate, il est plausible qu’elles offrent une source d’énergie supplémentaire au cerveau lors de périodes de forte demande énergétique, comme pendant des tâches cognitives stressantes. [36] [39] [40] De plus, l’infusion intraveineuse de beta-hydroxybutyrate chez l’homme a montré une augmentation du flux sanguin et de la consommation d’oxygène dans le cerveau, [41] ce qui pourrait améliorer l’apport de nutriments et d’oxygène au cerveau pendant les tâches cognitives. Des études chez les rongeurs et d’autres modèles précliniques ont également démontré que les cétones peuvent réduire l’inflammation cérébrale en atténuant la libération de glutamate par les astrocytes (cellules du système nerveux central). [27] Des méta-analyses ont trouvé que les cétones exogènes peuvent augmenter l’insuline sérique, [10] [11] une hormone qui augmente l’absorption du glucose, ce qui pourrait expliquer comment les cétones abaissent la glycémie. Cependant, des études cliniques ont également montré que les cétones peuvent diminuer les concentrations sanguines d’alanine, [42] qui est un précurseur de la gluconéogenèse (production de nouveau glucose). Cela est pertinent car la réduction de la gluconéogenèse diminuerait la quantité de glucose libérée par le foie dans le sang, abaissant ainsi la glycémie. En augmentant les niveaux de beta-hydroxybutyrate dans le sang, les cétones exogènes pourraient fournir une source d’énergie supplémentaire aux muscles contractiles du cœur pour aider à augmenter la fraction d’éjection du ventricule gauche et le débit cardiaque chez les personnes en insuffisance cardiaque. [16] En outre, des études in vitro sur des cellules musculaires cardiaques ont montré que les corps cétoniques peuvent réguler la production d’espèces réactives de l’oxygène, [37] [43] [44] impliquées dans le stress oxydatif. Cependant, les mécanismes précis de l’effet des cétones exogènes sur la fonction cardiaque et d’autres résultats, tels que la fonction cognitive et le contrôle de la glycémie, nécessitent davantage d’exploration."
+    }
+  ],
+  "dosage": "Formulation : Les suppléments de cétones exogènes sont généralement pris sous forme liquide et contiennent du beta-hydroxybutyrate (également appelé 3-hydroxybutyrate), qui est souvent lié à un ester - un ester de cétone - ou à un sel - un sel de cétone. Certains fabricants produisent des suppléments de cétones sous forme de poudre ou de comprimés ; toutefois, la plupart des études de recherche ont utilisé des formes liquides. Plage de doses étudiées : Esters de cétone : 115 à 1 500 mg par kilogramme de poids corporel ou un total de 12 à 25 g. Sels de cétone : 140 à 468 mg par kilogramme de poids corporel ou un total de 6 à 36 g. Doses efficaces : Fonction cognitive - Adultes : La dose efficace pour améliorer la fonction cognitive chez les personnes en situation de stress métabolique (par ex. jeûne, hypoxie ou exercice) est une dose unique d’ester de cétone (375 à 750 mg par kilogramme de poids corporel ou un total de 25 g) prise par voie orale 20 à 30 minutes avant le test. [1] [2] [3] [4] Des bénéfices ont également été observés avec une utilisation quotidienne d’un sel de cétone (12 g deux fois par jour) ou d’un ester de cétone (12 g trois fois par jour) pris par voie orale pendant 2 à 6 semaines. [5] [6] Considérations particulières : Dans les études montrant un bénéfice, les suppléments de cétones sont généralement pris à jeun. Cependant, les effets chez l’homme varient considérablement, et toutes les études ne constatent pas de bénéfice. [7] [8] [9] De plus, en raison d’un manque d’études dose-réponse et de méta-analyses, la dose précise efficace ainsi que le type de cétone le plus efficace restent incertains. En outre, des recherches supplémentaires sont nécessaires pour comprendre l’efficacité thérapeutique des cétones chez les personnes présentant un trouble cognitif léger ou la maladie d’Alzheimer. Contrôle glycémique - Adultes : La dose efficace pour améliorer le contrôle glycémique (baisse de la glycémie) est une dose unique d’ester de cétone (250 à 1 500 mg par kilogramme de poids corporel ou un total de 12 à 25 g) ou d’un sel de cétone (140 à 468 mg par kilogramme de poids corporel ou un total de 6 à 36 g) prise par voie orale avant un repas. [10] [11] Des bénéfices ont également été observés avec une utilisation quotidienne (12 à 25 g d’ester de cétone ou 12 g de sel de cétone) prise par voie orale une à trois fois par jour pendant 2 à 6 semaines. [10] [11] Considérations particulières : Certaines études ont trouvé des effets similaires chez les personnes atteintes de diabète de type 2, mais les résultats sont mitigés, et davantage de recherches sont nécessaires. Des analyses de méta-régression sont également nécessaires pour déterminer la dose optimale et le type de cétone. Les suppléments de cétones ne sont généralement pas pris avec de la nourriture dans les études qui ont testé leurs effets. Insuffisance cardiaque - Adultes : La dose efficace pour améliorer la fonction cardiaque (augmentation de la fraction d’éjection du ventricule gauche, du débit cardiaque et du volume d’éjection) est une dose unique d’ester de cétone (115 à 500 mg par kilogramme de poids corporel ou un total de 25 g) prise par voie orale avant le test. [16] [17] [18] Des bénéfices ont également été observés avec une utilisation quotidienne d’un ester de cétone (25 g quatre fois par jour) prise par voie orale pendant 2 semaines. [16] [17] Considérations particulières : Les suppléments de cétones ne sont généralement pas pris avec de la nourriture dans les études qui ont testé leurs effets. Cependant, en raison du nombre limité d’études, des recherches futures sont nécessaires pour préciser la dose optimale et le type de cétone pour améliorer la fonction cardiaque. Autres considérations : ⚠️ Précaution : Les cétones exogènes peuvent interagir avec les médicaments hypoglycémiants, peuvent avoir des effets négatifs pendant la grossesse et sont contre-indiquées chez les personnes en cétose diabétique.",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Performance d'exercice aérobie",
+      "outcomes": [
+        {
+          "outcome": "Mesures d'exercice aérobie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études Participants : 228",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 228
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants : 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Lactate sanguin (exercice)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Débit cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Volume télédiastolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Acides gras libres",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Insulin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Left Ventricular Ejection Fraction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        },
+        {
+          "outcome": "Stroke Volume",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 107",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 107
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Metabolic Health",
+      "outcomes": [
+        {
+          "outcome": "Blood glucose",
+          "grade": "B",
+          "effect": "Small Improvement",
+          "evidence": "33 études Participants : 586",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 586
+        },
+        {
+          "outcome": "Corps cétoniques",
+          "grade": "",
+          "effect": "",
+          "evidence": "33 études Participants : 586",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 586
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 89",
+          "studies": [
+            {
+              "title": "Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+            },
+            {
+              "title": "Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+            }
+          ],
+          "participants": 89
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel type de cétone exogène est le plus efficace : un sel de cétone, un ester de cétone ou un précurseur de cétone (un pro-cétone) ?",
+      "answer": "Bien que certaines preuves montrent que les esters de cétone ont un effet plus important que les sels de cétone pour augmenter les concentrations de corps cétoniques et abaisser la glycémie, [11] toutes les études ne démontrent pas cette différence. [10] Cependant, le type précis de cétone étudié est souvent incertain parce que les termes « cétone exogène » et « ester de cétone » sont utilisés de manière interchangeable pour décrire les corps cétoniques isolés (p. ex., beta-hydroxybutyrate), les esters de cétone (p. ex., beta-hydroxybutyrate lié à 1,3-butanediol) et les précurseurs de cétone (1,3-butanediol isolé). [45] [46] En conséquence, les effets comparatifs des sels de cétone vs. esters de cétone vs. précurseurs de cétone (parfois appelés pro-cétones) n’ont pas été étudiés de manière adéquate pour déterminer quel type de supplément de cétone exogène pourrait présenter la plus grande efficacité."
+    },
+    {
+      "question": "Les précurseurs de cétone (pro-cétones) constituent-ils une alternative efficace aux cétones exogènes ?",
+      "answer": "Les précurseurs de cétone - parfois appelés pré-cétones - comprennent le 1,3-butanediol, le bis hexanoyl (R)-1,3-butanediol et le bis octanoyl (R)-1,3-butanediol, qui sont métabolisés dans le foie pour produire les corps cétoniques beta-hydroxybutyrate et acetoacetate. [21] [22] [23] [47] [48] [49] [50] [51] Ainsi, l’ingestion d’un précurseur de cétone augmente la concentration de beta-hydroxybutyrate dans le sang et imite la cétose. [52] [51] [53] [54] [55] Des entreprises comme ketone-IQ (anciennement HVMN) commercialisent des produits contenant du 1,3-butanediol et prétendent de nombreux bienfaits. Cependant, comme décrit ci-dessous, les études cliniques sont rares. Une dose unique de 1,3-butanediol a augmenté le débit cardiaque, le volume d’éjection systolique et la fraction d’éjection du ventricule gauche chez des hommes atteints d’insuffisance cardiaque dans un petit essai contrôlé randomisé. [56] Des études plus importantes sont nécessaires pour confirmer ces effets. L’ingestion d’une dose unique de 1,3-butanediol avant ou avant et pendant l’exercice n’a pas modifié la performance d’exercice aérobie lors de la course ou du cyclisme, comme le montrent deux petits essais contrôlés randomisés. [57] [58] Les effets sur la glycémie sont mitigés. Une petite étude a constaté qu’une dose unique de bis octanoyl (R)-1,3-butanediol n’a pas influencé la glycémie à jeun chez les personnes âgées. [54] Cependant, cette étude n’incluait pas de groupe contrôle, [54] si bien que des conclusions fermes ne peuvent être tirées. Une autre étude a trouvé qu’une dose unique de bis hexanoyl (R)-1,3-butanediol réduisait la glycémie postprandiale lorsqu’elle était prise avant un repas contenant des glucides. [51] Cependant, cette étude manquait également d’un groupe contrôle. [51] Une étude de suivi incluant un groupe contrôle n’a trouvé aucun effet sur la glycémie. [53] En général, il existe très peu d’essais contrôlés randomisés sur les précurseurs de cétone, et la plupart des travaux existants sont de faible qualité. Des recherches de haute qualité supplémentaires sont nécessaires pour tirer des conclusions fermes sur les effets des précurseurs de cétone sur la santé et la performance."
+    },
+    {
+      "question": "Les cétones exogènes entraînent-elles une perte de poids ?",
+      "answer": "Un régime cétogène, qui induit un état de cétose (concentrations élevées de corps cétoniques dans le sang), est souvent utilisé pour favoriser la perte de poids. La supplémentation en cétones exogènes, qui augmente également les concentrations sanguines de corps cétoniques, a été présentée comme une alternative simple au régime cétogène. Cependant, cette approche constitue-t-elle un outil efficace pour la perte de poids ? Des preuves provenant d’études in vitro montrent que le beta-hydroxybutyrate, un corps cétonique, peut réguler les voies impliquées dans l’activation du système nerveux sympathique (« fight or flight ») et la dépense énergétique [59]. Des études précliniques chez le rat ont également montré que l’infusion de beta-hydroxybutyrate peut stimuler la leptine - hormone qui régule l’apport alimentaire et énergétique - et diminuer le poids corporel [60]. D’autres études chez le rongeur ont démontré qu’une alimentation à court terme avec un ester cétonique peut réduire la prise alimentaire ad libitum [61] et entraîner une perte de poids [62][63][64]. Cependant, toutes les études précliniques n’ont pas trouvé d’effets bénéfiques des cétones exogènes sur la dépense énergétique quotidienne totale ou le poids corporel [65]. Bien que les études précliniques soient prometteuses, les effets cliniques des cétones exogènes sur l’apport énergétique et la perte de poids ne sont pas bien compris. Une série de petits essais randomisés contrôlés a montré qu’une dose unique de cétones exogènes (beta-hydroxybutyrate ou ester cétonique) peut ralentir le taux de vidange gastrique [66], diminuer les sensations de faim et d’appétit [67][68], augmenter les sensations de satiété et de plénitude [68] et réduire l’apport énergétique lors d’une alimentation ad libitum [14]. Cependant, certaines études ne confirment pas ces résultats, ne montrant aucun effet sur la faim [14], la plénitude [14] ou l’appétit [66]. De plus, les effets sur les concentrations plasmatiques des hormones intestinales régulant l’appétit et la satiété sont mitigés. Par exemple, les cétones exogènes n’affectent pas le polypeptide insulinotrope dépendant du glucose [66][68] mais peuvent diminuer la ghréline [68][67] et le peptide YY [67]. Par ailleurs, une augmentation de la cholécystokinine a été observée dans certaines [66] mais pas toutes [68] les études, et une diminution du glucagon-like peptide 1 (GLP-1) dans certaines [67] mais pas toutes [66][68] les études. Les effets cliniques sur la perte de poids sont également variables. Un essai randomisé contrôlé en crossover a montré que 14 jours de supplémentation quotidienne en beta-hydroxybutyrate ont conduit à une diminution d’environ 1 kg (2 lb) du poids corporel chez 15 personnes obèses [69], tandis qu’une autre étude chez 20 femmes n’a pas trouvé d’influence du beta-hydroxybutyrate sur la perte de poids induite par le régime [70]. En résumé, bien que les données précliniques soient convaincantes, les données cliniques restent rares, et des essais randomisés contrôlés de plus grande taille et de haute qualité sont nécessaires pour tirer des conclusions sur l’efficacité des cétones exogènes concernant la perte de poids et la régulation de l’apport énergétique."
+    },
+    {
+      "question": "Les cétones exogènes améliorent-elles la performance à l’exercice ?",
+      "answer": "Bien que certaines petites études aient montré des bénéfices des cétones exogènes sur la performance à l’exercice, les méta-analyses ont constaté que la supplémentation en cétones exogènes n’améliore pas la performance aérobie [29][71][72]. Cela concerne à la fois la performance en course et en cyclisme (mesurée par des essais de contre-temps et des tests d’épuisement) ainsi que les paramètres aérobiques tels que le VO₂max, l’économie/efficacité et l’échelle de perception de l’effort (RPE). Les méta-analyses ont également montré que les cétones exogènes n’améliorent pas la performance anaérobie, par exemple lors du sprint [71]. Cependant, comme décrit ci-dessous, il existe d’importantes réserves. Premièrement, plusieurs études ont administré des cétones exogènes combinées à des glucides et n’ont pas inclus de groupe comparateur ne recevant pas de glucides [72][29][71][73]. Cette approche peut masquer tout bénéfice potentiel des cétones, car l’ingestion de glucides pendant l’exercice a un effet bénéfique puissant sur la performance [74][75][76][77][78][79]. Deuxièmement, de nombreuses études ont évalué l’effet des cétones exogènes sur la performance lorsque les participants étaient frais et non fatigués [72][29][71][73]. Étant donné que les corps cétoniques deviennent une source de carburant principale pour les tissus lors d’une hypoglycémie (concentrations sanguines de glucose faibles) et que l’hypoglycémie peut survenir pendant un exercice aérobie de longue durée, il serait judicieux d’étudier les effets de la supplémentation en cétones exogènes dans ces conditions. À ce jour, une seule étude a examiné l’efficacité des cétones exogènes pour améliorer la performance d’un contre-temps cycliste après une séance d’endurance longue et fatigante (4 heures de cyclisme) et n’a trouvé aucun bénéfice [80]. Des essais randomisés contrôlés supplémentaires sont nécessaires pour déterminer si les cétones exogènes peuvent améliorer la performance lorsque les individus sont fatigués et/ou hypoglycémiques. Cela permettrait de répondre à la question de savoir si les cétones exogènes peuvent améliorer la performance lors d’épreuves de longue durée, telles que les ultra-distances."
+    },
+    {
+      "question": "Les cétones exogènes augmentent-elles l’érythropoïétine (EPO) ?",
+      "answer": "L’érythropoïétine (EPO) est une hormone principalement produite par les reins qui stimule la production de globules rouges dans la moelle osseuse, processus appelé érythropoïèse [81][82]. Ce processus est généralement déclenché lorsque les niveaux d’oxygène dans le sang diminuent, et il contribue à maintenir la délivrance d’oxygène dans tout le corps [81][82]. Certaines études ont examiné l’effet des cétones exogènes sur les concentrations sériques d’EPO. Un petit essai randomisé contrôlé chez 17 adultes a montré une augmentation de l’EPO après une perfusion intraveineuse de beta-hydroxybutyrate administrée le matin suivant un jeûne nocturne (sans petit-déjeuner) [83]. Un autre essai randomisé contrôlé chez 20 hommes physiquement actifs a observé une augmentation de l’EPO après 3 semaines d’entraînement d’endurance pendant lesquelles un ester cétonique était consommé quotidiennement après chaque séance d’entraînement et avant le sommeil [84]. De même, une petite étude randomisée en crossover chez 9 hommes actifs a montré que la consommation d’un ester cétonique après une séance d’exercice d’une heure sans petit-déjeuner augmentait l’EPO pendant jusqu’à 4 heures [85]. En revanche, une autre étude a constaté que lorsque des glucides sont consommés avant l’exercice, la prise d’un ester cétonique après l’exercice n’affecte pas l’EPO [86]. Étant donné que ces résultats sont quelque peu contradictoires et que les essais sont de petite taille, davantage de recherches sont nécessaires pour déterminer si les cétones exogènes ont un effet stimulant robuste sur les concentrations sériques d’EPO. À titre d’information supplémentaire, l’EPO figure sur la liste des substances interdites par l’Agence mondiale antidopage, car il s’agit d’un produit dopant [87]. Ainsi, si la consommation d’une cétonine exogène avait un effet significatif sur l’EPO, on s’attendrait également à observer une amélioration de la performance à l’exercice. Cependant, les preuves actuelles montrent que la supplémentation en cétones exogènes n’améliore pas la performance à l’exercice (voir « Les cétones exogènes améliorent-elles la performance à l’exercice ? »)."
+    }
+  ],
+  "references": [
+    {
+      "text": "Sleep Quality - Katsuya S, Kawata Y, Kawamura Y, Kawamura J, Tsubota J Effect of D-β-hydroxybutyrate on sleep quality in healthy participants: a randomized, double-blind, placebo-controlled study. Biosci Biotechnol Biochem. (2025 Feb 6)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39914452"
+    },
+    {
+      "text": "Aerobic Exercise Metrics - Valenzuela PL, Morales JS, Castillo-García A, Lucia A Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Int J Sports Physiol Perform. (2020 Feb 10)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+    },
+    {
+      "text": "Aerobic Exercise Metrics - Brooks E, Lamothe G, Nagpal TS, Imbeault P, Adamo K, Kara J, Doucet É Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis. Int J Sport Nutr Exerc Metab. (2022 May 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+    },
+    {
+      "text": "Left Ventricular Ejection Fraction - Lv T, Liu C, Guo S, Wu M, Wang X, Zhang Z, Zhou J, Yao Y, Shen Z, Yang J, Sun S, Liu Z, Chi J Targeting Ketone Body Metabolism Improves Cardiac Function and Hemodynamics in Patients With Heart Failure: A Systematic Review and Meta-Analysis. Nutr Rev. (2025 Jan 28)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39873669"
+    },
+    {
+      "text": "Ketone Bodies - Kaja Falkenhain, Ali Daraei, Scott C Forbes, Jonathan P Little Effects of Exogenous Ketone Supplementation on Blood Glucose: A Systematic Review and Meta-Analysis Adv Nutr. (2022 Apr 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35380602"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Sleep Quality - Katsuya S, Kawata Y, Kawamura Y, Kawamura J, Tsubota J Effect of D-β-hydroxybutyrate on sleep quality in healthy participants: a randomized, double-blind, placebo-controlled study. Biosci Biotechnol Biochem. (2025 Feb 6)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39914452"
+    },
+    {
+      "text": "Aerobic Exercise Metrics - Valenzuela PL, Morales JS, Castillo-García A, Lucia A Acute Ketone Supplementation and Exercise Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Int J Sports Physiol Perform. (2020 Feb 10)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32045881"
+    },
+    {
+      "text": "Aerobic Exercise Metrics - Brooks E, Lamothe G, Nagpal TS, Imbeault P, Adamo K, Kara J, Doucet É Acute Ingestion of Ketone Monoesters and Precursors Do Not Enhance Endurance Exercise Performance: A Systematic Review and Meta-Analysis. Int J Sport Nutr Exerc Metab. (2022 May 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35042186"
+    },
+    {
+      "text": "Left Ventricular Ejection Fraction - Lv T, Liu C, Guo S, Wu M, Wang X, Zhang Z, Zhou J, Yao Y, Shen Z, Yang J, Sun S, Liu Z, Chi J Targeting Ketone Body Metabolism Improves Cardiac Function and Hemodynamics in Patients With Heart Failure: A Systematic Review and Meta-Analysis. Nutr Rev. (2025 Jan 28)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39873669"
+    },
+    {
+      "text": "Ketone Bodies - Kaja Falkenhain, Ali Daraei, Scott C Forbes, Jonathan P Little Effects of Exogenous Ketone Supplementation on Blood Glucose: A Systematic Review and Meta-Analysis Adv Nutr. (2022 Apr 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35380602"
+    }
+  ]
+}

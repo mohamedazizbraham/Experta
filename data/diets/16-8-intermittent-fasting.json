@@ -1,0 +1,1937 @@
+{
+  "slug": "16-8-intermittent-fasting",
+  "name": "16:8 Intermittent Fasting",
+  "name_en": "16:8 Intermittent Fasting",
+  "description": "The 16:8 protocol is a type of intermittent fasting (known as time-restricted eating in the scientific literature) that involves abstaining from calories for 16 hours of the day, and then eating within an 8 hour window. The eating window can occur at any point in the day, but many people choose to eat between around 12 p.m. and 8 p.m.",
+  "overview": [
+    {
+      "question": "What is 16:8?",
+      "answer": "As a note, the scientific community tends to restrict the term “intermittent fasting” to diets that drastically restrict calories for 2-4 days of the week (such as eating around 500 calories every other day, or eating no calories for a day or two out of the week). For daily fasting of set durations, the term “time-restricted eating” is preferred. For the sake of this page, the terms will be used interchangeably.\nAlthough 16:8 is a fairly mild protocol when it comes to time-restricted eating/intermittent fasting, it could have differing effects based on age and sex, so working with a dietitian and/or physician to see how it could affect you may be prudent. Time-restricted eating is often described as the ratio of hours spent abstaining from food and the hours where eating is permitted. 16:8 is a particular time-restricted eating protocol in which individuals abstain from any caloric intake for 16 hours, and then eat freely for 8 hours. Other popular schedules include 18:6, 20:4, and one-meal-a-day (OMAD). Previously, these types of eating schedules fell under the category of “intermittent fasting”, but now that term generally refers to eating schedules that involve abstaining from or drastically lowering energy intake for more than 24 hours. Time-restricted eating can involve a caloric deficit [6] to lose weight, but doesn’t have to. [7] 16:8 is a type of time-restricted eating where you abstain from eating for sixteen hours, and then eat freely for the remaining eight. It can be combined with a caloric deficit for weight loss, but doesn’t have to be."
+    },
+    {
+      "question": "What are the benefits of 16:8?",
+      "answer": "Following a 16:8 time-restricted eating protocol seems to be a viable tool for reducing body weight and body fat, with and without caloric restriction. Some studies have found that 16:8 can preferentially reduce fat mass while sparing muscle, but further research is still required to confirm this. [8] At worst, this limited evidence suggests this protocol can be about as effective as standard dieting, and potentially psychologically easier for some people. 16:8 time-restricted eating can be psychologically easier than other types of dietary restriction. It may have some unique metabolic benefits, but those findings aren’t as clear."
+    },
+    {
+      "question": "Is 16:8 safe? Are there side effects?",
+      "answer": "Extended periods without food can be challenging for some, which may make adherence difficult, and some studies have reported some degree of nausea, dizziness, and hunger. [9] There aren’t many safety studies, but in one small trial, the authors didn’t find 16:8 to cause negative impacts on body image, uncontrolled eating, or symptoms of eating disorders. [10] That being said, fasting can be contraindicated in some diseases such as type 1 diabetes, pregnancy, and preexisting eating disorders. For individuals with these or similar conditions, speaking with a well-informed physician is warranted. Although no significant side effects have been reported in these studies, some individuals with medical conditions may want to exercise more caution."
+    }
+  ],
+  "dosage": "Simply allocate a 16-hour window in the day that you will abstain from calories completely. Many choose their window to be from around 8 p.m. to 12 p.m. the following day, but it’s just as possible to eat earlier in the day and stop eating earlier. In fact, insulin sensitivity (and thus overall glycemic response to food) tends to be better in the morning, so having an early eating window may be preferable for some people, although many opt to eat later in the day because it’s more conducive with social eating. [1] [2] [3] [4] Adherence to these protocols is typically easier for people who have familial support, and for some the practice becomes easier with time. [5] Generally speaking, water, tea, seltzer, and coffee are considered permissible to eat during the fasting window. While other things such as chewing gum, exogenous ketones, MCT oil, supplements, apple cider vinegar, and artificial sweeteners are hotly debated, a good rule of thumb is that if the product has more than 5-10 kcal then it should be avoided until the fasting window ends. It’s simple: don’t consume anything except for water, coffee, or tea for 16 continuous hours, and then eat freely for the remaining 8 hours.",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Obesity",
+      "outcomes": [
+        {
+          "outcome": "Numération des basophiles",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 étude Participants: 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "2 études Participants: 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Trouble dysmorphique corporel",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 218",
+          "studies": [],
+          "participants": 218
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 851",
+          "studies": [],
+          "participants": 851
+        },
+        {
+          "outcome": "Signes et symptômes de la constipation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Symptômes de la diarrhée",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Symptômes de troubles alimentaires",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Numération des éosinophiles",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Apport alimentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Hématocrite",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Homocystéine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Numération des lymphocytes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Microbiome",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 14",
+          "studies": [],
+          "participants": 14
+        },
+        {
+          "outcome": "Numération des monocytes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 201",
+          "studies": [],
+          "participants": 201
+        },
+        {
+          "outcome": "Symptômes de nausée",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Numération des neutrophiles",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Graisse viscérale",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 37",
+          "studies": [],
+          "participants": 37
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 221",
+          "studies": [],
+          "participants": 221
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 études Participants : 1527",
+          "studies": [],
+          "participants": 1527
+        },
+        {
+          "outcome": "Numération des globules blancs",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 23",
+          "studies": [],
+          "participants": 23
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Perte de poids et maintien",
+      "outcomes": [
+        {
+          "outcome": "Adiponectine",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 63",
+          "studies": [],
+          "participants": 63
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 63",
+          "studies": [],
+          "participants": 63
+        },
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 63",
+          "studies": [],
+          "participants": 63
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 Participants à l'étude : 851",
+          "studies": [],
+          "participants": 851
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l’étude : 66",
+          "studies": [],
+          "participants": 66
+        },
+        {
+          "outcome": "Apport alimentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants à l’étude : 103",
+          "studies": [],
+          "participants": 103
+        },
+        {
+          "outcome": "Homocysteine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Insulin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Leptin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Low-density lipoprotein (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 103",
+          "studies": [],
+          "participants": 103
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 66",
+          "studies": [],
+          "participants": 66
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 89",
+          "studies": [],
+          "participants": 89
+        },
+        {
+          "outcome": "Endurance musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 66",
+          "studies": [],
+          "participants": 66
+        },
+        {
+          "outcome": "Ratio d'échange respiratoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Force",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 66",
+          "studies": [],
+          "participants": 66
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants: 103",
+          "studies": [],
+          "participants": 103
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants: 103",
+          "studies": [],
+          "participants": 103
+        },
+        {
+          "outcome": "Fonction vasculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Graisse viscérale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "vLDL-C",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Rapport taille-hanches",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 Études Participants : 1527",
+          "studies": [],
+          "participants": 1527
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Composition corporelle",
+      "outcomes": [
+        {
+          "outcome": "Adiponectine",
+          "grade": "C",
+          "effect": "Légère augmentation",
+          "evidence": "2 Études Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Études Participants : 350",
+          "studies": [],
+          "participants": 350
+        },
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études Participants : 380",
+          "studies": [],
+          "participants": 380
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "IGF-1",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants : 279",
+          "studies": [],
+          "participants": 279
+        },
+        {
+          "outcome": "Interleukine 1-beta",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Leptine",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Participants à l'étude : 129",
+          "studies": [],
+          "participants": 129
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Participants à l'étude : 297",
+          "studies": [],
+          "participants": 297
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 Participants à l'étude : 399",
+          "studies": [],
+          "participants": 399
+        },
+        {
+          "outcome": "Endurance musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "T3 sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Force",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "hormone thyréostimulante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "TNF-alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 études Participants : 568",
+          "studies": [],
+          "participants": 568
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "taille et force musculaires",
+      "outcomes": [
+        {
+          "outcome": "adiponectine",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "2 Études Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "IGF-1",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Insulin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Interleukin 1-beta",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Interleukin 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Leptin",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Endurance musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 66",
+          "studies": [],
+          "participants": 66
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Ratio d'échange respiratoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Sérum T3",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Force",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 2 participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Hormone thyréostimulante",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "TNF-alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 2 participants : 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Fonction vasculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "vLDL-C",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance athlétique générale",
+      "outcomes": [
+        {
+          "outcome": "Adiponectine",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "2 études Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Masse grasse",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants: 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "IGF-1",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Interleukine 1 bêta",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Leptine",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études participants : 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Endurance musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études participants : 66",
+          "studies": [],
+          "participants": 66
+        },
+        {
+          "outcome": "Puissance développée",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude participants : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Ratio d'échange respiratoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "T3 sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Force",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 100",
+          "studies": [],
+          "participants": 100
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 26",
+          "studies": [],
+          "participants": 26
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Testosterone",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 participants aux études : 60",
+          "studies": [],
+          "participants": 60
+        },
+        {
+          "outcome": "Hormone thyréostimulante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "TNF-Alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 participants aux études : 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 74",
+          "studies": [],
+          "participants": 74
+        },
+        {
+          "outcome": "Fonction vasculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "vLDL-C",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [],
+          "participants": 40
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants : 15",
+          "studies": [],
+          "participants": 15
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 851",
+          "studies": [],
+          "participants": 851
+        },
+        {
+          "outcome": "Acides gras libres",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 15",
+          "studies": [],
+          "participants": 15
+        },
+        {
+          "outcome": "Ghréline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 15",
+          "studies": [],
+          "participants": 15
+        },
+        {
+          "outcome": "Peptide glucagon-like 1 (GLP-1)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 15",
+          "studies": [],
+          "participants": 15
+        },
+        {
+          "outcome": "Satiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 15",
+          "studies": [],
+          "participants": 15
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [],
+          "participants": 15
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux 17 études : 1527",
+          "studies": [],
+          "participants": 1527
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Adiponectine",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux 2 études : 3999",
+          "studies": [],
+          "participants": 3999
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 3965",
+          "studies": [],
+          "participants": 3965
+        },
+        {
+          "outcome": "Masse grasse",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "IGF-1",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Interleukine 1 bêta",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Leptine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 3999",
+          "studies": [],
+          "participants": 3999
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 3965",
+          "studies": [],
+          "participants": 3965
+        },
+        {
+          "outcome": "T3 sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Force",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Thyréostimuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "TNF-Alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 3965",
+          "studies": [],
+          "participants": 3965
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 3965",
+          "studies": [],
+          "participants": 3965
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Adiponectine",
+          "grade": "C",
+          "effect": "Petite augmentation",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Études Participants : 350",
+          "studies": [],
+          "participants": 350
+        },
+        {
+          "outcome": "Masse grasse",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants : 380",
+          "studies": [],
+          "participants": 380
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 Études Participants: 316",
+          "studies": [],
+          "participants": 316
+        },
+        {
+          "outcome": "IGF-1",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 Études Participants: 279",
+          "studies": [],
+          "participants": 279
+        },
+        {
+          "outcome": "Interleukine 1 bêta",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Leptine",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Participants aux études : 129",
+          "studies": [],
+          "participants": 129
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Participants aux études : 297",
+          "studies": [],
+          "participants": 297
+        },
+        {
+          "outcome": "Taux métabolique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 Participants aux études : 399",
+          "studies": [],
+          "participants": 399
+        },
+        {
+          "outcome": "T3 sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Force",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Hormone thyréostimulante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "TNF-Alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 34",
+          "studies": [],
+          "participants": 34
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études Participants : 332",
+          "studies": [],
+          "participants": 332
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études Participants : 328",
+          "studies": [],
+          "participants": 328
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 études Participants : 568",
+          "studies": [],
+          "participants": 568
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Surpoids",
+      "outcomes": [
+        {
+          "outcome": "Masse grasse",
+          "grade": "B",
+          "effect": "Petite diminution",
+          "evidence": "5 études Participants : 218",
+          "studies": [],
+          "participants": 218
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 851",
+          "studies": [],
+          "participants": 851
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 201",
+          "studies": [],
+          "participants": 201
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 221",
+          "studies": [],
+          "participants": 221
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 études Participants : 1527",
+          "studies": [],
+          "participants": 1527
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome métabolique",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Masse grasse",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Apport alimentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Homocystéine",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Graisse viscérale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 23",
+          "studies": [],
+          "participants": 23
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l’étude : 23",
+          "studies": [],
+          "participants": 23
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 23",
+          "studies": [],
+          "participants": 23
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [
+    {
+      "text": "Muscular Endurance - Grant M Tinsley, M Lane Moore, Austin J Graybeal, Antonio Paoli, Youngdeok Kim, Joaquin U Gonzales, John R Harry, Trisha A VanDusseldorp, Devin N Kennedy, Megan R Cruz Time-restricted feeding plus resistance training in active females: a randomized trial Am J Clin Nutr . ( 2019 Sep 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31268131"
+    },
+    {
+      "text": "Muscular Endurance - Matthew T Stratton, Grant M Tinsley, Michaela G Alesi, Garrett M Hester, Alex A Olmos, Paul R Serafini, Andrew S Modjeski, Gerald T Mangine, Kelsey King, Shelby N Savage, Austin T Webb, Trisha A VanDusseldorp Four Weeks of Time-Restricted Feeding Combined with Resistance Training Does Not Differentially Influence Measures of Body Composition, Muscle Performance, Resting Energy Expenditure, and Blood Biomarkers Nutrients . ( 2020 Apr 17 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32316561"
+    },
+    {
+      "text": "Insulin Resistance - Kelsey Gabel, Kristin K Hoddy, Nicole Haggerty, Jeehee Song, Cynthia M Kroeger, John F Trepanowski, Satchidananda Panda, Krista A Varady Effects of 8-hour time restricted feeding on body weight and metabolic disease risk factors in obese adults: A pilot study Nutr Healthy Aging . ( 2018 Jun 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29951594"
+    },
+    {
+      "text": "High-density lipoprotein (HDL) - Dorothea Kesztyüs, Petra Cermak, Markus Gulich, Tibor Kesztyüs Adherence to Time-Restricted Feeding and Impact on Abdominal Obesity in Primary Care Patients: Results of a Pilot Study in a Pre-Post Design Nutrients . ( 2019 Nov 21 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31766465"
+    },
+    {
+      "text": "Weight - Liu HY, Eso AA, Cook N, O'Neill HM, Albarqouni L Meal Timing and Anthropometric and Metabolic Outcomes: A Systematic Review and Meta-Analysis. JAMA Netw Open . ( 2024 Nov 4 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39485353"
+    },
+    {
+      "text": "Adiponectin - Tatiana Moro, Grant Tinsley, Antonino Bianco, Giuseppe Marcolin, Quirico Francesco Pacelli, Giuseppe Battaglia, Antonio Palma, Paulo Gentil, Marco Neri, Antonio Paoli Effects of eight weeks of time-restricted feeding (16/8) on basal metabolism, maximal strength, body composition, inflammation, and cardiovascular risk factors in resistance-trained males J Transl Med . ( 2016 Oct 13 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27737674"
+    },
+    {
+      "text": "Free Fatty Acids - Hutchison AT, Regmi P, Manoogian ENC, Fleischer JG, Wittert GA, Panda S, Heilbronn LK Time-Restricted Feeding Improves Glucose Tolerance in Men at Risk for Type 2 Diabetes: A Randomized Crossover Trial Obesity (Silver Spring) . ( 2019 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31002478"
+    },
+    {
+      "text": "Body Fat - Dai Z, Wan K, Miyashita M, Ho RS, Zheng C, Poon ET, Wong SH The Effect of Time-Restricted Eating Combined with Exercise on Body Composition and Metabolic Health: A Systematic Review and Meta-Analysis. Adv Nutr . ( 2024 Jun 17 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38897385"
+    },
+    {
+      "text": "Low-density lipoprotein (LDL) - Kibret KT, Peeters A, Tegegne TK, Mesfin YM, Nichols M Intermittent Fasting for the Prevention of Cardiovascular Disease Risks: Systematic Review and Network Meta-Analysis. Curr Nutr Rep . ( 2025 Jul 24 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40705196"
+    },
+    {
+      "text": "Blood Pressure - Kelsey Gabel, Jarrad Marcell, Kate Cares, Faiza Kalam, Sofia Cienfuegos, Mark Ezpeleta, Krista A Varady Effect of time restricted feeding on the gut microbiome in adults with obesity: A pilot study Nutr Health . ( 2020 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32228124"
+    },
+    {
+      "text": "Weight - Fernandes-Alves D, Teixeira GP, Guimarães KC, Crispim CA Systematic Review and Meta-analysis of Randomized Clinical Trials Comparing Time-Restricted Eating With and Without Caloric Restriction for Weight Loss Nutr Rev . ( 2025-04-29 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40298934/"
+    },
+    {
+      "text": "Diarrhea Symptoms - Kelsey Gabel, Kristin K Hoddy, Krista A Varady Safety of 8-h time restricted feeding in adults with obesity Appl Physiol Nutr Metab . ( 2019 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30216730"
+    },
+    {
+      "text": "Sleep Quality - Kelsey Gabel, Kristin K Hoddy, Helen J Burgess, Krista A Varady Effect of 8-h time-restricted feeding on sleep quality and duration in adults with obesity Appl Physiol Nutr Metab . ( 2019 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30802152"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Muscular Endurance - Grant M Tinsley, M Lane Moore, Austin J Graybeal, Antonio Paoli, Youngdeok Kim, Joaquin U Gonzales, John R Harry, Trisha A VanDusseldorp, Devin N Kennedy, Megan R Cruz Time-restricted feeding plus resistance training in active females: a randomized trial Am J Clin Nutr . ( 2019 Sep 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31268131"
+    },
+    {
+      "text": "Muscular Endurance - Matthew T Stratton, Grant M Tinsley, Michaela G Alesi, Garrett M Hester, Alex A Olmos, Paul R Serafini, Andrew S Modjeski, Gerald T Mangine, Kelsey King, Shelby N Savage, Austin T Webb, Trisha A VanDusseldorp Four Weeks of Time-Restricted Feeding Combined with Resistance Training Does Not Differentially Influence Measures of Body Composition, Muscle Performance, Resting Energy Expenditure, and Blood Biomarkers Nutrients . ( 2020 Apr 17 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32316561"
+    },
+    {
+      "text": "Insulin Resistance - Kelsey Gabel, Kristin K Hoddy, Nicole Haggerty, Jeehee Song, Cynthia M Kroeger, John F Trepanowski, Satchidananda Panda, Krista A Varady Effects of 8-hour time restricted feeding on body weight and metabolic disease risk factors in obese adults: A pilot study Nutr Healthy Aging . ( 2018 Jun 15 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29951594"
+    },
+    {
+      "text": "High-density lipoprotein (HDL) - Dorothea Kesztyüs, Petra Cermak, Markus Gulich, Tibor Kesztyüs Adherence to Time-Restricted Feeding and Impact on Abdominal Obesity in Primary Care Patients: Results of a Pilot Study in a Pre-Post Design Nutrients . ( 2019 Nov 21 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31766465"
+    },
+    {
+      "text": "Weight - Liu HY, Eso AA, Cook N, O'Neill HM, Albarqouni L Meal Timing and Anthropometric and Metabolic Outcomes: A Systematic Review and Meta-Analysis. JAMA Netw Open . ( 2024 Nov 4 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39485353"
+    },
+    {
+      "text": "Adiponectin - Tatiana Moro, Grant Tinsley, Antonino Bianco, Giuseppe Marcolin, Quirico Francesco Pacelli, Giuseppe Battaglia, Antonio Palma, Paulo Gentil, Marco Neri, Antonio Paoli Effects of eight weeks of time-restricted feeding (16/8) on basal metabolism, maximal strength, body composition, inflammation, and cardiovascular risk factors in resistance-trained males J Transl Med . ( 2016 Oct 13 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27737674"
+    },
+    {
+      "text": "Free Fatty Acids - Hutchison AT, Regmi P, Manoogian ENC, Fleischer JG, Wittert GA, Panda S, Heilbronn LK Time-Restricted Feeding Improves Glucose Tolerance in Men at Risk for Type 2 Diabetes: A Randomized Crossover Trial Obesity (Silver Spring) . ( 2019 May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31002478"
+    },
+    {
+      "text": "Body Fat - Dai Z, Wan K, Miyashita M, Ho RS, Zheng C, Poon ET, Wong SH The Effect of Time-Restricted Eating Combined with Exercise on Body Composition and Metabolic Health: A Systematic Review and Meta-Analysis. Adv Nutr . ( 2024 Jun 17 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38897385"
+    },
+    {
+      "text": "Low-density lipoprotein (LDL) - Kibret KT, Peeters A, Tegegne TK, Mesfin YM, Nichols M Intermittent Fasting for the Prevention of Cardiovascular Disease Risks: Systematic Review and Network Meta-Analysis. Curr Nutr Rep . ( 2025 Jul 24 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40705196"
+    },
+    {
+      "text": "Blood Pressure - Kelsey Gabel, Jarrad Marcell, Kate Cares, Faiza Kalam, Sofia Cienfuegos, Mark Ezpeleta, Krista A Varady Effect of time restricted feeding on the gut microbiome in adults with obesity: A pilot study Nutr Health . ( 2020 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32228124"
+    },
+    {
+      "text": "Weight - Fernandes-Alves D, Teixeira GP, Guimarães KC, Crispim CA Systematic Review and Meta-analysis of Randomized Clinical Trials Comparing Time-Restricted Eating With and Without Caloric Restriction for Weight Loss Nutr Rev . ( 2025-04-29 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40298934/"
+    },
+    {
+      "text": "Diarrhea Symptoms - Kelsey Gabel, Kristin K Hoddy, Krista A Varady Safety of 8-h time restricted feeding in adults with obesity Appl Physiol Nutr Metab . ( 2019 Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30216730"
+    },
+    {
+      "text": "Sleep Quality - Kelsey Gabel, Kristin K Hoddy, Helen J Burgess, Krista A Varady Effect of 8-h time-restricted feeding on sleep quality and duration in adults with obesity Appl Physiol Nutr Metab . ( 2019 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30802152"
+    }
+  ]
+}

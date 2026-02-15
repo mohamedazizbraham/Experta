@@ -1,0 +1,3665 @@
+{
+  "slug": "theanine",
+  "name": "Theanine",
+  "name_en": "Theanine",
+  "description": "Theanine, également souvent appelée L-theanine, est un acide aminé naturellement présent dans le thé. La supplémentation en L-theanine peut aider à réduire le stress et l’anxiété et pourrait améliorer la qualité du sommeil ainsi que certains aspects de la fonction cognitive.",
+  "overview": [
+    {
+      "question": "Qu’est-ce que L-theanine ?",
+      "answer": "L-theanine est un acide aminé naturellement présent, bien qu’il ne soit pas utilisé comme bloc de construction pour la synthèse des protéines [1] [2], contrairement aux 20 acides aminés standards qui forment les protéines et qui sont synthétisés par le code génétique. Plusieurs types de thé, y compris le thé noir, le thé oolong et le thé vert, contiennent la theanine (généralement <50 mg par portion) [3] [2] [4]. Lorsque des doses plus élevées sont souhaitées, la theanine peut également être prise sous forme de supplément alimentaire ; la theanine contenue dans les suppléments peut être extraite du thé [3] ou synthétisée chimiquement à l’aide d’enzymes bactériennes [5]."
+    },
+    {
+      "question": "Quels sont les principaux bienfaits de L-theanine ?",
+      "answer": "Les données actuelles montrent que la supplémentation en L-theanine peut aider à réduire le stress et l’anxiété chez les personnes exposées à des situations stressantes aiguës [6]. De plus, la L-theanine pourrait également prévenir l’augmentation de la pression artérielle induite par des tâches mentales stressantes [7]. Certaines petites études ont également trouvé que la L-theanine pouvait diminuer les scores de dépression et d’anxiété chez les personnes en bonne santé et chez les patients atteints de trouble dépressif majeur [8] [9]. La supplémentation en L-theanine peut aussi améliorer certains aspects de la fonction cognitive, notamment l’attention, les fonctions exécutives et la mémoire [10] [11] [8] [9]. Cela dit, la L-theanine a été associée à une altération des fonctions exécutives et à une diminution du contrôle attentionnel lorsque les individus se trouvent dans un état émotionnellement excité [12] ou accomplissent des tâches mentales stressantes [13]. D’autres preuves suggèrent que la supplémentation en L-theanine pourrait également améliorer la qualité du sommeil [8] [9] en favorisant un état cérébral plus détendu [14]. Cependant, il est important de noter que ces données proviennent principalement d’études menées chez des personnes en bonne santé. Il n’existe actuellement pas de preuves suffisantes pour tirer des conclusions fermes quant à l’effet de la theanine sur le stress, l’anxiété, la dépression, la fonction cognitive ou la qualité du sommeil chez les personnes atteintes de pathologies chroniques."
+    },
+    {
+      "question": "Quels sont les principaux inconvénients de L-theanine ?",
+      "answer": "Le principal inconvénient est que les effets spécifiques de la L-theanine n’ont été évalués que dans un petit nombre d’essais contrôlés randomisés, qui incluaient majoritairement des personnes en bonne santé sans conditions chroniques. Par conséquent, des études de haute qualité supplémentaires sont nécessaires pour renforcer les preuves actuelles. Les données cliniques citées ci-dessus montrent que la supplémentation en L-theanine est bien tolérée, sans rapports connus d’effets indésirables ou de toxicité. Chez les rongeurs, la L-theanine présente une toxicité remarquablement faible, une étude n’ayant trouvé aucun effet toxique même avec une administration quotidienne allant jusqu’à 4 000 mg de L-theanine par kg de poids corporel pendant 13 semaines [15]. D’autres études animales ont rapporté des résultats similaires, sans toxicité observée à des doses extrêmement élevées [1]. En conséquence, on considère généralement que la L-theanine est sûre pour la consommation humaine [1], notamment en raison de son histoire d’utilisation prolongée dans le thé. Cependant, des études de sécurité spécifiques chez l’homme font défaut."
+    },
+    {
+      "question": "Comment agit L-theanine ?",
+      "answer": "Après ingestion, la L-theanine peut traverser la barrière hémato-encéphalique [16] et influencer l’activité cérébrale en favorisant une augmentation de l’activité des ondes alpha [17] [1] [2], un schéma d’activité cérébrale associé à un état plus détendu. Cela pourrait expliquer ses effets réducteurs de stress et d’anxiété [8]. Chez les animaux, la L-theanine a démontré qu’elle modifie la signalisation des neurotransmetteurs dans le cerveau en se comportant comme un inhibiteur de la recapture du glutamate ainsi qu’un antagoniste des récepteurs du glutamate [18]. D’autres études animales montrent que la L-theanine peut également exercer des effets neuroprotecteurs via son action sur les récepteurs gamma-aminobutyrique-A (GABA-A) [19]. Toutefois, des investigations supplémentaires chez l’homme sont nécessaires pour confirmer ces mécanismes d’action [1] [2]."
+    }
+  ],
+  "dosage": "Les études cliniques utilisent généralement la L-théanine à une dose de 100 à 400 milligrammes (mg) par jour.",
+  "safety": {
+    "summary": [
+      "La théanine est généralement sûre avec peu ou pas d’effets indésirables lorsqu’elle est prise à des doses allant jusqu’à 400 mg par jour pendant 2 mois. Les données de sécurité à long terme font défaut.",
+      "Les données concernant la grossesse et l’allaitement font défaut. Comme la théanine peut traverser le placenta et apparaît dans le lait maternel, il est recommandé de l’éviter."
+    ],
+    "side_effects": {
+      "summary": "La théanine est généralement sûre à court terme. Des doses allant jusqu’à 900 mg par jour pendant jusqu’à 2 mois ne présentent pas d’effets indésirables significatifs, [31] et des doses plus courantes de 100 à 400 mg par jour pendant 1 à 2 mois sont également sûres avec peu d’effets secondaires. [32] [8] [33] La théanine à une dose de 100 mg par jour pendant 6 semaines chez les enfants de 8 à 12 ans semble également sûre. [27] Il existe peu de preuves de sécurité au-delà de trois mois, toutefois.",
+      "table": [
+        {
+          "effect": "Céphalée [13]",
+          "details": "Voie : orale Dose : 250 mg"
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Médicaments antihypertenseurs",
+        "effect": "Des études animales suggèrent que la théanine pourrait abaisser la tension artérielle, ce qui soulève la possibilité d’une interaction avec les médicaments hypotenseurs. [28] [29] Cependant, aucune preuve directe d’une interaction n’existe, et les études humaines sont équivoques quant à la capacité de la théanine à réduire significativement la tension artérielle. [20] [1]",
+        "evidence": "Théorique",
+        "severity": "Inconnu"
+      },
+      {
+        "agent": "Médicaments qui provoquent de la somnolence/sédation",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "Compléments qui abaissent la tension artérielle",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Éviter pendant la grossesse",
+        "safety_information": "Bien que la théanine soit naturellement présente dans le thé, [1] les effets sur la santé des doses de supplémentation pendant la grossesse n'ont pas été étudiés chez l'homme. Comme les données animales suggèrent que la théanine traverse le placenta, [30] il est recommandé d'éviter la supplémentation en théanine pendant la grossesse."
+      },
+      {
+        "condition": "Éviter pendant l'allaitement",
+        "safety_information": "Bien que la théanine soit naturellement présente dans le thé, [1] les effets sur la santé des doses de supplémentation chez les nourrissons allaités n'ont pas été étudiés chez l'homme. Comme les données animales suggèrent que la théanine peut passer dans le lait maternel, [30] il est recommandé d'éviter la supplémentation en théanine pendant l'allaitement."
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Tics faciaux",
+        "details": "Un enfant ayant des antécédents de tics faciaux a présenté une poussée de tics légers qui a cessé après l'arrêt de la théanine. [27]"
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la Liste des substances interdites de la WADA 2025, la théanine n'est pas interdite."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Amélioration cognitive",
+      "outcomes": [
+        {
+          "outcome": "Vigilance",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 études Participants : 86",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 86
+        },
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "2 études Participants : 46",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 46
+        },
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants : 216",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 216
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 72",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 72
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 38",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 38
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Fonction exécutive",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 120",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 120
+        },
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Maux de tête",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Vitesse motrice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Mémoire numérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Inhibition pré-puls",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 14",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Exactitude du traitement",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études, participants : 53",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 53
+        },
+        {
+          "outcome": "Vitesse de traitement",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Participants aux études : 144",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 144
+        },
+        {
+          "outcome": "Sédation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 16",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Signes et symptômes de troubles du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 62",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 62
+        },
+        {
+          "outcome": "Fluidité verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Mémoire verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 106",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 106
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Concentration et attention",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 étude Participants : 16",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 111",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 111
+        },
+        {
+          "outcome": "Fonction exécutive",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 52",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 52
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 16",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Exactitude du traitement",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 36",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 36
+        },
+        {
+          "outcome": "Sédation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 16",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 16
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 52",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 52
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stress",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "B",
+          "effect": "Petite amélioration",
+          "evidence": "3 Études Participants : 51",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 51
+        },
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Fonction exécutive",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Heart Rate",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Mood",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Motor Speed",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Salivary Alpha-Amylase",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Sleep Disturbance Signs and Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Signes et symptômes de stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Participants à l'étude : 71",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 71
+        },
+        {
+          "outcome": "Fluidité verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Mémoire verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Résilience mentale",
+      "outcomes": [
+        {
+          "outcome": "Vigilance",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude : 38",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 38
+        },
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 39",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 39
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 38",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 38
+        },
+        {
+          "outcome": "Fonction exécutive",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 38",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 38
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 9",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 9
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 52",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 52
+        },
+        {
+          "outcome": "Vigueur/Activité",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 14",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 14
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration de l'humeur",
+      "outcomes": [
+        {
+          "outcome": "Vigilance",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 Participants à l'étude : 86",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 86
+        },
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 14",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants à l'étude : 48",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 48
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 38",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 38
+        },
+        {
+          "outcome": "Executive Function",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 38",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 38
+        },
+        {
+          "outcome": "Fatigue Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Headaches",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Heart Rate",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Numerical Memory",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Processing Accuracy",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Processing Speed",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Reaction Time",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        },
+        {
+          "outcome": "Subjective Well-Being",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 76",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 76
+        },
+        {
+          "outcome": "Vigor/Activity",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 14",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Working Memory",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 24",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 24
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Sleep Health",
+      "outcomes": [
+        {
+          "outcome": "Anxiety Symptoms",
+          "grade": "C",
+          "effect": "Small Improvement",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Day-Time Dysfunction",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants : 571",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 571
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Fonction exécutive",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Signes et symptômes d’insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 40",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Vitesse motrice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Signes et symptômes de troubles du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Sleep Latency",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Studies Participants: 877",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 877
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 Studies Participants: 900",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 900
+        },
+        {
+          "outcome": "Verbal Fluency",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Verbal Memory",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        },
+        {
+          "outcome": "Working Memory",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 30",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 participants à l'étude : 14",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 14
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 participants aux études : 80",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 80
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 18",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 18
+        },
+        {
+          "outcome": "Temps de réaction",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 48",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 48
+        },
+        {
+          "outcome": "Vigueur/Activité",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 14",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 14
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé immunitaire",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Numération des granulocytes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Interferon Gamma",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukin 10",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukin 2",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukin 4",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Lymphocyte Count",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Contenu en cellules NK",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Capacité antioxydante totale (TAC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Cellules T régulatrices",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l’étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Numération des globules blancs",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Schizophrenia",
+      "outcomes": [
+        {
+          "outcome": "Anxiety Symptoms",
+          "grade": "C",
+          "effect": "Small Improvement",
+          "evidence": "1 Study Participants: 40",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Cortisol",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 60",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "DHEAS",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 60",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Insulin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Symptômes de la schizophrénie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Sérum BDNF",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Sérum DHEA",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 60
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 60",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 60
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "trouble du déficit de l'attention avec hyperactivité",
+      "outcomes": [
+        {
+          "outcome": "qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 97",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 97
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "dépression",
+      "outcomes": [
+        {
+          "outcome": "symptômes d'anxiété",
+          "grade": "C",
+          "effect": "légère amélioration",
+          "evidence": "1 participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "attention",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Fonction exécutive",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Vitesse motrice",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Fluence verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Mémoire verbale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Mémoire de travail",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance d'exercice aérobie",
+      "outcomes": [
+        {
+          "outcome": "Mesures d'exercice aérobie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Participants à l'étude: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Lactate sanguin (exercice)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude: 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interféron gamma",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukine 10",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukine 2",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukine 4",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Numération des lymphocytes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Contenu en cellules NK",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Capacité antioxydante totale (TAC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Cellules Treg",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Numération des globules blancs",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble d'anxiété généralisée",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Étude - Participants : 46",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 46
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude - Participants : 46",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 46
+        },
+        {
+          "outcome": "Signes et symptômes d'insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude - Participants : 46",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 46
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 12
+        },
+        {
+          "outcome": "Signes et symptômes du stress",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 12",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 12
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble schizoaffectif",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Symptômes de la schizophrénie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1. Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 40
+        },
+        {
+          "outcome": "Bien-être subjectif",
+          "grade": "",
+          "effect": "",
+          "evidence": "1. Participants à l'étude : 40",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 40
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Performance athlétique générale",
+      "outcomes": [
+        {
+          "outcome": "Mesures de l'exercice aérobie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1. Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Lactate sanguin (exercice)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1. Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Numération des granulocytes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interféron gamma",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukine 10",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukine 2",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Interleukine 4",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Numération des lymphocytes",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Contenu en cellules NK",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Puissance de sortie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Capacité antioxydante totale (TAC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Cellules T régulatrices",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        },
+        {
+          "outcome": "Numération des globules blancs",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 20",
+          "studies": [
+            {
+              "title": "A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+            },
+            {
+              "title": "Caffeine and theanine exert opposite effects on attention under emotional arousal",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+            },
+            {
+              "title": "The effects of L-theanine, caffeine and their combination on cognition and mood",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+            }
+          ],
+          "participants": 20
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quels sont les autres noms de Theanine ?",
+      "answer": "Notez que Theanine est également connue sous les noms de : - L-Theanine - 5-N-Ethyl-Glutamine - γ-glutamylethylamide"
+    }
+  ],
+  "references": [
+    {
+      "text": "Reaction Time - Akiko Higashiyama, Hla Hla Htay, Makoto Ozeki, Lekh R. Juneja, Mahendra P. Kapoor Effects of l-theanine on attention and reaction time response Journal of Functional Foods. ()",
+      "link": "http://www.sciencedirect.com/science/article/pii/S1756464611000351"
+    },
+    {
+      "text": "Reaction Time - Chanaka N Kahathuduwa, Tharaka L Dassanayake, A M Tissa Amarakoon, Vajira S Weerasinghe Acute effects of theanine, caffeine and theanine-caffeine combination on attention Nutr Neurosci. (2017 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26869148"
+    },
+    {
+      "text": "Reaction Time - Crystal F Haskell, David O Kennedy, Anthea L Milne, Keith A Wesnes, Andrew B Scholey The effects of L-theanine, caffeine and their combination on cognition and mood Biol Psychol. (2008 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+    },
+    {
+      "text": "Reaction Time - Chanaka N Kahathuduwa, Chathurika S Dhanasekara, Shao-Hua Chin, Tyler Davis, Vajira S Weerasinghe, Tharaka L Dassanayake, Martin Binks l-Theanine and caffeine improve target-specific attention to visual stimuli by decreasing mind wandering: a human functional magnetic resonance imaging study Nutr Res. (2018 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29420994"
+    },
+    {
+      "text": "Reaction Time - John J Foxe, Kristen P Morie, Peter J Laud, Matthew J Rowson, Eveline A de Bruin, Simon P Kelly Assessing the effects of caffeine and theanine on the maintenance of vigilance during a sustained attention task Neuropharmacology. (2012 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22326943"
+    },
+    {
+      "text": "Reaction Time - Peter J Rogers, Jessica E Smith, Susan V Heatherley, C W Pleydell-Pearce Time for tea: mood, blood pressure and cognitive performance effects of caffeine and theanine administered alone and together Psychopharmacology (Berl). (2008 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17891480"
+    },
+    {
+      "text": "Executive Function - Shinsuke Hidese, Shintaro Ogawa, Miho Ota, Ikki Ishida, Zenta Yasukawa, Makoto Ozeki, Hiroshi Kunugi Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial Nutrients. (2019 Oct 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+    },
+    {
+      "text": "Executive Function - Grace E Giles, Caroline R Mahoney, Tad T Brunyé, Holly A Taylor, Robin B Kanarek Caffeine and theanine exert opposite effects on attention under emotional arousal Can J Physiol Pharmacol. (2017 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+    },
+    {
+      "text": "Executive Function - Yoshitake Baba, Shun Inagaki, Sae Nakagawa, Toshiyuki Kaneko, Makoto Kobayashi, Takanobu Takihara Effects of l-Theanine on Cognitive Function in Middle-Aged and Older Subjects: A Randomized Placebo-Controlled Study J Med Food. (2021 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33751906"
+    },
+    {
+      "text": "Attention - Simon P Kelly, Manuel Gomez-Ramirez, Jennifer L Montesi, John J Foxe L-theanine and caffeine in combination affect human cognition as evidenced by oscillatory alpha-band activity and attention task performance J Nutr. (2008 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18641209"
+    },
+    {
+      "text": "Attention - F L Dodd, D O Kennedy, L M Riby, C F Haskell-Ramsay A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood Psychopharmacology (Berl). (2015 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+    },
+    {
+      "text": "Attention - Dassanayake TL, Kahathuduwa CN, Weerasinghe VS L-theanine improves neurophysiological measures of attention in a dose-dependent manner: a double-blind, placebo-controlled, crossover study. Nutr Neurosci. (2022-Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32777998"
+    },
+    {
+      "text": "Prepulse Inhibition - Miho Ota, Chisato Wakabayashi, Junko Matsuo, Yukiko Kinoshita, Hiroaki Hori, Kotaro Hattori, Daimei Sasayama, Toshiya Teraishi, Satoko Obu, Hayato Ozawa, Hiroshi Kunugi Effect of L-theanine on sensorimotor gating in healthy human subjects Psychiatry Clin Neurosci. (2014 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24372613"
+    },
+    {
+      "text": "Attention - Shinsuke Hidese, Miho Ota, Chisato Wakabayashi, Takamasa Noda, Hayato Ozawa, Tsutomu Okubo, Hiroshi Kunugi Effects of chronic l-theanine administration in patients with major depressive disorder: an open-label study Acta Neuropsychiatr. (2017 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27396868"
+    },
+    {
+      "text": "Anxiety Symptoms - Kimura K, Ozeki M, Juneja LR, Ohira H L-Theanine reduces psychological and physiological stress responses Biol Psychol. (2007 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16930802"
+    },
+    {
+      "text": "Anxiety Symptoms - Williams JL, Everett JM, D'Cunha NM, Sergi D, Georgousopoulou EN, Keegan RJ, McKune AJ, Mellor DD, Anstice N, Naumovski N The Effects of Green Tea Amino Acid L-Theanine Consumption on the Ability to Manage Stress and Anxiety Levels: a Systematic Review. Plant Foods Hum Nutr. (2020-Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31758301"
+    },
+    {
+      "text": "Salivary Alpha-Amylase - Keiko Unno, Naoki Tanida, Naoto Ishii, Hiroyuki Yamamoto, Kazuaki Iguchi, Minoru Hoshino, Atsushi Takeda, Hayato Ozawa, Tsutomu Ohkubo, Lekh Raj Juneja, Hiroshi Yamada Anti-stress effect of theanine on students during pharmacy practice: positive correlation among salivary α-amylase activity, trait anxiety and subjective stress Pharmacol Biochem Behav. (2013 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24051231"
+    },
+    {
+      "text": "Stress Signs and Symptoms - Moulin M, Crowley DC, Xiong L, Guthrie N, Lewis ED Safety and Efficacy of AlphaWave(®) L-Theanine Supplementation for 28 Days in Healthy Adults with Moderate Stress: A Randomized, Double-Blind, Placebo-Controlled Trial. Neurol Ther. (2024 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38758503"
+    },
+    {
+      "text": "Sleep Quality - Bulman A, D'Cunha NM, Marx W, Turner M, McKune A, Naumovski N The effects of L-theanine consumption on sleep outcomes: A systematic review and meta-analysis. Sleep Med Rev. (2025 Feb 25)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40056718"
+    },
+    {
+      "text": "Sleep Quality - Lyon MR, Kapoor MP, Juneja LR The effects of L-theanine (Suntheanine®) on objective sleep quality in boys with attention deficit hyperactivity disorder (ADHD): a randomized, double-blind, placebo-controlled clinical trial Altern Med Rev. (2011 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22214254"
+    },
+    {
+      "text": "Sleep Quality - . (2024-06-16)",
+      "link": "https://www.frontiersin.org/articles/10.3389/fnut.2024.1419978"
+    },
+    {
+      "text": "Subjective Well-Being - Ai Yoto, Mao Motoki, Sato Murao, Hidehiko Yokogoshi Effects of L-theanine or caffeine intake on changes in blood pressure under physical and psychological stresses J Physiol Anthropol. (2012 Oct 29)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23107346"
+    },
+    {
+      "text": "Interleukin 4 - A Juszkiewicz, A Glapa, P Basta, E Petriczko, K Żołnowski, B Machaliński, J Trzeciak, K Łuczkowska, A Skarpańska-Stejnborn The effect of L-theanine supplementation on the immune system of athletes exposed to strenuous physical exercise J Int Soc Sports Nutr. (2019 Feb 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30770758"
+    },
+    {
+      "text": "Heart Rate - Jackson Williams, Andrew J McKune, Ekavi N Georgousopoulou, Jane Kellett, Nathan M D'Cunha, Domenico Sergi, Duane Mellor, Nenad Naumovski The Effect of L-Theanine Incorporated in a Functional Food Product (Mango Sorbet) on Physiological Responses in Healthy Males: A Pilot Randomised Controlled Trial Foods. (2020 Mar 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32210015"
+    },
+    {
+      "text": "Anxiety Symptoms - Kristy Lu, Marcus A. Gray, Chris Oliver, David T. Liley, Ben J. Harrison, Cali F. Bartholomeusz, K. Luan Phan and Pradeep J. Nathan The acute effects of L-theanine in comparison with alprazolam on anticipatory anxiety in humans Human Psychopharmacology. ()",
+      "link": "http://espace.library.uq.edu.au/view/UQ:284103"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Sarris J, Byrne GJ, Cribb L, Oliver G, Murphy J, Macdonald P, Nazareth S, Karamacoska D, Galea S, Short A, Ee C, Birling Y, Menon R, Ng CH L-theanine in the adjunctive treatment of generalized anxiety disorder: A double-blind, randomised, placebo-controlled trial J Psychiatr Res. (2019 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30580081"
+    },
+    {
+      "text": "Cortisol - Chanoch Miodownik, Rachel Maayan, Yael Ratner, Vladimir Lerner, Leonid Pintov, Maria Mar, Abraham Weizman, Michael S Ritsner Serum levels of brain-derived neurotrophic factor and cortisol to sulfate of dehydroepiandrosterone molar ratio associated with clinical response to L-theanine as augmentation of antipsychotic therapy in schizophrenia and schizoaffective disorder patients Clin Neuropharmacol. (Jul-Aug 2011)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21617527"
+    },
+    {
+      "text": "Subjective Well-Being - Ritsner MS, Miodownik C, Ratner Y, Shleifer T, Mar M, Pintov L, Lerner V L-theanine relieves positive, activation, and anxiety symptoms in patients with schizophrenia and schizoaffective disorder: an 8-week, randomized, double-blind, placebo-controlled, 2-center study J Clin Psychiatry. (2011 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21208586"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Reaction Time - Akiko Higashiyama, Hla Hla Htay, Makoto Ozeki, Lekh R. Juneja, Mahendra P. Kapoor Effects of l-theanine on attention and reaction time response Journal of Functional Foods. ()",
+      "link": "http://www.sciencedirect.com/science/article/pii/S1756464611000351"
+    },
+    {
+      "text": "Reaction Time - Chanaka N Kahathuduwa, Tharaka L Dassanayake, A M Tissa Amarakoon, Vajira S Weerasinghe Acute effects of theanine, caffeine and theanine-caffeine combination on attention Nutr Neurosci. (2017 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26869148"
+    },
+    {
+      "text": "Reaction Time - Crystal F Haskell, David O Kennedy, Anthea L Milne, Keith A Wesnes, Andrew B Scholey The effects of L-theanine, caffeine and their combination on cognition and mood Biol Psychol. (2008 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18006208"
+    },
+    {
+      "text": "Reaction Time - Chanaka N Kahathuduwa, Chathurika S Dhanasekara, Shao-Hua Chin, Tyler Davis, Vajira S Weerasinghe, Tharaka L Dassanayake, Martin Binks l-Theanine and caffeine improve target-specific attention to visual stimuli by decreasing mind wandering: a human functional magnetic resonance imaging study Nutr Res. (2018 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29420994"
+    },
+    {
+      "text": "Reaction Time - John J Foxe, Kristen P Morie, Peter J Laud, Matthew J Rowson, Eveline A de Bruin, Simon P Kelly Assessing the effects of caffeine and theanine on the maintenance of vigilance during a sustained attention task Neuropharmacology. (2012 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22326943"
+    },
+    {
+      "text": "Reaction Time - Peter J Rogers, Jessica E Smith, Susan V Heatherley, C W Pleydell-Pearce Time for tea: mood, blood pressure and cognitive performance effects of caffeine and theanine administered alone and together Psychopharmacology (Berl). (2008 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17891480"
+    },
+    {
+      "text": "Executive Function - Shinsuke Hidese, Shintaro Ogawa, Miho Ota, Ikki Ishida, Zenta Yasukawa, Makoto Ozeki, Hiroshi Kunugi Effects of L-Theanine Administration on Stress-Related Symptoms and Cognitive Functions in Healthy Adults: A Randomized Controlled Trial Nutrients. (2019 Oct 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31623400"
+    },
+    {
+      "text": "Executive Function - Grace E Giles, Caroline R Mahoney, Tad T Brunyé, Holly A Taylor, Robin B Kanarek Caffeine and theanine exert opposite effects on attention under emotional arousal Can J Physiol Pharmacol. (2017 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28044450"
+    },
+    {
+      "text": "Executive Function - Yoshitake Baba, Shun Inagaki, Sae Nakagawa, Toshiyuki Kaneko, Makoto Kobayashi, Takanobu Takihara Effects of l-Theanine on Cognitive Function in Middle-Aged and Older Subjects: A Randomized Placebo-Controlled Study J Med Food. (2021 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33751906"
+    },
+    {
+      "text": "Attention - Simon P Kelly, Manuel Gomez-Ramirez, Jennifer L Montesi, John J Foxe L-theanine and caffeine in combination affect human cognition as evidenced by oscillatory alpha-band activity and attention task performance J Nutr. (2008 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18641209"
+    },
+    {
+      "text": "Attention - F L Dodd, D O Kennedy, L M Riby, C F Haskell-Ramsay A double-blind, placebo-controlled study evaluating the effects of caffeine and L-theanine both alone and in combination on cerebral blood flow, cognition and mood Psychopharmacology (Berl). (2015 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25761837"
+    },
+    {
+      "text": "Attention - Dassanayake TL, Kahathuduwa CN, Weerasinghe VS L-theanine improves neurophysiological measures of attention in a dose-dependent manner: a double-blind, placebo-controlled, crossover study. Nutr Neurosci. (2022-Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32777998"
+    },
+    {
+      "text": "Prepulse Inhibition - Miho Ota, Chisato Wakabayashi, Junko Matsuo, Yukiko Kinoshita, Hiroaki Hori, Kotaro Hattori, Daimei Sasayama, Toshiya Teraishi, Satoko Obu, Hayato Ozawa, Hiroshi Kunugi Effect of L-theanine on sensorimotor gating in healthy human subjects Psychiatry Clin Neurosci. (2014 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24372613"
+    },
+    {
+      "text": "Attention - Shinsuke Hidese, Miho Ota, Chisato Wakabayashi, Takamasa Noda, Hayato Ozawa, Tsutomu Okubo, Hiroshi Kunugi Effects of chronic l-theanine administration in patients with major depressive disorder: an open-label study Acta Neuropsychiatr. (2017 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27396868"
+    },
+    {
+      "text": "Anxiety Symptoms - Kimura K, Ozeki M, Juneja LR, Ohira H L-Theanine reduces psychological and physiological stress responses Biol Psychol. (2007 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16930802"
+    },
+    {
+      "text": "Anxiety Symptoms - Williams JL, Everett JM, D'Cunha NM, Sergi D, Georgousopoulou EN, Keegan RJ, McKune AJ, Mellor DD, Anstice N, Naumovski N The Effects of Green Tea Amino Acid L-Theanine Consumption on the Ability to Manage Stress and Anxiety Levels: a Systematic Review. Plant Foods Hum Nutr. (2020-Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31758301"
+    },
+    {
+      "text": "Salivary Alpha-Amylase - Keiko Unno, Naoki Tanida, Naoto Ishii, Hiroyuki Yamamoto, Kazuaki Iguchi, Minoru Hoshino, Atsushi Takeda, Hayato Ozawa, Tsutomu Ohkubo, Lekh Raj Juneja, Hiroshi Yamada Anti-stress effect of theanine on students during pharmacy practice: positive correlation among salivary α-amylase activity, trait anxiety and subjective stress Pharmacol Biochem Behav. (2013 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24051231"
+    },
+    {
+      "text": "Stress Signs and Symptoms - Moulin M, Crowley DC, Xiong L, Guthrie N, Lewis ED Safety and Efficacy of AlphaWave(®) L-Theanine Supplementation for 28 Days in Healthy Adults with Moderate Stress: A Randomized, Double-Blind, Placebo-Controlled Trial. Neurol Ther. (2024 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38758503"
+    },
+    {
+      "text": "Sleep Quality - Bulman A, D'Cunha NM, Marx W, Turner M, McKune A, Naumovski N The effects of L-theanine consumption on sleep outcomes: A systematic review and meta-analysis. Sleep Med Rev. (2025 Feb 25)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40056718"
+    },
+    {
+      "text": "Sleep Quality - Lyon MR, Kapoor MP, Juneja LR The effects of L-theanine (Suntheanine®) on objective sleep quality in boys with attention deficit hyperactivity disorder (ADHD): a randomized, double-blind, placebo-controlled clinical trial Altern Med Rev. (2011 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22214254"
+    },
+    {
+      "text": "Sleep Quality - . (2024-06-16)",
+      "link": "https://www.frontiersin.org/articles/10.3389/fnut.2024.1419978"
+    },
+    {
+      "text": "Subjective Well-Being - Ai Yoto, Mao Motoki, Sato Murao, Hidehiko Yokogoshi Effects of L-theanine or caffeine intake on changes in blood pressure under physical and psychological stresses J Physiol Anthropol. (2012 Oct 29)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23107346"
+    },
+    {
+      "text": "Interleukin 4 - A Juszkiewicz, A Glapa, P Basta, E Petriczko, K Żołnowski, B Machaliński, J Trzeciak, K Łuczkowska, A Skarpańska-Stejnborn The effect of L-theanine supplementation on the immune system of athletes exposed to strenuous physical exercise J Int Soc Sports Nutr. (2019 Feb 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30770758"
+    },
+    {
+      "text": "Heart Rate - Jackson Williams, Andrew J McKune, Ekavi N Georgousopoulou, Jane Kellett, Nathan M D'Cunha, Domenico Sergi, Duane Mellor, Nenad Naumovski The Effect of L-Theanine Incorporated in a Functional Food Product (Mango Sorbet) on Physiological Responses in Healthy Males: A Pilot Randomised Controlled Trial Foods. (2020 Mar 23)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32210015"
+    },
+    {
+      "text": "Anxiety Symptoms - Kristy Lu, Marcus A. Gray, Chris Oliver, David T. Liley, Ben J. Harrison, Cali F. Bartholomeusz, K. Luan Phan and Pradeep J. Nathan The acute effects of L-theanine in comparison with alprazolam on anticipatory anxiety in humans Human Psychopharmacology. ()",
+      "link": "http://espace.library.uq.edu.au/view/UQ:284103"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Sarris J, Byrne GJ, Cribb L, Oliver G, Murphy J, Macdonald P, Nazareth S, Karamacoska D, Galea S, Short A, Ee C, Birling Y, Menon R, Ng CH L-theanine in the adjunctive treatment of generalized anxiety disorder: A double-blind, randomised, placebo-controlled trial J Psychiatr Res. (2019 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30580081"
+    },
+    {
+      "text": "Cortisol - Chanoch Miodownik, Rachel Maayan, Yael Ratner, Vladimir Lerner, Leonid Pintov, Maria Mar, Abraham Weizman, Michael S Ritsner Serum levels of brain-derived neurotrophic factor and cortisol to sulfate of dehydroepiandrosterone molar ratio associated with clinical response to L-theanine as augmentation of antipsychotic therapy in schizophrenia and schizoaffective disorder patients Clin Neuropharmacol. (Jul-Aug 2011)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21617527"
+    },
+    {
+      "text": "Subjective Well-Being - Ritsner MS, Miodownik C, Ratner Y, Shleifer T, Mar M, Pintov L, Lerner V L-theanine relieves positive, activation, and anxiety symptoms in patients with schizophrenia and schizoaffective disorder: an 8-week, randomized, double-blind, placebo-controlled, 2-center study J Clin Psychiatry. (2011 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21208586"
+    }
+  ]
+}

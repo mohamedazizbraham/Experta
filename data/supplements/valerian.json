@@ -1,0 +1,570 @@
+{
+  "slug": "valerian",
+  "name": "Valériane",
+  "name_en": "Valerian",
+  "description": "Valeriana officinalis, également connue sous le nom de valériane, est une herbe qui peut être prise sous forme d'infusion ou de complément. Elle est couramment utilisée pour ses effets sédatifs et anxiolytiques.",
+  "overview": [
+    {
+      "question": "Qu'est-ce que la valériane ?",
+      "answer": "La valériane est une plante vivace de la famille des Valerianacées, originaire d'Europe et d'Asie mais également présente en Amérique du Nord. La valériane est connue pour son odeur fétide caractéristique, attribuée à la décomposition des valépotriates, [2] l'un des principaux types de composés bioactifs présents dans la valériane. Il existe plus de 250 espèces de valériane, dont Valeriana edulis, Valeriana wallichii et Valeriana fauriei. Valeriana officinalis est l'espèce la plus couramment rencontrée dans les compléments, et c’est la seule espèce qui sera abordée sur cette page. [4] Les propriétés sédatives de la valériane sont reconnues en Europe depuis le XVIIIe siècle, [5] et aujourd'hui, l'Agence européenne des médicaments (EMA) recommande son utilisation pour le soulagement des troubles du sommeil (p. ex., insomnie) et pour atténuer une légère tension nerveuse. Aux États-Unis, la valériane est considérée comme un complément alimentaire plutôt que comme un médicament, et elle est réglementée par la Food and Drug Administration (FDA). [2] [3]"
+    },
+    {
+      "question": "Quels sont les principaux bienfaits de la valériane ?",
+      "answer": "Les compléments de valériane sont couramment utilisés pour traiter les troubles du sommeil (p. ex., insomnie) comme alternative aux médicaments conventionnels. La recherche a montré que la supplémentation en valériane peut améliorer la qualité subjective du sommeil comparée au placebo. Cependant, son efficacité n’a pas encore été démontrée par des mesures quantitatives ou objectives (p. ex., temps d’endormissement, échelles visuelles analogiques). [5] [6] D’autres essais contrôlés randomisés (ECR) ont indiqué que la valériane pourrait avoir des applications thérapeutiques au-delà du traitement de l’insomnie, telles que la santé cérébrale et la santé menstruelle."
+    },
+    {
+      "question": "Quels sont les principaux inconvénients de la valériane ?",
+      "answer": "La valériane est généralement considérée comme très sûre, avec peu d’effets indésirables rapportés qui diffèrent de façon significative de ceux observés avec un placebo. Une méta-analyse a noté une augmentation notable de la survenue de diarrhée. [5] D’autres effets indésirables, tels que nausées, épigastralgie (douleur dans la partie supérieure moyenne de l’abdomen) ou brûlures d’estomac, ont été signalés dans certaines études, mais aucune différence significative n’a été trouvée entre le groupe d’intervention et le groupe placebo. [5] Concernant les effets indésirables sur le système nerveux central, une étude a rapporté de la somnolence comme effet secondaire négatif lorsque la valériane était prise le soir. [7] Cependant, une méta-analyse a constaté que, bien que les études sur la supplémentation en valériane aient signalé de légères céphalées, nervosité et somnolence comme effets indésirables, ces effets n’étaient pas significativement différents de ceux des participants ayant reçu un placebo. [5] De plus, la valériane ne semble pas altérer les fonctions cognitives ou psychomotrices chez les adultes en bonne santé ou les personnes âgées, et aucun effet indésirable n’a été observé lorsque la valériane était prise pour l’insomnie chez les femmes post-ménopausées ou les femmes plus âgées. La valériane a également semblé être sûre lorsqu’elle était consommée par des enfants de 7 à 14 ans présentant des troubles du sommeil et des déficits cognitifs, bien que cette étude n’ait inclus que 5 participants. [2] Certaines des études incluses dans une méta-analyse ont rapporté des effets indésirables légers, notamment des rêves vifs, de la fatigue, des étourdissements, de la somnolence, de la somnolence et de la dépression. Cependant, il n’a pas été possible d’établir une relation causale entre le traitement à la valériane et ces effets indésirables. [2] Enfin, la valériane ne semble pas interférer avec l’expression des enzymes de la famille du cytochrome P450 (CYP), ce qui suggère que la probabilité d’une interaction médicament-complément avec des médicaments métabolisés par ce groupe d’enzymes est faible. [2] Néanmoins, des recherches supplémentaires sont nécessaires pour explorer plus en profondeur les interactions potentielles."
+    },
+    {
+      "question": "Comment agit la valériane ?",
+      "answer": "La valériane contient de nombreux composés actifs qui peuvent être responsables de ses propriétés. L’huile essentielle de la racine comprend l’acide valérénique (principal composant bioactif de la valériane), des monoterpènes (p. ex., borneol, acétate de bornyle) et d’autres sesquiterpènes (p. ex., acide valérique, acide isovalérique). La racine contient également des valépotriates iridoïdes (esters d’acides gras à chaîne courte), des lignanes, le volvalérénone A (un sesquiterpène), [8] et des flavonoïdes. [2] Des études in vitro indiquent que l’acide valérénique et le valérénol peuvent moduler les récepteurs du gamma-aminobutyrique (GABA) en stimulant la réponse GABA dans le système nerveux. [2] Ce mécanisme d’action pourrait sous-tendre les effets sédatifs et anxiolytiques de la valériane. [5] Cependant, une signalisation GABAergique significative après ingestion orale de valériane chez l’homme n’a pas encore été confirmée. De plus, des recherches in vitro suggèrent que certains composants de l’extrait de valériane pourraient également influencer le système sérotoninergique en raison de leur affinité partielle pour des récepteurs 5-HT (sérotonine) spécifiques du cerveau responsables de la régulation du rythme circadien. [2] Des recherches supplémentaires sont nécessaires pour étayer ces résultats. Enfin, des études ont observé une augmentation de la phase de sommeil à ondes lentes (SWS) (également appelée stade de sommeil profond) suite à la supplémentation en valériane. [9] [10] Cela pourrait expliquer pourquoi certaines études ont rapporté une amélioration de la qualité subjective du sommeil, sans démontrer de changements dans d’autres mesures objectives du sommeil. [2]"
+    }
+  ],
+  "dosage": "Pour le traitement de l'insomnie, les études ont montré que l'extrait de racine de valériane doit être pris à des doses allant de 300 à 600 mg par jour, équivalentes à 2 à 3 g de racine de valériane séchée infusée dans une tasse d'eau chaude pendant 10 à 15 minutes. La valériane agit mieux lorsqu'elle est prise 30 minutes à deux heures avant le coucher. [1] L'Agence européenne des médicaments recommande la racine de valériane pour soulager la tension nerveuse, à une dose de 400-600 mg d'extrait de valériane ou de 0,3-3 g de racine de valériane en poudre, jusqu'à 3 fois par jour. [2] [3]",
+  "safety": {
+    "summary": [
+      "En raison du nombre limité de recherches, la valériane doit être évitée pendant la grossesse ou l'allaitement.",
+      "Il existe certaines interactions médicamenteuses potentielles, mais le niveau de preuve et la signification clinique sont faibles.",
+      "Elle est généralement bien tolérée ; certaines personnes peuvent présenter de légers symptômes gastro-intestinaux, et quelques rapports de cas décrivent une toxicité hépatique."
+    ],
+    "side_effects": {
+      "summary": "Les effets indésirables ne semblent pas très fréquents, mais il existe quelques rapports de toxicité hépatique. [21] [22] [23] Voir la section précautions pour plus d'informations.",
+      "table": [
+        {
+          "effect": "Symptômes gastro-intestinaux [25] [5] [2]",
+          "details": "Voie : orale"
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        },
+        {
+          "effect": "",
+          "details": ""
+        }
+      ]
+    },
+    "interactions": [
+      {
+        "agent": "Médicaments dépresseurs du système nerveux central",
+        "effect": "Bien qu'il existe un rapport de cas de sédation excessive lors de la combinaison de la valériane avec la passiflore et le lorazépam, [27] plusieurs études cliniques ont montré que la valériane n'altère probablement pas la fonction psychomotrice et n'interagit pas de façon significative avec les médicaments dépresseurs du système nerveux central. [28] [29] [30]",
+        "evidence": "Possible",
+        "severity": "Mineur"
+      },
+      {
+        "agent": "Médicaments qui sont des substrats du CYP3A4",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "Médicaments qui sont des substrats du CYP2D6",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      },
+      {
+        "agent": "",
+        "effect": "",
+        "evidence": "",
+        "severity": ""
+      }
+    ],
+    "pregnancy_lactation": [
+      {
+        "condition": "Grossesse Éviter",
+        "safety_information": "Il n'existe pas suffisamment de recherches sur l'utilisation de la valériane pendant la grossesse. Par conséquent, la supplémentation en valériane doit être évitée."
+      },
+      {
+        "condition": "Allaitement Éviter",
+        "safety_information": "Il n'existe pas suffisamment de recherches sur l'utilisation de la valériane pendant l'allaitement. Par conséquent, la valériane doit être évitée pendant l'allaitement, car certains composés pourraient nuire au bébé. [37]"
+      }
+    ],
+    "precautions": [
+      {
+        "population_condition": "Général",
+        "details": "Des cas ont été signalés de personnes autrement en bonne santé présentant une toxicité hépatique aiguë après une supplémentation en valériane. Bien que le mécanisme exact ne soit pas clair, l'utilisation de la valériane doit être abordée avec prudence, en particulier chez les personnes présentant une fonction hépatique altérée. [21] [22] [23]"
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      },
+      {
+        "population_condition": "",
+        "details": ""
+      }
+    ],
+    "anti_doping": {
+      "label": "Non interdit",
+      "text": "Selon la Liste des substances interdites 2025 du WADA, la valériane n'est pas interdite."
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Symptômes de la ménopause",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Sédation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 8",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études Participants: 498",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 498
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants: 847",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 847
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants: 202",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 202
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études Participants: 498",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 498
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 847",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 847
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Ménopause",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Symptômes de la ménopause",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 68",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 68
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysménorrhée primaire",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Symptômes du SPM",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome prémenstruel",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du SPM",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Arthrite",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 15",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 15
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble d'anxiété généralisée",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 36",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 36
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Trouble obsessionnel compulsif",
+      "outcomes": [
+        {
+          "outcome": "Symptômes du TOC",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 Participants à l'étude : 31",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 31
+        },
+        {
+          "outcome": "Sédation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 31",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 31
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Restless Leg Syndrome",
+      "outcomes": [
+        {
+          "outcome": "Insomnia Signs and Symptoms",
+          "grade": "C",
+          "effect": "Small Improvement",
+          "evidence": "1 Study Participants: 37",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 37
+        },
+        {
+          "outcome": "Restless Leg Syndrome Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Studies Participants: 74",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 74
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How is valerian typically extracted?",
+      "answer": "Valerian is typically extracted from the roots using an aqueous-ethanolic solution in a 30:70 ratio, with a herb-to-extract ratio of 4-7:1 by dry weight. The extract is standardized to contain 0.8% valerenic acid."
+    },
+    {
+      "question": "What are some common preparations containing valerian?",
+      "answer": "Les préparations courantes contenant de la valériane comprennent Ze91019, une combinaison de valériane et de houblon utilisée comme aide au sommeil en Europe, et NSF-3, qui associe valériane, houblon et passiflore et pourrait être comparable au zolpidem pour améliorer le sommeil. Ze91019 fournit 250 mg d’extrait de valériane, 80 mg d’extrait de passiflore et 60 mg d’extrait de houblon."
+    },
+    {
+      "question": "Comment la valériane peut-elle bénéficier à la santé menstruelle ?",
+      "answer": "Il a été démontré que la valériane améliore les symptômes de la ménopause, tels que les bouffées de chaleur, et peut réduire la sévérité de la douleur et les syncopes chez les jeunes femmes souffrant de dysménorrhée lorsqu’elle est prise pendant les menstruations. De plus, elle pourrait atténuer les symptômes physiques, émotionnels et comportementaux du syndrome prémenstruel."
+    },
+    {
+      "question": "Comment la valériane peut-elle bénéficier à la santé cérébrale ?",
+      "answer": "La supplémentation en valériane pourrait avoir un effet positif sur la santé cérébrale, car des études indiquent qu’elle peut améliorer les symptômes du trouble obsessionnel-compulsif et renforcer les fonctions cognitives chez les personnes sous hémodialyse. De plus, l’extrait de racine de valériane a démontré qu’il aide à prévenir la dysfonction cognitive précoce après une chirurgie de pontage coronarien."
+    },
+    {
+      "question": "La valériane est-elle adaptée pendant la grossesse ou l’allaitement ?",
+      "answer": "La sécurité de la valériane pendant la grossesse et l’allaitement n’a pas été établie par des études cliniques, bien que des études cellulaires suggèrent que l’acide valérénique ne traverse pas le placenta. De plus, des recherches sur des rats indiquent que des doses élevées de valériane pourraient affecter la composition du lait maternel, ce qui justifie des investigations supplémentaires."
+    }
+  ],
+  "references": [
+    {
+      "text": "Sedation - Pakseresht S, Boostani H, Sayyah M Extract of valerian root (Valeriana officinalis L.) vs. placebo in treatment of obsessive-compulsive disorder: a randomized double-blind study J Complement Integr Med. (2011 Oct 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22718671"
+    },
+    {
+      "text": "Anxiety Symptoms - Andreatini R, Sartori VA, Seabra ML, Leite JR Effect of valepotriates (valerian extract) in generalized anxiety disorder: a randomized placebo-controlled pilot study Phytother Res. (2002 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12410546"
+    },
+    {
+      "text": "Restless Leg Syndrome Symptoms - Cuellar NG, Ratcliffe SJ Does valerian improve sleepiness and symptom severity in people with restless legs syndrome Altern Ther Health Med. (2009 Mar-Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19284179"
+    },
+    {
+      "text": "Sleep Quality - Bent S, Padula A, Moore D, Patterson M, Mehling W Valerian for sleep: a systematic review and meta-analysis. Am J Med. (2006-Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17145239"
+    },
+    {
+      "text": "Sleep Quality - Leathwood PD, Chauffard F Aqueous extract of valerian reduces latency to fall asleep in man Planta Med. (1985 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/4034730"
+    },
+    {
+      "text": "Sleep Quality - Fernández-San-Martín MI, Masa-Font R, Palacios-Soler L, Sancho-Gómez P, Calbó-Caldentey C, Flores-Mateo G Effectiveness of Valerian on insomnia: a meta-analysis of randomized placebo-controlled trials Sleep Med. (2010 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20347389"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Taavoni S, Ekbatani N, Kashaniyan M, Haghani H Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial Menopause. (2011 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+    },
+    {
+      "text": "Sleep Quality - Barton DL, Atherton PJ, Bauer BA, Moore DF Jr, Mattar BI, Lavasseur BI, Rowland KM Jr, Zon RT, Lelindqwister NA, Nagargoje GG, Morgenthaler TI, Sloan JA, Loprinzi CL The use of Valeriana officinalis (Valerian) in improving sleep in patients who are undergoing treatment for cancer: a phase III randomized, placebo-controlled, double-blind study (NCCTG Trial, N01C5) J Support Oncol. (2011 Jan-Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21399726"
+    },
+    {
+      "text": "Sleep Quality - Mirabi P, Mojab F The effects of valerian root on hot flashes in menopausal women Iran J Pharm Res. (2013 Winter)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24250592"
+    },
+    {
+      "text": "Pain - Mirabi P, Dolatian M, Mojab F, Majd HA Effects of valerian on the severity and systemic manifestations of dysmenorrhea Int J Gynaecol Obstet. (2011 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21959068"
+    },
+    {
+      "text": "Sleep Quality - Taibi DM, Bourguignon C, Gill Taylor A A feasibility study of valerian extract for sleep disturbance in person with arthritis Biol Res Nurs. (2009 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19114414"
+    },
+    {
+      "text": "PMS Symptoms - Behboodi Moghadam Z, Rezaei E, Shirood Gholami R, Kheirkhah M, Haghani H The effect of Valerian root extract on the severity of pre menstrual syndrome symptoms J Tradit Complement Med. (2016 Jan 19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27419099"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Sedation - Pakseresht S, Boostani H, Sayyah M Extract of valerian root (Valeriana officinalis L.) vs. placebo in treatment of obsessive-compulsive disorder: a randomized double-blind study J Complement Integr Med. (2011 Oct 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22718671"
+    },
+    {
+      "text": "Anxiety Symptoms - Andreatini R, Sartori VA, Seabra ML, Leite JR Effect of valepotriates (valerian extract) in generalized anxiety disorder: a randomized placebo-controlled pilot study Phytother Res. (2002 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12410546"
+    },
+    {
+      "text": "Restless Leg Syndrome Symptoms - Cuellar NG, Ratcliffe SJ Does valerian improve sleepiness and symptom severity in people with restless legs syndrome Altern Ther Health Med. (2009 Mar-Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19284179"
+    },
+    {
+      "text": "Sleep Quality - Bent S, Padula A, Moore D, Patterson M, Mehling W Valerian for sleep: a systematic review and meta-analysis. Am J Med. (2006-Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17145239"
+    },
+    {
+      "text": "Sleep Quality - Leathwood PD, Chauffard F Aqueous extract of valerian reduces latency to fall asleep in man Planta Med. (1985 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/4034730"
+    },
+    {
+      "text": "Sleep Quality - Fernández-San-Martín MI, Masa-Font R, Palacios-Soler L, Sancho-Gómez P, Calbó-Caldentey C, Flores-Mateo G Effectiveness of Valerian on insomnia: a meta-analysis of randomized placebo-controlled trials Sleep Med. (2010 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20347389"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Taavoni S, Ekbatani N, Kashaniyan M, Haghani H Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial Menopause. (2011 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+    },
+    {
+      "text": "Sleep Quality - Barton DL, Atherton PJ, Bauer BA, Moore DF Jr, Mattar BI, Lavasseur BI, Rowland KM Jr, Zon RT, Lelindqwister NA, Nagargoje GG, Morgenthaler TI, Sloan JA, Loprinzi CL The use of Valeriana officinalis (Valerian) in improving sleep in patients who are undergoing treatment for cancer: a phase III randomized, placebo-controlled, double-blind study (NCCTG Trial, N01C5) J Support Oncol. (2011 Jan-Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21399726"
+    },
+    {
+      "text": "Sleep Quality - Mirabi P, Mojab F The effects of valerian root on hot flashes in menopausal women Iran J Pharm Res. (2013 Winter)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24250592"
+    },
+    {
+      "text": "Pain - Mirabi P, Dolatian M, Mojab F, Majd HA Effects of valerian on the severity and systemic manifestations of dysmenorrhea Int J Gynaecol Obstet. (2011 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21959068"
+    },
+    {
+      "text": "Sleep Quality - Taibi DM, Bourguignon C, Gill Taylor A A feasibility study of valerian extract for sleep disturbance in person with arthritis Biol Res Nurs. (2009 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19114414"
+    },
+    {
+      "text": "PMS Symptoms - Behboodi Moghadam Z, Rezaei E, Shirood Gholami R, Kheirkhah M, Haghani H The effect of Valerian root extract on the severity of pre menstrual syndrome symptoms J Tradit Complement Med. (2016 Jan 19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27419099"
+    }
+  ]
+}

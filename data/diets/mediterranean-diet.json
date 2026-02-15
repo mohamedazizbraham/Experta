@@ -1,0 +1,1837 @@
+{
+  "slug": "mediterranean-diet",
+  "name": "Diète méditerranéenne",
+  "name_en": "Diète méditerranéenne",
+  "description": "La diète méditerranéenne désigne un modèle alimentaire originaire de Grèce, d'Italie méridionale et d'autres pays entourant la mer Méditerranée ; elle a fait l'objet d'études approfondies pour la prévention des maladies cardiovasculaires.  Il s'agit d'une alimentation végétarienne faible en graisses saturées, avec des composants alimentaires clés tels que l'huile d'olive, les légumes verts feuilles, les fruits, les céréales entières, les noix, les légumineuses, le poisson, la volaille, le lait demi-gras et une consommation modérée de vin rouge.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Adiponectine",
+          "grade": "B",
+          "effect": "Petite augmentation",
+          "evidence": "Participants des 2 études : 286",
+          "studies": [],
+          "participants": 286
+        },
+        {
+          "outcome": "Mortalité à tous causes",
+          "grade": "B",
+          "effect": "Petite amélioration",
+          "evidence": "Participants des 7 études : 4730",
+          "studies": [],
+          "participants": 4730
+        },
+        {
+          "outcome": "Glycémie sanguine",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 études : 2373 participants",
+          "studies": [],
+          "participants": 2373
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études : 5276 participants",
+          "studies": [],
+          "participants": 5276
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études : 2650 participants",
+          "studies": [],
+          "participants": 2650
+        },
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 études : 1035 participants",
+          "studies": [],
+          "participants": 1035
+        },
+        {
+          "outcome": "Mortalité due aux maladies cardiovasculaires",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études : 8052 participants",
+          "studies": [],
+          "participants": 8052
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants : 1930",
+          "studies": [],
+          "participants": 1930
+        },
+        {
+          "outcome": "Risque d'Infarctus du Myocarde",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 8447",
+          "studies": [],
+          "participants": 8447
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "20 Études Participants : 1494",
+          "studies": [],
+          "participants": 1494
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 829",
+          "studies": [],
+          "participants": 829
+        },
+        {
+          "outcome": "Résistance à l'Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Études Participants : 1742",
+          "studies": [],
+          "participants": 1742
+        },
+        {
+          "outcome": "Molécule d'adhérence intercellulaire 1",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études participants : 586",
+          "studies": [],
+          "participants": 586
+        },
+        {
+          "outcome": "Interféron Gamma",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études participants : 178",
+          "studies": [],
+          "participants": 178
+        },
+        {
+          "outcome": "Interleukine 1-bêta",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études participants : 178",
+          "studies": [],
+          "participants": 178
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Études participants : 524",
+          "studies": [],
+          "participants": 524
+        },
+        {
+          "outcome": "Interleukine 8",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude participants : 3236",
+          "studies": [],
+          "participants": 3236
+        },
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études participants : 705",
+          "studies": [],
+          "participants": 705
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "21 études participants : 1514",
+          "studies": [],
+          "participants": 1514
+        },
+        {
+          "outcome": "Risque de maladie cardiovasculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études participants : 8052",
+          "studies": [],
+          "participants": 8052
+        },
+        {
+          "outcome": "sE-Selectin",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études participants : 206",
+          "studies": [],
+          "participants": 206
+        },
+        {
+          "outcome": "Risque d'accident vasculaire cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études participants : 4284",
+          "studies": [],
+          "participants": 4284
+        },
+        {
+          "outcome": "Facteur de nécrose tumorale-alpha (TNF-Alpha)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants de l'étude : 3236",
+          "studies": [],
+          "participants": 3236
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 2650",
+          "studies": [],
+          "participants": 2650
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "29 Études Participants : 3822",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 1646",
+          "studies": [],
+          "participants": 1646
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 Études Participants : 1864",
+          "studies": [],
+          "participants": 1864
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie cardiovasculaire",
+      "outcomes": [
+        {
+          "outcome": "Adiponectine",
+          "grade": "B",
+          "effect": "Faible augmentation",
+          "evidence": "2 Études Participants : 286",
+          "studies": [],
+          "participants": 286
+        },
+        {
+          "outcome": "Mortalité à tous causes",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 Études Participants : 4730",
+          "studies": [],
+          "participants": 4730
+        },
+        {
+          "outcome": "Glycémie sanguine",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 Études Participants : 2373",
+          "studies": [],
+          "participants": 2373
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Études Participants : 5276",
+          "studies": [],
+          "participants": 5276
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 2650",
+          "studies": [],
+          "participants": 2650
+        },
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 1942",
+          "studies": [],
+          "participants": 1942
+        },
+        {
+          "outcome": "Mortalité liée aux maladies cardiovasculaires",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 8052",
+          "studies": [],
+          "participants": 8052
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 1930",
+          "studies": [],
+          "participants": 1930
+        },
+        {
+          "outcome": "Risque d'infarctus du myocarde",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 8447",
+          "studies": [],
+          "participants": 8447
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (LHD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Études participants : 3822",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "Études participants : 829",
+          "studies": [],
+          "participants": 829
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "Études participants : 1742",
+          "studies": [],
+          "participants": 1742
+        },
+        {
+          "outcome": "Molécule d'adhérence intercellulaire 1 (MIC-1)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Études participants : 586",
+          "studies": [],
+          "participants": 586
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "Études participants : 1077",
+          "studies": [],
+          "participants": 1077
+        },
+        {
+          "outcome": "Lipoprotéines de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des 3 études : 2135",
+          "studies": [],
+          "participants": 2135
+        },
+        {
+          "outcome": "Risque de maladie cardiovasculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des 2 études : 8052",
+          "studies": [],
+          "participants": 8052
+        },
+        {
+          "outcome": "Risque d'accident vasculaire cérébral",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des 5 études : 4284",
+          "studies": [],
+          "participants": 4284
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des 6 études : 2650",
+          "studies": [],
+          "participants": 2650
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants de 29 études : 3822",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 1646",
+          "studies": [],
+          "participants": 1646
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 2650",
+          "studies": [],
+          "participants": 2650
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Hypertension artérielle élevée",
+      "outcomes": [
+        {
+          "outcome": "Pression sanguine",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 8091",
+          "studies": [],
+          "participants": 8091
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie du foie grasse non alcoolique",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguine",
+          "grade": "B",
+          "effect": "Faible amélioration",
+          "evidence": "3 Études Participants : 154",
+          "studies": [],
+          "participants": 154
+        },
+        {
+          "outcome": "Lipoprotéines de haute densité (LHD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 154",
+          "studies": [],
+          "participants": 154
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 142",
+          "studies": [],
+          "participants": 142
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 72",
+          "studies": [],
+          "participants": 72
+        },
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Études Participants : 705",
+          "studies": [],
+          "participants": 705
+        },
+        {
+          "outcome": "Graisse du foie",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 72",
+          "studies": [],
+          "participants": 72
+        },
+        {
+          "outcome": "Fibrose hépatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études : 464 participants",
+          "studies": [],
+          "participants": 464
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études : 125 participants",
+          "studies": [],
+          "participants": 125
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études : 130 participants",
+          "studies": [],
+          "participants": 130
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études : 154 participants",
+          "studies": [],
+          "participants": 154
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études : 357 participants",
+          "studies": [],
+          "participants": 357
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "19 études Participants : 1226",
+          "studies": [],
+          "participants": 1226
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Obésité",
+      "outcomes": [
+        {
+          "outcome": "Glycémie sanguine",
+          "grade": "B",
+          "effect": "Faible amélioration",
+          "evidence": "17 études Participants : 2373",
+          "studies": [],
+          "participants": 2373
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 études Participants : 1033",
+          "studies": [],
+          "participants": 1033
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 études Participants : 7184",
+          "studies": [],
+          "participants": 7184
+        },
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études : 424 participants",
+          "studies": [],
+          "participants": 424
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études : 1930 participants",
+          "studies": [],
+          "participants": 1930
+        },
+        {
+          "outcome": "Lipoprotéines de haute densité (LHD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "20 études : 1494 participants",
+          "studies": [],
+          "participants": 1494
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études : 829 participants",
+          "studies": [],
+          "participants": 829
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études : 1742 participants",
+          "studies": [],
+          "participants": 1742
+        },
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études : 705 participants",
+          "studies": [],
+          "participants": 705
+        },
+        {
+          "outcome": "Lipoprotéine de faible densité (LDF)",
+          "grade": "",
+          "effect": "",
+          "evidence": "21 études : 1514 participants",
+          "studies": [],
+          "participants": 1514
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études : 2650 participants",
+          "studies": [],
+          "participants": 2650
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "29 études : 3822 participants",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études : 7184 participants",
+          "studies": [],
+          "participants": 7184
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 Études Participants : 1864",
+          "studies": [],
+          "participants": 1864
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Surpoids",
+      "outcomes": [
+        {
+          "outcome": "Glycémie sanguine",
+          "grade": "B",
+          "effect": "Petite Amélioration",
+          "evidence": "17 Études Participants : 2373",
+          "studies": [],
+          "participants": 2373
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 Études Participants : 1033",
+          "studies": [],
+          "participants": 1033
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "15 Études Participants : 7184",
+          "studies": [],
+          "participants": 7184
+        },
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants : 424",
+          "studies": [],
+          "participants": 424
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études Participants : 1930",
+          "studies": [],
+          "participants": 1930
+        },
+        {
+          "outcome": "Lipoprotéines de haute densité (LHD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "20 études Participants : 1494",
+          "studies": [],
+          "participants": 1494
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 829",
+          "studies": [],
+          "participants": 829
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 études Participants : 1742",
+          "studies": [],
+          "participants": 1742
+        },
+        {
+          "outcome": "Lipoprotéine de faible densité (LPFD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "21 Études Participants : 1514",
+          "studies": [],
+          "participants": 1514
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 2650",
+          "studies": [],
+          "participants": 2650
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "29 Études Participants : 3822",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Études Participants : 7184",
+          "studies": [],
+          "participants": 7184
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 Études Participants : 1864",
+          "studies": [],
+          "participants": 1864
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Adiponectine",
+          "grade": "B",
+          "effect": "Faible augmentation",
+          "evidence": "5 études : 2472 participants",
+          "studies": [],
+          "participants": 2472
+        },
+        {
+          "outcome": "Glucose sanguine",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 études : 2373 participants",
+          "studies": [],
+          "participants": 2373
+        },
+        {
+          "outcome": "Tension artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études : 3060 participants",
+          "studies": [],
+          "participants": 3060
+        },
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études : 2507 participants",
+          "studies": [],
+          "participants": 2507
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants : 1930",
+          "studies": [],
+          "participants": 1930
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 1385",
+          "studies": [],
+          "participants": 1385
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "29 Études Participants : 3822",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Études Participants : 1742",
+          "studies": [],
+          "participants": 1742
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "29 Études Participants : 3822",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 1646",
+          "studies": [],
+          "participants": 1646
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 1385",
+          "studies": [],
+          "participants": 1385
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome métabolique",
+      "outcomes": [
+        {
+          "outcome": "Glycémie sanguine",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "3 Études Participants : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Tension artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 Études Participants : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 1031",
+          "studies": [],
+          "participants": 1031
+        },
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 1930",
+          "studies": [],
+          "participants": 1930
+        },
+        {
+          "outcome": "Lipoprotéines de haute densité (LHD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 1742",
+          "studies": [],
+          "participants": 1742
+        },
+        {
+          "outcome": "Lipoprotéines de faible densité (LPFD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 2013",
+          "studies": [],
+          "participants": 2013
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 2013",
+          "studies": [],
+          "participants": 2013
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé hépatique générale",
+      "outcomes": [
+        {
+          "outcome": "Glycémie sanguine",
+          "grade": "B",
+          "effect": "Petite amélioration",
+          "evidence": "Participants des études : 154",
+          "studies": [],
+          "participants": 154
+        },
+        {
+          "outcome": "Lipoprotéines de haute densité (LHD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 154",
+          "studies": [],
+          "participants": 154
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participant d'une étude : 142",
+          "studies": [],
+          "participants": 142
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 72",
+          "studies": [],
+          "participants": 72
+        },
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 705",
+          "studies": [],
+          "participants": 705
+        },
+        {
+          "outcome": "Graisse du foie",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 72",
+          "studies": [],
+          "participants": 72
+        },
+        {
+          "outcome": "Fibrose hépatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 464",
+          "studies": [],
+          "participants": 464
+        },
+        {
+          "outcome": "Lipoprotéines de faible densité (LDP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 125",
+          "studies": [],
+          "participants": 125
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études : Participants : 130",
+          "studies": [],
+          "participants": 130
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études : Participants : 154",
+          "studies": [],
+          "participants": 154
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "19 Études : Participants : 1226",
+          "studies": [],
+          "participants": 1226
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguine",
+          "grade": "B",
+          "effect": "Faible amélioration",
+          "evidence": "28 Études : Participants : 3536",
+          "studies": [],
+          "participants": 3536
+        },
+        {
+          "outcome": "Blood Pressure",
+          "grade": "",
+          "effect": "",
+          "evidence": "13 Studies Participants: 1033",
+          "studies": [],
+          "participants": 1033
+        },
+        {
+          "outcome": "Body Mass Index (BMI)",
+          "grade": "",
+          "effect": "",
+          "evidence": "32 Studies Participants: 5373",
+          "studies": [],
+          "participants": 5373
+        },
+        {
+          "outcome": "C-Reactive Protein (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Studies Participants: 1035",
+          "studies": [],
+          "participants": 1035
+        },
+        {
+          "outcome": "High-density lipoprotein (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "20 Studies Participants: 1494",
+          "studies": [],
+          "participants": 1494
+        },
+        {
+          "outcome": "Insulin",
+          "grade": "",
+          "effect": "",
+          "evidence": "20 Studies Participants: 2184",
+          "studies": [],
+          "participants": 2184
+        },
+        {
+          "outcome": "Lipoprotéines de faible densité (LPFD)",
+          "grade": "",
+          "effect": "",
+          "evidence": "21 Études Participants : 1514",
+          "studies": [],
+          "participants": 1514
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "32 Études Participants : 4391",
+          "studies": [],
+          "participants": 4391
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "33 Études Participants : 4314",
+          "studies": [],
+          "participants": 4314
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "24 Études Participants : 9564",
+          "studies": [],
+          "participants": 9564
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 Études Participants : 1864",
+          "studies": [],
+          "participants": 1864
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie rénale chronique",
+      "outcomes": [
+        {
+          "outcome": "Fonction rénale",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude : Participants : 40",
+          "studies": [],
+          "participants": 40
+        },
+        {
+          "outcome": "Potassium sanguin",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude : Participants : 46",
+          "studies": [],
+          "participants": 46
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cholestérol élevé",
+      "outcomes": [
+        {
+          "outcome": "Glycémie sanguine",
+          "grade": "B",
+          "effect": "Amélioration mineure",
+          "evidence": "17 Études : Participants : 2373",
+          "studies": [],
+          "participants": 2373
+        },
+        {
+          "outcome": "Blood Pressure",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Studies Participants: 3060",
+          "studies": [],
+          "participants": 3060
+        },
+        {
+          "outcome": "Endothelial Function",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Studies Participants: 1930",
+          "studies": [],
+          "participants": 1930
+        },
+        {
+          "outcome": "High-density lipoprotein (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "29 Studies Participants: 3822",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Insulin Resistance",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Studies Participants: 1742",
+          "studies": [],
+          "participants": 1742
+        },
+        {
+          "outcome": "Triglycerides",
+          "grade": "",
+          "effect": "",
+          "evidence": "29 Studies Participants: 3822",
+          "studies": [],
+          "participants": 3822
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 Études Participants : 1646",
+          "studies": [],
+          "participants": 1646
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Arthrite rhumatoïde",
+      "outcomes": [
+        {
+          "outcome": "Interleukine 6",
+          "grade": "C",
+          "effect": "Faible diminution",
+          "evidence": "1 Étude Participants : 24",
+          "studies": [],
+          "participants": 24
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 113",
+          "studies": [],
+          "participants": 113
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 1",
+      "outcomes": [
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "14 études : 1930 participants",
+          "studies": [],
+          "participants": 1930
+        },
+        {
+          "outcome": "Contrôle glycémique",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études : 77 participants",
+          "studies": [],
+          "participants": 77
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études : 90 participants",
+          "studies": [],
+          "participants": 90
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie coronarienne de l'artère",
+      "outcomes": [
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études : 1128 participants",
+          "studies": [],
+          "participants": 1128
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Étude : Participants : 6",
+          "studies": [],
+          "participants": 6
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude : Participants : 6",
+          "studies": [],
+          "participants": 6
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Infertilité",
+      "outcomes": [
+        {
+          "outcome": "Fertilité",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Étude : Participants : 111",
+          "studies": [],
+          "participants": 111
+        },
+        {
+          "outcome": "Risque de diabète gestationnel",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 3 921",
+          "studies": [],
+          "participants": 3921
+        },
+        {
+          "outcome": "Risque de prééclampsie",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 3 964",
+          "studies": [],
+          "participants": 3964
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Douleur chronique",
+      "outcomes": [
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants aux études : 113",
+          "studies": [],
+          "participants": 113
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie de Crohn",
+      "outcomes": [
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "C",
+          "effect": "Faible diminution",
+          "evidence": "Participant à l'étude : 191",
+          "studies": [],
+          "participants": 191
+        },
+        {
+          "outcome": "Symptômes de la maladie de Crohn",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude : participants : 191",
+          "studies": [],
+          "participants": 191
+        },
+        {
+          "outcome": "Calprotectine fécale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude : participants : 191",
+          "studies": [],
+          "participants": 191
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude : participants : 191",
+          "studies": [],
+          "participants": 191
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé immunitaire",
+      "outcomes": [
+        {
+          "outcome": "Protéine C-réactive (PCR)",
+          "grade": "B",
+          "effect": "Faible diminution",
+          "evidence": "11 Études : participants : 1805",
+          "studies": [],
+          "participants": 1805
+        },
+        {
+          "outcome": "Facteur d'interféron gamma",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études : 178 participants",
+          "studies": [],
+          "participants": 178
+        },
+        {
+          "outcome": "Interleukine 1-bêta",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études : 178 participants",
+          "studies": [],
+          "participants": 178
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Études : 524 participants",
+          "studies": [],
+          "participants": 524
+        },
+        {
+          "outcome": "Interleukine 8",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude : 3236 participants",
+          "studies": [],
+          "participants": 3236
+        },
+        {
+          "outcome": "sE-Choixselectine",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études : 206 participants",
+          "studies": [],
+          "participants": 206
+        },
+        {
+          "outcome": "Facteur de nécrose tumorale-alpha (TNF-Alpha)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude : participants : 3236",
+          "studies": [],
+          "participants": 3236
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Durée de vie prolongée",
+      "outcomes": [
+        {
+          "outcome": "Mortalité pour toutes causes",
+          "grade": "B",
+          "effect": "Faible amélioration",
+          "evidence": "7 Études : participants : 4730",
+          "studies": [],
+          "participants": 4730
+        },
+        {
+          "outcome": "Morbidité et mortalité cardiovasculaires",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude : participants : 14494",
+          "studies": [],
+          "participants": 14494
+        },
+        {
+          "outcome": "Risque d'infarctus du myocarde",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études : participants : 4284",
+          "studies": [],
+          "participants": 4284
+        },
+        {
+          "outcome": "Risque d'AVC (Acute Vascular Cerebral)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants de 5 études : 4284",
+          "studies": [],
+          "participants": 4284
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Prédialabète",
+      "outcomes": [
+        {
+          "outcome": "Fonction endothéliale",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants de 14 études : 1930",
+          "studies": [],
+          "participants": 1930
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé et accouchement pendant la grossesse",
+      "outcomes": [
+        {
+          "outcome": "Fertilité",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 étude Participants : 111",
+          "studies": [],
+          "participants": 111
+        },
+        {
+          "outcome": "Risque de diabète gestationnel",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 3921",
+          "studies": [],
+          "participants": 3921
+        },
+        {
+          "outcome": "Risque de prééclampsie",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 3964",
+          "studies": [],
+          "participants": 3964
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Perte de poids et maintien",
+      "outcomes": [
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "B",
+          "effect": "Faible diminution",
+          "evidence": "Participants des études : 7184",
+          "studies": [],
+          "participants": 7184
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants des études : 7184",
+          "studies": [],
+          "participants": 7184
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [
+    {
+      "text": "Kidney Function - Khedidja Mekki, Nassima Bouzidi-bekada, Abbou Kaddous, Malika Bouchenak Mediterranean diet improves dyslipidemia and biomarkers in chronic renal failure patients Food Funct. (2010 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21776461"
+    },
+    {
+      "text": "Serum Potassium - Kwon YJ, Joo YS, Yun HR, Lim LR, Yang J, Lee HS, Kim HM, Lee H, Lee JE, Lee JW Safety and impact of the Mediterranean diet in patients with chronic kidney disease: a pilot randomized crossover trial. Front Nutr. (2024)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39296514"
+    },
+    {
+      "text": "Blood Pressure - Schwingshackl L, Chaimani A, Schwedhelm C, Toledo E, Pünsch M, Hoffmann G, Boeing H Comparative effects of different dietary approaches on blood pressure in hypertensive and pre-hypertensive patients: A systematic review and network meta-analysis. Crit Rev Food Sci Nutr. (2018 May 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29718689"
+    },
+    {
+      "text": "Blood Pressure - Cowell OR, Mistry N, Deighton K, Matu J, Griffiths A, Minihane AM, Mathers JC, Shannon OM, Siervo M Effects of a Mediterranean diet on blood pressure: a systematic review and meta-analysis of randomized controlled trials and observational studies. J Hypertens. (2021-Apr-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33060448"
+    },
+    {
+      "text": "Blood Pressure - Ndanuko RN, Tapsell LC, Charlton KE, Neale EP, Batterham MJ Dietary Patterns and Blood Pressure in Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Adv Nutr. (2016 Jan 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26773016"
+    },
+    {
+      "text": "Blood Pressure - Gay HC, Rao SG, Vaccarino V, Ali MK Effects of Different Dietary Interventions on Blood Pressure: Systematic Review and Meta-Analysis of Randomized Controlled Trials Hypertension. (2016 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26902492"
+    },
+    {
+      "text": "Blood Pressure - Joshua Gibbs, Eleanor Gaskin, Chen Ji, Michelle A Miller, Francesco P Cappuccio The effect of plant-based dietary patterns on blood pressure: a systematic review and meta-analysis of controlled intervention trials J Hypertens. (2021 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33275398"
+    },
+    {
+      "text": "Blood Pressure - Filippou CD, Thomopoulos CG, Kouremeti MM, Sotiropoulou LI, Nihoyannopoulos PI, Tousoulis DM, Tsioufis CP Mediterranean diet and blood pressure reduction in adults with and without hypertension: A systematic review and meta-analysis of randomized controlled trials. Clin Nutr. (2021-May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33581952"
+    },
+    {
+      "text": "Blood Pressure - Kastorini, C.M., et al. The effect of Mediterranean diet on metabolic syndrome and its components: a meta-analysis of 50 studies and 534,906 individuals J Am Coll Cardiol. (2011-03-08)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21392646"
+    },
+    {
+      "text": "Blood Pressure - Nordmann AJ, Suter-Zimmermann K, Bucher HC, Shai I, Tuttle KR, Estruch R, Briel M Meta-analysis comparing Mediterranean to low-fat diets for modification of cardiovascular risk factors. Am J Med. (2011-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21854893"
+    },
+    {
+      "text": "Blood Pressure - Long Ge, Behnam Sadeghirad, Geoff D C Ball, Bruno R da Costa, Christine L Hitchcock, Anton Svendrovski, Ruhi Kiflen, Kalimullah Quadri, Henry Y Kwon, Mohammad Karamouzian, Thomasin Adams-Webber, Waleed Ahmed, Samah Damanhoury, Dena Zeraatkar, Adriani Nikolakopoulou, Ross T Tsuyuki, Jinhui Tian, Kehu Yang, Gordon H Guyatt, Bradley C Johnston Comparison of Dietary Macronutrient Patterns of 14 Popular Named Dietary Programmes for Weight and Cardiovascular Risk Factor Reduction in Adults: Systematic Review and Network Meta-Analysis of Randomised Trials BMJ. (2020 Apr 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32238384"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Neale, E., et al. Consumption of a healthy dietary pattern results in significant reductions in C-reactive protein levels in adults: a meta-analysis Nutr Res. (2016-05-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27101757"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Schwingshackl L, Hoffmann G Mediterranean dietary pattern, inflammation and endothelial function: a systematic review and meta-analysis of intervention trials Nutr Metab Cardiovasc Dis. (2014 Apr 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24787907"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Koelman L, Egea Rodrigues C, Aleksandrova K Effects of Dietary Patterns on Biomarkers of Inflammation and Immune Responses: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Adv Nutr. (2022-02-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34607347"
+    },
+    {
+      "text": "Endothelial Function - Shannon OM, Mendes I, Köchl C, Mazidi M, Ashor AW, Rubele S, Minihane AM, Mathers JC, Siervo M Mediterranean Diet Increases Endothelial Function in Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Nutr. (2020-May-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32027740"
+    },
+    {
+      "text": "Risk Of Cardiovascular Disease - Becerra-Tomás N, Blanco Mejía S, Viguiliouk E, Khan T, Kendall CWC, Kahleova H, Rahelić D, Sievenpiper JL, Salas-Salvadó J Mediterranean diet, cardiovascular disease and mortality in diabetes: A systematic review and meta-analysis of prospective cohort studies and randomized clinical trials. Crit Rev Food Sci Nutr. (Jan 24 2019)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30676058"
+    },
+    {
+      "text": "Cardiovascular Disease Mortality - Karam G, Agarwal A, Sadeghirad B, Jalink M, Hitchcock CL, Ge L, Kiflen R, Ahmed W, Zea AM, Milenkovic J, Chedrawe MA, Rabassa M, El Dib R, Goldenberg JZ, Guyatt GH, Boyce E, Johnston BC Comparison of seven popular structured dietary programmes and risk of mortality and major cardiovascular events in patients at increased cardiovascular risk: systematic review and network meta-analysis. BMJ. (2023-Mar-29)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36990505"
+    },
+    {
+      "text": "Liver Enzymes - Abbas Ali Sangouni, Shirin Hassani Zadeh, Hassan Mozaffari-Khosravi, Mahdieh Hosseinzadeh Effect of Mediterranean diet on liver enzymes: a systematic review and meta-analysis of randomised controlled trials Br J Nutr. (2021 Jun 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34165054"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Mayr HL, Tierney AC, Thomas CJ, Ruiz-Canela M, Radcliffe J, Itsiopoulos C Mediterranean-type diets and inflammatory markers in patients with coronary heart disease: a systematic review and meta-analysis. Nutr Res. (2018-Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29540268"
+    },
+    {
+      "text": "Waist circumference - Bruna-Mejias A, San Martin J, Arciniegas-Diaz D, Meneses-Caroca T, Salamanca-Cerda A, Beas-Gambi A, Paola-Loaiza-Giraldo J, Ortiz-Ahumada C, Nova-Baeza P, Oyanedel-Amaro G, Orellana-Donoso M, Suazo-Santibáñez A, Sanchis-Gimeno J, Valenzuela-Fuenzalida JJ Comparison of the Mediterranean Diet and Other Therapeutic Strategies in Metabolic Syndrome: A Systematic Review and Meta-Analysis. Int J Mol Sci. (2025 Jun 19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40565352"
+    },
+    {
+      "text": "Waist circumference - Papadaki A, Nolen-Doerr E, Mantzoros CS The Effect of the Mediterranean Diet on Metabolic Health: A Systematic Review and Meta-Analysis of Controlled Trials in Adults. Nutrients. (2020-Oct-30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33143083"
+    },
+    {
+      "text": "Waist circumference - López-Gil JF, García-Hermoso A, Sotos-Prieto M, Cavero-Redondo I, Martínez-Vizcaíno V, Kales SN Mediterranean Diet-Based Interventions to Improve Anthropometric and Obesity Indicators in Children and Adolescents: A Systematic Review with Meta-Analysis of Randomized Controlled Trials. Adv Nutr. (2023-Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37127186"
+    },
+    {
+      "text": "Adiponectin - Sánchez-Rosales AI, Guadarrama-López AL, Gaona-Valle LS, Martínez-Carrillo BE, Valdés-Ramos R The Effect of Dietary Patterns on Inflammatory Biomarkers in Adults with Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutrients. (2022-Oct-31)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36364839"
+    },
+    {
+      "text": "Blood glucose - Jing T, Zhang S, Bai M, Chen Z, Gao S, Li S, Zhang J Effect of Dietary Approaches on Glycemic Control in Patients with Type 2 Diabetes: A Systematic Review with Network Meta-Analysis of Randomized Trials. Nutrients. (2023-Jul-15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37513574"
+    },
+    {
+      "text": "HbA1c - Zeng J, Beck M, Barouti AA, Löfvenborg JE, Carlsson S, Lampousi AM Effects of different dietary patterns on glucose management in type 1 diabetes: a systematic review and meta-analysis of randomized controlled trials. EClinicalMedicine. (2025 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40641818"
+    },
+    {
+      "text": "Liver Fat - Veera Houttu, Susanne Csader, Max Nieuwdorp, Adriaan G Holleboom, Ursula Schwab Dietary Interventions in Patients With Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-Analysis Front Nutr. (2021 Jul 22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34368214"
+    },
+    {
+      "text": "Liver Fat - Haigh L, Kirk C, El Gendy K, Gallacher J, Errington L, Mathers JC, Anstee QM The effectiveness and acceptability of Mediterranean diet and calorie restriction in non-alcoholic fatty liver disease (NAFLD): A systematic review and meta-analysis. Clin Nutr. (2022-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35947894"
+    },
+    {
+      "text": "Liver Enzymes - Wang X, Jin X, Li H, Zhang X, Chen X, Lu K, Chu C Effects of various interventions on non-alcoholic fatty liver disease (NAFLD): A systematic review and network meta-analysis. Front Pharmacol. (2023)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37063273"
+    },
+    {
+      "text": "Liver Enzymes - Del Bo' C, Perna S, Allehdan S, Rafique A, Saad S, AlGhareeb F, Rondanelli M, Tayyem RF, Marino M, Martini D, Riso P Does the Mediterranean Diet Have Any Effect on Lipid Profile, Central Obesity and Liver Enzymes in Non-Alcoholic Fatty Liver Disease (NAFLD) Subjects? A Systematic Review and Meta-Analysis of Randomized Control Trials. Nutrients. (2023-May-09)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37242133"
+    },
+    {
+      "text": "Liver Enzymes - Jamil A, Chivese T, Elshaikh U, Sendall M Efficacy of the Mediterranean diet in treating metabolic dysfunction-associated steatotic liver disease (MASLD) in children and adolescents: a systematic review and meta-analysis. BMC Public Health. (2024 Oct 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39363272"
+    },
+    {
+      "text": "Fertility - Yang J, Song Y, Gaskins AJ, Li LJ, Huang Z, Eriksson JG, Hu FB, Chong YS, Zhang C Mediterranean diet and female reproductive health&nbsp;over&nbsp;lifespan: a systematic review and meta-analysis. Am J Obstet Gynecol. (2023-Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37506751"
+    },
+    {
+      "text": "Crohn's Disease Symptoms - Limketkai BN, Godoy-Brewer G, Parian AM, Noorian S, Krishna M, Shah ND, White J, Mullin GE Dietary Interventions for the Treatment of Inflammatory Bowel Diseases: An Updated Systematic Review and Meta-analysis. Clin Gastroenterol Hepatol. (2023-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36470529"
+    },
+    {
+      "text": "Interleukin 6 - Hulander, E; et al. A randomized controlled cross-over trial investigating the acute inflammatory and metabolic response after meals based on red meat, fatty fish, or soy protein: the postprandial inflammation in rheumatoid arthritis (PIRA) trial Eur J Nutr. (2024-06-27)",
+      "link": "http://link.springer.com/10.1007/s00394-024-03451-6"
+    },
+    {
+      "text": "Pain - Katja A Schönenberger, Anne-Catherine Schüpfer, Viktoria L Gloy, Paul Hasler, Zeno Stanga, Nina Kaegi-Braun, Emilie Reber Effect of Anti-Inflammatory Diets on Pain in Rheumatoid Arthritis: A Systematic Review and Meta-Analysis Nutrients. (2021 Nov 24)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34959772"
+    },
+    {
+      "text": "Depression Symptoms - Tavakoly R, Moosburner A, Anheyer D, Cramer H Effect of Different Dietary Patterns on Patients with Depressive Disorders: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutrients. (2025 Jan 31)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39940421"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Kidney Function - Khedidja Mekki, Nassima Bouzidi-bekada, Abbou Kaddous, Malika Bouchenak Mediterranean diet improves dyslipidemia and biomarkers in chronic renal failure patients Food Funct. (2010 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21776461"
+    },
+    {
+      "text": "Serum Potassium - Kwon YJ, Joo YS, Yun HR, Lim LR, Yang J, Lee HS, Kim HM, Lee H, Lee JE, Lee JW Safety and impact of the Mediterranean diet in patients with chronic kidney disease: a pilot randomized crossover trial. Front Nutr. (2024)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39296514"
+    },
+    {
+      "text": "Blood Pressure - Schwingshackl L, Chaimani A, Schwedhelm C, Toledo E, Pünsch M, Hoffmann G, Boeing H Comparative effects of different dietary approaches on blood pressure in hypertensive and pre-hypertensive patients: A systematic review and network meta-analysis. Crit Rev Food Sci Nutr. (2018 May 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29718689"
+    },
+    {
+      "text": "Blood Pressure - Cowell OR, Mistry N, Deighton K, Matu J, Griffiths A, Minihane AM, Mathers JC, Shannon OM, Siervo M Effects of a Mediterranean diet on blood pressure: a systematic review and meta-analysis of randomized controlled trials and observational studies. J Hypertens. (2021-Apr-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33060448"
+    },
+    {
+      "text": "Blood Pressure - Ndanuko RN, Tapsell LC, Charlton KE, Neale EP, Batterham MJ Dietary Patterns and Blood Pressure in Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials Adv Nutr. (2016 Jan 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26773016"
+    },
+    {
+      "text": "Blood Pressure - Gay HC, Rao SG, Vaccarino V, Ali MK Effects of Different Dietary Interventions on Blood Pressure: Systematic Review and Meta-Analysis of Randomized Controlled Trials Hypertension. (2016 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26902492"
+    },
+    {
+      "text": "Blood Pressure - Joshua Gibbs, Eleanor Gaskin, Chen Ji, Michelle A Miller, Francesco P Cappuccio The effect of plant-based dietary patterns on blood pressure: a systematic review and meta-analysis of controlled intervention trials J Hypertens. (2021 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33275398"
+    },
+    {
+      "text": "Blood Pressure - Filippou CD, Thomopoulos CG, Kouremeti MM, Sotiropoulou LI, Nihoyannopoulos PI, Tousoulis DM, Tsioufis CP Mediterranean diet and blood pressure reduction in adults with and without hypertension: A systematic review and meta-analysis of randomized controlled trials. Clin Nutr. (2021-May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33581952"
+    },
+    {
+      "text": "Blood Pressure - Kastorini, C.M., et al. The effect of Mediterranean diet on metabolic syndrome and its components: a meta-analysis of 50 studies and 534,906 individuals J Am Coll Cardiol. (2011-03-08)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21392646"
+    },
+    {
+      "text": "Blood Pressure - Nordmann AJ, Suter-Zimmermann K, Bucher HC, Shai I, Tuttle KR, Estruch R, Briel M Meta-analysis comparing Mediterranean to low-fat diets for modification of cardiovascular risk factors. Am J Med. (2011-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21854893"
+    },
+    {
+      "text": "Blood Pressure - Long Ge, Behnam Sadeghirad, Geoff D C Ball, Bruno R da Costa, Christine L Hitchcock, Anton Svendrovski, Ruhi Kiflen, Kalimullah Quadri, Henry Y Kwon, Mohammad Karamouzian, Thomasin Adams-Webber, Waleed Ahmed, Samah Damanhoury, Dena Zeraatkar, Adriani Nikolakopoulou, Ross T Tsuyuki, Jinhui Tian, Kehu Yang, Gordon H Guyatt, Bradley C Johnston Comparison of Dietary Macronutrient Patterns of 14 Popular Named Dietary Programmes for Weight and Cardiovascular Risk Factor Reduction in Adults: Systematic Review and Network Meta-Analysis of Randomised Trials BMJ. (2020 Apr 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32238384"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Neale, E., et al. Consumption of a healthy dietary pattern results in significant reductions in C-reactive protein levels in adults: a meta-analysis Nutr Res. (2016-05-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27101757"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Schwingshackl L, Hoffmann G Mediterranean dietary pattern, inflammation and endothelial function: a systematic review and meta-analysis of intervention trials Nutr Metab Cardiovasc Dis. (2014 Apr 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24787907"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Koelman L, Egea Rodrigues C, Aleksandrova K Effects of Dietary Patterns on Biomarkers of Inflammation and Immune Responses: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Adv Nutr. (2022-02-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34607347"
+    },
+    {
+      "text": "Endothelial Function - Shannon OM, Mendes I, Köchl C, Mazidi M, Ashor AW, Rubele S, Minihane AM, Mathers JC, Siervo M Mediterranean Diet Increases Endothelial Function in Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. J Nutr. (2020-May-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32027740"
+    },
+    {
+      "text": "Risk Of Cardiovascular Disease - Becerra-Tomás N, Blanco Mejía S, Viguiliouk E, Khan T, Kendall CWC, Kahleova H, Rahelić D, Sievenpiper JL, Salas-Salvadó J Mediterranean diet, cardiovascular disease and mortality in diabetes: A systematic review and meta-analysis of prospective cohort studies and randomized clinical trials. Crit Rev Food Sci Nutr. (Jan 24 2019)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30676058"
+    },
+    {
+      "text": "Cardiovascular Disease Mortality - Karam G, Agarwal A, Sadeghirad B, Jalink M, Hitchcock CL, Ge L, Kiflen R, Ahmed W, Zea AM, Milenkovic J, Chedrawe MA, Rabassa M, El Dib R, Goldenberg JZ, Guyatt GH, Boyce E, Johnston BC Comparison of seven popular structured dietary programmes and risk of mortality and major cardiovascular events in patients at increased cardiovascular risk: systematic review and network meta-analysis. BMJ. (2023-Mar-29)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36990505"
+    },
+    {
+      "text": "Liver Enzymes - Abbas Ali Sangouni, Shirin Hassani Zadeh, Hassan Mozaffari-Khosravi, Mahdieh Hosseinzadeh Effect of Mediterranean diet on liver enzymes: a systematic review and meta-analysis of randomised controlled trials Br J Nutr. (2021 Jun 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34165054"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Mayr HL, Tierney AC, Thomas CJ, Ruiz-Canela M, Radcliffe J, Itsiopoulos C Mediterranean-type diets and inflammatory markers in patients with coronary heart disease: a systematic review and meta-analysis. Nutr Res. (2018-Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29540268"
+    },
+    {
+      "text": "Waist circumference - Bruna-Mejias A, San Martin J, Arciniegas-Diaz D, Meneses-Caroca T, Salamanca-Cerda A, Beas-Gambi A, Paola-Loaiza-Giraldo J, Ortiz-Ahumada C, Nova-Baeza P, Oyanedel-Amaro G, Orellana-Donoso M, Suazo-Santibáñez A, Sanchis-Gimeno J, Valenzuela-Fuenzalida JJ Comparison of the Mediterranean Diet and Other Therapeutic Strategies in Metabolic Syndrome: A Systematic Review and Meta-Analysis. Int J Mol Sci. (2025 Jun 19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40565352"
+    },
+    {
+      "text": "Waist circumference - Papadaki A, Nolen-Doerr E, Mantzoros CS The Effect of the Mediterranean Diet on Metabolic Health: A Systematic Review and Meta-Analysis of Controlled Trials in Adults. Nutrients. (2020-Oct-30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33143083"
+    },
+    {
+      "text": "Waist circumference - López-Gil JF, García-Hermoso A, Sotos-Prieto M, Cavero-Redondo I, Martínez-Vizcaíno V, Kales SN Mediterranean Diet-Based Interventions to Improve Anthropometric and Obesity Indicators in Children and Adolescents: A Systematic Review with Meta-Analysis of Randomized Controlled Trials. Adv Nutr. (2023-Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37127186"
+    },
+    {
+      "text": "Adiponectin - Sánchez-Rosales AI, Guadarrama-López AL, Gaona-Valle LS, Martínez-Carrillo BE, Valdés-Ramos R The Effect of Dietary Patterns on Inflammatory Biomarkers in Adults with Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutrients. (2022-Oct-31)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36364839"
+    },
+    {
+      "text": "Blood glucose - Jing T, Zhang S, Bai M, Chen Z, Gao S, Li S, Zhang J Effect of Dietary Approaches on Glycemic Control in Patients with Type 2 Diabetes: A Systematic Review with Network Meta-Analysis of Randomized Trials. Nutrients. (2023-Jul-15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37513574"
+    },
+    {
+      "text": "HbA1c - Zeng J, Beck M, Barouti AA, Löfvenborg JE, Carlsson S, Lampousi AM Effects of different dietary patterns on glucose management in type 1 diabetes: a systematic review and meta-analysis of randomized controlled trials. EClinicalMedicine. (2025 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40641818"
+    },
+    {
+      "text": "Liver Fat - Veera Houttu, Susanne Csader, Max Nieuwdorp, Adriaan G Holleboom, Ursula Schwab Dietary Interventions in Patients With Non-alcoholic Fatty Liver Disease: A Systematic Review and Meta-Analysis Front Nutr. (2021 Jul 22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34368214"
+    },
+    {
+      "text": "Liver Fat - Haigh L, Kirk C, El Gendy K, Gallacher J, Errington L, Mathers JC, Anstee QM The effectiveness and acceptability of Mediterranean diet and calorie restriction in non-alcoholic fatty liver disease (NAFLD): A systematic review and meta-analysis. Clin Nutr. (2022-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35947894"
+    },
+    {
+      "text": "Liver Enzymes - Wang X, Jin X, Li H, Zhang X, Chen X, Lu K, Chu C Effects of various interventions on non-alcoholic fatty liver disease (NAFLD): A systematic review and network meta-analysis. Front Pharmacol. (2023)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37063273"
+    },
+    {
+      "text": "Liver Enzymes - Del Bo' C, Perna S, Allehdan S, Rafique A, Saad S, AlGhareeb F, Rondanelli M, Tayyem RF, Marino M, Martini D, Riso P Does the Mediterranean Diet Have Any Effect on Lipid Profile, Central Obesity and Liver Enzymes in Non-Alcoholic Fatty Liver Disease (NAFLD) Subjects? A Systematic Review and Meta-Analysis of Randomized Control Trials. Nutrients. (2023-May-09)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37242133"
+    },
+    {
+      "text": "Liver Enzymes - Jamil A, Chivese T, Elshaikh U, Sendall M Efficacy of the Mediterranean diet in treating metabolic dysfunction-associated steatotic liver disease (MASLD) in children and adolescents: a systematic review and meta-analysis. BMC Public Health. (2024 Oct 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39363272"
+    },
+    {
+      "text": "Fertility - Yang J, Song Y, Gaskins AJ, Li LJ, Huang Z, Eriksson JG, Hu FB, Chong YS, Zhang C Mediterranean diet and female reproductive health&nbsp;over&nbsp;lifespan: a systematic review and meta-analysis. Am J Obstet Gynecol. (2023-Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/37506751"
+    },
+    {
+      "text": "Crohn's Disease Symptoms - Limketkai BN, Godoy-Brewer G, Parian AM, Noorian S, Krishna M, Shah ND, White J, Mullin GE Dietary Interventions for the Treatment of Inflammatory Bowel Diseases: An Updated Systematic Review and Meta-analysis. Clin Gastroenterol Hepatol. (2023-Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/36470529"
+    },
+    {
+      "text": "Interleukin 6 - Hulander, E; et al. A randomized controlled cross-over trial investigating the acute inflammatory and metabolic response after meals based on red meat, fatty fish, or soy protein: the postprandial inflammation in rheumatoid arthritis (PIRA) trial Eur J Nutr. (2024-06-27)",
+      "link": "http://link.springer.com/10.1007/s00394-024-03451-6"
+    },
+    {
+      "text": "Pain - Katja A Schönenberger, Anne-Catherine Schüpfer, Viktoria L Gloy, Paul Hasler, Zeno Stanga, Nina Kaegi-Braun, Emilie Reber Effect of Anti-Inflammatory Diets on Pain in Rheumatoid Arthritis: A Systematic Review and Meta-Analysis Nutrients. (2021 Nov 24)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34959772"
+    },
+    {
+      "text": "Depression Symptoms - Tavakoly R, Moosburner A, Anheyer D, Cramer H Effect of Different Dietary Patterns on Patients with Depressive Disorders: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Nutrients. (2025 Jan 31)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39940421"
+    }
+  ]
+}

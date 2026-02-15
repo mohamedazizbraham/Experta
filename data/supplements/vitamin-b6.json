@@ -1,0 +1,59 @@
+{
+  "slug": "vitamin-b6",
+  "name": "Vitamine B6",
+  "name_en": "Vitamin B6",
+  "description": "La vitamine B6 est une vitamine hydrosoluble essentielle à la santé. Après ingestion, elle est convertie en coenzyme qui soutient la fonction de nombreuses enzymes dans le corps, importantes pour le développement cérébral et cognitif, la fonction immunitaire et les processus métaboliques. Bien que les carences soient rares, les personnes sous certains médicaments ou présentant des conditions médicales particulières peuvent nécessiter une supplémentation.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Syndrome prémenstruel",
+      "outcomes": []
+    },
+    {
+      "health_condition_or_goal": "Syndrome main-pied",
+      "outcomes": []
+    },
+    {
+      "health_condition_or_goal": "Dysménorrhée primaire",
+      "outcomes": []
+    },
+    {
+      "health_condition_or_goal": "Douleur mammaire",
+      "outcomes": []
+    },
+    {
+      "health_condition_or_goal": "Effets secondaires de la chimiothérapie",
+      "outcomes": []
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": []
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": []
+    },
+    {
+      "health_condition_or_goal": "Performance athlétique générale",
+      "outcomes": []
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": []
+}

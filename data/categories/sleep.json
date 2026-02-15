@@ -1,0 +1,1675 @@
+{
+  "slug": "sleep",
+  "name": "Sommeil",
+  "name_en": "Sleep",
+  "overview": "Obtenir suffisamment de sommeil est essentiel pour maintenir la santé cérébrale, réduire le risque de maladies neurodégénératives et cardiovasculaires, renforcer le système immunitaire, soutenir une bonne santé mentale et récupérer des facteurs de stress de la journée. L'American Academy of Sleep Medicine et la Sleep Research Society recommandent que les adultes (âgés de plus de 18 ans) dorment au moins 7 heures par nuit. [1] La privation de sommeil est associée à l'obésité, et cette relation peut être due à des modifications de l'alimentation, du niveau d'activité et des niveaux hormonaux. [2]",
+  "conditions": [
+    {
+      "name": "Trouble du rythme veille-sommeil à phase retardée"
+    },
+    {
+      "name": "Insomnie"
+    },
+    {
+      "name": "Narcolepsie"
+    },
+    {
+      "name": "Apnée obstructive du sommeil (OSA)"
+    },
+    {
+      "name": "Santé du sommeil"
+    },
+    {
+      "name": "Paralysie du sommeil"
+    },
+    {
+      "name": "Terreurs du sommeil"
+    }
+  ],
+  "database": [
+    {
+      "intervention": "Mélatonine",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "A",
+          "studies": "4 StudiesParticipants: 259",
+          "participants": "Large Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "B",
+          "studies": "3 StudiesParticipants: 211",
+          "participants": "Small Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Valériane",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "C",
+          "studies": "1 StudyParticipants: 100",
+          "participants": "Small Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Symptômes de la ménopause",
+          "grade": "",
+          "studies": "1 StudyParticipants: 100",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Sédation",
+          "grade": "",
+          "studies": "1 StudyParticipants: 8",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "studies": "10 StudiesParticipants: 498",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "6 StudiesParticipants: 847",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Ashwagandha",
+      "outcomes": [
+        {
+          "outcome": "Vigilance",
+          "grade": "B",
+          "studies": "3 StudiesParticipants: 170",
+          "participants": "Small Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 189",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "studies": "2 StudiesParticipants: 189",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 281",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 281",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 281",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "5 StudiesParticipants: 1764",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Thérapie cognitivo-comportementale",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "A",
+          "studies": "7 StudiesParticipants: 708",
+          "participants": "Moderate Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Symptômes de la dépression post-partum",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 263",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "studies": "6 StudiesParticipants: 502",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "studies": "5 StudiesParticipants: 465",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "studies": "6 StudiesParticipants: 502",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 316",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Lavande",
+      "outcomes": [
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "C",
+          "studies": "1 StudyParticipants: 67",
+          "participants": "Small Decrease",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Variabilité de la fréquence cardiaque",
+          "grade": "",
+          "studies": "1 StudyParticipants: 67",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "",
+          "studies": "1 StudyParticipants: 10",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 119",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Magnésium",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "D",
+          "studies": "1 StudyParticipants: 43",
+          "participants": "No effect",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Symptômes du syndrome des jambes sans repos",
+          "grade": "",
+          "studies": "1 StudyParticipants: 10",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Magnésium sérique",
+          "grade": "",
+          "studies": "2 StudiesParticipants: 56",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Signes et symptômes des troubles du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 10",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "studies": "2 StudiesParticipants: 33",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 43",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "studies": "2 StudiesParticipants: 33",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 10",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Cannabis",
+      "outcomes": [
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "C",
+          "studies": "1 StudyParticipants: 23",
+          "participants": "Small Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "2 StudiesParticipants: 89",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Thérapie par la lumière",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "B",
+          "studies": "6 StudiesParticipants: 679",
+          "participants": "Small Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 679",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "studies": "9 StudiesParticipants: 679",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "studies": "6 StudiesParticipants: 679",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 679",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "12 StudiesParticipants: 679",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Probiotiques",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "C",
+          "studies": "2 StudiesParticipants: 140",
+          "participants": "Small Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 226",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "studies": "2 StudiesParticipants: 166",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "studies": "3 StudiesParticipants: 226",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "6 StudiesParticipants: 424",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Battements binauraux",
+      "outcomes": [
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "D",
+          "studies": "1 StudyParticipants: 21",
+          "participants": "No effect",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 21",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Ginkgo biloba",
+      "outcomes": [
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 16",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Kava",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "",
+          "studies": "1 StudyParticipants: 678",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Mélisse",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "",
+          "studies": "1 StudyParticipants: 30",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Passiflore",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d’anxiété",
+          "grade": "C",
+          "studies": "1 StudyParticipants: 110",
+          "participants": "Moderate Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "studies": "1 StudyParticipants: 110",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 110",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 110",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 110",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Relaxation musculaire progressive",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "studies": "1 StudyParticipants: 63",
+          "participants": "Moderate Improvement",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "studies": "1 StudyParticipants: 63",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intervention": "Formation à l'hygiène du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "",
+          "studies": "23 StudiesParticipants: 4245",
+          "participants": "",
+          "study_details": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Comment les schémas de sommeil évoluent-ils chez les personnes âgées ?",
+      "answer": "Les personnes âgées ont souvent du mal à obtenir le sommeil dont elles ont besoin, ce qui peut être lié à d'autres problèmes de santé plutôt qu'au vieillissement lui--même. Des durées de sommeil insuffisantes comme excessives dans cette population sont associées à un risque accru de maladie cardiovasculaire et de mortalité par cancer."
+    },
+    {
+      "question": "Lorsque vous êtes privé de sommeil, est-il possible de « rattraper » en dormant davantage ?",
+      "answer": "Bien que la dette de sommeil puisse théoriquement être remboursée par un sommeil supplémentaire, des études récentes indiquent qu’une privation de sommeil prolongée peut entraîner une altération cognitive durable et des lésions cérébrales qui ne se rétablissent pas complètement même après plusieurs jours de sommeil adéquat. Cela suggère que les effets négatifs d’une perte de sommeil prolongée pourraient être permanents."
+    },
+    {
+      "question": "Un sommeil de mauvaise qualité augmente-t-il le risque de résultats sanitaires négatifs ?",
+      "answer": "Un sommeil de mauvaise qualité est associé à un risque accru de divers résultats sanitaires négatifs, notamment la maladie coronarienne, l’obésité, la maladie d’Alzheimer, le diabète de type 2, les fractures osseuses et la dépression. Un sommeil insuffisant ou de faible qualité peut augmenter la susceptibilité à ces affections."
+    },
+    {
+      "question": "En quoi le fait de consommer des glucides ou un repas à indice glycémique élevé près de l’heure du coucher favorise-t-il le sommeil ?",
+      "answer": "Manger des glucides ou des repas à indice glycémique élevé avant le coucher peut améliorer le sommeil en augmentant les niveaux d'insuline, ce qui diminue les concentrations circulantes d'acides aminés neutres de grande taille et permet à davantage de tryptophane d'entrer dans le cerveau. Cette augmentation du tryptophane entraîne une plus grande production de sérotonine et, en fin de compte, stimule la sécrétion de mélatonine, ce qui favorise la somnolence."
+    },
+    {
+      "question": "L'exercice en soirée affecte-t-il négativement le sommeil ?",
+      "answer": "Faire de l'exercice le soir (en particulier les entraînements à haute intensité réalisés 2 à 4 heures avant le coucher) n'affecte pas négativement le sommeil et peut même augmenter la durée totale du sommeil ainsi que réduire le temps d'endormissement. Cependant, il faut faire preuve de prudence avec les compléments pré-entraînement contenant de la caféine, car ils peuvent perturber le sommeil."
+    }
+  ],
+  "references": [
+    {
+      "text": " , Watson NF, Badr MS, Belenky G, Bliwise DL, Buxton OM, Buysse D, Dinges DF, Gangwisch J, Grandner MA, Kushida C, Malhotra RK, Martin JL, Patel SR, Quan SF, Tasali E,  , Twery M, Croft JB, Maher E,  , Barrett JA, Thomas SM, Heald JL Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society. J Clin Sleep Med. (2015-Jun-15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25979105"
+    },
+    {
+      "text": " Cooper CB, Neufeld EV, Dolezal BA, Martin JL Sleep deprivation and obesity in adults: a brief narrative review. BMJ Open Sport Exerc Med. (2018)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30364557"
+    },
+    {
+      "text": " Vlahoyiannis A, Giannaki CD, Sakkas GK, Aphamis G, Andreou E A Systematic Review, Meta-Analysis and Meta-Regression on the Effects of Carbohydrates on Sleep. Nutrients. (2021-Apr-14)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33919698"
+    },
+    {
+      "text": " St-Onge MP, Mikic A, Pietrolungo CE Effects of Diet on Sleep Quality. Adv Nutr. (2016-09)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27633109"
+    },
+    {
+      "text": " Wurtman RJ, Wurtman JJ, Regan MM, McDermott JM, Tsay RH, Breu JJ Effects of normal meals rich in carbohydrates or proteins on plasma tryptophan and tyrosine ratios Am J Clin Nutr. (2003 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12499331"
+    },
+    {
+      "text": " Berry EM, Growdon JH, Wurtman JJ, Caballero B, Wurtman RJ A balanced carbohydrate: protein diet in the management of Parkinson's disease Neurology. (1991 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/1866021"
+    },
+    {
+      "text": " Zimmermann RC, McDougle CJ, Schumacher M, Olcese J, Heninger GR, Price LH Urinary 6-hydroxymelatonin sulfate as a measure of melatonin secretion during acute tryptophan depletion Psychoneuroendocrinology. (1993)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8127947"
+    },
+    {
+      "text": " Chaput JP, Dutil C, Sampasa-Kanyinga H Sleeping hours: what is the ideal number and how does age impact this? Nat Sci Sleep. (2018)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30568521"
+    },
+    {
+      "text": " Vitiello MV, Moe KE, Prinz PN Sleep complaints cosegregate with illness in older adults: clinical research informed by and informing epidemiological studies of sleep. J Psychosom Res. (2002-Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12127171"
+    },
+    {
+      "text": " Grandner MA, Drummond SP Who are the long sleepers? Towards an understanding of the mortality relationship. Sleep Med Rev. (2007-Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17625932"
+    },
+    {
+      "text": " Zamore Z, Veasey SC Neural consequences of chronic sleep disruption. Trends Neurosci. (2022-Jun-09)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35691776"
+    },
+    {
+      "text": " Axelsson J, Kecklund G, Akerstedt T, Donofrio P, Lekander M, Ingre M Sleepiness and performance in response to repeated sleep restriction and subsequent recovery during semi-laboratory conditions. Chronobiol Int. (2008-Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18533328"
+    },
+    {
+      "text": " Jeremi K Ochab, Jerzy Szwed, Katarzyna Oleś, Anna Bereś, Dante R Chialvo, Aleksandra Domagalik, Magdalena Fąfrowicz, Halszka Ogińska, Ewa Gudowska-Nowak, Tadeusz Marek, Maciej A Nowak Observing changes in human functioning during induced sleep deficiency and recovery periods PLoS One. (2021 Sep 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34469434"
+    },
+    {
+      "text": " Dongming Wang, Wenzhen Li, Xiuqing Cui, Yidi Meng, Min Zhou, Lili Xiao, Jixuan Ma, Guilin Yi, Weihong Chen Sleep duration and risk of coronary heart disease: A systematic review and meta-analysis of prospective cohort studies Int J Cardiol. (2016 Sep 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27336192"
+    },
+    {
+      "text": " Krittanawong C, Tunhasiriwet A, Wang Z, Zhang H, Farrell AM, Chirapongsathorn S, Sun T, Kitai T, Argulian E Association between short and long sleep durations and cardiovascular outcomes: a systematic review and meta-analysis. Eur Heart J Acute Cardiovasc Care. (2019-Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29206050"
+    },
+    {
+      "text": " Sizhi Ai, Jihui Zhang, Guoan Zhao, Ningjian Wang, Guohua Li, Hon-Cheong So, Yaping Liu, Steven Wai-Ho Chau, Jie Chen, Xiao Tan, Fujun Jia, Xiangdong Tang, Jie Shi, Lin Lu, Yun-Kwok Wing Causal associations of short and long sleep durations with 12 cardiovascular diseases: linear and nonlinear Mendelian randomization analyses in UK Biobank Eur Heart J. (2021 Sep 7)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33822910"
+    },
+    {
+      "text": " Qionggui Zhou, Ming Zhang, Dongsheng Hu Dose-response association between sleep duration and obesity risk: a systematic review and meta-analysis of prospective cohort studies Sleep Breath. (2019 Dec)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30941582"
+    },
+    {
+      "text": " Francesco P Cappuccio, Frances M Taggart, Ngianga-Bakwin Kandala, Andrew Currie, Ed Peile, Saverio Stranges, Michelle A Miller Meta-analysis of short sleep duration and obesity in children and adults Sleep. (2008 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18517032"
+    },
+    {
+      "text": " Naima Covassin, Prachi Singh, Shelly K McCrady-Spitzer, Erik K St Louis, Andrew D Calvin, James A Levine, Virend K Somers Effects of Experimental Sleep Restriction on Energy Intake, Energy Expenditure, and Visceral Obesity J Am Coll Cardiol. (2022 Apr 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35361348"
+    },
+    {
+      "text": " Bingqian Zhu, Changgui Shi, Chang G Park, Xiangxiang Zhao, Sirimon Reutrakul Effects of sleep restriction on metabolism-related parameters in healthy adults: A comprehensive review and meta-analysis of randomized controlled trials Sleep Med Rev. (2019 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30870662"
+    },
+    {
+      "text": " Esra Tasali, Kristen Wroblewski, Eva Kahn, Jennifer Kilkus, Dale A Schoeller Effect of Sleep Extension on Objectively Assessed Energy Intake Among Adults With Overweight in Real-life Settings: A Randomized Clinical Trial JAMA Intern Med. (2022 Feb 7)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35129580"
+    },
+    {
+      "text": " Omonigho M Bubu, Michael Brannick, James Mortimer, Ogie Umasabor-Bubu, Yuri V Sebastião, Yi Wen, Skai Schwartz, Amy R Borenstein, Yougui Wu, David Morgan, William M Anderson Sleep, Cognitive impairment, and Alzheimer's disease: A Systematic Review and Meta-Analysis Sleep. (2017 Jan 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28364458"
+    },
+    {
+      "text": " Ma Y, Liang L, Zheng F, Shi L, Zhong B, Xie W Association Between Sleep Duration and Cognitive Decline. JAMA Netw Open. (2020-09-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32955572"
+    },
+    {
+      "text": " Jeffrey J Iliff, Minghuan Wang, Yonghong Liao, Benjamin A Plogg, Weiguo Peng, Georg A Gundersen, Helene Benveniste, G Edward Vates, Rashid Deane, Steven A Goldman, Erlend A Nagelhus, Maiken Nedergaard A paravascular pathway facilitates CSF flow through the brain parenchyma and the clearance of interstitial solutes, including amyloid β Sci Transl Med. (2012 Aug 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22896675"
+    },
+    {
+      "text": " Xie L, Kang H, Xu Q, Chen MJ, Liao Y, Thiyagarajan M, O'Donnell J, Christensen DJ, Nicholson C, Iliff JJ, Takano T, Deane R, Nedergaard M Sleep drives metabolite clearance from the adult brain Science. (2013 Oct 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24136970"
+    },
+    {
+      "text": " Anothaisintawee T, Reutrakul S, Van Cauter E, Thakkinstian A Sleep disturbances compared to traditional risk factors for diabetes development: Systematic review and meta-analysis. Sleep Med Rev. (2016-12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26687279"
+    },
+    {
+      "text": " Xue Gao, Heli Sun, Yu Zhang, Long Liu, Juping Wang, Tong Wang Investigating Causal Relations Between Sleep-Related Traits and Risk of Type 2 Diabetes Mellitus: A Mendelian Randomization Study Front Genet. (2020 Dec 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33384720"
+    },
+    {
+      "text": " Feng Pan, Jing Tian, Flavia Cicuttini, Graeme Jones Sleep disturbance and bone mineral density, risk of falls and fracture: Results from a 10.7-year prospective cohort study Bone. (2021 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33766805"
+    },
+    {
+      "text": " Yu Qian, Jiangwei Xia, Ke-Qi Liu, Lin Xu, Shu-Yang Xie, Guo-Bo Chen, Pei-Kuan Cong, Saber Khederzadeh, Hou-Feng Zheng Observational and genetic evidence highlight the association of human sleep behaviors with the incidence of fracture Commun Biol. (2021 Nov 26)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34837057"
+    },
+    {
+      "text": " Jane A Cauley, Kathleen M Hovey, Katie L Stone, Chris A Andrews, Kamil E Barbour, Lauren Hale, Rebecca D Jackson, Karen C Johnson, Erin S LeBlanc, Wenjun Li, Oleg Zaslavsky, Heather Ochs-Balcom, Jean Wactawski-Wende, Carolyn J Crandall Characteristics of Self-Reported Sleep and the Risk of Falls and Fractures: The Women's Health Initiative (WHI) J Bone Miner Res. (2019 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30461066"
+    },
+    {
+      "text": " Chen J, Zhang J, So HC, Ai S, Wang N, Tan X, Wing YK Association of Sleep Traits and Heel Bone Mineral Density: Observational and Mendelian Randomization Studies. J Bone Miner Res. (2021-11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34184784"
+    },
+    {
+      "text": " Liqing Li, Chunmei Wu, Yong Gan, Xianguo Qu, Zuxun Lu Insomnia and the risk of depression: a meta-analysis of prospective cohort studies BMC Psychiatry. (2016 Nov 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27816065"
+    },
+    {
+      "text": " W Vaughn McCall, Jill N Blocker, Ralph D'Agostino Jr, James Kimball, Niki Boggs, Barbara Lasater, Roger Haskett, Andrew Krystal, William M McDonald, Peter B Rosenquist Treatment of insomnia in depressed insomniacs: effects on health-related quality of life, objective and self-reported sleep, and depression J Clin Sleep Med. (2010 Aug 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20726279"
+    },
+    {
+      "text": " Maurizio Fava, W Vaughn McCall, Andrew Krystal, Thomas Wessel, Robert Rubens, Judy Caron, David Amato, Thomas Roth Eszopiclone co-administered with fluoxetine in patients with insomnia coexisting with major depressive disorder Biol Psychiatry. (2006 Jun 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16581036"
+    },
+    {
+      "text": " Rachel Manber, Jack D Edinger, Jenna L Gress, Melanie G San Pedro-Salcedo, Tracy F Kuo, Tasha Kalista Cognitive behavioral therapy for insomnia enhances depression outcome in patients with comorbid major depressive disorder and insomnia Sleep. (2008 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18457236"
+    },
+    {
+      "text": " Emmanuel Frimpong, Melodee Mograss, Tehila Zvionow, Thien Thanh Dang-Vu The effects of evening high-intensity exercise on sleep in healthy adults: A systematic review and meta-analysis Sleep Med Rev. (2021 Aug 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34416428"
+    },
+    {
+      "text": " Robey E, Dawson B, Halson S, Gregson W, Goodman C, Eastwood P Sleep quantity and quality in elite youth soccer players: a pilot study. Eur J Sport Sci. (2014)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24093813"
+    }
+  ]
+}

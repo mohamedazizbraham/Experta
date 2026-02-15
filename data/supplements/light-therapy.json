@@ -1,0 +1,326 @@
+{
+  "slug": "light-therapy",
+  "name": "Thérapie par la lumière",
+  "name_en": "Light Therapy",
+  "description": "La thérapie par la lumière consiste essentiellement en une exposition au soleil ou à des lumières vives pendant la journée, et elle est surtout connue pour augmenter simplement les taux de synthèse de la vitamine D, indépendamment de la supplémentation. Elle peut également présenter d’autres bénéfices en plus de la synthèse de la vitamine D, tels que la synthèse de l’oxyde nitrique et des endorphines.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "6 études Participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "B",
+          "effect": "Effet mixte",
+          "evidence": "3 études Participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants: 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants: 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants: 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants: 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression périnatale",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression post-partum",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants: 151",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 151
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie d'Alzheimer",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "22 études Participants : 1290",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 1290
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "22 études Participants : 1290",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 1290
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dysménorrhée primaire",
+      "outcomes": [
+        {
+          "outcome": "Crampes",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 150",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 150
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Soins généraux du cancer et prévention",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "6 études participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Signes et symptômes d'insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 Études Participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Démence",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "22 Études Participants : 1290",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 1290
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie de Parkinson",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "22 Études Participants : 1290",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 1290
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Postpartum Depression Symptoms - Chen Y, Zhao J, Wang J, Peng L, Cai Z, Zou Z, Chen X Effect of Bright Light Therapy on Perinatal Depression: A Systematic Review and Meta-Analysis: Effet de la luminothérapie sur la dépression périnatale: une revue systématique et une méta-analyse. Can J Psychiatry. (2024 Jun 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38863243"
+    },
+    {
+      "text": "Postpartum Depression Symptoms - Du L, Zeng J, Yu H, Chen B, Deng W, Li T Efficacy of bright light therapy improves outcomes of perinatal depression: A systematic review and meta-analysis of randomized controlled trials. Psychiatry Res. (2025 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39657294"
+    },
+    {
+      "text": "Depression Symptoms - Seok JW, Kim JD Light Therapy for Older People with Depressive Symptoms: Systematic Review and Meta-Analysis. J Clin Med. (2024 Nov 20)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39598126"
+    },
+    {
+      "text": "Sleep Quality - Lai F, Luo Z, Zhang J, Xia W, Tian L Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis. Sleep Med Rev. (2024 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+    },
+    {
+      "text": "Sleep Quality - Wang Y, Zhao X, Ren J, Xue S, Liu Y, Zhang L, Fan M, Su C, Cheng JX The effect of light therapy on insomnia: A systematic review and meta-analysis. Sleep Breath. (2024 Dec 29)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39733392"
+    },
+    {
+      "text": "Cramps - Ang L, Song E, Choi S, Kim J Effectiveness and safety of light therapy for treating primary dysmenorrhea: A systematic review and meta-analysis of randomized controlled trials. Complement Ther Med. (2025 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40840565"
+    }
+  ]
+}

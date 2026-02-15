@@ -1,0 +1,61 @@
+{
+  "slug": "narcolepsy",
+  "name": "Narcolepsie",
+  "name_en": "Narcolepsy",
+  "description": "La narcolepsie est un trouble du sommeil chronique caractérisé par une somnolence diurne écrasante ou de brèves périodes soudaines de « crises de sommeil ». Les symptômes de la narcolepsie comprennent la perte de contrôle musculaire, la paralysie musculaire, la faiblesse musculaire, la fatigue, les hallucinations et les attaques soudaines de sommeil.",
+  "overview": [],
+  "database": [
+    {
+      "intervention": "L-Tyrosine",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 Étude participants : 10",
+          "studies": [
+            {
+              "title": "Treatment of narcolepsy with L-tyrosine: double-blind placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/2572797"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Symptômes de la narcolepsie",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude participants : 10",
+          "studies": [
+            {
+              "title": "Treatment of narcolepsy with L-tyrosine: double-blind placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/2572797"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 10",
+          "studies": [
+            {
+              "title": "Treatment of narcolepsy with L-tyrosine: double-blind placebo-controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/2572797"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Narcolepsy Symptoms - R D Elwes, H Crewes, L P Chesterman, B Summers, P Jenner, C D Binnie, J D Parkes Treatment of narcolepsy with L-tyrosine: double-blind placebo-controlled trial Lancet. (1989 Nov 4)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/2572797"
+    }
+  ]
+}

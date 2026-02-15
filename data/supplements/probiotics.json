@@ -1,0 +1,3023 @@
+{
+  "slug": "probiotics",
+  "name": "Probiotiques",
+  "name_en": "Probiotics",
+  "description": "Les probiotiques sont des micro-organismes pouvant avoir un effet positif sur la santé.",
+  "overview": [],
+  "dosage": "",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Trouble du spectre de l’autisme",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l’autisme",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "8 études Participants: 480",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 480
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Maladie d’Alzheimer",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "5 études Participants: 402",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 402
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 419",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 419
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 517",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 517
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Asthme",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de l'asthme",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "6 études Participants : 544",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 544
+        },
+        {
+          "outcome": "Immunoglobuline A",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 362",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 362
+        },
+        {
+          "outcome": "Immunoglobuline E",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants : 372",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 372
+        },
+        {
+          "outcome": "Interleukine 4",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 Études Participants : 665",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 665
+        },
+        {
+          "outcome": "Fonction pulmonaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 438",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 438
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Dépression",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "2 Études Participants : 140",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 140
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 226",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 226
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 166",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 166
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 226",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 226
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 424",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 424
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Perte de cheveux",
+      "outcomes": [
+        {
+          "outcome": "Repousse des cheveux",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 Études Participants : 219",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 219
+        },
+        {
+          "outcome": "Microbiome",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 115",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 115
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Insomnie",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "2 Études Participants : 140",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 140
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 226",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 226
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 166",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 166
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 226",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 226
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 424",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 424
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stéatose hépatique non alcoolique",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "C",
+          "effect": "Petite amélioration",
+          "evidence": "1 étude Participants : 899",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 899
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 1921",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1921
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 899",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 899
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 2820",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2820
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 899",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 899
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Participants aux études : 2820",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2820
+        },
+        {
+          "outcome": "Enzymes hépatiques",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 2820",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2820
+        },
+        {
+          "outcome": "Graisse hépatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 1921",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1921
+        },
+        {
+          "outcome": "Fibrose hépatique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 1921",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1921
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 2820",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2820
+        },
+        {
+          "outcome": "TNF-alpha",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 899",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 899
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 2820",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2820
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants: 2820",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2820
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Obésité",
+      "outcomes": [
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 Études Participants: 244",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 244
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants: 488",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 488
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 412",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 412
+        },
+        {
+          "outcome": "Graisse viscérale",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 231",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 231
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 297",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 297
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants : 422",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 422
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Effets secondaires de la chimiothérapie",
+      "outcomes": [
+        {
+          "outcome": "Appétit",
+          "grade": "A",
+          "effect": "Augmentation modérée",
+          "evidence": "3 études Participants : 227",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 227
+        },
+        {
+          "outcome": "Ballonnements",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 125",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 125
+        },
+        {
+          "outcome": "Signes et symptômes de la constipation",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 142",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 142
+        },
+        {
+          "outcome": "Symptômes de la diarrhée",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 327",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 327
+        },
+        {
+          "outcome": "Symptômes de la mucosite",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 1055",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1055
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 1089",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1089
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 1089",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1089
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Mucoviscidose",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la mucoviscidose",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "5 Participants à l'étude : 258",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 258
+        },
+        {
+          "outcome": "Calprotectine fécale",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Participants à l'étude : 177",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 177
+        },
+        {
+          "outcome": "Fonction pulmonaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants: 284",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 284
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 37",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 37
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Infection à H. pylori",
+      "outcomes": [
+        {
+          "outcome": "Douleur abdominale",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "9 études Participants: 5036",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 5036
+        },
+        {
+          "outcome": "Événements indésirables",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants: 2413",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2413
+        },
+        {
+          "outcome": "Ballonnements",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants : 5036",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 5036
+        },
+        {
+          "outcome": "Signes et symptômes de la constipation",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 5036",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 5036
+        },
+        {
+          "outcome": "Symptômes de la diarrhée",
+          "grade": "",
+          "effect": "",
+          "evidence": "16 études Participants : 5036",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 5036
+        },
+        {
+          "outcome": "Signes d'infection à Helicobacter Pylori",
+          "grade": "",
+          "effect": "",
+          "evidence": "18 études Participants : 3707",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 3707
+        },
+        {
+          "outcome": "Symptômes de nausée",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 5036",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 5036
+        },
+        {
+          "outcome": "Vomissements",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études Participants : 5036",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 5036
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé métabolique",
+      "outcomes": [
+        {
+          "outcome": "Glucose sanguin",
+          "grade": "B",
+          "effect": "Petite amélioration",
+          "evidence": "7 études Participants : 450",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 450
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 306",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 306
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 363",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 363
+        },
+        {
+          "outcome": "Hormone folliculo-stimulante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 Études Participants : 671",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 671
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 433",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 433
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 424",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 424
+        },
+        {
+          "outcome": "Résistance à l’insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 389",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 389
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 433",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 433
+        },
+        {
+          "outcome": "Hormone lutéinisante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Globuline liant les hormones sexuelles",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Hormone thyréostimulante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études participants : 363",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 363
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études participants : 433",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 433
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Surpoids",
+      "outcomes": [
+        {
+          "outcome": "Masse grasse",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 étude participants : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études participants : 244",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 244
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Circonférence de la hanche",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Lipoprotéine de faible densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants à l’étude : 412",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 412
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l’étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Graisse viscérale",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 231",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 231
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 297",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 297
+        },
+        {
+          "outcome": "Ratio taille-hanche",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants : 422",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 422
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Stress",
+      "outcomes": [
+        {
+          "outcome": "Cognition",
+          "grade": "C",
+          "effect": "Effet mixte",
+          "evidence": "1 Participants à l'étude : 44",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 44
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Perte de poids et maintien",
+      "outcomes": [
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 Participants à l'étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants aux études : 244",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 244
+        },
+        {
+          "outcome": "lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "circonférence de la hanche",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Participants à l'étude : 412",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 412
+        },
+        {
+          "outcome": "masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Graisse viscérale",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants: 231",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 231
+        },
+        {
+          "outcome": "Circonférence de la taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants: 297",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 297
+        },
+        {
+          "outcome": "Ratio taille-hanche",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants: 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants: 422",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 422
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Gastro-entérite aiguë",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de diarrhée",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "6 études Participants: 1125",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1125
+        },
+        {
+          "outcome": "Fièvre",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 134",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 134
+        },
+        {
+          "outcome": "Vomissements",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants: 980",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 980
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Eczéma",
+      "outcomes": [
+        {
+          "outcome": "Risque de maladie allergique",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 études Participants: 399",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 399
+        },
+        {
+          "outcome": "Symptômes de l'eczéma",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 440",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 440
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Migraine",
+      "outcomes": [
+        {
+          "outcome": "Durée de la migraine",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études Participants: 120",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 120
+        },
+        {
+          "outcome": "Fréquence des migraines",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 120",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 120
+        },
+        {
+          "outcome": "Gravité de la migraine",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants: 120",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 120
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome de l'intestin irritable",
+      "outcomes": [
+        {
+          "outcome": "Douleur abdominale",
+          "grade": "B",
+          "effect": "Amélioration modérée",
+          "evidence": "16 études Participants: 2359",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2359
+        },
+        {
+          "outcome": "Ballonnements",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants: 702",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 702
+        },
+        {
+          "outcome": "Symptômes du syndrome de l'intestin irritable",
+          "grade": "",
+          "effect": "",
+          "evidence": "54 études Participants: 6732",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 6732
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants: 732",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 732
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "ménopause",
+      "outcomes": [
+        {
+          "outcome": "symptômes de la ménopause",
+          "grade": "B",
+          "effect": "légère amélioration",
+          "evidence": "4 études Participants : 462",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 462
+        },
+        {
+          "outcome": "sécheresse vaginale",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 462",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 462
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "ostéoarthrite",
+      "outcomes": [
+        {
+          "outcome": "indice de masse corporelle (IMC)",
+          "grade": "D",
+          "effect": "aucun effet",
+          "evidence": "2 études Participants : 129",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 129
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants: 563",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 563
+        },
+        {
+          "outcome": "Symptômes de l’arthrose",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 Études Participants: 627",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 627
+        },
+        {
+          "outcome": "Douleur",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants: 562",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 562
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Psoriasis",
+      "outcomes": [
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "B",
+          "effect": "Effet mixte",
+          "evidence": "3 Études Participants: 400",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 400
+        },
+        {
+          "outcome": "Interleukine 6",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 400",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 400
+        },
+        {
+          "outcome": "Symptômes du psoriasis",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 400",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 400
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 400",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 400
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabète de type 2",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "C",
+          "effect": "Amélioration légère",
+          "evidence": "32 études Participants : 1920",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1920
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "23 Études Participants : 1920",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1920
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 Études Participants : 1920",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1920
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "17 Études Participants : 1920",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1920
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Vaginose bactérienne",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la vaginose bactérienne",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 Études Participants : 1662",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1662
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Composition corporelle",
+      "outcomes": [
+        {
+          "outcome": "Graisse corporelle",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "Étude 1 participants : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 participants : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Circonférence de la hanche",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 participants : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "Étude 1 participants : 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Masse musculaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Waist circumference",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Waist-Hip Ratio",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        },
+        {
+          "outcome": "Weight",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 92",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 92
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Bone Health",
+      "outcomes": [
+        {
+          "outcome": "Bone Mineral Density",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Studies Participants: 479",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 479
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé cardiovasculaire générale",
+      "outcomes": [
+        {
+          "outcome": "Glycémie",
+          "grade": "B",
+          "effect": "Petite amélioration",
+          "evidence": "7 études Participants : 450",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 450
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 306",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 306
+        },
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 363",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 363
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants : 671",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 671
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 433",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 433
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 424",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 424
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 389",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 389
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 433",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 433
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 363",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 363
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 433",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 433
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Amélioration cognitive",
+      "outcomes": [
+        {
+          "outcome": "BDNF sérique",
+          "grade": "",
+          "effect": "",
+          "evidence": "20 études Participants : 2372",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 2372
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cancer colorectal",
+      "outcomes": [
+        {
+          "outcome": "Ballonnements",
+          "grade": "B",
+          "effect": "Effet mixte",
+          "evidence": "3 études Participants : 344",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 344
+        },
+        {
+          "outcome": "Symptômes de diarrhée",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 Études Participants : 408",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 408
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Cancer de la tête et du cou",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de la mucosite",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 Études Participants : 691",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 691
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé hormonale",
+      "outcomes": [
+        {
+          "outcome": "Hormone folliculo-stimulante",
+          "grade": "D",
+          "effect": "Pas d'effet",
+          "evidence": "1 Étude Participants : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Hormone lutéinisante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Globuline liant les hormones sexuelles",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Testostérone",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Hormone thyréostimulante",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 47",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 47
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Syndrome métabolique",
+      "outcomes": [
+        {
+          "outcome": "Indice de masse corporelle (IMC)",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 Études Participants: 244",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 244
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 412",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 412
+        },
+        {
+          "outcome": "Graisse viscérale",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 231",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 231
+        },
+        {
+          "outcome": "Tour de taille",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 297",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 297
+        },
+        {
+          "outcome": "Poids",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études Participants : 422",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 422
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Déficit cognitif léger",
+      "outcomes": [
+        {
+          "outcome": "Attention",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "5 études Participants : 402",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 402
+        },
+        {
+          "outcome": "Cognition",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 419",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 419
+        },
+        {
+          "outcome": "Mémoire",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 517",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 517
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Prédiabète",
+      "outcomes": [
+        {
+          "outcome": "Fonction des cellules bêta",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "2 études Participants : 153",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 153
+        },
+        {
+          "outcome": "Glycémie",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études participants : 576",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 576
+        },
+        {
+          "outcome": "Pression artérielle",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études participants : 432",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 432
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "8 études participants : 567",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 567
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études participants : 323",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 323
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "7 études participants : 550",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 550
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 515",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 515
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 323",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 323
+        },
+        {
+          "outcome": "Cholestérol total",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 253",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 253
+        },
+        {
+          "outcome": "Triglycérides",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 323",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 323
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Prééclampsie",
+      "outcomes": [
+        {
+          "outcome": "Mortalité toutes causes confondues",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 étude Participants : 7735",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 7735
+        },
+        {
+          "outcome": "Risque de prééclampsie",
+          "grade": "",
+          "effect": "",
+          "evidence": "11 études Participants : 7735",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 7735
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé de la grossesse et de l'accouchement",
+      "outcomes": [
+        {
+          "outcome": "Risque de diabète gestationnel",
+          "grade": "",
+          "effect": "",
+          "evidence": "14 études Participants : 3527",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 3527
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Schizophrénie",
+      "outcomes": [
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "4 études Participants : 239",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 239
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Santé vaginale",
+      "outcomes": [
+        {
+          "outcome": "Risque d'infection vaginale",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Étude Participants: 100",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 100
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Gingivite",
+      "outcomes": [
+        {
+          "outcome": "Indicateurs de santé dentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "24 Études Participants: 951",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 951
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Allergie alimentaire",
+      "outcomes": [
+        {
+          "outcome": "Risque de maladie allergique",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 Études Participants: 399",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 399
+        },
+        {
+          "outcome": "Symptômes de l'eczéma",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 440",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 440
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Parodontite",
+      "outcomes": [
+        {
+          "outcome": "Indicateurs de santé dentaire",
+          "grade": "",
+          "effect": "",
+          "evidence": "24 études Participants : 951",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 951
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Malnutrition",
+      "outcomes": [
+        {
+          "outcome": "Taille",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "3 études Participants : 530",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 530
+        },
+        {
+          "outcome": "Risque d'infection des voies respiratoires inférieures",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 3086",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 3086
+        },
+        {
+          "outcome": "Weight",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 562",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 562
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Radiation Therapy Side-Effects",
+      "outcomes": [
+        {
+          "outcome": "Mucositis Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 Studies Participants: 1055",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 1055
+        }
+      ]
+    },
+    {
+      "health_condition_or_goal": "Diabetic Retinopathy",
+      "outcomes": [
+        {
+          "outcome": "Blood glucose",
+          "grade": "C",
+          "effect": "Small Improvement",
+          "evidence": "1 Study Participants: 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "Protéine C-réactive (CRP)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "Symptômes de la rétinopathie diabétique",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "Glutathion (GSH)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "HbA1c",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "Lipoprotéine de haute densité (HDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "Insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "Résistance à l'insuline",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "Lipoprotéine de basse densité (LDL)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        },
+        {
+          "outcome": "Capacité antioxydante totale (TAC)",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Participants à l'étude : 55",
+          "studies": [
+            {
+              "title": "The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials.(Covers8 studiesreporting on Autism Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+            }
+          ],
+          "participants": 55
+        }
+      ]
+    }
+  ],
+  "faq": [],
+  "references": [],
+  "database_references": [
+    {
+      "text": "Fecal Calprotectin - Coffey MJ, Garg M, Homaira N, Jaffe A, Ooi CY Probiotics for people with cystic fibrosis. Cochrane Database Syst Rev. (2020-Jan-22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31962375"
+    },
+    {
+      "text": "Lung Function - Cruz Mosquera FE, Perlaza CL, Naranjo Rojas A, Murillo Rios S, Carrero Gallego A, Fischersworring SI, Rodríguez JS, Liscano Y Effectiveness of Probiotics, Prebiotics, and Symbiotic Supplementation in Cystic Fibrosis Patients: A Systematic Review and Meta-Analysis of Clinical Trials. Medicina (Kaunas). (2025 Mar 12)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40142300"
+    },
+    {
+      "text": "Gestational Diabetes Risk - Li X, Zhang L, He Y, Zhang D, Zhang S Probiotics for the prevention of gestational diabetes mellitus: A meta-analysis of randomized controlled trials. Biomol Biomed. (2024 Apr 20)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38642385"
+    },
+    {
+      "text": "Insulin Resistance - Farajipour H, Matin HR, Asemi Z, Sadr S, Tajabadi-Ebrahimi M, Sharifi N, Banikazemi Z, Taghizadeh M, Mirzaei H The effects of probiotics supplements on metabolic indices and clinical signs in patients with diabetic retinopathy, a randomized double blind clinical trial. J Diabetes Metab Disord. (2024 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38932908"
+    },
+    {
+      "text": "Hair Regrowth - Mori-Ichioka A, Sunada Y, Koikeda T, Matsuda H, Matsuo S Effect of applying Lactiplantibacillus plantarum subsp. plantarum N793 to the scalps of men and women with thinning hair: a randomized, double-blind, placebo-controlled, parallel-group study. Biosci Microbiota Food Health. (2024)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38966052"
+    },
+    {
+      "text": "Hair Regrowth - García-Navarro A, Vasallo-Morillas MI, Navarro-Belmonte R, Vilanova C, Torrent D, Kilasoniya A, Moles-Ugeda I, Gallego-Herrera E, Ramírez-Boscá A Randomized Clinical Trial to Evaluate the Effect of Probiotic Intake on Androgenic Alopecia. Nutrients. (2024 Aug 30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39275216"
+    },
+    {
+      "text": "Sleep Quality - Liu Y, Yu Y, Lu S, Tan K, Jiang P, Liu P, Peng Q Impact of probiotics on sleep quality and mood states in patients with insomnia: a systematic review and meta-analysis. Front Microbiol. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40740336"
+    },
+    {
+      "text": "Sleep Quality - . (2024-05-30)",
+      "link": "https://www.mdpi.com/2072-6643/16/11/1702"
+    },
+    {
+      "text": "Cognition - Casertano M, Dekker M, Valentino V, De Filippis F, Fogliano V, Ercolini D Gaba-producing lactobacilli boost cognitive reactivity to negative mood without improving cognitive performance: A human Double-Blind Placebo-Controlled Cross-Over study. Brain Behav Immun. (2024 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39163908"
+    },
+    {
+      "text": "Total cholesterol - Mozaffari S, Aliari M, Emamgholipour S, Hosseini H, Amirkiasar PR, Zare M, Katsiki N, Panahi G, Sahebkar A The effect of probiotic consumption on lipid profile, glycemic index, inflammatory markers, and liver function in NAFLD patients: A systematic review and meta-analysis of randomized controlled trials. J Diabetes Complications. (2024 Jun 6)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38968867"
+    },
+    {
+      "text": "Total cholesterol - Song Y, Liu S, Zhang L, Zhao W, Qin Y, Liu M The effect of gut microbiome-targeted therapies in nonalcoholic fatty liver disease: a systematic review and network meta-analysis. Front Nutr. (2025 Jan 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39834471"
+    },
+    {
+      "text": "Mucositis Symptoms - Lin P, Zhuang J, Lai J, Cui J, Jiang D, Huang J Efficacy of probiotics in the treatment of oral mucositis in head and neck cancer patients: A systematic review and meta-analysis. Microb Pathog. (2024 Jul 4)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38971507"
+    },
+    {
+      "text": "Irritable Bowel Syndrome Symptoms - Wu Y, Li Y, Zheng Q, Li L The Efficacy of Probiotics, Prebiotics, Synbiotics, and Fecal Microbiota Transplantation in Irritable Bowel Syndrome: A Systematic Review and Network Meta-Analysis. Nutrients. (2024 Jul 2)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38999862"
+    },
+    {
+      "text": "Mucositis Symptoms - Zhu Z, Pan W, Ming X, Wu J, Zhang X, Miao J, Cui W The effect of probiotics on severe oral mucositis in cancer patients undergoing chemotherapy and/or radiotherapy: A meta-analysis. J Stomatol Oral Maxillofac Surg. (2024 Aug 24)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39187039"
+    },
+    {
+      "text": "Diarrhea Symptoms - Siritientong T, Thet D, Leelakanok N, Areepium N Oral probiotic supplementation to alleviate diarrhea induced by fluoropyrimidines or irinotecan-based chemotherapy: A systematic review and meta-analysis. Complement Ther Med. (2025 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39993479"
+    },
+    {
+      "text": "Autism Symptoms - Kotowska M, Kołodziej M, Szajewska H, Łukasik J The impact of probiotics on core autism symptoms - A systematic review and meta-analysis of randomized clinical trials. Clin Nutr ESPEN. (2024 Aug 20)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39173907"
+    },
+    {
+      "text": "Autism Symptoms - Lin CH, Zeng T, Lu CW, Li DY, Liu YY, Li BM, Chen SQ, Deng YH Efficacy and safety of Bacteroides fragilis BF839 for pediatric autism spectrum disorder: a randomized clinical trial. Front Nutr. (2024)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39290561"
+    },
+    {
+      "text": "Autism Symptoms - Soleimanpour S, Abavisani M, Khoshrou A, Sahebkar A Probiotics for autism spectrum disorder: An updated systematic review and meta-analysis of effects on symptoms. J Psychiatr Res. (2024 Sep 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39265200"
+    },
+    {
+      "text": "Psoriasis Symptoms - Zhu Y, Xu F, Chen H, Zheng Q The efficacy and safety of probiotics in the adjuvant treatment of psoriasis: a systematic review and meta-analysis of randomized controlled trials. Front Med (Lausanne). (2024 Sep 4)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39328313"
+    },
+    {
+      "text": "Testosterone - Ljunggren L, Butler E, Axelsson J, Åström M, Ohlsson L Effects of probiotic supplementation on testosterone levels in healthy ageing men: A 12-week double-blind, placebo-controlled randomized clinical trial. Contemp Clin Trials Commun. (2024 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38770015"
+    },
+    {
+      "text": "HbA1c - Liu R, Wong G The effects of probiotic supplementation on cardiometabolic health in patients with prediabetes: a systematic review, meta-analysis, and GRADE assessment. Front Nutr. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40959695"
+    },
+    {
+      "text": "Weight - Paiandeh M, Maghalian M, Mohammad-Alizadeh-Charandabi S, Mirghafourvand M The effect of probiotic, prebiotic, and synbiotic supplements on anthropometric measures and respiratory infections in malnourished children: a systematic review and meta-analysis of randomized controlled trials. BMC Pediatr. (2024 Nov 6)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39506703"
+    },
+    {
+      "text": "Body Fat - Shin SM, Park JS, Kim SB, Cho YH, Seo H, Lee HS A 12-Week, Single-Centre, Randomised, Double-Blind, Placebo-Controlled, Parallel-Design Clinical Trial for the Evaluation of the Efficacy and Safety of Lactiplantibacillus plantarum SKO-001 in Reducing Body Fat. Nutrients. (2024 Apr 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38674828"
+    },
+    {
+      "text": "Weight - Guo M, Li J, Zhang L, Chen C, Wei Y, Shen ZA Effects of oral supplementation of probiotics on body weight and visceral fat in obese patients: a meta-analysis and systematic review. Sci Rep. (2025 Feb 21)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39984625"
+    },
+    {
+      "text": "All-Cause Mortality - McDougall A, Nguyen R, Nguyen PY, Allen C, Cheang S, Makama M, Mills K, Hastie R, Ammerdorffer A, Gulmezoglu AM, Vogel JP The effects of probiotics administration during pregnancy on preeclampsia and associated maternal, fetal, and newborn outcomes: a systematic review and meta-analysis. Am J Obstet Gynecol MFM. (2024 Mar 4)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38447676"
+    },
+    {
+      "text": "Blood glucose - Hejazi N, Ghalandari H, Rahmanian R, Haghpanah F, Makhtoomi M, Asadi A, Askarpour M Effects of probiotics supplementation on glycemic profile in adults with type 2 diabetes mellitus: A grade-assessed systematic review and dose-response meta-analysis of randomized controlled trials. Clin Nutr ESPEN. (2024 Sep 28)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39349104"
+    },
+    {
+      "text": "Depression Symptoms - Chen L, Zhou J, Xu T, Xu L, Yu C The Effect of Probiotics on Obesity with Comorbid Depression: A Systematic Review and Meta-Analysis. Br J Hosp Med (Lond). (2024 Sep 30)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39347684"
+    },
+    {
+      "text": "Asthma Symptoms - Sun J, Zhu M, Liu Y, Zhang D A network meta-analysis of probiotics in the treatment of childhood asthma. Front Pediatr. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41098501"
+    },
+    {
+      "text": "Asthma Symptoms - Balan D, Baral T, Manu MK, Mohapatra AK, Miraj SS Efficacy of probiotics as adjuvant therapy in bronchial asthma: a systematic review and meta-analysis. Allergy Asthma Clin Immunol. (2024 Nov 19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39563347"
+    },
+    {
+      "text": "Helicobacter Pylori Infection Signs - Li M, Xie Y Efficacy and safety of Saccharomyces boulardii as an adjuvant therapy for the eradication of Helicobacter pylori: a meta-analysis. Front Cell Infect Microbiol. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40012609"
+    },
+    {
+      "text": "Helicobacter Pylori Infection Signs - Tanashat M, Abuelazm M, Abouzid M, Al-Ajlouni YA, Ramadan A, Alsalah S, Sharaf A, Ayman D, Elharti H, Zhana S, Altobaishat O, Abdelazeem B, Jaber F Efficacy of probiotics regimens for Helicobacter pylori eradication: A&nbsp;systematic review, pairwise, and network meta-analysis of randomized controlled trials. Clin Nutr ESPEN. (2025 Dec 3)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39642994"
+    },
+    {
+      "text": "C-Reactive Protein (CRP) - Romero-Ferreiro V, García-Fernández L, Biscaia JM, Romero C, González-Soltero R, De la Fuente M, Álvarez-Mon MA, Wynn R, Rodriguez-Jimenez R Effect of probiotics on C-reactive protein levels in schizophrenia: Evidence from a systematic review and meta-analysis. Complement Ther Med. (2025 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39798817"
+    },
+    {
+      "text": "HbA1c - Japar KV, Hariyanto TI, Hamzah DV, Prasetya IB, Suastika K Probiotics Supplementation for Improving Glucolipid Parameters in Individuals with Prediabetes: A Systematic Review and Meta-Analysis of Randomized Trials. Probiotics Antimicrob Proteins. (2025 Jan 14)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39806201"
+    },
+    {
+      "text": "Eczema Symptoms - Tan-Lim CSC, Esteban-Ipac NAR Systematic review and meta-analysis on probiotics as treatment for food allergies among pediatric patients: A 2024 update. Pediatr Allergy Immunol. (2025 Jan 13)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39803979"
+    },
+    {
+      "text": "Vaginal Infection Risk - Yefet E, Suleiman A, Colodner R, Battino S, Wattad M, Kuzmin O, Nachum Z Efficacy of Oral Probiotic Supplementation in Preventing Vulvovaginal Infections During Pregnancy: A Randomized and Placebo-Controlled Clinical Trial. Nutrients. (2024 Dec 22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39771026"
+    },
+    {
+      "text": "Dental Health Metrics - Benavides-Reyes C, Cabello I, Magán-Fernández A, Rodríguez-Barranco M, Usta SN, Mesa F Clinical effects of probiotics on the treatment of gingivitis and periodontitis: a systematic review and meta-analysis. BMC Oral Health. (2025 Apr 4)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40186219"
+    },
+    {
+      "text": "Diarrhea Symptoms - Yang R, Liu W, Cai S, Feng X, Chen Y, Cheng X, Ma J, Ma W, Tian Z, Yang W Evaluation of the efficacy of probiotics in the chemoradiotherapy of colorectal cancer: a meta-analysis of Randomized Controlled Trials. BMC Gastroenterol. (2025 Apr 29)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40301781"
+    },
+    {
+      "text": "Osteoarthritis Symptoms - Tian M, Zhu Y, Lu S, Qin Y, Li X, Wang T, Guo Y, Shi H, Qin D Clinical efficacy of probiotic supplementation in the treatment of knee osteoarthritis: a meta-analysis. Front Microbiol. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40276226"
+    },
+    {
+      "text": "Cognition - Tripathi S, Kaushik M, Dwivedi R, Tiwari P, Tripathi M, Dada R The effect of probiotics on select cognitive domains in mild cognitive impairment and Alzheimer's disease: A systematic review and meta-analysis. J Alzheimers Dis Rep. (2024)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40034358"
+    },
+    {
+      "text": "Cognition - Liu W, Guo J, Dong Y, Li J, Wang Y Efficacy of probiotic supplementation in influencing cognitive function in Alzheimer's disease: A systematic review and meta-analysis. J Food Sci. (2025 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40709497"
+    },
+    {
+      "text": "Migraine Frequency - Talandashti MK, Shahinfar H, Delgarm P, Jazayeri S Effects of selected dietary supplements on migraine prophylaxis: A systematic review and dose-response meta-analysis of randomized controlled trials. Neurol Sci. (2024 Oct 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39404918"
+    },
+    {
+      "text": "Bacterial Vaginosis Symptoms - Rongdan Chen, Rong Li, Wei Qing, Yingxuan Zhang, Zuyi Zhou, Yi Hou, Yiya Shi, Hongwei Zhou, Muxuan Chen Probiotics are a good choice for the treatment of bacterial vaginosis: a meta-analysis of randomized controlled trial Reprod Health. (2022 Jun 13)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35698149"
+    },
+    {
+      "text": "Diarrhea Symptoms - McFarland LV, Li T Efficacy and safety of Saccharomyces boulardii CNCM I-745 for the treatment of pediatric acute diarrhea in China: a systematic review and meta-analysis. Front Cell Infect Microbiol. (2025)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40535538"
+    },
+    {
+      "text": "Diarrhea Symptoms - Alsabri M, Rath S, Abo-Elnour DE, Shaban NS, Aziz MM, Aboali AA, Dafallah MA, Gamboa LL Efficacy of probiotics in reducing the duration and severity of acute gastroenteritis in children: A meta-analysis of randomized controlled trials. J Pediatr Gastroenterol Nutr. (2025 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40739406"
+    },
+    {
+      "text": "Menopausal Symptoms - Andrews RAF, Lacey A, Roach H, Tomlinson R, Kidd EJ, Bache K Investigating the effects of probiotics during the menopause transition: A systematic review & meta-analysis. Clin Nutr ESPEN. (2025 Jul 8)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40639456"
+    },
+    {
+      "text": "Bone Mineral Density - J N H, G G, Mahadevan S, R I Effects of probiotic supplements on bone mineral density and bone turnover markers in postmenopausal women: A systematic review. Clin Nutr ESPEN. (2025 Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40716641"
+    },
+    {
+      "text": "Serum BDNF - Hashemi R, Raouf MMHM, Salih TS, Feyzpour M, Eskandarioun M, Nezamabadipour N, Gandomkar H Impact of probiotic supplementation on serum levels of brain-derived neurotrophic factor: GRADE-based dose-response meta-analysis. BMC Nutr. (2025 Aug 11)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40790243"
+    }
+  ]
+}

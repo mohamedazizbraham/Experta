@@ -1,0 +1,1208 @@
+{
+  "slug": "insomnia",
+  "name": "Insomnie",
+  "name_en": "Insomnia",
+  "description": "L'insomnie est une affection du sommeil courante qui implique des difficultés à s'endormir, à rester endormi, ou les deux. Le sommeil insuffisant ou de mauvaise qualité qui en résulte peut entraîner une détérioration de la qualité de vie et des déficits fonctionnels.",
+  "overview": [
+    {
+      "question": "Qu’est-ce que l’insomnie ?",
+      "answer": "L'insomnie est un trouble du sommeil courant caractérisé par un sommeil de mauvaise qualité ou insuffisant en raison de difficultés à initier le sommeil et/ou à le maintenir. L'insomnie peut être de courte durée (durant quelques jours ou semaines) ou chronique (durant 3 mois ou plus). [1] L'insomnie touche 10 à 15 % de la population générale, avec une prévalence plus élevée chez les femmes pendant et après la ménopause, ainsi que chez les personnes âgées. En fait, jusqu'à 50 % des personnes âgées déclarent souffrir d'insomnie ou de troubles du sommeil. [2] [3]"
+    },
+    {
+      "question": "Quels sont les principaux signes et symptômes de l’insomnie ?",
+      "answer": "Certains symptômes de l’insomnie comprennent : [1] - Rester éveillé longtemps avant de pouvoir s'endormir - Dormir seulement pendant de courtes périodes - Rester éveillé pendant la majeure partie de la nuit - Se sentir non reposé ou non rafraîchi après le sommeil - Se réveiller involontairement trop tôt"
+    },
+    {
+      "question": "Comment l’insomnie est-elle diagnostiquée ?",
+      "answer": "Un professionnel de santé diagnostiquera l'insomnie en recueillant des antécédents médicaux détaillés, incluant de nombreuses questions sur les habitudes de sommeil. Un examen physique est réalisé pour exclure d'autres affections médicales ou mentales pouvant entraîner des difficultés à dormir. Parfois, des études du sommeil peuvent être effectuées afin d'obtenir un diagnostic précis. L'insomnie est qualifiée de « chronique » lorsque les problèmes de sommeil surviennent au moins 3 nuits par semaine pendant au moins 3 mois. [2]"
+    },
+    {
+      "question": "Quels sont certains des principaux traitements médicaux de l’insomnie ?",
+      "answer": "Les traitements médicamenteux de l'insomnie sont indiqués pour améliorer l'endormissement, le maintien du sommeil, ou les deux. Parmi les médicaments dont l'efficacité est démontrée pour l'insomnie figurent les antagonistes des récepteurs de l'orexine (suvorexant), les hypnotiques non benzodiazépiniques (eszopiclone Lunesta, zolpidem Ambien, zaleplon Sonata), certains benzodiazépines (triazolam, temazepam), les agonistes de la mélatonine (ramelteon Rozerem) et certains antidépresseurs (doxepin Silenor). Bien que des médicaments tels que la trazodone, le tiagabine et la diphenhydramine soient couramment utilisés, les experts ne les recommandent pas pour l'insomnie chronique en raison de risques potentiels et d'une preuve insuffisante d'efficacité. [4]"
+    },
+    {
+      "question": "Des compléments ont-ils été étudiés pour l'insomnie ?",
+      "answer": "Les compléments étudiés pour l'insomnie comprennent melatonin, valerian root, kava-kava, chamomile, lavender et de nombreux autres. Ces compléments ont des effets sédatifs et peuvent augmenter la relaxation et induire le sommeil chez certaines personnes souffrant d'insomnie à court terme. [3] Il y a beaucoup moins de recherches sur les compléments pour l'insomnie chronique. [4]"
+    },
+    {
+      "question": "Comment l'alimentation pourrait-elle affecter l'insomnie ?",
+      "answer": "Une approche thérapeutique courante pour soulager l'insomnie consiste à maintenir une hygiène du sommeil, dont une partie implique l'alimentation. Les techniques d'hygiène du sommeil comprennent ne pas trop manger le soir et ne pas manger trop tard dans la nuit. Elles incluent également d'éviter ou de limiter la consommation d'alcool, de caffeine, et d'aliments et boissons contenant de la caffeine (par ex., coffee, tea et chocolate), surtout à proximité de l'heure du coucher. Suivre une alimentation saine et riche en nutriments (par ex., riche en fruits et légumes, pauvre en sucres raffinés) est également considéré comme faisant partie du maintien d'une bonne hygiène du sommeil. [3] [2] [5]"
+    },
+    {
+      "question": "Existe-t-il d'autres traitements pour l'insomnie ?",
+      "answer": "Pour l'insomnie à court terme, les techniques d'hygiène du sommeil qui impliquent l'ajustement des facteurs de mode de vie (par ex., alimentation, exercice) et des facteurs environnementaux (par ex., lumière, bruit, température) sont couramment recommandées ; cependant, l'hygiène du sommeil n'est pas recommandée comme traitement unique pour l'insomnie chronique. Pour l'insomnie chronique, la thérapie cognitivo-comportementale (CBT) possède de bonnes preuves d'efficacité, surtout lorsqu'elle est utilisée en combinaison avec d'autres thérapies. L'hygiène du sommeil et la CBT sont généralement recommandées en combinaison avec d'autres traitements comportementaux tels que la restriction du sommeil, la thérapie de relaxation et le contrôle des stimuli. [6]"
+    },
+    {
+      "question": "Quelles sont les causes de l'insomnie ?",
+      "answer": "Les causes courantes de l'insomnie comprennent le stress professionnel, les problèmes relationnels ou les événements traumatisants. Souvent, l'insomnie survient en réponse à certaines conditions médicales, médicaments et autres troubles du sommeil (par ex., obstructive sleep apnea). Le caffeine, le tobacco, l'alcool et d'autres substances peuvent également déclencher l'insomnie. Cependant, dans certains cas, l'insomnie est considérée comme un problème primaire parce qu'aucune cause identifiable n'est trouvée, bien que les facteurs de risque incluent un trouble émotionnel prolongé, le stress, les voyages et le travail posté. [1]"
+    },
+    {
+      "question": "Quelle quantité de sommeil devrais-je obtenir ?",
+      "answer": "La quantité de sommeil dont une personne a besoin peut varier et peut nécessiter quelques expérimentations pour déterminer ce qui fonctionne le mieux pour l'individu. Les directives générales de la National Sleep Foundation suggèrent des durées de sommeil recommandées spécifiques selon l'âge, allant de 14 à 17 heures pour les nourrissons à 7 à 8 heures pour les adultes plus âgés."
+    },
+    {
+      "question": "Qu’est-ce que le Pittsburgh Sleep Quality Index (PSQI) ?",
+      "answer": "Le Pittsburgh Sleep Quality Index (PSQI) est un questionnaire d’auto-rapport largement utilisé qui évalue la qualité du sommeil à l’aide de 24 items répartis sur 7 dimensions et fournit un score global indiquant la qualité du sommeil. Il a été validé pour sa haute fiabilité et est recommandé par les experts comme méthode principale de mesure de la qualité du sommeil."
+    },
+    {
+      "question": "Comment la caffeine pourrait-elle perturber mon rythme circadien ?",
+      "answer": "La caffeine peut affecter les rythmes circadiens en augmentant les niveaux d’AMP cyclique (cAMP) en bloquant les récepteurs de l’adénosine et en inhibant les enzymes qui dégradent le cAMP. Elle peut également se lier aux récepteurs de la ryanodine, qui sont impliqués dans la régulation de la libération de calcium au sein du suprachiasmatic nucleus, la partie du cerveau qui contrôle l’horloge circadienne."
+    },
+    {
+      "question": "Comment l’alcool affecte-il mon sommeil ?",
+      "answer": "L’alcool peut initialement faciliter l’endormissement, mais ses effets s’estompent avec une utilisation continue et il altère constamment la qualité du sommeil."
+    }
+  ],
+  "database": [
+    {
+      "intervention": "Melatonin",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "A",
+          "effect": "Amélioration importante",
+          "evidence": "4 études Participants : 259",
+          "studies": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ],
+          "participants": 259
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "3 études Participants : 211",
+          "studies": [
+            {
+              "title": "Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+            },
+            {
+              "title": "The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+            },
+            {
+              "title": "Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+            }
+          ],
+          "participants": 211
+        }
+      ]
+    },
+    {
+      "intervention": "Valériane",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l’insomnie",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Symptômes de la ménopause",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 100",
+          "studies": [
+            {
+              "title": "Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+            }
+          ],
+          "participants": 100
+        },
+        {
+          "outcome": "Sédation",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 8",
+          "studies": [
+            {
+              "title": "Aqueous extract of valerian reduces latency to fall asleep in man",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/4034730"
+            }
+          ],
+          "participants": 8
+        },
+        {
+          "outcome": "Sleep Latency",
+          "grade": "",
+          "effect": "",
+          "evidence": "10 Studies Participants: 498",
+          "studies": [
+            {
+              "title": "Effectiveness of Valerian on insomnia: a meta-analysis of randomized placebo-controlled trials(Covers10 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20347389"
+            }
+          ],
+          "participants": 498
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Studies Participants: 847",
+          "studies": [
+            {
+              "title": "Valerian for sleep: a systematic review and meta-analysis.(Covers6 studiesreporting on Sleep Quality)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17145239"
+            }
+          ],
+          "participants": 847
+        }
+      ]
+    },
+    {
+      "intervention": "Ashwagandha",
+      "outcomes": [
+        {
+          "outcome": "Alertness",
+          "grade": "B",
+          "effect": "Small Improvement",
+          "evidence": "3 Studies Participants: 170",
+          "studies": [
+            {
+              "title": "Effect of Ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis(Covers3 studiesreporting on Alertness)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34559859"
+            }
+          ],
+          "participants": 170
+        },
+        {
+          "outcome": "Anxiety Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 189",
+          "studies": [
+            {
+              "title": "Effect of Ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis(Covers3 studiesreporting on Anxiety Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34559859"
+            }
+          ],
+          "participants": 189
+        },
+        {
+          "outcome": "Qualité de vie",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 189",
+          "studies": [
+            {
+              "title": "Effect of Ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis(Covers2 studiesreporting on Quality of Life)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34559859"
+            }
+          ],
+          "participants": 189
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 281",
+          "studies": [
+            {
+              "title": "Effect of Ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis(Covers3 studiesreporting on Sleep Duration)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34559859"
+            }
+          ],
+          "participants": 281
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 281",
+          "studies": [
+            {
+              "title": "Effect of Ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis(Covers3 studiesreporting on Sleep Efficiency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34559859"
+            }
+          ],
+          "participants": 281
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 281",
+          "studies": [
+            {
+              "title": "Effect of Ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis(Covers3 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34559859"
+            }
+          ],
+          "participants": 281
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 1764",
+          "studies": [
+            {
+              "title": "Effect of Ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis(Covers5 studiesreporting on Sleep Quality)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34559859"
+            }
+          ],
+          "participants": 1764
+        }
+      ]
+    },
+    {
+      "intervention": "Thérapie cognitivo-comportementale",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "A",
+          "effect": "Amélioration modérée",
+          "evidence": "7 études Participants : 708",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers7 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 708
+        },
+        {
+          "outcome": "Symptômes de la dépression post-partum",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 263",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers3 studiesreporting on Postpartum Depression Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 263
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 502",
+          "studies": [
+            {
+              "title": "The efficacy of cognitive behavioral therapy for insomnia in adolescents: a systematic review and meta-analysis of randomized controlled trials.(Covers6 studiesreporting on Sleep Duration)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39628800"
+            }
+          ],
+          "participants": 502
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "5 études Participants : 465",
+          "studies": [
+            {
+              "title": "The efficacy of cognitive behavioral therapy for insomnia in adolescents: a systematic review and meta-analysis of randomized controlled trials.(Covers5 studiesreporting on Sleep Efficiency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39628800"
+            }
+          ],
+          "participants": 465
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants : 502",
+          "studies": [
+            {
+              "title": "The efficacy of cognitive behavioral therapy for insomnia in adolescents: a systematic review and meta-analysis of randomized controlled trials.(Covers6 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39628800"
+            }
+          ],
+          "participants": 502
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 316",
+          "studies": [
+            {
+              "title": "Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials.(Covers3 studiesreporting on Sleep Quality)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+            }
+          ],
+          "participants": 316
+        }
+      ]
+    },
+    {
+      "intervention": "Lavande",
+      "outcomes": [
+        {
+          "outcome": "Fréquence cardiaque",
+          "grade": "C",
+          "effect": "Petite diminution",
+          "evidence": "1 étude Participants : 67",
+          "studies": [],
+          "participants": 67
+        },
+        {
+          "outcome": "Variabilité de la fréquence cardiaque",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 67",
+          "studies": [],
+          "participants": 67
+        },
+        {
+          "outcome": "Insomnia Signs and Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 10",
+          "studies": [
+            {
+              "title": "A single-blinded, randomized pilot study evaluating the aroma of Lavandula augustifolia as a treatment for mild insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16131287"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Studies Participants: 119",
+          "studies": [
+            {
+              "title": "[Effects of lavender aromatherapy on insomnia and depression in women college students]",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16520572"
+            },
+            {
+              "title": "A single-blinded, randomized pilot study evaluating the aroma of Lavandula augustifolia as a treatment for mild insomnia",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16131287"
+            }
+          ],
+          "participants": 119
+        }
+      ]
+    },
+    {
+      "intervention": "Magnesium",
+      "outcomes": [
+        {
+          "outcome": "Insomnia Signs and Symptoms",
+          "grade": "D",
+          "effect": "No effect",
+          "evidence": "1 Study Participants: 43",
+          "studies": [
+            {
+              "title": "Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis(Covers1 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33865376"
+            }
+          ],
+          "participants": 43
+        },
+        {
+          "outcome": "Restless Leg Syndrome Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 10",
+          "studies": [
+            {
+              "title": "Magnesium therapy for periodic leg movements-related insomnia and restless legs syndrome: an open pilot study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9703590"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Serum Magnesium",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Studies Participants: 56",
+          "studies": [
+            {
+              "title": "The effect of magnesium supplementation on primary insomnia in elderly: A double-blind placebo-controlled clinical trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23853635"
+            },
+            {
+              "title": "Magnesium therapy for periodic leg movements-related insomnia and restless legs syndrome: an open pilot study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9703590"
+            }
+          ],
+          "participants": 56
+        },
+        {
+          "outcome": "Sleep Disturbance Signs and Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 10",
+          "studies": [
+            {
+              "title": "Magnesium therapy for periodic leg movements-related insomnia and restless legs syndrome: an open pilot study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9703590"
+            }
+          ],
+          "participants": 10
+        },
+        {
+          "outcome": "Sleep Duration",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Studies Participants: 33",
+          "studies": [
+            {
+              "title": "Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis(Covers2 studiesreporting on Sleep Duration)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33865376"
+            }
+          ],
+          "participants": 33
+        },
+        {
+          "outcome": "Sleep Efficiency",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 43",
+          "studies": [
+            {
+              "title": "Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis(Covers1 studiesreporting on Sleep Efficiency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33865376"
+            }
+          ],
+          "participants": 43
+        },
+        {
+          "outcome": "Sleep Latency",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 33",
+          "studies": [
+            {
+              "title": "Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis(Covers2 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33865376"
+            }
+          ],
+          "participants": 33
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 étude Participants : 10",
+          "studies": [
+            {
+              "title": "Magnesium therapy for periodic leg movements-related insomnia and restless legs syndrome: an open pilot study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9703590"
+            }
+          ],
+          "participants": 10
+        }
+      ]
+    },
+    {
+      "intervention": "Cannabis",
+      "outcomes": [
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "1 étude Participants : 23",
+          "studies": [
+            {
+              "title": "Smoked cannabis for chronic neuropathic pain: a randomized controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20805210"
+            }
+          ],
+          "participants": 23
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 études Participants : 89",
+          "studies": [
+            {
+              "title": "Randomized, controlled trial of cannabis-based medicine in central pain in multiple sclerosis",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16186518"
+            },
+            {
+              "title": "Smoked cannabis for chronic neuropathic pain: a randomized controlled trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20805210"
+            }
+          ],
+          "participants": 89
+        }
+      ]
+    },
+    {
+      "intervention": "Thérapie par la lumière",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "B",
+          "effect": "Légère amélioration",
+          "evidence": "6 études Participants: 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Fatigue Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Signes et symptômes d’insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants: 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers3 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "9 études Participants: 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers9 studiesreporting on Sleep Duration)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 études Participants: 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers6 studiesreporting on Sleep Efficiency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers3 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "12 études Participants : 679",
+          "studies": [
+            {
+              "title": "Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis.(Covers12 studiesreporting on Sleep Quality)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+            }
+          ],
+          "participants": 679
+        }
+      ]
+    },
+    {
+      "intervention": "Probiotiques",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "C",
+          "effect": "Légère amélioration",
+          "evidence": "2 études Participants : 140",
+          "studies": [
+            {
+              "title": "Impact of probiotics on sleep quality and mood states in patients with insomnia: a systematic review and meta-analysis.(Covers2 studiesreporting on Depression Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40740336"
+            }
+          ],
+          "participants": 140
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 études Participants : 226",
+          "studies": [
+            {
+              "title": "Impact of probiotics on sleep quality and mood states in patients with insomnia: a systematic review and meta-analysis.(Covers3 studiesreporting on Sleep Duration)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40740336"
+            }
+          ],
+          "participants": 226
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "2 Études Participants : 166",
+          "studies": [
+            {
+              "title": "Impact of probiotics on sleep quality and mood states in patients with insomnia: a systematic review and meta-analysis.(Covers2 studiesreporting on Sleep Efficiency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40740336"
+            }
+          ],
+          "participants": 166
+        },
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "3 Études Participants : 226",
+          "studies": [
+            {
+              "title": "Impact of probiotics on sleep quality and mood states in patients with insomnia: a systematic review and meta-analysis.(Covers3 studiesreporting on Sleep Latency)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40740336"
+            }
+          ],
+          "participants": 226
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "6 Études Participants : 424",
+          "studies": [
+            {
+              "title": "Impact of probiotics on sleep quality and mood states in patients with insomnia: a systematic review and meta-analysis.(Covers6 studiesreporting on Sleep Quality)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40740336"
+            }
+          ],
+          "participants": 424
+        }
+      ]
+    },
+    {
+      "intervention": "Battements binauraux",
+      "outcomes": [
+        {
+          "outcome": "Latence du sommeil",
+          "grade": "D",
+          "effect": "Aucun effet",
+          "evidence": "1 Étude Participants : 21",
+          "studies": [
+            {
+              "title": "[The effect of music containing binaural beats on daytime fall-asleep dynamics]",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32307409"
+            }
+          ],
+          "participants": 21
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 21",
+          "studies": [
+            {
+              "title": "[The effect of music containing binaural beats on daytime fall-asleep dynamics]",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32307409"
+            }
+          ],
+          "participants": 21
+        }
+      ]
+    },
+    {
+      "intervention": "Ginkgo Biloba",
+      "outcomes": [
+        {
+          "outcome": "Sleep Quality",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 16",
+          "studies": [
+            {
+              "title": "Polysomnographic effects of adjuvant ginkgo biloba therapy in patients with major depression medicated with trimipramine",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11302564"
+            }
+          ],
+          "participants": 16
+        }
+      ]
+    },
+    {
+      "intervention": "Kava",
+      "outcomes": [
+        {
+          "outcome": "Anxiety Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 678",
+          "studies": [
+            {
+              "title": "Medicinal herbs for the treatment of anxiety: A systematic review and network meta-analysis.(Covers8 studiesreporting on Anxiety Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35378276"
+            }
+          ],
+          "participants": 678
+        }
+      ]
+    },
+    {
+      "intervention": "Lemon Balm",
+      "outcomes": [
+        {
+          "outcome": "Insomnia Signs and Symptoms",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 Study Participants: 30",
+          "studies": [
+            {
+              "title": "Effects of Melissa officinalis Phytosome on Sleep Quality: Results of a Prospective, Double-Blind, Placebo-Controlled, and Cross-Over Study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39683592"
+            }
+          ],
+          "participants": 30
+        }
+      ]
+    },
+    {
+      "intervention": "Passiflore",
+      "outcomes": [
+        {
+          "outcome": "Symptômes d'anxiété",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "Participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31714321"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Symptômes de dépression",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31714321"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Durée du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31714321"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Efficacité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "Participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31714321"
+            }
+          ],
+          "participants": 110
+        },
+        {
+          "outcome": "Latence d'endormissement",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 110",
+          "studies": [
+            {
+              "title": "Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31714321"
+            }
+          ],
+          "participants": 110
+        }
+      ]
+    },
+    {
+      "intervention": "Relaxation musculaire progressive",
+      "outcomes": [
+        {
+          "outcome": "Symptômes de fatigue",
+          "grade": "C",
+          "effect": "Amélioration modérée",
+          "evidence": "1 participants à l'étude : 63",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 63
+        },
+        {
+          "outcome": "Qualité du sommeil",
+          "grade": "",
+          "effect": "",
+          "evidence": "1 participants à l'étude : 63",
+          "studies": [
+            {
+              "title": "The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+            }
+          ],
+          "participants": 63
+        }
+      ]
+    },
+    {
+      "intervention": "Formation à l'hygiène du sommeil",
+      "outcomes": [
+        {
+          "outcome": "Signes et symptômes de l'insomnie",
+          "grade": "",
+          "effect": "",
+          "evidence": "23 études Participants : 4245",
+          "studies": [
+            {
+              "title": "Effects of sleep hygiene education for insomnia: A systematic review and meta-analysis.(Covers23 studiesreporting on Insomnia Signs and Symptoms)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40449065"
+            }
+          ],
+          "participants": 4245
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Existe-t-il des preuves concernant la toxicité, la tolérance et la dépendance à la mélatonine ?",
+      "answer": "La supplémentation en mélatonine est considérée comme sûre ; elle présente une faible toxicité et aucune preuve de tolérance ou de dépendance, même aux doses élevées qui ont été testées. Cependant, les effets à long terme des doses supérieures à 2 mg n’ont pas été étudiés de manière approfondie."
+    }
+  ],
+  "references": [
+    {
+      "text": " MedlinePlus (Internet). Bethesda (MD): National Library of Medicine (US); (updated 2018 December 4; cited 2022 May 6)",
+      "link": "https://medlineplus.gov/insomnia.html"
+    },
+    {
+      "text": " Kaur H, Spurling BC, Bollu PC Chronic Insomnia StatPearls. (2022-07)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/30252392"
+    },
+    {
+      "text": " Momin RR, Ketvertis K Short Term Insomnia StatPearls. (2022-07)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32119403"
+    },
+    {
+      "text": " Michael J Sateia, Daniel J Buysse, Andrew D Krystal, David N Neubauer, Jonathan L Heald Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults: An American Academy of Sleep Medicine Clinical Practice Guideline J Clin Sleep Med. (2017 Feb 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27998379"
+    },
+    {
+      "text": " Justyna Godos, Giuseppe Grosso, Sabrina Castellano, Fabio Galvano, Filippo Caraci, Raffaele Ferri Association between diet and sleep quality: A systematic review Sleep Med Rev. (2021 Jan 16)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33549913"
+    },
+    {
+      "text": " Edinger JD, Arnedt JT, Bertisch SM, Carney CE, Harrington JJ, Lichstein KL, Sateia MJ, Troxel WM, Zhou ES, Kazmi U, Heald JL, Martin JL Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline. J Clin Sleep Med. (2021-02-01)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33164742"
+    },
+    {
+      "text": " Herxheimer A, Petrie KJ Melatonin for the prevention and treatment of jet lag Cochrane Database Syst Rev. (2002 Apr 22)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12076414"
+    },
+    {
+      "text": " Jin Hwa Kim, Young Sang Lyu, Sang Yong Kim Impact of Social Jetlag on Weight Change in Adults: Korean National Health and Nutrition Examination Survey 2016-2017 Int J Environ Res Public Health. (2020 Jun 18)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32570840"
+    },
+    {
+      "text": " F Waldhauser, H R Lieberman, H J Lynch, M Waldhauser, K Herkner, H Frisch, H Vierhapper, W Waldhäusl, M Schemper, R J Wurtman A pharmacological dose of melatonin increases PRL levels in males without altering those of GH, LH, FSH, TSH, testosterone or cortisol Neuroendocrinology. (1987 Aug)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/3114663"
+    },
+    {
+      "text": " R Valcavi, C Dieguez, C Azzarito, C A Edwards, C Dotti, M D Page, I Portioli, M F Scanlon Effect of oral administration of melatonin on GH responses to GRF 1-44 in normal subjects Clin Endocrinol (Oxf). (1987 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/3115632"
+    },
+    {
+      "text": " Patrick Lemoine, Doron Garfinkel, Moshe Laudon, Tali Nir, Nava Zisapel Prolonged-release melatonin for insomnia - an open-label long-term study of efficacy, safety, and withdrawal Ther Clin Risk Manag. (2011)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21845053"
+    },
+    {
+      "text": " Posadzki PP, Bajpai R, Kyaw BM, Roberts NJ, Brzezinski A, Christopoulos GI, Divakar U, Bajpai S, Soljak M, Dunleavy G, Jarbrink K, Nang EEK, Soh CK, Car J Melatonin and health: an umbrella review of health outcomes and biological mechanisms of action BMC Med. (2018 Feb 5)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29397794"
+    },
+    {
+      "text": " Silman RE Melatonin: a contraceptive for the nineties Eur J Obstet Gynecol Reprod Biol. (1993 Apr)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/8365512"
+    },
+    {
+      "text": " Lelak K, Vohra V, Neuman MI, Toce MS, Sethuraman U Pediatric Melatonin Ingestions - United States, 2012-2021. MMWR Morb Mortal Wkly Rep. (2022-Jun-03)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35653284"
+    },
+    {
+      "text": " Erland LA, Saxena PK Melatonin Natural Health Products and Supplements: Presence of Serotonin and Significant Variability of Melatonin Content J Clin Sleep Med. (2017 Feb 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27855744"
+    },
+    {
+      "text": " Matsumoto M, Sack RL, Blood ML, Lewy AJ The amplitude of endogenous melatonin production is not affected by melatonin treatment in humans J Pineal Res. (1997 Jan)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9062869"
+    },
+    {
+      "text": " Arendt J, Bojkowski C, Folkard S, Franey C, Marks V, Minors D, Waterhouse J, Wever RA, Wildgruber C, Wright J Some effects of melatonin and the control of its secretion in humans Ciba Found Symp. (1985)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/3836818"
+    },
+    {
+      "text": " Hirshkowitz M, Whiton K, Albert SM, Alessi C, Bruni O, DonCarlos L, Hazen N, Herman J, Katz ES, Kheirandish-Gozal L, Neubauer DN, O'Donnell AE, Ohayon M, Peever J, Rawding R, Sachdeva RC, Setters B, Vitiello MV, Ware JC, Adams Hillard PJ National Sleep Foundation's sleep time duration recommendations: methodology and results summary Sleep Health. (2015 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29073412"
+    },
+    {
+      "text": " Choi OH, Shamim MT, Padgett WL, Daly JW Caffeine and theophylline analogues: correlation of behavioral effects with activity as adenosine receptor antagonists and as phosphodiesterase inhibitors Life Sci. (1988)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/2456442"
+    },
+    {
+      "text": " Ikeda M, Sugiyama T, Wallace CS, Gompf HS, Yoshioka T, Miyawaki A, Allen CN Circadian dynamics of cytosolic and nuclear Ca2+ in single suprachiasmatic nucleus neurons Neuron. (2003 Apr 24)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12718859"
+    },
+    {
+      "text": " Kong H, Jones PP, Koop A, Zhang L, Duff HJ, Chen SR Caffeine induces Ca2+ release by reducing the threshold for luminal Ca2+ activation of the ryanodine receptor Biochem J. (2008 Sep 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18518861"
+    },
+    {
+      "text": " Wright KP Jr, McHill AW, Birks BR, Griffin BR, Rusterholz T, Chinoy ED Entrainment of the human circadian clock to the natural light-dark cycle Curr Biol. (2013 Aug 19)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23910656"
+    },
+    {
+      "text": " Düzgün G, Durmaz Akyol A Effect of Natural Sunlight on Sleep Problems and Sleep Quality of the Elderly Staying in the Nursing Home Holist Nurs Pract. (2017 Sep/Oct)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28786887"
+    },
+    {
+      "text": " Boubekri M, Cheung IN, Reid KJ, Wang CH, Zee PC Impact of windows and daylight exposure on overall health and sleep quality of office workers: a case-control pilot study J Clin Sleep Med. (2014 Jun 15)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24932139"
+    },
+    {
+      "text": " Mottram V, Middleton B, Williams P, Arendt J The impact of bright artificial white and 'blue-enriched' light on sleep and circadian phase during the polar winter J Sleep Res. (2011 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20723022"
+    },
+    {
+      "text": " Smolensky MH, Sackett-Lundeen LL, Portaluppi F Nocturnal light pollution and underexposure to daytime sunlight: Complementary mechanisms of circadian disruption and related diseases Chronobiol Int. (2015)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26374931"
+    },
+    {
+      "text": " Whipps J, Byra M, Gerow KG, Hill Guseman E Evaluation of Nighttime Media Use and Sleep Patterns in First-semester College Students Am J Health Behav. (2018 May 1)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/29663980"
+    },
+    {
+      "text": " Kinsey AW, Ormsbee MJ The health impact of nighttime eating: old and new perspectives Nutrients. (2015 Apr 9)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25859885"
+    },
+    {
+      "text": " Flausino NH, Da Silva Prado JM, de Queiroz SS, Tufik S, de Mello MT Physical exercise performed before bedtime improves the sleep pattern of healthy young good sleepers Psychophysiology. (2012 Feb)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/22092095"
+    },
+    {
+      "text": " Buman MP, Phillips BA, Youngstedt SD, Kline CE, Hirshkowitz M Does nighttime exercise really disturb sleep? Results from the 2013   National Sleep Foundation Sleep in America Poll Sleep Med. (2014 Jul)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24933083"
+    },
+    {
+      "text": " Grønli J, Byrkjedal IK, Bjorvatn B, Nødtvedt Ø, Hamre B, Pallesen S Reading from an iPad or from a book in bed: the impact on human sleep. A randomized controlled crossover trial Sleep Med. (2016 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/27448477"
+    },
+    {
+      "text": " Chang AM, Aeschbach D, Duffy JF, Czeisler CA Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness Proc Natl Acad Sci U S A. (2015 Jan 27)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25535358"
+    },
+    {
+      "text": " Stein MD, Friedmann PD Disturbed sleep and its relationship to alcohol use Subst Abus. (2005 Mar)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16492658"
+    },
+    {
+      "text": " Park SY, Oh MK, Lee BS, Kim HG, Lee WJ, Lee JH, Lim JT, Kim JY The Effects of Alcohol on Quality of Sleep Korean J Fam Med. (2015 Nov)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26634095"
+    },
+    {
+      "text": " Stone BM Sleep and low doses of alcohol Electroencephalogr Clin Neurophysiol. (1980 Jun)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/6155259"
+    },
+    {
+      "text": " Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research Psychiatry Res. (1989 May)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/2748771"
+    },
+    {
+      "text": " Marco Fabbri, Alessia Beracci, Monica Martoni, Debora Meneo, Lorenzo Tonetti, Vincenzo Natale Measuring Subjective Sleep Quality: A Review Int J Environ Res Public Health. (2021 Jan 26)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33530453"
+    },
+    {
+      "text": " Daniel J Buysse, Sonia Ancoli-Israel, Jack D Edinger, Kenneth L Lichstein, Charles M Morin Recommendations for a standard research assessment of insomnia Sleep. (2006 Sep)",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17040003"
+    }
+  ],
+  "database_references": [
+    {
+      "text": "Insomnia Signs and Symptoms - Taavoni S, Ekbatani N, Kashaniyan M, Haghani H Effect of valerian on sleep quality in postmenopausal women: a randomized placebo-controlled clinical trial Menopause . ( 2011 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21775910"
+    },
+    {
+      "text": "Sleep Quality - Bent S, Padula A, Moore D, Patterson M, Mehling W Valerian for sleep: a systematic review and meta-analysis. Am J Med . ( 2006-Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/17145239"
+    },
+    {
+      "text": "Sleep Quality - Fernández-San-Martín MI, Masa-Font R, Palacios-Soler L, Sancho-Gómez P, Calbó-Caldentey C, Flores-Mateo G Effectiveness of Valerian on insomnia: a meta-analysis of randomized placebo-controlled trials Sleep Med . ( 2010 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20347389"
+    },
+    {
+      "text": "Sleep Quality - Leathwood PD, Chauffard F Aqueous extract of valerian reduces latency to fall asleep in man Planta Med . ( 1985 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/4034730"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Lemoine P, Nir T, Laudon M, Zisapel N Prolonged-release melatonin improves sleep quality and morning alertness in insomnia patients aged 55 years and older and has no withdrawal effects J Sleep Res . ( 2007 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/18036082"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Luthringer R, Muzet M, Zisapel N, Staner L The effect of prolonged-release melatonin on sleep measures and psychomotor performance in elderly patients with insomnia Int Clin Psychopharmacol . ( 2009 Sep )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/19584739"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - van Geijlswijk IM, Mol RH, Egberts TC, Smits MG Evaluation of sleep, puberty and mental health in children with long-term melatonin treatment for chronic idiopathic childhood sleep onset insomnia Psychopharmacology (Berl) . ( 2011 Jul )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/21340475"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Motlaq TM, Rahimi B, Amini S Effect of melatonin on insomnia and daytime sleepiness, in patients with obstructive sleep apnea and insomnia (COMISA): A randomized double-blinded placebo-controlled trial. J Pharm Health Care Sci . ( 2024 May 30 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38816846"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - George T Lewith, Anthony Dean Godfrey, Philip Prescott A single-blinded, randomized pilot study evaluating the aroma of Lavandula augustifolia as a treatment for mild insomnia J Altern Complement Med . ( 2005 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16131287"
+    },
+    {
+      "text": "Sleep Quality - Inn-Sook Lee, Gyung-Joo Lee [Effects of lavender aromatherapy on insomnia and depression in women college students] Taehan Kanho Hakhoe Chi . ( 2006 Feb )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16520572"
+    },
+    {
+      "text": "Sleep Quality - Li-Wei Chien, Su Li Cheng, and Chi Feng Liu The Effect of Lavender Aromatherapy on Autonomic Nervous System in Midlife Women with Insomnia Evidence-Based Complementary and Alternative Medicine . ( )",
+      "link": "http://www.hindawi.com/journals/ecam/2012/740813/"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Jasmine Mah, Tyler Pitre Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis BMC Complement Med Ther . ( 2021 Apr 17 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33865376"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Behnood Abbasi, Masud Kimiagar, Khosro Sadeghniiat, Minoo M Shirazi, Mehdi Hedayati, Bahram Rashidkhani The effect of magnesium supplementation on primary insomnia in elderly: A double-blind placebo-controlled clinical trial J Res Med Sci . ( 2012 Dec )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/23853635"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Hornyak M, Voderholzer U, Hohagen F, Berger M, Riemann D Magnesium therapy for periodic leg movements-related insomnia and restless legs syndrome: an open pilot study. Sleep . ( 1998-Aug-01 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9703590"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Lai F, Luo Z, Zhang J, Xia W, Tian L Bright light therapy has a positive effect on sleep quality in patients with cancer: A meta-analysis. Sleep Med Rev . ( 2024 Jun )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38537515"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Wang Y, Zhao X, Ren J, Xue S, Liu Y, Zhang L, Fan M, Su C, Cheng JX The effect of light therapy on insomnia: A systematic review and meta-analysis. Sleep Breath . ( 2024 Dec 29 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39733392"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Feng S, Dai B, Li H, Fu H, Zhou Y Efficacy of cognitive behavioral therapy for insomnia in the perinatal period: a meta-analysis of randomized controlled trials. Sleep Biol Rhythms . ( 2024 Apr )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38524162"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Malarkey ME, Fu AJ, Mannan N, Shaw OM, Haight TJ, Cota MR, Jahed NC, Werner JK, Brody DL Internet-Guided Cognitive Behavioral Therapy for Insomnia Among Patients With Traumatic Brain Injury: A Randomized Clinical Trial. JAMA Netw Open . ( 2024 Jul 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/38980675"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Mei Z, Cai C, Luo S, Zhang Y, Lam C, Luo S The efficacy of cognitive behavioral therapy for insomnia in adolescents: a systematic review and meta-analysis of randomized controlled trials. Front Public Health . ( 2024 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39628800"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Di Pierro F, Sisti D, Rocchi M, Belli A, Bertuccioli A, Cazzaniga M, Palazzi CM, Tanda ML, Zerbinati N Effects of Melissa officinalis Phytosome on Sleep Quality: Results of a Prospective, Double-Blind, Placebo-Controlled, and Cross-Over Study. Nutrients . ( 2024 Dec 4 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39683592"
+    },
+    {
+      "text": "Insomnia Signs and Symptoms - Ruan JY, Liu Q, Chung KF, Ho KY, Yeung WF Effects of sleep hygiene education for insomnia: A systematic review and meta-analysis. Sleep Med Rev . ( 2025 Aug )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40449065"
+    },
+    {
+      "text": "Sleep Quality - Kae Ling Cheah, Mohd Noor Norhayati, Lili Husniati Yaacob, Razlina Abdul Rahman Effect of Ashwagandha (Withania somnifera) extract on sleep: A systematic review and meta-analysis PLoS One . ( 2021 Sep 24 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/34559859"
+    },
+    {
+      "text": "Sleep Quality - Langade D, Kanchi S, Salve J, Debnath K, Ambegaokar D Efficacy and Safety of Ashwagandha (Withania somnifera) Root Extract in Insomnia and Anxiety: A Double-blind, Randomized, Placebo-controlled Study Cureus . ( 2019 Sep 28 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31728244"
+    },
+    {
+      "text": "Sleep Quality - Fatima K, Malik J, Muskan F, Raza G, Waseem A, Shahid H, Jaffery SF, Khan U, Zaheer MK, Shaikh Y, Rashid AM Safety and efficacy of Withania somnifera for anxiety and insomnia: Systematic review and meta-analysis. Hum Psychopharmacol . ( 2024 Jul 31 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39083548"
+    },
+    {
+      "text": "Sleep Quality - Hemmeter U, Annen B, Bischof R, Brüderlin U, Hatzinger M, Rose U, Holsboer-Trachsler E Polysomnographic effects of adjuvant ginkgo biloba therapy in patients with major depression medicated with trimipramine Pharmacopsychiatry . ( 2001 Mar )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/11302564"
+    },
+    {
+      "text": "Sleep Quality - D E Shumov, I A Yakovenko, N N Alipov, Z V Bakaeva, E B Yakunina, A N Minyuk, A V Vinokurov, V B Dorokhov [The effect of music containing binaural beats on daytime fall-asleep dynamics] Zh Nevrol Psikhiatr Im S S Korsakova . ( 2020 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/32307409"
+    },
+    {
+      "text": "Sleep Quality - David J Rog, Turo J Nurmikko, Tim Friede, Carolyn A Young Randomized, controlled trial of cannabis-based medicine in central pain in multiple sclerosis Neurology . ( 2005 Sep 27 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/16186518"
+    },
+    {
+      "text": "Sleep Quality - Mark A Ware, Tongtong Wang, Stan Shapiro, Ann Robinson, Thierry Ducruet, Thao Huynh, Ann Gamsa, Gary J Bennett, Jean-Paul Collet Smoked cannabis for chronic neuropathic pain: a randomized controlled trial CMAJ . ( 2010 Oct 5 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/20805210"
+    },
+    {
+      "text": "Sleep Quality - Liu Y, Yu Y, Lu S, Tan K, Jiang P, Liu P, Peng Q Impact of probiotics on sleep quality and mood states in patients with insomnia: a systematic review and meta-analysis. Front Microbiol . ( 2025 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40740336"
+    },
+    {
+      "text": "Sleep Quality - . ( 2024-05-30 )",
+      "link": "https://www.mdpi.com/2072-6643/16/11/1702"
+    },
+    {
+      "text": "Sleep Quality - Sucu C, Çitil ET The effect of progressive muscle relaxation exercises on postmenopausal sleep quality and fatigue: a single-blind randomized controlled study. Menopause . ( 2024 Aug 1 )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/39058233"
+    },
+    {
+      "text": "Anxiety Symptoms - Zhang W, Yan Y, Wu Y, Yang H, Zhu P, Yan F, Zhao R, Tian P, Wang T, Fan Q, Su Z Medicinal herbs for the treatment of anxiety: A systematic review and network meta-analysis. Pharmacol Res . ( 2022-May )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/35378276"
+    },
+    {
+      "text": "Anxiety Symptoms - Lee J, Jung HY, Lee SI, Choi JH, Kim SG Effects of Passiflora incarnata Linnaeus on polysomnographic sleep parameters in subjects with insomnia disorder: a double-blind randomized placebo-controlled study. Int Clin Psychopharmacol . ( 2020-Jan )",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/31714321"
+    }
+  ]
+}

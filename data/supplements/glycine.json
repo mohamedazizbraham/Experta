@@ -1,0 +1,48 @@
+{
+  "slug": "glycine",
+  "name": "Glycine",
+  "name_en": "Glycine",
+  "description": "La glycine est un acide aminé et un neurotransmetteur. Elle peut jouer à la fois des rôles stimulants et dépressifs dans le cerveau et a fait l'objet de recherches concernant ses effets sur la schizophrénie et le sommeil.",
+  "overview": [],
+  "dosage": "Formulation : la glycine est le plus souvent prise sous forme de poudre dissoute dans un liquide (eau, jus, etc.) ou en gélule. Plage de doses étudiées : les doses de glycine utilisées dans les études ont généralement varié de 3 g à 60 g par jour, pour des durées allant jusqu'à 4 mois. Des doses supérieures à 30 g par jour n'ont été utilisées que dans le cadre de la schizophrénie. [1]",
+  "safety": {
+    "summary": [],
+    "side_effects": {
+      "summary": "",
+      "table": []
+    },
+    "interactions": [],
+    "pregnancy_lactation": [],
+    "precautions": [],
+    "anti_doping": {
+      "label": "",
+      "text": ""
+    }
+  },
+  "database": [
+    {
+      "health_condition_or_goal": "Schizophrénie",
+      "outcomes": []
+    },
+    {
+      "health_condition_or_goal": "Santé du sommeil",
+      "outcomes": []
+    }
+  ],
+  "faq": [
+    {
+      "question": "La glycine affecte-t-elle le contrôle de la glycémie ?",
+      "answer": "La glycine pourrait améliorer le contrôle de la glycémie, mais les données sont trop limitées pour tirer des conclusions. Dans une petite étude portant sur des adultes en bonne santé, la prise de glycine avec 25 g de glucose a réduit la réponse glycémique totale comparée au glucose seul. [17] Cela pourrait suggérer que la prise de glycine avec les repas pourrait diminuer les niveaux de glucose postprandial. Cela pourrait être dû à la stimulation par la glycine de la sécrétion d’insuline. [17] [18] Chez les personnes atteintes de diabète de type 2, la glycine a permis de réduire l’HbA1c lorsqu’elle était prise avec les repas pendant une période de 3 mois. Bien que des diminutions de la glycémie à jeun et de la résistance à l’insuline (HOMA-IR) aient également été rapportées, elles n’étaient pas statistiquement significatives. [19] Des concentrations plus élevées de glycine dans le sang ont également été associées à un risque moindre de diabète de type 2 et de résistance à l’insuline. [20] [21] Cependant, des études de randomisation mendélienne ont suggéré que la baisse des niveaux de glycine observée dans le diabète est plus probablement un effet secondaire de l’aggravation de la résistance à l’insuline, plutôt qu’un facteur causal. [21] [22]"
+    },
+    {
+      "question": "La glycine affecte-t-elle la santé des articulations ?",
+      "answer": "La glycine est un composant majeur du collagène - une protéine importante qui assure le soutien structurel des articulations - et est nécessaire à sa synthèse. [7] [23] La supplémentation en collagène peut être bénéfique pour réduire les symptômes de l’arthrose, [24] [25] mais aucune étude chez l’homme n’a encore examiné si la supplémentation en glycine pourrait également améliorer la santé des articulations. Les recherches in vitro suggèrent que la glycine pourrait augmenter la synthèse de collagène par les cellules articulaires, [26] [27] mais des études supplémentaires sont nécessaires."
+    },
+    {
+      "question": "Quels sont les autres noms de la glycine ?",
+      "answer": "Notez que Glycine est également connue sous le nom de : Glycine ne doit pas être confondue avec : - Gly - Glycerin - Glycerol"
+    }
+  ],
+  "references": [],
+  "database_references": []
+}
