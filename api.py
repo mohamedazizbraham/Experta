@@ -106,6 +106,63 @@ class DecideRequest(BaseModel):
     conditions_medicales: Optional[List[str]] = None
 
 
+def _clean_text_list(values: Any) -> List[str]:
+    if not isinstance(values, list):
+        return []
+
+    out: List[str] = []
+    for value in values:
+        if isinstance(value, str):
+            txt = value.strip()
+            if txt:
+                out.append(txt)
+    return out
+
+
+def _dedupe_keep_order(values: List[str]) -> List[str]:
+    seen = set()
+    out: List[str] = []
+    for value in values:
+        key = value.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(value)
+    return out
+
+
+def _decision_input_from_profile(profile: Dict[str, Any]) -> Dict[str, List[str]]:
+    profile = profile or {}
+    medical = profile.get("medical") or {}
+    personal = profile.get("personal") or {}
+
+    symptomes = _dedupe_keep_order(
+        _clean_text_list(profile.get("goals"))
+        + _clean_text_list(profile.get("symptomes"))
+        + _clean_text_list(profile.get("symptoms"))
+        + _clean_text_list(personal.get("symptomes"))
+        + _clean_text_list(personal.get("symptoms"))
+    )
+
+    conditions_medicales = _dedupe_keep_order(
+        _clean_text_list(medical.get("conditions"))
+        + _clean_text_list(medical.get("diseases"))
+        + _clean_text_list(medical.get("medications"))
+        + _clean_text_list(medical.get("allergies"))
+    )
+
+    if medical.get("is_pregnant") is True:
+        conditions_medicales.append("grossesse")
+    if medical.get("is_breastfeeding") is True:
+        conditions_medicales.append("allaitement")
+    conditions_medicales = _dedupe_keep_order(conditions_medicales)
+
+    return {
+        "symptomes": symptomes,
+        "conditions_medicales": conditions_medicales,
+    }
+
+
 def _now_utc() -> datetime:
     return datetime.now(timezone.utc)
 
@@ -254,3 +311,29 @@ async def update_profile(
 @app.post("/decide")
 async def decide(req: DecideRequest):
     return await run_in_threadpool(decide_rules, req.symptomes, req.conditions_medicales)
+
+
+@app.get("/decide/me")
+async def decide_for_me(user: Dict[str, Any] = Depends(get_current_user)):
+    profile = user.get("profile") or {}
+    prepared = _decision_input_from_profile(profile)
+
+    if not prepared["symptomes"]:
+        raise HTTPException(
+            status_code=400,
+            detail=(
+                "No usable symptoms/goals found in your profile. "
+                "Update `profile.goals` or `profile.personal.symptomes` first."
+            ),
+        )
+
+    decision = await run_in_threadpool(
+        decide_rules,
+        prepared["symptomes"],
+        prepared["conditions_medicales"],
+    )
+    return {
+        "user_id": str(user["_id"]),
+        "derived_input": prepared,
+        "decision": decision,
+    }
