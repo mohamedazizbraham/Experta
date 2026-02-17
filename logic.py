@@ -1,10 +1,12 @@
-# logic.py
+﻿# logic.py
 
 # --- PYTHON 3.10+ COMPATIBILITY PATCH ---
 # Experta uses an old collection mapping that was removed in Python 3.10.
 # This patch redirects the old path to the new one.
 import collections
 import collections.abc
+import re
+import unicodedata
 
 if not hasattr(collections, "Mapping"):
     collections.Mapping = collections.abc.Mapping
@@ -25,8 +27,8 @@ def extract_health_conditions_from_supplements() -> Dict[str, List[str]]:
         
     Example:
         {
-            "Alpha-Lactalbumin": ["Santé du sommeil"],
-            "5-HTP": ["Dépression", "Anxiété", "Sommeil"],
+            "Alpha-Lactalbumin": ["SantÃ© du sommeil"],
+            "5-HTP": ["DÃ©pression", "AnxiÃ©tÃ©", "Sommeil"],
             ...
         }
     """
@@ -59,30 +61,59 @@ def extract_health_conditions_from_supplements() -> Dict[str, List[str]]:
 def normalize_health_condition(condition: str) -> str:
     """
     Normalize a health condition by extracting the main keyword.
-    
+
     Args:
-        condition: Raw health condition string (e.g., "Santé du sommeil")
-        
+        condition: Raw health condition string (e.g., "Sante du sommeil")
+
     Returns:
         str: Normalized condition (e.g., "sommeil")
-        
+
     Examples:
-        normalize_health_condition("Santé du sommeil") -> "sommeil"
+        normalize_health_condition("Sante du sommeil") -> "sommeil"
         normalize_health_condition("Sommeil") -> "sommeil"
-        normalize_health_condition("Santé cardiovasculaire générale") -> "cardiovasculaire"
+        normalize_health_condition("Sante cardiovasculaire generale") -> "cardiovasculaire"
     """
-    # Stop words to remove (articles, prepositions, qualifiers)
-    stop_words = {"santé", "de", "du", "de", "la", "le", "et", "ou", "bien-être", "générale", "général"}
-    
-    # Convert to lowercase and split
-    words = condition.lower().split()
-    
-    # Filter out stop words
-    filtered = [w for w in words if w not in stop_words and w]
-    
-    # Return the first significant word (usually the main condition)
-    # We use first instead of last to get "cardiovasculaire" from "cardiovasculaire générale"
-    return filtered[0] if filtered else condition.lower()
+    raw = condition or ""
+
+    # Handle common mojibake seen in legacy data/docs, e.g. "SantÃ©" -> "Santé".
+    # Run up to 2 times to also recover double-encoded payloads.
+    for _ in range(2):
+        if not any(ch in raw for ch in ("Ã", "Â", "â")):
+            break
+        try:
+            repaired = raw.encode("latin-1").decode("utf-8")
+        except Exception:
+            break
+        if repaired == raw:
+            break
+        raw = repaired
+
+    # Fold accents and punctuation so matching works with UI labels such as
+    # "Ameliorer mon sommeil", "Reduire mon stress", etc.
+    folded = unicodedata.normalize("NFKD", raw)
+    folded = "".join(ch for ch in folded if not unicodedata.combining(ch))
+    words = [w for w in re.split(r"[^a-z0-9]+", folded.lower()) if w]
+
+    # Generic words to ignore:
+    # - articles / glue words
+    # - high-level action words often found in goal labels
+    stop_words = {
+        "sante", "de", "du", "la", "le", "les", "des", "et", "ou", "generale", "general",
+        "mon", "ma", "mes", "notre", "nos",
+        "ameliorer", "ameliore", "amelioration",
+        "reduire", "diminuer", "gerer", "augmenter", "optimiser", "favoriser",
+        "maintenir", "soutenir", "booster",
+    }
+
+    filtered = [w for w in words if w not in stop_words]
+
+    # Keep first significant token to preserve prior behavior:
+    # "sante cardiovasculaire generale" -> "cardiovasculaire".
+    if filtered:
+        return filtered[0]
+    if words:
+        return words[0]
+    return ""
 
 
 def match_symptoms_with_products(patient_symptoms: List[str]) -> Dict[str, Dict]:
@@ -98,12 +129,12 @@ def match_symptoms_with_products(patient_symptoms: List[str]) -> Dict[str, Dict]
         {
             "Alpha-Lactalbumin": {
                 "matched_symptoms": ["sommeil"],
-                "raw_conditions": ["Santé du sommeil"],
+                "raw_conditions": ["SantÃ© du sommeil"],
                 "score": 1
             },
             "5-HTP": {
-                "matched_symptoms": ["dépression", "sommeil"],
-                "raw_conditions": ["Dépression", "Anxiété", "Sommeil"],
+                "matched_symptoms": ["dÃ©pression", "sommeil"],
+                "raw_conditions": ["DÃ©pression", "AnxiÃ©tÃ©", "Sommeil"],
                 "score": 2
             }
         }
@@ -192,7 +223,7 @@ class MoteurRecommandation(KnowledgeEngine):
         
         for product_name, conditions in product_conditions.items():
             for condition in conditions:
-                # Normalize the condition (e.g., "Santé du sommeil" -> "sommeil")
+                # Normalize the condition (e.g., "SantÃ© du sommeil" -> "sommeil")
                 normalized_condition = normalize_health_condition(condition)
                 # Declare that this product treats this normalized condition
                 yield Produit(nom=product_name, cible=normalized_condition)
@@ -213,8 +244,8 @@ class MoteurRecommandation(KnowledgeEngine):
                         safety_info = precaution.get('safety_information', '').lower()
                         
                         # Detect warning keywords in French (as data is in French)
-                        # We look for "éviter" (avoid) or "limiter" (limit)
-                        is_risky = "éviter" in condition_text or "éviter" in safety_info or "limiter" in safety_info
+                        # We look for "Ã©viter" (avoid) or "limiter" (limit)
+                        is_risky = "Ã©viter" in condition_text or "Ã©viter" in safety_info or "limiter" in safety_info
                         
                         if "grossesse" in condition_text and is_risky:
                             yield ContreIndication(produit=product_name, condition="grossesse")
@@ -261,3 +292,4 @@ class MoteurRecommandation(KnowledgeEngine):
     def generate_recommendation(self, p, s):
         # We declare the final recommendation
         self.declare(Recommandation(nom=p, cible=s))
+

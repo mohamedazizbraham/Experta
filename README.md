@@ -247,6 +247,7 @@ This ensures the system runs smoothly on modern Python versions.
 ## Documentation
 
 - **CLAUDE.md**: Guidance for AI assistants working with this codebase
+- **FRONTEND_HANDOFF.md**: Backend files and API contract to share with frontend developers
 - **code progress.md**: Development progress notes and architectural decisions
 - **Explication/EXPLICATION.md**: Comprehensive French documentation explaining system architecture, data flow, and evolution
 - **Explication/RESULTATS_EXECUTION.md**: Validation results and test execution outputs (French)

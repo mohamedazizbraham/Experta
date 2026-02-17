@@ -106,6 +106,15 @@ class DecideRequest(BaseModel):
     conditions_medicales: Optional[List[str]] = None
 
 
+class RecommendationResponse(BaseModel):
+    id: str
+    user_id: str
+    source: str
+    input: Dict[str, Any]
+    decision: Dict[str, Any]
+    created_at: datetime
+
+
 def _clean_text_list(values: Any) -> List[str]:
     if not isinstance(values, list):
         return []
@@ -200,6 +209,40 @@ def user_public(u: Dict[str, Any], include_personal: bool = True) -> Dict[str, A
 
 
 # ✅✅✅ FIX PRINCIPAL: payload JWT -> user_id = payload["sub"]
+def recommendation_public(doc: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "id": str(doc["_id"]),
+        "user_id": str(doc["user_id"]),
+        "source": doc.get("source", "profile"),
+        "input": doc.get("input", {}),
+        "decision": doc.get("decision", {}),
+        "created_at": doc.get("created_at"),
+    }
+
+
+async def save_recommendation(
+    db: AsyncIOMotorDatabase,
+    *,
+    user_id: ObjectId,
+    source: str,
+    input_payload: Dict[str, Any],
+    decision_payload: Dict[str, Any],
+) -> Dict[str, Any]:
+    now = _now_utc()
+    doc = {
+        "user_id": user_id,
+        "source": source,
+        "input": input_payload,
+        "decision": decision_payload,
+        "created_at": now,
+    }
+    result = await db.recommendations.insert_one(doc)
+    created = await db.recommendations.find_one({"_id": result.inserted_id})
+    if not created:
+        raise HTTPException(status_code=500, detail="Failed to save recommendation")
+    return created
+
+
 async def get_current_user(
     token: str = Depends(oauth2_scheme),
     db: AsyncIOMotorDatabase = Depends(get_db),
@@ -314,7 +357,10 @@ async def decide(req: DecideRequest):
 
 
 @app.get("/decide/me")
-async def decide_for_me(user: Dict[str, Any] = Depends(get_current_user)):
+async def decide_for_me(
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
     profile = user.get("profile") or {}
     prepared = _decision_input_from_profile(profile)
 
@@ -332,8 +378,51 @@ async def decide_for_me(user: Dict[str, Any] = Depends(get_current_user)):
         prepared["symptomes"],
         prepared["conditions_medicales"],
     )
+    saved = await save_recommendation(
+        db,
+        user_id=user["_id"],
+        source="profile",
+        input_payload=prepared,
+        decision_payload=decision,
+    )
     return {
         "user_id": str(user["_id"]),
         "derived_input": prepared,
         "decision": decision,
+        "saved_recommendation_id": str(saved["_id"]),
+        "saved_at": saved["created_at"],
     }
+
+
+@app.get("/users/me/recommendations", response_model=List[RecommendationResponse])
+async def list_my_recommendations(
+    limit: int = 20,
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    limit = max(1, min(limit, 100))
+    cursor = (
+        db.recommendations
+        .find({"user_id": user["_id"]})
+        .sort("created_at", -1)
+        .limit(limit)
+    )
+    items = await cursor.to_list(length=limit)
+    return [recommendation_public(item) for item in items]
+
+
+@app.get("/users/me/recommendations/{recommendation_id}", response_model=RecommendationResponse)
+async def get_my_recommendation(
+    recommendation_id: str,
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    try:
+        rec_id = ObjectId(recommendation_id)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid recommendation id")
+
+    item = await db.recommendations.find_one({"_id": rec_id, "user_id": user["_id"]})
+    if not item:
+        raise HTTPException(status_code=404, detail="Recommendation not found")
+    return recommendation_public(item)
