@@ -12,6 +12,7 @@ from motor.motor_asyncio import AsyncIOMotorDatabase
 from pydantic import BaseModel, EmailStr, Field
 from starlette.concurrency import run_in_threadpool
 
+from database import CATALOGUE_COMPLET
 from mongo import get_db
 from security import create_access_token, decode_access_token, hash_password, verify_password
 from service import decide as decide_rules
@@ -115,6 +116,43 @@ class RecommendationResponse(BaseModel):
     created_at: datetime
 
 
+class BestDecisionComplementTakenRequest(BaseModel):
+    taken_at: Optional[datetime] = None
+
+
+class RecommendationIntakeItemRequest(BaseModel):
+    supplement_id: Optional[str] = Field(default=None, max_length=200)
+    supplement_name: str = Field(min_length=1, max_length=200)
+    objective_key: Optional[str] = Field(default=None, max_length=200)
+    objective_label: Optional[str] = Field(default=None, max_length=200)
+    taken: bool = True
+    taken_at: Optional[datetime] = None
+
+
+class RecommendationIntakesBulkRequest(BaseModel):
+    intakes: List[RecommendationIntakeItemRequest] = Field(default_factory=list)
+
+
+class RecommendationIntakeResponse(BaseModel):
+    id: str
+    user_id: str
+    recommendation_id: str
+    supplement_id: Optional[str] = None
+    supplement_name: str
+    objective_key: Optional[str] = None
+    objective_label: Optional[str] = None
+    taken: bool
+    taken_at: datetime
+    created_at: datetime
+
+
+class RecommendationIntakesBulkResponse(BaseModel):
+    recommendation_id: str
+    saved_count: int
+    intakes: List[RecommendationIntakeResponse]
+    decision: Dict[str, Any]
+
+
 def _clean_text_list(values: Any) -> List[str]:
     if not isinstance(values, list):
         return []
@@ -182,6 +220,89 @@ def _to_mongo_value(v: Any) -> Any:
     return v
 
 
+def _build_complement_product_names() -> set[str]:
+    names: set[str] = set()
+    sheets = CATALOGUE_COMPLET.get("complement_alimentaire") or []
+    for sheet in sheets:
+        if not isinstance(sheet, dict):
+            continue
+        raw_name = sheet.get("name")
+        if not isinstance(raw_name, str):
+            continue
+        name = raw_name.strip()
+        if name:
+            names.add(name.casefold())
+    return names
+
+
+COMPLEMENT_PRODUCT_NAMES = _build_complement_product_names()
+
+
+def _is_complement_alimentaire_product(product_name: Any) -> bool:
+    if not isinstance(product_name, str):
+        return False
+    return product_name.strip().casefold() in COMPLEMENT_PRODUCT_NAMES
+
+
+def _to_utc_datetime(value: Optional[datetime]) -> datetime:
+    if value is None:
+        return _now_utc()
+    if value.tzinfo is None:
+        return value.replace(tzinfo=timezone.utc)
+    return value.astimezone(timezone.utc)
+
+
+def _recommendation_item_product_name(item: Dict[str, Any]) -> Optional[str]:
+    if not isinstance(item, dict):
+        return None
+
+    candidates = [
+        item.get("produit"),
+        item.get("product"),
+        item.get("nom"),
+        item.get("name"),
+        item.get("supplement"),
+        item.get("intervention"),
+    ]
+    for value in candidates:
+        if isinstance(value, str):
+            txt = value.strip()
+            if txt:
+                return txt
+    return None
+
+
+def _with_best_decision_complement_times(decision_payload: Dict[str, Any]) -> Dict[str, Any]:
+    if not isinstance(decision_payload, dict):
+        return {}
+
+    decision = dict(decision_payload)
+    recommendations = decision.get("recommendations")
+    if isinstance(recommendations, list):
+        recommendations_copy: List[Any] = []
+        for item in recommendations:
+            if not isinstance(item, dict):
+                recommendations_copy.append(item)
+                continue
+            item_copy = dict(item)
+            if not isinstance(item_copy.get("complement_taken_times"), list):
+                item_copy["complement_taken_times"] = []
+            recommendations_copy.append(item_copy)
+        decision["recommendations"] = recommendations_copy
+
+    best_decision = decision.get("best_decision")
+    if not isinstance(best_decision, dict):
+        return decision
+
+    best_decision_copy = dict(best_decision)
+    if _is_complement_alimentaire_product(best_decision_copy.get("produit")):
+        if not isinstance(best_decision_copy.get("complement_taken_times"), list):
+            best_decision_copy["complement_taken_times"] = []
+
+    decision["best_decision"] = best_decision_copy
+    return decision
+
+
 def _flatten(prefix: str, obj: Dict[str, Any]) -> Dict[str, Any]:
     out: Dict[str, Any] = {}
     for k, v in obj.items():
@@ -210,12 +331,35 @@ def user_public(u: Dict[str, Any], include_personal: bool = True) -> Dict[str, A
 
 # ✅✅✅ FIX PRINCIPAL: payload JWT -> user_id = payload["sub"]
 def recommendation_public(doc: Dict[str, Any]) -> Dict[str, Any]:
+    decision = _with_best_decision_complement_times(doc.get("decision", {}))
     return {
         "id": str(doc["_id"]),
         "user_id": str(doc["user_id"]),
         "source": doc.get("source", "profile"),
         "input": doc.get("input", {}),
-        "decision": doc.get("decision", {}),
+        "decision": decision,
+        "created_at": doc.get("created_at"),
+    }
+
+
+def _clean_optional_text(value: Optional[str]) -> Optional[str]:
+    if not isinstance(value, str):
+        return None
+    txt = value.strip()
+    return txt if txt else None
+
+
+def recommendation_intake_public(doc: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "id": str(doc["_id"]),
+        "user_id": str(doc["user_id"]),
+        "recommendation_id": str(doc["recommendation_id"]),
+        "supplement_id": doc.get("supplement_id"),
+        "supplement_name": doc.get("supplement_name", ""),
+        "objective_key": doc.get("objective_key"),
+        "objective_label": doc.get("objective_label"),
+        "taken": bool(doc.get("taken", False)),
+        "taken_at": doc.get("taken_at"),
         "created_at": doc.get("created_at"),
     }
 
@@ -229,6 +373,7 @@ async def save_recommendation(
     decision_payload: Dict[str, Any],
 ) -> Dict[str, Any]:
     now = _now_utc()
+    decision_payload = _with_best_decision_complement_times(decision_payload)
     doc = {
         "user_id": user_id,
         "source": source,
@@ -378,6 +523,7 @@ async def decide_for_me(
         prepared["symptomes"],
         prepared["conditions_medicales"],
     )
+    decision = _with_best_decision_complement_times(decision)
     saved = await save_recommendation(
         db,
         user_id=user["_id"],
@@ -426,3 +572,202 @@ async def get_my_recommendation(
     if not item:
         raise HTTPException(status_code=404, detail="Recommendation not found")
     return recommendation_public(item)
+
+
+@app.get(
+    "/users/me/recommendations/{recommendation_id}/intakes",
+    response_model=List[RecommendationIntakeResponse],
+)
+async def list_my_recommendation_intakes(
+    recommendation_id: str,
+    limit: int = 200,
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    limit = max(1, min(limit, 500))
+
+    try:
+        rec_id = ObjectId(recommendation_id)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid recommendation id")
+
+    recommendation = await db.recommendations.find_one({"_id": rec_id, "user_id": user["_id"]})
+    if not recommendation:
+        raise HTTPException(status_code=404, detail="Recommendation not found")
+
+    cursor = (
+        db.recommendation_intakes
+        .find({"recommendation_id": rec_id, "user_id": user["_id"]})
+        .sort("taken_at", -1)
+        .limit(limit)
+    )
+    docs = await cursor.to_list(length=limit)
+    return [recommendation_intake_public(doc) for doc in docs]
+
+
+@app.post(
+    "/users/me/recommendations/{recommendation_id}/intakes/bulk",
+    response_model=RecommendationIntakesBulkResponse,
+)
+async def save_my_recommendation_intakes(
+    recommendation_id: str,
+    payload: RecommendationIntakesBulkRequest,
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    if not payload.intakes:
+        raise HTTPException(status_code=400, detail="No intakes provided")
+
+    try:
+        rec_id = ObjectId(recommendation_id)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid recommendation id")
+
+    recommendation = await db.recommendations.find_one({"_id": rec_id, "user_id": user["_id"]})
+    if not recommendation:
+        raise HTTPException(status_code=404, detail="Recommendation not found")
+
+    decision = _with_best_decision_complement_times(
+        recommendation.get("decision", {}) if isinstance(recommendation, dict) else {}
+    )
+    best_decision = decision.get("best_decision") if isinstance(decision, dict) else None
+    recommendations = decision.get("recommendations") if isinstance(decision, dict) else None
+
+    best_product_name: Optional[str] = None
+    if isinstance(best_decision, dict):
+        best_product_name = _clean_optional_text(_recommendation_item_product_name(best_decision))
+        if best_product_name and not _is_complement_alimentaire_product(best_product_name):
+            best_product_name = None
+
+    now = _now_utc()
+    docs: List[Dict[str, Any]] = []
+
+    for i, intake in enumerate(payload.intakes):
+        supplement_name = _clean_optional_text(intake.supplement_name)
+        if not supplement_name:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Invalid supplement_name at intakes[{i}]",
+            )
+
+        taken_at = _to_utc_datetime(intake.taken_at)
+        intake_doc = {
+            "user_id": user["_id"],
+            "recommendation_id": rec_id,
+            "supplement_id": _clean_optional_text(intake.supplement_id),
+            "supplement_name": supplement_name,
+            "objective_key": _clean_optional_text(intake.objective_key),
+            "objective_label": _clean_optional_text(intake.objective_label),
+            "taken": bool(intake.taken),
+            "taken_at": taken_at,
+            "created_at": now,
+        }
+        docs.append(intake_doc)
+
+        if (
+            best_product_name
+            and intake_doc["taken"] is True
+            and supplement_name.casefold() == best_product_name.casefold()
+        ):
+            best_times = best_decision.get("complement_taken_times") if isinstance(best_decision, dict) else None
+            if isinstance(best_times, list):
+                best_times.append(taken_at)
+
+        if intake_doc["taken"] is True and isinstance(recommendations, list):
+            supplement_key = supplement_name.casefold()
+            for rec_item in recommendations:
+                if not isinstance(rec_item, dict):
+                    continue
+                rec_name = _recommendation_item_product_name(rec_item)
+                if not rec_name or rec_name.casefold() != supplement_key:
+                    continue
+                rec_times = rec_item.get("complement_taken_times")
+                if isinstance(rec_times, list):
+                    rec_times.append(taken_at)
+
+    result = await db.recommendation_intakes.insert_many(docs)
+    created_docs = await (
+        db.recommendation_intakes
+        .find({"_id": {"$in": result.inserted_ids}})
+        .sort("created_at", -1)
+        .to_list(length=len(result.inserted_ids))
+    )
+
+    await db.recommendations.update_one(
+        {"_id": rec_id, "user_id": user["_id"]},
+        {"$set": {"decision": decision}},
+    )
+
+    updated_recommendation = await db.recommendations.find_one({"_id": rec_id, "user_id": user["_id"]})
+    if not updated_recommendation:
+        raise HTTPException(status_code=500, detail="Failed to update recommendation")
+
+    return {
+        "recommendation_id": recommendation_id,
+        "saved_count": len(created_docs),
+        "intakes": [recommendation_intake_public(doc) for doc in created_docs],
+        "decision": _with_best_decision_complement_times(updated_recommendation.get("decision", {})),
+    }
+
+
+@app.post(
+    "/users/me/recommendations/{recommendation_id}/best-decision/complement-times",
+    response_model=RecommendationResponse,
+)
+async def add_best_decision_complement_time(
+    recommendation_id: str,
+    payload: Optional[BestDecisionComplementTakenRequest] = None,
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    try:
+        rec_id = ObjectId(recommendation_id)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid recommendation id")
+
+    item = await db.recommendations.find_one({"_id": rec_id, "user_id": user["_id"]})
+    if not item:
+        raise HTTPException(status_code=404, detail="Recommendation not found")
+
+    decision = _with_best_decision_complement_times(
+        item.get("decision", {}) if isinstance(item, dict) else {}
+    )
+    best_decision = decision.get("best_decision") if isinstance(decision, dict) else None
+    if not isinstance(best_decision, dict):
+        raise HTTPException(status_code=400, detail="This recommendation has no best decision")
+
+    product_name = _recommendation_item_product_name(best_decision)
+    if not _is_complement_alimentaire_product(product_name):
+        raise HTTPException(
+            status_code=400,
+            detail="Best decision is not a complement_alimentaire product",
+        )
+
+    taken_at = _to_utc_datetime(payload.taken_at if payload else None)
+    best_times = best_decision.get("complement_taken_times")
+    if isinstance(best_times, list):
+        best_times.append(taken_at)
+
+    recommendations = decision.get("recommendations") if isinstance(decision, dict) else None
+    if isinstance(recommendations, list):
+        product_key = product_name.casefold() if isinstance(product_name, str) else None
+        if product_key:
+            for rec_item in recommendations:
+                if not isinstance(rec_item, dict):
+                    continue
+                rec_name = _recommendation_item_product_name(rec_item)
+                if not rec_name or rec_name.casefold() != product_key:
+                    continue
+                rec_times = rec_item.get("complement_taken_times")
+                if isinstance(rec_times, list):
+                    rec_times.append(taken_at)
+
+    await db.recommendations.update_one(
+        {"_id": rec_id, "user_id": user["_id"]},
+        {"$set": {"decision": decision}},
+    )
+
+    updated = await db.recommendations.find_one({"_id": rec_id, "user_id": user["_id"]})
+    if not updated:
+        raise HTTPException(status_code=500, detail="Failed to update recommendation")
+    return recommendation_public(updated)

@@ -22,8 +22,12 @@ What it provides:
   - `GET /decide/me`
   - `GET /users/me/recommendations`
   - `GET /users/me/recommendations/{recommendation_id}`
+  - `GET /users/me/recommendations/{recommendation_id}/intakes`
+  - `POST /users/me/recommendations/{recommendation_id}/intakes/bulk`
+  - `POST /users/me/recommendations/{recommendation_id}/best-decision/complement-times`
 - Recommendation persistence:
   - `GET /decide/me` computes a recommendation and saves it in MongoDB (`recommendations` collection).
+  - Intake submissions are persisted in MongoDB (`recommendation_intakes` collection).
 
 ### `mongo.py`
 MongoDB configuration and dependency wiring for the API.
@@ -56,6 +60,7 @@ Recommendation service contract consumed by `/decide` and `/decide/me`.
 
 Output fields (important for frontend rendering):
 - `best_decision`
+- `best_decision.complement_taken_times` (list of intake timestamps, for supplement recommendations)
 - `recommendations`
 - `forbidden_products`
 - `unknown_symptomes`
