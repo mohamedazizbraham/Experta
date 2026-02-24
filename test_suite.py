@@ -1,4 +1,7 @@
 ﻿import unittest
+from datetime import datetime, timezone
+
+from bson import ObjectId
 from logic import (
     extract_health_conditions_from_supplements,
     normalize_health_condition,
@@ -6,7 +9,19 @@ from logic import (
     MoteurRecommandation,
     Produit
 )
+from api import (
+    _augment_decision_with_goal_groups,
+    _build_carried_intake_docs,
+    _build_intake_targets_from_decision,
+    _decision_input_from_profile,
+)
 from database import CATALOGUE_COMPLET
+from goals import (
+    canonical_goal_for_symptom,
+    canonical_goals_for_symptom,
+    canonicalize_goal_list,
+)
+from service import decide
 
 
 def _norm(s: str) -> str:
@@ -238,7 +253,133 @@ class TestIntegrationScenarios(unittest.TestCase):
         self.assertGreaterEqual(first_product["score"], 1)
 
 
+class TestCanonicalGoals(unittest.TestCase):
+    """Tests de normalisation et regroupement des objectifs."""
+
+    def test_canonicalize_goal_list_deduplicates_variants(self):
+        values = [
+            "Sleep Health",
+            "sante du sommeil",
+            "sleep_support",
+            "Ameliorer mon sommeil",
+        ]
+        out = canonicalize_goal_list(values)
+        self.assertEqual(out, ["sleep_support"])
+
+    def test_goal_for_symptom_maps_weight_variants(self):
+        self.assertEqual(canonical_goal_for_symptom("Perte de poids et maintien"), "weight_loss")
+        self.assertEqual(canonical_goal_for_symptom("Obesity"), "weight_loss")
+
+    def test_goal_for_symptom_supports_multiple_goal_matches(self):
+        goals = canonical_goals_for_symptom("surpoids")
+        self.assertIn("weight_loss", goals)
+        self.assertIn("appetite_control", goals)
+
+    def test_decision_input_from_profile_uses_canonical_goals(self):
+        prepared = _decision_input_from_profile(
+            {
+                "goals": [
+                    "Sleep Health",
+                    "Amelioration de l'humeur",
+                    "Stress anxiety support",
+                ]
+            }
+        )
+        self.assertIn("sleep_support", prepared["goals"])
+        self.assertIn("mood_depression_support", prepared["goals"])
+        self.assertIn("stress_anxiety_support", prepared["goals"])
+        self.assertIn("sommeil", prepared["symptomes"])
+
+    def test_augmented_decision_groups_recommendations_by_goal(self):
+        prepared = _decision_input_from_profile(
+            {"goals": ["sleep_support", "stress_anxiety_support"]}
+        )
+        decision = decide(prepared["symptomes"], prepared["conditions_medicales"])
+        augmented = _augment_decision_with_goal_groups(decision, prepared)
+
+        grouped = augmented.get("recommendations_by_goal") or {}
+        self.assertIn("sleep_support", grouped)
+        self.assertIn("stress_anxiety_support", grouped)
+        self.assertIsInstance(grouped["sleep_support"], list)
+        self.assertIsInstance(grouped["stress_anxiety_support"], list)
+
+    def test_augmented_decision_respects_selected_goal_for_shared_symptom(self):
+        prepared = {"goals": ["appetite_control"]}
+        decision = {
+            "recommendations": [
+                {
+                    "produit": "Test Product",
+                    "symptomes_couverts": ["surpoids"],
+                }
+            ]
+        }
+
+        augmented = _augment_decision_with_goal_groups(decision, prepared)
+        grouped = augmented.get("recommendations_by_goal") or {}
+        self.assertIn("appetite_control", grouped)
+        self.assertEqual(len(grouped["appetite_control"]), 1)
+        self.assertEqual(grouped["appetite_control"][0].get("goal"), "appetite_control")
+
+
+class TestIntakeCarryOver(unittest.TestCase):
+    """Tests du maintien d'etat des prises entre recommandations."""
+
+    def test_build_intake_targets_from_decision(self):
+        decision = {
+            "recommendations_by_goal": {
+                "sleep_support": [
+                    {"produit": "Melatonine"},
+                    {"produit": "Magnesium"},
+                ]
+            }
+        }
+        targets = _build_intake_targets_from_decision(decision)
+
+        self.assertIn(("sleep_support", "melatonine"), targets)
+        self.assertIn(("sleep_support", "magnesium"), targets)
+        self.assertEqual(
+            targets[("sleep_support", "melatonine")]["supplement_id"],
+            "sleep_support::0",
+        )
+
+    def test_build_carried_intake_docs_keeps_latest_known_state(self):
+        targets = {
+            ("sleep_support", "melatonine"): {
+                "supplement_id": "sleep_support::0",
+                "supplement_name": "Melatonine",
+                "objective_key": "sleep_support",
+                "objective_label": "Ameliorer mon sommeil",
+            }
+        }
+        previous_intakes = [
+            {
+                "supplement_name": "Melatonine",
+                "objective_key": "sleep_support",
+                "taken": False,
+                "taken_at": datetime(2026, 2, 24, 12, 0, tzinfo=timezone.utc),
+            },
+            {
+                "supplement_name": "Melatonine",
+                "objective_key": "sleep_support",
+                "taken": True,
+                "taken_at": datetime(2026, 2, 24, 9, 0, tzinfo=timezone.utc),
+            },
+        ]
+
+        docs = _build_carried_intake_docs(
+            previous_intakes=previous_intakes,
+            targets=targets,
+            user_id=ObjectId(),
+            recommendation_id=ObjectId(),
+        )
+
+        self.assertEqual(len(docs), 1)
+        self.assertFalse(docs[0]["taken"])
+        self.assertEqual(docs[0]["supplement_id"], "sleep_support::0")
+
+
 if __name__ == '__main__':
     # Lance tous les tests et affiche le rapport
     unittest.main()
+
 

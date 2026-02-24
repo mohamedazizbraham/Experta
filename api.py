@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from datetime import date, datetime, timezone
-from typing import Any, Dict, List, Literal, Optional
+from typing import Any, Dict, List, Literal, Optional, Tuple
 
 from bson import ObjectId
 from fastapi import Depends, FastAPI, HTTPException
@@ -13,6 +13,13 @@ from pydantic import BaseModel, EmailStr, Field
 from starlette.concurrency import run_in_threadpool
 
 from database import CATALOGUE_COMPLET
+from goals import (
+    canonical_goals_for_symptom,
+    canonicalize_goal,
+    canonicalize_goal_list,
+    goal_options,
+    symptoms_for_goals,
+)
 from mongo import get_db
 from security import create_access_token, decode_access_token, hash_password, verify_password
 from service import decide as decide_rules
@@ -153,6 +160,20 @@ class RecommendationIntakesBulkResponse(BaseModel):
     decision: Dict[str, Any]
 
 
+class GoalOptionResponse(BaseModel):
+    id: str
+    label: str
+
+
+GOAL_LABEL_BY_ID: Dict[str, str] = {
+    option["id"]: option["label"]
+    for option in goal_options()
+    if isinstance(option, dict)
+    and isinstance(option.get("id"), str)
+    and isinstance(option.get("label"), str)
+}
+
+
 def _clean_text_list(values: Any) -> List[str]:
     if not isinstance(values, list):
         return []
@@ -183,13 +204,22 @@ def _decision_input_from_profile(profile: Dict[str, Any]) -> Dict[str, List[str]
     medical = profile.get("medical") or {}
     personal = profile.get("personal") or {}
 
-    symptomes = _dedupe_keep_order(
-        _clean_text_list(profile.get("goals"))
-        + _clean_text_list(profile.get("symptomes"))
+    raw_goals = _clean_text_list(profile.get("goals"))
+    canonical_goals = canonicalize_goal_list(raw_goals)
+
+    raw_symptomes = _dedupe_keep_order(
+        _clean_text_list(profile.get("symptomes"))
         + _clean_text_list(profile.get("symptoms"))
         + _clean_text_list(personal.get("symptomes"))
         + _clean_text_list(personal.get("symptoms"))
     )
+    raw_symptome_goals = canonicalize_goal_list(raw_symptomes)
+
+    canonical_goal_union = _dedupe_keep_order(canonical_goals + raw_symptome_goals)
+    symptomes_from_goals = symptoms_for_goals(canonical_goal_union)
+
+    free_text_symptomes = [s for s in raw_symptomes if not canonicalize_goal(s)]
+    symptomes = _dedupe_keep_order(symptomes_from_goals + free_text_symptomes)
 
     conditions_medicales = _dedupe_keep_order(
         _clean_text_list(medical.get("conditions"))
@@ -205,6 +235,7 @@ def _decision_input_from_profile(profile: Dict[str, Any]) -> Dict[str, List[str]
     conditions_medicales = _dedupe_keep_order(conditions_medicales)
 
     return {
+        "goals": canonical_goal_union,
         "symptomes": symptomes,
         "conditions_medicales": conditions_medicales,
     }
@@ -303,6 +334,76 @@ def _with_best_decision_complement_times(decision_payload: Dict[str, Any]) -> Di
     return decision
 
 
+def _augment_decision_with_goal_groups(
+    decision_payload: Dict[str, Any],
+    input_payload: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    if not isinstance(decision_payload, dict):
+        return {}
+
+    decision = dict(decision_payload)
+
+    input_record = input_payload if isinstance(input_payload, dict) else {}
+    profile_goals = canonicalize_goal_list(_clean_text_list(input_record.get("goals")))
+    decision_goals = canonicalize_goal_list(_clean_text_list(decision.get("goals")))
+    selected_goals = _dedupe_keep_order(profile_goals + decision_goals)
+
+    recommendations = decision.get("recommendations")
+    if not isinstance(recommendations, list):
+        if selected_goals:
+            decision["goals"] = selected_goals
+            decision["recommendations_by_goal"] = {goal: [] for goal in selected_goals}
+        return decision
+
+    recommendations_copy: List[Any] = []
+    grouped: Dict[str, List[Dict[str, Any]]] = {goal: [] for goal in selected_goals}
+    selected_goal_set = set(selected_goals)
+
+    for item in recommendations:
+        if not isinstance(item, dict):
+            recommendations_copy.append(item)
+            continue
+
+        item_copy = dict(item)
+        explicit_goal_values = (
+            _clean_text_list(item_copy.get("goals"))
+            + _clean_text_list(item_copy.get("objectifs"))
+        )
+        for maybe_goal in [item_copy.get("goal"), item_copy.get("objectif")]:
+            if isinstance(maybe_goal, str) and maybe_goal.strip():
+                explicit_goal_values.append(maybe_goal.strip())
+
+        explicit_goals = canonicalize_goal_list(explicit_goal_values)
+        covered_goals: List[str] = []
+        for symptom in (
+            _clean_text_list(item_copy.get("symptomes_couverts"))
+            + _clean_text_list(item_copy.get("covered_symptoms"))
+        ):
+            covered_goals.extend(canonical_goals_for_symptom(symptom))
+
+        item_goals = _dedupe_keep_order(explicit_goals + covered_goals)
+        if selected_goal_set:
+            item_goals = [goal for goal in item_goals if goal in selected_goal_set]
+        if item_goals:
+            item_copy["goals"] = item_goals
+            item_copy["goal"] = item_goals[0]
+
+        recommendations_copy.append(item_copy)
+        for goal in item_goals:
+            grouped.setdefault(goal, []).append(item_copy)
+
+    decision["recommendations"] = recommendations_copy
+
+    selected_goal_union = _dedupe_keep_order(selected_goals + list(grouped.keys()))
+    if selected_goal_union:
+        decision["goals"] = selected_goal_union
+        decision["recommendations_by_goal"] = {
+            goal: grouped.get(goal, []) for goal in selected_goal_union
+        }
+
+    return decision
+
+
 def _flatten(prefix: str, obj: Dict[str, Any]) -> Dict[str, Any]:
     out: Dict[str, Any] = {}
     for k, v in obj.items():
@@ -331,12 +432,14 @@ def user_public(u: Dict[str, Any], include_personal: bool = True) -> Dict[str, A
 
 # ✅✅✅ FIX PRINCIPAL: payload JWT -> user_id = payload["sub"]
 def recommendation_public(doc: Dict[str, Any]) -> Dict[str, Any]:
+    input_payload = doc.get("input", {}) if isinstance(doc, dict) else {}
     decision = _with_best_decision_complement_times(doc.get("decision", {}))
+    decision = _augment_decision_with_goal_groups(decision, input_payload)
     return {
         "id": str(doc["_id"]),
         "user_id": str(doc["user_id"]),
         "source": doc.get("source", "profile"),
-        "input": doc.get("input", {}),
+        "input": input_payload,
         "decision": decision,
         "created_at": doc.get("created_at"),
     }
@@ -347,6 +450,161 @@ def _clean_optional_text(value: Optional[str]) -> Optional[str]:
         return None
     txt = value.strip()
     return txt if txt else None
+
+
+def _normalize_objective_key(value: Optional[str]) -> Optional[str]:
+    txt = _clean_optional_text(value)
+    if not txt:
+        return None
+    canonical = canonicalize_goal(txt)
+    if canonical:
+        return canonical
+    return txt.casefold()
+
+
+def _build_intake_targets_from_decision(
+    decision_payload: Dict[str, Any],
+) -> Dict[Tuple[str, str], Dict[str, str]]:
+    targets: Dict[Tuple[str, str], Dict[str, str]] = {}
+    if not isinstance(decision_payload, dict):
+        return targets
+
+    grouped = decision_payload.get("recommendations_by_goal")
+    if not isinstance(grouped, dict):
+        return targets
+
+    for raw_goal_key, raw_items in grouped.items():
+        goal_key = _normalize_objective_key(raw_goal_key if isinstance(raw_goal_key, str) else None)
+        if not goal_key or not isinstance(raw_items, list):
+            continue
+
+        objective_label = GOAL_LABEL_BY_ID.get(goal_key, goal_key)
+
+        for index, raw_item in enumerate(raw_items):
+            if not isinstance(raw_item, dict):
+                continue
+
+            supplement_name = _clean_optional_text(_recommendation_item_product_name(raw_item))
+            if not supplement_name:
+                continue
+
+            raw_id = (
+                _clean_optional_text(raw_item.get("id"))
+                or _clean_optional_text(raw_item.get("_id"))
+                or _clean_optional_text(raw_item.get("code"))
+                or str(index)
+            )
+            key = (goal_key, supplement_name.casefold())
+            if key in targets:
+                continue
+
+            targets[key] = {
+                "supplement_id": f"{goal_key}::{raw_id}",
+                "supplement_name": supplement_name,
+                "objective_key": goal_key,
+                "objective_label": objective_label,
+            }
+
+    return targets
+
+
+def _build_carried_intake_docs(
+    *,
+    previous_intakes: List[Dict[str, Any]],
+    targets: Dict[Tuple[str, str], Dict[str, str]],
+    user_id: ObjectId,
+    recommendation_id: ObjectId,
+) -> List[Dict[str, Any]]:
+    if not previous_intakes or not targets:
+        return []
+
+    now = _now_utc()
+    docs: List[Dict[str, Any]] = []
+    seen: set[Tuple[str, str]] = set()
+
+    for intake in previous_intakes:
+        supplement_name = _clean_optional_text(intake.get("supplement_name"))
+        if not supplement_name:
+            continue
+
+        objective_key = _normalize_objective_key(intake.get("objective_key"))
+        if not objective_key:
+            supplement_id = _clean_optional_text(intake.get("supplement_id"))
+            if supplement_id and "::" in supplement_id:
+                objective_key = _normalize_objective_key(supplement_id.split("::", 1)[0])
+        if not objective_key:
+            continue
+
+        key = (objective_key, supplement_name.casefold())
+        if key in seen:
+            continue
+
+        target = targets.get(key)
+        if not target:
+            continue
+        seen.add(key)
+
+        taken_at_raw = intake.get("taken_at")
+        taken_at = _to_utc_datetime(taken_at_raw if isinstance(taken_at_raw, datetime) else None)
+
+        docs.append(
+            {
+                "user_id": user_id,
+                "recommendation_id": recommendation_id,
+                "supplement_id": target["supplement_id"],
+                "supplement_name": target["supplement_name"],
+                "objective_key": target["objective_key"],
+                "objective_label": target["objective_label"],
+                "taken": bool(intake.get("taken", False)),
+                "taken_at": taken_at,
+                "created_at": now,
+            }
+        )
+
+    return docs
+
+
+async def _carry_over_recommendation_intakes(
+    *,
+    db: AsyncIOMotorDatabase,
+    user_id: ObjectId,
+    from_recommendation_id: ObjectId,
+    to_recommendation_id: ObjectId,
+    decision_payload: Dict[str, Any],
+) -> int:
+    if from_recommendation_id == to_recommendation_id:
+        return 0
+
+    existing = await db.recommendation_intakes.find_one(
+        {"user_id": user_id, "recommendation_id": to_recommendation_id}
+    )
+    if existing:
+        return 0
+
+    targets = _build_intake_targets_from_decision(decision_payload)
+    if not targets:
+        return 0
+
+    previous_intakes = await (
+        db.recommendation_intakes
+        .find({"user_id": user_id, "recommendation_id": from_recommendation_id})
+        .sort([("taken_at", -1), ("created_at", -1)])
+        .to_list(length=2000)
+    )
+    if not previous_intakes:
+        return 0
+
+    carried_docs = _build_carried_intake_docs(
+        previous_intakes=previous_intakes,
+        targets=targets,
+        user_id=user_id,
+        recommendation_id=to_recommendation_id,
+    )
+    if not carried_docs:
+        return 0
+
+    await db.recommendation_intakes.insert_many(carried_docs)
+    return len(carried_docs)
 
 
 def recommendation_intake_public(doc: Dict[str, Any]) -> Dict[str, Any]:
@@ -374,6 +632,7 @@ async def save_recommendation(
 ) -> Dict[str, Any]:
     now = _now_utc()
     decision_payload = _with_best_decision_complement_times(decision_payload)
+    decision_payload = _augment_decision_with_goal_groups(decision_payload, input_payload)
     doc = {
         "user_id": user_id,
         "source": source,
@@ -411,6 +670,11 @@ async def get_current_user(
 @app.get("/health")
 async def health():
     return {"ok": True}
+
+
+@app.get("/meta/goals", response_model=List[GoalOptionResponse])
+async def list_goal_options():
+    return goal_options()
 
 
 @app.post("/auth/signup", response_model=TokenResponse)
@@ -477,6 +741,9 @@ async def update_profile(
     if not data:
         return user_public(user)
 
+    if isinstance(data.get("goals"), list):
+        data["goals"] = canonicalize_goal_list(_clean_text_list(data.get("goals")))
+
     # Compat: si first_name/last_name envoyés, construire name
     if isinstance(data.get("personal"), dict):
         personal = data["personal"]
@@ -506,6 +773,11 @@ async def decide_for_me(
     db: AsyncIOMotorDatabase = Depends(get_db),
     user: Dict[str, Any] = Depends(get_current_user),
 ):
+    previous_recommendation = await db.recommendations.find_one(
+        {"user_id": user["_id"]},
+        sort=[("created_at", -1)],
+    )
+
     profile = user.get("profile") or {}
     prepared = _decision_input_from_profile(profile)
 
@@ -524,6 +796,7 @@ async def decide_for_me(
         prepared["conditions_medicales"],
     )
     decision = _with_best_decision_complement_times(decision)
+    decision = _augment_decision_with_goal_groups(decision, prepared)
     saved = await save_recommendation(
         db,
         user_id=user["_id"],
@@ -531,6 +804,16 @@ async def decide_for_me(
         input_payload=prepared,
         decision_payload=decision,
     )
+
+    if previous_recommendation and previous_recommendation.get("_id") != saved.get("_id"):
+        await _carry_over_recommendation_intakes(
+            db=db,
+            user_id=user["_id"],
+            from_recommendation_id=previous_recommendation["_id"],
+            to_recommendation_id=saved["_id"],
+            decision_payload=saved.get("decision", decision),
+        )
+
     return {
         "user_id": str(user["_id"]),
         "derived_input": prepared,
@@ -627,9 +910,11 @@ async def save_my_recommendation_intakes(
     if not recommendation:
         raise HTTPException(status_code=404, detail="Recommendation not found")
 
+    input_payload = recommendation.get("input", {}) if isinstance(recommendation, dict) else {}
     decision = _with_best_decision_complement_times(
         recommendation.get("decision", {}) if isinstance(recommendation, dict) else {}
     )
+    decision = _augment_decision_with_goal_groups(decision, input_payload)
     best_decision = decision.get("best_decision") if isinstance(decision, dict) else None
     recommendations = decision.get("recommendations") if isinstance(decision, dict) else None
 
@@ -706,7 +991,10 @@ async def save_my_recommendation_intakes(
         "recommendation_id": recommendation_id,
         "saved_count": len(created_docs),
         "intakes": [recommendation_intake_public(doc) for doc in created_docs],
-        "decision": _with_best_decision_complement_times(updated_recommendation.get("decision", {})),
+        "decision": _augment_decision_with_goal_groups(
+            _with_best_decision_complement_times(updated_recommendation.get("decision", {})),
+            updated_recommendation.get("input", {}) if isinstance(updated_recommendation, dict) else {},
+        ),
     }
 
 
@@ -731,6 +1019,10 @@ async def add_best_decision_complement_time(
 
     decision = _with_best_decision_complement_times(
         item.get("decision", {}) if isinstance(item, dict) else {}
+    )
+    decision = _augment_decision_with_goal_groups(
+        decision,
+        item.get("input", {}) if isinstance(item, dict) else {},
     )
     best_decision = decision.get("best_decision") if isinstance(decision, dict) else None
     if not isinstance(best_decision, dict):
