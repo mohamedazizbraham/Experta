@@ -28,6 +28,9 @@ What it provides:
 - Recommendation persistence:
   - `GET /decide/me` computes a recommendation and saves it in MongoDB (`recommendations` collection).
   - Intake submissions are persisted in MongoDB (`recommendation_intakes` collection).
+- Encyclopédie endpoints (supplement knowledge base from `data/supplements/*.json`):
+  - `GET /encyclopedie/supplements` (query with `q`, `category`, `limit`, `offset`)
+  - `GET /encyclopedie/supplements/{supplement_id}`
 
 ### `mongo.py`
 MongoDB configuration and dependency wiring for the API.

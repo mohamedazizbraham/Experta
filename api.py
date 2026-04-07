@@ -1,8 +1,10 @@
 # api.py
 from __future__ import annotations
 
-from datetime import date, datetime, timezone
+from datetime import date, datetime, time, timedelta, timezone
+import re
 from typing import Any, Dict, List, Literal, Optional, Tuple
+import unicodedata
 
 from bson import ObjectId
 from fastapi import Depends, FastAPI, HTTPException
@@ -165,6 +167,82 @@ class GoalOptionResponse(BaseModel):
     label: str
 
 
+class EncyclopedieSupplementSummaryResponse(BaseModel):
+    id: str
+    name: str
+    category: str
+    description: str
+    molecules: List[str] = Field(default_factory=list)
+
+
+class EncyclopedieSupplementDetailResponse(EncyclopedieSupplementSummaryResponse):
+    benefits: List[str] = Field(default_factory=list)
+    dosage: Optional[str] = None
+    sources: List[str] = Field(default_factory=list)
+
+
+class WeeklyProgressItem(BaseModel):
+    day: str
+    completed: bool
+
+
+class EvolutionPoint(BaseModel):
+    day: int
+    value: int
+
+
+class MonthlyHeatmapCell(BaseModel):
+    day: int
+    intensity: int
+
+
+class DailyIntakeItem(BaseModel):
+    time: str
+    name: str
+    taken: bool
+
+
+class ExpectedSupplementItem(BaseModel):
+    supplement_id: str
+    supplement_name: str
+    objective_key: Optional[str] = None
+    objective_label: Optional[str] = None
+    timing: Optional[str] = None
+    dosage: Optional[str] = None
+
+
+class ExpectedSupplementGroup(BaseModel):
+    id: str
+    name: str
+    taken: bool = False
+    timing: Optional[str] = None
+    dosage: Optional[str] = None
+    items: List[ExpectedSupplementItem] = Field(default_factory=list)
+
+
+class ProgressResponse(BaseModel):
+    selected_date: str
+    today_progress: int
+    supplements_taken: int
+    supplements_total: int
+    weekly_data: List[WeeklyProgressItem] = Field(default_factory=list)
+    adherence_data: List[bool] = Field(default_factory=list)
+    evolution_data: List[EvolutionPoint] = Field(default_factory=list)
+    monthly_data: List[MonthlyHeatmapCell] = Field(default_factory=list)
+    daily_intakes: List[DailyIntakeItem] = Field(default_factory=list)
+    recommendation_id: Optional[str] = None
+    expected_supplements: List[ExpectedSupplementGroup] = Field(default_factory=list)
+
+
+class DashboardResponse(BaseModel):
+    user_name: str
+    today_progress: int
+    supplements_taken: int
+    supplements_total: int
+    weekly_data: List[WeeklyProgressItem] = Field(default_factory=list)
+    adherence_data: List[bool] = Field(default_factory=list)
+
+
 GOAL_LABEL_BY_ID: Dict[str, str] = {
     option["id"]: option["label"]
     for option in goal_options()
@@ -281,6 +359,316 @@ def _to_utc_datetime(value: Optional[datetime]) -> datetime:
     if value.tzinfo is None:
         return value.replace(tzinfo=timezone.utc)
     return value.astimezone(timezone.utc)
+
+
+_WEEKDAY_LETTERS_FR = ["L", "M", "M", "J", "V", "S", "D"]  # Monday..Sunday
+
+
+def _weekday_letter_fr(value: date) -> str:
+    try:
+        return _WEEKDAY_LETTERS_FR[value.weekday()]
+    except Exception:
+        return "?"
+
+
+def _infer_timing(value: Any) -> str:
+    normalized = str(value).lower() if value is not None else ""
+    has_morning = "morning" in normalized or "matin" in normalized
+    has_evening = (
+        "evening" in normalized
+        or "night" in normalized
+        or "soir" in normalized
+        or "nuit" in normalized
+    )
+
+    if has_morning and has_evening:
+        return "both"
+    if has_morning:
+        return "morning"
+    if has_evening:
+        return "evening"
+    return "unspecified"
+
+
+def _format_time_hhmm(value: datetime) -> str:
+    dt = _to_utc_datetime(value)
+    return dt.strftime("%H:%M")
+
+
+def _parse_anchor_date(date_str: Optional[str]) -> date:
+    if not date_str:
+        return _now_utc().date()
+    try:
+        return date.fromisoformat(date_str)
+    except Exception:
+        raise HTTPException(status_code=400, detail="Invalid date, expected YYYY-MM-DD")
+
+
+def _extract_expected_supplement_groups(decision_payload: Dict[str, Any]) -> List[ExpectedSupplementGroup]:
+    groups: Dict[str, ExpectedSupplementGroup] = {}
+    if not isinstance(decision_payload, dict):
+        return []
+
+    raw_grouped = decision_payload.get("recommendations_by_goal")
+    if not isinstance(raw_grouped, dict):
+        return []
+
+    for raw_goal_key, raw_items in raw_grouped.items():
+        goal_key = _normalize_objective_key(raw_goal_key if isinstance(raw_goal_key, str) else None)
+        if not goal_key or not isinstance(raw_items, list):
+            continue
+
+        objective_label = GOAL_LABEL_BY_ID.get(goal_key, goal_key)
+
+        for index, raw_item in enumerate(raw_items):
+            if not isinstance(raw_item, dict):
+                continue
+
+            supplement_name = _clean_optional_text(_recommendation_item_product_name(raw_item))
+            if not supplement_name:
+                continue
+
+            supplement_name = _repair_mojibake(supplement_name)
+            group_id = _fold_text(supplement_name) or supplement_name.casefold()
+
+            raw_id = (
+                _clean_optional_text(raw_item.get("id"))
+                or _clean_optional_text(raw_item.get("_id"))
+                or _clean_optional_text(raw_item.get("code"))
+                or str(index)
+            )
+            supplement_id = f"{goal_key}::{raw_id}"
+
+            dosage = _clean_optional_text(
+                raw_item.get("posologie")
+                or raw_item.get("dosage")
+                or raw_item.get("dose")
+                or raw_item.get("quantity")
+                or raw_item.get("quantite")
+            )
+            if dosage is not None:
+                dosage = _repair_mojibake(dosage)
+
+            timing = _infer_timing(raw_item.get("timing") or raw_item.get("time") or raw_item.get("moment"))
+
+            group = groups.get(group_id)
+            if not group:
+                group = ExpectedSupplementGroup(
+                    id=group_id,
+                    name=supplement_name,
+                    timing=timing if timing != "unspecified" else None,
+                    dosage=dosage,
+                    taken=False,
+                    items=[],
+                )
+                groups[group_id] = group
+            else:
+                # Merge timing/dosage heuristically so the UI can show one chip per supplement.
+                existing_timing = group.timing or "unspecified"
+                if existing_timing != timing and timing != "unspecified":
+                    if existing_timing == "unspecified":
+                        group.timing = timing
+                    elif existing_timing != "both":
+                        group.timing = "both"
+                if not group.dosage and dosage:
+                    group.dosage = dosage
+
+            group.items.append(
+                ExpectedSupplementItem(
+                    supplement_id=supplement_id,
+                    supplement_name=supplement_name,
+                    objective_key=goal_key,
+                    objective_label=objective_label,
+                    timing=timing if timing != "unspecified" else None,
+                    dosage=dosage,
+                )
+            )
+
+    # Stable ordering for the UI
+    return sorted(groups.values(), key=lambda g: g.name.casefold())
+
+
+async def _build_progress_response_payload(
+    *,
+    db: AsyncIOMotorDatabase,
+    user: Dict[str, Any],
+    anchor: date,
+) -> Dict[str, Any]:
+    user_id = user["_id"]
+
+    recommendation = await db.recommendations.find_one(
+        {"user_id": user_id},
+        sort=[("created_at", -1)],
+    )
+
+    expected_groups: List[ExpectedSupplementGroup] = []
+    recommendation_id: Optional[str] = None
+    if not recommendation:
+        profile = user.get("profile") or {}
+        prepared = _decision_input_from_profile(profile if isinstance(profile, dict) else {})
+        if prepared.get("symptomes"):
+            decision_payload = await run_in_threadpool(
+                decide_rules,
+                prepared["symptomes"],
+                prepared.get("conditions_medicales") or [],
+            )
+            decision_payload = _with_best_decision_complement_times(
+                decision_payload if isinstance(decision_payload, dict) else {}
+            )
+            decision_payload = _augment_decision_with_goal_groups(decision_payload, prepared)
+            recommendation = await save_recommendation(
+                db,
+                user_id=user_id,
+                source="profile",
+                input_payload=prepared,
+                decision_payload=decision_payload,
+            )
+
+    if recommendation:
+        recommendation_id = str(recommendation["_id"])
+        input_payload = recommendation.get("input", {}) if isinstance(recommendation, dict) else {}
+        decision_payload = recommendation.get("decision", {}) if isinstance(recommendation, dict) else {}
+        decision_payload = _with_best_decision_complement_times(decision_payload)
+        decision_payload = _augment_decision_with_goal_groups(decision_payload, input_payload)
+        expected_groups = _extract_expected_supplement_groups(decision_payload)
+
+    expected_keys = {g.id for g in expected_groups}
+    total = len(expected_keys)
+
+    # Fetch the last 30 days of intake events (UTC) and compute per-day states from the latest event.
+    start_day = anchor - timedelta(days=29)
+    start_dt = datetime.combine(start_day, time.min).replace(tzinfo=timezone.utc)
+    end_dt = datetime.combine(anchor + timedelta(days=1), time.min).replace(tzinfo=timezone.utc)
+
+    cursor = (
+        db.recommendation_intakes
+        .find({"user_id": user_id, "taken_at": {"$gte": start_dt, "$lt": end_dt}})
+        .sort("taken_at", 1)
+        .limit(10000)
+    )
+    docs = await cursor.to_list(length=10000)
+
+    # date -> key -> (taken_at, taken)
+    latest_state: Dict[date, Dict[str, Tuple[datetime, bool]]] = {}
+    daily_events: List[DailyIntakeItem] = []
+
+    for doc in docs:
+        taken_at_raw = doc.get("taken_at")
+        if not isinstance(taken_at_raw, datetime):
+            continue
+
+        taken_at = _to_utc_datetime(taken_at_raw)
+        day = taken_at.date()
+
+        raw_name = doc.get("supplement_name")
+        if not isinstance(raw_name, str):
+            continue
+
+        supplement_name = _repair_mojibake(raw_name.strip())
+        if not supplement_name:
+            continue
+
+        key = _fold_text(supplement_name) or supplement_name.casefold()
+
+        # Track only expected supplements for the computed progress.
+        if expected_keys and key not in expected_keys:
+            continue
+
+        taken = bool(doc.get("taken", False))
+
+        day_map = latest_state.setdefault(day, {})
+        previous = day_map.get(key)
+        if previous is None or taken_at > previous[0]:
+            day_map[key] = (taken_at, taken)
+
+        if day == anchor:
+            daily_events.append(
+                DailyIntakeItem(
+                    time=_format_time_hhmm(taken_at),
+                    name=supplement_name,
+                    taken=taken,
+                )
+            )
+
+    daily_events.sort(key=lambda item: item.time)
+
+    def taken_count_for_day(day: date) -> int:
+        if total == 0:
+            return 0
+        states = latest_state.get(day, {})
+        count = 0
+        for key in expected_keys:
+            entry = states.get(key)
+            if entry and entry[1]:
+                count += 1
+        return count
+
+    def percent_for_day(day: date) -> int:
+        if total == 0:
+            return 0
+        pct = round(taken_count_for_day(day) / total * 100)
+        return int(max(0, min(100, pct)))
+
+    taken_today = taken_count_for_day(anchor)
+    today_progress = percent_for_day(anchor)
+
+    weekly_data: List[WeeklyProgressItem] = []
+    for i in range(6, -1, -1):
+        day = anchor - timedelta(days=i)
+        weekly_data.append(
+            WeeklyProgressItem(
+                day=_weekday_letter_fr(day),
+                completed=total > 0 and taken_count_for_day(day) >= total,
+            )
+        )
+
+    evolution_data: List[EvolutionPoint] = []
+    for i in range(9, -1, -1):
+        day = anchor - timedelta(days=i)
+        evolution_data.append(
+            EvolutionPoint(
+                day=10 - i,
+                value=percent_for_day(day),
+            )
+        )
+
+    monthly_data: List[MonthlyHeatmapCell] = []
+    for i in range(29, -1, -1):
+        day = anchor - timedelta(days=i)
+        pct = percent_for_day(day)
+        if pct == 0:
+            intensity = 0
+        elif pct < 50:
+            intensity = 1
+        elif pct < 100:
+            intensity = 2
+        else:
+            intensity = 3
+        monthly_data.append(MonthlyHeatmapCell(day=30 - i, intensity=intensity))
+
+    expected_out: List[ExpectedSupplementGroup] = []
+    today_states = latest_state.get(anchor, {})
+    for group in expected_groups:
+        entry = today_states.get(group.id)
+        expected_out.append(
+            group.model_copy(
+                update={"taken": bool(entry and entry[1])},
+            )
+        )
+
+    return {
+        "selected_date": anchor.isoformat(),
+        "today_progress": today_progress,
+        "supplements_taken": taken_today,
+        "supplements_total": total,
+        "weekly_data": weekly_data,
+        "adherence_data": [item.completed for item in weekly_data],
+        "evolution_data": evolution_data,
+        "monthly_data": monthly_data,
+        "daily_intakes": daily_events,
+        "recommendation_id": recommendation_id,
+        "expected_supplements": expected_out,
+    }
 
 
 def _recommendation_item_product_name(item: Dict[str, Any]) -> Optional[str]:
@@ -675,6 +1063,340 @@ async def health():
 @app.get("/meta/goals", response_model=List[GoalOptionResponse])
 async def list_goal_options():
     return goal_options()
+
+
+@app.get("/dashboard", response_model=DashboardResponse)
+async def dashboard(
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    profile = user.get("profile") or {}
+    personal = profile.get("personal") if isinstance(profile, dict) else {}
+    personal = personal if isinstance(personal, dict) else {}
+    raw_name = personal.get("name") or personal.get("first_name") or ""
+    if not isinstance(raw_name, str):
+        raw_name = ""
+    name = raw_name.strip()
+    user_name = name.split(" ", 1)[0] if name else "User"
+
+    payload = await _build_progress_response_payload(db=db, user=user, anchor=_now_utc().date())
+
+    return {
+        "user_name": user_name,
+        "today_progress": payload["today_progress"],
+        "supplements_taken": payload["supplements_taken"],
+        "supplements_total": payload["supplements_total"],
+        "weekly_data": payload["weekly_data"],
+        "adherence_data": payload["adherence_data"],
+    }
+
+
+@app.get("/tracking/progress", response_model=ProgressResponse)
+async def tracking_progress(
+    date: Optional[str] = None,
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    anchor = _parse_anchor_date(date)
+    return await _build_progress_response_payload(db=db, user=user, anchor=anchor)
+
+
+def _repair_mojibake(text: str) -> str:
+    raw = text or ""
+    # Recover common double-encoded legacy payloads, e.g. "Magnésium" -> "Magnésium".
+    for _ in range(2):
+        if not any(ch in raw for ch in ("Ã", "Â", "â")):
+            break
+        try:
+            repaired = raw.encode("latin-1").decode("utf-8")
+        except Exception:
+            break
+        if repaired == raw:
+            break
+        raw = repaired
+    return raw
+
+
+def _fold_text(text: str) -> str:
+    txt = _repair_mojibake(text or "")
+    folded = unicodedata.normalize("NFKD", txt)
+    folded = "".join(ch for ch in folded if not unicodedata.combining(ch))
+    folded = folded.casefold()
+    folded = re.sub(r"[^a-z0-9]+", " ", folded).strip()
+    return folded
+
+
+def _strip_citation_markers(text: str) -> str:
+    txt = _repair_mojibake(text or "")
+    # e.g. "[12]" markers used throughout the knowledge base.
+    txt = re.sub(r"\[[0-9]+\]", "", txt)
+    txt = re.sub(r"\s+", " ", txt).strip()
+    return txt
+
+
+def _extract_health_conditions(sheet: Dict[str, Any]) -> List[str]:
+    out: List[str] = []
+    for entry in (sheet.get("database") or []):
+        if not isinstance(entry, dict):
+            continue
+        value = entry.get("health_condition_or_goal")
+        if isinstance(value, str) and value.strip():
+            out.append(_repair_mojibake(value.strip()))
+    # Keep order but dedupe (case-insensitive)
+    seen = set()
+    uniq: List[str] = []
+    for item in out:
+        key = item.casefold()
+        if key in seen:
+            continue
+        seen.add(key)
+        uniq.append(item)
+    return uniq
+
+
+_ENCYCLO_CATEGORIES: List[Tuple[str, Tuple[str, ...]]] = [
+    ("Cognition", ("cognit", "memoire", "memory", "attention", "adhd", "alzheimer", "dement", "brain")),
+    ("Cardiovasculaire", ("cardio", "coeur", "heart", "vascular", "hypertens", "cholesterol", "triglycer", "atheroscler")),
+    ("Immunité", ("immun", "infection", "rhume", "grippe", "respir", "cold", "flu")),
+    ("Vision", ("vision", "oeil", "eye", "retin", "macul", "glaucom", "cataract")),
+    ("Os & Articulations", ("os", "bone", "articul", "joint", "osteopor", "arthrit", "cartilage")),
+]
+
+
+def _encyclo_category_for_sheet(sheet: Dict[str, Any]) -> str:
+    # Heuristic mapping so the UI "entry point cards" can filter consistently.
+    cond_text = " ".join(_extract_health_conditions(sheet))
+    hay = _fold_text(f"{sheet.get('name','')} {sheet.get('description','')} {cond_text}")
+    for label, keywords in _ENCYCLO_CATEGORIES:
+        if any(k in hay for k in keywords):
+            return label
+    return "Autres"
+
+
+_MOLECULE_ABBR_STOP = {
+    "RDA",
+    "UL",
+    "AI",
+    "DOI",
+    "NHANES",
+    "RCT",
+    "CRP",
+    "HDL",
+    "LDL",
+    "ATP",
+    "CYP",
+}
+
+
+def _extract_molecules(sheet: Dict[str, Any]) -> List[str]:
+    texts: List[str] = []
+    for key in ("description", "dosage"):
+        value = sheet.get(key)
+        if isinstance(value, str) and value.strip():
+            texts.append(value)
+
+    overview = sheet.get("overview")
+    if isinstance(overview, list) and overview:
+        first = overview[0] if isinstance(overview[0], dict) else None
+        if first and isinstance(first.get("answer"), str):
+            texts.append(first["answer"])
+
+    candidates: List[str] = []
+
+    for raw in texts:
+        txt = _repair_mojibake(raw)
+
+        # A) All-caps abbreviations (EPA, DHA...)
+        for token in re.findall(r"\b[A-Z]{2,5}\b", txt):
+            if token in _MOLECULE_ABBR_STOP:
+                continue
+            if token not in candidates:
+                candidates.append(token)
+
+        # B) Short parenthetical chemical names (cholécalciférol, ergocalciférol...)
+        for inside in re.findall(r"\(([A-Za-zÀ-ÖØ-öø-ÿ][^)]{0,40})\)", txt):
+            cleaned = inside.strip()
+            if len(cleaned) > 30:
+                continue
+            if any(ch.isdigit() for ch in cleaned):
+                continue
+            if cleaned.count(" ") > 2:
+                continue
+            cleaned = _repair_mojibake(cleaned)
+            if cleaned and cleaned not in candidates:
+                candidates.append(cleaned)
+
+    name = sheet.get("name")
+    if isinstance(name, str) and name.strip():
+        fallback = _repair_mojibake(name.strip())
+    else:
+        fallback = "Supplement"
+
+    if not candidates:
+        return [fallback]
+
+    # Keep it readable in the UI: a few tags max.
+    return candidates[:4]
+
+
+def _extract_benefits(sheet: Dict[str, Any]) -> List[str]:
+    overview = sheet.get("overview")
+    if not isinstance(overview, list):
+        return []
+
+    for item in overview:
+        if not isinstance(item, dict):
+            continue
+        q = item.get("question")
+        a = item.get("answer")
+        if not (isinstance(q, str) and isinstance(a, str)):
+            continue
+
+        q_fold = _fold_text(q)
+        if "bienfait" not in q_fold and "avantage" not in q_fold and "benefit" not in q_fold:
+            continue
+
+        answer = _strip_citation_markers(a)
+        # Split into short-ish bullet points (first 4 meaningful sentences).
+        parts = re.split(r"(?<=[.!?])\\s+", answer)
+        out: List[str] = []
+        for part in parts:
+            txt = part.strip()
+            if len(txt) < 20:
+                continue
+            out.append(txt)
+            if len(out) >= 4:
+                break
+        return out
+
+    return []
+
+
+def _extract_sources(sheet: Dict[str, Any], limit: int = 8) -> List[str]:
+    refs = sheet.get("references")
+    if not isinstance(refs, list):
+        return []
+
+    out: List[str] = []
+    for ref in refs:
+        if not isinstance(ref, dict):
+            continue
+        text = ref.get("text") or ref.get("title") or ref.get("citation")
+        if not isinstance(text, str):
+            continue
+        txt = _repair_mojibake(text.strip())
+        if not txt:
+            continue
+        out.append(txt)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def _supplement_summary_from_sheet(sheet: Dict[str, Any]) -> EncyclopedieSupplementSummaryResponse | None:
+    slug = sheet.get("slug")
+    name = sheet.get("name")
+    description = sheet.get("description")
+    if not (isinstance(slug, str) and slug.strip()):
+        return None
+    if not (isinstance(name, str) and name.strip()):
+        return None
+    if not isinstance(description, str):
+        description = ""
+
+    return EncyclopedieSupplementSummaryResponse(
+        id=slug.strip(),
+        name=_repair_mojibake(name.strip()),
+        category=_encyclo_category_for_sheet(sheet),
+        description=_repair_mojibake(description.strip()),
+        molecules=_extract_molecules(sheet),
+    )
+
+
+def _supplement_detail_from_sheet(sheet: Dict[str, Any]) -> EncyclopedieSupplementDetailResponse | None:
+    summary = _supplement_summary_from_sheet(sheet)
+    if not summary:
+        return None
+
+    dosage = sheet.get("dosage")
+    dosage_out: Optional[str] = None
+    if isinstance(dosage, str) and dosage.strip():
+        # Avoid very large payloads for extremely long knowledge entries.
+        dosage_out = _repair_mojibake(dosage.strip())[:2000]
+
+    return EncyclopedieSupplementDetailResponse(
+        **summary.model_dump(),
+        benefits=_extract_benefits(sheet),
+        dosage=dosage_out,
+        sources=_extract_sources(sheet, limit=10),
+    )
+
+
+@app.get(
+    "/encyclopedie/supplements",
+    response_model=List[EncyclopedieSupplementSummaryResponse],
+)
+async def list_encyclopedie_supplements(
+    q: Optional[str] = None,
+    category: Optional[str] = None,
+    limit: int = 40,
+    offset: int = 0,
+):
+    limit = max(1, min(limit, 200))
+    offset = max(0, offset)
+
+    sheets = CATALOGUE_COMPLET.get("complement_alimentaire") or []
+
+    q_fold = _fold_text(q or "")
+    category_fold = _fold_text(category or "")
+
+    items: List[EncyclopedieSupplementSummaryResponse] = []
+    for sheet in sheets:
+        if not isinstance(sheet, dict):
+            continue
+
+        summary = _supplement_summary_from_sheet(sheet)
+        if not summary:
+            continue
+
+        if category_fold and _fold_text(summary.category) != category_fold:
+            continue
+
+        if q_fold:
+            cond_text = " ".join(_extract_health_conditions(sheet))
+            hay = _fold_text(
+                f"{summary.id} {summary.name} {summary.description} {cond_text}"
+            )
+            if q_fold not in hay:
+                continue
+
+        items.append(summary)
+
+    items.sort(key=lambda item: item.name.casefold())
+    return items[offset : offset + limit]
+
+
+@app.get(
+    "/encyclopedie/supplements/{supplement_id}",
+    response_model=EncyclopedieSupplementDetailResponse,
+)
+async def get_encyclopedie_supplement(supplement_id: str):
+    supp_key = (supplement_id or "").strip()
+    if not supp_key:
+        raise HTTPException(status_code=400, detail="Invalid supplement id")
+
+    sheets = CATALOGUE_COMPLET.get("complement_alimentaire") or []
+    for sheet in sheets:
+        if not isinstance(sheet, dict):
+            continue
+        slug = sheet.get("slug")
+        if isinstance(slug, str) and slug.strip() == supp_key:
+            detail = _supplement_detail_from_sheet(sheet)
+            if not detail:
+                break
+            return detail
+
+    raise HTTPException(status_code=404, detail="Supplement not found")
 
 
 @app.post("/auth/signup", response_model=TokenResponse)

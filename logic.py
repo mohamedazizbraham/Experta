@@ -27,8 +27,8 @@ def extract_health_conditions_from_supplements() -> Dict[str, List[str]]:
         
     Example:
         {
-            "Alpha-Lactalbumin": ["SantÃ© du sommeil"],
-            "5-HTP": ["DÃ©pression", "AnxiÃ©tÃ©", "Sommeil"],
+            "Alpha-Lactalbumin": ["Santé du sommeil"],
+            "5-HTP": ["Dépression", "Anxiété", "Sommeil"],
             ...
         }
     """
@@ -75,7 +75,7 @@ def normalize_health_condition(condition: str) -> str:
     """
     raw = condition or ""
 
-    # Handle common mojibake seen in legacy data/docs, e.g. "SantÃ©" -> "Santé".
+    # Handle common mojibake seen in legacy data/docs, e.g. "Santé" -> "Santé".
     # Run up to 2 times to also recover double-encoded payloads.
     for _ in range(2):
         if not any(ch in raw for ch in ("Ã", "Â", "â")):
@@ -129,12 +129,12 @@ def match_symptoms_with_products(patient_symptoms: List[str]) -> Dict[str, Dict]
         {
             "Alpha-Lactalbumin": {
                 "matched_symptoms": ["sommeil"],
-                "raw_conditions": ["SantÃ© du sommeil"],
+                "raw_conditions": ["Santé du sommeil"],
                 "score": 1
             },
             "5-HTP": {
-                "matched_symptoms": ["dÃ©pression", "sommeil"],
-                "raw_conditions": ["DÃ©pression", "AnxiÃ©tÃ©", "Sommeil"],
+                "matched_symptoms": ["dépression", "sommeil"],
+                "raw_conditions": ["Dépression", "Anxiété", "Sommeil"],
                 "score": 2
             }
         }
@@ -223,7 +223,7 @@ class MoteurRecommandation(KnowledgeEngine):
         
         for product_name, conditions in product_conditions.items():
             for condition in conditions:
-                # Normalize the condition (e.g., "SantÃ© du sommeil" -> "sommeil")
+                # Normalize the condition (e.g., "Santé du sommeil" -> "sommeil")
                 normalized_condition = normalize_health_condition(condition)
                 # Declare that this product treats this normalized condition
                 yield Produit(nom=product_name, cible=normalized_condition)
@@ -244,8 +244,8 @@ class MoteurRecommandation(KnowledgeEngine):
                         safety_info = precaution.get('safety_information', '').lower()
                         
                         # Detect warning keywords in French (as data is in French)
-                        # We look for "Ã©viter" (avoid) or "limiter" (limit)
-                        is_risky = "Ã©viter" in condition_text or "Ã©viter" in safety_info or "limiter" in safety_info
+                        # We look for "éviter" (avoid) or "limiter" (limit)
+                        is_risky = "éviter" in condition_text or "éviter" in safety_info or "limiter" in safety_info
                         
                         if "grossesse" in condition_text and is_risky:
                             yield ContreIndication(produit=product_name, condition="grossesse")
