@@ -32,6 +32,10 @@ app = FastAPI(title="AJA Backend", version="1.0.0")
 origins = [
     "http://localhost:8081",
     "http://127.0.0.1:8081",
+    "http://localhost:8082",
+    "http://127.0.0.1:8082",
+    "http://localhost:8083",
+    "http://127.0.0.1:8083",
     "http://localhost:19006",
     "http://127.0.0.1:19006",
     # Optionnel:
@@ -42,6 +46,7 @@ origins = [
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,          # en dev tu peux mettre ["*"]
+    allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -73,6 +78,13 @@ class TokenResponse(BaseModel):
     access_token: str
     token_type: str = "bearer"
     user: UserResponse
+
+
+class EmailAvailabilityResponse(BaseModel):
+    available: bool
+    normalized_email: str
+    reason: Optional[str] = None
+    suggestion: Optional[str] = None
 
 
 class PersonalInfoUpdate(BaseModel):
@@ -321,6 +333,27 @@ def _decision_input_from_profile(profile: Dict[str, Any]) -> Dict[str, List[str]
 
 def _now_utc() -> datetime:
     return datetime.now(timezone.utc)
+
+
+def _normalize_email(email: EmailStr | str) -> str:
+    return str(email).strip().lower()
+
+
+async def _find_user_by_email(
+    db: AsyncIOMotorDatabase, email: EmailStr | str
+) -> Optional[Dict[str, Any]]:
+    normalized_email = _normalize_email(email)
+    if not normalized_email:
+        return None
+
+    return await db.users.find_one(
+        {
+            "email": {
+                "$regex": f"^{re.escape(normalized_email)}$",
+                "$options": "i",
+            }
+        }
+    )
 
 
 def _to_mongo_value(v: Any) -> Any:
@@ -1399,15 +1432,31 @@ async def get_encyclopedie_supplement(supplement_id: str):
     raise HTTPException(status_code=404, detail="Supplement not found")
 
 
+@app.get("/auth/check-email", response_model=EmailAvailabilityResponse)
+async def check_email_availability(
+    email: EmailStr, db: AsyncIOMotorDatabase = Depends(get_db)
+):
+    normalized_email = _normalize_email(email)
+    existing = await _find_user_by_email(db, normalized_email)
+
+    return {
+        "available": existing is None,
+        "normalized_email": normalized_email,
+        "reason": "already_exists" if existing else None,
+        "suggestion": None,
+    }
+
+
 @app.post("/auth/signup", response_model=TokenResponse)
 async def signup(req: SignupRequest, db: AsyncIOMotorDatabase = Depends(get_db)):
-    existing = await db.users.find_one({"email": req.email})
+    normalized_email = _normalize_email(req.email)
+    existing = await _find_user_by_email(db, normalized_email)
     if existing:
         raise HTTPException(status_code=400, detail="Email already registered")
 
     now = _now_utc()
     user_doc = {
-        "email": req.email,
+        "email": normalized_email,
         "password_hash": hash_password(req.password),
         "role": "user",
         "profile": {
@@ -1433,7 +1482,7 @@ async def signup(req: SignupRequest, db: AsyncIOMotorDatabase = Depends(get_db))
 
 @app.post("/auth/login", response_model=TokenResponse)
 async def login(req: LoginRequest, db: AsyncIOMotorDatabase = Depends(get_db)):
-    user = await db.users.find_one({"email": req.email})
+    user = await _find_user_by_email(db, req.email)
     if not user or not verify_password(req.password, user.get("password_hash", "")):
         raise HTTPException(status_code=401, detail="Invalid credentials")
 
