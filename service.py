@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional, Set, Tuple
 
-from database import CATALOGUE_PRODUITS, CONTRE_INDICATIONS
+from database import CATALOGUE_PRODUITS, CONTRE_INDICATIONS, get_product_category_type
 from logic import (
     MoteurRecommandation,
     BesoinClient,
@@ -81,11 +81,13 @@ def decide(symptomes: List[str], conditions_medicales: Optional[List[str]] = Non
 
     recommendations: List[Dict[str, Any]] = []
     for produit, covered in by_product.items():
+        category_type = get_product_category_type(produit) or "recommendation"
         recommendations.append(
             {
                 "produit": produit,
                 "score": len(covered),
                 "symptomes_couverts": sorted(covered),
+                "category_type": category_type,
             }
         )
 

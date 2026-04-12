@@ -2,9 +2,11 @@
 from __future__ import annotations
 
 from datetime import date, datetime, time, timedelta, timezone
+import random
 import re
 from typing import Any, Dict, List, Literal, Optional, Tuple
 import unicodedata
+from zoneinfo import ZoneInfo
 
 from bson import ObjectId
 from fastapi import Depends, FastAPI, HTTPException
@@ -27,6 +29,8 @@ from security import create_access_token, decode_access_token, hash_password, ve
 from service import decide as decide_rules
 
 app = FastAPI(title="AJA Backend", version="1.0.0")
+
+APP_TIME_ZONE = ZoneInfo("Europe/Paris")
 
 # ✅ CORS (important for Expo Web)
 origins = [
@@ -91,6 +95,7 @@ class PersonalInfoUpdate(BaseModel):
     name: Optional[str] = Field(None, max_length=200)
     first_name: Optional[str] = Field(None, max_length=100)
     last_name: Optional[str] = Field(None, max_length=100)
+    birth_date: Optional[date] = None
 
     sex: Optional[Literal["male", "female", "other"]] = None
     weight_kg: Optional[float] = Field(None, ge=0, le=500)
@@ -142,12 +147,12 @@ class BestDecisionComplementTakenRequest(BaseModel):
 
 
 class RecommendationIntakeItemRequest(BaseModel):
-    supplement_id: Optional[str] = Field(default=None, max_length=200)
-    supplement_name: str = Field(min_length=1, max_length=200)
-    objective_key: Optional[str] = Field(default=None, max_length=200)
-    objective_label: Optional[str] = Field(default=None, max_length=200)
-    taken: bool = True
-    taken_at: Optional[datetime] = None
+    supplement_id: Any = None
+    supplement_name: Any = None
+    objective_key: Any = None
+    objective_label: Any = None
+    taken: Any = True
+    taken_at: Any = None
 
 
 class RecommendationIntakesBulkRequest(BaseModel):
@@ -198,6 +203,12 @@ class WeeklyProgressItem(BaseModel):
     completed: bool
 
 
+class WeeklyCompletionPoint(BaseModel):
+    day: str
+    ymd: str
+    percent: int
+
+
 class EvolutionPoint(BaseModel):
     day: int
     value: int
@@ -238,6 +249,7 @@ class ProgressResponse(BaseModel):
     supplements_taken: int
     supplements_total: int
     weekly_data: List[WeeklyProgressItem] = Field(default_factory=list)
+    weekly_completion_data: List[WeeklyCompletionPoint] = Field(default_factory=list)
     adherence_data: List[bool] = Field(default_factory=list)
     evolution_data: List[EvolutionPoint] = Field(default_factory=list)
     monthly_data: List[MonthlyHeatmapCell] = Field(default_factory=list)
@@ -253,6 +265,26 @@ class DashboardResponse(BaseModel):
     supplements_total: int
     weekly_data: List[WeeklyProgressItem] = Field(default_factory=list)
     adherence_data: List[bool] = Field(default_factory=list)
+
+
+class HomeQuestionResponse(BaseModel):
+    id: str
+    supplement_id: str
+    supplement_name: str
+    category: str
+    question: str
+    answer: str
+
+
+class CurrentRecommendationSnapshotResponse(BaseModel):
+    user_id: str
+    source: Optional[str] = None
+    input: Dict[str, Any] = Field(default_factory=dict)
+    derived_input: Dict[str, Any] = Field(default_factory=dict)
+    decision: Dict[str, Any] = Field(default_factory=dict)
+    saved_recommendation_id: Optional[str] = None
+    saved_at: Optional[datetime] = None
+    intakes: List[RecommendationIntakeResponse] = Field(default_factory=list)
 
 
 GOAL_LABEL_BY_ID: Dict[str, str] = {
@@ -335,6 +367,14 @@ def _now_utc() -> datetime:
     return datetime.now(timezone.utc)
 
 
+def _now_app() -> datetime:
+    return _now_utc().astimezone(APP_TIME_ZONE)
+
+
+def _today_app() -> date:
+    return _now_app().date()
+
+
 def _normalize_email(email: EmailStr | str) -> str:
     return str(email).strip().lower()
 
@@ -394,6 +434,10 @@ def _to_utc_datetime(value: Optional[datetime]) -> datetime:
     return value.astimezone(timezone.utc)
 
 
+def _to_app_datetime(value: Optional[datetime]) -> datetime:
+    return _to_utc_datetime(value).astimezone(APP_TIME_ZONE)
+
+
 _WEEKDAY_LETTERS_FR = ["L", "M", "M", "J", "V", "S", "D"]  # Monday..Sunday
 
 
@@ -424,13 +468,13 @@ def _infer_timing(value: Any) -> str:
 
 
 def _format_time_hhmm(value: datetime) -> str:
-    dt = _to_utc_datetime(value)
+    dt = _to_app_datetime(value)
     return dt.strftime("%H:%M")
 
 
 def _parse_anchor_date(date_str: Optional[str]) -> date:
     if not date_str:
-        return _now_utc().date()
+        return _today_app()
     try:
         return date.fromisoformat(date_str)
     except Exception:
@@ -521,6 +565,65 @@ def _extract_expected_supplement_groups(decision_payload: Dict[str, Any]) -> Lis
     return sorted(groups.values(), key=lambda g: g.name.casefold())
 
 
+async def _resolve_current_recommendation(
+    *,
+    db: AsyncIOMotorDatabase,
+    user: Dict[str, Any],
+    force_refresh: bool = False,
+) -> Tuple[Optional[Dict[str, Any]], Dict[str, Any]]:
+    user_id = user["_id"]
+    previous_recommendation = await db.recommendations.find_one(
+        {"user_id": user_id},
+        sort=[("created_at", -1)],
+    )
+
+    profile = user.get("profile") or {}
+    prepared = _decision_input_from_profile(profile if isinstance(profile, dict) else {})
+
+    should_refresh = force_refresh or previous_recommendation is None
+    if previous_recommendation and not should_refresh:
+        user_updated_at = user.get("updated_at")
+        recommendation_created_at = previous_recommendation.get("created_at")
+        if isinstance(user_updated_at, datetime) and isinstance(recommendation_created_at, datetime):
+            should_refresh = _to_utc_datetime(recommendation_created_at) < _to_utc_datetime(user_updated_at)
+
+    if not should_refresh:
+        return previous_recommendation, prepared
+
+    if not prepared.get("symptomes"):
+        return previous_recommendation, prepared
+
+    decision_payload = await run_in_threadpool(
+        decide_rules,
+        prepared["symptomes"],
+        prepared.get("conditions_medicales") or [],
+    )
+    decision_payload = _with_best_decision_complement_times(
+        decision_payload if isinstance(decision_payload, dict) else {}
+    )
+    decision_payload = _augment_decision_with_goal_groups(decision_payload, prepared)
+    saved = await save_recommendation(
+        db,
+        user_id=user_id,
+        source="profile",
+        input_payload=prepared,
+        decision_payload=decision_payload,
+    )
+
+    if previous_recommendation and previous_recommendation.get("_id") != saved.get("_id"):
+        await _carry_over_recommendation_intakes(
+            db=db,
+            user_id=user_id,
+            from_recommendation_id=previous_recommendation["_id"],
+            to_recommendation_id=saved["_id"],
+            decision_payload=saved.get("decision", decision_payload),
+        )
+        refreshed = await db.recommendations.find_one({"_id": saved["_id"]})
+        return (refreshed or saved), prepared
+
+    return saved, prepared
+
+
 async def _build_progress_response_payload(
     *,
     db: AsyncIOMotorDatabase,
@@ -528,38 +631,15 @@ async def _build_progress_response_payload(
     anchor: date,
 ) -> Dict[str, Any]:
     user_id = user["_id"]
-
-    recommendation = await db.recommendations.find_one(
-        {"user_id": user_id},
-        sort=[("created_at", -1)],
-    )
+    recommendation, prepared = await _resolve_current_recommendation(db=db, user=user)
 
     expected_groups: List[ExpectedSupplementGroup] = []
     recommendation_id: Optional[str] = None
-    if not recommendation:
-        profile = user.get("profile") or {}
-        prepared = _decision_input_from_profile(profile if isinstance(profile, dict) else {})
-        if prepared.get("symptomes"):
-            decision_payload = await run_in_threadpool(
-                decide_rules,
-                prepared["symptomes"],
-                prepared.get("conditions_medicales") or [],
-            )
-            decision_payload = _with_best_decision_complement_times(
-                decision_payload if isinstance(decision_payload, dict) else {}
-            )
-            decision_payload = _augment_decision_with_goal_groups(decision_payload, prepared)
-            recommendation = await save_recommendation(
-                db,
-                user_id=user_id,
-                source="profile",
-                input_payload=prepared,
-                decision_payload=decision_payload,
-            )
-
     if recommendation:
         recommendation_id = str(recommendation["_id"])
         input_payload = recommendation.get("input", {}) if isinstance(recommendation, dict) else {}
+        if not isinstance(input_payload, dict) or not input_payload:
+            input_payload = prepared
         decision_payload = recommendation.get("decision", {}) if isinstance(recommendation, dict) else {}
         decision_payload = _with_best_decision_complement_times(decision_payload)
         decision_payload = _augment_decision_with_goal_groups(decision_payload, input_payload)
@@ -568,10 +648,11 @@ async def _build_progress_response_payload(
     expected_keys = {g.id for g in expected_groups}
     total = len(expected_keys)
 
-    # Fetch the last 30 days of intake events (UTC) and compute per-day states from the latest event.
+    # Fetch the last 30 days of intake events using Europe/Paris day boundaries,
+    # then compute per-day states from the latest event.
     start_day = anchor - timedelta(days=29)
-    start_dt = datetime.combine(start_day, time.min).replace(tzinfo=timezone.utc)
-    end_dt = datetime.combine(anchor + timedelta(days=1), time.min).replace(tzinfo=timezone.utc)
+    start_dt = datetime.combine(start_day, time.min, tzinfo=APP_TIME_ZONE).astimezone(timezone.utc)
+    end_dt = datetime.combine(anchor + timedelta(days=1), time.min, tzinfo=APP_TIME_ZONE).astimezone(timezone.utc)
 
     cursor = (
         db.recommendation_intakes
@@ -591,7 +672,8 @@ async def _build_progress_response_payload(
             continue
 
         taken_at = _to_utc_datetime(taken_at_raw)
-        day = taken_at.date()
+        taken_at_local = taken_at.astimezone(APP_TIME_ZONE)
+        day = taken_at_local.date()
 
         raw_name = doc.get("supplement_name")
         if not isinstance(raw_name, str):
@@ -617,7 +699,7 @@ async def _build_progress_response_payload(
         if day == anchor:
             daily_events.append(
                 DailyIntakeItem(
-                    time=_format_time_hhmm(taken_at),
+                    time=_format_time_hhmm(taken_at_local),
                     name=supplement_name,
                     taken=taken,
                 )
@@ -646,12 +728,21 @@ async def _build_progress_response_payload(
     today_progress = percent_for_day(anchor)
 
     weekly_data: List[WeeklyProgressItem] = []
+    weekly_completion_data: List[WeeklyCompletionPoint] = []
     for i in range(6, -1, -1):
         day = anchor - timedelta(days=i)
+        percent = percent_for_day(day)
         weekly_data.append(
             WeeklyProgressItem(
                 day=_weekday_letter_fr(day),
                 completed=total > 0 and taken_count_for_day(day) >= total,
+            )
+        )
+        weekly_completion_data.append(
+            WeeklyCompletionPoint(
+                day=_weekday_letter_fr(day),
+                ymd=day.isoformat(),
+                percent=percent,
             )
         )
 
@@ -695,6 +786,7 @@ async def _build_progress_response_payload(
         "supplements_taken": taken_today,
         "supplements_total": total,
         "weekly_data": weekly_data,
+        "weekly_completion_data": weekly_completion_data,
         "adherence_data": [item.completed for item in weekly_data],
         "evolution_data": evolution_data,
         "monthly_data": monthly_data,
@@ -871,6 +963,38 @@ def _clean_optional_text(value: Optional[str]) -> Optional[str]:
         return None
     txt = value.strip()
     return txt if txt else None
+
+
+def _coerce_bool(value: Any, default: bool = False) -> bool:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return bool(value)
+    if isinstance(value, str):
+        txt = value.strip().casefold()
+        if txt in {"true", "1", "yes", "oui"}:
+            return True
+        if txt in {"false", "0", "no", "non", ""}:
+            return False
+    return default
+
+
+def _parse_optional_datetime_input(value: Any) -> Optional[datetime]:
+    if value is None:
+        return None
+    if isinstance(value, datetime):
+        return value
+    if isinstance(value, str):
+        txt = value.strip()
+        if not txt:
+            return None
+        if txt.endswith("Z"):
+            txt = f"{txt[:-1]}+00:00"
+        try:
+            return datetime.fromisoformat(txt)
+        except Exception:
+            return None
+    return None
 
 
 def _normalize_objective_key(value: Optional[str]) -> Optional[str]:
@@ -1106,13 +1230,19 @@ async def dashboard(
     profile = user.get("profile") or {}
     personal = profile.get("personal") if isinstance(profile, dict) else {}
     personal = personal if isinstance(personal, dict) else {}
-    raw_name = personal.get("name") or personal.get("first_name") or ""
-    if not isinstance(raw_name, str):
-        raw_name = ""
-    name = raw_name.strip()
-    user_name = name.split(" ", 1)[0] if name else "User"
+    raw_first_name = (
+        personal.get("first_name")
+        or profile.get("first_name")
+        or personal.get("name")
+        or profile.get("name")
+        or ""
+    )
+    if not isinstance(raw_first_name, str):
+        raw_first_name = ""
+    name = raw_first_name.strip()
+    user_name = name.split(" ", 1)[0] if name else "vous"
 
-    payload = await _build_progress_response_payload(db=db, user=user, anchor=_now_utc().date())
+    payload = await _build_progress_response_payload(db=db, user=user, anchor=_today_app())
 
     return {
         "user_name": user_name,
@@ -1121,6 +1251,62 @@ async def dashboard(
         "supplements_total": payload["supplements_total"],
         "weekly_data": payload["weekly_data"],
         "adherence_data": payload["adherence_data"],
+    }
+
+
+@app.get(
+    "/dashboard/random-questions",
+    response_model=List[HomeQuestionResponse],
+)
+async def dashboard_random_questions(
+    limit: int = 4,
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    _ = user
+    return _build_home_questions(limit=limit)
+
+
+@app.get(
+    "/users/me/current-recommendation",
+    response_model=CurrentRecommendationSnapshotResponse,
+)
+async def get_current_recommendation_snapshot(
+    db: AsyncIOMotorDatabase = Depends(get_db),
+    user: Dict[str, Any] = Depends(get_current_user),
+):
+    recommendation, prepared = await _resolve_current_recommendation(db=db, user=user)
+
+    if not recommendation:
+        return {
+            "user_id": str(user["_id"]),
+            "derived_input": prepared,
+            "input": prepared,
+            "decision": {},
+            "saved_recommendation_id": None,
+            "saved_at": None,
+            "source": None,
+            "intakes": [],
+        }
+
+    recommendation_id = recommendation["_id"]
+    recommendation_public_data = recommendation_public(recommendation)
+    intakes_cursor = (
+        db.recommendation_intakes
+        .find({"recommendation_id": recommendation_id, "user_id": user["_id"]})
+        .sort("taken_at", -1)
+        .limit(500)
+    )
+    intake_docs = await intakes_cursor.to_list(length=500)
+
+    return {
+        "user_id": str(user["_id"]),
+        "source": recommendation_public_data.get("source"),
+        "input": recommendation_public_data.get("input", {}),
+        "derived_input": prepared,
+        "decision": recommendation_public_data.get("decision", {}),
+        "saved_recommendation_id": recommendation_public_data.get("id"),
+        "saved_at": recommendation_public_data.get("created_at"),
+        "intakes": [recommendation_intake_public(doc) for doc in intake_docs],
     }
 
 
@@ -1365,6 +1551,76 @@ def _supplement_detail_from_sheet(sheet: Dict[str, Any]) -> EncyclopedieSuppleme
     )
 
 
+def _truncate_home_answer(answer: str, max_length: int = 280) -> str:
+    cleaned = _strip_citation_markers(answer)
+    if len(cleaned) <= max_length:
+        return cleaned
+
+    truncated = cleaned[: max_length - 1].rsplit(" ", 1)[0].strip()
+    return f"{truncated}..."
+
+
+def _extract_home_overview_pairs(sheet: Dict[str, Any], limit: int = 8) -> List[Tuple[str, str]]:
+    overview = sheet.get("overview")
+    if not isinstance(overview, list):
+        return []
+
+    pairs: List[Tuple[str, str]] = []
+    for item in overview:
+        if not isinstance(item, dict):
+            continue
+
+        raw_question = item.get("question")
+        raw_answer = item.get("answer")
+        if not isinstance(raw_question, str) or not isinstance(raw_answer, str):
+            continue
+
+        question = _strip_citation_markers(raw_question).strip(" -•")
+        answer = _strip_citation_markers(raw_answer)
+        if len(question) < 8 or len(answer) < 20:
+            continue
+
+        pairs.append((question, answer))
+        if len(pairs) >= limit:
+            break
+
+    return pairs
+
+
+def _build_home_questions(limit: int = 4) -> List[HomeQuestionResponse]:
+    sheets = CATALOGUE_COMPLET.get("complement_alimentaire") or []
+    candidates: List[HomeQuestionResponse] = []
+
+    for sheet in sheets:
+        if not isinstance(sheet, dict):
+            continue
+
+        summary = _supplement_summary_from_sheet(sheet)
+        if not summary:
+            continue
+
+        for index, (question, answer) in enumerate(_extract_home_overview_pairs(sheet), start=1):
+            candidates.append(
+                HomeQuestionResponse(
+                    id=f"{summary.id}-{index}",
+                    supplement_id=summary.id,
+                    supplement_name=summary.name,
+                    category=summary.category,
+                    question=question,
+                    answer=_truncate_home_answer(answer),
+                )
+            )
+
+    if not candidates:
+        return []
+
+    safe_limit = max(1, min(limit, 8))
+    if len(candidates) <= safe_limit:
+        return candidates
+
+    return random.sample(candidates, safe_limit)
+
+
 @app.get(
     "/encyclopedie/supplements",
     response_model=List[EncyclopedieSupplementSummaryResponse],
@@ -1544,15 +1800,13 @@ async def decide_for_me(
     db: AsyncIOMotorDatabase = Depends(get_db),
     user: Dict[str, Any] = Depends(get_current_user),
 ):
-    previous_recommendation = await db.recommendations.find_one(
-        {"user_id": user["_id"]},
-        sort=[("created_at", -1)],
+    recommendation, prepared = await _resolve_current_recommendation(
+        db=db,
+        user=user,
+        force_refresh=True,
     )
 
-    profile = user.get("profile") or {}
-    prepared = _decision_input_from_profile(profile)
-
-    if not prepared["symptomes"]:
+    if not recommendation or not prepared["symptomes"]:
         raise HTTPException(
             status_code=400,
             detail=(
@@ -1561,36 +1815,14 @@ async def decide_for_me(
             ),
         )
 
-    decision = await run_in_threadpool(
-        decide_rules,
-        prepared["symptomes"],
-        prepared["conditions_medicales"],
-    )
-    decision = _with_best_decision_complement_times(decision)
-    decision = _augment_decision_with_goal_groups(decision, prepared)
-    saved = await save_recommendation(
-        db,
-        user_id=user["_id"],
-        source="profile",
-        input_payload=prepared,
-        decision_payload=decision,
-    )
-
-    if previous_recommendation and previous_recommendation.get("_id") != saved.get("_id"):
-        await _carry_over_recommendation_intakes(
-            db=db,
-            user_id=user["_id"],
-            from_recommendation_id=previous_recommendation["_id"],
-            to_recommendation_id=saved["_id"],
-            decision_payload=saved.get("decision", decision),
-        )
+    recommendation_public_data = recommendation_public(recommendation)
 
     return {
         "user_id": str(user["_id"]),
         "derived_input": prepared,
-        "decision": decision,
-        "saved_recommendation_id": str(saved["_id"]),
-        "saved_at": saved["created_at"],
+        "decision": recommendation_public_data["decision"],
+        "saved_recommendation_id": recommendation_public_data["id"],
+        "saved_at": recommendation_public_data["created_at"],
     }
 
 
@@ -1706,7 +1938,7 @@ async def save_my_recommendation_intakes(
                 detail=f"Invalid supplement_name at intakes[{i}]",
             )
 
-        taken_at = _to_utc_datetime(intake.taken_at)
+        taken_at = _to_utc_datetime(_parse_optional_datetime_input(intake.taken_at))
         intake_doc = {
             "user_id": user["_id"],
             "recommendation_id": rec_id,
@@ -1714,7 +1946,7 @@ async def save_my_recommendation_intakes(
             "supplement_name": supplement_name,
             "objective_key": _clean_optional_text(intake.objective_key),
             "objective_label": _clean_optional_text(intake.objective_label),
-            "taken": bool(intake.taken),
+            "taken": _coerce_bool(intake.taken, default=True),
             "taken_at": taken_at,
             "created_at": now,
         }

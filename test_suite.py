@@ -1,5 +1,5 @@
 ﻿import unittest
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 from bson import ObjectId
 from logic import (
@@ -10,10 +10,13 @@ from logic import (
     Produit
 )
 from api import (
+    PersonalInfoUpdate,
     _augment_decision_with_goal_groups,
     _build_carried_intake_docs,
     _build_intake_targets_from_decision,
+    _coerce_bool,
     _decision_input_from_profile,
+    _parse_optional_datetime_input,
 )
 from database import CATALOGUE_COMPLET
 from goals import (
@@ -376,6 +379,26 @@ class TestIntakeCarryOver(unittest.TestCase):
         self.assertEqual(len(docs), 1)
         self.assertFalse(docs[0]["taken"])
         self.assertEqual(docs[0]["supplement_id"], "sleep_support::0")
+
+    def test_parse_optional_datetime_input_accepts_iso_z(self):
+        dt = _parse_optional_datetime_input("2026-04-12T10:30:00.000Z")
+        self.assertIsNotNone(dt)
+        assert dt is not None
+        self.assertEqual(dt.tzinfo, timezone.utc)
+
+    def test_coerce_bool_accepts_string_values(self):
+        self.assertTrue(_coerce_bool("true"))
+        self.assertFalse(_coerce_bool("false", default=True))
+
+
+class TestProfilePayloadSchema(unittest.TestCase):
+    def test_personal_info_update_accepts_birth_date(self):
+        payload = PersonalInfoUpdate(
+            first_name="Ada",
+            last_name="Lovelace",
+            birth_date=date(1815, 12, 10),
+        )
+        self.assertEqual(payload.birth_date.isoformat(), "1815-12-10")
 
 
 if __name__ == '__main__':

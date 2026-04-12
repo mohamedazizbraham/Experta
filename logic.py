@@ -13,7 +13,7 @@ if not hasattr(collections, "Mapping"):
 # ----------------------------------------
 
 from experta import *
-from database import CATALOGUE_COMPLET
+from database import CATALOGUE_COMPLET, get_product_category_type
 from typing import List, Dict, Tuple
 
 # --- HEALTH CONDITION EXTRACTION (Clear & Reusable) ---
@@ -130,12 +130,14 @@ def match_symptoms_with_products(patient_symptoms: List[str]) -> Dict[str, Dict]
             "Alpha-Lactalbumin": {
                 "matched_symptoms": ["sommeil"],
                 "raw_conditions": ["Santé du sommeil"],
-                "score": 1
+                "score": 1,
+                "category_type": "recommendation"
             },
             "5-HTP": {
                 "matched_symptoms": ["dépression", "sommeil"],
                 "raw_conditions": ["Dépression", "Anxiété", "Sommeil"],
-                "score": 2
+                "score": 2,
+                "category_type": "recommendation"
             }
         }
     """
@@ -162,10 +164,12 @@ def match_symptoms_with_products(patient_symptoms: List[str]) -> Dict[str, Dict]
         
         # Only include products that have at least one matching symptom
         if matched_symptoms:
+            category_type = get_product_category_type(product_name) or "recommendation"
             matched_products[product_name] = {
                 "matched_symptoms": sorted(list(matched_symptoms)),
                 "raw_conditions": raw_conditions,
-                "score": len(matched_symptoms)  # Number of matched symptoms
+                "score": len(matched_symptoms),  # Number of matched symptoms
+                "category_type": category_type
             }
     
     # Sort by score (highest first) and then by product name

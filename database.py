@@ -1,17 +1,17 @@
-"""database.py
+﻿"""database.py
 
 Objectif:
-- Utiliser automatiquement les données JSON dans le dossier `data/`.
-- Garder la même structure publique que le code existant attend:
+- Utiliser automatiquement les donnÃ©es JSON dans le dossier `data/`.
+- Garder la mÃªme structure publique que le code existant attend:
   - `CATALOGUE_COMPLET`: dict[str, list[dict]]
   - (compat) `CATALOGUE_PRODUITS` et `CONTRE_INDICATIONS` pour `service.py`
 
-Le moteur Experta (`logic.py`) itère sur `CATALOGUE_COMPLET` et lit:
+Le moteur Experta (`logic.py`) itÃ¨re sur `CATALOGUE_COMPLET` et lit:
 - `sheet['name']`
 - `sheet['database'][*]['health_condition_or_goal']`
 - `sheet['safety']` (pregnancy_lactation, interactions, precautions)
 
-Les JSON de `data/` (supplements/other/diets) suivent déjà ce schéma.
+Les JSON de `data/` (supplements/other/diets) suivent dÃ©jÃ  ce schÃ©ma.
 """
 
 from __future__ import annotations
@@ -46,30 +46,35 @@ def _load_folder_json(folder: Path) -> List[Dict[str, Any]]:
 def _build_catalogue_from_data(data_dir: Path) -> Dict[str, List[Dict[str, Any]]]:
     """Construit un catalogue compatible avec le code existant.
 
-Mapping (garde l'idée des catégories actuelles):
-- data/supplements -> complement_alimentaire
-- data/other       -> sport_et_pratique
-- data/diets       -> regime_alimentaire
+Mapping (garde l'idÃ©e des catÃ©gories actuelles):
+- data/supplements -> complement_alimentaire (recommendation)
+- data/other       -> sport_et_pratique (practice)
+- data/diets       -> regime_alimentaire (practice)
 
-Note: `data/conditions` et `data/categories` sont chargés séparément (voir plus bas),
+Note: `data/conditions` et `data/categories` sont chargÃ©s sÃ©parÃ©ment (voir plus bas),
 car ce ne sont pas des "produits" au sens du moteur de recommandations.
 """
 
-    mapping: List[Tuple[str, str]] = [
-        ("supplements", "complement_alimentaire"),
-        ("other", "sport_et_pratique"),
-        ("diets", "regime_alimentaire"),
+    # Map folder -> (category_key, category_type)
+    mapping: List[Tuple[str, str, str]] = [
+        ("supplements", "complement_alimentaire", "recommendation"),
+        ("other", "sport_et_pratique", "practice"),
+        ("diets", "regime_alimentaire", "practice"),
     ]
 
     catalogue: Dict[str, List[Dict[str, Any]]] = {}
-    for folder_name, category_key in mapping:
-        catalogue[category_key] = _load_folder_json(data_dir / folder_name)
+    for folder_name, category_key, category_type in mapping:
+        items = _load_folder_json(data_dir / folder_name)
+        # Add category_type to each item
+        for item in items:
+            item["category_type"] = category_type
+        catalogue[category_key] = items
     return catalogue
 
 
 def _is_risky_pregnancy_text(text: str) -> bool:
     t = (text or "").strip().lower()
-    risky_keywords = ("éviter", "eviter", "déconseill", "deconseill", "limiter", "éviction", "eviction")
+    risky_keywords = ("Ã©viter", "eviter", "dÃ©conseill", "deconseill", "limiter", "Ã©viction", "eviction")
     return any(k in t for k in risky_keywords)
 
 
@@ -89,13 +94,13 @@ CONTRE_INDICATIONS: [{produit, condition}]
             if not product_name:
                 continue
 
-            # A) Indications (symptômes/cibles)
+            # A) Indications (symptÃ´mes/cibles)
             for entry in sheet.get("database", []) or []:
                 target = (entry.get("health_condition_or_goal") or "").strip().lower()
                 if target:
                     produits.append({"produit": product_name, "cible": target})
 
-            # B) Sécurité (contre-indications)
+            # B) SÃ©curitÃ© (contre-indications)
             safety = sheet.get("safety") or {}
 
             # grossesse / allaitement
@@ -110,13 +115,13 @@ CONTRE_INDICATIONS: [{produit, condition}]
                 if "allait" in combined_l and _is_risky_pregnancy_text(combined):
                     contres.append({"produit": product_name, "condition": "allaitement"})
 
-            # interactions médicamenteuses
+            # interactions mÃ©dicamenteuses
             for inter in safety.get("interactions", []) or []:
                 agent = (inter.get("agent") or "").strip().lower()
                 if agent:
                     contres.append({"produit": product_name, "condition": agent})
 
-            # précautions
+            # prÃ©cautions
             for prec in safety.get("precautions", []) or []:
                 pop = (prec.get("population_condition") or "").strip().lower()
                 if pop:
@@ -125,17 +130,35 @@ CONTRE_INDICATIONS: [{produit, condition}]
     return produits, contres
 
 
-# --- Chargement principal (utilisé par logic.py / app.py) ---
+# --- Chargement principal (utilisÃ© par logic.py / app.py) ---
 
 CATALOGUE_COMPLET: Dict[str, List[Dict[str, Any]]] = _build_catalogue_from_data(_DATA_DIR)
 
 
-# --- Données "meta" (optionnel) ---
+# --- DonnÃ©es "meta" (optionnel) ---
 
 CATEGORIES: List[Dict[str, Any]] = _load_folder_json(_DATA_DIR / "categories")
 CONDITIONS: List[Dict[str, Any]] = _load_folder_json(_DATA_DIR / "conditions")
 
 
-# --- Compatibilité service.py ---
+# --- CompatibilitÃ© service.py ---
 
 CATALOGUE_PRODUITS, CONTRE_INDICATIONS = _extract_rules(CATALOGUE_COMPLET)
+
+
+# --- Helper functions to get category type ---
+
+def get_product_category_type(product_name: str) -> str:
+    """Returns 'recommendation' or 'practice' for a given product name, or None if not found."""
+    product_name_norm = (product_name or "").strip().lower()
+    for _category, items in CATALOGUE_COMPLET.items():
+        for item in items:
+            if (item.get("name") or "").strip().lower() == product_name_norm:
+                return item.get("category_type", "recommendation")
+    return None
+
+
+CATEGORY_TYPE_LABELS = {
+    "recommendation": "Recommandations",
+    "practice": "Pratiques pour de meilleurs résultats",
+}

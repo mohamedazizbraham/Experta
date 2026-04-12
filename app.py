@@ -6,7 +6,7 @@ Compatible avec `database.py` qui charge automatiquement les JSON depuis `data/`
 """
 
 from logic import match_symptoms_with_products
-from database import CATALOGUE_COMPLET
+from database import CATALOGUE_COMPLET, CATEGORY_TYPE_LABELS
 
 
 def _norm(s: str) -> str:
@@ -43,7 +43,7 @@ def afficher_details_produit(nom_produit):
     if fiche_trouvee:
         # On affiche aussi la catégorie pour info
         label_cat = _CATEGORY_LABELS.get(categorie_trouvee, categorie_trouvee.replace('_', ' ').title())
-        print(f"\n   [DÉTAILS FICHE : {fiche_trouvee.get('name', nom_produit)}] ({label_cat})")
+        print(f"\n   [DETAILS FICHE : {fiche_trouvee.get('name', nom_produit)}] ({label_cat})")
         
         # On coupe la description pour ne pas encombrer la console
         desc = fiche_trouvee.get('description', '')
@@ -53,10 +53,10 @@ def afficher_details_produit(nom_produit):
         if "sport" in categorie_trouvee:
             label_dosage = "Pratique"
         elif "regime" in categorie_trouvee:
-            label_dosage = "Régime"
+            label_dosage = "Regime"
         else:
             label_dosage = "Dosage"
-        print(f"   {label_dosage} : {fiche_trouvee.get('dosage', 'Non spécifié') or 'Non spécifié'}")
+        print(f"   {label_dosage} : {fiche_trouvee.get('dosage', 'Non specifie') or 'Non specifie'}")
         
         # Affichage des alertes interactions s'il y en a dans la section safety
         interactions = fiche_trouvee.get('safety', {}).get('interactions', [])
@@ -64,7 +64,7 @@ def afficher_details_produit(nom_produit):
         agents = [i.get('agent') for i in interactions if i.get('agent')]
         
         if agents:
-            print(f"   ⚠️ Interactions connues : {', '.join(agents)}")
+            print(f"   [!] Interactions connues : {', '.join(agents)}")
 
 def lancer_diagnostic(nom_user, symptomes, conditions_medicales=None):
     """
@@ -92,14 +92,26 @@ def lancer_diagnostic(nom_user, symptomes, conditions_medicales=None):
     print(f"{'-'*60}")
     
     if recommendations:
-        # Display each recommended product
+        # Group recommendations by category_type for display
+        by_type = {}
         for product_name, match_info in recommendations.items():
-            score = match_info["score"]
-            matched_symptoms = match_info["matched_symptoms"]
-            print(f"✅ RECOMMANDATION : {product_name} (Symptômes matchés : {', '.join(matched_symptoms)}, Score: {score})")
-            afficher_details_produit(product_name)
+            cat_type = match_info.get("category_type", "recommendation")
+            if cat_type not in by_type:
+                by_type[cat_type] = []
+            by_type[cat_type].append((product_name, match_info))
+        
+        # Display each category separately with appropriate label
+        for cat_type in ["recommendation", "practice"]:
+            if cat_type in by_type:
+                category_label = CATEGORY_TYPE_LABELS.get(cat_type, cat_type)
+                print(f"\n>> {category_label}:")
+                for product_name, match_info in by_type[cat_type]:
+                    score = match_info["score"]
+                    matched_symptoms = match_info["matched_symptoms"]
+                    print(f"  [+] {product_name} (Symptomes matches : {', '.join(matched_symptoms)}, Score: {score})")
+                    afficher_details_produit(product_name)
     else:
-        print("❌ Aucune recommandation trouvée.")
+        print("[X] Aucune recommandation trouvee.")
     
     print(f"{'='*60}\n")
 
