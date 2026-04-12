@@ -1551,15 +1551,6 @@ def _supplement_detail_from_sheet(sheet: Dict[str, Any]) -> EncyclopedieSuppleme
     )
 
 
-def _truncate_home_answer(answer: str, max_length: int = 280) -> str:
-    cleaned = _strip_citation_markers(answer)
-    if len(cleaned) <= max_length:
-        return cleaned
-
-    truncated = cleaned[: max_length - 1].rsplit(" ", 1)[0].strip()
-    return f"{truncated}..."
-
-
 def _extract_home_overview_pairs(sheet: Dict[str, Any], limit: int = 8) -> List[Tuple[str, str]]:
     overview = sheet.get("overview")
     if not isinstance(overview, list):
@@ -1607,7 +1598,7 @@ def _build_home_questions(limit: int = 4) -> List[HomeQuestionResponse]:
                     supplement_name=summary.name,
                     category=summary.category,
                     question=question,
-                    answer=_truncate_home_answer(answer),
+                    answer=answer.strip(),
                 )
             )
 
