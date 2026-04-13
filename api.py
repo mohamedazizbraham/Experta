@@ -2057,3 +2057,14 @@ async def add_best_decision_complement_time(
     if not updated:
         raise HTTPException(status_code=500, detail="Failed to update recommendation")
     return recommendation_public(updated)
+
+
+if __name__ == "__main__":
+    import os
+    import uvicorn
+
+    uvicorn.run(
+        app,
+        host=os.getenv("API_HOST", "0.0.0.0"),
+        port=int(os.getenv("API_PORT", "8000")),
+    )
