@@ -9,8 +9,11 @@ from logic import (
     ConditionClient,
     Recommandation,
     ProduitInterdit,
+    calculate_recommendation_grade,
     normalize_health_condition,
 )
+
+MAX_SUPPLEMENT_RECOMMENDATIONS = 5
 
 
 def _norm(x: str) -> str:
@@ -34,6 +37,28 @@ def _known_symptomes() -> Set[str]:
 
 def _known_conditions() -> Set[str]:
     return {(_norm(c.get("condition", ""))) for c in CONTRE_INDICATIONS if c.get("condition")}
+
+
+def _recommendation_sort_key(item: Dict[str, Any]) -> Tuple[int, int, str]:
+    return (
+        -int(item.get("grade_score", 0)),
+        -int(item.get("score_symptomes", 0)),
+        str(item.get("produit", "")).lower(),
+    )
+
+
+def _limit_supplement_recommendations(recommendations: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    limited: List[Dict[str, Any]] = []
+    supplement_count = 0
+
+    for item in recommendations:
+        if item.get("category_type") == "recommendation":
+            if supplement_count >= MAX_SUPPLEMENT_RECOMMENDATIONS:
+                continue
+            supplement_count += 1
+        limited.append(item)
+
+    return limited
 
 
 def decide(symptomes: List[str], conditions_medicales: Optional[List[str]] = None) -> Dict[str, Any]:
@@ -82,16 +107,28 @@ def decide(symptomes: List[str], conditions_medicales: Optional[List[str]] = Non
     recommendations: List[Dict[str, Any]] = []
     for produit, covered in by_product.items():
         category_type = get_product_category_type(produit) or "recommendation"
+        score_symptomes = len(covered)
+        grade_info = {
+            "grade": "",
+            "grade_score": 0,
+            "grade_source": "none",
+        }
+        if category_type == "recommendation":
+            grade_info = calculate_recommendation_grade(produit, sorted(covered))
+
         recommendations.append(
             {
                 "produit": produit,
-                "score": len(covered),
+                "score": score_symptomes,
+                "score_symptomes": score_symptomes,
                 "symptomes_couverts": sorted(covered),
                 "category_type": category_type,
+                **grade_info,
             }
         )
 
-    recommendations.sort(key=lambda x: (-x["score"], x["produit"].lower()))
+    recommendations.sort(key=_recommendation_sort_key)
+    recommendations = _limit_supplement_recommendations(recommendations)
     best_decision = recommendations[0] if recommendations else None
 
     return {

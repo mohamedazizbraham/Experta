@@ -74,7 +74,17 @@ car ce ne sont pas des "produits" au sens du moteur de recommandations.
 
 def _is_risky_pregnancy_text(text: str) -> bool:
     t = (text or "").strip().lower()
-    risky_keywords = ("Ã©viter", "eviter", "dÃ©conseill", "deconseill", "limiter", "Ã©viction", "eviction")
+    risky_keywords = (
+        "éviter",
+        "eviter",
+        "déconseill",
+        "deconseill",
+        "limiter",
+        "éviction",
+        "eviction",
+        "ã©viter",
+        "dã©conseill",
+    )
     return any(k in t for k in risky_keywords)
 
 

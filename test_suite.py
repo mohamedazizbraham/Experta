@@ -2,7 +2,9 @@
 from datetime import date, datetime, timezone
 
 from bson import ObjectId
+from fastapi.testclient import TestClient
 from logic import (
+    calculate_recommendation_grade,
     extract_health_conditions_from_supplements,
     normalize_health_condition,
     match_symptoms_with_products,
@@ -11,6 +13,7 @@ from logic import (
 )
 from api import (
     PersonalInfoUpdate,
+    app,
     _augment_decision_with_goal_groups,
     _build_carried_intake_docs,
     _build_intake_targets_from_decision,
@@ -256,6 +259,88 @@ class TestIntegrationScenarios(unittest.TestCase):
         self.assertGreaterEqual(first_product["score"], 1)
 
 
+class TestDecisionRankingWithGrades(unittest.TestCase):
+    """Tests de classement et de compatibilité du service de décision."""
+
+    def test_explicit_grade_breaks_ties_for_best_decision(self):
+        decision = decide(["Sommeil"])
+
+        caffeine_grade = calculate_recommendation_grade("Caffeine", ["sommeil"])
+        alpha_grade = calculate_recommendation_grade("Alpha-Lactalbumin", ["sommeil"])
+
+        self.assertGreater(caffeine_grade["grade_score"], alpha_grade["grade_score"])
+        self.assertEqual(decision["best_decision"]["produit"], "Caffeine")
+        self.assertEqual(decision["best_decision"]["grade"], "B")
+
+    def test_grade_priority_can_outrank_higher_symptom_coverage(self):
+        decision = decide(["stress", "taille"])
+
+        self.assertEqual(decision["best_decision"]["produit"], "Kava")
+        self.assertEqual(decision["best_decision"]["grade"], "A")
+        self.assertEqual(decision["best_decision"]["score_symptomes"], 1)
+
+    def test_missing_explicit_grade_is_inferred(self):
+        grade_info = calculate_recommendation_grade("L-Tyrosine", ["stress"])
+
+        self.assertEqual(grade_info["grade"], "A")
+        self.assertEqual(grade_info["grade_score"], 4)
+        self.assertEqual(grade_info["grade_source"], "inferred")
+
+    def test_score_field_remains_compatible(self):
+        decision = decide(["Sommeil"])
+
+        self.assertGreater(len(decision["recommendations"]), 0)
+        for item in decision["recommendations"]:
+            self.assertIn("score", item)
+            self.assertIn("score_symptomes", item)
+            self.assertEqual(item["score"], item["score_symptomes"])
+            self.assertIsInstance(item["score"], int)
+
+    def test_best_decision_matches_first_sorted_recommendation(self):
+        decision = decide(["Sommeil"])
+
+        self.assertGreater(len(decision["recommendations"]), 0)
+        self.assertEqual(decision["best_decision"], decision["recommendations"][0])
+
+    def test_decision_caps_supplements_to_five_items(self):
+        decision = decide(["Sommeil"])
+
+        supplements = [
+            item for item in decision["recommendations"]
+            if item.get("category_type") == "recommendation"
+        ]
+        self.assertLessEqual(len(supplements), 5)
+
+    def test_contraindications_still_exclude_products(self):
+        decision = decide(["depression"], ["grossesse"])
+        product_names = {item["produit"] for item in decision["recommendations"]}
+
+        self.assertNotIn("5-HTP", product_names)
+        self.assertIn("5-HTP", decision["forbidden_products"])
+
+    def test_decide_endpoint_still_returns_valid_payload(self):
+        client = TestClient(app)
+
+        response = client.post(
+            "/decide",
+            json={"symptomes": ["Sommeil"], "conditions_medicales": []},
+        )
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertIn("best_decision", payload)
+        self.assertIn("recommendations", payload)
+        self.assertLessEqual(
+            len([item for item in payload["recommendations"] if item.get("category_type") == "recommendation"]),
+            5,
+        )
+        self.assertIn("score", payload["best_decision"])
+        self.assertIn("score_symptomes", payload["best_decision"])
+        self.assertIn("grade", payload["best_decision"])
+        self.assertIn("grade_score", payload["best_decision"])
+        self.assertIn("grade_source", payload["best_decision"])
+
+
 class TestCanonicalGoals(unittest.TestCase):
     """Tests de normalisation et regroupement des objectifs."""
 
@@ -305,6 +390,24 @@ class TestCanonicalGoals(unittest.TestCase):
         self.assertIn("stress_anxiety_support", grouped)
         self.assertIsInstance(grouped["sleep_support"], list)
         self.assertIsInstance(grouped["stress_anxiety_support"], list)
+
+    def test_augmented_decision_exposes_best_decision_by_goal(self):
+        prepared = _decision_input_from_profile(
+            {"goals": ["sleep_support", "stress_anxiety_support"]}
+        )
+        decision = decide(prepared["symptomes"], prepared["conditions_medicales"])
+        augmented = _augment_decision_with_goal_groups(decision, prepared)
+
+        grouped = augmented.get("recommendations_by_goal") or {}
+        best_by_goal = augmented.get("best_decision_by_goal") or {}
+
+        self.assertIn("sleep_support", best_by_goal)
+        self.assertIn("stress_anxiety_support", best_by_goal)
+        self.assertEqual(best_by_goal["sleep_support"], grouped["sleep_support"][0])
+        self.assertEqual(
+            best_by_goal["stress_anxiety_support"],
+            grouped["stress_anxiety_support"][0],
+        )
 
     def test_augmented_decision_respects_selected_goal_for_shared_symptom(self):
         prepared = {"goals": ["appetite_control"]}

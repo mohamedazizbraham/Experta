@@ -13,8 +13,16 @@ if not hasattr(collections, "Mapping"):
 # ----------------------------------------
 
 from experta import *
-from database import CATALOGUE_COMPLET, get_product_category_type
-from typing import List, Dict, Tuple
+from database import CATALOGUE_COMPLET, _is_risky_pregnancy_text, get_product_category_type
+from typing import Any, Dict, List, Optional, Tuple
+
+
+GRADE_SCORES = {
+    "A": 4,
+    "B": 3,
+    "C": 2,
+    "D": 1,
+}
 
 # --- HEALTH CONDITION EXTRACTION (Clear & Reusable) ---
 
@@ -114,6 +122,129 @@ def normalize_health_condition(condition: str) -> str:
     if words:
         return words[0]
     return ""
+
+
+def normalize_grade(grade: str) -> str:
+    """Normalize a grade to A/B/C/D, or return empty string when unknown."""
+    grade_norm = (grade or "").strip().upper()
+    return grade_norm if grade_norm in GRADE_SCORES else ""
+
+
+def grade_to_score(grade: str) -> int:
+    """Convert a grade to a numeric score used for ranking."""
+    return GRADE_SCORES.get(normalize_grade(grade), 0)
+
+
+def infer_grade_from_outcome_count(outcome_count: int) -> str:
+    """Infer a deterministic grade when no explicit grade is present."""
+    if outcome_count >= 6:
+        return "A"
+    if outcome_count >= 4:
+        return "B"
+    if outcome_count >= 2:
+        return "C"
+    return "D"
+
+
+def _get_product_sheet(product_name: str) -> Optional[Dict[str, Any]]:
+    product_name_norm = (product_name or "").strip().casefold()
+    if not product_name_norm:
+        return None
+
+    for _category, product_list in CATALOGUE_COMPLET.items():
+        for sheet in product_list:
+            if (sheet.get("name") or "").strip().casefold() == product_name_norm:
+                return sheet
+    return None
+
+
+def _is_nonempty_outcome(outcome: Dict[str, Any]) -> bool:
+    if not isinstance(outcome, dict):
+        return False
+
+    for value in outcome.values():
+        if isinstance(value, str) and value.strip():
+            return True
+        if isinstance(value, (int, float)) and value > 0:
+            return True
+        if isinstance(value, list) and value:
+            return True
+        if isinstance(value, dict) and value:
+            return True
+    return False
+
+
+def extract_relevant_database_entries(product_name: str, matched_conditions: List[str]) -> List[Dict[str, Any]]:
+    """Return the product database entries relevant to the matched conditions."""
+    sheet = _get_product_sheet(product_name)
+    if not sheet:
+        return []
+
+    matched_condition_set = {
+        normalize_health_condition(condition)
+        for condition in matched_conditions
+        if (condition or "").strip()
+    }
+    if not matched_condition_set:
+        return []
+
+    relevant_entries: List[Dict[str, Any]] = []
+    for entry in sheet.get("database", []) or []:
+        if not isinstance(entry, dict):
+            continue
+        health_condition = normalize_health_condition(entry.get("health_condition_or_goal", ""))
+        if health_condition in matched_condition_set:
+            relevant_entries.append(entry)
+    return relevant_entries
+
+
+def extract_relevant_outcomes(product_name: str, matched_conditions: List[str]) -> List[Dict[str, Any]]:
+    """Return all outcomes attached to the matched database entries for a product."""
+    relevant_outcomes: List[Dict[str, Any]] = []
+    for entry in extract_relevant_database_entries(product_name, matched_conditions):
+        for outcome in entry.get("outcomes", []) or []:
+            if isinstance(outcome, dict):
+                relevant_outcomes.append(outcome)
+    return relevant_outcomes
+
+
+def calculate_recommendation_grade(product_name: str, matched_conditions: List[str]) -> Dict[str, Any]:
+    """
+    Compute ranking grade metadata for a product using only currently matched conditions.
+
+    Explicit grades win. If none exists on relevant outcomes, infer a grade from the
+    number of relevant non-empty outcomes.
+    """
+    relevant_entries = extract_relevant_database_entries(product_name, matched_conditions)
+    if not relevant_entries:
+        return {
+            "grade": "",
+            "grade_score": 0,
+            "grade_source": "none",
+        }
+
+    relevant_outcomes = extract_relevant_outcomes(product_name, matched_conditions)
+    explicit_grades = [
+        normalize_grade(outcome.get("grade", ""))
+        for outcome in relevant_outcomes
+        if normalize_grade(outcome.get("grade", ""))
+    ]
+
+    if explicit_grades:
+        best_grade = max(explicit_grades, key=grade_to_score)
+        return {
+            "grade": best_grade,
+            "grade_score": grade_to_score(best_grade),
+            "grade_source": "explicit",
+        }
+
+    nonempty_outcome_count = sum(1 for outcome in relevant_outcomes if _is_nonempty_outcome(outcome))
+    inferred_grade = infer_grade_from_outcome_count(nonempty_outcome_count)
+    return {
+        "grade": inferred_grade,
+        "grade_score": grade_to_score(inferred_grade),
+        "grade_source": "inferred",
+    }
 
 
 def match_symptoms_with_products(patient_symptoms: List[str]) -> Dict[str, Dict]:
@@ -246,10 +377,8 @@ class MoteurRecommandation(KnowledgeEngine):
                     for precaution in safety['pregnancy_lactation']:
                         condition_text = precaution.get('condition', '').lower()
                         safety_info = precaution.get('safety_information', '').lower()
-                        
-                        # Detect warning keywords in French (as data is in French)
-                        # We look for "éviter" (avoid) or "limiter" (limit)
-                        is_risky = "éviter" in condition_text or "éviter" in safety_info or "limiter" in safety_info
+                        combined = f"{condition_text} {safety_info}"
+                        is_risky = _is_risky_pregnancy_text(combined)
                         
                         if "grossesse" in condition_text and is_risky:
                             yield ContreIndication(produit=product_name, condition="grossesse")

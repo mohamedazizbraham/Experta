@@ -913,6 +913,10 @@ def _augment_decision_with_goal_groups(
         decision["recommendations_by_goal"] = {
             goal: grouped.get(goal, []) for goal in selected_goal_union
         }
+        decision["best_decision_by_goal"] = {
+            goal: (dict(grouped[goal][0]) if grouped.get(goal) else None)
+            for goal in selected_goal_union
+        }
 
     return decision
 
