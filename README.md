@@ -12,7 +12,7 @@ Real backend for the `AJA_ptut` frontend. This project exposes a FastAPI API, st
 
 For the client demo, this is the backend that must be started before `AJA_ptut`.
 
-## Client Run Guide
+## Run Guide
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ The API will be available at:
 - `http://127.0.0.1:8000`
 - Swagger UI: `http://127.0.0.1:8000/docs`
 
-## Start The Frontend That Uses This Backend
+## Start The Frontend That Uses This Backend: https://github.com/1ghofrane1/AJA_ptut.git
 
 In a second terminal:
 
