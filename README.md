@@ -1,261 +1,125 @@
-# Experta - Expert System for Holistic Health Recommendations
+# Experta
 
-A rule-based expert system using Experta (Python knowledge engine library) that recommends integrated health interventions based on user symptoms while respecting medical contraindications and safety constraints.
+Real backend for the `AJA_ptut` frontend. This project exposes a FastAPI API, stores users and recommendations in MongoDB, and runs the rule-based recommendation engine used by the app.
 
-## Features
+## What This Project Does
 
-- **Rule-based inference engine** for intelligent product and intervention recommendations
-- **Holistic approach** supporting multiple intervention types: Supplements, Herbs, and Wellness Practices
-- **Safety-first architecture** with automated contraindication filtering based on:
-  - Pregnancy and lactation precautions
-  - Drug-product interactions
-  - Medical conditions
-- **Multi-symptom targeting** with mixed recommendations (e.g., Magnesium + Yoga for stress)
-- **Pre-configured test scenarios** demonstrating complex medical profiles
-- **Rich metadata** per product including efficacy evidence levels and interaction data
+- Auth API for signup / login
+- User profile storage
+- Recommendation generation from goals, symptoms, and medical constraints
+- Recommendation history and intake tracking
+- Encyclopedie data for supplements
 
-## Prerequisites
+For the client demo, this is the backend that must be started before `AJA_ptut`.
 
-### Without Docker
-- Python 3.10 or higher
-- pip
+## Client Run Guide
 
-### With Docker
-- Docker
-- Docker Compose (optional, but recommended)
+### Prerequisites
 
-## Installation & Running
+- Python 3.10+
+- MongoDB running locally on `mongodb://127.0.0.1:27017`
+- The sibling frontend project in `d:\ptut\AJA_ptut`
 
-### Option 1: Running Without Docker
+### 1. Configure environment variables
 
-1. **Clone the repository** (if not already done):
-```bash
-git clone <repository-url>
-cd Experta
+Create `.env` from the example file:
+
+```powershell
+cd d:\ptut\Experta
+Copy-Item .env.example .env
 ```
 
-2. **Create a virtual environment** (REQUIRED - do not install packages globally):
-```bash
-python3 -m venv venv
+Default values expected by the app:
+
+```env
+MONGODB_URI=mongodb://127.0.0.1:27017
+MONGODB_DB=aja
+JWT_SECRET=replace-with-a-long-random-secret
+JWT_EXPIRES_MINUTES=10080
 ```
 
-3. **Activate the virtual environment**:
-```bash
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+Change `JWT_SECRET` before handing the project to a real client environment.
 
-4. **Install dependencies**:
-```bash
+### 2. Install dependencies
+
+```powershell
+cd d:\ptut\Experta
+python -m venv .venv
+.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
-5. **Run the system**:
-```bash
-python app.py
+### 3. Start the API
+
+```powershell
+cd d:\ptut\Experta
+.venv\Scripts\Activate.ps1
+python -m uvicorn api:app --reload --host 0.0.0.0 --port 8000
 ```
 
-6. **Deactivate the virtual environment when done**:
-```bash
-deactivate
+The API will be available at:
+
+- `http://127.0.0.1:8000`
+- Swagger UI: `http://127.0.0.1:8000/docs`
+
+## Start The Frontend That Uses This Backend
+
+In a second terminal:
+
+```powershell
+cd d:\ptut\AJA_ptut
+Copy-Item .env.example .env
+npm install
+npm run web
 ```
 
-### Option 2: Running With Docker
+Then open `http://localhost:8082`.
 
-#### Using Docker directly:
+## How `Experta` And `AJA_ptut` Work Together
 
-1. **Build the Docker image**:
-```bash
-docker build -t experta-system .
+`AJA_ptut` is only the interface. `Experta` is the source of truth for live data.
+
+Request flow:
+
+1. `AJA_ptut` sends auth requests to `/auth/signup` and `/auth/login`.
+2. The onboarding form saves profile data through `PUT /users/me/profile`.
+3. The recommendations screen calls `GET /decide/me`.
+4. `Experta` converts the saved profile into goals, symptoms, and medical conditions.
+5. The rule engine runs through `service.py` / `logic.py`.
+6. The selected recommendation is saved in MongoDB and returned to the frontend.
+7. Tracking screens then read and write recommendation intake data through the API.
+8. Encyclopedie screens read supplement content from backend endpoints.
+
+If this backend is down, the frontend UI can still load, but the app cannot authenticate, generate recommendations, or save tracking data.
+
+## Main Runtime Files
+
+- `api.py`: FastAPI application used by the frontend
+- `mongo.py`: MongoDB connection and env settings
+- `security.py`: password hashing and JWT handling
+- `service.py`: recommendation orchestration
+- `logic.py`: Experta rule engine
+- `database.py` + `data/`: knowledge base used by the engine
+
+## Important Note About `app.py`
+
+`app.py` is not the normal client runtime anymore. It is a standalone script for manual rule-engine scenarios.
+
+For the real app and for the client demo, run:
+
+```powershell
+python -m uvicorn api:app --reload --host 0.0.0.0 --port 8000
 ```
 
-2. **Run the container**:
-```bash
-docker run --rm experta-system
+## Useful Commands
+
+```powershell
+# Run the backend
+python -m uvicorn api:app --reload --host 0.0.0.0 --port 8000
+
+# Run backend tests
+python -m unittest test_suite.py
+
+# Quick Mongo connectivity check
+python test_mongo.py
 ```
-
-#### Using Docker Compose (recommended):
-
-1. **Build and run with a single command**:
-```bash
-docker-compose up
-```
-
-2. **Rebuild after code changes**:
-```bash
-docker-compose up --build
-```
-
-3. **Run in detached mode** (background):
-```bash
-docker-compose up -d
-```
-
-4. **View logs**:
-```bash
-docker-compose logs -f
-```
-
-5. **Stop the service**:
-```bash
-docker-compose down
-```
-
-## How It Works
-
-The system uses a three-layer architecture:
-
-1. **database.py** - Static data layer (Knowledge Base)
-   - `CATALOGUE_COMPLET`: Comprehensive catalogue organized by intervention categories:
-     - **Compléments** (Nutritional supplements)
-     - **Herbes Naturelles** (Herbal remedies)
-     - **Pratiques Sportives** (Wellness practices)
-   - Each intervention contains:
-     - Basic metadata: name, description, dosage/practice guidelines
-     - `database`: Health conditions/goals the intervention addresses
-     - `safety`: Contraindication rules (pregnancy, lactation, drug interactions)
-
-2. **logic.py** - Inference engine (Knowledge Engine)
-   - **Fact classes**:
-     - `Produit`: Represents an intervention and its target conditions
-     - `ContreIndication`: Represents safety restrictions (pregnancy, drug interactions)
-     - `BesoinClient`: User's symptoms or health goals
-     - `ConditionClient`: User's medical status (Pregnancy, current medications, etc.)
-     - `ProduitInterdit`: Internal marker for contraindicated interventions
-     - `Recommandation`: Final validated recommendation
-   
-   - **`chargement_initial()`**: Smart loader that:
-     - Scans `CATALOGUE_COMPLET` recursively through categories
-     - Converts products into `Produit` facts per target condition
-     - Extracts `ContreIndication` facts from pregnancy/lactation warnings and drug interactions
-   
-   - **`MoteurRecommandation` (KnowledgeEngine) rules**:
-     - **Rule: `detecter_danger()`** - Safety filtering: marks products as forbidden when the client has matching contraindications
-     - **Rule: `generer_recommandation()`** - Intelligent recommendation: suggests safe products matching user symptoms across all intervention categories
-
-3. **app.py** - User interface layer
-   - `lancer_diagnostic(nom_user, symptomes, conditions_medicales)`: Main diagnostic function
-     - Injects user symptoms/conditions as facts
-     - Executes the inference engine
-     - Returns filtered recommendations
-   
-   - `afficher_details_produit(nom_produit)`: Product information display
-     - Retrieves full catalogue entry
-     - Shows description, dosage/practice details
-     - Displays interaction warnings and safety notes
-   
-   - **Test scenarios**: Demonstrates system behavior with complex medical profiles
-     - Scenarios covering depression, pregnancy, contraceptive interactions, insomnia, hypertension, and anticoagulants
-
-### Sample Output
-
-The system executes predefined test scenarios showing how the inference engine:
-1. Loads all interventions and their contraindications
-2. Analyzes user medical profile (symptoms + conditions)
-3. Filters dangerous products (marks as forbidden)
-4. Recommends safe alternatives matching the user's needs
-5. Displays detailed information for each recommendation
-
-## Extending the System
-
-### Adding New Interventions
-
-Edit `database.py` - Add entries to `CATALOGUE_COMPLET`:
-
-```python
-"Compléments": [
-    {
-        "name": "Intervention Name",
-        "description": "Detailed description",
-        "dosage": "e.g., 200mg/jour or practice frequency",
-        "database": [
-            {"health_condition_or_goal": "stress"},
-            {"health_condition_or_goal": "sommeil"}
-        ],
-        "safety": {
-            "pregnancy_lactation": [
-                {"condition": "Grossesse", "safety_information": "Avoid if..."}
-            ],
-            "interactions": [
-                {"agent": "anticoagulants", "severity": "high"}
-            ]
-        }
-    }
-]
-```
-
-**Key points:**
-- Add to appropriate category: "Compléments", "Herbes Naturelles", or "Pratiques Sportives"
-- Multiple `database` entries allow targeting multiple conditions
-- Safety rules are automatically converted to facts by `chargement_initial()`
-
-### Adding New Contraindications
-
-Update the `safety` block in any intervention:
-- **Pregnancy/Lactation**: Add entries to `safety.pregnancy_lactation`
-- **Drug Interactions**: Add entries to `safety.interactions` with agent names and severity levels
-- Changes are automatically processed by the inference engine
-
-### Adding New Test Scenarios
-
-Edit `app.py` - Add calls to `lancer_diagnostic()` at the bottom:
-
-```python
-lancer_diagnostic("User Name",
-                  symptomes=['stress', 'fatigue'],
-                  conditions_medicales=['pregnancy'])
-```
-
-Scenarios demonstrate how the system handles different medical profiles and safety constraints.
-
-## Project Structure
-
-```
-Experta/
-├── app.py                          # Main application with test scenarios
-├── database.py                     # Product catalog and contraindications
-├── logic.py                        # Inference engine (Experta rules)
-├── requirements.txt                # Python dependencies
-├── Dockerfile                      # Docker configuration
-├── docker-compose.yml              # Docker Compose orchestration
-├── README.md                       # This file
-├── CLAUDE.md                       # Claude Code guidance
-└── Explication/
-    ├── EXPLICATION.md              # Detailed system documentation (French)
-    └── RESULTATS_EXECUTION.md      # Test execution results (French)
-```
-
-## Python 3.10+ Compatibility
-
-The system includes a compatibility patch for Python 3.10+ because Experta uses the deprecated `collections.Mapping`. This patch is automatically handled in `logic.py`:
-
-```python
-import collections.abc
-if not hasattr(collections, "Mapping"):
-    collections.Mapping = collections.abc.Mapping
-```
-
-This ensures the system runs smoothly on modern Python versions.
-
-## Technical Details
-
-- **Framework**: Experta 1.9.4 (Python rule-based inference engine)
-- **Python Version**: 3.10 or higher (required)
-- **Architecture**: Fact-based knowledge representation with rule-driven inference
-- **Safety Model**: Negative filtering (contraindicated interventions are excluded before recommendation generation)
-- **Data Model**: Hierarchical catalogue with category-based organization
-
-## Documentation
-
-- **CLAUDE.md**: Guidance for AI assistants working with this codebase
-- **FRONTEND_HANDOFF.md**: Backend files and API contract to share with frontend developers
-- **code progress.md**: Development progress notes and architectural decisions
-- **Explication/EXPLICATION.md**: Comprehensive French documentation explaining system architecture, data flow, and evolution
-- **Explication/RESULTATS_EXECUTION.md**: Validation results and test execution outputs (French)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
